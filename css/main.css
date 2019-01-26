@@ -215,9 +215,28 @@ h3 a i {
   height: 60px;
 }
 
+.menu-header-content{
+
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+
 .menu-header_logo{
-  position: absolute;
-  left: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(/img/zmcx16_logo_48x48.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+}
+
+.menu-header_logo:hover{
+  display: inline-block;
+  background-size: cover;
+  background-position-y: 0;
 }
 
 
@@ -230,18 +249,18 @@ ul {
 ul.menu-header_drop-down-menu { 
     display: inline-block;
     font-family: Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     position: absolute;
     top: 20px;
+    margin-left: 20px;
     z-index: 10;
-    left: 100px;
     cursor:pointer;
 }
 
 ul.menu-header_drop-down-menu li {
     position: relative;
     white-space: nowrap;
-    min-width: 110px;
+    min-width: 120px;
 }
 
 ul.menu-header_drop-down-menu > li {
