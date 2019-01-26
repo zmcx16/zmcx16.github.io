@@ -1,8 +1,120 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Yelp &amp; Open Source</title>
+    <link rel="stylesheet" type="text/css" href="css/octicons.css">
+    <link rel="stylesheet" type="text/css" href="css/www.css">
+    <link rel="stylesheet" type="text/css" href="css/developers.css">
+    <link rel="stylesheet" type="text/css" href="css/yelp-opensource.css">
+    <link rel="stylesheet" type="text/css" href="css/particles-style.css">
+    <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/orgs.js"></script>
+    <script src="js/repos.js"></script>
+    <script src="js/loaders.js"></script>
+    <script src="js/opensource-site.js"></script>
+    <script src="js/particles.js"></script>
+    <script>
+
+        var canvas_timeId = 0;
+
+        function canvasMainContainer() {
+
+          if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
+
+            console.log('repos data loaded.');
+            document.getElementById("main-container-body").style.height = document.querySelector('.main-container').clientHeight + 'px';
+            particlesJS.load('main-container-body', 'particles.json', function () {
+              console.log('particles.js config loaded');
+            });
+
+            clearInterval(canvas_timeId);
+          }
+        }  
+
+        window.onload = function () {
+          canvas_timeId = setInterval(function () { canvasMainContainer() }, 100);
+        };
+         
+    </script>
   </head>
-	
-  <body>
-    <h1>Hello~</h1>
+  <body class="ytype borderless">
+    <div id="wrap">
+      <div class="menu-header">
+        <h1 class="menu-header_logo" id="menu-header_logo">
+          <a href="http://project.zmcx16.moe"><img src="/img/zmcx16_logo_48x48.png" alt="zmcx16"></a>
+        </h1>
+        <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
+          <li class="menu-header_item">
+            <a class="menu-header_link" href="http://project.zmcx16.moe">Home</a>
+          </li>
+          <li class="menu-header_item">
+            <a class="menu-header_link" href="#">History</a>
+          </li>
+          <li class="menu-header_item">
+            <a class="menu-header_link" href="#">Resources</a>
+          </li>
+          <li class="menu-header_item">
+            <a class="menu-header_link">Links</a>
+              <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+                <li class="menu-header_item">
+                  <a class="menu-header_link" target="_blank" href="https://github.com/zmcx16">GitHub</a>
+                </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
+                </li>
+              </ul>
+          </li>
+          <li class="menu-header_item">
+            <a class="menu-header_link" onclick="window.open('/about.html', 'about', 'width=610,height=270'); return false;">About</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="top-shelf top-shelf-grey">
+        <div class="container">
+          <h1>zmcx16's side projects</h1>
+          <ul class='bullet-list-round'>
+            <br>
+            <li>這個網站是某宅宅工程師亂點技能樹下的產物</li>
+            <li>這裡還沒想到可以填什麼...</li>
+          </ul>
+        </div>
+      </div>
+      <div id='main-container-body'></div>
+      <div class='main-container layout-block layout-right-rail'>
+        <div class="projects container">
+          <h2><br></h2>
+          <h2>zmcx16's Side Projects</h2>
+          <div class="featured"></div>
+          <h2><br></h2>
+          <h2>Starred Open Source Projects</h2>
+          <div class="not-featured">
+            <ul>
+              <li><div class="starred_1"><h2 style="font-style:italic;">AI / ML</h2><div class="AI_ML"></div></div></li>
+              <li><div class="starred_2"><h2 style="font-style:italic;">Trade</h2><div class="Trade"></div></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>     
+    </div>
+
+    <div class="footer-container"></div>
+      <div class="footer">
+        <canvas id='starry-sky'></canvas>
+        <div class="footer-wrap">
+          <div class="city-landscape-img"></div>
+          <div class="copyright lesser-text">
+            <div style="position: relative; left: -50%;">
+              ©zmcx16 All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+  <script src="js/starry_sky.js"></script>
 </html>
