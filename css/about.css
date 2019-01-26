@@ -1,0 +1,38 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grid {
+  height: 260px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 50% 1fr 2fr; 
+  grid-template-rows: 1fr 2fr 2fr 2fr 8fr 2fr;
+  grid-gap: 10px 15px;
+}
+
+.kanban {
+  grid-column: 1; 
+  grid-row: 1 / span 6;
+  z-index: 10;
+}
+
+.description_val{
+  grid-column: 2 / span 2; 
+  grid-row: 5;   
+}
+
+.copyright_val{
+  grid-column: 2 / span 2; 
+  grid-row: 6;   
+}
