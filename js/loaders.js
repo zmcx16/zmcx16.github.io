@@ -10,10 +10,14 @@ function getGithubData(url, local_file_path, loadRepositoryData, loadRepositoryD
         loadRepositoryData(data);
       }
       else {
-        console.log('call ' + url + ' failed: ' + xhr.status);
+        console.log('call ' + url + ' failed: ' + xhr);
         loadRepositoryDataFromJson(local_file_path, loadRepositoryData);
       }
     },
+    error: function (data, textStatus, xhr) {
+      console.log('call ' + url + ' failed: ' + xhr);
+      loadRepositoryDataFromJson(local_file_path, loadRepositoryData);      
+    },    
     timeout: 10000 //in milliseconds
   });
 
@@ -29,7 +33,7 @@ function loadRepositoryDataFromJson(local_file_path, loadRepositoryData) {
         loadRepositoryData(data);
       }
       else {
-        console.log('load ' + local_file_path + ' failed: ' + xhr.status);
+        console.log('load ' + local_file_path + ' failed: ' + xhr);
         load_count++;
       }
     },
