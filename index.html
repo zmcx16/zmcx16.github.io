@@ -8,9 +8,11 @@
     <link rel="stylesheet" type="text/css" href="css/www.css">
     <link rel="stylesheet" type="text/css" href="css/developers.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/history.css">
     <link rel="stylesheet" type="text/css" href="css/particles-style.css">
     <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/common_def.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/orgs.js"></script>
@@ -21,8 +23,23 @@
     <script>
 
         var canvas_timeId = 0;
+        var page_now = Page.projects;
+        var history_loaded = false;
 
-        function canvasMainContainer() {
+        jQuery.loadScript = function (url, callback) {
+          jQuery.ajax({
+            url: url,
+            dataType: 'script',
+            success: callback,
+            async: true
+          });
+        }
+
+        function canvasProjectContainer() {
+
+           document.getElementById("main-project-wrap").style.display = "block";
+           document.getElementById("main-history-wrap").style.display="none";
+           document.getElementById("main-resources-wrap").style.display = "none";
 
           if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
 
@@ -34,26 +51,47 @@
 
             clearInterval(canvas_timeId);
           }
+
+          page_now = Page.projects;
+          return false; // no need reload
         }  
 
+        function canvasHistoryContainer() {
+
+          document.getElementById("main-project-wrap").style.display = "none";
+          document.getElementById("main-history-wrap").style.display = "block";
+          document.getElementById("main-resources-wrap").style.display = "none";
+
+          if( !history_loaded){
+            $.loadScript('/js/history.js', function () {
+              history_loaded = true;
+            });
+          }
+
+          page_now = Page.history;
+          return false; // no need reload
+        }  
+
+        // default projects page
         window.onload = function () {
-          canvas_timeId = setInterval(function () { canvasMainContainer() }, 100);
+          canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+
+          animateStarrySky();
         };
-         
     </script>
   </head>
   <body class="ytype borderless">
     <div id="wrap">
-      <div class="menu-header">
+      <div class="menu-header" id="menu-header">
         <div class="menu-header-content">
           <a class="menu-header_logo" id="menu-header_logo" href="http://project.zmcx16.moe">
           </a>
           <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
             <li class="menu-header_item">
-              <a class="menu-header_link" href="http://project.zmcx16.moe">Home</a>
+              <a class="menu-header_link" href="http://project.zmcx16.moe" onclick='return canvasProjectContainer()'>Home</a>
             </li>
             <li class="menu-header_item">
-              <a class="menu-header_link" href="#">History</a>
+              <a class="menu-header_link" href="#" onclick='return canvasHistoryContainer()'>History</a>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link" href="#">Resources</a>
@@ -86,26 +124,32 @@
           </ul>
         </div>
       </div>
-      <div id='main-container-body'></div>
-      <div class='main-container layout-block layout-right-rail'>
-        <div class="projects container">
-          <h2><br></h2>
-          <h2>zmcx16's Side Projects</h2>
-          <div class="featured"></div>
-          <h2><br></h2>
-          <h2>Starred Open Source Projects</h2>
-          <div class="not-featured">
-            <ul>
-              <li><div class="starred_1"><h2 style="font-style:italic;">AI / ML</h2><div class="AI_ML"></div></div></li>
-              <li><div class="starred_2"><h2 style="font-style:italic;">Trade</h2><div class="Trade"></div></div></li>
-            </ul>
+      <div id='main-project-wrap'>
+        <div id='main-container-body'></div>
+        <div class='main-container layout-block layout-right-rail'>
+          <div class="projects container">
+            <h2><br></h2>
+            <h2>zmcx16's Side Projects</h2>
+            <div class="featured"></div>
+            <h2><br></h2>
+            <h2>Starred Open Source Projects</h2>
+            <div class="not-featured">
+              <ul>
+                <li><div class="starred_1"><h2 style="font-style:italic;">AI / ML</h2><div class="AI_ML"></div></div></li>
+                <li><div class="starred_2"><h2 style="font-style:italic;">Trade</h2><div class="Trade"></div></div></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>     
+        </div> 
+      </div>
+      <div id='main-history-wrap'>
+      </div>
+      <div id='main-resources-wrap'>
+      </div>
     </div>
 
     <div class="footer-container"></div>
-      <div class="footer">
+      <div class="footer" id="footer">
         <canvas id='starry-sky'></canvas>
         <div class="footer-wrap">
           <div class="city-landscape-img"></div>
@@ -119,4 +163,46 @@
     </div>
   </body>
   <script src="js/starry_sky.js"></script>
+  <script>
+
+    function reDrawStarrySky() {
+        animateStarrySky();
+      }
+
+      const observer = new ResizeObserver(entries => {
+        
+        /*
+        document.getElementById('footer').removeChild(document.getElementById('starry-sky'));
+
+        
+        var canv = document.createElement('canvas');
+        canv.id = 'starry-sky';
+        document.body.appendChild(canv);
+        */
+
+        /*
+        canvas = document.getElementById('starry-sky');
+        ctx = canvas.getContext('2d');
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        */
+
+        //var xx = window.requestAnimationFrame;
+        //window.requestAnimationFrame = function () {};
+
+        canvas = document.getElementById('starry-sky');
+        var context = canvas.getContext('2d');
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
+        canvas.width = document.getElementById(starrySkyConfig['getWidthById']).offsetWidth;
+
+        //window.requestAnimationFrame = xx;
+
+
+        console.log('sss');
+        //animateStarrySky();
+      });
+
+      observer.observe(document.getElementById("menu-header"));
+
+  </script>
 </html>

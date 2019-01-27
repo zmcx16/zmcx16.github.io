@@ -1,7 +1,7 @@
-var config = {
+var starrySkyConfig = {
   'id': 'starry-sky',
   'width': null,
-  'getWidthById': 'main-container-body',
+  'getWidthById': 'menu-header',
   'height': 700,
   'getHeightById': null,
   'bg':{
@@ -33,20 +33,20 @@ var config = {
   })();
 
   // Terrain stuff.
-  var background = document.getElementById(config['id']),
+  var background = document.getElementById(starrySkyConfig['id']),
       bgCtx = background.getContext("2d"),
       width = window.innerWidth,
       height = document.body.offsetHeight;
 
-  if( config['width'])
-      width = config['width'];
-  else if (config['getWidthById'])
-      width = document.getElementById(config['getWidthById']).offsetWidth;
+  if (starrySkyConfig['width'])
+      width = starrySkyConfig['width'];
+  else if (starrySkyConfig['getWidthById'])
+      width = document.getElementById(starrySkyConfig['getWidthById']).offsetWidth;
 
-  if (config['height'])
-      height = config['height'];
-  else if (config['getHeightById'])
-      height = document.getElementById(config['getHeightById']).offsetHeight;
+  if (starrySkyConfig['height'])
+      height = starrySkyConfig['height'];
+  else if (starrySkyConfig['getHeightById'])
+      height = document.getElementById(starrySkyConfig['getHeightById']).offsetHeight;
   
   background.width = width;
   background.height = height;
@@ -57,15 +57,15 @@ var config = {
 
   // stars
   function Star(options) {
-      this.size = Math.random() * config['star']['sizeFactor'];
-      this.speed = Math.random() * config['star']['speedFactor'];
+      this.size = Math.random() * starrySkyConfig['star']['sizeFactor'];
+      this.speed = Math.random() * starrySkyConfig['star']['speedFactor'];
       this.x = options.x;
       this.y = options.y;
   }
 
   Star.prototype.reset = function () {
-      this.size = Math.random() * config['star']['sizeFactor'];
-      this.speed = Math.random() * config['star']['speedFactor'];
+      this.size = Math.random() * starrySkyConfig['star']['sizeFactor'];
+      this.speed = Math.random() * starrySkyConfig['star']['speedFactor'];
       this.x = width;
       this.y = Math.random() * height;
   }
@@ -86,11 +86,11 @@ var config = {
   ShootingStar.prototype.reset = function () {
       this.x = Math.random() * width;
       this.y = 0;
-      this.len = (Math.random() * config['shootingStar']['lenFactor']) + config['shootingStar']['lenBase'];
-      this.speed = (Math.random() * config['shootingStar']['speedFactor']) + config['shootingStar']['speedBase'];
-      this.size = (Math.random() * config['shootingStar']['sizeFactor']) + config['shootingStar']['sizeBase'];
+      this.len = (Math.random() * starrySkyConfig['shootingStar']['lenFactor']) + starrySkyConfig['shootingStar']['lenBase'];
+      this.speed = (Math.random() * starrySkyConfig['shootingStar']['speedFactor']) + starrySkyConfig['shootingStar']['speedBase'];
+      this.size = (Math.random() * starrySkyConfig['shootingStar']['sizeFactor']) + starrySkyConfig['shootingStar']['sizeBase'];
       // this is used so the shooting stars arent constant
-      this.waitTime = new Date().getTime() + (Math.random() * config['shootingStar']['delayFactor']) + config['shootingStar']['delayBase'];
+      this.waitTime = new Date().getTime() + (Math.random() * starrySkyConfig['shootingStar']['delayFactor']) + starrySkyConfig['shootingStar']['delayBase'];
       this.active = false;
   }
 
@@ -116,30 +116,45 @@ var config = {
 
   var entities = [];
 
-  // init the stars
-  for (var i = 0; i < height; i++) {
-      entities.push(new Star({
-          x: Math.random() * width,
-          y: Math.random() * height
-      }));
+  function initStars(){
+      entities = [];
+      for (var i = 0; i < height; i++) {
+          entities.push(new Star({
+              x: Math.random() * width,
+              y: Math.random() * height
+          }));
+      }
+
+      entities.push(new ShootingStar());
+      entities.push(new ShootingStar());
   }
 
-  // Add 2 shooting stars that just cycle.
-  entities.push(new ShootingStar());
-  entities.push(new ShootingStar());
-
+  initStars();
   //animate background
-  function animate() {
-      bgCtx.fillStyle = config['bg']['color'];
+  function animateStarrySky() {
+
+      if (starrySkyConfig['getWidthById'] && document.getElementById(starrySkyConfig['getWidthById']).offsetWidth != width)
+      {
+        console.log('reset StarrySky width.');
+        width = document.getElementById(starrySkyConfig['getWidthById']).offsetWidth;
+        initStars();
+      }
+      if (starrySkyConfig['getHeightById'] && document.getElementById(starrySkyConfig['getHeightById']).offsetHeight != height)
+      {
+        console.log('reset StarrySky height.');
+        height = document.getElementById(starrySkyConfig['getHeightById']).offsetHeight;
+        initStars();
+      }
+
+      bgCtx.fillStyle = starrySkyConfig['bg']['color'];
       bgCtx.fillRect(0, 0, width, height);
-      bgCtx.fillStyle = config['star']['color'];
-      bgCtx.strokeStyle = config['shootingStar']['color'];
+      bgCtx.fillStyle = starrySkyConfig['star']['color'];
+      bgCtx.strokeStyle = starrySkyConfig['shootingStar']['color'];
 
       var entLen = entities.length;
 
       while (entLen--) {
           entities[entLen].update();
       }
-      requestAnimationFrame(animate);
+      requestAnimationFrame(animateStarrySky);
   }
-  animate();
