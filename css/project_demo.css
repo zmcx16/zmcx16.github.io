@@ -1,0 +1,38 @@
+#main-project-demo-wrap{
+    background: white;
+}
+
+.main-MahoMangaDownloader > div{
+    width: 960px;
+    margin: 60px auto;
+}
+
+.description-function-list > li:before {
+    content: "\2022";
+    margin-right: 10px;
+}
+
+.description-function-list li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.main-MahoMangaDownloader .demo-img{
+    padding: 0;
+}
+
+.main-MahoMangaDownloader .p{
+    font-size: 14px;
+}
+
+.main-MahoMangaDownloader .manga-show{
+    padding: 0;
+}
+
+.main-MahoMangaDownloader .download-link{
+    padding: 0;
+}
+
+.main-MahoMangaDownloader .detail{
+    padding: 0;
+}

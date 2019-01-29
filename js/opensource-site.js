@@ -11,8 +11,14 @@ $(document).ready(function() {
   });
 
   $('body').on('click', '.project .island-item', function() {
-    if ($(this).attr('class').indexOf("bottom-links") > -1) { return }
-    window.open($(this).parent().find('h3 a')[0].href, '_blank');
+    if($(this).attr('class').indexOf("bottom-links") > -1) { return }
+    var target = $(this).parent().find('h3 a')[0];
+    if (target.outerHTML.indexOf('onclick') >= 0){
+      target.onclick();
+    }else{
+      window.open(target.href, '_blank');
+    }
+      
   });
 
   $('body').on('click', '.project .bottom-links', function() {

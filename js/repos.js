@@ -7,6 +7,10 @@ Repository = function(repo) {
   this.fork        = repo.fork;
   this.watchers    = repo.watchers;
   this.forks       = repo.forks;
+
+  //only for virtual container
+  this.new_tab = repo.new_tab;
+  this.on_click = repo.on_click;
 }
 
 Repository.prototype.in_project_list = function () {
@@ -97,10 +101,21 @@ Repository.prototype.headerLogo = function() {
 }
 
 Repository.prototype.repoContent = function() {
+
+  var new_tab = "target=\"_blank\"";
+  if( !this.new_tab){
+    new_tab = "";
+  }
+
+  var on_click = "";
+  if ( this.on_click){
+    on_click = "onclick='" + this.on_click + "'";
+  }
+
   return [
     '<div class="island-item">',
       '<h3>',
-        '<a href="', this.url, '" target="_blank">', this.headerLogo(), this.name, '</a>',
+        '<a href="', this.url, '"', new_tab, on_click, '>', this.headerLogo(), this.name, '</a>',
       '</h3>',
       '<div class="repo-info">',
         '<span><i class="octicon octicon-star"></i> ', this.watchers, '</span> ',
