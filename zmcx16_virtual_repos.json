@@ -2,7 +2,9 @@
    {
       "name": "MahoMangaDownloader",
       "language": "C#",
-      "url": "https://blog.zmcx16.moe/search/label/MahoMangaDownloader",
+      "html_url": "#",
+      "new_tab": false,
+      "on_click": "return canvasContainer(\"/js/MahoMangaDownloader.js\", \"main-MahoMangaDownloader\", \"main-project-demo-wrap\")",
       "description": "...",
       "fork": false,
       "watchers": "NaN",

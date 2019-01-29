@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/developers.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/history.css">
+    <link rel="stylesheet" type="text/css" href="css/project_demo.css">
     <link rel="stylesheet" type="text/css" href="css/particles-style.css">
     <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
     <link rel="shortcut icon" href="favicon.ico">
@@ -23,7 +24,7 @@
     <script>
 
         var canvas_timeId = 0;
-        var page_now = Page.projects;
+        var demo_page_cache = 0;
         var history_loaded = false;
 
         jQuery.loadScript = function (url, callback) {
@@ -37,9 +38,10 @@
 
         function canvasProjectContainer() {
 
-           document.getElementById("main-project-wrap").style.display = "block";
+           document.getElementById("main-projects-wrap").style.display = "block";
            document.getElementById("main-history-wrap").style.display="none";
            document.getElementById("main-resources-wrap").style.display = "none";
+           document.getElementById("main-project-demo-wrap").style.display = "none";
 
           if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
 
@@ -52,23 +54,23 @@
             clearInterval(canvas_timeId);
           }
 
-          page_now = Page.projects;
           return false; // no need reload
         }  
 
-        function canvasHistoryContainer() {
+        function canvasContainer(file_path, class_name, target_wrap_name) {
 
-          document.getElementById("main-project-wrap").style.display = "none";
-          document.getElementById("main-history-wrap").style.display = "block";
+          document.getElementById("main-projects-wrap").style.display = "none";
+          document.getElementById("main-history-wrap").style.display = "none";
           document.getElementById("main-resources-wrap").style.display = "none";
+          document.getElementById("main-project-demo-wrap").style.display = "none";
 
-          if( !history_loaded){
-            $.loadScript('/js/history.js', function () {
-              history_loaded = true;
+          document.getElementById(target_wrap_name).style.display = "block";
+
+          if( !$("."+ class_name)[0]) {
+            $.loadScript(file_path, function () {
             });
           }
 
-          page_now = Page.history;
           return false; // no need reload
         }  
 
@@ -91,7 +93,7 @@
               <a class="menu-header_link" href="http://project.zmcx16.moe" onclick='return canvasProjectContainer()'>Home</a>
             </li>
             <li class="menu-header_item">
-              <a class="menu-header_link" href="#" onclick='return canvasHistoryContainer()'>History</a>
+              <a class="menu-header_link" href="#" onclick='return canvasContainer("/js/history.js", "main-history", "main-history-wrap")'>History</a>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link" href="#">Resources</a>
@@ -124,7 +126,7 @@
           </ul>
         </div>
       </div>
-      <div id='main-project-wrap'>
+      <div id='main-projects-wrap'>
         <div id='main-container-body'></div>
         <div class='main-container layout-block layout-right-rail'>
           <div class="projects container">
@@ -146,6 +148,8 @@
       </div>
       <div id='main-resources-wrap'>
       </div>
+      <div id='main-project-demo-wrap'>
+      </div>
     </div>
 
     <div class="footer-container"></div>
@@ -165,41 +169,14 @@
   <script src="js/starry_sky.js"></script>
   <script>
 
-    function reDrawStarrySky() {
-        animateStarrySky();
-      }
-
-      const observer = new ResizeObserver(entries => {
+      const observer = new ResizeObserver(x => {
         
-        /*
-        document.getElementById('footer').removeChild(document.getElementById('starry-sky'));
-
-        
-        var canv = document.createElement('canvas');
-        canv.id = 'starry-sky';
-        document.body.appendChild(canv);
-        */
-
-        /*
-        canvas = document.getElementById('starry-sky');
-        ctx = canvas.getContext('2d');
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        */
-
-        //var xx = window.requestAnimationFrame;
-        //window.requestAnimationFrame = function () {};
-
         canvas = document.getElementById('starry-sky');
         var context = canvas.getContext('2d');
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         canvas.width = document.getElementById(starrySkyConfig['getWidthById']).offsetWidth;
 
-        //window.requestAnimationFrame = xx;
-
-
-        console.log('sss');
-        //animateStarrySky();
       });
 
       observer.observe(document.getElementById("menu-header"));

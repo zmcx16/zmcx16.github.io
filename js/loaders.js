@@ -55,12 +55,11 @@ function loadRepositoryData(repoData) {
   org.addReposToContainer($('.projects .not-featured .AI_ML'), org.regularRepos('AI_ML'));
   org.addReposToContainer($('.projects .not-featured .Trade'), org.regularRepos('Trade'));
 
-  $('.project-count').html(org.forkedCount());
   repos_loaded_count++;
 }
 
 $(document).ready(function () {
+  loadRepositoryDataFromJson('zmcx16_virtual_repos.json', loadRepositoryData);
   getGithubData('https://api.github.com/users/zmcx16/repos', 'zmcx16_repos.json', loadRepositoryData, loadRepositoryDataFromJson);
   getGithubData('https://api.github.com/users/zmcx16/starred', 'zmcx16_starred.json', loadRepositoryData, loadRepositoryDataFromJson);
-  loadRepositoryDataFromJson('zmcx16_virtual_repos.json', loadRepositoryData)
 });
