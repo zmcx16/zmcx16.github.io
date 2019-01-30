@@ -60,7 +60,7 @@ document.getElementById('main-project-demo-wrap').innerHTML += myvar;
 
 var getPackageInfo = function (platform) {
     $.ajax({
-        url: 'http://zmcx16.moe/api/MahoManga/Query' + platform,
+        url: 'https://zmcx16.moe/api/MahoManga/Query' + platform,
         async: true,
         success: function (data, textStatus, xhr) {
             var resp_data = JSON.parse(data);
@@ -82,12 +82,12 @@ getPackageInfo("X64");
 getPackageInfo("X86");
 
 $.ajax({
-    url: 'http://zmcx16.moe/api/MahoManga/QueryVersion',
+    url: 'https://zmcx16.moe/api/MahoManga/QueryVersion',
     async: true,
     contentType: 'text/plain',
     success: function (data, textStatus, xhr) {
         if (data) {
-            document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{Version}", "Ver" + data + ":");
+            document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{Version}", "Ver" + data);
         }
         else {
             console.log('get version failed: ' + xhr);
