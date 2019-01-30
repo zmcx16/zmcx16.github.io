@@ -33,6 +33,26 @@
     padding: 0;
 }
 
+.main-MahoMangaDownloader .download-list{
+    margin-top: 20px;
+}
+
+.description-function-list > li:before {
+    margin-right: 10px;
+}
+
+.download-link li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.download-link li p {
+    overflow: visible;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
 .main-MahoMangaDownloader .detail{
     padding: 0;
 }
