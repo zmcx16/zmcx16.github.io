@@ -26,8 +26,11 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '        <img src="/img/MahoMangaDownloader_960x566.png" />' +
     '    </div>' +
     '    <div class="download-link">' +
-    '        <h5>x64</h5>' +
-    '        <h5>x86</h5>' +
+    '        <h2>下載 MahoMangaDownloader{Version}</h2>' +
+    '        <ul class=\'download-list\'>' +
+    '            <li><a class="link" target="_blank" href="{FilePathX64}"><img src="/img/DownloadStartButton_24x24.png"><p>{FileNameX64} ({FileSizeX64} MB)</p></a></li>' +
+    '            <li><a class="link" target="_blank" href="{FilePathX86}"><img src="/img/DownloadStartButton_24x24.png"><p>{FileNameX86} ({FileSizeX86} MB)</p></a></li>' +
+    '        </ul>' +
     '    </div>' +
     '    <div class="detail">' +
     '        <h2>說明</h2>' +
@@ -52,4 +55,43 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
 
 
 
+
 document.getElementById('main-project-demo-wrap').innerHTML += myvar;
+
+var getPackageInfo = function (platform) {
+    $.ajax({
+        url: 'http://zmcx16.moe/api/MahoManga/Query' + platform,
+        async: true,
+        success: function (data, textStatus, xhr) {
+            var resp_data = JSON.parse(data);
+            if (resp_data) {
+                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
+                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
+                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
+            }
+            else {
+                console.log('get ' + platform + ' package info failed: ' + xhr);
+            }
+        },
+        timeout: 10000
+    });    
+
+};
+
+getPackageInfo("X64");
+getPackageInfo("X86");
+
+$.ajax({
+    url: 'http://zmcx16.moe/api/MahoManga/QueryVersion',
+    async: true,
+    contentType: 'text/plain',
+    success: function (data, textStatus, xhr) {
+        if (data) {
+            document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{Version}", "Ver" + data + ":");
+        }
+        else {
+            console.log('get version failed: ' + xhr);
+        }
+    },
+    timeout: 10000
+});    
