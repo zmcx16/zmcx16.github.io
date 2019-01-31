@@ -64,8 +64,9 @@
 
 .main-MahoMangaDownloader .download-link li {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 250px;
     font-size: 20px;
+    text-align: left;
 }
 
 .main-MahoMangaDownloader .download-link ul > li:before{
