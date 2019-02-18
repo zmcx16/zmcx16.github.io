@@ -43,10 +43,14 @@ h3 a i {
   padding-top: 52px;
 }
 
+.top-shelf {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
 .top-shelf-grey .container {
-  background: url(/img/illustration.png) no-repeat right bottom;
   height: 240px;
-  width: 960px;
+  padding-left: 100px;
 }
 
 .main-container {
