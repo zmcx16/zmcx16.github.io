@@ -37,10 +37,11 @@
 
         function canvasProjectContainer() {
 
-           document.getElementById("main-projects-wrap").style.display = "block";
-           document.getElementById("main-history-wrap").style.display="none";
-           document.getElementById("main-resources-wrap").style.display = "none";
-           document.getElementById("main-project-demo-wrap").style.display = "none";
+          document.getElementById("main-projects-wrap").style.display = "block";
+          document.getElementById("main-hobby_anime-wrap").style.display = "none";
+          document.getElementById("main-hobby_trade-wrap").style.display = "none";
+          document.getElementById("main-hobby_aquarium-wrap").style.display = "none";
+          document.getElementById("main-project-demo-wrap").style.display = "none";
 
           if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
 
@@ -59,8 +60,9 @@
         function canvasContainer(file_path, class_name, target_wrap_name) {
 
           document.getElementById("main-projects-wrap").style.display = "none";
-          document.getElementById("main-history-wrap").style.display = "none";
-          document.getElementById("main-resources-wrap").style.display = "none";
+          document.getElementById("main-hobby_anime-wrap").style.display = "none";
+          document.getElementById("main-hobby_trade-wrap").style.display = "none";
+          document.getElementById("main-hobby_aquarium-wrap").style.display = "none";
           document.getElementById("main-project-demo-wrap").style.display = "none";
 
           document.getElementById(target_wrap_name).style.display = "block";
@@ -92,10 +94,18 @@
               <a class="menu-header_link" href="http://project.zmcx16.moe" onclick='return canvasProjectContainer()'>Home</a>
             </li>
             <li class="menu-header_item">
-              <a class="menu-header_link" href="#" onclick='return canvasContainer("/js/history.js", "main-history", "main-history-wrap")'>History</a>
-            </li>
-            <li class="menu-header_item">
-              <a class="menu-header_link" href="#">Resources</a>
+              <a class="menu-header_link">Hobbies</a>
+              <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+                <li class="menu-header_item">
+                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_anime.js", "main-hobby_anime", "main-hobby_anime-wrap")'>Anime</a>
+                </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_trade.js", "main-hobby_trade", "main-hobby_trade-wrap")'>Trade</a>
+                </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_aquarium.js", "main-hobby_aquarium", "main-hobby_aquarium-wrap")'>Aquarium</a>
+                </li>
+              </ul>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">Links</a>
@@ -143,9 +153,11 @@
           </div>
         </div> 
       </div>
-      <div id='main-history-wrap'>
+      <div id='main-hobby_anime-wrap'>
       </div>
-      <div id='main-resources-wrap'>
+      <div id='main-hobby_trade-wrap'>
+      </div>
+      <div id='main-hobby_aquarium-wrap'>
       </div>
       <div id='main-project-demo-wrap'>
       </div>

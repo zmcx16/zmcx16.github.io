@@ -50,7 +50,7 @@ h3 a i {
 
 .top-shelf-grey .container {
   height: 240px;
-  padding-left: 100px;
+  width: 960px;
 }
 
 .main-container {
@@ -264,7 +264,7 @@ ul.menu-header_drop-down-menu {
 ul.menu-header_drop-down-menu li {
     position: relative;
     white-space: nowrap;
-    min-width: 120px;
+    min-width: 140px;
 }
 
 ul.menu-header_drop-down-menu > li {
