@@ -7,5 +7,5 @@ function pickImg(img_ID, img_List){
 }
 
 function loadIllustrationImg(file_name) {
-    $(".top-shelf-grey .container")[0].style.background = 'url(/img/' + file_name + ') no-repeat right bottom';
+    $(".top-shelf")[0].style.background = 'url(/img/' + file_name + ') no-repeat right bottom';
 }
