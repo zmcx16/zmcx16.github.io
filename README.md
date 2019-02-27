@@ -1,4 +1,5 @@
-# zmcx16 project page
+# zmcx16's website
+Introduce zmcx16's side projects, hobbies and practice for front-end development skill.
 
 # Reference
   *  Template from yelp.github.io (https://github.com/Yelp/yelp.github.io) - Apache License, Version 2.0
