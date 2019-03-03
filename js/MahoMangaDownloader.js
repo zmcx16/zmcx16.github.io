@@ -1,7 +1,7 @@
 
 var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '    <div class="demo-img">' +
-    '        <img src="/img/MahoMangaDownloader_960x566.png"/>' +
+    '        <img src="/img/MahoMangaDownloader/MahoMangaDownloader_960x566.png"/>' +
     '    </div>' +
     '    <div class="description">' +
     '        <p> MahoMangaDownloader是一款支援多個漫畫網站的漫畫下載器, 提供使用者下載各個網站的漫畫資源, 方便使用者試看漫畫。 MahoMangaDownloader支援以下功能:<br></p>' +
@@ -23,13 +23,13 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '        <p>希望MahoMangaDownloader下載器能幫助使用者改善線上漫畫的閱覽體驗, 如果試看的漫畫您非常喜歡, 也請麻煩購買正版支持原作者, 讓作家們能繼續創造出下一部更棒的作品。</p>' +
     '    </div>' +
     '    <div class="manga-show">' +
-    '        <img src="/img/MahoMangaDownloader_960x566.png" />' +
+    '        <img src="/img/MahoMangaDownloader/manga02.png" />' +
     '    </div>' +
     '    <div class="download-link">' +
     '        <h2>下載 MahoMangaDownloader{Version}</h2>' +
     '        <ul class=\'download-list\'>' +
-    '            <li><a class="link" target="_blank" href="{FilePathX64}"><img src="/img/DownloadStartButton_30x30.png"><p>{FileNameX64} ({FileSizeX64} MB)</p></a></li>' +
-    '            <li><a class="link" target="_blank" href="{FilePathX86}"><img src="/img/DownloadStartButton_30x30.png"><p>{FileNameX86} ({FileSizeX86} MB)</p></a></li>' +
+    '            <li><a class="link" target="_blank" href="{FilePathX64}"><img src="/img/MahoMangaDownloader/DownloadStartButton_30x30.png"><p>{FileNameX64} ({FileSizeX64} MB)</p></a></li>' +
+    '            <li><a class="link" target="_blank" href="{FilePathX86}"><img src="/img/MahoMangaDownloader/DownloadStartButton_30x30.png"><p>{FileNameX86} ({FileSizeX86} MB)</p></a></li>' +
     '        </ul>' +
     '    </div>' +
     '    <div class="detail">' +
@@ -68,7 +68,7 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '            </ol>' +
     '        </div>' +
     '        <div class="notice">' +
-    '            <h3>功能說明</h3>' +
+    '            <h3>注意事項</h3>' +
     '            <ol class=\'notice-list\'>' +
     '                <li>e-hentai/exhentai有流量限制, 且下載過大會封鎖IP, 如果是網路環境為固定IP的話請加大delay時間。</li>' +
     '                <li>e-hentai/exhentai的快速搜尋只會Parse英文檔名, 除非有特定需求否則建議disable快速搜尋。</li>' +
@@ -94,8 +94,6 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '        </div>  ' +
     '    </div>' +
     '</div>';
-
-
 
 document.getElementById('main-project-demo-wrap').innerHTML = myvar;
 
