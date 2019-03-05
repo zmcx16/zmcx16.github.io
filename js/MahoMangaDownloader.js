@@ -114,7 +114,7 @@ function loadMangaImg(mode=1){
     if(mode == 0){
         myvar = myvar.replace('{MangaImg}', img_path);
     }else{
-        $("#manga-img").fadeTo(800, 0.2, function () {
+        $("#manga-img").fadeTo(800, 0.05, function () {
             image.src = img_path;
             $("#manga-img").fadeTo(800, 1);
         });
