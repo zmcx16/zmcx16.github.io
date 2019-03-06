@@ -38,10 +38,7 @@
         function canvasProjectContainer() {
 
           document.getElementById("main-projects-wrap").style.display = "block";
-          document.getElementById("main-hobby_anime-wrap").style.display = "none";
-          document.getElementById("main-hobby_trade-wrap").style.display = "none";
-          document.getElementById("main-hobby_aquarium-wrap").style.display = "none";
-          document.getElementById("main-project-demo-wrap").style.display = "none";
+          document.getElementById("main-plugin-wrap").style.display = "none";
 
           if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
 
@@ -54,30 +51,31 @@
             clearInterval(canvas_timeId);
           }
 
-          return false; // no need reload
         }  
 
-        function canvasContainer(file_path, class_name, target_wrap_name) {
+        function canvasPlugin(page_name) {
 
           document.getElementById("main-projects-wrap").style.display = "none";
-          document.getElementById("main-hobby_anime-wrap").style.display = "none";
-          document.getElementById("main-hobby_trade-wrap").style.display = "none";
-          document.getElementById("main-hobby_aquarium-wrap").style.display = "none";
-          document.getElementById("main-project-demo-wrap").style.display = "none";
+          document.getElementById("main-plugin-wrap").style.display = "block";
 
-          document.getElementById(target_wrap_name).style.display = "block";
+          $.loadScript('js/'+page_name+".js", function () {});
 
-          if( !$("."+ class_name)[0]) {
-            $.loadScript(file_path, function () {
-            });
-          }
-
-          return false; // no need reload
         }  
+
+        function RedirectPage(page_name){
+          var loc = window.location;
+          loc.href = loc.protocol + '//' + loc.host + loc.pathname+"/?page=" + page_name;
+        }
 
         // default projects page
         window.onload = function () {
-          canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+
+          var params = new URL(window.location.href).searchParams;
+          if( !params.has('page')) {
+            canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+          }else{
+            canvasPlugin(params.get('page'));
+          }
 
           animateStarrySky();
         };
@@ -91,19 +89,19 @@
           </a>
           <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
             <li class="menu-header_item">
-              <a class="menu-header_link" href="http://project.zmcx16.moe" onclick='return canvasProjectContainer()'>Home</a>
+              <a class="menu-header_link" href="http://project.zmcx16.moe">Home</a>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">Hobbies</a>
               <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
                 <li class="menu-header_item">
-                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_anime.js", "main-hobby_anime", "main-hobby_anime-wrap")'>Anime</a>
+                  <a class="menu-header_link" href="http://project.zmcx16.moe">Anime</a>
                 </li>
                 <li class="menu-header_item">
-                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_trade.js", "main-hobby_trade", "main-hobby_trade-wrap")'>Trade</a>
+                  <a class="menu-header_link" href="http://project.zmcx16.moe">Trade</a>
                 </li>
                 <li class="menu-header_item">
-                  <a class="menu-header_link" onclick='return canvasContainer("/js/hobby_aquarium.js", "main-hobby_aquarium", "main-hobby_aquarium-wrap")'>Aquarium</a>
+                  <a class="menu-header_link" href="http://project.zmcx16.moe">Aquarium</a>
                 </li>
               </ul>
             </li>
@@ -153,13 +151,7 @@
           </div>
         </div> 
       </div>
-      <div id='main-hobby_anime-wrap'>
-      </div>
-      <div id='main-hobby_trade-wrap'>
-      </div>
-      <div id='main-hobby_aquarium-wrap'>
-      </div>
-      <div id='main-project-demo-wrap'>
+      <div id='main-plugin-wrap'>
       </div>
     </div>
 

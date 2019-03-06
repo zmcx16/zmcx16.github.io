@@ -4,7 +4,7 @@
       "language": "C#",
       "html_url": "#",
       "new_tab": false,
-      "on_click": "return canvasContainer(\"/js/MahoMangaDownloader.js\", \"main-MahoMangaDownloader\", \"main-project-demo-wrap\")",
+      "on_click": "return RedirectPage(\"MahoMangaDownloader\")",
       "description": "...",
       "fork": false,
       "watchers": "NaN",
