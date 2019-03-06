@@ -97,7 +97,7 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
 
 loadMangaImg(0);
 
-document.getElementById('main-project-demo-wrap').innerHTML = myvar;
+document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 
 
