@@ -1,5 +1,6 @@
 
-var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
+var myvar = '<link rel="stylesheet" type="text/css" href="css/MahoMangaDownloader.css">' +
+    '<div class=\'main-MahoMangaDownloader\'>' +
     '    <div class="demo-img">' +
     '        <img src="/img/MahoMangaDownloader/MahoMangaDownloader_960x566.png"/>' +
     '    </div>' +
@@ -23,7 +24,7 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '        <p>希望MahoMangaDownloader下載器能幫助使用者改善線上漫畫的閱覽體驗, 如果試看的漫畫您非常喜歡, 也請麻煩購買正版支持原作者, 讓作家們能繼續創造出下一部更棒的作品。</p>' +
     '    </div>' +
     '    <div class="manga-show">' +
-    '        <img id="manga-img" src="{MangaImg}" />' +
+    '        <img id="manga-img" src="{MangaImg}"/>' +
     '    </div>' +
     '    <div class="download-link">' +
     '        <h2>下載 MahoMangaDownloader{Version}</h2>' +
@@ -95,10 +96,10 @@ var myvar = '<div class=\'main-MahoMangaDownloader\'>' +
     '    </div>' +
     '</div>';
 
+
 loadMangaImg(0);
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
-
 
 
 function loadMangaImg(mode=1){
@@ -130,9 +131,9 @@ var getPackageInfo = function (platform) {
         success: function (data, textStatus, xhr) {
             var resp_data = JSON.parse(data);
             if (resp_data) {
-                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
-                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
-                document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
+                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
+                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
+                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
             }
             else {
                 console.log('get ' + platform + ' package info failed: ' + xhr);
@@ -152,7 +153,7 @@ $.ajax({
     contentType: 'text/plain',
     success: function (data, textStatus, xhr) {
         if (data) {
-            document.getElementById('main-project-demo-wrap').innerHTML = document.getElementById('main-project-demo-wrap').innerHTML.replace("{Version}", "Ver" + data);
+            document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{Version}", "Ver" + data);
         }
         else {
             console.log('get version failed: ' + xhr);

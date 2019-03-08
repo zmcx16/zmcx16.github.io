@@ -8,74 +8,28 @@
     <link rel="stylesheet" type="text/css" href="css/www.css">
     <link rel="stylesheet" type="text/css" href="css/developers.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/history.css">
-    <link rel="stylesheet" type="text/css" href="css/project_demo.css">
-    <link rel="stylesheet" type="text/css" href="css/particles-style.css">
     <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
     <link rel="shortcut icon" href="favicon.ico">
-    <script src="js/common.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/projects.js"></script>
-    <script src="js/orgs.js"></script>
-    <script src="js/repos.js"></script>
-    <script src="js/loaders.js"></script>
-    <script src="js/opensource-site.js"></script>
-    <script src="js/particles.js"></script>
+    <script src="js/common.js"></script>
     <script>
-        var canvas_timeId = 0;
-        var demo_page_cache = 0;
-        var history_loaded = false;
-
-        jQuery.loadScript = function (url, callback) {
-          jQuery.ajax({
-            url: url,
-            dataType: 'script',
-            success: callback,
-            async: true
-          });
-        }
-
-        function canvasProjectContainer() {
-
-          document.getElementById("main-projects-wrap").style.display = "block";
-          document.getElementById("main-plugin-wrap").style.display = "none";
-
-          if (repos_loaded_count >= repos_completed_count && document.readyState == 'complete'){
-
-            console.log('repos data loaded.');
-            document.getElementById("main-container-body").style.height = document.querySelector('.main-container').clientHeight + 'px';
-            particlesJS.load('main-container-body', 'particles.json', function () {
-              console.log('particles.js config loaded');
-            });
-
-            clearInterval(canvas_timeId);
-          }
-
-        }  
-
-        function canvasPlugin(page_name) {
-
-          document.getElementById("main-projects-wrap").style.display = "none";
-          document.getElementById("main-plugin-wrap").style.display = "block";
-
-          $.loadScript('js/'+page_name+".js", function () {});
-
-        }  
 
         function RedirectPage(page_name){
           var loc = window.location;
           loc.href = loc.protocol + '//' + loc.host + loc.pathname+"?page=" + page_name;
         }
 
-        // default projects page
-        window.onload = function () {
 
+        window.onload = function () {
           var params = new URL(window.location.href).searchParams;
+          var load_js = '';
           if( !params.has('page')) {
-            canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+            load_js = 'SideProjects';
           }else{
-            canvasPlugin(params.get('page'));
+            load_js = params.get('page');
           }
+
+          $.loadScript('js/' + load_js + ".js", function () { });
 
           animateStarrySky();
         };
@@ -85,23 +39,23 @@
     <div id="wrap">
       <div class="menu-header" id="menu-header">
         <div class="menu-header-content">
-          <a class="menu-header_logo" id="menu-header_logo" href="http://project.zmcx16.moe">
+          <a class="menu-header_logo" id="menu-header_logo" href="./">
           </a>
           <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
             <li class="menu-header_item">
-              <a class="menu-header_link" href="http://project.zmcx16.moe">Home</a>
+              <a class="menu-header_link" href="./">Home</a>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">Hobbies</a>
               <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
                 <li class="menu-header_item">
-                  <a class="menu-header_link" href="http://project.zmcx16.moe">Anime</a>
+                  <a class="menu-header_link" href="./?page=hobby-anime">Anime</a>
                 </li>
                 <li class="menu-header_item">
-                  <a class="menu-header_link" href="http://project.zmcx16.moe">Trade</a>
+                  <a class="menu-header_link" href="./?page=hobby-trade">Trade</a>
                 </li>
                 <li class="menu-header_item">
-                  <a class="menu-header_link" href="http://project.zmcx16.moe">Aquarium</a>
+                  <a class="menu-header_link" href="./?page=hobby-aquarium">Aquarium</a>
                 </li>
               </ul>
             </li>
@@ -122,7 +76,6 @@
           </ul>
         </div>
       </div>
-
       <div class="top-shelf top-shelf-grey">
         <div class="container">
           <h1>zmcx16's side projects</h1>
@@ -132,24 +85,6 @@
             <li>這裡還沒想到可以填什麼...</li>
           </ul>
         </div>
-      </div>
-      <div id='main-projects-wrap'>
-        <div id='main-container-body'></div>
-        <div class='main-container layout-block layout-right-rail'>
-          <div class="projects container">
-            <h2><br></h2>
-            <h2>zmcx16's Side Projects</h2>
-            <div class="featured"></div>
-            <h2><br></h2>
-            <h2>Starred Open Source Projects</h2>
-            <div class="not-featured">
-              <ul>
-                <li><div class="starred_1"><h2 style="font-style:italic;">AI / ML</h2><div class="AI_ML"></div></div></li>
-                <li><div class="starred_2"><h2 style="font-style:italic;">Trade</h2><div class="Trade"></div></div></li>
-              </ul>
-            </div>
-          </div>
-        </div> 
       </div>
       <div id='main-plugin-wrap'>
       </div>
