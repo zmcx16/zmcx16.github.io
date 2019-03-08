@@ -10,11 +10,14 @@ function loadIllustrationImg(file_name) {
     $(".top-shelf")[0].style.background = 'url(/img/' + file_name + ') no-repeat right bottom';
 }
 
-jQuery.loadScript = function (url, callback_success) {
-    jQuery.ajax({
-        url: url,
-        dataType: 'script',
-        success: callback_success,
-        async: true
-    });
+function loadScripts(url_list, index) {
+
+    if (index < url_list.length) {
+        jQuery.ajax({
+            url: url_list[index],
+            dataType: 'script',
+            success: loadScripts(url_list, index+1),
+            async: true
+        });
+    }
 }
