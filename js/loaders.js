@@ -1,4 +1,4 @@
-const repos_completed_count = 3;
+var repos_completed_count = 3;
 var repos_loaded_count = 0;
 
 function getGithubData(url, local_file_path, loadRepositoryData, loadRepositoryDataFromJson) {

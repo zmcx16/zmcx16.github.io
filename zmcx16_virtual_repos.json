@@ -2,7 +2,7 @@
    {
       "name": "MahoMangaDownloader",
       "language": "C#",
-      "html_url": "#",
+      "html_url": "./",
       "new_tab": false,
       "on_click": "return RedirectPage(\"MahoMangaDownloader\")",
       "description": "...",
