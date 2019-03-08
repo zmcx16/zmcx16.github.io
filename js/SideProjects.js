@@ -32,12 +32,9 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/SideProjects.css">
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
-$.loadScript("js/projects.js", function () { });
-$.loadScript("js/orgs.js", function () { });
-$.loadScript("js/repos.js", function () { });
-$.loadScript("js/loaders.js", function () { });
-$.loadScript("js/opensource-site.js", function () { });
-$.loadScript("js/particles.js", function () { });
+var js_list = ["js/projects.js", "js/orgs.js", "js/repos.js", "js/loaders.js", "js/opensource-site.js", "js/particles.js"];
+
+loadScripts(js_list, 0);
 
 var canvas_timeId = 0;
 
