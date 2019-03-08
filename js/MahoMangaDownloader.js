@@ -24,7 +24,13 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/MahoMangaDownloade
     '        <p>希望MahoMangaDownloader下載器能幫助使用者改善線上漫畫的閱覽體驗, 如果試看的漫畫您非常喜歡, 也請麻煩購買正版支持原作者, 讓作家們能繼續創造出下一部更棒的作品。</p>' +
     '    </div>' +
     '    <div class="manga-show">' +
-    '        <img id="manga-img" src="{MangaImg}"/>' +
+    '        <img class="img-manga" id="img-manga1" src="/img/MahoMangaDownloader/manga1.png" />' +
+    '        <img class="img-manga" id="img-manga2" src="/img/MahoMangaDownloader/manga2.png" />' +
+    '        <img class="img-manga" id="img-manga3" src="/img/MahoMangaDownloader/manga3.png" />' +
+    '        <img class="img-manga" id="img-manga4" src="/img/MahoMangaDownloader/manga4.png" />' +
+    '        <img class="img-manga" id="img-manga5" src="/img/MahoMangaDownloader/manga5.png" />' +
+    '        <img class="img-manga" id="img-manga6" src="/img/MahoMangaDownloader/manga6.png" />' +
+    '        <img class="img-manga" id="img-manga7" src="/img/MahoMangaDownloader/manga7.png" />' +
     '    </div>' +
     '    <div class="download-link">' +
     '        <h2>下載 MahoMangaDownloader{Version}</h2>' +
@@ -96,33 +102,29 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/MahoMangaDownloade
     '    </div>' +
     '</div>';
 
-
-loadMangaImg(0);
-
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
+const img_num = 7;
+var demo_img_now = Math.floor(Math.random() * img_num) + 1;
+document.getElementById("img-manga" + demo_img_now).style = "position:relative; opacity:1";
 
-function loadMangaImg(mode=1){
-    const img_num = 7;
-    var image = document.getElementById("manga-img");
-    var index;
-    var img_path;
+function changeMangaImg(){
+
+    var index=0;
     do {
         index = Math.floor(Math.random() * img_num) + 1;
-        img_path = '/img/MahoMangaDownloader/' + "manga" + index + ".png";
-    } while (image != null && image.src.indexOf(img_path)!=-1);
+    } while (index == demo_img_now);
 
-    if(mode == 0){
-        myvar = myvar.replace('{MangaImg}', img_path);
-    }else{
-        $("#manga-img").fadeTo(800, 0.05, function () {
-            image.src = img_path;
-            $("#manga-img").fadeTo(800, 1);
-        });
-    }
+    $("#img-manga" + demo_img_now).fadeTo(800, 0.05, function () {
+        document.getElementById("img-manga" + demo_img_now).style = "position:absolute; opacity:0";
+        document.getElementById("img-manga" + index).style = "position:relative; opacity:0.05";
+        demo_img_now = index;
+        $("#img-manga" + demo_img_now).fadeTo(800, 1);
+    });
+    
 }
 
-setInterval(loadMangaImg, 7000);
+setInterval(changeMangaImg, 7000);
 
 var getPackageInfo = function (platform) {
     $.ajax({

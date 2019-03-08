@@ -37,6 +37,11 @@
     padding: 0;
 }
 
+.main-MahoMangaDownloader .img-manga{
+    position: absolute;
+    opacity: 0;
+}
+
 .main-MahoMangaDownloader .p{
     font-size: 14px;
 }
