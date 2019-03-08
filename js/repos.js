@@ -102,20 +102,23 @@ Repository.prototype.headerLogo = function() {
 
 Repository.prototype.repoContent = function() {
 
-  var new_tab = "target=\"_blank\"";
+  var new_tab = " target=\"_blank\"";
   if( !this.new_tab){
-    new_tab = "";
+    new_tab = " ";
   }
 
   var on_click = "";
+
+  var href = ' href="' + this.url + '"';
   if ( this.on_click){
-    on_click = "onclick='" + this.on_click + "'";
+    on_click = " onclick='" + this.on_click + "'";
+    href = ' ';
   }
 
   return [
     '<div class="island-item">',
       '<h3>',
-        '<a href="', this.url, '"', new_tab, on_click, '>', this.headerLogo(), this.name, '</a>',
+        '<a ', href, new_tab, on_click, '>', this.headerLogo(), this.name, '</a>',
       '</h3>',
       '<div class="repo-info">',
         '<span><i class="octicon octicon-star"></i> ', this.watchers, '</span> ',
