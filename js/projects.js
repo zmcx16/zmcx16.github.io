@@ -19,16 +19,22 @@ oss_projects['MemoOffVocabulary'] = {
   position: 3,
   background: 'MemoOffVocabulary_295x150.jpg'
 };
-oss_projects['OpenAI-Gym-Hearts'] = {
+oss_projects['zmcx16.github.io'] = {
   featured: true,
   position: 4,
+  background: 'zmcx16.github.io_295x150.jpg'
+};
+oss_projects['OpenAI-Gym-Hearts'] = {
+  featured: true,
+  position: 5,
   background: 'OpenAI-Gym-Hearts_295x150.jpg'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
-  position: 5,
+  position: 6,
   background: 'OpenAI-Gym-GongZhu_295x150.jpg'
 };
+
 
 // Starred
 oss_projects['electronjs.org'] = {

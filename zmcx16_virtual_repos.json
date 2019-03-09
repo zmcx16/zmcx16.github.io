@@ -5,7 +5,7 @@
       "html_url": "./",
       "new_tab": false,
       "on_click": "return RedirectPage(\"MahoMangaDownloader\")",
-      "description": "...",
+      "description": "Windows application for downloading manga resource.",
       "fork": false,
       "watchers": "NaN",
       "forks": "NaN"
