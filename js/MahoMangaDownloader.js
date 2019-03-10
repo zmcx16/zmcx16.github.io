@@ -109,7 +109,7 @@ setBannerList(['下載漫畫資源的小工具', '由於特定網站會鎖下載
 
 const img_num = 7;
 var demo_img_now = Math.floor(Math.random() * img_num) + 1;
-document.getElementById("img-manga" + demo_img_now).style = "position:relative; opacity:1";
+document.getElementById("img-manga" + demo_img_now).style = "position:relative; opacity:1; display: block";
 
 function changeMangaImg(){
 
@@ -119,8 +119,8 @@ function changeMangaImg(){
     } while (index == demo_img_now);
 
     $("#img-manga" + demo_img_now).fadeTo(800, 0.05, function () {
-        document.getElementById("img-manga" + demo_img_now).style = "position:absolute; opacity:0";
-        document.getElementById("img-manga" + index).style = "position:relative; opacity:0.05";
+        document.getElementById("img-manga" + demo_img_now).style = "position:absolute; opacity:0; display: none";
+        document.getElementById("img-manga" + index).style = "position:relative; opacity:0.05; display: block";
         demo_img_now = index;
         $("#img-manga" + demo_img_now).fadeTo(800, 1);
     });
