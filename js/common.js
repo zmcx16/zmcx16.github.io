@@ -22,12 +22,10 @@ function loadScripts(url_list, index) {
     }
 }
 
-function setBannerColor(color) {
+function setBanner(topic, color, list_descr){
 
+    $(".top-shelf .container h1")[0].innerHTML = topic;
     $(".top-shelf h1")[0].style = "color:" + color;
-}
-
-function setBannerList(list_descr){
 
     document.getElementsByClassName("bullet-list-round")[0].innerHTML = '<br>';
 

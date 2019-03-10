@@ -39,8 +39,7 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/SideProjects.css">
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
-setBannerColor('darkorange');
-setBannerList(['這個網站是某宅宅工程師亂點技能樹下的產物','認真說起來, 做網站最麻煩的總是素材阿...']);
+setBanner('zmcx16\'s Side Projects', 'darkorange', ['這個網站是某宅宅工程師亂點技能樹下的產物', '認真說起來, 做網站最麻煩的總是素材阿...']);
 
 loadScripts(["js/projects.js", "js/particles.js"], 0);
 
