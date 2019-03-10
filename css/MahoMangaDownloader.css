@@ -40,6 +40,7 @@
 .main-MahoMangaDownloader .img-manga{
     position: absolute;
     opacity: 0;
+    display: none;
 }
 
 .main-MahoMangaDownloader .p{
