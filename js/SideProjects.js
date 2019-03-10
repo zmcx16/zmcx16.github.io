@@ -24,17 +24,25 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/SideProjects.css">
     '                            <div class="Trade"></div>' +
     '                        </div>' +
     '                    </li>' +
+    '                    <li>' +
+    '                        <div class="starred_3">' +
+    '                            <h2 style="font-style:italic;">Application Framework</h2>' +
+    '                            <div class="Application_Framework"></div>' +
+    '                        </div>' +
+    '                    </li>' +
     '                </ul>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
     '</div>';
 
+
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
-var js_list = ["js/projects.js", "js/orgs.js", "js/repos.js", "js/loaders.js", "js/opensource-site.js", "js/particles.js"];
+setBannerColor('darkorange');
+setBannerList(['這個網站是某宅宅工程師亂點技能樹下的產物','認真說起來, 做網站最麻煩的總是素材阿...']);
 
-loadScripts(js_list, 0);
+loadScripts(["js/projects.js", "js/particles.js"], 0);
 
 var canvas_timeId = 0;
 

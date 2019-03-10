@@ -104,6 +104,9 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/MahoMangaDownloade
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
+setBannerColor('cornflowerblue');
+setBannerList(['下載漫畫資源的小工具', '由於特定網站會鎖下載器流量, 請小量使用', '看到喜歡的漫畫作品請以購買支持原作者']);
+
 const img_num = 7;
 var demo_img_now = Math.floor(Math.random() * img_num) + 1;
 document.getElementById("img-manga" + demo_img_now).style = "position:relative; opacity:1";

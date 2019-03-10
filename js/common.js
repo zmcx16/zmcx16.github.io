@@ -21,3 +21,17 @@ function loadScripts(url_list, index) {
         });
     }
 }
+
+function setBannerColor(color) {
+
+    $(".top-shelf h1")[0].style = "color:" + color;
+}
+
+function setBannerList(list_descr){
+
+    document.getElementsByClassName("bullet-list-round")[0].innerHTML = '<br>';
+
+    list_descr.forEach(element => {
+        document.getElementsByClassName("bullet-list-round")[0].innerHTML += '<li>' + element + '</li>'
+    });
+}
