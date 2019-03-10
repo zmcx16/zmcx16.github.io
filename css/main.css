@@ -41,6 +41,8 @@ h3 a i {
 
 .top-shelf h1 {
   padding-top: 52px;
+  color: darkorange;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 2px 2px 2px black;
 }
 
 .top-shelf {
@@ -98,7 +100,7 @@ h3 a i {
 
 
 .menu-header{
-  background-color: #E6CFE6;
+  background-color: #126e7d;
   height: 60px;
 }
 
@@ -155,8 +157,8 @@ ul.menu-header_drop-down-menu > li {
 }
 
 ul.menu-header_drop-down-menu a {
-    background-color: #E6CFE6;
-    color: rgb(0, 159, 155);
+    background-color: #126e7d;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 0 30px;
     text-decoration: none;
@@ -165,18 +167,18 @@ ul.menu-header_drop-down-menu a {
 ul.menu-header_drop-down-menu a:hover { 
     border-width:3px; 
     border-bottom-style:solid;
-    border-color: #ef5c28;
+    border-color: rgb(255, 128, 0);
 }
 
 ul.menu-header_drop-down-menu li:hover > a { 
     border-width:3px; 
     border-bottom-style:solid;
-    border-color: #ef5c28;
+    border-color: rgb(255, 128, 0);
 }
 
 ul.menu-header_drop-down-menu_level2 li:hover > a { 
     border-width:0px; 
-    color: #fff;
+    color: rgb(255, 215, 0);
 }
 
 ul.menu-header_drop-down-menu ul {
