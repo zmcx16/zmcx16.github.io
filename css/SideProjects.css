@@ -111,8 +111,12 @@
   color: #999;
   font-weight: bold;
 }
-.project .repo-info .Python { color: #228222; }
+.project .repo-info .Python { color: #3572A5; }
 .project .repo-info .Ruby { color: #d83800; }
+.project .repo-info .C\23 { color: #178600; }   /*unicode 23 = #*/
+.project .repo-info .CSS { color: #563d7c; }
+.project .repo-info .HTML { color: #e34c26; }
+.project .repo-info .C\2B\2B { color: #f34b7d; }
 
 .project .repo-info h3 { margin-bottom: 10px; }
 .project .repo-info span { margin-right: 20px; }
