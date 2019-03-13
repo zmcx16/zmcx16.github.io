@@ -23,7 +23,6 @@
 }
 
 .main-misc .img-arrow{
-    top: -50%;
     z-index: 10;
     position: sticky;
     opacity: 0;
