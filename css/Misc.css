@@ -5,6 +5,7 @@
 
 .main-misc .misc-show{
     height: 499px;
+    overflow: hidden;
 }
 
 .main-misc .img-arrow-wrap{
@@ -54,7 +55,5 @@
 
 
 .main-misc .img-misc{
-    position: absolute;
-    opacity: 0;
-    display: none;
+    position: relative;
 }
