@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:image" content="/img/zmcx16.github.io.png" />
+    <title>zmcx16's side projects</title>
+    <link rel="stylesheet" type="text/css" href="css/octicons.css">
+    <link rel="stylesheet" type="text/css" href="css/www.css">
+    <link rel="stylesheet" type="text/css" href="css/developers.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script>
+
+        function RedirectPage(page_name){
+          var loc = window.location;
+          loc.href = loc.protocol + '//' + loc.host + loc.pathname+"?page=" + page_name;
+        }
+
+
+        window.onload = function () {
+          var params = new URL(window.location.href).searchParams;
+          var load_js = '';
+          if( !params.has('page')) {
+            load_js = 'sideprojects';
+          }else{
+            load_js = params.get('page');
+          }
+
+          loadScripts(['js/' + load_js.toLowerCase() + ".js"], 0);
+
+          animateStarrySky();
+        };
+    </script>
+  </head>
+  <body class="ytype borderless">
+    <div id="wrap">
+      <div class="menu-header" id="menu-header">
+        <div class="menu-header-content">
+          <a class="menu-header_logo" id="menu-header_logo" href="./">
+          </a>
+          <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
+            <li class="menu-header_item">
+              <a class="menu-header_link" href="./">Home</a>
+            </li>
+            <li class="menu-header_item">
+              <a class="menu-header_link">Hobbies</a>
+              <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+                <li class="menu-header_item">
+                  <a class="menu-header_link" href="./?page=hobby-anime">Anime</a>
+                </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link" href="./?page=hobby-trade">Trade</a>
+                </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link" href="./?page=hobby-aquarium">Aquarium</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-header_item">
+              <a class="menu-header_link">Links</a>
+                <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+                  <li class="menu-header_item">
+                    <a class="menu-header_link" target="_blank" href="https://github.com/zmcx16">GitHub</a>
+                  </li>
+                  <li class="menu-header_item">
+                    <a class="menu-header_link" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
+                  </li>
+                </ul>
+            </li>
+            <li class="menu-header_item">
+              <a class="menu-header_link" onclick="window.open('/about.html', 'about', 'width=610,height=270'); return false;">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-shelf top-shelf-grey">
+        <div class="container">
+          <h1></h1>
+          <ul class='bullet-list-round'>
+          </ul>
+        </div>
+      </div>
+      <div id='main-plugin-wrap'>
+      </div>
+    </div>
+
+    <div class="footer-container"></div>
+      <div class="footer" id="footer">
+        <canvas id='starry-sky'></canvas>
+        <div class="footer-wrap">
+          <div class="city-landscape-img"></div>
+          <div class="copyright lesser-text">
+            <div style="position: relative; left: -50%;">
+              ©zmcx16 All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/starry_sky.js"></script>
+  <script>
+
+      loadIllustrationImg(illustration_img_home);
+
+      const observer = new ResizeObserver(x => {
+        
+        canvas = document.getElementById('starry-sky');
+        var context = canvas.getContext('2d');
+        context.clearRect(0, 0, canvas.width, canvas.height);
+
+        canvas.width = document.getElementById(starrySkyConfig['getWidthById']).offsetWidth;
+
+      });
+
+      observer.observe(document.getElementById("menu-header"));
+
+  </script>
+</html>
