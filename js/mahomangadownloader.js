@@ -143,13 +143,20 @@ $(document).ready(function () {
 
     console.log($("#img-prev"));
 
+    document.getElementById("img-prev").addEventListener("click", function () {
+        switch_demo_imgs.doSwitch(0, 500);
+    });
+    document.getElementById("img-next").addEventListener("click", function () {
+        switch_demo_imgs.doSwitch(0, 500);
+    });
+/*
     $("#img-prev").click(function () {
         switch_demo_imgs.doSwitch(0, 500);
     });
     $("#img-next").click(function () {
         switch_demo_imgs.doSwitch(1, 500);
     });
-
+*/
 
     var getPackageInfo = function (platform) {
         $.ajax({
