@@ -24,18 +24,10 @@ $(document).ready(function () {
     switch_demo_imgs = new SwitchImgs("img-misc-wrap", 960, 499);
     switch_demo_imgs.run();
 
-    $('.misc-show').hover(function (ev) {
-        switch_demo_imgs.stop();
-    }, function (ev) {
-        switch_demo_imgs.run();
-    });
-
-    $("#img-prev").click(function () {
-        switch_demo_imgs.doSwitch(0, 500);
-    });
-    $("#img-next").click(function () {
-        switch_demo_imgs.doSwitch(1, 500);
-    });
+    $('#main-plugin-wrap').on('mouseover', '.misc-show', function () { switch_demo_imgs.stop(); });
+    $('#main-plugin-wrap').on('mouseout', '.misc-show', function () { switch_demo_imgs.run(); });
+    $('#main-plugin-wrap').on('click', '#img-prev', function () { switch_demo_imgs.doSwitch(0, 500); });
+    $('#main-plugin-wrap').on('click', '#img-next', function () { switch_demo_imgs.doSwitch(1, 500); });
 
 });
 

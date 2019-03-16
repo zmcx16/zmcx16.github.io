@@ -135,29 +135,10 @@ $(document).ready(function () {
     switch_imgs_random.run();
     switch_demo_imgs.run();
 
-
-    
-
-    $('.manga-show-2').hover(function (ev) {
-        switch_demo_imgs.stop();
-    }, function (ev) {
-        switch_demo_imgs.run();
-    });
-
-    /*
-    $("#img-prev").click(function () {
-        switch_demo_imgs.doSwitch(0, 500);
-    });
-    $("#img-next").click(function () {
-        switch_demo_imgs.doSwitch(1, 500);
-    });
-    */
-
-    console.log("test dynamic binding event");
-
+    $('#main-plugin-wrap').on('mouseover', '.manga-show-2', function () { switch_demo_imgs.stop(); });
+    $('#main-plugin-wrap').on('mouseout', '.manga-show-2', function () { switch_demo_imgs.run(); });
     $('#main-plugin-wrap').on('click', '#img-prev', function () { switch_demo_imgs.doSwitch(0, 500); });
     $('#main-plugin-wrap').on('click', '#img-next', function () { switch_demo_imgs.doSwitch(1, 500); });
-
 
     var getPackageInfo = function (platform) {
         $.ajax({
