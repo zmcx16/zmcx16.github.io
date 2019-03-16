@@ -141,12 +141,13 @@ $(document).ready(function () {
         switch_demo_imgs.run();
     });
 
-    $('body').on('click', '#img-prev', function (e) {
+    $("#img-prev").click(function () {
         switch_demo_imgs.doSwitch(0, 500);
     });
-    $('body').on('click', '#img-next', function (e) {
+    $("#img-next").click(function () {
         switch_demo_imgs.doSwitch(1, 500);
     });
+
 
     var getPackageInfo = function (platform) {
         $.ajax({
