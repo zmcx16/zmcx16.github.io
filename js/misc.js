@@ -30,12 +30,21 @@ $(document).ready(function () {
         switch_demo_imgs.run();
     });
 
-    $("#img-prev").click(function () {
+    $('body').on('click', '#img-prev', function (e){
         switch_demo_imgs.doSwitch(0, 500);
+    });
+    $('body').on('click', '#img-next', function (e) {
+        switch_demo_imgs.doSwitch(1, 500);
+    });
+
+    /*
+    $("#img-prev").click(function () {
+        
     });
     $("#img-next").click(function () {
         switch_demo_imgs.doSwitch(1, 500);
     });
+    */
 });
 
 
