@@ -135,6 +135,9 @@ $(document).ready(function () {
     switch_imgs_random.run();
     switch_demo_imgs.run();
 
+    $('#main-plugin-wrap').on('mouseover', '.manga-show', function () { switch_imgs_random.stop(); });
+    $('#main-plugin-wrap').on('mouseout', '.manga-show', function () { switch_imgs_random.run(); });
+
     $('#main-plugin-wrap').on('mouseover', '.manga-show-2', function () { switch_demo_imgs.stop(); });
     $('#main-plugin-wrap').on('mouseout', '.manga-show-2', function () { switch_demo_imgs.run(); });
     $('#main-plugin-wrap').on('click', '#img-prev', function () { switch_demo_imgs.doSwitch(0, 500); });
