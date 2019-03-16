@@ -38,10 +38,6 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/sideprojects.css">
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
-setBanner('zmcx16\'s Side Projects', 'darkorange', ['這個網站是某宅宅工程師亂點技能樹下的產物', '認真說起來, 做網站最麻煩的總是素材阿...']);
-
-loadScripts(["js/projects.js", "js/particles.js"], 0);
-
 var canvas_timeId = 0;
 
 function canvasProjectContainer() {
@@ -55,7 +51,10 @@ function canvasProjectContainer() {
 
         clearInterval(canvas_timeId);
     }
-
 }  
 
-canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+$(document).ready(function () {
+    setBanner('zmcx16\'s Side Projects', 'darkorange', ['這個網站是某宅宅工程師亂點技能樹下的產物', '認真說起來, 做網站最麻煩的總是素材阿...']);
+    loadScripts(["js/projects.js", "js/particles.js"], 0);
+    canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+});

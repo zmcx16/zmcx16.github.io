@@ -122,63 +122,70 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
-setBanner('MahoMangaDownloader', 'cornflowerblue', ['下載漫畫資源的小工具', '由於特定網站會鎖下載器流量, 請小量使用', '看到喜歡的漫畫作品請以購買支持原作者']);
+var switch_imgs_random = 0;
+var switch_demo_imgs = 0;
 
-var switch_imgs_random = new SwitchImgsRandom("manga-show");
-switch_imgs_random.run();
+$(document).ready(function () {
 
+    setBanner('MahoMangaDownloader', 'cornflowerblue', ['下載漫畫資源的小工具', '由於特定網站會鎖下載器流量, 請小量使用', '看到喜歡的漫畫作品請以購買支持原作者']);
 
-var switch_demo_imgs = new SwitchImgs("img-manga-2-wrap", 960, 499);
-switch_demo_imgs.run();
+    var switch_imgs_random = new SwitchImgsRandom("manga-show");
+    var switch_demo_imgs = new SwitchImgs("img-manga-2-wrap", 960, 499);
 
-$('.manga-show-2').hover(function (ev) {
-    switch_demo_imgs.stop();
-}, function (ev) {
+    switch_imgs_random.run();
     switch_demo_imgs.run();
-});
 
-$("#img-prev").click(function () {
-    switch_demo_imgs.doSwitch(0, 500);
-});
-$("#img-next").click(function () {
-    switch_demo_imgs.doSwitch(1, 500);
-});
+    $('.manga-show-2').hover(function (ev) {
+        switch_demo_imgs.stop();
+    }, function (ev) {
+        switch_demo_imgs.run();
+    });
+
+    $("#img-prev").click(function () {
+        switch_demo_imgs.doSwitch(0, 500);
+    });
+    $("#img-next").click(function () {
+        switch_demo_imgs.doSwitch(1, 500);
+    });
 
 
-var getPackageInfo = function (platform) {
+    var getPackageInfo = function (platform) {
+        $.ajax({
+            url: 'https://zmcx16.moe/api/MahoManga/Query' + platform,
+            async: true,
+            success: function (data, textStatus, xhr) {
+                var resp_data = JSON.parse(data);
+                if (resp_data) {
+                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
+                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
+                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
+                }
+                else {
+                    console.log('get ' + platform + ' package info failed: ' + xhr);
+                }
+            },
+            timeout: 10000
+        });
+
+    };
+
+    getPackageInfo("X64");
+    getPackageInfo("X86");
+
     $.ajax({
-        url: 'https://zmcx16.moe/api/MahoManga/Query' + platform,
+        url: 'https://zmcx16.moe/api/MahoManga/QueryVersion',
         async: true,
+        contentType: 'text/plain',
         success: function (data, textStatus, xhr) {
-            var resp_data = JSON.parse(data);
-            if (resp_data) {
-                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
-                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
-                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
+            if (data) {
+                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{Version}", "Ver" + data);
             }
             else {
-                console.log('get ' + platform + ' package info failed: ' + xhr);
+                console.log('get version failed: ' + xhr);
             }
         },
         timeout: 10000
     });    
+});
 
-};
 
-getPackageInfo("X64");
-getPackageInfo("X86");
-
-$.ajax({
-    url: 'https://zmcx16.moe/api/MahoManga/QueryVersion',
-    async: true,
-    contentType: 'text/plain',
-    success: function (data, textStatus, xhr) {
-        if (data) {
-            document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{Version}", "Ver" + data);
-        }
-        else {
-            console.log('get version failed: ' + xhr);
-        }
-    },
-    timeout: 10000
-});    
