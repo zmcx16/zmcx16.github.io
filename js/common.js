@@ -38,6 +38,7 @@ function setBanner(topic, color, list_descr){
 class SwitchImgsRandom {
     constructor(name) {
         this.name = name;
+        this.timeId = 0;
         this.img_count = $("." + this.name).children().length;
         var demo_img_now = Math.floor(Math.random() * this.img_count)
         $("." + this.name).attr('index_now', demo_img_now);
@@ -82,8 +83,12 @@ class SwitchImgsRandom {
         });
     }
 
-    run(interval = 7000, speed = 800, opacity = 0.05) {
-        setInterval(this.doSwitch.bind(this, speed, opacity), interval);
+    run(interval = 5000, speed = 800, opacity = 0.05) {
+        this.timeId = setInterval(this.doSwitch.bind(this, speed, opacity), interval);
+    }
+
+    stop() {
+        clearInterval(this.timeId);
     }
 }
 
