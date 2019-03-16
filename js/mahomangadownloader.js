@@ -141,6 +141,8 @@ $(document).ready(function () {
         switch_demo_imgs.run();
     });
 
+    console.log($("#img-prev"));
+
     $("#img-prev").click(function () {
         switch_demo_imgs.doSwitch(0, 500);
     });
@@ -188,3 +190,4 @@ $(document).ready(function () {
     });    
 });
 
+//# sourceURL=js/mahomangadownloader.js
