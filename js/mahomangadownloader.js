@@ -24,13 +24,13 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
     '        <p>希望MahoMangaDownloader下載器能幫助使用者改善線上漫畫的閱覽體驗, 如果試看的漫畫您非常喜歡, 也請麻煩購買正版支持原作者, 讓作家們能繼續創造出下一部更棒的作品。</p>' +
     '    </div>' +
     '    <div class="manga-show">' +
-    '        <img class="img-manga" id="img-manga1" src="/img/MahoMangaDownloader/manga1.png" />' +
-    '        <img class="img-manga" id="img-manga2" src="/img/MahoMangaDownloader/manga2.png" />' +
-    '        <img class="img-manga" id="img-manga3" src="/img/MahoMangaDownloader/manga3.png" />' +
-    '        <img class="img-manga" id="img-manga4" src="/img/MahoMangaDownloader/manga4.png" />' +
-    '        <img class="img-manga" id="img-manga5" src="/img/MahoMangaDownloader/manga5.png" />' +
-    '        <img class="img-manga" id="img-manga6" src="/img/MahoMangaDownloader/manga6.png" />' +
-    '        <img class="img-manga" id="img-manga7" src="/img/MahoMangaDownloader/manga7.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga1.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga2.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga3.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga4.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga5.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga6.png" />' +
+    '        <img class="img-manga" src="/img/MahoMangaDownloader/demo1/manga7.png" />' +
     '    </div>' +
     '    <div class="download-link">' +
     '        <h2>下載 MahoMangaDownloader{Version}</h2>' +
@@ -38,6 +38,23 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
     '            <li><a class="link" target="_blank" href="{FilePathX64}"><img src="/img/MahoMangaDownloader/DownloadStartButton_30x30.png"><p>{FileNameX64} ({FileSizeX64} MB)</p></a></li>' +
     '            <li><a class="link" target="_blank" href="{FilePathX86}"><img src="/img/MahoMangaDownloader/DownloadStartButton_30x30.png"><p>{FileNameX86} ({FileSizeX86} MB)</p></a></li>' +
     '        </ul>' +
+    '    </div>' +
+    '    <div class="manga-show-2">' +
+    '        <div class="img-arrow-wrap">' +
+    '            <div class="img-arrow-wrap-2">' +
+    '                <img class="img-arrow" id="img-prev" src="/img/prev.png" />' +
+    '                <img class="img-arrow" id="img-next" src="/img/next.png" />' +
+    '            </div>' +
+    '        </div>' +
+    '        <div class="img-manga-2-wrap">' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga1.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga2.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga3.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga4.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga5.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga6.png" />' +
+    '            <img class="img-manga-2" src="/img/MahoMangaDownloader/demo2/manga7.png" />' +
+    '        </div>' +
     '    </div>' +
     '    <div class="detail">' +
     '        <h2>下載器說明</h2>' +
@@ -107,27 +124,26 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 setBanner('MahoMangaDownloader', 'cornflowerblue', ['下載漫畫資源的小工具', '由於特定網站會鎖下載器流量, 請小量使用', '看到喜歡的漫畫作品請以購買支持原作者']);
 
-const img_num = 7;
-var demo_img_now = Math.floor(Math.random() * img_num) + 1;
-document.getElementById("img-manga" + demo_img_now).style = "position:relative; opacity:1; display: block";
+var switch_imgs_random = new SwitchImgsRandom("manga-show");
+switch_imgs_random.run();
 
-function changeMangaImg(){
 
-    var index=0;
-    do {
-        index = Math.floor(Math.random() * img_num) + 1;
-    } while (index == demo_img_now);
+var switch_demo_imgs = new SwitchImgs("img-manga-2-wrap", 960, 499);
+switch_demo_imgs.run();
 
-    $("#img-manga" + demo_img_now).fadeTo(800, 0.05, function () {
-        document.getElementById("img-manga" + demo_img_now).style = "position:absolute; opacity:0; display: none";
-        document.getElementById("img-manga" + index).style = "position:relative; opacity:0.05; display: block";
-        demo_img_now = index;
-        $("#img-manga" + demo_img_now).fadeTo(800, 1);
-    });
-    
-}
+$('.manga-show-2').hover(function (ev) {
+    switch_demo_imgs.stop();
+}, function (ev) {
+    switch_demo_imgs.run();
+});
 
-setInterval(changeMangaImg, 7000);
+$("#img-prev").click(function () {
+    switch_demo_imgs.doSwitch(0, 500);
+});
+$("#img-next").click(function () {
+    switch_demo_imgs.doSwitch(1, 500);
+});
+
 
 var getPackageInfo = function (platform) {
     $.ajax({
