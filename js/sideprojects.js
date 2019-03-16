@@ -58,3 +58,5 @@ $(document).ready(function () {
     loadScripts(["js/projects.js", "js/particles.js"], 0);
     canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
 });
+
+//# sourceURL=js/sideprojects.js
