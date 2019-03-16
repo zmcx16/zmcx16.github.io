@@ -8,41 +8,43 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/misc.css">' +
     '                <img class="img-arrow" id="img-next" src="/img/next.png" />' +
     '            </div>     ' +
     '        </div>' +
-    '        <img class="img-misc" id="img-misc0" src="/img/MahoMangaDownloader/manga1.png" />' +
-    '        <img class="img-misc" id="img-misc1" src="/img/MahoMangaDownloader/manga2.png" />' +
-    '        <img class="img-misc" id="img-misc2" src="/img/MahoMangaDownloader/manga3.png" />' +
+    '        <div class="img-misc-wrap">' +
+    '            <img class="img-misc" id="img-misc0" src="/img/MahoMangaDownloader/manga1.png" />' +
+    '            <img class="img-misc" id="img-misc1" src="/img/MahoMangaDownloader/manga2.png" />' +
+    '            <img class="img-misc" id="img-misc2" src="/img/MahoMangaDownloader/manga3.png" />' +
+    '        </div>' +
     '    </div>' +
     '</div>';
-
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 
-var switch_demo_imgs = new switchImgs("img-misc", 960, 499, 3);
-
-class switchImgs {
-    constructor(base_img_id, img_width, img_height, img_count) {
-        this.base_img_id = base_img_id;
+class SwitchImgs {
+    constructor(name, img_width, img_height) {
+        this.name = name;
         this.img_width = img_width;
         this.img_height = img_height;
-        this.img_count = img_count;
-
+        this.img_count = $("." + name).children().length;
         for (var i = 0; i < this.img_count; i++) {
+            var img = $("." + this.name).children()[i];
             if (i < this.img_count - 1) {
-                document.getElementById(base_img_id + i).style = "top:" + this.img_height * i * -1 + "px; left:" + this.img_width  * i + "px";
+                $(img).css("left", this.img_width * i + "px");
+                
             }
             else {
-                document.getElementById(base_img_id + i).style = "top:" + this.img_height * i * -1 + "px; left:" + -1 * this.img_width  + "px";
+                $(img).css("left", -1 * this.img_width + "px");
             }
         }  
     }
 
-    switch(turn_left=1, speed=500) {
+    doSwitch(turn_left=1, speed=500) {
 
+        var imgs = $("." + this.name).children();
         for (var i = 0; i < this.img_count; i++)
         {
             var offset = 0;
-            var left_now = parseInt($("#" + this.base_img_id + i).css("left"));
+            var left_now = parseInt($(imgs[i]).css("left"));
+            
             if( turn_left){
                 if (left_now >= this.img_width * (this.img_count-1-1)){
                     offset = -1 * this.img_width;
@@ -51,9 +53,9 @@ class switchImgs {
                 }
 
                 if (left_now == -1 * this.img_width || left_now == 0){
-                    $("#" + this.base_img_id + i).animate({left: offset + "px"} , speed);
+                    $(imgs[i]).animate({left: offset + "px"} , speed);
                 }else{
-                    document.getElementById(this.base_img_id + i).style = "top:" + this.img_height * i *-1 + "px; left:" + offset + "px";
+                    $(imgs[i]).css("left", offset + "px");
                 }
                 
             }else{
@@ -64,9 +66,9 @@ class switchImgs {
                 }
 
                 if (left_now == 0 || left_now == this.img_width){
-                    $("#" + this.base_img_id + i).animate({left: offset + "px"} , speed);
+                    $(imgs[i]).animate({left: offset + "px"} , speed);
                 }else{
-                    document.getElementById(this.base_img_id + i).style = "top:" + this.img_height * i *-1 + "px; left:" + offset + "px";
+                    $(imgs[i]).css("left", offset + "px");
                 }          
             }
             
@@ -75,9 +77,12 @@ class switchImgs {
 }
 
 
+var switch_demo_imgs = new SwitchImgs("img-misc-wrap", 960, 499);
+
+
 $("#img-prev").click(function () {
-    switch_demo_imgs.switch(0, 500);
+    switch_demo_imgs.doSwitch(0, 500);
 });
 $("#img-next").click(function () {
-    switch_demo_imgs.switch(1, 500);
+    switch_demo_imgs.doSwitch(1, 500);
 });

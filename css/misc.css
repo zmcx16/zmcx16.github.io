@@ -53,7 +53,10 @@
     cursor: pointer;
 }
 
+.main-misc .img-misc-wrap{
+    position: relative;
+}
 
 .main-misc .img-misc{
-    position: relative;
+    position: absolute;
 }
