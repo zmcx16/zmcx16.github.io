@@ -37,14 +37,6 @@ $(document).ready(function () {
         switch_demo_imgs.doSwitch(1, 500);
     });
 
-    /*
-    $("#img-prev").click(function () {
-        
-    });
-    $("#img-next").click(function () {
-        switch_demo_imgs.doSwitch(1, 500);
-    });
-    */
 });
 
 

@@ -129,8 +129,8 @@ $(document).ready(function () {
 
     setBanner('MahoMangaDownloader', 'cornflowerblue', ['下載漫畫資源的小工具', '由於特定網站會鎖下載器流量, 請小量使用', '看到喜歡的漫畫作品請以購買支持原作者']);
 
-    var switch_imgs_random = new SwitchImgsRandom("manga-show");
-    var switch_demo_imgs = new SwitchImgs("img-manga-2-wrap", 960, 499);
+    switch_imgs_random = new SwitchImgsRandom("manga-show");
+    switch_demo_imgs = new SwitchImgs("img-manga-2-wrap", 960, 499);
 
     switch_imgs_random.run();
     switch_demo_imgs.run();
@@ -187,5 +187,4 @@ $(document).ready(function () {
         timeout: 10000
     });    
 });
-
 
