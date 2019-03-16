@@ -109,6 +109,12 @@ class SwitchImgs {
 
     doSwitch(next = 1, speed = 500) {
 
+        for (var i = 0; i < this.img_count; i++) {
+            if (parseInt($($("." + this.name).children()[i]).css("left")) % this.img_width != 0){
+                return;
+            }
+        }
+
         var imgs = $("." + this.name).children();
         for (var i = 0; i < this.img_count; i++) {
             var offset = 0;
