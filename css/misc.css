@@ -1,16 +1,72 @@
+
+.tab-page ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.tab-page ul.tabs {
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+.tab-page ul.tabs li {
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+    border: 1px solid #999;
+    border-left: none;
+    background: #e1e1e1;
+}
+.tab-page ul.tabs li a {
+    display: block;
+    padding: 0 20px;
+    color: #000;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.tab-page ul.tabs li a:hover {
+    background: #ccc;
+}
+.tab-page ul.tabs li.active  {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+.tab-page ul.tabs li.active a:hover {
+    background: #fff;
+}
+.tab-page div.tab_container {
+    clear: left;
+    width: 100%;
+    border: 1px solid #999;
+    border-top: none;
+    background: #fff;
+}
+.tab-page div.tab_container .tab_content {
+    padding: 20px;
+}
+.tab-page div.tab_container .tab_content h2 {
+    margin: 0 0 20px;
+}
+
 .main-misc > div{
     width: 960px;
     margin: 60px auto;
 }
 
-.main-misc .misc-show{
+.main-misc .switch-imgs-show{
     height: 499px;
     overflow: hidden;
 }
 
 .main-misc .img-arrow-wrap{
     position: absolute;
-    width: inherit;
+    width: 960px;
     height: inherit;
 }
 
@@ -19,11 +75,11 @@
     top: 50%;
 }
 
-.main-misc .misc-show:hover .img-arrow{ 
+.main-misc .switch-imgs-show:hover .img-arrow-prev, .main-misc .switch-imgs-show:hover  .img-arrow-next{ 
     opacity: 0.5;
 }
 
-.main-misc .img-arrow{
+.main-misc .img-arrow-prev, .main-misc .img-arrow-next{
     z-index: 10;
     position: sticky;
     opacity: 0;
@@ -35,24 +91,25 @@
     transform: translate(0, -50%);
 }
 
-.main-misc #img-prev{
+.main-misc .img-arrow-prev{
     float:left;
 }
 
-.main-misc #img-prev:hover{ 
+.main-misc #img-prev-0:hover{ 
     opacity: 0.9;
     cursor: pointer;
 }
 
-.main-misc #img-next{
+.main-misc .img-arrow-next{
     float:right;
 }
 
-.main-misc #img-next:hover{ 
+.main-misc #img-next-0:hover{ 
     opacity: 0.9;
     cursor: pointer;
 }
 
+/* customize */
 .main-misc .img-misc-wrap{
     position: relative;
 }
@@ -62,3 +119,32 @@
     cursor: pointer;
 }
 
+
+.main-misc .img-map-editor-wrap{
+    position: relative;
+}
+
+
+.main-misc #img-prev-map-editor:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc #img-next-map-editor:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc .img-map-editor{
+    position: absolute;
+}
+
+.main-misc .image-show-map-editor{
+    height: 715px;
+    overflow: hidden;
+}
+
+.main-misc #img-next-map-editor {    /*replace left with fixed width*/
+    float: none;    
+    left: 866px;                     /*960 -20 -20  -55 +1*/
+}
