@@ -35,7 +35,11 @@ oss_projects['OpenAI-Gym-GongZhu'] = {
   position: 6,
   background: 'OpenAI-Gym-GongZhu_295x150.jpg'
 };
-
+oss_projects['Misc'] = {
+  featured: true,
+  position: 7,
+  background: 'Misc_295x150.jpg'
+};
 
 // Starred
 oss_projects['electronjs.org'] = {
@@ -315,6 +319,7 @@ Repository.prototype.bottomLinks = function () {
 // *** loader *********************
 var repos_completed_count = 3;
 var repos_loaded_count = 0;
+var repos_loaded_completed = false;
 
 function getGithubData(url, local_file_path, loadRepositoryData, loadRepositoryDataFromJson) {
   $.ajax({
@@ -359,25 +364,38 @@ function loadRepositoryDataFromJson(local_file_path, loadRepositoryData) {
 
 function loadRepositoryData(repoData) {
 
-  var org = new Organization('zmcx16');
-  org.repos = [];
-
   repoData.forEach(function (repoDatum) {
     org.repos.push(new Repository(repoDatum));
   });
 
-  org.addReposToContainer($('.projects .featured'), org.featuredRepos());
-  org.addReposToContainer($('.projects .not-featured .AI_ML'), org.regularRepos('AI_ML'));
-  org.addReposToContainer($('.projects .not-featured .Trade'), org.regularRepos('Trade'));
-  org.addReposToContainer($('.projects .not-featured .Application_Framework'), org.regularRepos('Application_Framework'));
-
   repos_loaded_count++;
 }
 
+var org = new Organization('zmcx16');
+org.repos = [];
+var load_repos_timeId=0;
+
+function loadAllRepositoryData() {
+
+  if( repos_loaded_count >= repos_completed_count){
+    
+    org.addReposToContainer($('.projects .featured'), org.featuredRepos());
+    org.addReposToContainer($('.projects .not-featured .AI_ML'), org.regularRepos('AI_ML'));
+    org.addReposToContainer($('.projects .not-featured .Trade'), org.regularRepos('Trade'));
+    org.addReposToContainer($('.projects .not-featured .Application_Framework'), org.regularRepos('Application_Framework'));
+
+    repos_loaded_completed = true;
+    clearInterval(load_repos_timeId);
+  }
+}
+
 $(document).ready(function () {
+
   loadRepositoryDataFromJson('zmcx16_virtual_repos.json', loadRepositoryData);
   getGithubData('https://api.github.com/users/zmcx16/repos', 'zmcx16_repos.json', loadRepositoryData, loadRepositoryDataFromJson);
   getGithubData('https://api.github.com/users/zmcx16/starred', 'zmcx16_starred.json', loadRepositoryData, loadRepositoryDataFromJson);
+
+  load_repos_timeId = setInterval(function () { loadAllRepositoryData() }, 100);
 });
 // ********************************
 

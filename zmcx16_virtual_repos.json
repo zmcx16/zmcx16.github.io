@@ -9,5 +9,16 @@
       "fork": false,
       "watchers": "NaN",
       "forks": "NaN"
+   },
+   {
+      "name": "Misc",
+      "language": "Nan",
+      "html_url": "./",
+      "new_tab": false,
+      "on_click": "return RedirectPage(\"misc\")",
+      "description": "When I was young...",
+      "fork": false,
+      "watchers": "NaN",
+      "forks": "NaN"
    }
 ]
