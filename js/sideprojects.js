@@ -42,7 +42,7 @@ var canvas_timeId = 0;
 
 function canvasProjectContainer() {
 
-    if (typeof repos_loaded_count !== 'undefined' && repos_loaded_count >= repos_completed_count && document.readyState == 'complete') {
+    if (typeof repos_loaded_completed !== 'undefined' && repos_loaded_completed && document.readyState == 'complete') {
 
         document.getElementById("main-container-body").style.height = document.querySelector('.main-container').clientHeight + 'px';
         particlesJS.load('main-container-body', 'particles.json', function () {

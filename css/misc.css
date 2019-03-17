@@ -120,6 +120,7 @@
 }
 
 
+/* map-editor */
 .main-misc .img-map-editor-wrap{
     position: relative;
 }
@@ -148,3 +149,65 @@
     float: none;    
     left: 866px;                     /*960 -20 -20  -55 +1*/
 }
+
+/* table-game */
+.main-misc .img-table-game-wrap{
+    position: relative;
+}
+
+
+.main-misc #img-prev-table-game:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc #img-next-table-game:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc .img-table-game{
+    position: absolute;
+}
+
+.main-misc .image-show-table-game{
+    height: 715px;
+    overflow: hidden;
+}
+
+.main-misc #img-next-table-game {    /*replace left with fixed width*/
+    float: none;    
+    left: 866px;                     /*960 -20 -20  -55 +1*/
+}
+
+
+/* sr-song */
+.main-misc .img-sr-song-wrap{
+    position: relative;
+}
+
+
+.main-misc #img-prev-sr-song:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc #img-next-sr-song:hover{ 
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.main-misc .img-sr-song{
+    position: absolute;
+}
+
+.main-misc .image-show-sr-song{
+    height: 715px;
+    overflow: hidden;
+}
+
+.main-misc #img-next-sr-song {    /*replace left with fixed width*/
+    float: none;    
+    left: 866px;                     /*960 -20 -20  -55 +1*/
+}
+
