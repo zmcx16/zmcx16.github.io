@@ -21,8 +21,9 @@ oss_projects['MemoOffVocabulary'] = {
   background: 'MemoOffVocabulary_295x150.jpg'
 };
 oss_projects['zmcx16.github.io'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   featured: true,
-  position: 3,
+  position: 3, 
   background: 'zmcx16.github.io_295x150.jpg'
 };
 oss_projects['OpenAI-Gym-Hearts'] = {
