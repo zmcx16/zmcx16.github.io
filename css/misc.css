@@ -59,6 +59,19 @@
     margin: 60px auto;
 }
 
+.main-misc .title{
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 150px;
+}
+
+.main-misc .title-img{
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    margin-top: 150px;
+}
+
 .main-misc .switch-imgs-show{
     height: 499px;
     overflow: hidden;
