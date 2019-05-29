@@ -2,43 +2,49 @@
 oss_projects = {};
 
 // Side Projects
-oss_projects['AxisTradeCult'] = {
-  blog_post: 'https://blog.zmcx16.moe/search/label/AxisTradeCult',
-  featured: true,
-  position: 2,
-  background: 'AxisTradeCult_295x150.jpg'
-};
 oss_projects['MahoMangaDownloader'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MahoMangaDownloader',
   featured: true,
   position: 1,
   background: 'MahoMangaDownloader_295x150.jpg'
 };
-oss_projects['MemoOffVocabulary'] = {
-  blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
+oss_projects['ChaldeaStockObservatory'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/ChaldeaStockObservatory',
   featured: true,
-  position: 4,
-  background: 'MemoOffVocabulary_295x150.jpg'
+  position: 2,
+  background: 'ChaldeaStockObservatory_295x150.jpg'
+};
+oss_projects['AxisTradeCult'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/AxisTradeCult',
+  featured: true,
+  position: 3,
+  background: 'AxisTradeCult_295x150.jpg'
 };
 oss_projects['zmcx16.github.io'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   featured: true,
-  position: 3, 
+  position: 4,
   background: 'zmcx16.github.io_295x150.jpg'
+};
+oss_projects['MemoOffVocabulary'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
+  featured: true,
+  position: 5,
+  background: 'MemoOffVocabulary_295x150.jpg'
 };
 oss_projects['OpenAI-Gym-Hearts'] = {
   featured: true,
-  position: 5,
+  position: 6,
   background: 'OpenAI-Gym-Hearts_295x150.jpg'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
-  position: 6,
+  position: 7,
   background: 'OpenAI-Gym-GongZhu_295x150.jpg'
 };
 oss_projects['Misc'] = {
   featured: true,
-  position: 7,
+  position: 8,
   background: 'Misc_295x150.jpg'
 };
 
