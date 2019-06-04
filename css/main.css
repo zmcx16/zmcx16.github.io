@@ -53,6 +53,15 @@ h3 a i {
 .top-shelf-grey .container {
   height: 240px;
   width: 960px;
+  font-family: 'Comic Sans', 'Comic Sans MS';
+}
+
+.bullet-list-round > li{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: Microsoft JhengHei;
+  text-shadow: -1px 0 #f0f3f8, 0 1px #f0f3f8, 1px 0 #f0f3f8, 0 -1px #f5f5f1;
+  margin-bottom: 10px;
 }
 
 .borderless .footer {
