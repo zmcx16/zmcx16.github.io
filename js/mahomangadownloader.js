@@ -61,12 +61,12 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '        <div class="support-websites">'+
 '            <h3>支援網站</h3>'+
 '            <ul class=\'support-list\'>'+
-'				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.dm5.com/">http://www.dm5.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.manhuagui.com/">http://www.manhuagui.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.huhudm.com/">http://www.huhudm.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://99.hhxxee.com/">http://99.hhxxee.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.comicbus.com/">http://www.comicbus.com/</a></li>'+
+'				 <li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://nhentai.net/">https://nhentai.net/</a></li>'+
