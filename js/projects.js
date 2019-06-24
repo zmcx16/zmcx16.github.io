@@ -399,8 +399,8 @@ function loadAllRepositoryData() {
 $(document).ready(function () {
 
   loadRepositoryDataFromJson('zmcx16_virtual_repos.json', loadRepositoryData);
-  getGithubData('https://api.github.com/users/zmcx16/repos', 'zmcx16_repos.json', loadRepositoryData, loadRepositoryDataFromJson);
-  getGithubData('https://api.github.com/users/zmcx16/starred', 'zmcx16_starred.json', loadRepositoryData, loadRepositoryDataFromJson);
+  getGithubData('https://api.github.com/users/zmcx16/repos?per_page=100', 'zmcx16_repos.json', loadRepositoryData, loadRepositoryDataFromJson);
+  getGithubData('https://api.github.com/users/zmcx16/starred?per_page=100', 'zmcx16_starred.json', loadRepositoryData, loadRepositoryDataFromJson);
 
   load_repos_timeId = setInterval(function () { loadAllRepositoryData() }, 100);
 });
