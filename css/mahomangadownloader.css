@@ -107,6 +107,7 @@
 .main-MahoMangaDownloader .img-arrow{
     z-index: 10;
     position: sticky;
+	position: -webkit-sticky;
     opacity: 0;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
