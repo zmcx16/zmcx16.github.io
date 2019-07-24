@@ -10498,7 +10498,7 @@ p.nobtm {
  */
 .top-shelf {
   width: 100%;
-  min-width: 1020px;
+  /*min-width: 1020px;*/
   position: relative;
   padding-top: 15px; }
   .top-shelf h1 {
