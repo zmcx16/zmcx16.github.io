@@ -66,10 +66,11 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '                <li><a class="link" target="_blank" href="http://www.huhudm.com/">http://www.huhudm.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://99.hhxxee.com/">http://99.hhxxee.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.comicbus.com/">http://www.comicbus.com/</a></li>'+
-'				 <li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>'+
-'                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://exhentai.org/"><s>https://exhentai.org/</s> (R.I.P.)</a></li>'+
 '                <li><a class="link" target="_blank" href="https://nhentai.net/">https://nhentai.net/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://www.wnacg.org/">https://www.wnacg.org/</a></li>'+
 '            </ul>'+
 '        </div>'+
 '        <div class="environment">'+
@@ -88,7 +89,7 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '                <li>支援搜尋功能, 搜尋過濾的關鍵字以及類別選單可在選單->設置的地方修改，預設為只輸出日文,中文,英文資源，分隔關鍵字為 \'|\' 字元。</li>'+
 '                <li>支援追蹤功能, 可將網址/關鍵字加入追蹤清單, 之後可掃描目前尚未下載的漫畫。</li>'+
 '                <li>語系: 中文/英文。</li>'+
-'                <li>要下載exhentai的資源, 必須先設置一次Cookie (選單->設置->ehentai->Cookie), 產生Cookie檔後即可下載EX資源, 之後皆不需重新設置。</li>'+
+'                <li>要下載EX熊貓的資源或是本身有付費帳號的用戶,必須先設置一次Cookie(選單->設置->ehentai->Cookie),產生Cookie檔後即可下載EX or 受限制的資源, 之後皆不需重新設置。</li>'+
 '                <li>支援版本檢查 & 線上更新。</li>'+
 '            </ol>'+
 '        </div>'+
