@@ -68,9 +68,11 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '                <li><a class="link" target="_blank" href="http://www.comicbus.com/">http://www.comicbus.com/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>'+
-'                <li><a class="link" target="_blank" href="https://exhentai.org/"><s>https://exhentai.org/</s> (R.I.P.)</a></li>'+
+'                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://nhentai.net/">https://nhentai.net/</a></li>'+
-'                <li><a class="link" target="_blank" href="https://www.wnacg.org/">https://www.wnacg.org/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://www.wnacg.org/">https://www.wnacg.org/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://hitomi.la/">https://hitomi.la/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://hentai-comic.com/">https://hentai-comic.com/</a></li>'+
 '            </ul>'+
 '        </div>'+
 '        <div class="environment">'+
