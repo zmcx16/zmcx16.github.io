@@ -67,6 +67,7 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '                <li><a class="link" target="_blank" href="http://99.hhxxee.com/">http://99.hhxxee.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="http://www.comicbus.com/">http://www.comicbus.com/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://www.comicun.com/">https://www.comicun.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://nhentai.net/">https://nhentai.net/</a></li>'+
@@ -122,7 +123,6 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '        </div>  '+
 '    </div>'+
 '</div>';
-
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
