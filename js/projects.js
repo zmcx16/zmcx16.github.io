@@ -26,31 +26,37 @@ oss_projects['PhotoMosaic-Artifact'] = {
   position: 4,
   background: 'PhotoMosaic-Artifact_295x150.jpg'
 };
-oss_projects['zmcx16.github.io'] = {
-  blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
+oss_projects['OpenAI-Gym-Hearts'] = {
   featured: true,
   position: 5,
-  background: 'zmcx16.github.io_295x150.jpg'
+  background: 'OpenAI-Gym-Hearts_295x150.jpg'
+};
+oss_projects['protobuf-deserializer'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/protobuf-deserializer%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
+  featured: true,
+  position: 6,
+  background: 'protobuf-deserializer_295x150.jpg'
 };
 oss_projects['MemoOffVocabulary'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
   featured: true,
-  position: 6,
+  position: 7,
   background: 'MemoOffVocabulary_295x150.jpg'
 };
-oss_projects['OpenAI-Gym-Hearts'] = {
+oss_projects['zmcx16.github.io'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   featured: true,
-  position: 7,
-  background: 'OpenAI-Gym-Hearts_295x150.jpg'
+  position: 8,
+  background: 'zmcx16.github.io_295x150.jpg'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
-  position: 8,
+  position: 9,
   background: 'OpenAI-Gym-GongZhu_295x150.jpg'
 };
 oss_projects['Misc'] = {
   featured: true,
-  position: 9,
+  position: 10,
   background: 'Misc_295x150.jpg'
 };
 
