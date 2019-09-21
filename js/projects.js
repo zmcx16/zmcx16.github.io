@@ -33,6 +33,7 @@ oss_projects['OpenAI-Gym-Hearts'] = {
 };
 oss_projects['protobuf-deserializer'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/protobuf-deserializer%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
+  online_website: 'https://protobuf-deserializer.zmcx16.moe',
   featured: true,
   position: 6,
   background: 'protobuf-deserializer_295x150.jpg'
@@ -45,6 +46,7 @@ oss_projects['MemoOffVocabulary'] = {
 };
 oss_projects['zmcx16.github.io'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
+  online_website: 'https://project.zmcx16.moe',
   featured: true,
   position: 8,
   background: 'zmcx16.github.io_295x150.jpg'
@@ -223,6 +225,12 @@ Repository.prototype.blogPost = function () {
   }
 }
 
+Repository.prototype.onlineWebsite = function () {
+  if (oss_projects[this.name] && oss_projects[this.name].online_website) {
+    return oss_projects[this.name].online_website;
+  }
+}
+
 Repository.prototype.featured = function () {
   return oss_projects[this.name] && oss_projects[this.name].featured;
 }
@@ -259,7 +267,13 @@ Repository.prototype.classes = function () {
 
 Repository.prototype.getBlogLink = function () {
   if (this.blogPost()) {
-    return '<a href="' + this.blogPost() + '" target="_blank"><span class="octicon octicon-file-text"></span> Blog post</a> ';
+    return '<a href="' + this.blogPost() + '" target="_blank" class="blog-post"><span class="octicon octicon-file-text"></span> Blog post</a> ';
+  }
+}
+
+Repository.prototype.getWebsiteLink = function () {
+  if (this.onlineWebsite()) {
+    return '<a href="' + this.onlineWebsite() + '" target="_blank" class="online-website"><span class="octicon octicon-global-text"></span> Online website</a> ';
   }
 }
 
@@ -303,16 +317,16 @@ Repository.prototype.repoContent = function () {
 
   var on_click = "";
 
-  var href = ' href="' + this.url + '"';
+  var vhref = ' vhref="' + this.url + '"';
   if (this.on_click) {
     on_click = " onclick='" + this.on_click + "'";
-    href = ' ';
+    vhref = ' ';
   }
 
   return [
-    '<div class="island-item">',
+    '<div class="island-item content">',
     '<h3>',
-    '<a ', href, tab, on_click, '>', this.headerLogo(), this.name, '</a>',
+    '<a ', vhref, tab, on_click, '>', this.headerLogo(), this.name, '</a>',
     '</h3>',
     '<div class="repo-info">',
     '<span><i class="octicon octicon-star"></i> ', this.watchers, '</span> ',
@@ -325,10 +339,11 @@ Repository.prototype.repoContent = function () {
 }
 
 Repository.prototype.bottomLinks = function () {
-  if (this.blogPost()) {
+  if (this.blogPost() || this.onlineWebsite()) {
     return [
       '<div class="island-item bottom-links">',
       this.getBlogLink(),
+      this.getWebsiteLink(),
       '</div>'
     ].join('');
   }
@@ -419,6 +434,17 @@ $(document).ready(function () {
 // ********************************
 
 // *** opensource-site ************
+function doClickIsland(){
+  if ($(this).attr('class').indexOf("bottom-links") > -1) { return }
+  console.log($(this));
+  var target = $(this).parent().find('h3 a');
+  if (target[0].outerHTML.indexOf('onclick') >= 0) {
+    target[0].onclick();
+  } else {
+    window.open(target.attr('vhref'), '_blank');
+  }
+}
+
 $(document).ready(function () {
   $('.titled-subnav a').click(function (e) {
     e.preventDefault();
@@ -431,19 +457,8 @@ $(document).ready(function () {
     $(container).show();
   });
 
-  $('body').on('click', '.project .island-item', function () {
-    if ($(this).attr('class').indexOf("bottom-links") > -1) { return }
-    var target = $(this).parent().find('h3 a')[0];
-    if (target.outerHTML.indexOf('onclick') >= 0) {
-      target.onclick();
-    } else {
-      window.open(target.href, '_blank');
-    }
-
-  });
-
-  $('body').on('click', '.project .bottom-links', function () {
-    window.open($(this).find('a')[0].href, '_blank');
-  });
+  $('body').on('click', '.project .island-item.featured-image', doClickIsland);
+  $('body').on('click', '.project .island-item.content', doClickIsland);
+  
 });
 // ********************************
