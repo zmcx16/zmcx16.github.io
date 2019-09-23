@@ -6,60 +6,70 @@ oss_projects['MahoMangaDownloader'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MahoMangaDownloader',
   featured: true,
   position: 1,
-  background: 'MahoMangaDownloader_295x150.jpg'
+  background: 'MahoMangaDownloader_295x150.jpg',
+  msg: '下載漫畫的小工具喔~'
 };
 oss_projects['ChaldeaStockObservatory'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/ChaldeaStockObservatory',
   featured: true,
   position: 2,
-  background: 'ChaldeaStockObservatory_295x150.jpg'
+  background: 'ChaldeaStockObservatory_295x150.jpg',
+  msg: '斯大可...是什麼啊?'
 };
 oss_projects['AxisTradeCult'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/AxisTradeCult',
   featured: true,
   position: 3,
-  background: 'AxisTradeCult_295x150.jpg'
+  background: 'AxisTradeCult_295x150.jpg',
+  msg: '聽說Qt很可怕, 是真的嗎?'
 };
 oss_projects['PhotoMosaic-Artifact'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/PhotoMosaic-Artifact',
   featured: true,
   position: 4,
-  background: 'PhotoMosaic-Artifact_295x150.jpg'
+  background: 'PhotoMosaic-Artifact_295x150.jpg',
+  msg: 'Photo Mosaic Artifact...中二病?'
 };
 oss_projects['OpenAI-Gym-Hearts'] = {
   featured: true,
   position: 5,
-  background: 'OpenAI-Gym-Hearts_295x150.jpg'
+  background: 'OpenAI-Gym-Hearts_295x150.jpg',
+  msg: '要一起玩牌嗎?'
 };
 oss_projects['protobuf-deserializer'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/protobuf-deserializer%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://protobuf-deserializer.zmcx16.moe',
   featured: true,
   position: 6,
-  background: 'protobuf-deserializer_295x150.jpg'
+  background: 'protobuf-deserializer_295x150.jpg',
+  msg: '好像很厲害?'
 };
 oss_projects['MemoOffVocabulary'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
   featured: true,
   position: 7,
-  background: 'MemoOffVocabulary_295x150.jpg'
+  background: 'MemoOffVocabulary_295x150.jpg',
+  msg: '要好好念書喔~'
 };
 oss_projects['zmcx16.github.io'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://project.zmcx16.moe',
   featured: true,
   position: 8,
-  background: 'zmcx16.github.io_295x150.jpg'
+  background: 'zmcx16.github.io_295x150.jpg',
+  msg: 'いらっしゃいませ~~~'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
   position: 9,
-  background: 'OpenAI-Gym-GongZhu_295x150.jpg'
+  background: 'OpenAI-Gym-GongZhu_295x150.jpg',
+  msg: '要一起玩牌嗎?'
 };
 oss_projects['Misc'] = {
   featured: true,
   position: 10,
-  background: 'Misc_295x150.jpg'
+  background: 'Misc_295x150.jpg',
+  msg: '聽說是某個大哥哥的黑歷史?'
 };
 
 // Starred
@@ -231,6 +241,12 @@ Repository.prototype.onlineWebsite = function () {
   }
 }
 
+Repository.prototype.msg = function () {
+  if (oss_projects[this.name] && oss_projects[this.name].msg) {
+    return oss_projects[this.name].msg;
+  }
+}
+
 Repository.prototype.featured = function () {
   return oss_projects[this.name] && oss_projects[this.name].featured;
 }
@@ -283,8 +299,13 @@ Repository.prototype.getContainer = function (index) {
     last = 'last-in-row'
   }
 
+  var msg = '';
+  if (this.msg()) {
+    msg = 'msg="' + this.msg() + '"';
+  }
+
   return [
-    '<div class="project island-light island-stack island ', this.language, ' ', this.classes(), ' ', last, '">',
+    '<div class="project island-light island-stack island ', this.language, ' ', this.classes(), ' ', last, '" ' + msg +'>',
     this.featuredImage(),
     this.repoContent(),
     this.bottomLinks(),
@@ -459,6 +480,17 @@ $(document).ready(function () {
 
   $('body').on('click', '.project .island-item.featured-image', doClickIsland);
   $('body').on('click', '.project .island-item.content', doClickIsland);
-  
+
+  $('body').on('mouseover', '.project', function () {
+    if ($(this).attr('msg')){
+      $('.message')[0].innerText = $(this).attr('msg');
+      $('.message').css('opacity', 1);
+    }
+  });
+
+  $('body').on('mouseleave', '.project', function () {
+    $('.message').css('opacity', 0);
+  });
+
 });
 // ********************************

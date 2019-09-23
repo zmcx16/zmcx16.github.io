@@ -1,0 +1,35 @@
+{
+    "mouseover": [
+        {
+            "selector": ".menu-header_link.homepage",
+            "text": ["聽說這個是叫烘焙幾"]
+        },
+        {
+            "selector": ".menu-header_link.github",
+            "text": ["多按一點星星我會很開心喔~"]
+        },
+        {
+            "selector": ".menu-header_link.blog",
+            "text": ["有問題歡迎到部落格留言喔~"]
+        },
+        {
+            "selector": ".menu-header_link.about-me",
+            "text": ["zmcx16大哥哥的個人檔案"]
+        },
+        {
+            "selector": ".menu-header_link.donate-me",
+            "text": ["抖內是好文明~~~"]
+        }
+    ],
+    "click": [
+        {
+            "selector": "#live2d",
+            "text": ["你…你在調皮，人家…人家就不幫你止血了！","Hentai！", "再摸的話我可要找警察叔叔了喔", "110嗎? 這裡有個調皮鬼一直在摸我", "警察叔叔, 就是這個人!", "你在想色色的事對不對?", ""]
+        }
+    ],
+    "auto":{
+		"interval": 10000,
+        "text": ["傲嬌是什麼?", "あのね あのね~", "こんにちは~", "こんばんは~", "おはよう~", "お疲れ様です~", "またやられた...", "ばかばか..."]
+    }
+   
+}
