@@ -217,3 +217,12 @@ ul.menu-header_drop-down-menu li:hover > ul {
   background-color: rgba(255,248,220, 0.877);
   box-shadow: 0 3px 15px 2px rgba(255,248,220,.4);
 }
+
+#live2d{
+  cursor: grab;
+}
+
+#live2d:active{
+  cursor: grabbing;
+}
+
