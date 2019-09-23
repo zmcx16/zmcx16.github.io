@@ -32,26 +32,31 @@ function initTips(){
             $.each(result.mouseover, function (index, tips){
                 $(tips.selector).mouseover(function (){
                     var text = tips.text;
-                    if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
+                    if(Array.isArray(tips.text)) 
+                        text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
                     text = text.renderTip({text: $(this).text()});
-                    showMessage(text, 3000);
+                    if (text != "")
+                        showMessage(text, 3000);
                 });
             });
             $.each(result.click, function (index, tips){
                 $(tips.selector).click(function (){
                     var text = tips.text;
-                    if(Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
-                    console.log($(this));
+                    if(Array.isArray(tips.text)) 
+                        text = tips.text[Math.floor(Math.random() * tips.text.length + 1)-1];
                     text = text.renderTip({text: $(this).text()});
-                    showMessage(text, 3000);
+                    if (text != "")
+                        showMessage(text, 3000);
                 });
             });
             kanban_chan_interval = setInterval(function () {
                 if ($('.message').css('opacity') === "0"){
                     var text = result.auto.text;
-                    if (Array.isArray(result.auto.text)) text = result.auto.text[Math.floor(Math.random() * result.auto.text.length + 1) - 1];
+                    if (Array.isArray(result.auto.text)) 
+                        text = result.auto.text[Math.floor(Math.random() * result.auto.text.length + 1) - 1];
                     text = text.renderTip({ text: $(this).text() });
-                    showMessage(text, 3000);
+                    if (text != "")
+                        showMessage(text, 3000);
                 }
             }, result.auto.interval);
         }
