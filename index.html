@@ -4,11 +4,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="og:image" content="/img/zmcx16.github.io.png" />
     <title>zmcx16's side projects</title>
-    <link rel="stylesheet" type="text/css" href="css/octicons.css">
-    <link rel="stylesheet" type="text/css" href="css/www.css">
-    <link rel="stylesheet" type="text/css" href="css/developers.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/starry_sky.css">
+    <link rel="stylesheet" type="text/css" href="css/octicons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/www.css"/>
+    <link rel="stylesheet" type="text/css" href="css/developers.css"/>
+    <link rel="stylesheet" href="live2d/css/live2d.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/starry_sky.css"/>
     <link rel="shortcut icon" href="favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/common.js"></script>
@@ -36,6 +37,10 @@
     </script>
   </head>
   <body class="ytype borderless">
+    <div id="landlord">
+      <div class="message" style="opacity:0"></div>
+      <canvas id="live2d" width="560" height="500" class="live2d"></canvas>
+    </div>
     <div id="wrap">
       <div class="menu-header" id="menu-header">
         <div class="menu-header-content">
@@ -43,7 +48,7 @@
           </a>
           <ul class="menu-header_drop-down-menu" id="menu-header_drop-down-menu">
             <li class="menu-header_item">
-              <a class="menu-header_link" href="./">Home</a>
+              <a class="menu-header_link homepage" href="./">Home</a>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">Hobbies</a>
@@ -63,10 +68,10 @@
               <a class="menu-header_link">Links</a>
 			  <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
 				<li class="menu-header_item">
-				  <a class="menu-header_link" target="_blank" href="https://github.com/zmcx16">GitHub</a>
+				  <a class="menu-header_link github" target="_blank" href="https://github.com/zmcx16">GitHub</a>
 				</li>
 				<li class="menu-header_item">
-				  <a class="menu-header_link" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
+				  <a class="menu-header_link blog" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
 				</li>
 			  </ul>
             </li>
@@ -74,10 +79,10 @@
               <a class="menu-header_link">About</a>
 			  <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
 				<li class="menu-header_item">
-				  <a class="menu-header_link" onclick="window.open('/about-about_me.html', 'about', 'width=610,height=270'); return false;">About Me</a>
+				  <a class="menu-header_link about-me" onclick="window.open('/about-about_me.html', 'about', 'width=610,height=270'); return false;">About Me</a>
 				</li>
 				<li class="menu-header_item">
-				  <a class="menu-header_link" href="./?page=about-donate">Donate</a>
+				  <a class="menu-header_link donate-me" href="./?page=about-donate">Donate</a>
 				</li>
 			  </ul>              
             </li>
@@ -126,5 +131,10 @@
 
       observer.observe(document.getElementById("menu-header"));
 
+  </script>
+  <script type="text/javascript" src="live2d/js/live2d.js"></script>
+  <script type="text/javascript" src="live2d/js/message.js"></script>
+  <script type="text/javascript">
+    loadlive2d("live2d", "/live2d/model/xiaoban/model.json");
   </script>
 </html>

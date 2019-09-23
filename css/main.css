@@ -19,24 +19,26 @@ h3 a i {
 }
 
 body{
-	background: mintcream;
+  background: mintcream;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .arrange--18 > .arrange_unit {
-    padding-left: 9px;
-    padding-right: 30px;
+  padding-left: 9px;
+  padding-right: 30px;
 }
 
 .header-nav_link, .header-nav_text {
-    color: rgba(255, 255, 255, 0.95);
-    display: block;
-    padding: 0 8px;
-    font-size: 15px;
-    line-height: 1.38462em;
-    font-weight: bold;
-    line-height: 30px;
-    text-shadow: 0 -1px 0 #760400;
-    cursor:pointer;
+  color: rgba(255, 255, 255, 0.95);
+  display: block;
+  padding: 0 8px;
+  font-size: 15px;
+  line-height: 1.38462em;
+  font-weight: bold;
+  line-height: 30px;
+  text-shadow: 0 -1px 0 #760400;
+  cursor:pointer;
 }
 
 .top-shelf .container {
@@ -69,10 +71,10 @@ body{
 }
 
 .borderless .footer {
-    width: 100%;
-    position: relative;
-    background: #111111;
-    border-top: 1px solid #ccccc8;
+  width: 100%;
+  position: relative;
+  background: #111111;
+  border-top: 1px solid #ccccc8;
 }
 
 .footer {
@@ -87,24 +89,24 @@ body{
 }
 
 .footer .city-landscape-img {
-    display: block;
-    margin: 0;
-    width: 100%;
-    height: 700px;
-    background: url(/img/happy_footer.png) no-repeat center bottom;
-    position: absolute;
-    top: 0;
-    left: 0;    
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 700px;
+  background: url(/img/happy_footer.png) no-repeat center bottom;
+  position: absolute;
+  top: 0;
+  left: 0;    
 }
 
 .footer .copyright {
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 670px;
-    left: 50%;
-    font-size: 14px;
-    color:#DDDDDD;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 670px;
+  left: 50%;
+  font-size: 14px;
+  color:#DDDDDD;
 }
 
 /* Octicon changes */
@@ -126,13 +128,13 @@ body{
 }
 
 .menu-header_logo{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    background-image: url(/img/zmcx16_logo_48x48.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position-y: 6px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-image: url(/img/zmcx16_logo_48x48.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-y: 6px;
 }
 
 .menu-header_logo:hover{
@@ -143,61 +145,75 @@ body{
 
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 ul.menu-header_drop-down-menu { 
-    display: inline-block;
-    font-family: Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    position: absolute;
-    top: 20px;
-    margin-left: 20px;
-    z-index: 10;
-    cursor:pointer;
+  display: inline-block;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  margin-left: 20px;
+  z-index: 10;
+  cursor:pointer;
 }
 
 ul.menu-header_drop-down-menu li {
-    position: relative;
-    white-space: nowrap;
-    min-width: 140px;
+  position: relative;
+  white-space: nowrap;
+  min-width: 140px;
 }
 
 ul.menu-header_drop-down-menu > li {
-    float: left; /* 只有第一層是靠左對齊*/
+  float: left; /* 只有第一層是靠左對齊*/
 }
 
 ul.menu-header_drop-down-menu a {
-    background-color: #126e7d;
-    color: rgb(255, 255, 255);
-    display: block;
-    padding: 0 30px;
-    text-decoration: none;
-    line-height: 37px;
+  background-color: #126e7d;
+  color: rgb(255, 255, 255);
+  display: block;
+  padding: 0 30px;
+  text-decoration: none;
+  line-height: 37px;
 }
 ul.menu-header_drop-down-menu a:hover { 
-    border-width:3px; 
-    border-bottom-style:solid;
-    border-color: rgb(255, 128, 0);
+  border-width:3px; 
+  border-bottom-style:solid;
+  border-color: rgb(255, 128, 0);
 }
 
 ul.menu-header_drop-down-menu li:hover > a { 
-    border-width:3px; 
-    border-bottom-style:solid;
-    border-color: rgb(255, 128, 0);
+  border-width:3px; 
+  border-bottom-style:solid;
+  border-color: rgb(255, 128, 0);
 }
 
 ul.menu-header_drop-down-menu_level2 li:hover > a { 
-    border-width:0px; 
-    color: rgb(255, 215, 0);
+  border-width:0px; 
+  color: rgb(255, 215, 0);
 }
 
 ul.menu-header_drop-down-menu ul {
-    display: none;
+  display: none;
 }
 
 ul.menu-header_drop-down-menu li:hover > ul {
-    display: block;
+  display: block;
+}
+
+/* Live2D */
+#landlord {
+  right: -50px;
+}
+
+.message{
+  width: 200px;
+  left: -5px;
+  top: -60px;
+  border: 1px solid rgba(180,180,180,.4);
+  background-color: rgba(255,248,220, 0.877);
+  box-shadow: 0 3px 15px 2px rgba(255,248,220,.4);
 }
