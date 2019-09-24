@@ -157,7 +157,7 @@ ul.menu-header_drop-down-menu {
   position: absolute;
   top: 20px;
   margin-left: 20px;
-  z-index: 10;
+  z-index: 9;
   cursor:pointer;
 }
 
@@ -168,7 +168,7 @@ ul.menu-header_drop-down-menu li {
 }
 
 ul.menu-header_drop-down-menu > li {
-  float: left; /* 只有第一層是靠左對齊*/
+  float: left;
 }
 
 ul.menu-header_drop-down-menu a {
