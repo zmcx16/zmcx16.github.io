@@ -207,6 +207,7 @@ ul.menu-header_drop-down-menu li:hover > ul {
 /* Live2D */
 #landlord {
   right: -50px;
+  z-index: 1000;
 }
 
 .message{
