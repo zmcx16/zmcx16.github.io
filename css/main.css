@@ -157,7 +157,7 @@ ul.menu-header_drop-down-menu {
   position: absolute;
   top: 20px;
   margin-left: 20px;
-  z-index: 9;
+  z-index: 10;
   cursor:pointer;
 }
 
@@ -168,7 +168,7 @@ ul.menu-header_drop-down-menu li {
 }
 
 ul.menu-header_drop-down-menu > li {
-  float: left;
+  float: left; /* 只有第一層是靠左對齊*/
 }
 
 ul.menu-header_drop-down-menu a {
@@ -207,7 +207,6 @@ ul.menu-header_drop-down-menu li:hover > ul {
 /* Live2D */
 #landlord {
   right: -50px;
-  z-index: 1000;
 }
 
 .message{
