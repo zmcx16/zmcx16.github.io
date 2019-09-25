@@ -424,8 +424,6 @@ var pJS = function(tag_id, params){
     pJS.canvas.ctx.fillStyle = color_value;
     pJS.canvas.ctx.beginPath();
 
-    pJS.canvas.ctx.globalCompositeOperation = 'destination-over';
-
     switch(p.shape){
 
       case 'circle':
