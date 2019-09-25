@@ -1,11 +1,11 @@
 {
-  "fps_limit": 1,
+  "fps_limit": 40,
   "particles": {
     "number": {
-      "value": 1,
+      "value": 0,
       "density": {
         "enable": true,
-        "value_area":300
+        "value_area":30
       }
     },
     "color": {
