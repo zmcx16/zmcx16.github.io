@@ -56,7 +56,7 @@ function canvasProjectContainer() {
 $(document).ready(function () {
     setBanner('zmcx16\'s Side Projects', 'darkorange', ['這個網站是某宅宅工程師亂點技能樹下的產物', '認真說起來, 做網站最麻煩的總是素材阿...']);
     loadScripts(["js/projects.js", "js/particles-fps-limit.js"], 0);
-    canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+    canvas_timeId = setInterval(function () { canvasProjectContainer() }, 15000);
 });
 
 //# sourceURL=js/sideprojects.js

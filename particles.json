@@ -2,7 +2,7 @@
   "fps_limit": 40,
   "particles": {
     "number": {
-      "value": 0,
+      "value": 1,
       "density": {
         "enable": true,
         "value_area":30
