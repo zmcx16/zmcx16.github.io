@@ -41,7 +41,7 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 var canvas_timeId = 0;
 
 function canvasProjectContainer() {
-
+/*
     if (typeof repos_loaded_completed !== 'undefined' && repos_loaded_completed && document.readyState == 'complete') {
 
         document.getElementById("main-container-body").style.height = document.querySelector('.main-container').clientHeight + 'px';
@@ -51,6 +51,7 @@ function canvasProjectContainer() {
 
         clearInterval(canvas_timeId);
     }
+*/
 }  
 
 $(document).ready(function () {
