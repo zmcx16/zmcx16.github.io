@@ -20,7 +20,6 @@
           loc.href = loc.protocol + '//' + loc.host + loc.pathname+"?page=" + page_name;
         }
 
-
         window.onload = function () {
           var params = new URL(window.location.href).searchParams;
           var load_js = '';
@@ -135,6 +134,6 @@
   <script type="text/javascript" src="live2d/js/live2d.js"></script>
   <script type="text/javascript" src="live2d/js/message.js"></script>
   <script type="text/javascript">
-    
+    loadlive2d("live2d", "/live2d/model/xiaoban/model.json");
   </script>
 </html>

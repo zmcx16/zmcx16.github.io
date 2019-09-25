@@ -50,15 +50,19 @@ function canvasProjectContainer() {
         });
 
         clearInterval(canvas_timeId);
-
-        loadlive2d("live2d", "/live2d/model/xiaoban/model.json");
     }
 }  
 
 $(document).ready(function () {
+
     setBanner('zmcx16\'s Side Projects', 'darkorange', ['這個網站是某宅宅工程師亂點技能樹下的產物', '認真說起來, 做網站最麻煩的總是素材阿...']);
-    loadScripts(["js/projects.js", "js/particles-fps-limit.js"], 0);
-    canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+    if(!mobileAndTabletcheck()){
+        loadScripts(["js/projects.js", "js/particles-fps-limit.js"], 0);
+        canvas_timeId = setInterval(function () { canvasProjectContainer() }, 100);
+    }else{
+        loadScripts(["js/projects.js"], 0);
+        $('.main-Projects').css('background-color', '#110E19');
+    }
 });
 
 //# sourceURL=js/sideprojects.js
