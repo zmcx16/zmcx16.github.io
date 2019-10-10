@@ -1,6 +1,6 @@
 class LoadingImg {
 
-    static doLoading(enable) {
+    static doLoading(enable=false) {
         if (!LoadingImg.init){
             LoadingImg.cmd = enable
             $.ajax({
