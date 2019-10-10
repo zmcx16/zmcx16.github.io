@@ -128,6 +128,8 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 var switch_imgs_random = 0;
 var switch_demo_imgs = 0;
+var request_cnt = 0;
+const total_request_cnt = 3;
 
 $(document).ready(function () {
 
@@ -161,12 +163,24 @@ $(document).ready(function () {
                 else {
                     console.log('get ' + platform + ' package info failed: ' + xhr);
                 }
+				request_cnt+=1;
+				if(request_cnt >= total_request_cnt)
+					LoadingImg.doLoading(false);
             },
+			error: function (xhr, textStatus, errorThrown) {
+				console.log(xhr);
+				console.log(textStatus);
+				console.log(errorThrown);
+				request_cnt+=1;
+				if(request_cnt >= total_request_cnt)
+					LoadingImg.doLoading(false);
+			},
             timeout: 10000
         });
 
     };
 
+	LoadingImg.doLoading(true);
     getPackageInfo("X64");
     getPackageInfo("X86");
 
@@ -181,6 +195,17 @@ $(document).ready(function () {
             else {
                 console.log('get version failed: ' + xhr);
             }
+			request_cnt+=1;
+			if(request_cnt >= total_request_cnt)
+				LoadingImg.doLoading(false);
+        },
+        error: function (xhr, textStatus, errorThrown) {
+            console.log(xhr);
+            console.log(textStatus);
+            console.log(errorThrown);
+			request_cnt+=1;
+			if(request_cnt >= total_request_cnt)
+				LoadingImg.doLoading(false);
         },
         timeout: 10000
     });    

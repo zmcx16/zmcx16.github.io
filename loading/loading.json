@@ -1,0 +1,10 @@
+{
+    "gifRight":"./loading/elf/gif/right-hola.gif",
+    "gifLeft": "./loading/elf/gif/left-hola.gif",
+    "gifForward": "./loading/elf/gif/forward-hola.gif",
+    "gifBackward": "./loading/elf/gif/backward-hola.gif",
+    "loadingImgSize": {"w": 96,"h":96},
+    "loadingStep": 5,
+    "loadingDelay": 25,
+    "loadingWH": 150
+}
