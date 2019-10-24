@@ -23,16 +23,24 @@ oss_projects['AxisTradeCult'] = {
   background: 'AxisTradeCult_295x150.jpg',
   msg: '聽說Qt很可怕, 是真的嗎?'
 };
+oss_projects['stock-minehunter'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/norn-minehunter%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
+  online_website: 'https://norn-minehunter.zmcx16.moe/',
+  featured: true,
+  position: 4,
+  background: 'stock-minehunter_295x150.jpg',
+  msg: 'Explosion!!!'
+};
 oss_projects['PhotoMosaic-Artifact'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/PhotoMosaic-Artifact',
   featured: true,
-  position: 4,
+  position: 5,
   background: 'PhotoMosaic-Artifact_295x150.jpg',
   msg: 'Photo Mosaic Artifact...中二病?'
 };
 oss_projects['OpenAI-Gym-Hearts'] = {
   featured: true,
-  position: 5,
+  position: 6,
   background: 'OpenAI-Gym-Hearts_295x150.jpg',
   msg: '要一起玩牌嗎?'
 };
@@ -40,14 +48,14 @@ oss_projects['protobuf-deserializer'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/protobuf-deserializer%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://protobuf-deserializer.zmcx16.moe',
   featured: true,
-  position: 6,
+  position: 7,
   background: 'protobuf-deserializer_295x150.jpg',
   msg: '好像很厲害?'
 };
 oss_projects['MemoOffVocabulary'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
   featured: true,
-  position: 7,
+  position: 8,
   background: 'MemoOffVocabulary_295x150.jpg',
   msg: '要好好念書喔~'
 };
@@ -55,19 +63,19 @@ oss_projects['zmcx16.github.io'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://project.zmcx16.moe',
   featured: true,
-  position: 8,
+  position: 9,
   background: 'zmcx16.github.io_295x150.jpg',
   msg: 'いらっしゃいませ~~~'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
-  position: 9,
+  position: 10,
   background: 'OpenAI-Gym-GongZhu_295x150.jpg',
   msg: '要一起玩牌嗎?'
 };
 oss_projects['Misc'] = {
   featured: true,
-  position: 10,
+  position: 11,
   background: 'Misc_295x150.jpg',
   msg: '聽說是某個大哥哥的黑歷史?'
 };
