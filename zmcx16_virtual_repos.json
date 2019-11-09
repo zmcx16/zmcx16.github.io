@@ -11,6 +11,16 @@
       "forks": "NaN"
    },
    {
+      "name": "TW-Stock Lottery Secretary",
+      "language": "C#",
+      "html_url": "https://www.facebook.com/%E8%82%A1%E7%A5%A8%E6%8A%BD%E7%B1%A4%E5%B0%8F%E5%8A%A9%E7%90%86-115560563215006",
+      "new_tab": true,
+      "description": "Facebook fan page administrator bot for tw-stock public subscription information.",
+      "fork": false,
+      "watchers": "NaN",
+      "forks": "NaN"
+   },
+   {
       "name": "Misc",
       "language": "Nan",
       "html_url": "./",
