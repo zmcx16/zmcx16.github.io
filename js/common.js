@@ -32,7 +32,7 @@ function setBanner(topic, color, list_descr){
     document.getElementsByClassName("bullet-list-round")[0].innerHTML = '<br>';
 
     list_descr.forEach(element => {
-        document.getElementsByClassName("bullet-list-round")[0].innerHTML += '<li>' + element + '</li>'
+        document.getElementsByClassName("bullet-list-round")[0].innerHTML += '<li class="bullet-list-content">' + element + '</li>'
     });
 }
 

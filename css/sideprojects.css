@@ -141,3 +141,9 @@
 .octicon-global-text:before {
   content: '\f0b6';
 }
+
+.project .island-item img {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+}
