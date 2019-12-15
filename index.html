@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="live2d/css/live2d.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/starry_sky.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
     <link rel="shortcut icon" href="favicon.ico">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148957524-1"></script>
@@ -126,7 +127,7 @@
         <div class="footer-wrap">
           <div class="city-landscape-img"></div>
           <div class="copyright lesser-text">
-            <div style="position: relative; left: -50%;">
+            <div class="copyright-content" style="position: relative; left: -50%;">
               ©zmcx16 All rights reserved.
             </div>
           </div>
@@ -150,6 +151,17 @@
       });
 
       observer.observe(document.getElementById("menu-header"));
+
+      // RWD
+      var width = window.screen.width;
+      if (width < 960) {
+        $('.top-shelf.top-shelf-grey').css('background', 'url("/img/illustration_0.35.png") right bottom no-repeat rgb(255, 255, 255)');
+        $('.container').css('text-align', 'center');
+        
+        $('.copyright-content').css('font-size', 'xx-large');
+        $('.copyright-content').css('top', '-20px');
+        $('ul.menu-header_drop-down-menu').css('font-size', 'xx-large');
+      }
 
   </script>
   <script type="text/javascript" src="live2d/js/live2d.js"></script>

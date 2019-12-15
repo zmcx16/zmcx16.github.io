@@ -197,6 +197,15 @@ $(document).ready(function () {
         });
     });
 
+
+    // RWD
+    var width = window.screen.width;
+    if (width < 960) {
+        $('li.bullet-list-content').css('font-size', 'x-large');
+        $('li.bullet-list-content').css('line-height', '10px');
+        $('a').css('font-size', 'x-large');
+
+    }
 });
 
 //# sourceURL=js/misc.js

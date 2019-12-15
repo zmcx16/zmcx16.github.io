@@ -33,7 +33,14 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 $(document).ready(function () {
 
     setBanner('Donate Note', 'aliceblue', ['歡迎抖內$$支持作者', '按讚跟留言也是支持作者的動力喔~', '人生收到第一筆抖內是$10800 P幣!!!']);
-
+    // RWD
+    var width = window.screen.width;
+    if (width < 960) {
+        $('li.bullet-list-content').css('font-size', 'x-large');
+        $('li.bullet-list-content').css('line-height', 'normal');
+        $('h3').css('font-size', 'x-large');
+        
+    }
 });
 
 //# sourceURL=js/about-donate.js
