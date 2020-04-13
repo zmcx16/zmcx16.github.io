@@ -44,17 +44,25 @@ oss_projects['OpenAI-Gym-Hearts'] = {
   background: 'OpenAI-Gym-Hearts_885x450.jpg',
   msg: '要一起玩牌嗎?'
 };
+oss_projects['AxisCult'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/%E9%98%BF%E5%85%8B%E8%A5%BF%E6%96%AF%E6%95%99%E5%82%B3%E6%95%99%E7%B6%B2%E7%AB%99',
+  online_website: 'http://axiscult.zmcx16.moe/',
+  featured: true,
+  position: 7,
+  background: 'mosaicAqua_885x450.jpg',
+  msg: '阿克西斯教! 快加入阿克西斯教喔!!!'
+};
 oss_projects['TW-Stock Lottery Secretary'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/FB%E7%B2%89%E7%B5%B2%E5%B0%88%E9%A0%81%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%96%8B%E7%99%BC%20-%20%E8%82%A1%E7%A5%A8%E6%8A%BD%E7%B1%A4%E5%B0%8F%E7%A7%98%E6%9B%B8',
   featured: true,
-  position: 7,
+  position: 8,
   background: 'TWStockLotterySecretary_885x450.jpg',
   msg: '歡迎加入追蹤+訂閱喔~'
 };
 oss_projects['find-house-assistant-chrome-extension'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%9C%A8%E5%8F%B0%E7%81%A3%E8%B2%B7%E6%88%BF%E5%AD%90%E6%98%AF%E4%B8%8D%E6%98%AF%E6%90%9E%E9%8C%AF%E4%BA%86%E4%BB%80%E9%BA%BC',
   featured: true,
-  position: 8,
+  position: 9,
   background: 'find-house-assistant-chrome-extension_885x450.jpg',
   msg: '在台灣買房子是不是搞錯了什麼...'
 };
@@ -62,14 +70,14 @@ oss_projects['protobuf-deserializer'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/protobuf-deserializer%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://protobuf-deserializer.zmcx16.moe',
   featured: true,
-  position: 9,
+  position: 10,
   background: 'protobuf-deserializer_885x450.jpg',
   msg: '好像很厲害?'
 };
 oss_projects['MemoOffVocabulary'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/MemoOffVocabulary',
   featured: true,
-  position: 10,
+  position: 11,
   background: 'MemoOffVocabulary_885x450.jpg',
   msg: '要好好念書喔~'
 };
@@ -77,19 +85,19 @@ oss_projects['zmcx16.github.io'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99%E9%96%8B%E7%99%BC',
   online_website: 'https://project.zmcx16.moe',
   featured: true,
-  position: 11,
+  position: 12,
   background: 'zmcx16.github.io_885x450.jpg',
   msg: 'いらっしゃいませ~~~'
 };
 oss_projects['OpenAI-Gym-GongZhu'] = {
   featured: true,
-  position: 12,
+  position: 13,
   background: 'OpenAI-Gym-GongZhu_885x450.jpg',
   msg: '要一起玩牌嗎?'
 };
 oss_projects['Misc'] = {
   featured: true,
-  position: 13,
+  position: 14,
   background: 'Misc_885x450.jpg',
   msg: '聽說是某個大哥哥的黑歷史?'
 };
