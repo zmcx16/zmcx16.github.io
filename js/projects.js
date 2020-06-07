@@ -102,9 +102,15 @@ oss_projects['OpenAI-Gym-GongZhu'] = {
   background: 'OpenAI-Gym-GongZhu_885x450.jpg',
   msg: '要一起玩牌嗎?'
 };
-oss_projects['Misc'] = {
+oss_projects['bypass-fb-block-website-algorithm-bug'] = {
   featured: true,
   position: 15,
+  background: 'bypass-fb-block-website-algorithm-bug_885x450.jpg',
+  msg: '有bug就要修啊...'
+};
+oss_projects['Misc'] = {
+  featured: true,
+  position: 16,
   background: 'Misc_885x450.jpg',
   msg: '聽說是某個大哥哥的黑歷史?'
 };
