@@ -61,11 +61,11 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '        <div class="support-websites">'+
 '            <h3>支援網站</h3>'+
 '            <ul class=\'support-list\'>'+
-'                <li><a class="link" target="_blank" href="http://www.dm5.com/">http://www.dm5.com/</a></li>'+
-'                <li><a class="link" target="_blank" href="http://www.manhuagui.com/">http://www.manhuagui.com/</a></li>'+
-'                <li><a class="link" target="_blank" href="http://www.huhudm.com/">http://www.huhudm.com/</a></li>'+
-'                <li><a class="link" target="_blank" href="http://99.hhxxee.com/">http://99.hhxxee.com/</a></li>'+
-'                <li><a class="link" target="_blank" href="http://www.comicbus.com/">http://www.comicbus.com/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://www.dm5.com/">https://www.dm5.com/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://www.manhuagui.com/">https://www.manhuagui.com/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://www.huhudm.com/">https://www.huhudm.com/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://99.hhxxee.com/">https://99.hhxxee.com/</a></li>'+
+'                <li><a class="link" target="_blank" href="https://www.comicbus.com/">https://www.comicbus.com/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://www.comicun.com/">https://www.comicun.com/</a></li>'+
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>'+
@@ -79,6 +79,7 @@ var myvar = '<link rel="stylesheet" type="text/css" href="css/mahomangadownloade
 '				<li><a class="link" target="_blank" href="https://manhua.dmzj.com/">https://manhua.dmzj.com/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://loveheaven.net/">https://loveheaven.net/</a></li>'+
 '				<li><a class="link" target="_blank" href="https://hanascan.com/">https://hanascan.com/</a></li>'+
+'				<li><a class="link" target="_blank" href="https://www.mangatown.com/">https://www.mangatown.com/</a></li>'+
 '            </ul>'+
 '        </div>'+
 '        <div class="environment">'+
