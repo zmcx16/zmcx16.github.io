@@ -1,4 +1,8 @@
 # zmcx16's website
+
+![Build Badge](https://github.com/zmcx16/zmcx16.github.io/workflows/UpdateWebsite/badge.svg)
+
+
 Introduce zmcx16's side projects, hobbies and practice for front-end development skill.
 
 # Demo
