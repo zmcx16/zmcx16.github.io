@@ -1,0 +1,10 @@
+.main-trade > div{
+    width: 960px;
+    margin: 60px auto;
+}
+
+.main-trade .demo-img{
+    padding: 0;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+}
