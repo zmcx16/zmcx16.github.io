@@ -13,12 +13,17 @@
     font-family: 'Microsoft JhengHei';
 }
 
+.main-trade .content-block{
+    padding-top: 15px;
+}
+
 /* table */
 .main-trade table {
     border-collapse: collapse;
     width: 100%;
     table-layout: fixed;
     border: 1px solid silver;
+    margin-bottom: 30px;
 }
 
 .main-trade th {
@@ -36,6 +41,16 @@
     border: none;
     padding-right: 10px;
     text-align: right;
+}
+
+.main-trade .tr-stock.main:hover{
+    background-color: rgb(224,240,255);
+    cursor: pointer;
+}
+
+.main-trade .tr-scan.main:hover{
+    background-color: lavenderblush;
+    cursor: pointer;
 }
 
 .main-trade .group-td{
@@ -104,6 +119,14 @@
     padding: 5px 10px;
     line-height: 30px;
     text-align: left;
+}
+
+.main-trade .data-source{
+    font-size: x-large;
+}
+
+.main-trade .link{
+    padding-right: 30px;
 }
 
 /* others */
