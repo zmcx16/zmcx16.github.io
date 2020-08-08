@@ -6,21 +6,31 @@ var myvar =
 '    </div>' +
 '    <div class="hold-stocks-groups">' +
 '        <h1> 持有個股 </h1>' +
-'        <table id="hold-stocks-table">' +
-'            <thead>' +
-'                <th class="th-symbol">Symbol</th>' +
-'                <th class="th-price">Price</th>' +
-'                <th class="th-52w">52W</th>' +
-'                <th class="th-sma20">SMA20</th>' +
-'                <th class="th-sma50">SMA50</th>' +
-'                <th class="th-sma200">SMA200</th>' +
-'                <th class="th-rsi">RSI</th>' +
-'                <th class="th-atr">ATR</th>' +
-'                <th class="th-risk">Risk</th>' +
-'            </thead>' +
-'            <tbody id="hold-stocks-tbody">' +
-'            </tbody>' +
-'        </table>' +
+'        <div class="hold-stocks content-block">' +
+'            <table id="hold-stocks-table">' +
+'                <thead>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-price">Price</th>' +
+'                    <th class="th-52w">52W</th>' +
+'                    <th class="th-sma20">SMA20</th>' +
+'                    <th class="th-sma50">SMA50</th>' +
+'                    <th class="th-sma200">SMA200</th>' +
+'                    <th class="th-rsi">RSI</th>' +
+'                    <th class="th-atr">ATR</th>' +
+'                    <th class="th-risk">Risk</th>' +
+'                </thead>' +
+'                <tbody id="hold-stocks-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'        </div>' +
+'    </div>' +
+'    <div class="data-source groups">' +
+'        <h1> 數據源 </h1>' +
+'        <div class="data-source content-block">' +
+'            <a class="link" target="_blank" href="https://norn-minehunter.zmcx16.moe/">Norn-Minehunter</a>' +
+'            <a class="link" target="_blank" href="https://finance.yahoo.com/">Yahoo Finance</a>' +
+'            <a class="link" target="_blank" href="https://finviz.com/">Finviz</a>' +
+'        </div>' +
 '    </div>' +
 '    <h1>網站建置中...</h1>' +
 '</div>' ;
