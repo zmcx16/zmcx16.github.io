@@ -8,3 +8,106 @@
     border: 2px solid whitesmoke;
     border-radius: 6px;
 }
+
+.main-trade h1{
+    font-family: 'Microsoft JhengHei';
+}
+
+/* table */
+.main-trade table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid silver;
+}
+
+.main-trade th {
+    padding: 8px;
+    color: white;
+    border: 1px solid silver;
+    background: #535353;
+    text-align: center;
+    /*word-break: break-all;*/
+    font-size: medium;
+}
+
+.main-trade td{
+    font-size: large;
+    border: none;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.main-trade .group-td{
+    padding-right: 0px;
+}
+
+.main-trade .th-52w{
+    width: 120px;
+}
+
+.main-trade .th-risk{
+    width: 120px;
+}
+
+.main-trade .td-symbol, .main-trade .td-type-name{
+    padding-right: 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #188fff;
+}
+
+.main-trade .bomb-image {
+    height: 36px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+}
+
+.main-trade .stock-detail{
+    margin: 0px 40px;
+}
+
+.main-trade .stock-statistics{
+    padding-top:10px;
+    display: grid;
+    grid-template-columns: 125px 20px 125px 20px 125px 20px 125px 20px 125px 20px 125px 20px;
+    align-items: center;
+}
+
+.main-trade .base-data{
+    border-bottom: 1px solid #bbb;
+    position: relative;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.main-trade .base-data-key{
+    left: 0px;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-trade .base-data-value{
+    right: 0px;
+}
+
+.main-trade .scan-list{
+    margin-bottom: 20px;
+}
+
+.main-trade .scan-output{
+    margin: 10px;
+    min-height: 100px;
+    border: 3px double;
+    border-color: deepskyblue;
+    white-space: pre-line;
+    padding: 5px 10px;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* others */
+.main-trade .span-12px{
+    font-size: 12px;
+}
+

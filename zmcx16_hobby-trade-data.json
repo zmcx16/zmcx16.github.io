@@ -1,0 +1,304 @@
+{
+   "hold_stock_list": ["T", "PSX"],	
+   "star_stock_list": ["T", "PSX"],	
+   "data":[
+      {
+         "type":"PeterLynch_v1",
+         "name":"Tactic1",
+         "symbol":"T",
+         "baseinfo":{
+            "Price":"29.88",
+            "52W Range":"26.08 - 39.70",
+            "Avg Volume":"36.98M",
+            "SMA20":"0.11%",
+            "SMA50":"-1.68%",
+            "SMA200":"-12.26%",
+            "RSI (14)":"45.18",
+            "ATR":"0.52",
+            "Beta":"0.66",
+            "Market Cap":"212.61B",
+            "Dividend %":"6.97%",
+            "P/E":"18.23",
+            "Forward P/E":"9.17",
+            "PEG":"63.31",
+            "Debt/Eq":"0.92",
+            "LT Debt/Eq":"0.83",
+            "EPS (ttm)":"1.64",
+            "ROA":"2.50%",
+            "ROE":"7.60%",
+            "ROI":"7.00%",
+            "Gross Margin":"54.20%",
+            "Oper. Margin":"16.00%",
+            "Profit Margin":"7.90%"
+         },
+         "report":[
+            {
+               "name":"PEG",
+               "msg":"PEG = 63.31 > 1",
+               "pass":-1
+            },
+            {
+               "name":"Market Cap",
+               "msg":"Market Cap. = 212.61B > 10000M",
+               "pass":-1
+            },
+            {
+               "name":"LT Debt/Eq",
+               "msg":"LT Debt/Equity = 0.83 > 0.3",
+               "pass":-1
+            },
+            {
+               "name":"Debt/Eq",
+               "msg":"Debt/Equity = 0.92 > 0.3",
+               "pass":-1
+            },
+            {
+               "name":"EPS this Y",
+               "msg":"EPS growth this year = -30.90% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS next Y_%",
+               "msg":"EPS growth next year = 1.97% > 0%",
+               "pass":1
+            },
+            {
+               "name":"EPS past 5Y",
+               "msg":"EPS growth past 5 years = 8.90% > 0%",
+               "pass":1
+            },
+            {
+               "name":"EPS next 5Y",
+               "msg":"EPS growth next 5 years = 0.29% > 0%",
+               "pass":1
+            }
+         ]
+      },
+      {
+         "type":"PeterLynch_v1",
+         "name":"Tactic1",
+         "symbol":"PSX",
+         "baseinfo":{
+            "Price":"62.37",
+            "52W Range":"40.04 - 119.92",
+            "Avg Volume":"3.38M",
+            "SMA20":"-1.35%",
+            "SMA50":"-11.86%",
+            "SMA200":"-25.94%",
+            "RSI (14)":"39.14",
+            "ATR":"2.67",
+            "Beta":"1.55",
+            "Market Cap":"27.52B",
+            "Dividend %":"5.81%",
+            "P/E":"78.93",
+            "Forward P/E":"10.85",
+            "PEG":"-",
+            "Debt/Eq":"0.61",
+            "LT Debt/Eq":"0.50",
+            "EPS (ttm)":"0.79",
+            "ROA":"5.40%",
+            "ROE":"12.80%",
+            "ROI":"4.40%",
+            "Gross Margin":"10.40%",
+            "Oper. Margin":"2.50%",
+            "Profit Margin":"2.90%"
+         },
+         "report":[
+            {
+               "name":"PEG",
+               "msg":"PEG",
+               "pass":0
+            },
+            {
+               "name":"Market Cap",
+               "msg":"Market Cap. = 27.52B > 10000M",
+               "pass":-1
+            },
+            {
+               "name":"LT Debt/Eq",
+               "msg":"LT Debt/Equity = 0.50 > 0.3",
+               "pass":-1
+            },
+            {
+               "name":"Debt/Eq",
+               "msg":"Debt/Equity = 0.61 > 0.3",
+               "pass":-1
+            },
+            {
+               "name":"EPS this Y",
+               "msg":"EPS growth this year = -42.10% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS next Y_%",
+               "msg":"EPS growth next year = 309.54% > 0%",
+               "pass":1
+            },
+            {
+               "name":"EPS past 5Y",
+               "msg":"EPS growth past 5 years = -0.60% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS next 5Y",
+               "msg":"EPS growth next 5 years = -13.00% < 0%",
+               "pass":-1
+            }
+         ]
+      },
+      {
+         "type":"Stasistw_v1",
+         "name":"Tactic2",
+         "symbol":"T",
+         "baseinfo":{
+            "Price":"29.88",
+            "52W Range":"26.08 - 39.70",
+            "Avg Volume":"36.98M",
+            "SMA20":"0.11%",
+            "SMA50":"-1.68%",
+            "SMA200":"-12.26%",
+            "RSI (14)":"45.18",
+            "ATR":"0.52",
+            "Beta":"0.66",
+            "Market Cap":"212.61B",
+            "Dividend %":"6.97%",
+            "P/E":"18.23",
+            "Forward P/E":"9.17",
+            "PEG":"63.31",
+            "Debt/Eq":"0.92",
+            "LT Debt/Eq":"0.83",
+            "EPS (ttm)":"1.64",
+            "ROA":"2.50%",
+            "ROE":"7.60%",
+            "ROI":"7.00%",
+            "Gross Margin":"54.20%",
+            "Oper. Margin":"16.00%",
+            "Profit Margin":"7.90%"
+         },
+         "report":[
+            {
+               "name":"P/B",
+               "msg":"P/B = 1.21 < 3",
+               "pass":1
+            },
+            {
+               "name":"EPS past 5Y",
+               "msg":"EPS growth past 5 years = 8.90% > 0%",
+               "pass":1
+            },
+            {
+               "name":"Dividend %",
+               "msg":"Dividend yield = 6.97% > 2%",
+               "pass":1
+            },
+            {
+               "name":"LT Debt/Eq",
+               "msg":"LT Debt/Equity = 0.83 > 0.6",
+               "pass":-1
+            },
+            {
+               "name":"Sales past 5Y",
+               "msg":"Sales growth past 5 years = 6.50% > 0%",
+               "pass":1
+            },
+            {
+               "name":"ROE",
+               "msg":"ROE = 7.60% > 0%",
+               "pass":1
+            },
+            {
+               "name":"SMA200",
+               "msg":"SMA200 = -12.26% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS this Y",
+               "msg":"EPS growth this years = -30.90% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS next Y_%",
+               "msg":"EPS growth next years = 1.97% > 0%",
+               "pass":1
+            }
+         ]
+      },
+      {
+         "type":"Stasistw_v1",
+         "name":"Tactic2",
+         "symbol":"PSX",
+         "baseinfo":{
+            "Price":"62.37",
+            "52W Range":"40.04 - 119.92",
+            "Avg Volume":"3.38M",
+            "SMA20":"-1.35%",
+            "SMA50":"-11.86%",
+            "SMA200":"-25.94%",
+            "RSI (14)":"39.14",
+            "ATR":"2.67",
+            "Beta":"1.55",
+            "Market Cap":"27.52B",
+            "Dividend %":"5.81%",
+            "P/E":"78.93",
+            "Forward P/E":"10.85",
+            "PEG":"-",
+            "Debt/Eq":"0.61",
+            "LT Debt/Eq":"0.50",
+            "EPS (ttm)":"0.79",
+            "ROA":"5.40%",
+            "ROE":"12.80%",
+            "ROI":"4.40%",
+            "Gross Margin":"10.40%",
+            "Oper. Margin":"2.50%",
+            "Profit Margin":"2.90%"
+         },
+         "report":[
+            {
+               "name":"P/B",
+               "msg":"P/B = 1.28 < 3",
+               "pass":1
+            },
+            {
+               "name":"EPS past 5Y",
+               "msg":"EPS growth past 5 years = -0.60% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"Dividend %",
+               "msg":"Dividend yield = 5.81% > 2%",
+               "pass":1
+            },
+            {
+               "name":"LT Debt/Eq",
+               "msg":"LT Debt/Equity = 0.50 < 0.6",
+               "pass":1
+            },
+            {
+               "name":"Sales past 5Y",
+               "msg":"Sales growth past 5 years = -7.80% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"ROE",
+               "msg":"ROE = 12.80% > 0%",
+               "pass":1
+            },
+            {
+               "name":"SMA200",
+               "msg":"SMA200 = -25.94% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS this Y",
+               "msg":"EPS growth this years = -42.10% < 0%",
+               "pass":-1
+            },
+            {
+               "name":"EPS next Y_%",
+               "msg":"EPS growth next years = 309.54% > 0%",
+               "pass":1
+            }
+         ]
+      }
+   ]
+}
