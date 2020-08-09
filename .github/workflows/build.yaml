@@ -31,7 +31,7 @@ jobs:
         python ./.github/script/build_plugin.py
     - name: get trade data
       run: |-
-        python ./.github/script/build_trade-data.py.py
+        python ./.github/script/build_trade-data.py
     - name: Commit and push if page changed
       run: |-
         git diff
