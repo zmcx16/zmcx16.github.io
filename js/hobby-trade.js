@@ -260,6 +260,8 @@ $(document).ready(function () {
   // disable cache
   // $.ajaxSetup({ cache: false });
 
+  setBanner('Money Money', 'gold', ['目前持有 & 關注的個股清單', '往財富自由之路持續前進 ( • ̀ω•́ )', '$$$$$$$$$$$$$$$$$$$$$$$$']);
+
   $.getJSON("zmcx16_hobby-trade-data.json", function (json_data) {
 
     var hold_stocks = preprocessData(json_data, "hold_stock_list");
