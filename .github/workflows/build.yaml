@@ -29,9 +29,12 @@ jobs:
     - name: build plugin pages
       run: |-
         python ./.github/script/build_plugin.py
+    - name: get trade data
+      run: |-
+        python ./.github/script/build_trade-data.py.py
     - name: Commit and push if page changed
       run: |-
         git diff
         git config --global user.name "zmcx16-bot"
-        git diff --quiet || (git add *.js && git commit -m "Updated plugin pages")
+        git diff --quiet || (git add *.js && git add *.json && git commit -m "Updated plugin pages")
         git push

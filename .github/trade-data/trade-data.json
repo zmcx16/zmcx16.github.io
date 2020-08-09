@@ -1,0 +1,228 @@
+{
+   "hold_stock_list":[
+      "PNC",
+      "PFC"
+   ],
+   "star_stock_list":[
+      "JNJ",
+      "AMZN"
+   ],
+   "tactic_template":[
+      {
+         "name":"regular_tactic",
+         "type":"BenjaminGraham_v1",
+         "target":[
+
+         ],
+         "args":{
+            "Sales":"5000",
+            "EPS":"0,4",
+            "Dividend %":"0",
+            "Current Ratio":"2",
+            "CA_CL_LTD":"0,2",
+            "P/E":"15",
+            "P/E * P/B":"22.5"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"HarryBurnIII_v1",
+         "target":[
+
+         ],
+         "args":{
+            "Market Cap":"10000",
+            "Forward P/E":"12",
+            "P/S":"1",
+            "P/B":"1",
+            "P/C":"7.5"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"JamesPOshaughnessy_v1",
+         "target":[
+
+         ],
+         "args":{
+            "Market Cap":"5000",
+            "P/FCF":"15",
+            "Shs Outstand":"500",
+            "P/S":"1",
+            "Dividend %":"5"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"JohnNeff_v1",
+         "target":[
+
+         ],
+         "args":{
+            "LT Debt/Eq":"0.5",
+            "Debt/Eq":"0.5",
+            "Quick Ratio":"1",
+            "Cash/sh":"0",
+            "ROE":"15",
+            "P/E < (EPS growth this Y + Dividend %) / 2":"None"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"MichaelBerry_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/E":"7.5",
+            "EPS this Y":"15",
+            "P/B":"2"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"MichaelPrice_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/B":"1",
+            "InsiderShares":"0.5",
+            "LT Debt/Eq":"0.2",
+            "Debt/Eq":"0.2"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"PeterLynch_v1",
+         "target":[
+
+         ],
+         "args":{
+            "PEG":"1",
+            "Market Cap":"10000",
+            "LT Debt/Eq":"0.3",
+            "Debt/Eq":"0.3",
+            "EPS this Y":"0",
+            "EPS next Y_%":"0",
+            "EPS past 5Y":"0",
+            "EPS next 5Y":"0"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"RichardBuchwald_MarvinKline_v1",
+         "target":[
+
+         ],
+         "args":{
+            "Market Cap":"25000",
+            "Dividend %":"2",
+            "P/E":"7.5",
+            "Cash/sh":"0",
+            "LT Debt/Eq":"0.3",
+            "Debt/Eq":"0.3"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"RobertSanborn_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/S":"0.75",
+            "P/FCF":"15",
+            "InsiderShares":"0.5"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"Stasistw_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/B":"3",
+            "EPS past 5Y":"0",
+            "Dividend %":"2",
+            "LT Debt/Eq":"0.6",
+            "Sales past 5Y":"0",
+            "ROE":"0",
+            "SMA200":"0",
+            "EPS this Y":"0",
+            "EPS next Y_%":"0"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"StevenCLeuthold_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/B":"1.5",
+            "P/E":"12",
+            "C/P":"15",
+            "Dividend %":"3",
+            "P/FCF":"15",
+            "LT Debt/Eq":"0.5",
+            "Current Ratio":"2"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"TrinityInvestmentManagement_v1",
+         "target":[
+
+         ],
+         "args":{
+            "P/E":"7.5",
+            "P/B":"1",
+            "Dividend %":"5"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"WarrenEBuffett_v1",
+         "target":[
+
+         ],
+         "args":{
+            "ROE":"9",
+            "ROI":"6",
+            "Capex Margin":"4",
+            "Net Income Margin":"4",
+            "Gross Margin":"15"
+         }
+      },
+      {
+         "name":"regular_tactic",
+         "type":"zmcx16_v1",
+         "target":[
+
+         ],
+         "args":{
+            "Beta":"1.5",
+            "P/B":"2",
+            "PEG":"1",
+            "LT Debt/Eq":"0.5",
+            "Debt/Eq":"0.5",
+            "ROE":"10,2",
+            "ROA":"5,2",
+            "EPS":"5,2",
+            "TR":"5,2",
+            "OI":"5,2",
+            "NI":"5,2",
+            "TSE":"5,2",
+            "CFFOAE":"5,2",
+            "FCF":"5,2",
+            "Annual Dividend Yield (Forward, Trailing, 5 Year Avg)":"3",
+            "ARDD diff":"0,3",
+            "ARDD diff And DSID diff":"0,0,3",
+            "NST_6M":"1",
+            "InsiderShares":"0.5"
+         }
+      }
+   ]
+}
