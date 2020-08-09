@@ -56,6 +56,12 @@ if __name__ == "__main__":
 
             time.sleep(DELAY_TIME_SEC)
 
-    print("task completed: {now}".format(now=datetime.datetime.now()))
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(json.dumps(scan_output))
+    if len(scan_output["data"]) > 0:
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(json.dumps(scan_output))
+
+        print("task completed: {now}".format(now=datetime.datetime.now()))
+
+    else:
+        print("No scan output data")
+

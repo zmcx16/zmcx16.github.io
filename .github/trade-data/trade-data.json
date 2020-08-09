@@ -1,11 +1,43 @@
 {
    "hold_stock_list":[
       "PNC",
-      "PFC"
+      "PFC",
+      "EME",
+      "SNV",
+      "FHN",
+      "STL",
+      "EWBC",
+      "PBCT",
+      "FBP",
+      "WFC",
+      "SLM",
+      "PSX"
    ],
    "star_stock_list":[
       "JNJ",
-      "AMZN"
+      "AMZN",
+      "FB",
+      "GOOG",
+      "MU",
+      "TMICY",
+      "LN",
+      "DIS",
+      "AAPL",
+      "T",
+      "COST",
+      "MSFT",
+      "INTC",
+      "MCD",
+      "AMD",
+      "WMT",
+      "TSLA",
+      "AMT",
+      "CRWD",
+      "WLK",
+      "BIO",
+      "QNST",
+      "FORM",
+      "EXEL"
    ],
    "tactic_template":[
       {
