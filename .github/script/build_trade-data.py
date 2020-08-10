@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     if len(scan_output["data"]) > 0:
         with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(json.dumps(scan_output))
+            f.write(json.dumps(scan_output, indent=4, sort_keys=True))
 
         print("task completed: {now}".format(now=datetime.datetime.now()))
 
