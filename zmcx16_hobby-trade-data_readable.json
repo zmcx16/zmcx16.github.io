@@ -870,7 +870,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 4.14 % >= 3.00 %; [Trailing Dividend Yield] 4.14 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.48 % < 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 4.12 % >= 3.00 %; [Trailing Dividend Yield] 4.14 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.48 % < 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
@@ -3564,7 +3564,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 6.07 % >= 3.00 %; [Trailing Dividend Yield] 5.79 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.24 % < 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 5.96 % >= 3.00 %; [Trailing Dividend Yield] 5.79 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.24 % < 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
@@ -3579,7 +3579,7 @@
                     "pass": 0
                 },
                 {
-                    "msg": "NST_6M = 11.1 % >= 1.0 %; ",
+                    "msg": "NST_6M = 11.0 % >= 1.0 %; ",
                     "name": "NST_6M",
                     "pass": 1
                 },
@@ -5375,7 +5375,7 @@
                     "pass": 0
                 },
                 {
-                    "msg": "NST_6M = 1.7 % >= 1.0 %; ",
+                    "msg": "NST_6M = 1.9 % >= 1.0 %; ",
                     "name": "NST_6M",
                     "pass": 1
                 },
@@ -7156,7 +7156,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 6.41 % >= 3.00 %; [Trailing Dividend Yield] 6.34 % >= 3.00 %; [5 Years Avg Dividend Yield] 4.28 % >= 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 6.34 % >= 3.00 %; [Trailing Dividend Yield] 6.34 % >= 3.00 %; [5 Years Avg Dividend Yield] 4.28 % >= 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": 1
                 },
@@ -8952,7 +8952,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 1.60 % < 3.00 %; [Trailing Dividend Yield] 8.15 % >= 3.00 %; [5 Years Avg Dividend Yield] 3.48 % >= 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 1.58 % < 3.00 %; [Trailing Dividend Yield] 8.15 % >= 3.00 %; [5 Years Avg Dividend Yield] 3.48 % >= 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
@@ -18830,7 +18830,7 @@
                     "pass": 1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 6.95 % >= 3.00 %; [Trailing Dividend Yield] 6.92 % >= 3.00 %; [5 Years Avg Dividend Yield] 5.61 % >= 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 6.93 % >= 3.00 %; [Trailing Dividend Yield] 6.92 % >= 3.00 %; [5 Years Avg Dividend Yield] 5.61 % >= 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": 1
                 },
@@ -23285,7 +23285,7 @@
                     "pass": 1
                 },
                 {
-                    "msg": "[EPS Growth-2019-12-31] -8.8 % < 5.0 %; ",
+                    "msg": "[EPS Growth-TTM] 80.6 % >= 5.0 %; [EPS Growth-2019-12-31] -8.8 % < 5.0 %; ",
                     "name": "EPS",
                     "pass": -1
                 },
@@ -23335,7 +23335,7 @@
                     "pass": 1
                 },
                 {
-                    "msg": "NST_6M = 2.4 % >= 1.0 %; ",
+                    "msg": "NST_6M = 1.5 % >= 1.0 %; ",
                     "name": "NST_6M",
                     "pass": 1
                 },
@@ -24218,7 +24218,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 1.64 % < 3.00 %; [Trailing Dividend Yield] 1.62 % < 3.00 %; [5 Years Avg Dividend Yield] 2.39 % < 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 1.63 % < 3.00 %; [Trailing Dividend Yield] 1.62 % < 3.00 %; [5 Years Avg Dividend Yield] 2.39 % < 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
