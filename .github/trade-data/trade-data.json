@@ -37,6 +37,7 @@
       "BIO",
       "QNST",
       "FORM",
+	  "EME",
       "EXEL"
    ],
    "tactic_template":[
