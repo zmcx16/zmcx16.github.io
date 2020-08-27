@@ -4095,23 +4095,7 @@
                 "SMA50": "5.33%"
             },
             "name": "regular_tactic",
-            "report": [
-                {
-                    "msg": "P/S = 1.61 > 0.75",
-                    "name": "P/S",
-                    "pass": -1
-                },
-                {
-                    "msg": "P/FCF",
-                    "name": "P/FCF",
-                    "pass": 0
-                },
-                {
-                    "msg": "InsiderShares = 1.45 % >= 0.50 %; ",
-                    "name": "InsiderShares",
-                    "pass": 1
-                }
-            ],
+            "report": null,
             "symbol": "SNV",
             "type": "RobertSanborn_v1"
         },
@@ -19373,9 +19357,9 @@
                     "pass": -1
                 },
                 {
-                    "msg": "InsiderShares = 0.08 % < 0.50 %; ",
+                    "msg": "InsiderShares",
                     "name": "InsiderShares",
-                    "pass": -1
+                    "pass": 0
                 }
             ],
             "symbol": "T",
@@ -26557,9 +26541,9 @@
                     "pass": -1
                 },
                 {
-                    "msg": "InsiderShares",
+                    "msg": "InsiderShares = 0.34 % < 0.50 %; ",
                     "name": "InsiderShares",
-                    "pass": 0
+                    "pass": -1
                 }
             ],
             "symbol": "AMT",
