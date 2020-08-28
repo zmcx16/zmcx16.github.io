@@ -1,8 +1,8 @@
 {
    "hold_stock_list":[
       "DHI",
-	  "BAC",
-	  "PNC",
+      "BAC",
+      "PNC",
       "PFC",
       "SNV",
       "FHN",
@@ -33,20 +33,65 @@
       "TSLA",
       "AMT",
       "CRWD",
-	  "CRM",
+      "CRM",
       "WLK",
       "BIO",
       "QNST",
       "FORM",
-	  "EME",
+      "EME",
       "EXEL"
    ],
+   "news_config":{
+      "latest_days":30,
+      "max_count":10,
+      "exclude_domains":"",
+      "symbol_keyword":{
+         "DHI":"D.R. Horton, Inc.",
+         "BAC":"Bank of America Corporation",
+         "PNC":"The PNC Financial Services Group, Inc.",
+         "PFC":"Premier Financial Corp.",
+         "SNV":"Synovus Financial Corp.",
+         "FHN":"First Horizon National Corporation",
+         "STL":"Sterling Bancorp",
+         "EWBC":"East West Bancorp, Inc.",
+         "PBCT":"People's United Financial, Inc.",
+         "FBP":"First BanCorp.",
+         "WFC":"Wells Fargo & Company",
+         "SLM":"SLM Corporation",
+         "PSX":"Phillips 66",
+         "JNJ":"Johnson & Johnson",
+         "AMZN":"Amazon.com, Inc.",
+         "FB":"Facebook, Inc.",
+         "GOOG":"Alphabet Inc.",
+         "MU":"Micron Technology, Inc.",
+         "LN":"LINE Corporation",
+         "DIS":"The Walt Disney Company",
+         "AAPL":"Apple Inc.",
+         "T":"AT&T Inc.",
+         "COST":"Costco Wholesale Corporation",
+         "MSFT":"Microsoft Corporation",
+         "INTC":"Intel",
+         "MCD":"McDonald's Corporation",
+         "AMD":"Advanced Micro Devices, Inc.",
+         "WMT":"Walmart Inc.",
+         "TSLA":"Tesla, Inc.",
+         "AMT":"American Tower Corporation",
+         "CRWD":"CrowdStrike Holdings, Inc.",
+         "CRM":"salesforce.com, inc.",
+         "WLK":"Westlake Chemical Corporation",
+         "BIO":"Bio-Rad Laboratories, Inc.",
+         "QNST":"QuinStreet, Inc.",
+         "FORM":"FormFactor, Inc.",
+         "EME":"EMCOR Group, Inc.",
+         "EXEL":"Exelixis, Inc."
+      }
+   },
    "tactic_template":[
       {
          "name":"regular_tactic",
          "type":"BenjaminGraham_v1",
          "target":[
-
+            
          ],
          "args":{
             "Sales":"5000",
@@ -62,7 +107,7 @@
          "name":"regular_tactic",
          "type":"HarryBurnIII_v1",
          "target":[
-
+            
          ],
          "args":{
             "Market Cap":"10000",
@@ -76,7 +121,7 @@
          "name":"regular_tactic",
          "type":"JamesPOshaughnessy_v1",
          "target":[
-
+            
          ],
          "args":{
             "Market Cap":"5000",
@@ -90,7 +135,7 @@
          "name":"regular_tactic",
          "type":"JohnNeff_v1",
          "target":[
-
+            
          ],
          "args":{
             "LT Debt/Eq":"0.5",
@@ -105,7 +150,7 @@
          "name":"regular_tactic",
          "type":"MichaelBerry_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/E":"7.5",
@@ -117,7 +162,7 @@
          "name":"regular_tactic",
          "type":"MichaelPrice_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/B":"1",
@@ -130,7 +175,7 @@
          "name":"regular_tactic",
          "type":"PeterLynch_v1",
          "target":[
-
+            
          ],
          "args":{
             "PEG":"1",
@@ -147,7 +192,7 @@
          "name":"regular_tactic",
          "type":"RichardBuchwald_MarvinKline_v1",
          "target":[
-
+            
          ],
          "args":{
             "Market Cap":"25000",
@@ -162,7 +207,7 @@
          "name":"regular_tactic",
          "type":"RobertSanborn_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/S":"0.75",
@@ -174,7 +219,7 @@
          "name":"regular_tactic",
          "type":"Stasistw_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/B":"3",
@@ -192,7 +237,7 @@
          "name":"regular_tactic",
          "type":"StevenCLeuthold_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/B":"1.5",
@@ -208,7 +253,7 @@
          "name":"regular_tactic",
          "type":"TrinityInvestmentManagement_v1",
          "target":[
-
+            
          ],
          "args":{
             "P/E":"7.5",
@@ -220,7 +265,7 @@
          "name":"regular_tactic",
          "type":"WarrenEBuffett_v1",
          "target":[
-
+            
          ],
          "args":{
             "ROE":"9",
@@ -234,7 +279,7 @@
          "name":"regular_tactic",
          "type":"zmcx16_v1",
          "target":[
-
+            
          ],
          "args":{
             "Beta":"1.5",
