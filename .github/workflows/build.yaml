@@ -30,6 +30,8 @@ jobs:
       run: |-
         python ./.github/script/build_plugin.py
     - name: get trade data
+      env:
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
       run: |-
         python ./.github/script/build_trade-data.py
     - name: Commit and push if page changed
