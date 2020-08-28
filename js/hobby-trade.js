@@ -173,9 +173,42 @@ function buildTable(data){
       '        </div>' +
       '        <div></div>';
     });
-    
+    stock_output +=
+    '        </div>';
+
+    // --- news ---
     stock_output += 
-    '        </div>' +
+    '        <div class="news-list">';
+
+    if (stock["news"]){
+      stock["news"].forEach((news) => {
+        let news_url = news["url"];
+        let news_img = news["urlToImage"];
+        let news_src = news["source"]["name"];
+        let news_date = (new Date(news["publishedAt"])).toDateString();
+        let news_title = news["title"];
+        let news_description = news["description"];
+
+        stock_output += 
+        '          <a style="display:block; text-decoration: inherit; color: inherit;" href="' + news_url + '">' +
+        '            <div class="news-block">' +
+        '              <div class="news-img"><img style="max-width: 100%; max-height: 100%; min-width: auto; min-height: auto;" src="' + news_img + '"></div>' +
+        '              <div class="news-content">' +
+        '                <div class="news-src">' + news_src + ' - ' + news_date + '</div>' + 
+        '                <div class="news-title">' + news_title + '</div>' +
+        '                <div class="news-description">' + news_description + '</div>' +  
+        '              </div>' +
+        '            </div>' + 
+        '          </a>';
+      });
+    }
+
+    stock_output += 
+    '        </div>';
+    // ----------
+
+    // --- scan report ---
+    stock_output += 
     '        <div class="scan-list">' +
     '          <table class="scan-table">' +
     '            <thead>' +
@@ -240,7 +273,7 @@ function preprocessData(json_data, input_key)
 
         var report = {
           "type": stock["type"],
-          "report": stock["report"]
+          "report": stock["report"],
         };
 
         scan_list.push(report);
@@ -248,7 +281,7 @@ function preprocessData(json_data, input_key)
 
     });
 
-    output.push({ "symbol": symbol, "base_info": base_info, "scan_list": scan_list });
+    output.push({ "symbol": symbol, "base_info": base_info, "scan_list": scan_list, "news": json_data["news"][symbol] });
 
   });
 

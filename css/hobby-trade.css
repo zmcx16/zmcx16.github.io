@@ -106,6 +106,51 @@
     right: 0px;
 }
 
+.main-trade .news-block{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    height: 128px;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.main-trade .news-img{
+    max-width: 220px;
+    max-height: 125px;
+    width: 220px;
+    height: 125px;
+    text-align: center;
+}
+
+.main-trade .news-src{
+    text-align: left;
+    font-size: 13px;
+    color: gray;
+}
+
+.main-trade .news-content{
+    overflow: hidden;
+}
+
+.main-trade .news-title{
+    text-align: left;
+    line-height: 22px;
+    font-size: 20px;
+    padding: 5px 0px 9px 0px;
+}
+
+.main-trade .news-title:hover{
+    color: #0078ff;
+}
+
+.main-trade .news-description{
+    text-align: left;
+    line-height: 19px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
 .main-trade .scan-list{
     margin-bottom: 20px;
 }
