@@ -187,7 +187,7 @@ function buildTable(data){
         let news_src = news["source"]["name"];
         let news_date = (new Date(news["publishedAt"])).toDateString();
         let news_title = news["title"];
-        let news_description = news["description"].replace(/<[^>]*>?/gm, ''); // prevent description include html tag
+        let news_description = String(news["description"]).replace(/<[^>]*>?/gm, ''); // prevent description include html tag
 
         stock_output += 
         '          <a style="display:block; text-decoration: inherit; color: inherit;" href="' + news_url + '">' +
