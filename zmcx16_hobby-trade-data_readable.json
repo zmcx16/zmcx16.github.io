@@ -34143,6 +34143,32 @@
     "news": {
         "AAPL": [
             {
+                "author": null,
+                "content": "--Apple-Mail=_D6D5390E-F88E-4F20-9656-24F3786D61E4Content-Transfer-Encoding: 7bitContent-Type: text/plain;charset=us-ascii- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -Gentoo\u2026 [+2976 chars]",
+                "description": "Kostenlose Nachrichten, Web-Support und Foren rund um Linux, OpenSource und Freie Software. Angebote wie News, Berichte, Workshops, Tipps, Links und Kalender.",
+                "publishedAt": "2020-08-30T06:40:09Z",
+                "source": {
+                    "id": null,
+                    "name": "Pro-Linux"
+                },
+                "title": "Mehrere Probleme in BIND (Gentoo)",
+                "url": "https://www.pro-linux.de/sicherheit/2/56614/sicherheit-mehrere-probleme-in-bind.html",
+                "urlToImage": null
+            },
+            {
+                "author": "Joseph L. Shaefer",
+                "content": "Intel is one of the true heavyweights in the semiconductor industry .\r\nI own Intel (INTC) in my personal accounts as well as in my Investors Edge \u00ae subscriber model portfolio. I also own Taiwan Semic\u2026 [+15354 chars]",
+                "description": "There are so many exciting investment opportunities in information technology right now that any firm that shows even a minor stumble is punished.",
+                "publishedAt": "2020-08-30T04:51:02Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Intel Is Down - Not Out",
+                "url": "https://seekingalpha.com/article/4371524-intel-is-down-not-out",
+                "urlToImage": "https://static.seekingalpha.com/uploads/2020/8/28/142982-15986624010110617_origin.png"
+            },
+            {
                 "author": "Clara Ferreira Marques | Bloomberg",
                 "content": "The U.S. is deploying its economic weaponry as never before, using unilateral sanctions to punish China for the erosion of Hong Kong's autonomy and its treatment of Uighur minorities in the country's\u2026 [+4839 chars]",
                 "description": "The US sanctions machinery has generally been targeted at smaller, rogue states. Not always, though.",
@@ -34245,32 +34271,6 @@
                 "title": "BSOD Error code DPC_Watchdog_Violation Windows 10",
                 "url": "https://www.bleepingcomputer.com/forums/t/729844/bsod-error-code-dpc-watchdog-violation-windows-10/",
                 "urlToImage": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png"
-            },
-            {
-                "author": "MarketWatch",
-                "content": "Apple Inc.s stock price will appear quite a bit lower Monday morning, but investors shouldnt fret. See full story.\r\nWhat the Federal Reserve inflation policy means for your retirement savings\r\nLow in\u2026 [+860 chars]",
-                "description": "Apple Inc.\u2019s stock price will appear quite a bit lower Monday morning, but investors shouldn\u2019t fret.",
-                "publishedAt": "2020-08-29T13:00:11Z",
-                "source": {
-                    "id": null,
-                    "name": "MarketWatch"
-                },
-                "title": "3 things to know about Apple\u2019s stock split",
-                "url": "https://www.marketwatch.com/story/3-things-to-know-about-apples-stock-split-2020-08-29",
-                "urlToImage": "https://mw3.wsj.net/mw5/content/logos/mw_logo_social.png"
-            },
-            {
-                "author": "Jack Purcher",
-                "content": "It's being report today that the Trump administration is privately seeking to reassure U.S. companies including Apple Inc. that they can still do business with the WeChat messaging app in China, acco\u2026 [+2116 chars]",
-                "description": "The Trump administration is privately seeking to reassure U.S. companies including Apple Inc. that they can still do business with the WeChat messaging app in China",
-                "publishedAt": "2020-08-29T12:33:43Z",
-                "source": {
-                    "id": null,
-                    "name": "Patently Apple"
-                },
-                "title": "The Trump Administration is privately assuring U.S. Companies including Apple that WeChat won't be banned in China",
-                "url": "https://www.patentlyapple.com/patently-apple/2020/08/the-trump-administration-is-privately-assuring-us-companies-including-apple-that-wechat-wont-be-banned-in-china.html",
-                "urlToImage": "https://www.patentlyapple.com/.a/6a0120a5580826970c026be40cac0d200d-600wi"
             }
         ],
         "AMD": [
@@ -34511,17 +34511,17 @@
                 "urlToImage": "https://miro.medium.com/max/417/1*DSnWCFQJzjHjz6TmPPqqww.png"
             },
             {
-                "author": "PR Newswire",
-                "content": "DUBAI, U.A.E., Aug. 25, 2020 /PRNewswire/ -- According to a new market study by Future Market Insights (FMI), the pharmaceutical lipids market\r\n is forecasted to grow at a healthy CAGR of 5.2% betwee\u2026 [+7683 chars]",
-                "description": "According to a new market study by Future Market Insights (FMI), the pharmaceutical lipids market is forecasted to grow at a healthy CAGR of 5.2% between 2020 and 2030.",
+                "author": null,
+                "content": "DUBAI, U.A.E., Aug. 25, 2020 /PRNewswire/ -- According to a new market study by Future Market Insights (FMI), the pharmaceutical lipids market\r\n is forecasted to grow at a healthy CAGR of 5.2% betwee\u2026 [+7405 chars]",
+                "description": "DUBAI, U.A.E., Aug. 25, 2020 /PRNewswire/ -- According to a new market study by Future Market Insights (FMI), the pharmaceutical lipids market is forecasted to grow at a healthy CAGR of 5.2% between 2020 and 2030. According to the American Association of Phar\u2026",
                 "publishedAt": "2020-08-25T14:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "Yahoo Entertainment"
+                    "name": "PRNewswire"
                 },
                 "title": "Pharmaceutical Lipids Market Witnessing Surge on Account of Demand for Safe and Efficient Drugs: Future Market Insights Report",
-                "url": "https://news.yahoo.com/pharmaceutical-lipids-market-witnessing-surge-140000885.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/JF8wzLUB2li.nwgDS5jWQg--~B/aD0yMDA7dz0yMDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/f5e28fb61147de093a2768d5dd8d65d2"
+                "url": "https://www.prnewswire.com/news-releases/pharmaceutical-lipids-market-witnessing-surge-on-account-of-demand-for-safe-and-efficient-drugs-future-market-insights-report-301117854.html",
+                "urlToImage": "https://mma.prnewswire.com/media/1197648/FMI_Logo.jpg?p=facebook"
             },
             {
                 "author": "Dan Alexander, Forbes Staff, Dan Alexander, Forbes Staffhttps://www.forbes.com/sites/danalexander/",
@@ -34538,6 +34538,32 @@
             }
         ],
         "AMZN": [
+            {
+                "author": "KiDD",
+                "content": "KindleKindle50OFF\r\nKindle50OFF\r\nAmazonKindleKindle50OFF910\r\nKindle\r\n\u00a9 2009-2019 Amazon.com, Inc. or its Affiliates.",
+                "description": "\u300eKindle\u300f\u3067\u300cKindle\u672c50\uff05OFF\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u300d\u304c\u958b\u50ac\u4e2d\u3067\u3059\u3002 Kindle\u672c50\uff05OFF\u30ad\u30e3\u30f3\u30da\u30fc\u30f3 Amazon\u306e\u96fb\u5b50\u66f8\u7c4d\u30b9\u30c8\u30a2\u300eKindle\u300f\u3067\u3001\u300cKindle\u672c50\uff05OFF\u30ad\u30e3\u30f3\u30da",
+                "publishedAt": "2020-08-30T06:20:45Z",
+                "source": {
+                    "id": null,
+                    "name": "Appbank.net"
+                },
+                "title": "\u300cKindle\u672c50\uff05OFF\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u300d\u958b\u50ac! \u300e\u30b3\u30f3\u30b5\u30eb\u4e00\u5e74\u76ee\u304c\u5b66\u3076\u3053\u3068\u300f\u3084\u300e\u30a2\u30d8\u30f3\u738b\u56fd\u6f5c\u5165\u8a18\u300f\u306a\u30699\u670810\u65e5\u307e\u3067\u30bb\u30fc\u30eb",
+                "url": "https://www.appbank.net/2020/08/30/iphone-news/1954374.php",
+                "urlToImage": "https://imgc.appbank.net/c/wp-content/uploads/2020/08/kindle200830news01.jpg"
+            },
+            {
+                "author": "P. R. Sanjai",
+                "content": "Mumbai: Reliance Industries Ltd. said it will acquire the retail, wholesale, logistics and warehousing units of Indias Future Group for 247.1 billion rupees ($3.4 billion), in a transaction that will\u2026 [+5025 chars]",
+                "description": "<ol><li>With Future in his bag, Mukesh Ambani draws battle lines between Reliance, Amazon & Flipkart\u00a0\u00a0ThePrint\r\n</li><li>Reliance Retail buys Future Group's businesses for \u20b924,713 crore\u00a0\u00a0Livemint\r\n</li><li>Reliance Retail-Future Group deal: RIL unit adds Futu\u2026",
+                "publishedAt": "2020-08-30T05:06:45Z",
+                "source": {
+                    "id": null,
+                    "name": "ThePrint"
+                },
+                "title": "With Future in his bag, Mukesh Ambani draws battle lines between Reliance, Amazon & Flipkart - ThePrint",
+                "url": "https://theprint.in/economy/with-future-in-his-bag-mukesh-ambani-draws-battle-lines-between-reliance-amazon-flipkart/491970/",
+                "urlToImage": "https://d2c7ipcroan06u.cloudfront.net/wp-content/uploads/2020/05/Mukesh-Ambani.jpg"
+            },
             {
                 "author": "Internal Submission",
                 "content": "Maria Hamasaki, a 23-year-old contestant on \u201cThe Bachelor Japan\u201d reality show, died in a suspected suicide earlier this week, sources close to the matter said Saturday.\r\nHer death on Wednesday was an\u2026 [+1723 chars]",
@@ -34641,32 +34667,6 @@
                 "title": "Blockchain Internet Of Things (BIOT) Market \u2013 Recent developments in the competitive landscape forecast 2020 \u2013 2026 - Bulletin Line",
                 "url": "https://bulletinline.com/2020/08/29/blockchain-internet-of-things-biot-market-recent-developments-in-the-competitive-landscape-forecast-2020-2026/",
                 "urlToImage": null
-            },
-            {
-                "author": "Bloomberg",
-                "content": null,
-                "description": "The net worth of Amazon.com Inc founder Jeff Bezos topped the once-unfathomable amount of $200 billion. Entrepreneur, inventor, provocateur Elon Musk added the title of being a centibillionaire when his fortune soared past $100 billion fueled by Tesla Inc\u2019s c\u2026",
-                "publishedAt": "2020-08-29T05:07:10Z",
-                "source": {
-                    "id": "the-times-of-india",
-                    "name": "The Times of India"
-                },
-                "title": "World\u2019s richest people smashed wealth records this week",
-                "url": "https://timesofindia.indiatimes.com/business/international-business/worlds-richest-people-smashed-wealth-records-this-week/articleshow/77817241.cms",
-                "urlToImage": "https://static.toiimg.com/thumb/msid-77817269,width-1070,height-580,imgsize-82283,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-            },
-            {
-                "author": "Reuters",
-                "content": "By April JoynerNEW YORK: U.S. stocks are rallying, but so too is Wall Street's \"fear gauge,\" in an unusual twist.\r\nThe Cboe Volatility Index was set for a second week of gains, despite a drop on Frid\u2026 [+1725 chars]",
-                "description": "The Cboe Volatility Index was set for a second week of gains, despite a drop on Friday, even as the benchmark S&P 500 has climbed nearly 3 per cent for the week.",
-                "publishedAt": "2020-08-29T04:58:31Z",
-                "source": {
-                    "id": "the-times-of-india",
-                    "name": "The Times of India"
-                },
-                "title": "Wall Street's 'fear gauge' climbs despite U.S. stock rally",
-                "url": "https://economictimes.indiatimes.com/markets/stocks/news/wall-streets-fear-gauge-climbs-despite-u-s-stock-rally/articleshow/77816944.cms",
-                "urlToImage": "https://img.etimg.com/thumb/msid-77816984,width-1070,height-580,imgsize-69605,overlay-etmarkets/photo.jpg"
             }
         ],
         "BAC": [
@@ -35900,6 +35900,32 @@
         ],
         "FB": [
             {
+                "author": "Cosmin Pirv",
+                "content": "Potrivit unui comunicat al UBB Cluj, produsul VR-Mind, derivat din cercetri psihologice, urmrete antrenarea i reantrenarea minii umane pentru a preveni tulburrile emoionale, put\u00e2nd fi implicat i ca m\u2026 [+1778 chars]",
+                "description": "Universitatea Babe\u015f-Bolyai din Cluj-Napoca (UBB) lanseaz\u0103 forma final\u0103 a produsului VR-Mind pentru reglare psihologic\u0103 prin tehnologie virtual\u0103.",
+                "publishedAt": "2020-08-30T07:04:23Z",
+                "source": {
+                    "id": null,
+                    "name": "Mediafax.ro"
+                },
+                "title": "Cluj: UBB lanseaz\u0103 VR-Mind, un produs pentru reglare psihologic\u0103 prin tehnologie virtual\u0103",
+                "url": "https://www.mediafax.ro/tehnologie/cluj-ubb-lanseaza-vr-mind-un-produs-pentru-reglare-psihologica-prin-tehnologie-virtuala-19525308",
+                "urlToImage": "https://storage0.dms.mpinteractiv.ro/media/1/1/38046/19525308/1/ochelari.jpg?width=640"
+            },
+            {
+                "author": "\ufffdJ\ufffd\ufffd\ufffdM\ufffdq\ufffdC\ufffd\u02c2\u0182\ufffd\ufffd",
+                "content": "@TCgu[vA|Cgu|Cv{A\\BA|CgT[rXlCuhA|CggB\r\nlC|CgT[rXH@|CgTCgNC\r\n@AS|CgT[rX[U[500lB|CgT[rXuyV|Cgvi179ljB2ud|Cgvi76ljA3uT|Cgvi38ljB\r\n@Aubs[vuns^Xvj^TCgE|CgTCg10NCB\r\n@t@CiVvi[zqAyV|Cg|CgJ[hAi|CgAIXB|CgTCgAA\u2026 [+590 chars]",
+                "description": "\ufffdu\ufffd\ufffd\ufffdi\ufffd\u0314\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0202\ufffd\ufffd\ufffdR\ufffdc\ufffdR\ufffdc\ufffdv\ufffd\ufffd\ufffd\u930d\ufffd\u0302\u60a4\ufffd\u0142\ufffd\ufffdB",
+                "publishedAt": "2020-08-30T06:40:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Itmedia.co.jp"
+                },
+                "title": "\u4eba\u6c17\u306e\u30dd\u30a4\u30f3\u30c8\u30b5\u30fc\u30d3\u30b91\u4f4d\u306f\u300c\u697d\u5929\u30dd\u30a4\u30f3\u30c8\u300d\u3000\u4eba\u6c17\u306e\u300c\u30dd\u30a4\u6d3b\u300d\u7d4c\u9a13\u8005\u306f\u3069\u306e\u3088\u3046\u306b\u30dd\u30a4\u30f3\u30c8\u3092\u8caf\u3081\u3066\u3044\u308b\uff1f",
+                "url": "https://nlab.itmedia.co.jp/nl/articles/2008/30/news028.html",
+                "urlToImage": "https://image.itmedia.co.jp/nl/articles/2008/30/l_tanimachi_poikatu02.jpg"
+            },
+            {
                 "author": "msalomon",
                 "content": "Ramon Aboitiz Foundation, Inc.\u2019s RESTART webinar with Chief Commercial Officer of GMR Megawide Cebu Airport Corporation, Ravishankar Saravu who will discuss new traveling protocols and airports\u2019 init\u2026 [+1191 chars]",
                 "description": "Anchored by its social mission, the Ramon Aboitiz Foundation, Inc. (RAFI) continues to amplify its initiative to strengthen a more informed and engaged online community by providing people with practical information that will help the community adapt and thri\u2026",
@@ -36002,32 +36028,6 @@
                 "title": "Hindistan'da muhalefetten tart\u0131\u015fmalar\u0131n oda\u011f\u0131ndaki Facebook'un CEO'su Zuckerberg\u2019e 2'nci mektup",
                 "url": "https://www.turkiyegazetesi.com.tr/dunya/728167.aspx",
                 "urlToImage": "https://icdn.turkiyegazetesi.com.tr/images/haberler/2020_08/buyuk/hindistan-da-muhalefetten-tartismalarin-odagindaki-facebook-un-ceo-su-zuckerberg-1598734275.jpg"
-            },
-            {
-                "author": null,
-                "content": "Hindistan'da muhalefet, iktidar partisiyle balantl kullanclarn nefret s\u00f6ylemlerini ve iddeti kkrtan i\u00e7eriklerini kaldrmad i\u00e7in tartmalarn odandaki Facebook\u2019un \u00dcst Y\u00f6neticisi (CEO) Mark Zuckerberg\u2019e 2\u2026 [+4123 chars]",
-                "description": "INC Genel Sekreteri K.C. Venugopal taraf\u0131ndan Zuckerberg'e g\u00f6nderilen mektupta Time Dergisi\u2019ne at\u0131f yap\u0131larak, BJP ile Facebook\u2019un Hindistan\u2019daki yetkililerinin aras\u0131nda \"kar\u015f\u0131l\u0131kl\u0131 \u00e7\u0131kar\" ili\u015fkilerinin bulundu\u011funa dikkat \u00e7ekildi.  - Anadolu Ajans\u0131",
-                "publishedAt": "2020-08-29T20:28:18Z",
-                "source": {
-                    "id": null,
-                    "name": "Anadolu Agency"
-                },
-                "title": "Hindistan'da muhalefetten tart\u0131\u015fmalar\u0131n oda\u011f\u0131ndaki Zuckerberg\u2019e 2'nci mektup",
-                "url": "https://www.aa.com.tr/tr/dunya/hindistanda-muhalefetten-tartismalarin-odagindaki-facebookun-ceosu-zuckerberg-e-2nci-mektup/1957470",
-                "urlToImage": "https://cdnuploads.aa.com.tr/uploads/Contents/2020/08/29/thumbs_b_c_c87c760ced776070aa3927a918ad45b2.jpg"
-            },
-            {
-                "author": "By Lauren Edmonds For Dailymail.com",
-                "content": "A small gas station in California received a small business bailout money from the Trump administration during the pandemic, then paid for Make America Great Again campaign billboards ahead the elect\u2026 [+8700 chars]",
-                "description": "Jones 1 Inc., a small business in Needles, California, received a substantial bailout loan from the federal government during the pandemic before buying several 'MAGA' billboards",
-                "publishedAt": "2020-08-29T18:43:31Z",
-                "source": {
-                    "id": null,
-                    "name": "Daily Mail"
-                },
-                "title": "Gas station receives a federal small business loan before paying for MAGA billboards",
-                "url": "https://www.dailymail.co.uk/news/article-8676941/Gas-station-receives-federal-small-business-loan-paying-MAGA-billboards.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2020/08/29/19/32543304-0-image-a-16_1598726127989.jpg"
             }
         ],
         "FBP": [
@@ -36441,6 +36441,19 @@
                 "urlToImage": ""
             },
             {
+                "author": "Bloomberg",
+                "content": "Less than two days after Microsoft Corp. and Oracle Corp. submitted rival bids to Chinas ByteDance Ltd. to acquire TikToks U.S. business, a dark-horse possible third bidder emerged as the two softwar\u2026 [+4252 chars]",
+                "description": "<ol><li>Centricus\u2019s 11th-hour bid adds curiousity to waiting game on TikTok\u00a0\u00a0Livemint\r\n</li><li>TikTok Rival Triller Says Made $20 Billion Bid With Centricus for Assets\u00a0\u00a0Gadgets 360\r\n</li><li>Centricus, Triller offer $20 billion joint bid for TikTok's US, Ind\u2026",
+                "publishedAt": "2020-08-29T23:57:03Z",
+                "source": {
+                    "id": null,
+                    "name": "Livemint"
+                },
+                "title": "Centricus\u2019s 11th-hour bid adds curiousity to waiting game on TikTok - Livemint",
+                "url": "https://www.livemint.com/companies/news/centricus-s-11th-hour-bid-adds-curiousity-to-waiting-game-on-tiktok-11598745102034.html",
+                "urlToImage": "https://images.livemint.com/img/2020/08/29/600x338/2020-08-29T021519Z_1_LYNXMPEG7S02W_RTROPTP_3_USA-TIKTOK-JAPAN_1598745315419_1598745323025.JPG"
+            },
+            {
                 "author": "f100/textOmatic",
                 "content": "Gering abw\u00e4rts geht es mit dem Kurs der Alphabet Inc. (C). Bei B\u00f6rsenschluss verlor der Wert des Softwarehersteller, der beim letzten B\u00f6rsenschluss mit 1.383,20 Euro notierte, 3,60 Euro (0,26 Prozent\u2026 [+1032 chars]",
                 "description": "Ohne gro\u00dfe Bewegung zeigte sich das Wertpapier des Softwarehersteller Alphabet Inc. (C). Das Wertpapier notierte bei Handelsschluss mit 1.379,60 Euro.",
@@ -36543,283 +36556,270 @@
                 "title": "Walmart may become online advertising leader if TikTok bid succeeds",
                 "url": "https://www.businesstoday.in/current/corporate/walmart-may-become-online-advertising-leader-if-tiktok-bid-succeeds/story/414515.html",
                 "urlToImage": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/walmart_505_130120090546_190320052313_290820102551.jpg"
-            },
-            {
-                "author": null,
-                "content": "Londons Centricus Asset Management and US-based video networking app Triller Inc. have joined in the race to acquire TikTok from ByteDance in a multi-country deal, Bloomberg reported.\r\nA source told \u2026 [+1296 chars]",
-                "description": "The offer by Centricus and Triller joins the bids made by US giants like Microsoft, Oracle and Walmart; Twitter and Alphabet",
-                "publishedAt": "2020-08-29T04:52:09Z",
-                "source": {
-                    "id": null,
-                    "name": "Moneycontrol"
-                },
-                "title": "Centricus, Triller offer $20 billion joint bid for TikTok#39;s US, India, Australia NZ units: Report",
-                "url": "https://www.moneycontrol.com/news/business/centricus-triller-offer-20-billion-joint-bid-for-tiktoks-us-india-australia-nz-units-report-5770011.html",
-                "urlToImage": "https://images.moneycontrol.com/static-mcnews/2020/07/US_tiktok-770x433.jpg"
             }
         ],
         "INTC": [
             {
-                "author": "Telangana Today",
-                "content": "New Delhi: Chip giant Qualcomm led the global cellular Internet of Things (IoT) module chipset shipments in the first quarter this year, capturing a third of the market with 36.1 percent share, accor\u2026 [+2476 chars]",
-                "description": "Qualcomm leads global cellular IoT module chipset shipments\u00a0\u00a0Telangana Today",
-                "publishedAt": "2020-08-30T04:48:00Z",
+                "author": "bluejay01",
+                "content": "2: 5VIP 2020/08/29() 09:23:31.225 ID:xRO4kLZZa\r\n4: 5VIP 2020/08/29() 09:23:47.540 ID:sxHXo1MMM\r\n5: 5VIP 2020/08/29() 09:23:56.382 ID:cF+AA4ALM\r\n8: 5VIP 2020/08/29() 09:25:30.942 ID:sxHXo1MMM\r\n9: 5VIP\u2026 [+837 chars]",
+                "description": "1: \u4ee5\u4e0b\u30015\u3061\u3083\u3093\u306d\u308b\u304b\u3089VIP\u304c\u304a\u9001\u308a\u3057\u307e\u3059 2020/08/29(\u571f) 09:21:47.048 ID:Qb3wY2HC0\n \u30b2\u30fc\u30e0\u306e\u305f\u3081\u3058\u3083\u306a\u304f\u3001\u97f3\u697d\u3092\u9ad8\u97f3\u8cea\u3067\u8074\u304d\u305f\u3044",
+                "publishedAt": "2020-08-30T07:02:27Z",
                 "source": {
                     "id": null,
-                    "name": "Telangana Today"
+                    "name": "Livedoor.jp"
                 },
-                "title": "Qualcomm leads global cellular IoT module chipset shipments - Telangana Today",
-                "url": "https://telanganatoday.com/?p=503318",
-                "urlToImage": "https://cdn.telanganatoday.com/wp-content/uploads/2020/08/Qualcomm-1.jpg"
+                "title": "PC\u65b0\u8abf\u3057\u3088\u3046\u3068\u601d\u3046\u3093\u3060\u304c\u30b5\u30a6\u30f3\u30c9\u30ab\u30fc\u30c9\u5165\u308c\u308b\u304b\u8ff7\u3063\u3066\u308b",
+                "url": "http://blog.livedoor.jp/bluejay01-review/archives/57128418.html",
+                "urlToImage": null
             },
             {
-                "author": null,
-                "content": "Twitter WalkingCat Intel Tiger Lake , 10- .\r\n, Tiger Lake, : Hyper-Threading 3.11 4.8 .\r\n , . Xe-LP, , \u00abIris Xe Graphics\u00bb.\r\n Tiger Lake, .\r\n Tiger Lake Intel , . 10- Intel Xe.",
-                "description": "\u0410 \u043a\u0430\u043a \u0436\u0435 \u0442\u0440\u0435\u0442\u044c\u0435 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044f?",
-                "publishedAt": "2020-08-30T04:40:00Z",
+                "author": "Techredactie",
+                "content": "De afmeting van de VivoBook 14 zijn gerust klein te noemen. Doordat het apparaat een scherm van 14 inch - wat ongeveer gelijk staat een A4'tje - en een gewicht van 1,5 kilo heeft lijkt ie op het eers\u2026 [+1928 chars]",
+                "description": "Moet je er niet aan denken om met een grote zware stoeptegel weer naar school of het werk te gaan? Er zijn inmiddels genoeg laptops die een lichtgewicht maatje hebben. Hardware Info bekeek de VivoBook 14 van Asus. Lever je niet te veel in bij zo\u2019n lichtgewich\u2026",
+                "publishedAt": "2020-08-30T07:01:23Z",
                 "source": {
                     "id": null,
-                    "name": "Overclockers.ru"
+                    "name": "Www.ad.nl"
                 },
-                "title": "\u041d\u043e\u0432\u044b\u0435 \u043b\u043e\u0433\u043e\u0442\u0438\u043f\u044b Intel \u0430\u043a\u0442\u0438\u0432\u043d\u043e \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u0432 \u0440\u0435\u043a\u043b\u0430\u043c\u043d\u044b\u0445 \u0440\u043e\u043b\u0438\u043a\u0430\u0445 Tiger Lake",
-                "url": "https://overclockers.ru/hardnews/show/105257/novye-logotipy-intel-aktivno-demonstrirujutsya-v-reklamnyh-rolikah-tiger-lake",
-                "urlToImage": "https://st.overclockers.ru[:]//images/preview/uWniBlA8vDIickoT.jpg"
+                "title": "Asus VivoBook 14: laptop van anderhalve kilo met uithoudingsvermogen",
+                "url": "https://www.ad.nl/tech/asus-vivobook-14-laptop-van-anderhalve-kilo-met-uithoudingsvermogen~ac3e85340/",
+                "urlToImage": "https://images0.persgroep.net/rcs/ceDa5hUvuQbdnTItkZeyKHpHlEI/diocontent/175409040/_fill/600/315/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7"
             },
             {
-                "author": "Vinpol",
-                "content": "Hey Guys,\r\nAs promised we have renew the promotion as stock is back to amazon BUT we have not received many reviews so I had to fought and deal for this discount for you to use:\r\n25 % OFF for 1 and 3\u2026 [+1050 chars]",
-                "description": "Hey Guys,\n\nAs promised we have renew the promotion as stock is back to amazon BUT we have not received many reviews so I had to fought and deal for this discount for you to use:\n\n25 % OFF for 1 and 30% OFF for 2 ( 30% instead of 50%\u2026 couldn't do better)\n\nI re\u2026",
-                "publishedAt": "2020-08-30T04:37:09Z",
+                "author": "Kaan G\u00fcrayer",
+                "content": "Kann man sich jetzt noch einen iMac kaufen? Viele Apple-Nutzer stellen sich aktuell diese Frage \u2013 der vom Hersteller angek\u00fcndigte Wechsel auf eigene Prozessoren wirft seine Schatten voraus. F\u00fcr mich \u2026 [+2645 chars]",
+                "description": "Kann man sich jetzt noch einen iMac kaufen? Viele Apple-Nutzer stellen sich aktuell diese Frage \u2013 der vom Hersteller angek\u00fcndigte Wechsel auf eigene Prozessoren wirft seine Schatten voraus. F\u00fcr mich ist die Antwort sonnenklar: Ich greife jetzt noch zum wohl l\u2026",
+                "publishedAt": "2020-08-30T07:00:24Z",
                 "source": {
                     "id": null,
-                    "name": "Ozbargain.com.au"
+                    "name": "Giga"
                 },
-                "title": "2m Vinbolt Thunderbolt 3 Cable, 100W, 4K/5K Video, up to 40gbps, $29.25 X1 or $27.30 each X2 + Delivery ($0 w/ Prime/ $39 Spend)",
-                "url": "https://www.ozbargain.com.au/node/562195",
-                "urlToImage": "https://files.ozbargain.com.au/n/95/562195x.jpg?h=5faefebe"
-            },
-            {
-                "author": "\u5434\u4f18",
-                "content": null,
-                "description": "\u4ee3\u5de5\u5382\u3001\u8bbe\u5907\u4f9b\u5e94\u5546\u3001\u7814\u53d1\u673a\u6784\u7b49\u90fd\u5728\u7814\u53d1\u4e00\u79cd\u79f0\u4e4b\u4e3a\u94dc\u6df7\u5408\u952e\u5408\uff08Hybrid bonding\uff09\u5de5\u827a\uff0c\u8fd9\u9879\u6280\u672f\u6b63\u5728\u63a8\u52a8\u4e0b\u4e00\u4ee32.5D\u548c3D\u5c01\u88c5\u6280\u672f\u3002\u4e0e\u73b0\u6709\u7684\u5806\u53e0\u548c\u952e\u5408\u65b9\u6cd5\u76f8\u6bd4\uff0c\u6df7\u5408\u952e\u5408\u53ef\u4ee5\u63d0\u4f9b\u66f4\u9ad8\u7684\u5e26\u5bbd\u548c\u66f4\u4f4e\u7684\u529f\u8017\uff0c\u4f46\u6df7\u5408\u952e\u5408\u6280\u672f\u4e5f\u66f4\u96be\u5b9e\u73b0\u3002\u5f02\u6784\u96c6\u6210\u662f\u94dc\u6df7\u5408\u952e\u5408\u7684\u4e3b\u8981\u4f18\u52bf\u94dc\u6df7\u5408\u952e\u5408\u5e76\u4e0d\u662f\u65b0\u9c9c\u4e8b\uff0c\u4ece2016\u5e74\u5f00\u59cb\uff0cCMOS\u56fe\u50cf\u4f20\u611f\u5668\u5f00\u59cb\u4f7f\u7528\u6676\u5706\u95f4\uff08Wafer-to-Wafer\uff09\u7684\u6df7\u5408\u952e\u5408\u6280\u672f\u5236\u9020\u4ea7\u54c1\u3002\u5177\u4f53\u800c\u8a00\uff0c\u4f9b\u5e94\u5546\u4f1a\u5148\u751f\u4ea7\u4e00\u4e2a\u903b\u8f91\u6676\u5706\uff0c\u7136\u540e\u751f\u4ea7\u4e00\u4e2a\u7528\u4e8e\u50cf\u7d20\u5904\u7406\u7684\u5355\u72ec\u6676\u5706\uff0c\u4e4b\u540e\u4f7f\u7528\u94dc\u4e92\u8fde\u6280\u672f\u5c06\u4e24\u4e2a\u6676\u5706\u7ed3\u5408\u5728\u4e00\u8d77\uff0c\u518d\u5c06\u5404\u82af\u2026",
-                "publishedAt": "2020-08-30T04:23:04Z",
-                "source": {
-                    "id": null,
-                    "name": "Mydrivers.com"
-                },
-                "title": "\u53f0\u79ef\u7535\u3001Intel\u3001\u4e09\u661f\u7b49\u5de8\u5934\u4e89\u76f8\u7814\u53d13D\u5c01\u88c5\u5173\u952e\u6280\u672f\uff1a\u592a\u96be\u4e86",
-                "url": "https://news.mydrivers.com/1/710/710458.htm",
-                "urlToImage": "https://img1.mydrivers.com/img/20200830/00476864849646f48638fe0e4c8d32e2.jpg"
-            },
-            {
-                "author": "Softpedia Drivers",
-                "content": "Key Features:\r\n- Processor: Intel Core i7 10510U or i5 10210U- Memory: 8 GB DDR4 2666MHz SDRAM Onboard memory, 1 x SO-DIMM socket for expansion- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz\u2026 [+2992 chars]",
-                "description": "Key Features:- Processor: Intel Core i7 10510U or i5 10210U- Memory: 8 GB DDR4 2666MHz SDRAM Onboard memory, 1 x SO-DIMM socket for expansion- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC with wide 178\u00b0 viewing angles-\u2026",
-                "publishedAt": "2020-08-30T04:21:01Z",
-                "source": {
-                    "id": null,
-                    "name": "Softpedia.com"
-                },
-                "title": "ASUS Laptop 15 X545FA Realtek WLAN Driver 2024.0.10.107 for Windows 10 64-bit",
-                "url": "https://drivers.softpedia.com/get/NETWORK-CARD/REALTEK/ASUS-Laptop-15-X545FA-Realtek-WLAN-Driver-2024-0-10-107-for-Windows-10-64-bit.shtml",
-                "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
+                "title": "iMac 2020: Warum ich mir jetzt noch das \u201ealte\u201c Modell gekauft habe",
+                "url": "https://www.giga.de/news/imac-2020-warum-ich-mir-jetzt-noch-das-alte-modell-gekauft-habe/",
+                "urlToImage": "https://crops.giga.de/4a/39/1d/1447c010d8911bf1c014882e8b_YyA1Mjc5eDI3NTgrMTY4KzQ5MwJyZSAxMjAwIDYyNwM0OTE3MTgxMTE4OA==.jpg"
             },
             {
                 "author": "DEB RIECHMANN  Associated Press",
                 "content": "WASHINGTON, D.C., USA The nations top intelligence official has informed Congress that his office will no longer give in-person election security briefings on Capitol Hill, a move that raised concern\u2026 [+3445 chars]",
                 "description": "Director of National Intelligence John Ratcliffe tells lawmakers they'll now receive only written updates to help ensure info isn't 'misunderstood nor politicized.'",
-                "publishedAt": "2020-08-30T04:19:07Z",
+                "publishedAt": "2020-08-30T07:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "FOX43.com"
+                    "name": "CBS News 8"
                 },
                 "title": "Trump's intel chief ends in-person election security briefings to Congress",
-                "url": "https://www.fox43.com/article/news/nation-world/trumps-intel-chief-ends-election-security-briefings-to-hill/507-99fc1212-67b7-4db3-a50d-3e3157caf949",
-                "urlToImage": "https://media.tegna-media.com/assets/CCT/images/8a5ce2ef-856a-4636-904b-38224f136cb3/8a5ce2ef-856a-4636-904b-38224f136cb3_1140x641.jpg"
+                "url": "https://www.cbs8.com/article/news/nation-world/trumps-intel-chief-ends-election-security-briefings-to-hill/507-99fc1212-67b7-4db3-a50d-3e3157caf949",
+                "urlToImage": "https://media.cbs8.com/assets/CCT/images/8a5ce2ef-856a-4636-904b-38224f136cb3/8a5ce2ef-856a-4636-904b-38224f136cb3_1140x641.jpg"
             },
             {
-                "author": "Softpedia Drivers",
+                "author": "IANS",
+                "content": "Image Source : QUALCOMMQualcomm leads global cellular IoT module chipset shipments.\r\nChip giant Qualcomm led the global cellular Internet of Things (IoT) module chipset shipments in the first quarter\u2026 [+2584 chars]",
+                "description": "Qualcomm led the global cellular Internet of Things (IoT) module chipset shipments in the first quarter this year, capturing a third of the market with 36.1 per cent share.",
+                "publishedAt": "2020-08-30T06:50:54Z",
+                "source": {
+                    "id": null,
+                    "name": "India TV News"
+                },
+                "title": "Qualcomm leads global cellular IoT module chipset shipments - India TV News",
+                "url": "https://www.indiatvnews.com/technology/news-qualcomm-leads-global-cellular-iot-module-chipset-shipments-645874",
+                "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/05/qualcomm-snapdragon-1589261556.jpg"
+            },
+            {
+                "author": "delz4stelz",
+                "content": "StaplesDell Inspiron 3880 Desktop: Intel Core i7-10700, 8GB DDR4, 512GB SSD $649.99https://www.staples.com/dell-insp...t_244448\r\n63\r\nModel #: I3880-7975BLK-PUS",
+                "description": "Staples \n \nDell Inspiron 3880 Desktop: Intel Core i7-10700, 8GB DDR4, 512GB SSD $649.99  \nhttps://www.staples.com/dell-inspiron-i3880-7975blk-pus-desktop-computer-intel-i7-8gb-ram-512gb-ssd/product_24 ...",
+                "publishedAt": "2020-08-30T06:50:15Z",
+                "source": {
+                    "id": null,
+                    "name": "Slickdeals.net"
+                },
+                "title": "Dell Inspiron 3880 Desktop: Intel Core i7-10700, 8GB DDR4, 512GB SSD $649.99 @ Staples",
+                "url": "https://slickdeals.net/f/14308520-dell-inspiron-3880-desktop-intel-core-i7-10700-8gb-ddr4-512gb-ssd-649-99-staples",
+                "urlToImage": "https://static.slickdealscdn.com/attachment/9/4/1/8/8/8/9343442.attach"
+            },
+            {
+                "author": "smitie18",
                 "content": null,
-                "description": "Key Features:- Processor: Intel Core i7 10510U or i5 10210U- Memory: 8 GB DDR4 2666MHz SDRAM Onboard memory, 1 x SO-DIMM socket for expansion- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC with wide 178\u00b0 viewing angles-\u2026",
-                "publishedAt": "2020-08-30T04:09:01Z",
+                "description": "Processor\tIntel Core i5 (9th Gen) 9300H / 2.4 GHz (4.1 GHz) / 8 MB Cache<br />Memory\t8 GB DDR4 (1 x 8 GB)<br />Storage\t256 GB SSD NVMe<br />Optical Drive\tNo optical drive<br />Display\t15.6\" LED backlight 1920 x 1080 / Full HD<br />Graphics\tNVIDIA GeForce GTX \u2026",
+                "publishedAt": "2020-08-30T06:36:49Z",
                 "source": {
                     "id": null,
-                    "name": "Softpedia.com"
+                    "name": "Hotukdeals.com"
                 },
-                "title": "ASUS Laptop 15 X545FA Intel Serial IO GPIO Driver 30.100.1915.1 for Windows 10 64-bit",
-                "url": "https://drivers.softpedia.com/get/laptop-notebook/ASUS/ASUS-Laptop-15-X545FA-Intel-Serial-IO-GPIO-Driver-30-100-1915-1-for-Windows-10-64-bit.shtml",
-                "urlToImage": null
+                "title": "102\u00b0 - IdeaPad L340 Gaming Laptop - 15 Inch Full HD, GeForce GTX 1650 Graphics, Intel Core I5, 8GB RAM, 256GB \u00a3649.99 (\u00a3585 With BNPL Code) @ Very",
+                "url": "https://www.hotukdeals.com/deals/ideapad-l340-gaming-laptop-15-inch-full-hd-geforce-gtx-1650-graphics-intel-core-i5-8gb-ram-256gb-ssd-ps585-with-bnpl-code-at-very-3534165",
+                "urlToImage": "https://images.hotukdeals.com/threads/thread_full_screen/default/3534165_1.jpg"
             },
             {
-                "author": "Jeroen Horlings",
-                "content": "Stoel aanschuiven, riemen vast, voeten bij de pedalen en starten maar. Bij de eerste dot gas lijkt alles te bewegen. De riemen worden strakgetrokken, de stoel knijpt zich samen. Terwijl de wind door \u2026 [+11439 chars]",
-                "description": "Tweaker Henkus maakte zijn eigen motionrig voor simracing. We vroegen hem hoe hij dat heeft gedaan en wat er nodig is voor de ultieme race-ervaring.",
-                "publishedAt": "2020-08-30T04:00:00Z",
+                "author": null,
+                "content": "The New York Times Intel , . , Aurora 1\u00b71018 .\r\nIntel Ponte Vecchio, - 7- Aurora 2021 . Intel . Intel , 7- , Ponte Vecchio , .\r\n Intel , Ponte Vecchio 2021 , 2022 . Aurora , . , Intel . , AMD, , . AM\u2026 [+6 chars]",
+                "description": "\u0412 \u0441\u0440\u043e\u043a \u0441 \u043f\u0435\u0440\u0432\u044b\u043c \u044d\u043a\u0441\u0430\u0444\u043b\u043e\u043f\u0441\u043e\u043c \u0442\u0435\u043f\u0435\u0440\u044c \u043d\u0435 \u0443\u043b\u043e\u0436\u0438\u0442\u044c\u0441\u044f.",
+                "publishedAt": "2020-08-30T06:27:00Z",
                 "source": {
                     "id": null,
-                    "name": "Tweakers.net"
+                    "name": "Overclockers.ru"
                 },
-                "title": "Community-interview met Henkus - Alles voor de ultieme race-ervaring",
-                "url": "https://tweakers.net/reviews/8084/community-interview-met-henkus-alles-voor-de-ultieme-race-ervaring.html",
-                "urlToImage": "https://tweakers.net/ext/i/2003801088.jpeg"
+                "title": "\u0417\u0430\u0434\u0435\u0440\u0436\u043a\u0430 Intel \u0441 \u043e\u0441\u0432\u043e\u0435\u043d\u0438\u0435\u043c 7-\u043d\u043c \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u043f\u043e\u0434\u0440\u044b\u0432\u0430\u0435\u0442 \u0441\u0443\u043f\u0435\u0440\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u0430\u043c\u0431\u0438\u0446\u0438\u0438 \u0421\u0428\u0410",
+                "url": "https://overclockers.ru/hardnews/show/105260/zaderzhka-intel-s-osvoeniem-7-nm-tehnologii-podryvaet-superkompjuternye-ambicii-ssha",
+                "urlToImage": "https://st.overclockers.ru[:]//images/preview/6OjlgwGlVYmw5zyP.jpg"
             },
             {
-                "author": "Softpedia Drivers",
-                "content": "Key Features:\r\n- Processor: Intel Core i7 10510U or i5 10210U- Memory: 8 GB DDR4 2666MHz SDRAM Onboard memory, 1 x SO-DIMM socket for expansion- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz\u2026 [+2839 chars]",
-                "description": "Key Features:- Processor: Intel Core i7 10510U or i5 10210U- Memory: 8 GB DDR4 2666MHz SDRAM Onboard memory, 1 x SO-DIMM socket for expansion- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC with wide 178\u00b0 viewing angles-\u2026",
-                "publishedAt": "2020-08-30T03:58:01Z",
+                "author": null,
+                "content": "10nm Sunny Cove IPC SuperFin Tiger Lake Willow Cove \r\nSunny CoveSuperFinTiger LakeTiger LakeXe iGPU2.6 TFLOPs--\r\n:\r\nTiger Lake\r\n11\r\nHP Intel Evo\r\nIntel New Core i7 EVO\r\n Yoga 9i",
+                "description": "\u77e5\u540d\u7206\u6599\u4eba\u58eb @h0x0d \u8fd1\u65e5\u5206\u4eab\u4e86\u591a\u6bb5\u89c6\u9891\uff0c\u4ecb\u7ecd\u4e86\u82f1\u7279\u5c14\u9177\u777f\u54c1\u724c\u91cd\u5851\u548c Tiger Lake \u5904\u7406\u5668\u7684\u8425\u9500\u8d44\u6599\u3002\u5728\u8fd9\u4e9b\u8d44\u6599\u4e2d\u5c55\u793a\u4e86 Tiger Lake \u5e73\u53f0\u7684\u6280\u672f\u6210\u5c31\uff0c\u4ee5\u53ca\u5bf9\u9177\u777f\uff08CORE\uff09\u7cfb\u5217\u548c Xe \u96c6\u6210\u663e\u5361\u7684\u54c1\u724c\u91cd\u5851\u3002\u6b64\u5916\u5305\u62ec\u8054\u60f3\u3001\u60e0\u666e\u5728\u5185\u7684\u591a\u5bb6\u5382\u5546\u3001\u57fa\u4e8e Tiger Lake \u7684\u4ea7\u54c1\u89c6\u9891\u4e5f\u88ab\u66dd\u5149\u3002\r\n\u82f1\u7279\u5c14\u6700\u521d\u7684 10nm \u67b6\u6784 Sunny Cove \u6709\u5f88\u597d\u7684 IPC\uff0c\u4f46\u65e0\u6cd5\u7ef4\u6301\u8db3\u591f\u9ad8\u7684\u65f6\u949f\u901f\u7387\u3002\u4e3a\u4e86\u89e3\u51b3\u8fd9\u4e2a\u95ee\u9898\uff0c\u82f1\u7279\u5c14\u5f00\u53d1\u4e86\u4e00\u79cd\u540d\u4e3a SuperFin \u7684\u65b0\u578b\u6676\u4f53\u7ba1\u3002Tiger Lake \u8fd8\u4f7f\u7528 W\u2026",
+                "publishedAt": "2020-08-30T06:19:48Z",
                 "source": {
                     "id": null,
-                    "name": "Softpedia.com"
+                    "name": "Cnbeta.com"
                 },
-                "title": "ASUS Laptop 15 X545FA Elantech Fingerprint Driver 4.5.11001.10205 for Windows 10 64-bit",
-                "url": "https://drivers.softpedia.com/get/KEYBOARD-and-MOUSE/Elantech/ASUS-Laptop-15-X545FA-Elantech-Fingerprint-Driver-4-5-11001-10205-for-Windows-10-64-bit.shtml",
-                "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
+                "title": "[\u96c6\u9526]\u591a\u6bb5\u82f1\u7279\u5c14Tiger Lake\u5904\u7406\u5668\u5ba3\u4f20\u89c6\u9891\u66dd\u5149",
+                "url": "http://www.cnbeta.com/articles/tech/1022303.htm",
+                "urlToImage": "https://static.cnbetacdn.com/thumb/article/2020/0830/f4d9d9070c5739e.jpg"
             },
             {
-                "author": "mango",
-                "content": "Stack Exchange Network\r\nStack Exchange network consists of 176 Q&amp;A communities including Stack Overflow, the largest, most trusted online community for developers to learn, share their knowledge,\u2026 [+46 chars]",
-                "description": "I have an up to date install of 20.04 desktop on a newish ASUS gaming mainboard with Intel 9900K processor. If I insert any USB stick into any of the slots it freezes my Logitech MX25 wireless mouse. I can't find any similar questions on the net. How can I re\u2026",
-                "publishedAt": "2020-08-30T03:57:01Z",
+                "author": "Dawid D\u0142ugosz",
+                "content": "{\r\n \"uuid\": \"49afc379-8fc7-40cb-a73c-e59228c748df\",\r\n \"caption\": \" \",\r\n \"url\": \"http://ocdn.eu/images/pulscms/ZTQ7MDA_/6206bf354fe4d97988e8c28c727893b9.png\",\r\n \"alignment\": \"center\",\r\n \"contentSource\u2026 [+2043 chars]",
+                "description": "Intel Tiger Lake to nowe procesory, kt\u00f3re zobaczymy ju\u017c 2 wrze\u015bnia. Tymczasem w sieci pojawi\u0142y si\u0119 filmy promocyjne po\u015bwi\u0119cone nadchodz\u0105cym uk\u0142adom, kt\u00f3re opublikowano na Twitterze. Na nich mamy okazj\u0119 zobaczy\u0107 najwa\u017cniejsze informacje i funkcje CPU z linii T\u2026",
+                "publishedAt": "2020-08-30T06:19:00Z",
                 "source": {
                     "id": null,
-                    "name": "Askubuntu.com"
+                    "name": "Komputerswiat.pl"
                 },
-                "title": "Any USB stick freezes my mouse",
-                "url": "https://askubuntu.com/questions/1271221/any-usb-stick-freezes-my-mouse",
-                "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955"
+                "title": "Intel Tiger Lake na filmach promocyjnych. Tu\u017c przed planowan\u0105 premier\u0105",
+                "url": "https://www.komputerswiat.pl/aktualnosci/sprzet/intel-tiger-lake-na-filmach-promocyjnych-tuz-przed-planowana-premiera/ltmp5hd",
+                "urlToImage": "https://ocdn.eu/pulscms-transforms/1/5h8ktkpTURBXy80MDMxMDUwZmI4MTM0Yjc1ODIzM2IzNTk2MmQ5YzgwNi5qcGeSlQMAAM0FyM0DQJMFzQSwzQJ2"
             }
         ],
         "JNJ": [
             {
-                "author": "Internal Submission",
-                "content": "Florham Park, New Jersey \u2013 Sam Darnold watched as several of his New York Jets teammates took turns speaking, many of whom got emotional.\r\nAnd, the quarterback did what he thought was his best play a\u2026 [+5575 chars]",
-                "description": "Sam Darnold watched as several of his New York Jets teammates took turns speaking, many of whom got emotional. And, the quarterback did what he thought was",
-                "publishedAt": "2020-08-30T04:36:45Z",
-                "source": {
-                    "id": null,
-                    "name": "The Japan Times"
-                },
-                "title": "NFL teams huddling up to devise plans for social change",
-                "url": "https://www.japantimes.co.jp/sports/2020/08/30/more-sports/football/nfl-teams-huddling-devise-plans-social-change/",
-                "urlToImage": "https://cdn.japantimes.2xx.jp/wp-content/uploads/2020/08/np_file_34239-870x581.jpeg"
-            },
-            {
-                "author": "Blake Schuster",
-                "content": "Terry Renna/Associated Press\r\nWilliam Byron survived a number of massive wrecks late and surged ahead in overtime to nab his first NASCAR Cup Series victory on Saturday night at the Coke Zero Sugar 4\u2026 [+2955 chars]",
-                "description": "William Byron  survived a number of massive wrecks late and surged ahead in overtime to nab his first NASCAR Cup Series victory on Saturday night at the Coke Zero Sugar 400...",
-                "publishedAt": "2020-08-30T04:22:01Z",
-                "source": {
-                    "id": "bleacher-report",
-                    "name": "Bleacher Report"
-                },
-                "title": "NASCAR at Daytona 2020 Results: William Byron Wins Race in Overtime",
-                "url": "https://bleacherreport.com/articles/2906833-nascar-at-daytona-2020-results-william-byron-wins-race-in-overtime",
-                "urlToImage": "https://img.bleacherreport.net/img/images/photos/003/882/143/hi-res-d0b0cb09ca7305b438eb3ff7516e4972_crop_exact.jpg?w=1200&h=1200&q=75"
-            },
-            {
-                "author": "Just Jared",
-                "content": null,
-                "description": "Paul Mescal is making his feature film debut! The 24-year-old Normal People actor has signed on to join the cast of The Lost Daughter, which will be the directorial debut for Maggie Gyllenhaal. PHOTOS: Check out the latest pics of Paul Mescal Paul will be joi\u2026",
-                "publishedAt": "2020-08-30T04:16:12Z",
-                "source": {
-                    "id": null,
-                    "name": "Just Jared"
-                },
-                "title": "Paul Mescal Joins Cast of Maggie Gyllenhaal's Directorial Debut",
-                "url": "http://www.justjared.com/2020/08/30/paul-mescal-joins-cast-of-maggie-gyllenhaals-directorial-debut/",
-                "urlToImage": "http://cdn01.cdn.justjared.com/wp-content/uploads/headlines/2020/08/mescal-maggie.jpg"
-            },
-            {
-                "author": "feedfeeder",
-                "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
-                "description": "William Byron prevails in Daytona finale, joins DiBenedetto in claiming playoff berthsNASCAR William Byron wins Daytona as Jimmie Johnson falls short of playoffsESPN Saturday Cup race at Daytona: Start time, TV channelNASCAR on NBC Sports Jimmie Johnson: \u2019Ath\u2026",
-                "publishedAt": "2020-08-30T04:12:12Z",
-                "source": {
-                    "id": null,
-                    "name": "Slashdot.org"
-                },
-                "title": "William Byron prevails in Daytona finale, joins DiBenedetto in claiming playoff berths - NASCAR",
-                "url": "https://slashdot.org/firehose.pl?op=view&amp;id=135537320",
-                "urlToImage": null
-            },
-            {
-                "author": "Associated Press, Associated Press",
-                "content": "Published: 12:07pm, 30 Aug, 2020\r\nUpdated: 12:07pm, 30 Aug, 2020",
-                "description": "Dustin Johnson is 21 shots worse to par than he was a week ago and still looks to be the player to beat.Johnson and Hideki Matsuyama survived another demanding day at Olympia Fields, both scratching out a 1-under 69 that felt better than it looked to share th\u2026",
-                "publishedAt": "2020-08-30T04:07:30Z",
-                "source": {
-                    "id": null,
-                    "name": "Post Magazine"
-                },
-                "title": "BMW Championship: Dustin Johnson and Hideki Matsuyama tied for lead at tough Olympia Fields",
-                "url": "https://www.scmp.com/sport/golf/article/3099429/bmw-championship-dustin-johnson-and-hideki-matsuyama-tied-lead-tough",
-                "urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/methode/2020/08/30/28626ffa-ea75-11ea-89db-330a508fcc28_image_hires_120720.jpg?itok=svrzgdh1&v=1598760448"
-            },
-            {
-                "author": "The Daytona Beach News-Journal, Zach Dean, The Daytona Beach News-Journal",
-                "content": "Last SlideNext Slide\r\nStory Highlights\r\n<ul><li>Johnson entered the night four points outside the playoff picture</li><li>He did everything he needed to do through the first two stages</li><li>With 2\u2026 [+3511 chars]",
-                "description": "Jimmie Johnson was caught up in a late crash Saturday at Daytona, ending his pursuit of an eighth NASCAR championship in his final season.",
-                "publishedAt": "2020-08-30T04:05:43Z",
-                "source": {
-                    "id": "usa-today",
-                    "name": "USA Today"
-                },
-                "title": "In final season, Jimmie Johnson misses playoffs, bid for record eighth NASCAR title after late Daytona wreck",
-                "url": "https://www.usatoday.com/story/sports/nascar/2020/08/30/jimmie-johnson-misses-playoffs-daytona-wreck-final-season/5672684002/",
-                "urlToImage": "https://www.gannett-cdn.com/presto/2020/08/30/USAT/71a0dcd8-3bf2-449a-ac6d-8dac431721aa-jimmie.JPG?crop=4520,2542,x0,y412&width=3200&height=1680&fit=bounds"
-            },
-            {
                 "author": null,
-                "content": "Thurgood Marshall (July 2, 1908\u00a0\u2013 January 24, 1993) was an Associate Justice of the United States Supreme Court, serving from October 1967 until October 1991. Marshall was the Court's 96th justice an\u2026 [+28389 chars]",
-                "description": "The great-grandson of a slave and the first African American to serve on the US Supreme Court, Marshall was appointed by President Lyndon B. Johnson at the height of the Civil Rights movement. As a lawyer, he won 29 of the 32 cases he argued before the Suprem\u2026",
-                "publishedAt": "2020-08-30T04:05:34Z",
+                "content": "Despite experiencing a five-point decrease in support over five weeks, the Jamaica Labour Party (JLP) is still regarded by most respondents in the latest Bill Johnson poll as the party that would do \u2026 [+2533 chars]",
+                "description": "Despite experiencing a five-point decrease in support over five weeks, the Jamaica Labour Party (JLP) is still regarded by most respondents in the latest Bill Johnson poll as the party that would do a better job of governing the country by a two-and-a-half to\u2026",
+                "publishedAt": "2020-08-30T07:01:00Z",
                 "source": {
                     "id": null,
-                    "name": "Thefreedictionary.com"
+                    "name": "Jamaica Observer"
                 },
-                "title": "Thurgood Marshall Confirmed as First African-American US Supreme Court Justice (1967)",
-                "url": "https://encyclopedia.thefreedictionary.com/Thurgood+Marshall",
-                "urlToImage": "http://img.tfd.com/TFDlogo1200x1200.png"
+                "title": "55% say JLP would run Jamaica better, 22% say PNP",
+                "url": "http://www.jamaicaobserver.com/news/55-say-jlp-would-run-jamaica-better-22-say-pnp_202040?profile=1470",
+                "urlToImage": "http://www.jamaicaobserver.com/apps/pbcsi.dll/storyimage/JO/20200830/ARTICLE/308309931/AR/0/AR-308309931.jpg"
             },
             {
-                "author": "Daniel McFadin",
-                "content": "William Byron \u2013 winner: \u201cI had confidence in (crew chief) Chad (Knaus) and the guys that we could get four tires and make the most of it. So, Im just extremely blessed, and this is incredible. Its be\u2026 [+13881 chars]",
-                "description": "Read what Cup drivers had to say after a tense regular-season finale at Daytona International Speedway.",
-                "publishedAt": "2020-08-30T04:04:39Z",
+                "author": "ESPNcricinfo staff",
+                "content": "STARTS\r\nplay\r\nGaurav Sundararaman joins Raunak Kapoor to pick a fantasy team for the CPL 2020 match between Barbados Tridents and St Lucia Zouks\r\nOur XI: Andre Fletcher (wk) , Rahkeem Cornwall, Johns\u2026 [+2162 chars]",
+                "description": "Fantasy team suggestions for the CPL 2020 game between Barbados Tridents and St Lucia Zouks",
+                "publishedAt": "2020-08-30T06:57:32Z",
                 "source": {
-                    "id": null,
-                    "name": "NBCSports.com"
+                    "id": "espn-cric-info",
+                    "name": "ESPN Cric Info"
                 },
-                "title": "What drivers said after Cup regular-season finale",
-                "url": "https://nascar.nbcsports.com/2020/08/30/nascar-william-byron-chase-elliottt-what-drivers-said-after-cup-regular-season-finale/",
-                "urlToImage": "https://nascar.nbcsports.com/wp-content/uploads/sites/9/2020/08/GettyImages-1269594863-e1598757221474.jpg"
+                "title": "Barbados Tridents v St Lucia Zouks, CPL 2020, Fantasy Pick, team predictions",
+                "url": "https://www.espncricinfo.com/story/_/id/29770995/barbados-tridents-v-st-lucia-zouks-cpl-2020-fantasy-pick-team-predictions",
+                "urlToImage": "https://img1.hscicdn.com/image/upload/f_auto/esci/i/cricket/cricinfo/1229872_1296x729.jpg"
             },
             {
-                "author": "Tyler Durden",
-                "content": "Authored by Patrick Henningsen via GlobalResearch.ca,\r\nI\u00a0can remember them saying that everything changed after 9/11. It did, but certainly not for the better. I think we can all agree on that.\u00a0 I re\u2026 [+24448 chars]",
-                "description": "Is COVID-19 The Trigger For A 'New World Order' Of Economic Stagnation & Social Destruction?\n\n Tyler Durden\n \nSun, 08/30/2020 - 00:00\n\n Authored by Patrick Henningsen via GlobalResearch.ca,\r\n\n\nI\u00a0can remember them saying that \u2018everything changed after 9/11\u2019. I\u2026",
-                "publishedAt": "2020-08-30T04:00:01Z",
+                "author": "VnExpress",
+                "content": "Vi im +10 sau 54 h BMW Championship, Woods kh\u00f4ng c\u00f2n trong o\u00e0n ua n danh hiu to\u00e0n m\u00f9a FedEx Cup vi 15 triu USD cho nh\u00e0 v\u00f4 ch.H\u00f4m 29/8, na u v\u00f2ng \u00e1p ch\u00f3t tr\u00ean s\u00e2n Olympia Fields, par70, Woods nhp cuc \u2026 [+1667 chars]",
+                "description": "V\u1edbi \u0111i\u1ec3m +10 sau 54 h\u1ed1 BMW Championship, Woods kh\u00f4ng c\u00f2n trong \u0111o\u00e0n \u0111ua \u0111\u1ebfn danh hi\u1ec7u to\u00e0n m\u00f9a FedEx Cup v\u1edbi 15 tri\u1ec7u USD cho nh\u00e0 v\u00f4 \u0111\u1ecbch.",
+                "publishedAt": "2020-08-30T06:54:12Z",
                 "source": {
                     "id": null,
-                    "name": "Zerohedge.com"
+                    "name": "Vnexpress.net"
                 },
-                "title": "Is COVID-19 The Trigger For A 'New World Order' Of Economic Stagnation & Social Destruction?",
-                "url": "https://www.zerohedge.com/geopolitical/covid-19-trigger-new-world-order-economic-stagnation-social-destruction",
-                "urlToImage": "https://zh-prod-1cc738ca-7d3b-4a72-b792-20bd8d8fa069.storage.googleapis.com/s3fs-public/styles/max_650x650/public/2020-08/COVID-TRIGGER-400x266.jpg?itok=CvTylFH9"
+                "title": "Tiger Woods h\u1ebft c\u1eeda tranh FedEx Cup",
+                "url": "https://vnexpress.net/tiger-woods-het-cua-tranh-fedex-cup-4154452.html",
+                "urlToImage": "https://vcdn-thethao.vnecdn.net/2020/08/30/WOods2-1598770242-4751-1598770376_1200x0.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=R2dl6n5bDyAVKZXHqqmLkA"
             },
             {
-                "author": "Javier Mart\u00ednez",
-                "content": "James Rhodes\u00a0(Londres, 1975) es un pianista de talla mundial. Su popularidad en redes, o al menos en el submundo de Twitter, es tambi\u00e9n fruto de su genuino entusiasmo por Espa\u00f1a, sus paisajes, su cul\u2026 [+6483 chars]",
-                "description": "El pianista brit\u00e1nico, residente en Madrid desde 2017, defiende para el futuro todo lo bueno que tenemos como pa\u00eds: la amabilidad, la cercan\u00eda y la cortes\u00eda En\u00a0Verano, 2050\u00a0invitamos a los entrevistados a imaginar c\u00f3mo ser\u00eda su est\u00edo ideal dentro de 30 a\u00f1os, \u2026",
-                "publishedAt": "2020-08-30T04:00:00Z",
+                "author": "The Irish Times",
+                "content": "US president Donald Trump on Tuesday will visit Kenosha, Wisconsin, the city that has seen unrest since a white police officer shot a black man in the back, a White House official told reporters on S\u2026 [+4675 chars]",
+                "description": "1,000 people join mile-long march in Kenosha chanting \u2018Black Lives Matter\u2019",
+                "publishedAt": "2020-08-30T06:46:31Z",
+                "source": {
+                    "id": "the-irish-times",
+                    "name": "The Irish Times"
+                },
+                "title": "Trump to visit Wisconsin city where police shot black man in back",
+                "url": "https://www.irishtimes.com/news/world/us/trump-to-visit-wisconsin-city-where-police-shot-black-man-in-back-1.4342142",
+                "urlToImage": "https://www.irishtimes.com/image-creator/?id=1.4342141&origw=1440"
+            },
+            {
+                "author": "Miko\u0142aj Kunica",
+                "content": "Rowery do wypoyczania nie s szanowane przyznaje Tomasz Wojtkiewicz, prezes Nextbike Polska. M\u00f3wi, e w Nextbike potrzebna jest rewizja modelu biznesowego. - Uytkownik, rejestrujc konto, wpaca 10 z. Na\u2026 [+12877 chars]",
+                "description": "Rowery do wypo\u017cyczania nie s\u0105 szanowane \u2013 przyznaje Tomasz Wojtkiewicz, prezes Nextbike Polska. M\u00f3wi, \u017ce w Nextbike potrzebna jest rewizja modelu biznesowego. - U\u017cytkownik, rejestruj\u0105c konto, wp\u0142aca 10 z\u0142. Nast\u0119pnie mo\u017ce przy wyrejestrowaniu z systemu odzyska\u2026",
+                "publishedAt": "2020-08-30T06:44:30Z",
                 "source": {
                     "id": null,
-                    "name": "Infolibre.es"
+                    "name": "Businessinsider.com.pl"
                 },
-                "title": "James Rhodes: \"En Espa\u00f1a hay un sentimiento de comunidad real. Est\u00e1 dividida literalmente por 'comunidades'\"",
-                "url": "https://www.infolibre.es/noticias/veranolibre/2020/08/30/entrevista_james_rhodes_verano_2050_110251_1621.html",
-                "urlToImage": "https://d3cra5ec8gdi8w.cloudfront.net/uploads/imagenes/social/2020/08/27/_portadaverano2050jamesrhodes1_832cc87b.png?9a44f7d49ba28c3e178afbed66d70aae"
+                "title": "Sztuka polega na tym, \u017ceby wielu p\u0142aci\u0142o niewiele \u2013 prezes Nextbike o tym, jak Polska ruszy\u0142a na rowery",
+                "url": "https://businessinsider.com.pl/firmy/nextbike-prezes-tomasz-wojtkiewicz-o-tym-jak-polska-ruszyla-na-rowery/f5cklz1",
+                "urlToImage": "https://ocdn.eu/pulscms-transforms/1/rcsk9kpTURBXy9lYzNhY2VhNWYzNzMxMWE3YTQzODFmNTYzMDg4NTcxMC5qcGeSlQMHGc0EBs0CHJMFzQNXzQHCgaExAQ"
+            },
+            {
+                "author": "Rotoworld",
+                "content": "The NBA Playoffs resumed on Saturday, and the top seeds in their respective conferences took care of business and advanced to the second round. Giannis Antetokounmpo, James Harden, LeBron James and A\u2026 [+10211 chars]",
+                "description": "Anthony Davis, LeBron James, Giannis Antetokounmpo were among the standouts, and Russell Westbrook played 24 minutes in his return. (AP)",
+                "publishedAt": "2020-08-30T06:43:18Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Two closeouts and James Harden goes off",
+                "url": "https://sports.yahoo.com/two-closeouts-james-harden-goes-064318209.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/zOuKv5CtrY.W_.HVM1jqLw--~B/aD0xMTMyO3c9MjAxNjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/rotoworld.com/1b978e07068f18e58a2e63e3403ce669"
+            },
+            {
+                "author": "martin.hardenberger@kvp.se (Martin Hardenberger)",
+                "content": "Natten mot s\u00f6ndagen tog Anna Nordqvist ett stormsteg mot sin nionde titel p\u00e5 LPGA-touren.Svenskan gick p\u00e5 62 slag och leder d\u00e4rmed med tre f\u00f6re Sydkoreas Sei Young Kim. Det \u00e4r n\u00e5got speciellt med Ark\u2026 [+1584 chars]",
+                "description": "Natten mot s\u00f6ndagen tog Anna Nordqvist ett stormsteg mot sin nionde titel p\u00e5 LPGA-touren. Svenskan gick p\u00e5 62 slag och leder d\u00e4rmed med tre f\u00f6re Sydkoreas Sei Young Kim. \u2013 Det \u00e4r n\u00e5got speciellt med Arkansas, jag har alltid tyckt om det h\u00e4r st\u00e4llet, s\u00e4ger Nor\u2026",
+                "publishedAt": "2020-08-30T06:43:12Z",
+                "source": {
+                    "id": null,
+                    "name": "Expressen.se"
+                },
+                "title": "Superrunda i natt \u2013 p\u00e5 v\u00e4g mot nionde segern",
+                "url": "https://www.expressen.se/kvallsposten/sport/blogg/golfbloggen/2020/08/30/anna-nordqvist-superrunda-i-natt-tog-storsteg-mot-seger/",
+                "urlToImage": "https://bloggar.expressen.se/golfbloggen/files/2020/08/144258196_org-835x470.jpeg"
+            },
+            {
+                "author": "Brian Costello",
+                "content": "The Jets returned to the practice field Saturday after two days of some emotional conversations about social justice.\r\nPlayers and coach Adam Gase said the team came together in the wake of the Jacob\u2026 [+3793 chars]",
+                "description": "The Jets returned to the practice field Saturday after two days of some emotional conversations about social justice. Players and coach Adam Gase said the team came together in the wake of the Jacob Blake shooting in Kenosha, Wis., to share feelings and try t\u2026",
+                "publishedAt": "2020-08-30T06:32:23Z",
+                "source": {
+                    "id": null,
+                    "name": "New York Post"
+                },
+                "title": "Jets\u2019 push for social justice solutions bringing team together",
+                "url": "https://nypost.com/2020/08/30/jets-push-for-social-justice-solutions-bringing-team-together/",
+                "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2020/08/Jonotthan-Harrison.jpg?quality=90&strip=all&w=1200"
+            },
+            {
+                "author": "Laura Smith-Spark, CNN",
+                "content": "London (CNN)When countries impose restrictions to combat coronavirus, there's an implicit pact between the government and people: we're all in this together.\r\nSo when the powerful or influential brea\u2026 [+8744 chars]",
+                "description": "When countries impose restrictions to combat coronavirus, there's an implicit pact between the government and people: we're all in this together. So what happens when leaders break the rules?",
+                "publishedAt": "2020-08-30T06:26:42Z",
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "title": "Elites are flouting coronavirus restrictions -- and that could hurt us all",
+                "url": "https://www.cnn.com/2020/08/30/europe/coronavirus-elites-breaking-rules-intl/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200524134209-boris-johnson-dominic-cummings-super-tease.jpg"
+            },
+            {
+                "author": "Annelies Gartner, Lizzie Roberts, Christopher Hope",
+                "content": "The findings, led by the National Institutes of Health, have not been peer-reviewed or published, but Professor Robin Shattock, Professor of Mucosal Infection and Immunity, Imperial College London, c\u2026 [+6605 chars]",
+                "description": "Latest news on the search for a vaccine against the new coronavirus",
+                "publishedAt": "2020-08-30T06:21:11Z",
+                "source": {
+                    "id": null,
+                    "name": "Telegraph.co.uk"
+                },
+                "title": "When will a Covid-19 vaccine be ready in the UK? Latest updates from around the world",
+                "url": "https://www.telegraph.co.uk/global-health/science-and-disease/coronavirus-vaccine-news-covid-19-update-oxford/",
+                "urlToImage": "https://img.youtube.com/vi/mq6TfBLoyhA/mqdefault.jpg"
             }
         ],
         "LN": [
@@ -36850,6 +36850,32 @@
                 "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4b23ff7929100aea24f9e6%2F0x0.jpg%3FcropX1%3D0%26cropX2%3D5333%26cropY1%3D937%26cropY2%3D3937"
             },
             {
+                "author": "alandefreitas",
+                "content": "Data visualization can help programmers and scientists identify trends in their data and efficiently communicate these results with their peers. Modern C++ is being used for a variety of scientific a\u2026 [+34969 chars]",
+                "description": "Matplot++: A C++ Graphics Library for Data Visualization  - alandefreitas/matplotplusplus",
+                "publishedAt": "2020-08-30T03:49:39Z",
+                "source": {
+                    "id": null,
+                    "name": "Github.com"
+                },
+                "title": "Matplot++ \u2013 A Plotting Tool for C++",
+                "url": "https://github.com/alandefreitas/matplotplusplus",
+                "urlToImage": "https://avatars2.githubusercontent.com/u/5369819?s=400&v=4"
+            },
+            {
+                "author": "Arpit Chhabra",
+                "content": "The Internet of Things (IoT) in India now is not a thing of the future, it is growing and thriving right in front of our eyes. From Smart appliances to Smart Energy metering, from Industry 4.0 to Sma\u2026 [+6430 chars]",
+                "description": "Arpit Chhabra  - It is a huge opportunity and challenge for the Industry to make India \u201cAtmaNirbhar\u201d. Let us look at the IoT elements for which India is still dependent on other countries, , internet of things, IoT ecosystem, Aatmanirbhar Bharat, Make in Indi\u2026",
+                "publishedAt": "2020-08-30T03:09:11Z",
+                "source": {
+                    "id": null,
+                    "name": "Businessworld.in"
+                },
+                "title": "How India Is Going To Make Itself Self-Reliant Wrt Growing IoT Demand? - BW Businessworld",
+                "url": "http://www.businessworld.in/article/How-India-Is-Going-To-Make-Itself-Self-Reliant-Wrt-Growing-IoT-Demand-/30-08-2020-314425/",
+                "urlToImage": "https://static.businessworld.in/article/article_extra_large_image/1582883071_nT38y1_Cloud_computing_services_vector.jpg"
+            },
+            {
                 "author": "David Szondy",
                 "content": "The Japan Aerospace Exploration Agency (JAXA) and Toyota Motor Corporation have released the official nickname for their manned pressurized, long-range lunar rover that is powered by fuel cell electr\u2026 [+1599 chars]",
                 "description": "The Japan Aerospace Exploration Agency (JAXA) and Toyota Motor Corporation have released the official nickname for their manned pressurized, long-range lunar rover that is powered by fuel cell electric vehicle (FCEV) technology. It's been dubbed the Lunar Cru\u2026",
@@ -36874,6 +36900,19 @@
                 "title": "Backed by Lockheed Martin, Taiwan Unveils Asia's First Repair Hub for F-16 Fighter Jets",
                 "url": "https://www.globalsecurity.org/wmd/library/news/taiwan/2020/taiwan-200829-voa01.htm",
                 "urlToImage": null
+            },
+            {
+                "author": "communities@mercola.com (Dr. Joseph Mercola)",
+                "content": "Disclaimer: The entire contents of this website are based upon the opinions of Dr. Mercola, unless otherwise noted. Individual articles are based upon the opinions of the respective author, who retai\u2026 [+1049 chars]",
+                "description": "Dr. Mercola Interviews the Experts\r\n\nThis article is part of a weekly series in which Dr. Mercola interviews various experts on a variety of health issues. To see more expert interviews, click here.\r\n\n\nPatrick Wood \u2014 an economist, financial analyst and Americ\u2026",
+                "publishedAt": "2020-08-30T00:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Mercola.com"
+                },
+                "title": "The Pressing Dangers of Technocracy",
+                "url": "https://articles.mercola.com/sites/articles/archive/2020/08/30/patrick-wood-technocracy.aspx",
+                "urlToImage": "https://media.mercola.com/ImageServer/Public/2020/August/FB/patrick-wood-discusess-technocracy-fb.jpg"
             },
             {
                 "author": "Express News Service",
@@ -36913,45 +36952,6 @@
                 "title": "Mumbai: Metro Line 3 faces delay, cost escalation as state examines alternate car shed sites",
                 "url": "https://indianexpress.com/article/cities/mumbai/mumbai-metro-line-3-faces-delay-cost-escalation-as-state-examines-alternate-car-shed-sites-6575540/",
                 "urlToImage": "https://images.indianexpress.com/2020/08/metro.jpg"
-            },
-            {
-                "author": "Express News Service",
-                "content": "Junagadh town had an arched type gutter system with no disposal or sewage treatment facility, since princely days when it was under the Nawab rule. (Representational)Gujarat Chief Minister Vijay Rupa\u2026 [+2183 chars]",
-                "description": "Municipal commissioner of Junagadh, Tushar Sumera said that the existing network of underground sewage line covers approximately only 20 percent of the city area.",
-                "publishedAt": "2020-08-29T20:07:47Z",
-                "source": {
-                    "id": null,
-                    "name": "The Indian Express"
-                },
-                "title": "Junagadh to get new sewage system worth Rs 318 crore",
-                "url": "https://indianexpress.com/article/india/junagadh-to-get-new-sewage-system-worth-rs-318-crore-6575471/",
-                "urlToImage": "https://images.indianexpress.com/2020/08/sewage.jpg"
-            },
-            {
-                "author": null,
-                "content": "The services of the Noida-Greater Noida metro were suspended on March 22 (Representational)\r\nNoida: Services of the Noida-Greater Noida Metro rail, which were shut down five months ago amid the COVID\u2026 [+1143 chars]",
-                "description": "Services of the Noida-Greater Noida Metro rail, which were shut down five months ago amid the COVID-19 outbreak, will resume from September 7, officials said on Saturday.",
-                "publishedAt": "2020-08-29T20:06:05Z",
-                "source": {
-                    "id": null,
-                    "name": "NDTV News"
-                },
-                "title": "Unlock 4: Noida Metro Services To Resume From September 7",
-                "url": "https://www.ndtv.com/noida-news/unlock-4-noida-metro-services-to-resume-from-september-7-2287444",
-                "urlToImage": "https://c.ndtvimg.com/2019-01/pd3a3v48_aqua-line_625x300_17_January_19.jpg"
-            },
-            {
-                "author": "Special Correspondent",
-                "content": "Most arterial roads in the city are in a dilapidated condition, despite rain taking a break in the past 10 days, further dampening the festive season, which is struggling to emerge from the shadow ca\u2026 [+2055 chars]",
-                "description": "Corporation too under fire as several busy side roads remain in dilapidated state",
-                "publishedAt": "2020-08-29T19:59:57Z",
-                "source": {
-                    "id": "the-hindu",
-                    "name": "The Hindu"
-                },
-                "title": "Major roads in Kochi cry for repair",
-                "url": "https://www.thehindu.com/news/cities/Kochi/major-roads-in-kochi-cry-for-repair/article32477229.ece",
-                "urlToImage": "https://www.thehindu.com/news/cities/Kochi/hx6u5m/article32477228.ece/ALTERNATES/LANDSCAPE_615/30-KI-ROAD"
             }
         ],
         "MCD": [
@@ -37101,6 +37101,19 @@
                 "urlToImage": "https://galusaustralis.com/wp-content/uploads/2020/06/Cognitive-Market-Research-Report-2020-COVID-19-Impact-Edition-4-780x400.jpg"
             },
             {
+                "author": "Arpit Chhabra",
+                "content": "The Internet of Things (IoT) in India now is not a thing of the future, it is growing and thriving right in front of our eyes. From Smart appliances to Smart Energy metering, from Industry 4.0 to Sma\u2026 [+6430 chars]",
+                "description": "Arpit Chhabra  - It is a huge opportunity and challenge for the Industry to make India \u201cAtmaNirbhar\u201d. Let us look at the IoT elements for which India is still dependent on other countries, , internet of things, IoT ecosystem, Aatmanirbhar Bharat, Make in Indi\u2026",
+                "publishedAt": "2020-08-30T03:09:11Z",
+                "source": {
+                    "id": null,
+                    "name": "Businessworld.in"
+                },
+                "title": "How India Is Going To Make Itself Self-Reliant Wrt Growing IoT Demand? - BW Businessworld",
+                "url": "http://www.businessworld.in/article/How-India-Is-Going-To-Make-Itself-Self-Reliant-Wrt-Growing-IoT-Demand-/30-08-2020-314425/",
+                "urlToImage": "https://static.businessworld.in/article/article_extra_large_image/1582883071_nT38y1_Cloud_computing_services_vector.jpg"
+            },
+            {
                 "author": null,
                 "content": "Teclast F6 Plus20%8,780\r\nTeclast F6 Plus360\u00b0\r\nTeclast F6 Plus360\u00b0PC\r\n8Intel CeleronGB RAM256GB SSD\r\nTeclast F6 PlusIntel8CerelonIntel Gemini Lake N4100GBRAM256GBSSDWindows 10101024\r\n10Windows 101024<\u2026 [+656 chars]",
                 "description": "[\u682a\u5f0f\u4f1a\u793eBORDERLESS]\n[\u753b\u50cf1: https://prtimes.jp/i/60007/4/resize/d60007-4-386490-20.jpg ]\n\n\n\n\u3010\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u60c5\u5831\u3011\n\u3010\u30bb\u30fc\u30eb\u5bfe\u8c61\u54c1\u3011Teclast F6 Plus\u304c20%\u30aa\u30d5\uff088,780\u5186\u30aa\u30d5\uff09\n\n[\u753b\u50cf2: https://prtimes.jp/i/60007/4/resize/d60...",
@@ -37203,19 +37216,6 @@
                 "title": "BSOD Error code DPC_Watchdog_Violation Windows 10",
                 "url": "https://www.bleepingcomputer.com/forums/t/729844/bsod-error-code-dpc-watchdog-violation-windows-10/",
                 "urlToImage": "https://www.bleepingcomputer.com/forums/public/style_images/master/meta_image.png"
-            },
-            {
-                "author": null,
-                "content": "HTF Market Intelligence added research publication document on Global Internet of Things (IoT) in Healthcare Market breaking major business segments and highlighting wider level geographies to get de\u2026 [+6078 chars]",
-                "description": "Internet of Things (IoT) in Healthcare Market Aims to Expand at Double Digit Growth Rate | Proteus Digital Health, Medtronic, Cisco Systems\u00a0\u00a0Owned",
-                "publishedAt": "2020-08-29T09:58:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Primefeed.in"
-                },
-                "title": "Internet of Things (IoT) in Healthcare Market Aims to Expand at Double Digit Growth Rate | Proteus Digital Health, Medtronic, Cisco Systems - Owned",
-                "url": "https://primefeed.in/news/4801931/internet-of-things-iot-in-healthcare-market-aims-to-expand-at-double-digit-growth-rate-proteus-digital-health-medtronic-cisco-systems/",
-                "urlToImage": null
             }
         ],
         "MU": [
@@ -37748,6 +37748,19 @@
         ],
         "PSX": [
             {
+                "author": "",
+                "content": "Barnett, Maylin, 18, and Gabriel Kurtz, 18, both of South Middleboro Avenue, Mishawaka.\r\nBella, Nicholas, 26, and Ivy Smith, 24, both of Prescott Avenue, South Bend.\r\nBice, David, 66, of Harrison Roa\u2026 [+8950 chars]",
+                "description": "Marriage Applications",
+                "publishedAt": "2020-08-30T05:15:00Z",
+                "source": {
+                    "id": null,
+                    "name": "South Bend Tribune"
+                },
+                "title": "records of the court 8-30",
+                "url": "https://www.southbendtribune.com/news/publicsafety/courtrecords/records-of-the-court-8-30/article_11b6ae6a-e7a5-11ea-891c-17b830b928b9.html",
+                "urlToImage": "https://bloximages.newyork1.vip.townnews.com/southbendtribune.com/content/tncms/custom/image/e7894fc2-0d64-11e6-a8a6-136711573c85.png"
+            },
+            {
                 "author": "Stuff",
                 "content": "Black Caps batsman Glenn Phillips has shot to the top of the run-scoring charts in the Caribbean Premier League after a man-of-the-match display on Sunday (NZ time).\r\n The 23-year-old scored a remark\u2026 [+2838 chars]",
                 "description": "Black Caps batsman puts in man-of-the-match display for Jamaica Tallawahs in Caribbean Premier League.",
@@ -37863,19 +37876,6 @@
                 "title": "Marathon Petroleum: Speedway Is Changing The Game",
                 "url": "https://seekingalpha.com/article/4371309-marathon-petroleum-speedway-is-changing-game",
                 "urlToImage": "https://static.seekingalpha.com/uploads/2020/8/27/saupload_e7200b3357b8d2e9201ac54196ca17ea_thumb1.jpeg"
-            },
-            {
-                "author": "Matthew Donald",
-                "content": "The BNK Banking Corporation Ltd(ASX: BBC) share price closed 13.79% higher today after delivering strong FY20 results despite the challenging operating environment.\r\nThe company is a digital diversif\u2026 [+3361 chars]",
-                "description": "BNK Banking share price soared today after delivering earnings growth despite operating in a tough operating environment.\nThe post Why the BNK Banking share price jumped 14% today appeared first on Motley Fool Australia.",
-                "publishedAt": "2020-08-28T06:57:50Z",
-                "source": {
-                    "id": null,
-                    "name": "Motley Fool Australia"
-                },
-                "title": "Why the BNK Banking share price jumped 14% today",
-                "url": "https://www.fool.com.au/2020/08/28/why-the-bnk-banking-share-price-jumped-14-today/",
-                "urlToImage": "https://www.fool.com.au/wp-content/uploads/2020/08/Share-price-gain-16.9.jpg"
             }
         ],
         "QNST": [
@@ -38079,30 +38079,30 @@
         ],
         "SNV": [
             {
-                "author": null,
-                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc.\u00a0(NYSE: RES)\u00a0today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board \u2026 [+3574 chars]",
-                "description": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc. (NYSE: RES) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board in 1984, succeeds R. Randall Rollins, who served as Chairman\u2026",
-                "publishedAt": "2020-08-26T11:30:00Z",
-                "source": {
-                    "id": null,
-                    "name": "PRNewswire"
-                },
-                "title": "RPC, Inc. Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
-                "url": "https://www.prnewswire.com/news-releases/rpc-inc-board-of-directors-appoints-gary-w-rollins-as-chairman-of-the-board-and-new-directors-harry-j-cynkus-and-jerry-w-nix-301118311.html",
-                "urlToImage": "http://mma.prnewswire.com/media/569140/RPCBlueLogo.jpg?p=thumbnail&p=facebook"
-            },
-            {
                 "author": "PR Newswire",
-                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ --\u00a0Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined th\u2026 [+4353 chars]",
-                "description": "Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the Marine Products Corporation Board in 2001, succeeds R. Randall Rollins, who served as Chairman si\u2026",
+                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc.\u00a0(NYSE: RES)\u00a0today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board \u2026 [+3755 chars]",
+                "description": "RPC, Inc. (NYSE: RES) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board in 1984, succeeds R. Randall Rollins, who served as Chairman since inception of the organization in\u2026",
                 "publishedAt": "2020-08-26T11:30:00Z",
                 "source": {
                     "id": null,
                     "name": "Yahoo Entertainment"
                 },
+                "title": "RPC, Inc. Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
+                "url": "https://news.yahoo.com/rpc-inc-board-directors-appoints-113000194.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/DQWRbexV_2lxxXDQUNdn2w--~B/aD00OTt3PTE0NDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/aced4f460f0d64d5967357941cc27ffd"
+            },
+            {
+                "author": null,
+                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ --\u00a0Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined th\u2026 [+4115 chars]",
+                "description": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the Marine Products Corporation Board in 2001, succeeds R. Ran\u2026",
+                "publishedAt": "2020-08-26T11:30:00Z",
+                "source": {
+                    "id": null,
+                    "name": "PRNewswire"
+                },
                 "title": "Marine Products Corporation Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
-                "url": "https://news.yahoo.com/marine-products-corporation-board-directors-113000823.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ia1PzgFbXVGG4h.QCdkFLA--~B/aD0zNzt3PTE0NDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/05bdb68286c2bb7171a648d0026eb1b7"
+                "url": "https://www.prnewswire.com/news-releases/marine-products-corporation-board-of-directors-appoints-gary-w-rollins-as-chairman-of-the-board-and-new-directors-harry-j-cynkus-and-jerry-w-nix-301118314.html",
+                "urlToImage": "https://mma.prnewswire.com/media/661612/Marine_Products_Corporation_Logo.jpg?p=thumbnail&p=facebook"
             },
             {
                 "author": null,
@@ -38304,6 +38304,19 @@
                 "urlToImage": "http://img.tfd.com/TFDlogo1200x1200.png"
             },
             {
+                "author": "alandefreitas",
+                "content": "Data visualization can help programmers and scientists identify trends in their data and efficiently communicate these results with their peers. Modern C++ is being used for a variety of scientific a\u2026 [+34969 chars]",
+                "description": "Matplot++: A C++ Graphics Library for Data Visualization  - alandefreitas/matplotplusplus",
+                "publishedAt": "2020-08-30T03:49:39Z",
+                "source": {
+                    "id": null,
+                    "name": "Github.com"
+                },
+                "title": "Matplot++ \u2013 A Plotting Tool for C++",
+                "url": "https://github.com/alandefreitas/matplotplusplus",
+                "urlToImage": "https://avatars2.githubusercontent.com/u/5369819?s=400&v=4"
+            },
+            {
                 "author": "Jeff Benedict",
                 "content": "Author Jeff Benedict explores the greatest contemporary sports dynasty of our time, the New England Patriots, in his upcoming book The Dynasty, which releases Tuesday. This excerpt is from Chapter 42\u2026 [+19602 chars]",
                 "description": "Author Jeff Benedict explores the greatest contemporary sports dynasty of our time, the New England Patriots, in his upcoming book \u201cThe Dynasty,\u201d which releases Tuesday. This excerpt is from Chapter 42, \u201cThreading the Needle,\u201d which highlights QB Tom Brady\u2019s \u2026",
@@ -38380,19 +38393,6 @@
                 "title": "Want to Write a Story About Tardigrades in Space? Make It So!\u2013Abdin v. CBS",
                 "url": "https://blog.ericgoldman.org/archives/2020/08/want-to-write-a-story-about-tardigrades-in-space-make-it-so-abdin-v-cbs.htm",
                 "urlToImage": "https://blog.ericgoldman.org/wp-content/uploads/2020/08/26614452947_8a540ce8ae_o-796x1024.jpg"
-            },
-            {
-                "author": "Eric Spitznagel",
-                "content": "In 2014, John Roa was at a professional high point. His company, Chicago-based \u00c4KTA, a high-end mobile design and development consultancy, had just been included in the latest Inc. 500 list of fastes\u2026 [+9881 chars]",
-                "description": "In 2014, John Roa was at a professional high point. His company, Chicago-based \u00c4KTA, a high-end mobile design and development consultancy, had just been included in the latest Inc. 500 list of fastest-growing private companies in the United States. It put the\u2026",
-                "publishedAt": "2020-08-29T15:29:06Z",
-                "source": {
-                    "id": null,
-                    "name": "New York Post"
-                },
-                "title": "Inside Silicon Valley\u2019s doomed creative culture",
-                "url": "https://nypost.com/2020/08/29/sex-drugs-start-ups-inside-silicon-valleys-doomed-creative-culture/",
-                "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2020/08/startup-company.jpg?quality=90&strip=all&w=1200"
             }
         ],
         "TSLA": [
@@ -38793,6 +38793,32 @@
         ],
         "WMT": [
             {
+                "author": "P. R. Sanjai",
+                "content": "Mumbai: Reliance Industries Ltd. said it will acquire the retail, wholesale, logistics and warehousing units of Indias Future Group for 247.1 billion rupees ($3.4 billion), in a transaction that will\u2026 [+5025 chars]",
+                "description": "<ol><li>With Future in his bag, Mukesh Ambani draws battle lines between Reliance, Amazon & Flipkart\u00a0\u00a0ThePrint\r\n</li><li>Reliance Retail buys Future Group's businesses for \u20b924,713 crore\u00a0\u00a0Livemint\r\n</li><li>Reliance Retail-Future Group deal: RIL unit adds Futu\u2026",
+                "publishedAt": "2020-08-30T05:06:45Z",
+                "source": {
+                    "id": null,
+                    "name": "ThePrint"
+                },
+                "title": "With Future in his bag, Mukesh Ambani draws battle lines between Reliance, Amazon & Flipkart - ThePrint",
+                "url": "https://theprint.in/economy/with-future-in-his-bag-mukesh-ambani-draws-battle-lines-between-reliance-amazon-flipkart/491970/",
+                "urlToImage": "https://d2c7ipcroan06u.cloudfront.net/wp-content/uploads/2020/05/Mukesh-Ambani.jpg"
+            },
+            {
+                "author": "Bloomberg",
+                "content": "Less than two days after Microsoft Corp. and Oracle Corp. submitted rival bids to Chinas ByteDance Ltd. to acquire TikToks U.S. business, a dark-horse possible third bidder emerged as the two softwar\u2026 [+4252 chars]",
+                "description": "<ol><li>Centricus\u2019s 11th-hour bid adds curiousity to waiting game on TikTok\u00a0\u00a0Livemint\r\n</li><li>TikTok Rival Triller Says Made $20 Billion Bid With Centricus for Assets\u00a0\u00a0Gadgets 360\r\n</li><li>Centricus, Triller offer $20 billion joint bid for TikTok's US, Ind\u2026",
+                "publishedAt": "2020-08-29T23:57:03Z",
+                "source": {
+                    "id": null,
+                    "name": "Livemint"
+                },
+                "title": "Centricus\u2019s 11th-hour bid adds curiousity to waiting game on TikTok - Livemint",
+                "url": "https://www.livemint.com/companies/news/centricus-s-11th-hour-bid-adds-curiousity-to-waiting-game-on-tiktok-11598745102034.html",
+                "urlToImage": "https://images.livemint.com/img/2020/08/29/600x338/2020-08-29T021519Z_1_LYNXMPEG7S02W_RTROPTP_3_USA-TIKTOK-JAPAN_1598745315419_1598745323025.JPG"
+            },
+            {
                 "author": "Nelson Hem",
                 "content": "<ul><li>Benzinga has examined the prospects for many investor favorite stocks over the past week.\r\n</li><li>This past week's bullish calls included the iPhone maker and other tech leaders.\r\n</li><li>\u2026 [+2813 chars]",
                 "description": "* Benzinga has examined the prospects for many investor favorite stocks over the past week. * This past week's bullish calls included the iPhone maker and other tech leaders. * The leading EV maker and a top biotech were among the bearish calls.The big three \u2026",
@@ -38895,32 +38921,6 @@
                 "title": "The Layoff Economy Returns",
                 "url": "https://247wallst.com/jobs/2020/08/29/the-layoff-economy-returns/",
                 "urlToImage": "https://247wallst.com/wp-content/uploads/2019/09/imageforentry2-adz.jpg"
-            },
-            {
-                "author": "GameVicio",
-                "content": "Em 11 de agosto, Microsoft Corp. postou um alerta na conta do Twitter de sua franquia Halo: O pr\u00f3ximo cap\u00edtulo do jogo n\u00e3o estaria pronto neste Outono(Primavera no Brasil) como planejado originalment\u2026 [+5551 chars]",
-                "description": "O Game Pass da Microsoft \u00e9 uma das v\u00e1rias assinaturas que mant\u00eam a receita fluindo, n\u00e3o importa o que aconte\u00e7a  - Em 11 de agosto, Microsoft Corp  postou um alerta na conta do Twitter de sua franquia...",
-                "publishedAt": "2020-08-29T11:16:05Z",
-                "source": {
-                    "id": null,
-                    "name": "Gamevicio.com"
-                },
-                "title": "Um fluxo intermin\u00e1vel de jogos \u00e9 o modelo de neg\u00f3cios perfeito para uma pandemia",
-                "url": "https://www.gamevicio.com/noticias/2020/08/um-fluxo-interminavel-de-jogos-e-o-modelo-de-negocios-perfeito-para-uma-pandemia/",
-                "urlToImage": "https://i.imgur.com/L8VMbwK.jpg"
-            },
-            {
-                "author": "Reuters Editorial",
-                "content": "Here are the top stories and upcoming coverage plans for Reuters text service as of 6 a.m. ET/10 a.m. GMT. For a full schedule of news and events, go to our editorial calendar on Reuters Connect here\u2026 [+5132 chars]",
-                "description": "Here are the top stories and upcoming coverage plans for Reuters text service as of 6 a.m. ET/10 a.m. GMT. For a full schedule of news and events, go to our editorial calendar on Reuters Connect https://www.reutersconnect.com/planning or on Media Express http\u2026",
-                "publishedAt": "2020-08-29T10:37:00Z",
-                "source": {
-                    "id": "reuters",
-                    "name": "Reuters"
-                },
-                "title": "REUTERS NEWS SCHEDULE AT 10 a.m. GMT/6 a.m. ET - Reuters",
-                "url": "https://www.reuters.com/article/reuters-schedule-idUSL4N2FV04R",
-                "urlToImage": "https://s4.reutersmedia.net/resources_v2/images/rcom-default.png"
             }
         ]
     },
