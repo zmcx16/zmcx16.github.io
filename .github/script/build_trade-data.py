@@ -66,10 +66,10 @@ if __name__ == "__main__":
                 except Exception as ex:
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
-            # get news
+            # --- get news ---
             query = symbol
             if symbol in news_symbol_keyword:
-                query= news_symbol_keyword[symbol]
+                query = news_symbol_keyword[symbol]
 
             news = newsapi.get_everything(q=query,
                                             exclude_domains=news_exclude_domains,
@@ -78,7 +78,15 @@ if __name__ == "__main__":
                                             sort_by='publishedAt')
 
             if news['status'] == 'ok' and news['totalResults'] > 0:
-                scan_output["news"][symbol] = news['articles'][:min(news_max_count, news['totalResults'])]
+                news_temp = []
+                news_title = []
+                for article in news['articles']:
+                    if article['title'] not in news_title:
+                        news_temp.append(article)
+                        news_title.append(article['title'])
+
+                scan_output["news"][symbol] = news_temp[:min(news_max_count, len(news_temp))]
+            # ----------------
 
             time.sleep(DELAY_TIME_SEC)
 
