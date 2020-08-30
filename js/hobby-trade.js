@@ -50,6 +50,7 @@ var myvar =
 '            <a class="link" target="_blank" href="https://norn-minehunter.zmcx16.moe/">Norn-Minehunter</a>' +
 '            <a class="link" target="_blank" href="https://finance.yahoo.com/">Yahoo Finance</a>' +
 '            <a class="link" target="_blank" href="https://finviz.com/">Finviz</a>' +
+'            <a class="link" target="_blank" href="https://newsapi.org/">NewsAPI</a>' +
 '        </div>' +
 '    </div>' +
 '</div>' ;
@@ -183,7 +184,7 @@ function buildTable(data){
     if (stock["news"]){
       stock["news"].forEach((news) => {
         let news_url = news["url"];
-        let news_img = news["urlToImage"];
+        let news_img = news["urlToImage"] === null ? './img/zmcx16_logo.png' : news["urlToImage"];
         let news_src = news["source"]["name"];
         let news_date = (new Date(news["publishedAt"])).toDateString();
         let news_title = news["title"];
@@ -192,7 +193,7 @@ function buildTable(data){
         stock_output += 
         '          <a style="display:block; text-decoration: inherit; color: inherit;" href="' + news_url + '">' +
         '            <div class="news-block">' +
-        '              <div class="news-img"><img style="max-width: 100%; max-height: 100%; min-width: auto; min-height: auto;" src="' + news_img + '"></div>' +
+        '              <div class="news-img"><img style="max-width: 100%; max-height: 100%; min-width: auto; min-height: auto;" src="' + news_img + '" onerror="this.onerror=null; this.src=\'./img/zmcx16_logo.png\'" ></div>' +
         '              <div class="news-content">' +
         '                <div class="news-src">' + news_src + ' - ' + news_date + '</div>' + 
         '                <div class="news-title">' + news_title + '</div>' +
