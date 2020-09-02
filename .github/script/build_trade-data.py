@@ -22,7 +22,7 @@ def send_post_json(url, req_data):
 
 if __name__ == "__main__":
 
-    DELAY_TIME_SEC = 90
+    DELAY_TIME_SEC = 60
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
