@@ -28,8 +28,8 @@ if __name__ == "__main__":
 
     script_path = pathlib.Path(__file__).parent.resolve()
     input_path = script_path / '..' / 'trade-data' / 'trade-data.json'
-    output_path = script_path / '..' / '..' / 'zmcx16_hobby-trade-data.json'
-    output_readable_path = script_path / '..' / '..' / 'zmcx16_hobby-trade-data_readable.json'
+    output_path = script_path / '..' / '..' / 'zmcx16_investment-stocks-trade-data.json'
+    output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-stocks-trade-data_readable.json'
 
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}}
 

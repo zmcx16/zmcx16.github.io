@@ -1,24 +1,24 @@
-.main-trade > div{
+.main-investment-stocks > div{
     width: 960px;
     margin: 60px auto;
 }
 
-.main-trade .demo-img{
+.main-investment-stocks .demo-img{
     padding: 0;
     border: 2px solid whitesmoke;
     border-radius: 6px;
 }
 
-.main-trade h1{
+.main-investment-stocks h1{
     font-family: 'Microsoft JhengHei';
 }
 
-.main-trade .content-block{
+.main-investment-stocks .content-block{
     padding-top: 15px;
 }
 
 /* table */
-.main-trade table {
+.main-investment-stocks table {
     border-collapse: collapse;
     width: 100%;
     table-layout: fixed;
@@ -26,7 +26,7 @@
     margin-bottom: 30px;
 }
 
-.main-trade th {
+.main-investment-stocks th {
     padding: 8px;
     color: white;
     border: 1px solid silver;
@@ -36,77 +36,77 @@
     font-size: medium;
 }
 
-.main-trade td{
+.main-investment-stocks td{
     font-size: large;
     border: none;
     padding-right: 10px;
     text-align: right;
 }
 
-.main-trade .tr-stock.main:hover{
+.main-investment-stocks .tr-stock.main:hover{
     background-color: rgb(224,240,255);
     cursor: pointer;
 }
 
-.main-trade .tr-scan.main:hover{
+.main-investment-stocks .tr-scan.main:hover{
     background-color: lavenderblush;
     cursor: pointer;
 }
 
-.main-trade .group-td{
+.main-investment-stocks .group-td{
     padding-right: 0px;
 }
 
-.main-trade .th-52w{
+.main-investment-stocks .th-52w{
     width: 150px;
 }
 
-.main-trade .th-risk{
+.main-investment-stocks .th-risk{
     width: 120px;
 }
 
-.main-trade .td-symbol, .main-trade .td-type-name{
+.main-investment-stocks .td-symbol, .main-investment-stocks .td-type-name{
     padding-right: 0px;
     text-align: center;
     font-weight: 700;
     color: #188fff;
 }
 
-.main-trade .bomb-image {
+.main-investment-stocks .bomb-image {
     height: 36px;
     padding-bottom: 15px;
     padding-right: 10px;
 }
 
-.main-trade .stock-detail{
+.main-investment-stocks .stock-detail{
     margin: 0px 40px;
 }
 
-.main-trade .stock-statistics{
+.main-investment-stocks .stock-statistics{
     padding-top:10px;
     display: grid;
     grid-template-columns: 125px 20px 125px 20px 125px 20px 125px 20px 125px 20px 125px 20px;
     align-items: center;
 }
 
-.main-trade .base-data{
+.main-investment-stocks .base-data{
     border-bottom: 1px solid #bbb;
     position: relative;
     margin-bottom: 20px;
     bottom: 0;
 }
 
-.main-trade .base-data-key{
+.main-investment-stocks .base-data-key{
     left: 0px;
     position: absolute;
     bottom: 0;
 }
 
-.main-trade .base-data-value{
+.main-investment-stocks .base-data-value{
     right: 0px;
 }
 
-.main-trade .news-block{
+.main-investment-stocks .news-block{
     padding-top: 10px;
     display: grid;
     grid-template-columns: 220px 1fr;
@@ -115,7 +115,7 @@
     margin: 10px 0;
 }
 
-.main-trade .news-img{
+.main-investment-stocks .news-img{
     max-width: 220px;
     max-height: 125px;
     width: 220px;
@@ -123,39 +123,39 @@
     text-align: center;
 }
 
-.main-trade .news-src{
+.main-investment-stocks .news-src{
     text-align: left;
     font-size: 13px;
     color: gray;
 }
 
-.main-trade .news-content{
+.main-investment-stocks .news-content{
     overflow: hidden;
 }
 
-.main-trade .news-title{
+.main-investment-stocks .news-title{
     text-align: left;
     line-height: 22px;
     font-size: 20px;
     padding: 5px 0px 9px 0px;
 }
 
-.main-trade .news-title:hover{
+.main-investment-stocks .news-title:hover{
     color: #0078ff;
 }
 
-.main-trade .news-description{
+.main-investment-stocks .news-description{
     text-align: left;
     line-height: 19px;
     font-size: 16px;
     overflow: hidden;
 }
 
-.main-trade .scan-list{
+.main-investment-stocks .scan-list{
     margin-bottom: 20px;
 }
 
-.main-trade .scan-output{
+.main-investment-stocks .scan-output{
     margin: 10px;
     min-height: 100px;
     border: 3px double;
@@ -166,16 +166,16 @@
     text-align: left;
 }
 
-.main-trade .data-source{
+.main-investment-stocks .data-source{
     font-size: x-large;
 }
 
-.main-trade .link{
+.main-investment-stocks .link{
     padding-right: 30px;
 }
 
 /* others */
-.main-trade .span-12px{
+.main-investment-stocks .span-12px{
     font-size: 12px;
 }
 
