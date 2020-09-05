@@ -1,8 +1,8 @@
 var myvar = 
-'<link rel="stylesheet" type="text/css" href="css/hobby-trade.css">' +
-'<div class=\'main-trade\'>' +
+'<link rel="stylesheet" type="text/css" href="css/investment-stocks.css">' +
+'<div class=\'main-investment-stocks\'>' +
 '    <div class="demo-img">' +
-'        <img src="/img/hobby-trade/trade-kanban_960x435.png" />' +
+'        <img src="/img/investment-stocks/trade-kanban_960x435.png" />' +
 '    </div>' +
 '    <div class="hold-stocks-groups">' +
 '        <h1> 持有清單 </h1>' +
@@ -123,7 +123,7 @@ function buildTable(data){
         '              <td class="td-type-name">' + report["type"] + '</td>' +
         '              <td class="td-risk">' +
         '                <div>' +
-        '                  <img class="bomb-image" src="/img/hobby-trade/' + result["image"] +'" />' +
+        '                  <img class="bomb-image" src="/img/investment-stocks/' + result["image"] +'" />' +
         '                  <span> (' + result["score"] +'%) </span>' +
         '                </div>' +
         '              </td>' +
@@ -153,7 +153,7 @@ function buildTable(data){
     '  <td class="td-atr">' + stock["base_info"]["ATR"] + '</td>' + 
     '  <td class="td-risk">' +
     '    <div>' +
-    '      <img class="bomb-image" src="/img/hobby-trade/' + stock_result["image"] + '" />' +
+    '      <img class="bomb-image" src="/img/investment-stocks/' + stock_result["image"] + '" />' +
     '      <span> (' + stock_result["score"] +'%) </span>' +
     '    </div>' +
     '  </td>' +
@@ -296,7 +296,7 @@ $(document).ready(function () {
 
   setBanner('Money Money', 'gold', ['目前持有 & 關注的個股清單', '往財富自由之路持續前進 ( • ̀ω•́ )', '$$$$$$$$$$$$$$$$$$$$$$$$']);
 
-  $.getJSON("zmcx16_hobby-trade-data.json", function (json_data) {
+  $.getJSON("zmcx16_investment-stocks-trade-data.json", function (json_data) {
 
     var hold_stocks = preprocessData(json_data, "hold_stock_list");
     var star_stocks = preprocessData(json_data, "star_stock_list");
