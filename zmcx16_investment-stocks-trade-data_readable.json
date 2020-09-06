@@ -2666,7 +2666,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 4.09 % >= 3.00 %; [Trailing Dividend Yield] 4.12 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.52 % < 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 4.12 % >= 3.00 %; [Trailing Dividend Yield] 4.12 % >= 3.00 %; [5 Years Avg Dividend Yield] 2.52 % < 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
@@ -8054,7 +8054,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 6.76 % >= 3.00 %; [Trailing Dividend Yield] 6.70 % >= 3.00 %; [5 Years Avg Dividend Yield] 4.32 % >= 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 6.77 % >= 3.00 %; [Trailing Dividend Yield] 6.70 % >= 3.00 %; [5 Years Avg Dividend Yield] 4.32 % >= 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": 1
                 },
@@ -11646,7 +11646,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 6.12 % >= 3.00 %; [Trailing Dividend Yield] 6.03 % >= 3.00 %; [5 Years Avg Dividend Yield] 3.28 % >= 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 6.03 % >= 3.00 %; [Trailing Dividend Yield] 6.03 % >= 3.00 %; [5 Years Avg Dividend Yield] 3.28 % >= 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": 1
                 },
@@ -29606,7 +29606,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[Forward Dividend Yield] 1.73 % < 3.00 %; [Trailing Dividend Yield] 1.71 % < 3.00 %; [5 Years Avg Dividend Yield] 1.35 % < 3.00 %; ",
+                    "msg": "[Forward Dividend Yield] 1.76 % < 3.00 %; [Trailing Dividend Yield] 1.71 % < 3.00 %; [5 Years Avg Dividend Yield] 1.35 % < 3.00 %; ",
                     "name": "Annual Dividend Yield (Forward, Trailing, 5 Years Avg)",
                     "pass": -1
                 },
@@ -32183,9 +32183,9 @@
                     "pass": -1
                 },
                 {
-                    "msg": "Capex Margin",
+                    "msg": "Capex Margin = 6.65 % > 4%",
                     "name": "Capex Margin",
-                    "pass": 0
+                    "pass": -1
                 },
                 {
                     "msg": "Net Income Margin = 9.92 % > 4%",
@@ -32255,7 +32255,7 @@
                     "pass": 1
                 },
                 {
-                    "msg": "[ROE-TTM] 10.9 % >= 10.0 %; [ROE-2018-12-31] 17.9 % >= 10.0 %; ",
+                    "msg": "[ROE-2018-12-31] 17.9 % >= 10.0 %; ",
                     "name": "ROE",
                     "pass": 1
                 },
@@ -32270,14 +32270,14 @@
                     "pass": -1
                 },
                 {
-                    "msg": "TR",
+                    "msg": "[TR Growth-TTM] 31.6 % >= 5.0 %; [TR Growth-2019-12-31] 11.3 % >= 5.0 %; ",
                     "name": "TR",
-                    "pass": 0
+                    "pass": 1
                 },
                 {
-                    "msg": "[OI Growth-2019-12-31] 36.9 % >= 5.0 %; ",
+                    "msg": "OI",
                     "name": "OI",
-                    "pass": 1
+                    "pass": 0
                 },
                 {
                     "msg": "NI",
@@ -32290,7 +32290,7 @@
                     "pass": -1
                 },
                 {
-                    "msg": "[CFFOAE Growth-2019-12-31] 76.2 % >= 5.0 %; ",
+                    "msg": "[CFFOAE Growth-TTM] 51.1 % >= 5.0 %; [CFFOAE Growth-2019-12-31] 76.2 % >= 5.0 %; ",
                     "name": "CFFOAE",
                     "pass": 1
                 },
@@ -34143,6 +34143,71 @@
     "news": {
         "AAPL": [
             {
+                "author": "JD Henning",
+                "content": "Introduction\r\nThe Weekly Breakout Forecast continues my doctoral research analysis on MDA breakout selections over more than five years. This subset of the different portfolios I regularly analyze ha\u2026 [+12518 chars]",
+                "description": "Two Sample Breakout Stocks for Week 37 with better than 10% short-term upside potential. Now up an average 201.7% YTD.",
+                "publishedAt": "2020-09-06T09:45:21Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Week 37 MDA Breakout Forecast: Short-Term Picks To Give You An Edge",
+                "url": "https://seekingalpha.com/article/4372788-week-37-mda-breakout-forecast-short-term-picks-to-give-you-edge",
+                "urlToImage": "https://static2.seekingalpha.com/uploads/2020/9/5/43516266-15993094581217618.png"
+            },
+            {
+                "author": "Anuj Bhatia",
+                "content": "Written by Anuj Bhatia\r\n | New Delhi | \r\nUpdated: September 6, 2020 2:51:52 pm\r\nMa Huateng better known as Pony Ma is the founder and CEO of Chinas tech major Tencent. Ma Huateng, also known as Pony \u2026 [+4967 chars]",
+                "description": "Ma Huateng is the founder and CEO of Tencent,  one of the largest technology companies in the world. Here are some of the lesser-known facts about China's richest man.",
+                "publishedAt": "2020-09-06T09:11:12Z",
+                "source": {
+                    "id": null,
+                    "name": "The Indian Express"
+                },
+                "title": "Interesting facts about Pony Ma, the CEO of Chinese internet behemoth Tencent",
+                "url": "https://indianexpress.com/article/technology/tech-news-technology/interesting-facts-about-pony-ma-the-ceo-of-chinese-internet-behemoth-tencent-6585070/",
+                "urlToImage": "https://images.indianexpress.com/2020/09/Pony-Ma.jpg"
+            },
+            {
+                "author": "Luxury Daily News Service",
+                "content": "Luxury Daily, with its Future of Luxury eConference, is hosting 40+ speakers from leading luxury brands, retailers, market researchers, agencies and publishers to share ideas and strategy on how to c\u2026 [+11927 chars]",
+                "description": "Register now for Luxury Daily's Future of Luxury eConference Sept. 23-24 as brands and retailers face unprecedented changes in customer behavior. Check out our list of 40-plus speakers from the leading luxury brands and retailers worldwide and nearly 40 sessi\u2026",
+                "publishedAt": "2020-09-06T08:45:59Z",
+                "source": {
+                    "id": null,
+                    "name": "Luxurydaily.com"
+                },
+                "title": "40+ brand speakers, 35 sessions: Grab your seat at the Future of Luxury eConference Sept. 23-24",
+                "url": "https://www.luxurydaily.com/40-brand-speakers-35-sessions-grab-your-seat-at-the-future-of-luxury-econference-sept-23-24-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+                "urlToImage": "https://www.luxurydaily.com/wp-content/uploads/2020/08/fol-luxury-daily-yellow-and-brown.jpg"
+            },
+            {
+                "author": "Wall Street Breakfast",
+                "content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nEconomic reports in the week ahead\r\nThe tech sector will be \u2026 [+8746 chars]",
+                "description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+                "publishedAt": "2020-09-06T08:42:43Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Wall Street Breakfast: The Week Ahead",
+                "url": "https://seekingalpha.com/article/4372787-wall-street-breakfast-week-ahead",
+                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
+            },
+            {
+                "author": "peacewalker215@yahoo.com (P.W), P.W",
+                "content": "H\u00f4m th 6 va ri, Epic Games li va n xin thm ph\u00e1n t\u00f2a \u00e1n M lnh s b y\u00eau cu Apple a Fortnite quay tr li App Store. H li tip tc s dng l\u00fd l t ln u ti\u00ean xin thm ph\u00e1n lnh s b trc \u00e2y, vi c\u00f9ng mc \u00edch, khi h bt\u2026 [+2159 chars]",
+                "description": "[ATTACH]\n \nH\u00f4m th\u1ee9 6 v\u1eeba r\u1ed3i, Epic Games l\u1ea1i v\u1eeba \u0111\u1ec7 \u0111\u01a1n xin th\u1ea9m ph\u00e1n t\u00f2a \u00e1n M\u1ef9 l\u1ec7nh s\u01a1 b\u1ed9 \u0111\u1ec3 y\u00eau c\u1ea7u Apple \u0111\u01b0a Fortnite quay tr\u1edf l\u1ea1i App Store. H\u1ecd l\u1ea1i ti\u1ebfp t\u1ee5c s\u1eed d\u1ee5ng l\u00fd l\u1ebd t\u1eeb l\u1ea7n \u0111\u1ea7u ti\u00ean xin...",
+                "publishedAt": "2020-09-06T08:20:18Z",
+                "source": {
+                    "id": null,
+                    "name": "Tinhte.vn"
+                },
+                "title": "Epic Games l\u1ea1i xin th\u1ea9m ph\u00e1n y\u00eau c\u1ea7u cho Fortnite tr\u1edf l\u1ea1i App Store",
+                "url": "https://tinhte.vn/thread/epic-games-lai-xin-tham-phan-yeu-cau-cho-fortnite-tro-lai-app-store.3186195/",
+                "urlToImage": "https://photo2.tinhte.vn/data/attachment-files/2020/09/5140639_Cover_Fortnite.jpg"
+            },
+            {
                 "author": "Teoh Yi Chie",
                 "content": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\nI'm starting to get back into the groove of putting out more rev\u2026 [+4281 chars]",
                 "description": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\n\nI'm starting to get back into the groove of putting out more reviews. Hopefully I can keep this going.\r\n\nBooks\r\n\n<ol>\n<li> \u2026",
@@ -34169,6 +34234,19 @@
                 "urlToImage": "https://static.seekingalpha.com/uploads/2020/9/6/55431-15993675885614161_origin.png"
             },
             {
+                "author": "By Tyler Pager Bloomberg News",
+                "content": "Democratic presidential nominee Joe Biden is expanding his transition team with senior campaign aides, vice presidential contenders and former primary rival Pete Buttigieg, two months before the gene\u2026 [+2269 chars]",
+                "description": "Democratic presidential nominee Joe Biden is expanding his transition team with senior campaign aides, vice presidential contenders and former primary rival Pete Buttigieg, two months before the general election against President Donald Trump.",
+                "publishedAt": "2020-09-06T04:30:00Z",
+                "source": {
+                    "id": null,
+                    "name": "South Bend Tribune"
+                },
+                "title": "Joe Biden adds Pete Buttigieg to transition team",
+                "url": "https://www.southbendtribune.com/news/politics/joe-biden-adds-pete-buttigieg-to-transition-team/article_3aa1fa3a-efb8-11ea-ac93-17dc3d8b0fb8.html",
+                "urlToImage": "https://bloximages.newyork1.vip.townnews.com/southbendtribune.com/content/tncms/assets/v3/editorial/2/55/255b6392-8689-5a5f-80fc-b39b2f166c75/5d1694eb43cb2.image.jpg?resize=927%2C630"
+            },
+            {
                 "author": "Bloomberg",
                 "content": "By Sarah PonczekNancy Tengler has managed money for 35 years. Shes confident in her positions. When one of her companies reports good earnings, she expects it to go up.\r\nBut nothing prepared her for \u2026 [+4913 chars]",
                 "description": "Tengler\u2019s seen that kind of thing more often, lately -- reactions that seem out of proportion to underlying news. It\u2019s a shift in the market\u2019s usual volatility backdrop that gives her pause, even when it works in her favor.",
@@ -34193,87 +34271,22 @@
                 "title": "\u300e\u30d5\u30ec\u30f3\u30ba\u300f\u30b8\u30a7\u30cb\u30d5\u30a1\u30fc\u30fb\u30a2\u30cb\u30b9\u30c8\u30f3\u3001\u672c\u683c\u7684\u306a\u76e3\u7763\u30c7\u30d3\u30e5\u30fc\u306f2\u5e74\u5f8c\uff1f",
                 "url": "https://news.livedoor.com/article/detail/18852645/",
                 "urlToImage": "https://image.news.livedoor.com/newsimage/stf/2/c/2c614_983_a354b320_1fe998da.jpg"
-            },
-            {
-                "author": "Lucas Shaw | Bloomberg",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had bedeviled Hollywood for the past decade: How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12318 chars]",
-                "description": "As Netflix has grown, what started as a technology company led by engineers has morphed into an entertainment company led by thousands of people trained in Hollywood studios",
-                "publishedAt": "2020-09-06T02:39:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Business Standard"
-                },
-                "title": "How Netflix went from a DVD-by-mail service to Hollywood conqueror",
-                "url": "https://www.business-standard.com/article/international/how-netflix-went-from-a-dvd-by-mail-service-to-hollywood-conqueror-120090600081_1.html",
-                "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/06/full/1599359612-9664.jpg"
-            },
-            {
-                "author": "Anggoro Suryo Jati",
-                "content": "Jakarta - Jauh sebelum ponsel pintar atau smartphone Android dan iPhone merajalela, ada Palm dengan berbagai produk komputer genggamnya (personal digital assistant - PDA), yang ternyata pernah bersel\u2026 [+4046 chars]",
-                "description": "Jauh sebelum ponsel pintar atau smartphone Android dan iPhone hadir, ada Palm dengan berbagai produk PDA, yang ternyata pernah ribut dengan pabrikan pulpen.",
-                "publishedAt": "2020-09-06T01:50:43Z",
-                "source": {
-                    "id": null,
-                    "name": "Detik.com"
-                },
-                "title": "Kisah Pembuat Komputer Genggam yang Pernah Ribut dengan Pabrikan Pulpen",
-                "url": "https://inet.detik.com/cyberlife/d-5161558/kisah-pembuat-komputer-genggam-yang-pernah-ribut-dengan-pabrikan-pulpen",
-                "urlToImage": "https://awsimages.detik.net.id/api/wm/2020/09/04/palm-pilot_169.jpeg?wid=54&w=650&v=1&t=jpeg"
-            },
-            {
-                "author": "Bloomberg",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had\u00a0bedeviled Hollywood for the past decade:\u00a0How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12509 chars]",
-                "description": "In his upcoming memoir, \u2018No Rules Rules,\u2019 the streaming pioneer reveals how he became the unlikely king of the entertainment world",
-                "publishedAt": "2020-09-06T01:34:13Z",
-                "source": {
-                    "id": null,
-                    "name": "Livemint"
-                },
-                "title": "Netflix\u2019s Reed Hastings conquered Hollywood with a PowerPoint presentation",
-                "url": "https://www.livemint.com/companies/people/netflix-s-reed-hastings-conquered-hollywood-with-a-powerpoint-presentation-11599352894640.html",
-                "urlToImage": "https://images.livemint.com/img/2020/09/06/600x338/NetflixCEo_1599356003593_1599356011089.PNG"
-            },
-            {
-                "author": "Bloomberg | Posted by Kanishka Sarkar",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had\u00a0bedeviled Hollywood for the past decade:\u00a0How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12392 chars]",
-                "description": "Inspired by books such as \u201cThe HP Way\u201d and \u201cBeyond Entrepreneurship,\u201d Reed Hastings chose to write about what he says is the real key to Netflix\u2019s success: its culture.",
-                "publishedAt": "2020-09-06T00:27:03Z",
-                "source": {
-                    "id": null,
-                    "name": "Hindustan Times"
-                },
-                "title": "Netflix\u2019s Reed Hastings conquered Hollywood with a PowerPoint presentation - Hindustan Times",
-                "url": "https://www.hindustantimes.com/business-news/netflix-s-reed-hastings-conquered-hollywood-with-a-powerpoint-presentation/story-6xdEQaDKEYg6QsIIXQR3CL.html",
-                "urlToImage": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/09/06/Pictures/netflix-japan-reed-hastings-introduces-content-lineup_350fe34c-efd7-11ea-a6a9-ef65eb2fa0ec.jpg"
-            },
-            {
-                "author": "\u4f50\u85e4\u7531\u7d00\u5b50\uff0cITmedia",
-                "content": "Epic Games94AppleAppleEpicFortniteApp StoreEpic\r\nEpicTwitterAppleEpicAppleApple\r\n182App Store\r\nDAU60iOSPCMacAndroidPlayStationXboxNintendo Switch35000EpiciOS11600iOSiOS63iOS\r\nEpicUnreal EngineUnreal \u2026 [+116 chars]",
-                "description": "Epic\u304cApple\u3092\u72ec\u7981\u6cd5\u9055\u53cd\u3067\u63d0\u8a34\u3057\u305f\u88c1\u5224\u3067\u3001Epic\u306fApple\u306b\u3088\u308biOS\u7248\u300c\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u300d\u306e\u524a\u9664\u3092\u5dee\u3057\u6b62\u3081\u308b\u3088\u3046\u3001\u6539\u3081\u3066\u88c1\u5224\u6240\u306b\u7533\u3057\u7acb\u3066\u305f\u3002",
-                "publishedAt": "2020-09-05T22:17:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Itmedia.co.jp"
-                },
-                "title": "Epic\u3001\u300c\u30d5\u30a9\u30fc\u30c8\u30ca\u30a4\u30c8\u300d\u306eApple\u30a2\u30d7\u30ea\u30b9\u30c8\u30a2\u3067\u306e\u5fa9\u6d3b\u3092\u88c1\u5224\u6240\u306b\u7533\u3057\u7acb\u3066",
-                "url": "https://www.itmedia.co.jp/news/articles/2009/06/news014.html",
-                "urlToImage": "https://image.itmedia.co.jp/news/articles/2009/06/l_yu_epic.jpg"
-            },
-            {
-                "author": "Tyler Pager",
-                "content": "Democratic presidential nominee Joe Biden is expanding his transition team with senior campaign aides, vice presidential contenders and a former primary rival two months before he faces President Don\u2026 [+2057 chars]",
-                "description": "Follow the StarTribune for the news, photos and videos from the Twin Cities and beyond.",
-                "publishedAt": "2020-09-05T21:56:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Minneapolis Star Tribune"
-                },
-                "title": "Joe Biden builds his presidential transition team",
-                "url": "https://www.startribune.com/joe-biden-builds-his-presidential-transition-team/572329882/",
-                "urlToImage": "https://stmedia.stimg.co/ows_448cf963-bfbe-4fe5-960a-a60832a19797.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces"
             }
         ],
         "AMD": [
+            {
+                "author": "Martin Rubey",
+                "content": "I just did a fresh install of kubuntu 20.04 on a new thinkpad 495s.\r\nThe (graphic) login screen looks normal, except that the mouse pointer is missing. After login however, I have a mostly black/gray\u2026 [+3711 chars]",
+                "description": "I just did a fresh install of kubuntu 20.04 on a new thinkpad 495s.\nThe (graphic) login screen looks normal, except that the mouse pointer is missing. After login however, I have a mostly black/grayish screen. When starting a console (using ctrl-alt-t) I can \u2026",
+                "publishedAt": "2020-09-06T09:32:18Z",
+                "source": {
+                    "id": null,
+                    "name": "Askubuntu.com"
+                },
+                "title": "Thinkpad T495s Ryzen, kubuntu 20.04: display only works in recovery mode",
+                "url": "https://askubuntu.com/questions/1273018/thinkpad-t495s-ryzen-kubuntu-20-04-display-only-works-in-recovery-mode",
+                "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955"
+            },
             {
                 "author": "Christian Prince",
                 "content": "I recently dual booted Ubuntu on my 21.5\" 2017 iMac, and there is no sound outputting from the internal speakers. I have tried everything I could that I found on the internet, and came to the conclus\u2026 [+416 chars]",
@@ -34390,19 +34403,6 @@
                 "title": "Intel Rolls Out 11th Gen Core Processor with Iris Xe Graphics",
                 "url": "https://finance.yahoo.com/news/intel-rolls-11th-gen-core-192907212.html",
                 "urlToImage": "https://s.yimg.com/uu/api/res/1.2/iDuoyx1Nw5uvBfJ5ndmBwA--~B/aD00MDA7dz02MzU7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en-us/zacks.com/c41fe3440bbd796e08e3c98bf5bfc5ef"
-            },
-            {
-                "author": "Eren Sengezer",
-                "content": "<ul><li>Wall Street's main indexes suffer heavy losses on Thursday.</li><li>Tech shares among biggest decliners as flight-to-safety takes over.</li><li>Cruise liner shares gain traction on coronaviru\u2026 [+1234 chars]",
-                "description": "The S&P 500 Index (SPX) notched a new record high for the eighth straight day on Wednesday but came under strong selling pressure on Thursday. Despite",
-                "publishedAt": "2020-09-03T18:52:48Z",
-                "source": {
-                    "id": null,
-                    "name": "FXStreet"
-                },
-                "title": "S&P 500 movers: NVIDIA Corp (NVDA: NASDAQ) falls sharply from record highs",
-                "url": "https://www.fxstreet.com/news/sp-500-movers-nvidia-corp-nvda-nasdaq-falls-sharply-from-record-highs-202009031852",
-                "urlToImage": "https://editorial.fxstreet.com/images/Markets/Equities/SP500/wall_street_nyse3-637299021683820849_Large.jpg"
             }
         ],
         "AMT": [
@@ -34548,7 +34548,7 @@
                     "name": "Reuters"
                 },
                 "title": "REUTERS NEWS SCHEDULE AT 6 a.m. GMT/2 a.m. ET - Reuters UK",
-                "url": "https://uk.reuters.com/article/reuters-schedule-idUKL4N2G3044",
+                "url": "https://in.reuters.com/article/reuters-schedule-idUKL4N2G3044",
                 "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800"
             },
             {
@@ -34671,6 +34671,32 @@
         ],
         "BAC": [
             {
+                "author": "Wall Street Breakfast",
+                "content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nEconomic reports in the week ahead\r\nThe tech sector will be \u2026 [+8746 chars]",
+                "description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+                "publishedAt": "2020-09-06T08:42:43Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Wall Street Breakfast: The Week Ahead",
+                "url": "https://seekingalpha.com/article/4372787-wall-street-breakfast-week-ahead",
+                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
+            },
+            {
+                "author": "None",
+                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+83816 chars]",
+                "description": "Bonner County Daily Bee\u00a0\u00a0Bonner County Daily Bee",
+                "publishedAt": "2020-09-06T08:03:45Z",
+                "source": {
+                    "id": null,
+                    "name": "Bonner County Daily Bee"
+                },
+                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
+                "url": "https://bonnercountydailybee.com/news/2020/sep/06/bonner-county-calendar-sept-6-2020/",
+                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
+            },
+            {
                 "author": "Justin Law",
                 "content": "Introduction\r\nThe Dividend Champions list is a monthly compilation of companies which have consistently increased their annual dividend payouts, and the latest edition may be found here. However, sin\u2026 [+8689 chars]",
                 "description": "A weekly summary of dividend activity for Dividend Challengers. Companies which changed their dividends.",
@@ -34749,19 +34775,6 @@
                 "urlToImage": null
             },
             {
-                "author": "None",
-                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+85971 chars]",
-                "description": "Bonner County Daily Bee\u00a0\u00a0Bonner County Daily Bee",
-                "publishedAt": "2020-09-05T08:04:42Z",
-                "source": {
-                    "id": null,
-                    "name": "Bonner County Daily Bee"
-                },
-                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
-                "url": "https://bonnercountydailybee.com/news/2020/sep/05/bonner-county-calendar-sept-5-2020/",
-                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
-            },
-            {
                 "author": "Gil Barndollar",
                 "content": "Two new books highlight forgotten chapters of the great writer's life, and remind us of his enduring relevance today.If: The Untold Story of Kiplings American Years, Christopher Benfey, (Penguin,\u00a0Jul\u2026 [+11083 chars]",
                 "description": "Two new books highlight forgotten chapters of the great writer's life, and remind us of his enduring relevance today.\nThe post Kipling: Poet Laureate Of Soldiers, Sailors, And Colonizers appeared first on The American Conservative.",
@@ -34786,19 +34799,6 @@
                 "title": "The Capital Letter: Week of August 31",
                 "url": "https://www.nationalreview.com/2020/09/the-capital-letter-week-of-august-31/",
                 "urlToImage": "https://i2.wp.com/www.nationalreview.com/wp-content/uploads/2020/03/nyse-coronavirus.jpg?fit=1200%2C700&ssl=1"
-            },
-            {
-                "author": "Wayne Duggan",
-                "content": "FedEx Corporation (NYSE: FDX) traded slightly higher on Friday after one\u00a0analyst raised his price target for the stock ahead of the companys earnings report later this month.\r\nThe Analyst: Bank of Am\u2026 [+2418 chars]",
-                "description": "FedEx Corporation (NYSE: FDX) traded slightly higher on Friday after one analyst raised his price target for the stock ahead of the company's earnings report later this month.The Analyst: Bank of America analyst Ken Hoexter reiterated his Buy rating and raise\u2026",
-                "publishedAt": "2020-09-04T17:37:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "BofA Raises FedEx Price Target For Second Time In 2 Weeks",
-                "url": "https://finance.yahoo.com/news/bofa-raises-fedex-price-target-173700908.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/7T3_rMowcMN4CNI64hArOQ--~B/aD00MDA7dz02MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Benzinga/808d5461b9f49f0d676573bd5892616a"
             }
         ],
         "BIO": [
@@ -35463,6 +35463,19 @@
         ],
         "DIS": [
             {
+                "author": "Lata Jha, Saumya Tewari",
+                "content": "NEW DELHI :\r\nWhile all eyes are on Walt Disney-owned Star networks gleanings from the upcoming IPL (Indian Premier League), media and entertainment company Viacom18 Media Pvt Ltd has been working dou\u2026 [+4244 chars]",
+                "description": "Brand experts say although Viacom\u2019s revenues are likely to be less by 15-20% than last year thanks to the covid-19 slowdown, the company is not offering discounts on ad rates",
+                "publishedAt": "2020-09-06T07:39:12Z",
+                "source": {
+                    "id": null,
+                    "name": "Livemint"
+                },
+                "title": "\u2018Bigg Boss 2020\u2019 all set to cash in on festive season",
+                "url": "https://www.livemint.com/industry/media/-bigg-boss-2020-all-set-to-cash-in-on-festive-season-11599376710708.html",
+                "urlToImage": "https://images.livemint.com/img/2020/09/06/600x338/SALMA--621x414_1599376863593.jpg"
+            },
+            {
                 "author": null,
                 "content": "New York \u2014 When the coronavirus outbreak forced cruise lines to cancel trips to Alaska, it wiped out Midgi Moore\u2019s tour business, leaving her with thousands of dollars in deposits to refund.\r\nMoore\u2019s\u2026 [+6809 chars]",
                 "description": "New York \u2014 When the coronavirus outbreak forced cruise lines to cancel trips to Alaska, it wiped out Midgi Moore\u2019s tour business,",
@@ -35578,19 +35591,6 @@
                 "title": "The Incredible True Story of Disney\u2019s Oswald the Lucky Rabbit",
                 "url": "https://collider.com/disney-oswald-the-lucky-rabbit-history-explained/",
                 "urlToImage": "https://cdn.collider.com/wp-content/uploads/2020/09/oswald-the-lucky-rabbit-social.jpg"
-            },
-            {
-                "author": "Simon Thompson, Contributor, Simon Thompson, Contributorhttps://www.forbes.com/sites/simonthompson/",
-                "content": "Yifei Liu is 'Mulan.'\r\nJasin Boland/Walt Disney Studios Motion Pictures\r\nIts like going to graduate school, but theyre writing the curriculum as youre doing it, explained Mulan producer, Jason T. Ree\u2026 [+6555 chars]",
-                "description": "\u201cIt\u2019s like going to graduate school, but they\u2019re writing the curriculum as you\u2019re doing it,\u201d explained Mulan producer, Jason Reed as the $200 million epic debuts on the streamer for $29.99.",
-                "publishedAt": "2020-09-05T17:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Forbes"
-                },
-                "title": "\u2018Mulan\u2019 Producer On What Hollywood Can Learn From The Film\u2019s Disney Plus Debut",
-                "url": "https://www.forbes.com/sites/simonthompson/2020/09/05/mulan-producer-hollywood-lessons-disney-plus-vod-debut-china-box-office-movie-theaters/",
-                "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f53b7762d9a9ebd7d7b0912%2F0x0.jpg"
             }
         ],
         "EME": [
@@ -35848,6 +35848,71 @@
         ],
         "FB": [
             {
+                "author": "Michelle",
+                "content": "Recently, we learned of the new Danielle Nicole Pixar Collection that was coming to Boxlunch. I stumbled upon the Gusteau\u2019s tote a few weeks ago. Now, Monsters Inc join the Pixar Collection with thes\u2026 [+1052 chars]",
+                "description": "Recently, we learned of the new Danielle Nicole Pixar Collection that was coming to Boxlunch. I stumbled upon the Gusteau\u2019s tote a few weeks ago. Now, Monsters Inc join the Pixar Collection with these awesome pieces! Danielle Nicole has been knocking it out o\u2026",
+                "publishedAt": "2020-09-06T09:38:31Z",
+                "source": {
+                    "id": null,
+                    "name": "Disneyfashionista.com"
+                },
+                "title": "Monsters Inc Joins The Danielle Nicole Family With BoxLunch Exclusives!",
+                "url": "https://disneyfashionista.com/monsters-inc-joins-the-danielle-nicole-family-with-boxlunch-exclusives/",
+                "urlToImage": "https://i2.wp.com/disneyfashionista.com/wp-content/uploads/2020/09/20200901_1825584692435163239468802-scaled.jpg?fit=1440%2C2560&ssl=1"
+            },
+            {
+                "author": "\ufffdJ\ufffd\ufffd\ufffdM\ufffdq\ufffdC\ufffd\u02c2\u0182\ufffd\ufffd",
+                "content": "@AIJtF{bguroot C([gV[)vJ|New InnovationsAsZ10`40j400suoCI[_[AP[gv\\B\r\n@AloCI[_[gpoAZkbgAOB\r\n@oCI[_[AWXAX}[gtHOxT[rXBt@Xgt[hAeCNAEgHXSANXB\r\n@uoCI[_[gvA46.0%lugvA54.0%lugvBAloCI[_[poB\r\n@oCI[_[l_\u0082Auv63.6\u2026 [+299 chars]",
+                "description": "\ufffdX\ufffd\ufffd\ufffd[\ufffdY\ufffd\u024e\ufffd\ufffd\ufffdl\ufffdC\ufffd\u0303T\ufffd[\ufffdr\ufffdX\ufffdA\ufffd\ufffd\ufffd\u0202\ufffd\ufffd\u034eg\ufffd\ufffd\ufffd\u0102\ufffdH",
+                "publishedAt": "2020-09-06T09:20:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Itmedia.co.jp"
+                },
+                "title": "\u30d5\u30a1\u30b9\u30c8\u30d5\u30fc\u30c9\u5e97\u306a\u3069\u306e\u300c\u30e2\u30d0\u30a4\u30eb\u30aa\u30fc\u30c0\u30fc\u300d\u30014\u5272\u8d85\u304c\u5229\u7528\u7d4c\u9a13\u3042\u308a\u3000\u5f85\u3061\u6642\u9593\u304c\u77ed\u7e2e\u304c\u9b45\u529b\u306e\u30b5\u30fc\u30d3\u30b9\u3001\u4eca\u5f8c\u6539\u5584\u3057\u3066\u307b\u3057\u3044\u3053\u3068\u306f\uff1f",
+                "url": "https://nlab.itmedia.co.jp/nl/articles/2009/06/news025.html",
+                "urlToImage": "https://image.itmedia.co.jp/nl/articles/2009/06/l_tanimachi_mobailoreder01.jpg"
+            },
+            {
+                "author": "Anuj Bhatia",
+                "content": "Written by Anuj Bhatia\r\n | New Delhi | \r\nUpdated: September 6, 2020 2:51:52 pm\r\nMa Huateng better known as Pony Ma is the founder and CEO of Chinas tech major Tencent. Ma Huateng, also known as Pony \u2026 [+4967 chars]",
+                "description": "Ma Huateng is the founder and CEO of Tencent,  one of the largest technology companies in the world. Here are some of the lesser-known facts about China's richest man.",
+                "publishedAt": "2020-09-06T09:11:12Z",
+                "source": {
+                    "id": null,
+                    "name": "The Indian Express"
+                },
+                "title": "Interesting facts about Pony Ma, the CEO of Chinese internet behemoth Tencent",
+                "url": "https://indianexpress.com/article/technology/tech-news-technology/interesting-facts-about-pony-ma-the-ceo-of-chinese-internet-behemoth-tencent-6585070/",
+                "urlToImage": "https://images.indianexpress.com/2020/09/Pony-Ma.jpg"
+            },
+            {
+                "author": "Luxury Daily News Service",
+                "content": "Luxury Daily, with its Future of Luxury eConference, is hosting 40+ speakers from leading luxury brands, retailers, market researchers, agencies and publishers to share ideas and strategy on how to c\u2026 [+11927 chars]",
+                "description": "Register now for Luxury Daily's Future of Luxury eConference Sept. 23-24 as brands and retailers face unprecedented changes in customer behavior. Check out our list of 40-plus speakers from the leading luxury brands and retailers worldwide and nearly 40 sessi\u2026",
+                "publishedAt": "2020-09-06T08:45:59Z",
+                "source": {
+                    "id": null,
+                    "name": "Luxurydaily.com"
+                },
+                "title": "40+ brand speakers, 35 sessions: Grab your seat at the Future of Luxury eConference Sept. 23-24",
+                "url": "https://www.luxurydaily.com/40-brand-speakers-35-sessions-grab-your-seat-at-the-future-of-luxury-econference-sept-23-24-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/",
+                "urlToImage": "https://www.luxurydaily.com/wp-content/uploads/2020/08/fol-luxury-daily-yellow-and-brown.jpg"
+            },
+            {
+                "author": "None",
+                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+83816 chars]",
+                "description": "Bonner County Daily Bee\u00a0\u00a0Bonner County Daily Bee",
+                "publishedAt": "2020-09-06T08:03:45Z",
+                "source": {
+                    "id": null,
+                    "name": "Bonner County Daily Bee"
+                },
+                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
+                "url": "https://bonnercountydailybee.com/news/2020/sep/06/bonner-county-calendar-sept-6-2020/",
+                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
+            },
+            {
                 "author": "Teoh Yi Chie",
                 "content": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\nI'm starting to get back into the groove of putting out more rev\u2026 [+4281 chars]",
                 "description": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\n\nI'm starting to get back into the groove of putting out more reviews. Hopefully I can keep this going.\r\n\nBooks\r\n\n<ol>\n<li> \u2026",
@@ -35874,6 +35939,19 @@
                 "urlToImage": "https://c.ndtvimg.com/2020-08/9d6h07ao_elon-musk_650x400_04_August_20.jpg"
             },
             {
+                "author": "John Green",
+                "content": "Fee Insurance Group announces new partnership\r\nFee Insurance Group announced a new partnership with Keystone Insurers Group that will provide Fee\u2019s clients with expanded insurance options, allowing i\u2026 [+8073 chars]",
+                "description": "Fee Insurance Group announces new partnershipFee Insurance Group announced a new partnership with Keystone Insurers Group that will provide Fee\u2019s",
+                "publishedAt": "2020-09-06T05:53:16Z",
+                "source": {
+                    "id": null,
+                    "name": "Ottawaherald.com"
+                },
+                "title": "Business briefs - Business - The Ottawa Herald",
+                "url": "https://www.ottawaherald.com/article/20200906/BUSINESS/200909311",
+                "urlToImage": "https://www.ottawaherald.com/Global/images/head/nameplate/fb/ottawaherald_logo_FB.png"
+            },
+            {
                 "author": null,
                 "content": "Latest Study on Industrial Growth of\u00a0Global Cyber Security for Oil &amp; Gas Market\u00a02019-2025. A detailed study accumulated to offer\u00a0Latest insights about acute features of the Cyber Security for Oil\u2026 [+7449 chars]",
                 "description": "Latest Study on Industrial Growth of Global Cyber Security for Oil & Gas Market 2019-2025. A detailed study accumulated to offer Latest insights about acute features of the Cyber Security for Oil & Gas market . The report contains different market predictions\u2026",
@@ -35898,84 +35976,6 @@
                 "title": "Huge swings in options-overrun stocks leave manager baffled",
                 "url": "https://economictimes.indiatimes.com/markets/stocks/news/huge-swings-in-options-overrun-stocks-leave-manager-baffled/articleshow/77957481.cms",
                 "urlToImage": "https://img.etimg.com/thumb/msid-77957475,width-1070,height-580,imgsize-275381,overlay-etmarkets/photo.jpg"
-            },
-            {
-                "author": "Berthold Seewald, Berthold Seewald",
-                "content": "\u00dcblicherweise brach die Silberflotte, die die Sch\u00e4tze Amerikas nach Spanien transportierte, im Juli von Havanna auf. Doch 1622 hatte sich die Nuestra Se\u00f1ora de Atocha versp\u00e4tet. Das Verstauen des Ede\u2026 [+3820 chars]",
-                "description": "Im September 1622 lichtete Spaniens Silberflotte in Havanna die Anker. Nach nur zwei Tagen versank die \u201eNuestra Se\u00f1ora de Atocha\u201c im Sturm \u2013 und mit ihr 40 Tonnen Edelmetall. Die Wiederentdeckung 1985 wurde zum Jahrhundertfund.",
-                "publishedAt": "2020-09-06T03:48:24Z",
-                "source": {
-                    "id": null,
-                    "name": "DIE WELT"
-                },
-                "title": "Nur f\u00fcnf Mann \u00fcberlebten den Untergang des wertvollsten Schatzschiffs",
-                "url": "https://www.welt.de/geschichte/article215046544/Nuestra-Senora-de-Atocha-Das-wertvollste-Schatzschiff-aller-Zeiten.html",
-                "urlToImage": "https://www.welt.de/img/geschichte/mobile215046536/6211353407-ci16x9-w1200/Darstellung-einer-spanischen-Galeone-li-2.jpg"
-            },
-            {
-                "author": "Lucas Shaw | Bloomberg",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had bedeviled Hollywood for the past decade: How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12318 chars]",
-                "description": "As Netflix has grown, what started as a technology company led by engineers has morphed into an entertainment company led by thousands of people trained in Hollywood studios",
-                "publishedAt": "2020-09-06T02:39:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Business Standard"
-                },
-                "title": "How Netflix went from a DVD-by-mail service to Hollywood conqueror",
-                "url": "https://www.business-standard.com/article/international/how-netflix-went-from-a-dvd-by-mail-service-to-hollywood-conqueror-120090600081_1.html",
-                "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-09/06/full/1599359612-9664.jpg"
-            },
-            {
-                "author": "Bloomberg",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had\u00a0bedeviled Hollywood for the past decade:\u00a0How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12509 chars]",
-                "description": "In his upcoming memoir, \u2018No Rules Rules,\u2019 the streaming pioneer reveals how he became the unlikely king of the entertainment world",
-                "publishedAt": "2020-09-06T01:34:13Z",
-                "source": {
-                    "id": null,
-                    "name": "Livemint"
-                },
-                "title": "Netflix\u2019s Reed Hastings conquered Hollywood with a PowerPoint presentation",
-                "url": "https://www.livemint.com/companies/people/netflix-s-reed-hastings-conquered-hollywood-with-a-powerpoint-presentation-11599352894640.html",
-                "urlToImage": "https://images.livemint.com/img/2020/09/06/600x338/NetflixCEo_1599356003593_1599356011089.PNG"
-            },
-            {
-                "author": "Bloomberg | Posted by Kanishka Sarkar",
-                "content": "About three years ago, Reed Hastings set out to answer a question that had\u00a0bedeviled Hollywood for the past decade:\u00a0How did a small DVD-by-mail company build the most popular TV service in the world?\u2026 [+12392 chars]",
-                "description": "Inspired by books such as \u201cThe HP Way\u201d and \u201cBeyond Entrepreneurship,\u201d Reed Hastings chose to write about what he says is the real key to Netflix\u2019s success: its culture.",
-                "publishedAt": "2020-09-06T00:27:03Z",
-                "source": {
-                    "id": null,
-                    "name": "Hindustan Times"
-                },
-                "title": "Netflix\u2019s Reed Hastings conquered Hollywood with a PowerPoint presentation - Hindustan Times",
-                "url": "https://www.hindustantimes.com/business-news/netflix-s-reed-hastings-conquered-hollywood-with-a-powerpoint-presentation/story-6xdEQaDKEYg6QsIIXQR3CL.html",
-                "urlToImage": "https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/09/06/Pictures/netflix-japan-reed-hastings-introduces-content-lineup_350fe34c-efd7-11ea-a6a9-ef65eb2fa0ec.jpg"
-            },
-            {
-                "author": "Sarah E. Needleman",
-                "content": "The creator of Fortnite is taking another stab at getting a judge to bring the popular game back to Apple Inc.s devices, this time disclosing that roughly a third of players access it through the tec\u2026 [+2920 chars]",
-                "description": "Epic Games says the largest share of its more than 350 million players access the game on iPhones or iPadsThe creator of \u201cFortnite\u201d is taking another stab at getting a judge to bring the popular game back to Apple Inc.\u2019s devices, this time disclosing that rou\u2026",
-                "publishedAt": "2020-09-05T19:37:11Z",
-                "source": {
-                    "id": null,
-                    "name": "MarketWatch"
-                },
-                "title": "The Wall Street Journal: Fortnite maker asks judge again to return game to Apple\u2019s app store",
-                "url": "https://www.marketwatch.com/story/fortnite-maker-asks-judge-again-to-return-game-to-apples-app-store-2020-09-05-151032751",
-                "urlToImage": "https://s.marketwatch.com/public/resources/images/MW-HJ477_appsto_ZG_20190513204034.jpg"
-            },
-            {
-                "author": "Stack Overflow",
-                "content": "I have a single \"share to facebook\" link on my site using Django Social Share. The issue is that the link being posted to Facebook isn't being scraped - the image, the description, and the title are \u2026 [+795 chars]",
-                "description": "I have a single \"share to facebook\" link on my site using Django Social Share. The issue is that the link being posted to Facebook isn't being scraped - the image, the description, and the title are not populating. All OG meta tags are present and correct, so\u2026",
-                "publishedAt": "2020-09-05T19:22:22Z",
-                "source": {
-                    "id": null,
-                    "name": "Stackoverflow.com"
-                },
-                "title": "Facebook Link Sharing Issue",
-                "url": "https://stackoverflow.com/questions/63757543/facebook-link-sharing-issue",
-                "urlToImage": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"
             }
         ],
         "FBP": [
@@ -36508,269 +36508,360 @@
         ],
         "INTC": [
             {
-                "author": "Star_KillA",
-                "content": "<ol><li>\r\n</li><li><ul><li>\r\nBitte einloggen, um diese Anzeige auszublenden.\r\n</li><li></li></ul></li></ol>\r\nGehe zu:Mainboards und ArbeitsspeicherNach oben<ul><li>Bereiche</li><li>Benutzerkontrollze\u2026 [+6210 chars]",
-                "description": "Liebes Forum, ich habe neuen Ram gekauft, der 3200 MHz haben sollte. Nun habe ich im BIOS gesehen, das er auf 31xxx l\u00e4uft, wenn ich XMP nicht aktivier",
-                "publishedAt": "2020-09-06T07:11:14Z",
+                "author": "David Polesn\u00fd, Jakub \u010c\u00ed\u017eek",
+                "content": "Nvidia uk\u00e1zala nov\u00e9 grafiky RTX, Intel zase Dragon Lake 11. generac\u00ed sv\u00fdch procesor Core pro notebooky, kter\u00e9 slibuj\u00ed v\u00fdrazn\u00e9 zv\u00fden\u00ed v\u00fdkonu i d\u00edky sv\u00e9 erstv\u00e9 grafick\u00e9 architektue. Asus uk\u00e1zal nov\u00e9 la\u2026 [+80 chars]",
+                "description": "Nov\u00e9 grafiky od Nvidie \u2022 11. generace Intel Core pro laptopy \u2022 \u0160koda Enyaq a \u0161pi\u010dkov\u00fd Asus",
+                "publishedAt": "2020-09-06T10:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "PC Games Hardware"
+                    "name": "Mobilmania.cz"
                 },
-                "title": "XMP Aktivierung f\u00fchrt erst zu erhalt des korrekten Basistaktes?",
-                "url": "https://extreme.pcgameshardware.de/mainboards-und-arbeitsspeicher/576605-xmp-aktivierung-fuehrt-erst-zu-erhalt-des-korrekten-basistaktes.html",
-                "urlToImage": null
-            },
-            {
-                "author": "Softpedia Drivers",
-                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+2838 chars]",
-                "description": "Key Features:- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC- Graphics: Integrated Intel UHD Graphics 62\u2026",
-                "publishedAt": "2020-09-06T07:09:01Z",
-                "source": {
-                    "id": null,
-                    "name": "Softpedia.com"
-                },
-                "title": "ASUS X543UA Realtek Audio Driver 6.0.1.8564 for Windows 10 64-bit",
-                "url": "https://drivers.softpedia.com/get/SOUND-CARD/REALTEK/ASUS-X543UA-Realtek-Audio-Driver-6-0-1-8564-for-Windows-10-64-bit.shtml",
-                "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
-            },
-            {
-                "author": "Ben",
-                "content": "Qooah.com\r\nQualcomm PC Snapdragon 8cx Gen 2 5G 5G AI Qualcomm Aqsti ECNS\r\nQualcomm 8cx Intel Core i5 Snapdragon 8cx Intel Core i5 18% W 39% Intel Lakefield 51% W 58%\r\nSnapdragon 8cx Snapdragon X55 5G\u2026 [+250 chars]",
-                "description": "\u6587\u7ae0\u4f86\u6e90\uff1aQooah.comQualcomm \u516c\u53f8\u4eca\u5929\u7a81\u7136\u516c\u4f48\u4e86\u5176\u7528\u65bc PC \u7684 Snapdragon 8cx Gen 2 5G\uff0c\u6bd4\u8d77\u4e0a\u4e00\u4ee3\uff0c\u9664\u4e86\u5148\u9032\u7684 5G \u7db2\u7d61\u652f\u63f4\u5916\uff0c\u5728\u6027\u80fd\u548c\u7e8c\u822a\u65b9\u9762\u4e5f\u4e0d\u4fd7\uff0c\u4e26\u4e14\u9084\u652f\u63f4\u4f01\u696d\u7d1a\u5b89\u5168\u548c AI \u52a0\u901f\uff0c\u5229\u7528Qualcomm Aqsti \u8ff4\u8072\u6d88\u9664\u548c\u566a\u8072\u6291\u5236\uff08ECNS\uff09\u6280\u8853\u63d0\u4f9b\u5148\u9032\u7684\u97f3\u983b\u64ad\u653e\u3002\u64da\u6089\uff0cQualcomm \u521d\u4ee3 8cx \u8a2d\u5b9a\u7684\u76ee\u6a19\u662f Intel \u7b2c\u516b\u4ee3 Core i5\uff0c\u800c\u5728\u7b2c\u4e8c\u4ee3 Snapdragon 8cx \u5c0d\u6a19\u7684\u662f Intel \u7b2c\u5341\u4ee3 Core i5\uff0c\u627f\u8afe\u6574\u9ad4\u6027\u80fd\u63d0\u5347 18\u2026",
-                "publishedAt": "2020-09-06T07:06:51Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Snapdragon 8cx Gen 2 \u767c\u4f48\uff0c\u6027\u80fd\u5ab2\u7f8e 10\u4ee3 i5 \u9084\u652f\u63f4 5G",
-                "url": "https://tw.news.yahoo.com/snapdragon-8cx-gen-2-%E7%99%BC%E4%BD%88-070651355.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/a4Muz32PbWiXBXCnm9ps3w--~B/aD00NzA7dz05MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/zh-TW/qooah.tw/f5ab8c503319bdb0efefd96f2c5c7157"
+                "title": "T\u00fdden \u0179iv\u011b: Hardwarov\u00e9 novinky Nvidie, Intelu, Asusu a elektrick\u00e1 \u0161kodovka",
+                "url": "https://www.mobilmania.cz/clanky/tyden-zive-hardwarove-novinky-nvidie-intelu-asusu-a-elektricka-skodovka/sc-3-a-1349251/default.aspx",
+                "urlToImage": "https://www.mobilmania.cz/getthumbnail.aspx?q=100&height=20000&width=20000&id_file=711710812"
             },
             {
                 "author": null,
-                "content": "Articles les plus consult\u00e9s\r\n Jeux VideoLes semaines passent et le doute s'installe un peu plus concernant Sony et ses stocks de PS5, si bien que l'on parle d\u00e9sormais d'un possible abandon du lanceme\u2026 [+1542 chars]",
-                "description": "Comme chaque dimanche, retrouvez le top des actualit\u00e9s de la semaine sur GNT.",
-                "publishedAt": "2020-09-06T07:00:01Z",
+                "content": null,
+                "description": "1589,99\u20ac - AmazonASUS ROG STRIX-G15-G512LW-HN038T PC Portable 15,6'' FHD 144Hz (Intel Core i7-10750H, RAM 16Go DDR4 (8Go x 2), 512Go SSD, Optimus NVIDIA GeForce RTX 2070 GDDR6 8GB, Windows 10) Clavier AZERTY Fran\u00e7ais",
+                "publishedAt": "2020-09-06T09:51:28Z",
                 "source": {
                     "id": null,
-                    "name": "G\u00e9n\u00e9ration NT"
+                    "name": "Dealabs.com"
                 },
-                "title": "GNT : le top des actualit\u00e9s de la semaine qu'il ne fallait pas manquer",
-                "url": "https://www.generation-nt.com/gnt-top-actualite-1979656.html",
-                "urlToImage": "https://img.generation-nt.com/logo-gnt_008E005F01313462.png"
+                "title": "ASUS ROG STRIX-G15-G512LW-HN038T",
+                "url": "https://www.dealabs.com/bons-plans/asus-rog-strix-g15-g512lw-hn038t-1960825",
+                "urlToImage": null
             },
             {
                 "author": "Softpedia Drivers",
-                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+2249 chars]",
+                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+4727 chars]",
                 "description": "Key Features:- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC- Graphics: Integrated Intel UHD Graphics 62\u2026",
-                "publishedAt": "2020-09-06T06:58:01Z",
+                "publishedAt": "2020-09-06T09:50:01Z",
                 "source": {
                     "id": null,
                     "name": "Softpedia.com"
                 },
-                "title": "ASUS X543UA BIOS 204",
-                "url": "https://drivers.softpedia.com/get/BIOS/Asus/ASUS-X543UA-BIOS-204.shtml",
+                "title": "ASUS X543UA Intel Serial IO I2C Driver 30.100.1823.1 for Windows 10 64-bit",
+                "url": "https://drivers.softpedia.com/get/laptop-notebook/ASUS/ASUS-X543UA-Intel-Serial-IO-I2C-Driver-30-100-1823-1-for-Windows-10-64-bit.shtml",
                 "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
             },
             {
                 "author": "Softpedia Drivers",
-                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+2249 chars]",
+                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+4727 chars]",
                 "description": "Key Features:- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC- Graphics: Integrated Intel UHD Graphics 62\u2026",
-                "publishedAt": "2020-09-06T06:48:01Z",
+                "publishedAt": "2020-09-06T09:40:01Z",
                 "source": {
                     "id": null,
                     "name": "Softpedia.com"
                 },
-                "title": "ASUS X543UA BIOS 302",
-                "url": "https://drivers.softpedia.com/get/BIOS/Asus/ASUS-X543UA-BIOS-302.shtml",
+                "title": "ASUS X543UA Intel Serial IO SPI Driver 30.100.1823.1 for Windows 10 64-bit",
+                "url": "https://drivers.softpedia.com/get/laptop-notebook/ASUS/ASUS-X543UA-Intel-Serial-IO-SPI-Driver-30-100-1823-1-for-Windows-10-64-bit.shtml",
                 "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
             },
             {
-                "author": "kingofthedot",
-                "content": "I have sound, but its very ugly, sounds like very-very cheap, quiet and no bass, no deepity, incomparabl with Windows.\r\nIt may helps you: - https://termbin.com/pm8h\r\nAudio: Device-1: Intel 7 Series/C\u2026 [+365 chars]",
-                "description": "I have sound, but its very ugly, sounds like very-very cheap, quiet and no bass, no deepity, incomparabl\u0435 with Windows.\nIt may helps you: - https://termbin.com/pm8h\nAudio: Device-1: Intel 7 Series/C216 Family High Definition Audio vendor: Dell\ndriver: snd_hda\u2026",
-                "publishedAt": "2020-09-06T06:43:36Z",
+                "author": null,
+                "content": "A Qualcomm \u00faj chipje kell ehhez, amely hamarosan az els okostelefonokban is megjelenik. A OnePlus Nord 5G az eddigi legjobb \u00e1r-teljes\u00edtm\u00e9ny mutat\u00f3kkal jelent meg nemr\u00e9g a piacon, ek\u00f6zben azonban t\u00f6bb\u2026 [+1618 chars]",
+                "description": "A Qualcomm \u00faj chipje kell ehhez, amely hamarosan az els\u0151 okostelefonokban is megjelenik.",
+                "publishedAt": "2020-09-06T09:37:27Z",
+                "source": {
+                    "id": null,
+                    "name": "Sg.hu"
+                },
+                "title": "Olcs\u00f3bb telefonokon is j\u00f6n az 5G t\u00e1mogat\u00e1sa",
+                "url": "https://sg.hu/cikkek/it-tech/142428/olcsobb-telefonokon-is-jon-az-5g-tamogatasa",
+                "urlToImage": "https://sg.hu/https://media.sg.hu/kep/2020_09/09045gtelefonok2.jpg"
+            },
+            {
+                "author": "Martin Rubey",
+                "content": "I just did a fresh install of kubuntu 20.04 on a new thinkpad 495s.\r\nThe (graphic) login screen looks normal, except that the mouse pointer is missing. After login however, I have a mostly black/gray\u2026 [+3711 chars]",
+                "description": "I just did a fresh install of kubuntu 20.04 on a new thinkpad 495s.\nThe (graphic) login screen looks normal, except that the mouse pointer is missing. After login however, I have a mostly black/grayish screen. When starting a console (using ctrl-alt-t) I can \u2026",
+                "publishedAt": "2020-09-06T09:32:18Z",
                 "source": {
                     "id": null,
                     "name": "Askubuntu.com"
                 },
-                "title": "IDT Hight Definition Audio driver issue",
-                "url": "https://askubuntu.com/questions/1272993/idt-hight-definition-audio-driver-issue",
+                "title": "Thinkpad T495s Ryzen, kubuntu 20.04: display only works in recovery mode",
+                "url": "https://askubuntu.com/questions/1273018/thinkpad-t495s-ryzen-kubuntu-20-04-display-only-works-in-recovery-mode",
                 "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955"
             },
             {
-                "author": "kingofthedot",
-                "content": "I have sound, but its very ugly, sounds like very-very cheap, quiet and no bass, no deepity, incomparabl with Windows.\r\nIt may helps you: - https://termbin.com/pm8h\r\nAudio: Device-1: Intel 7 Series/C\u2026 [+365 chars]",
-                "description": "I have sound, but its very ugly, sounds like very-very cheap, quiet and no bass, no deepity, incomparabl\u0435 with Windows.\nIt may helps you: - https://termbin.com/pm8h\nAudio: Device-1: Intel 7 Series/C216 Family High Definition Audio vendor: Dell\ndriver: snd_hda\u2026",
-                "publishedAt": "2020-09-06T06:43:36Z",
+                "author": "Softpedia Drivers",
+                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+4727 chars]",
+                "description": "Key Features:- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC- Graphics: Integrated Intel UHD Graphics 62\u2026",
+                "publishedAt": "2020-09-06T09:29:01Z",
                 "source": {
                     "id": null,
-                    "name": "Askubuntu.com"
+                    "name": "Softpedia.com"
                 },
-                "title": "IDT High Definition Audio driver issue",
-                "url": "https://askubuntu.com/questions/1272993/idt-high-definition-audio-driver-issue",
-                "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955"
+                "title": "ASUS X543UA Intel Serial IO UART Driver 30.100.1823.1 for Windows 10 64-bit",
+                "url": "https://drivers.softpedia.com/get/laptop-notebook/ASUS/ASUS-X543UA-Intel-Serial-IO-UART-Driver-30-100-1823-1-for-Windows-10-64-bit.shtml",
+                "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
             },
             {
-                "author": "Teoh Yi Chie",
-                "content": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\nI'm starting to get back into the groove of putting out more rev\u2026 [+4281 chars]",
-                "description": "I didn't put out July's roundup because there wasn't enough reviews worth making a roundup for. So I've combined two months instead. \r\n\nI'm starting to get back into the groove of putting out more reviews. Hopefully I can keep this going.\r\n\nBooks\r\n\n<ol>\n<li> \u2026",
-                "publishedAt": "2020-09-06T06:39:40Z",
+                "author": "spillou78",
+                "content": "Ultrabook 13.3\" Full HD (Intel Core i7, 8Go de RAM, SSD 256Go, Intel HD Graphics, Windows 10)R\u00e9activit\u00e9, performances et s\u00e9curit\u00e9 : lIdeapad S530vous apporte tout cela, et bien plus encore ! Con\u00e7u po\u2026 [+282 chars]",
+                "description": "699\u20ac - AmazonUltrabook 13.3\" Full HD (Intel Core i7, 8Go de RAM, SSD 256Go, Intel HD Graphics, Windows 10)R\u00e9activit\u00e9, performances et s\u00e9curit\u00e9 : l\u2019Ideapad S530vous apporte tout cela, et bien plus encore ! Con\u00e7u pour doper la productivit\u00e9 tout en minimisant le\u2026",
+                "publishedAt": "2020-09-06T09:25:48Z",
                 "source": {
                     "id": null,
-                    "name": "Parkablogs.com"
+                    "name": "Dealabs.com"
                 },
-                "title": "July & August 2020 Reviews Roundup",
-                "url": "https://www.parkablogs.com/content/july-august-2020-reviews-roundup",
-                "urlToImage": null
+                "title": "PC Portable 13,3\" Lenovo IdeaPad S530-13IWL - i7-8565U, RAM 8 Go, SSD 256 Go, Windows 10",
+                "url": "https://www.dealabs.com/bons-plans/lenovo-ideapad-s530-13iwl-ultrabook-133-1960810",
+                "urlToImage": "https://static-pepper.dealabs.com/threads/thread_full_screen/default/1960810_2.jpg"
             },
             {
-                "author": "chinanews",
-                "content": "| \r\n201811\r\nGDP\r\n201923.723.9%\r\n1\r\n2550Live to work()\r\n1924\u00b7(Frederick Terman)\r\n1951\r\n1960708090()\r\n(hp)(Google)(Facebook)(Apple)(Intel)\r\n 34495 \r\n20132542%\r\n()\r\n21/430%\r\n 20161.6GDP20%3 \r\n2019121\r\n8\u2026 [+287 chars]",
-                "description": "\u6839\u636e\u56fd\u5bb6\u8fd9\u4efd\u53d1\u5c55\u201c\u6307\u5357\u201d\uff0c\u672a\u6765\u957f\u4e09\u89d2\u5730\u533a\u8981\u7d27\u6263 \u4e00\u4f53\u5316 \u548c \u9ad8\u8d28\u91cf \u4e24\u4e2a\u5173\u952e\u8bcd\uff0c\u5728 \u7545 \u901a\u5185\u5916\u53cc\u5faa\u73af \u4e0a\u7740\u529b\u3002\u540c\u300a\u609f\u7a7a\u300b\u4e00\u6837\uff0c\u8d8a\u6765\u8d8a\u591a\u7684\u56fd\u4ea7\u6e38\u620f\u5382\u5546\u5728\u957f\u4e09\u89d2\u843d\u5730\u751f\u6839\uff0c\u51ed\u501f\u8fd9\u91cc\u7684\u4eba\u624d\u3001\u91d1\u878d\u3001\u7269\u6d41\u3001\u4ea7\u4e1a\u94fe\u4f18\u52bf\uff0c\u805a\u7126\u56fd\u5185\u3001\u8f90\u5c04\u6d77\u5916\u3002",
-                "publishedAt": "2020-09-06T06:37:35Z",
+                "author": "Julian Horsey",
+                "content": "The GMK NucBox is a new mini PC capable of supporting 4K UHD output and is equipped with a high-performance Intel Celeron J4125 processor, offering 4-core 4-thread up to 2.7GHz frequency, supported b\u2026 [+1260 chars]",
+                "description": "<table>\n<tr>\n<td></td>\n</tr>\n<tr>\n<td>The GMK NucBox is a new mini PC capable of supporting 4K UHD output and is equipped with a high-performance Intel Celeron J4125 processor, offering 4-core 4-thread up to 2.7GHz frequency, supported by the latest Intel UHD\u2026",
+                "publishedAt": "2020-09-06T09:17:16Z",
                 "source": {
                     "id": null,
-                    "name": "Chinanews.com"
+                    "name": "Geeky Gadgets"
                 },
-                "title": "\u4e2d\u82af\u56fd\u9645\u3001\u300a\u9ed1\u795e\u8bdd\uff1a\u609f\u7a7a\u300b\u957f\u4e09\u89d2\u51ed\u5565\u57f9\u80b2\u51fa\u8fd9\u4e48\u591a\u201c\u7206\u6b3e\u201d-\u4e2d\u65b0\u7f51 - \u4e2d\u56fd\u65b0\u95fb\u7f51",
-                "url": "http://www.chinanews.com/gn/2020/09-06/9284006.shtml",
-                "urlToImage": null
+                "title": "GMK NucBox 4K mini PC from $230",
+                "url": "https://www.geeky-gadgets.com/4k-mini-pc-06-09-2020/",
+                "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2020/09/4K-mini-PC-1-1.jpg"
+            },
+            {
+                "author": "Softpedia Drivers",
+                "content": "Key Features:\r\n- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare P\u2026 [+4727 chars]",
+                "description": "Key Features:- Processor: Intel Pentium 4417U/4405U, i3 8130U/7020U, i5 8250U/7200U, or i7 8550U- Memory:4 GB, up to 12 GB SDRAM- Display: 15.6\" (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC- Graphics: Integrated Intel UHD Graphics 62\u2026",
+                "publishedAt": "2020-09-06T09:11:01Z",
+                "source": {
+                    "id": null,
+                    "name": "Softpedia.com"
+                },
+                "title": "ASUS X543UA Intel Serial IO Driver 30.100.1725.1 for Windows 10 64-bit",
+                "url": "https://drivers.softpedia.com/get/laptop-notebook/ASUS/ASUS-X543UA-Intel-Serial-IO-Driver-30-100-1725-1-for-Windows-10-64-bit.shtml",
+                "urlToImage": "https://cdnssl.softpedia.com/_img/softpedia_logo_rss.png"
             }
         ],
         "JNJ": [
             {
-                "author": "Dominic Gilbert, Ashley Kirk, Bruno Riddy",
-                "content": "What happened with the UK's lockdown?\r\nOn March 23,\u00a0Boris Johnson placed the UK on a police-enforced lockdown with drastic new measures in the fight against the coronavirus outbreak.\r\nThe Prime Minis\u2026 [+2145 chars]",
-                "description": "Since the first Covid-19 cases were detected in York, the disease has now spread across the UK - find out how many cases there have been in",
-                "publishedAt": "2020-09-06T07:02:57Z",
+                "author": "JD Henning",
+                "content": "Introduction\r\nThe Weekly Breakout Forecast continues my doctoral research analysis on MDA breakout selections over more than five years. This subset of the different portfolios I regularly analyze ha\u2026 [+12518 chars]",
+                "description": "Two Sample Breakout Stocks for Week 37 with better than 10% short-term upside potential. Now up an average 201.7% YTD.",
+                "publishedAt": "2020-09-06T09:45:21Z",
                 "source": {
                     "id": null,
-                    "name": "Telegraph.co.uk"
+                    "name": "Seeking Alpha"
                 },
-                "title": "UK Covid-19 cases and deaths: the latest numbers",
-                "url": "https://www.telegraph.co.uk/news/2020/09/06/uk-coronavirus-cases-deaths-covid-19-numbers-today/",
-                "urlToImage": "https://www.telegraph.co.uk/content/dam/news/2020/03/04/DATA-UK-CORONAVIRUS-UK-tracker1_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?impolicy=logo-overlay"
+                "title": "Week 37 MDA Breakout Forecast: Short-Term Picks To Give You An Edge",
+                "url": "https://seekingalpha.com/article/4372788-week-37-mda-breakout-forecast-short-term-picks-to-give-you-edge",
+                "urlToImage": "https://static2.seekingalpha.com/uploads/2020/9/5/43516266-15993094581217618.png"
             },
             {
-                "author": "Sarah Watson, Shawn Hubler, Danielle Ivory and Robert Gebeloff",
-                "content": "The Rinellas live in Detroit, where they have other businesses, and Mr. Rinella said he was out of town when crowds jammed downtown on the weekend before the Aug. 24 start of classes. He said he imme\u2026 [+2079 chars]",
-                "description": "The coronavirus is spiking around campuses from Texas to Iowa to North Carolina as students return.",
-                "publishedAt": "2020-09-06T07:00:14Z",
+                "author": "Reuters",
+                "content": "LONDRES (Reuters) - La distribution de plusieurs journaux britanniques a \u00e9t\u00e9 interrompue samedi apr\u00e8s que des militants de l'association \u00e9cologiste Extinction Rebellion ont bloqu\u00e9 des imprimeries uti\u2026 [+1391 chars]",
+                "description": "LONDRES (Reuters) - La distribution de plusieurs journaux britanniques a \u00e9t\u00e9 interrompue samedi apr\u00e8s que des militants de l'association \u00e9cologiste Extinction Rebellion ont bloqu\u00e9 des imprimeries utilis\u00e9es par la maison d'\u00e9dition du Times et du Sun, propri\u00e9t\u00e9\u2026",
+                "publishedAt": "2020-09-06T09:29:59Z",
                 "source": {
                     "id": null,
-                    "name": "New York Times"
+                    "name": "Challenges"
                 },
-                "title": "A New Front in America\u2019s Pandemic: College Towns",
-                "url": "https://www.nytimes.com/2020/09/06/us/colleges-coronavirus-students.html",
-                "urlToImage": "https://static01.nyt.com/images/2020/09/04/us/00virus-collegetown-1/00virus-collegetown-1-facebookJumbo.jpg"
+                "title": "La distribution de la presse britannique perturb\u00e9e par Extinction Rebellion",
+                "url": "https://www.challenges.fr/top-news/la-distribution-de-la-presse-britannique-perturbee-par-extinction-rebellion_725922",
+                "urlToImage": "https://www.challenges.fr/assets/img/2020/09/06/cover-r4x3w1000-5f54aeab8d634-la-distribution-de-la-presse-britannique-perturbee-par.jpg"
             },
             {
-                "author": "V Krishnaswamy",
-                "content": "Kieron Pollard, well-supported by the Bravo brothers, Darren and Dwayne, took the Trinbago Knight Riders to their ninth win in nine Hero Caribbean Premier League (CPL) 2020 matches. Skipper Pollard w\u2026 [+4732 chars]",
-                "description": "Kieron Pollard, well-supported by the Bravo brothers, Darren and Dwayne, took the Trinbago Knight Riders to their ninth win in nine Hero Caribbean Premier League (CPL) 2020 matches. Skipper Pollard wa",
-                "publishedAt": "2020-09-06T06:58:02Z",
-                "source": {
-                    "id": null,
-                    "name": "BusinessLine"
-                },
-                "title": "Pollard takes Knight Riders to ninth win in Hero CPL; Tridents win last league match against Tallawahs",
-                "url": "https://www.thehindubusinessline.com/news/sports/pollard-takes-knight-riders-to-ninth-win-in-hero-cpl-tridents-win-last-league-match-against-tallawahs/article32534691.ece",
-                "urlToImage": "https://www.thehindubusinessline.com/news/sports/aqq0rt/article32534722.ece/ALTERNATES/LANDSCAPE_615/1228359386jpg"
-            },
-            {
-                "author": "Andrew Woodcock",
-                "content": "Tens of thousands of EU citizens resident in the UK including some of the heroes and heroines of the coronavirus crisis could be facing deportation because they have fallen through the cracks of the \u2026 [+5512 chars]",
-                "description": "<p><strong>Exclusive: </strong>MPs call for Home Office 'settled status' to be replaced by legal right to stay in letter to Boris Johnson</p>",
-                "publishedAt": "2020-09-06T06:55:24Z",
+                "author": "Christine Jardine",
+                "content": "Rebuilding our economy following the impact of Covid-19 is the challenge at the forefront of many peoples minds as we enter the next phase of the coronavirus pandemic. But while we are undoubtedly go\u2026 [+14462 chars]",
+                "description": "<p>Now, more than ever, we need a state that lifts people out of poverty and gives them the equality of opportunity to live a prosperous life</p>",
+                "publishedAt": "2020-09-06T09:26:47Z",
                 "source": {
                     "id": "independent",
                     "name": "Independent"
                 },
-                "title": "Brexit: Tens of thousands EU citizens face deportation because of government settled status scheme, MPs warn",
-                "url": "https://www.independent.co.uk/news/uk/politics/brexit-eu-citizens-deport-settled-status-scheme-b404476.html",
-                "urlToImage": "https://static-independent.s3.eu-west-1.amazonaws.com/2020/09/06/07/PA-47959472.jpg"
+                "title": "A universal basic income should be the post-pandemic legacy we leave the next generation",
+                "url": "https://www.independent.co.uk/voices/universal-basic-income-coronavirus-pandemic-nhs-liberal-democrats-b404498.html",
+                "urlToImage": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/09/12/13/cash-machine.jpg"
             },
             {
-                "author": "www.vertele.com",
-                "content": "La Roja se mide contra Ucrania en la UEFA Nations League de La 1 (20:25h.)\r\nLa Selecci\u00f3n Espa\u00f1ola de F\u00fatbol se enfrentar\u00e1 a\u00a0Ucrania\u00a0este domingo 6 en Valdebebas. A partir de las 20:00, previo en Tele\u2026 [+5256 chars]",
-                "description": "Adem\u00e1s, f\u00fatbol en La 1 con el partido de la UEFA Nations League entre Espa\u00f1a y Ucrania. El resto de cadenas apuestan por sus respectivas ofertas de cine",
-                "publishedAt": "2020-09-06T06:39:38Z",
+                "author": "Oleg Burunov. Sputnik International",
+                "content": "Late last month, British Chancellor of the Exchequer Rishi Sunak reportedly signaled the Treasury's readiness for a $40 billion tax hike on the wealthy aimed at filling the gap in the country's finan\u2026 [+2250 chars]",
+                "description": "Late last month, British Chancellor of the Exchequer Rishi Sunak reportedly signaled the Treasury's readiness for a $40 billion tax hike on the wealthy aimed at filling the gap in the country's finances caused by the coronavirus crisis.",
+                "publishedAt": "2020-09-06T09:26:29Z",
                 "source": {
                     "id": null,
-                    "name": "Eldiario.es"
+                    "name": "Sputnik International"
                 },
-                "title": "Las 'Hormigas blancas' escarban en el historial de Juan Carlos I mientras \u00cdker estrena el nuevo 'Cuarto Milenio'",
-                "url": "https://vertele.eldiario.es/noticias/destacados-de-programacion-domingo-6-septiembre-tve-antena3-cuatro-telecinco-lasexta_0_2265373490.html",
-                "urlToImage": "https://vertele.eldiario.es/2020/09/04/noticias/Hormigas-Juan-Carlos-Cuarto-Milenio_2265383527_14880688_660x371.jpg"
+                "title": "UK Chancellor Sunak Mulls Slashing Personal Taxes Ahead of Next Election, British Media Says",
+                "url": "https://sputniknews.com/uk/202009061080380711-uk-chancellor-sunak-mulls-slashing-personal-taxes-ahead-of-next-election-british-media-says/",
+                "urlToImage": "https://cdn2.img.sputniknews.com/images/107830/49/1078304921.jpg"
             },
             {
-                "author": "Gloria Methri",
-                "content": "The World Health Organisation\u2019s independent panel for pandemic response has appointed India\u2019s former health secretary Preeti Sudan as one of its 11 panellists from across the world. However, the deci\u2026 [+2447 chars]",
-                "description": "The World Health Organisation\u2019s independent panel for pandemic response has appointed India\u2019s former health secretary Preeti Sudan as one of its 11 panellists",
-                "publishedAt": "2020-09-06T06:39:06Z",
+                "author": "I\u00f1igo S\u00e1enz de Ugarte",
+                "content": "Una de las razones del deterioro de la salud publica en el Londres del siglo XIX fue parad\u00f3jicamente la extensi\u00f3n del uso del inodoro. Una buena parte de su poblaci\u00f3n no ten\u00eda ya que buscar un lugar \u2026 [+2130 chars]",
+                "description": "Una de las razones del deterioro de la salud publica en el Londres del siglo XIX fue parad\u00f3jicamente la extensi\u00f3n del uso del inodoro. Una buena parte de su poblaci\u00f3n no ten\u00eda ya que buscar un lugar poco concurrido entre \u2026 Sigue leyendo \u2192",
+                "publishedAt": "2020-09-06T09:24:06Z",
                 "source": {
                     "id": null,
-                    "name": "Republic World"
+                    "name": "Guerraeterna.com"
                 },
-                "title": "WHO appoints former Health Secretary Preeti Sudan to its panel for pandemic preparedness - Republic World",
-                "url": "https://www.republicworld.com/india-news/general-news/who-appoints-former-health-secretary-preeti-sudan-to-its-panel.html",
-                "urlToImage": "https://img.republicworld.com/republic-prod/stories/promolarge/xxhdpi/huob9llfuguqbvrj_1599371451.jpeg?tr=f-jpeg"
+                "title": "Snow y Whitehead, los detectives del c\u00f3lera en el Londres del siglo XIX",
+                "url": "http://www.guerraeterna.com/epidemia-colera-londres/",
+                "urlToImage": null
             },
             {
-                "author": "By Ali Daher For Daily Mail Australia",
-                "content": "She's set to strip off on Seven's The All New Monty: Guys and Gals later this month.\u00a0\r\nAnd now comedian Fiona O'Loughlin has revealed what it really feels like to be baring all for breast cancer.\r\nSp\u2026 [+1905 chars]",
-                "description": "She's set to strip off on Seven's The All New Monty: Guys and Gals later this month.\u00a0And now comedian Fiona O'Loughlin has revealed what it really feels like to be bare all on stage.",
-                "publishedAt": "2020-09-06T06:26:39Z",
+                "author": "R\u00e9daction",
+                "content": "Le deuxi\u00e8me tour du Tour Championship n'a pas vraiment profit\u00e9 aux favoris, samedi \u00e0 East Lake. Aucun joueur du top 4 n'a r\u00e9ussi \u00e0 jouer sous les 70 et le parcours proche d'Atlanta a fait quelques d\u00e9\u2026 [+1859 chars]",
+                "description": "Dur samedi dans l'ensemble pour le top 4 mondial, qui n'a pas r\u00e9ussi \u00e0 vaincre East Lake. Dustin Johnson reste en t\u00eate (-13) de ce Tour Championship mais derri\u00e8re, les outsiders comme Sungjae Im (64) s'agitent.",
+                "publishedAt": "2020-09-06T09:16:00Z",
                 "source": {
-                    "id": null,
-                    "name": "Daily Mail"
+                    "id": "lequipe",
+                    "name": "L'equipe"
                 },
-                "title": "Fiona O'Loughlin reveals why she didn't have anxiety ahead of stripping down for All New Monty",
-                "url": "https://www.dailymail.co.uk/tvshowbiz/article-8702561/Fiona-OLoughlin-reveals-didnt-anxiety-ahead-stripping-New-Monty.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2020/09/06/06/32832704-0-image-a-7_1599371117016.jpg"
+                "title": "Golf - PGA Tour - Tour Championship : Dustin Johnson seul en t\u00eate, Jon Rahm en recul",
+                "url": "https://www.lequipe.fr/Golf/Actualites/Tour-championship-dustin-johnson-seul-en-tete-jon-rahm-en-recul/1168669",
+                "urlToImage": "https://medias.lequipe.fr/img-photo-jpg/habile-sur-les-longs-putts-dustin-johnson-a-sauve-sa-place-de-leader-apres-deux-tours-sur-ce-derni/1500000001376209/0:0,1998:1332-640-427-25/f232c.jpg"
             },
             {
-                "author": null,
-                "content": "Peter Bunting was, by far, the person preferred by the majority of respondents in the most recent Bill Johnson poll to take leadership of the Opposition People's National Party (PNP) after Dr Peter P\u2026 [+3260 chars]",
-                "description": "Peter Bunting was, by far, the person preferred by the majority of respondents in the most recent Bill Johnson poll to take leadership of the Opposition People's National Party (PNP) after Dr Peter Phillips steps down. At least, that was before the September \u2026",
-                "publishedAt": "2020-09-06T06:21:34Z",
+                "author": "mirrornews@mirror.co.uk (Press Association, Oliver Milne)",
+                "content": "Ministers are considering classifying the Extinction Rebllion protests ad organised crime in a bid to crack down on civil disobedience.\r\nSome newsagents shelves were left empty on Saturday morning af\u2026 [+4025 chars]",
+                "description": "Home Secretary Priti Patel wants to take a 'fresh look' at how XR is classified under law potentially classifying them an organised crime group",
+                "publishedAt": "2020-09-06T09:10:04Z",
                 "source": {
                     "id": null,
-                    "name": "Jamaica Observer"
+                    "name": "Mirror Online"
                 },
-                "title": "Majority favoured Bunting to succeed Phillips, but...",
-                "url": "http://www.jamaicaobserver.com/news/majority-favoured-bunting-to-succeed-phillips-but-_202464?profile=1470",
-                "urlToImage": "http://www.jamaicaobserver.com/apps/pbcsi.dll/storyimage/JO/20200906/ARTICLE/309069970/AR/0/AR-309069970.jpg"
+                "title": "Tories 'planning legal crackdown' on Extinction Rebellion protests",
+                "url": "https://www.mirror.co.uk/news/politics/tories-planning-legal-crackdown-extinction-22636837",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article22620042.ece/ALTERNATES/s1200/1_Extinction-Rebellion-protests.jpg"
             },
             {
-                "author": "Digi24",
-                "content": "Regatul Unit nu va deveni \"un stat-vasal\" al Uniunii Europene, indiferent care va fi acordul comercial post-Brexit \u00eencheiat cu cei 27, a afirmat duminic negociatorul britanic David Frost, citat de AF\u2026 [+1677 chars]",
-                "description": "Regatul Unit nu va deveni ''un stat-vasal''\u00a0al Uniunii Europene, indiferent care va fi acordul comercial post-Brexit \u00eencheiat cu cei 27, a afirmat duminic\u0103 negociatorul britanic David Frost, citat de AFP.",
-                "publishedAt": "2020-09-06T06:18:06Z",
+                "author": "Independent.ie Newsdesk",
+                "content": "Rory McIlroys FedEx Cup chances were dealt a blow as water trouble at the 18th left him five shots off the lead heading into the third round of the Tour Championship in Atlanta.\r\nMcIlroy, who earlier\u2026 [+2316 chars]",
+                "description": "Rory McIlroy\u2019s FedEx Cup chances were dealt a blow as water trouble at the 18th left him five shots off the lead heading into the third round of the Tour Championship in Atlanta.",
+                "publishedAt": "2020-09-06T09:09:35Z",
                 "source": {
                     "id": null,
-                    "name": "Digi24.ro"
+                    "name": "Independent.ie"
                 },
-                "title": "Negociatorul britanic David Frost: Regatul Unit nu va deveni \"stat-vasal\"\u00a0al UE, indiferent care va fi acordul comercial post-Brexit",
-                "url": "https://www.digi24.ro/stiri/externe/negociatorul-britanic-david-frost-regatul-unit-nu-va-deveni-stat-vasal-al-ue-indiferent-care-va-fi-acordul-comercial-post-brexit-1363965",
-                "urlToImage": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA2dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjAl/MkYwOSUyRjA2JTJGMTIyNDU1Ml8xMjI0/NTUyX2RhdmlkLWZyb3N0LW5lZ29jaWF0/b3ItbWFyZWEtYnJpdGFuaWUtYWdlcnBy/ZXMuanBlZyZ3PTY0MCZoPTQ4MCZ6Yz0x/Jmhhc2g9NjM0ODJlNTE0NTZkZmM0ZDcwMTBjYWU1MzNlZGZmNGM=.thumb.jpg"
+                "title": "WATCH: Blow to Rory McIlroy's FedEx hopes as he shanks shot into water at Tour Championship",
+                "url": "https://www.independent.ie/sport/golf/watch-blow-to-rory-mcilroys-fedex-hopes-as-he-shanks-shot-into-water-at-tour-championship-39506908.html",
+                "urlToImage": "https://www.independent.ie/incoming/6f1eb/39506909.ece/AUTOCROP/w1240h700/1270855911.jpg"
             },
             {
-                "author": "Pietro Ferraro, Pietro Ferraro",
-                "content": "[Per visionare il trailer clicca sull'immagine in alto]\r\nCast e personaggi\r\nDwayne Johnson: Mitch Buchanan\r\nZac Efron: Matt Brody\r\nAlexandra Daddario: Summer Quinn\r\nKelly Rohrbach: C. J. Parker\r\nIlfe\u2026 [+9912 chars]",
-                "description": "[Per visionare il trailer clicca sull'immagine in alto]\u00a0\nCast e personaggi\nDwayne Johnson: Mitch Buchanan\nZac Efron: Matt Brody\nAlexandra Daddario: Summer Quinn\nKelly Rohrbach: C. J....",
-                "publishedAt": "2020-09-06T06:10:04Z",
+                "author": "Expansi\u00f3n.com",
+                "content": "EP\r\nEspa\u00f1a est\u00e1 sufriendo \"una segunda ola\" de la epidemia que podr\u00eda llegar al resto de Europa en los pr\u00f3ximos d\u00edas y est\u00e1 haciendo de \"canario en una mina de carb\u00f3n\", seg\u00fan un estudio elaborado por\u2026 [+6234 chars]",
+                "description": "11:13. Ayuso asegura que Page se disculp\u00f3 por sus declaraciones sobre Madrid \n\n  La presidenta de la Comunidad de Madrid, Isabel D\u00edaz Ayuso, ha asegurado que el presidente de...",
+                "publishedAt": "2020-09-06T09:03:12Z",
                 "source": {
                     "id": null,
-                    "name": "Cineblog.it"
+                    "name": "Expansion.com"
                 },
-                "title": "Stasera in tv: \"Baywatch\" su Italia 1",
-                "url": "https://www.cineblog.it/post/920067/baywatch-in-tv-italia-1-stasera",
-                "urlToImage": "https://media.cineblog.it/1/1ce/stasera-in-tv-baywatch-su-italia-1-10.jpg"
+                "title": "Crisis coronavirus, \u00faltima hora: Catalu\u00f1a registra 24 muertos y 1.214 nuevos positivos",
+                "url": "https://www.expansion.com/sociedad/2020/09/06/5f54a5c2468aebde368b45b3.html",
+                "urlToImage": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2020/09/06/5f54a5c2468aebde368b45b3_facebook.jpg"
+            },
+            {
+                "author": "support@bengreenfieldfitness.com (Ben Greenfield)",
+                "content": "Respiratory physiology is absolutely fascinating to me. So fascinating, in fact, that I have a host of breathwork resources I've published over the years. I'll include a handy list of those resources\u2026 [+18278 chars]",
+                "description": "Respiratory physiology is absolutely fascinating to me. So fascinating, in fact, that I have a host of breathwork resources I've\nThe post Sabbath Ramblings: Breathtaking appeared first on Ben Greenfield Fitness - Diet, Fat Loss and Performance Advice.",
+                "publishedAt": "2020-09-06T09:00:29Z",
+                "source": {
+                    "id": null,
+                    "name": "Bengreenfieldfitness.com"
+                },
+                "title": "Sabbath Ramblings: Breathtaking",
+                "url": "https://bengreenfieldfitness.com/article/sabbathramblings/breathtaking/",
+                "urlToImage": "https://2gqdkq4bpinp49wvci47k081-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/wr-3-1.jpg"
             }
         ],
         "LN": [
+            {
+                "author": "Leadership",
+                "content": "The Charge d'Affaire of the Chinese Embassy in Nigeria, Zhao Yong, in this interview with BUKOLA OGUNSINA, said Nigeria is China's third largest trading partner after South Africa and Angola. The env\u2026 [+20646 chars]",
+                "description": "[Leadership] The Charge d'Affaire of the Chinese Embassy in Nigeria, Zhao Yong, in this interview with BUKOLA OGUNSINA, said Nigeria is China's third largest trading partner after South Africa and Angola. The envoy spoke on China, Nigeria relations in times o\u2026",
+                "publishedAt": "2020-09-06T09:40:21Z",
+                "source": {
+                    "id": null,
+                    "name": "AllAfrica - Top Africa News"
+                },
+                "title": "Nigeria: Nigeria Remains China's 3rd Largest Trading Partner in Africa - Envoy",
+                "url": "https://allafrica.com/stories/202009060042.html",
+                "urlToImage": "https://cdn08.allafrica.com/static/images/structure/aa-logo-rgba-no-text-square.png"
+            },
+            {
+                "author": "Joan Francesc Fondevila",
+                "content": "Broadband in Ireland is now considered one of the fastest in the world. And while this might be true for our major cities like Dublin, Cork and Galway, broadband connectivity and speed in rural Irish\u2026 [+8418 chars]",
+                "description": "Blog cient\u00edfico sobre periodismo y telecomunicaciones que analiza la Sociedad de la Banda Ancha",
+                "publishedAt": "2020-09-06T09:26:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Telecomunicacionesyperiodismo.com"
+                },
+                "title": "Development of Broadband in Rural and Urban Irish Areas",
+                "url": "http://www.telecomunicacionesyperiodismo.com/2020/02/development-of-broadband-in-rural-and.html",
+                "urlToImage": "https://1.bp.blogspot.com/-gfm1CdtJLwY/XkkoRKtOJwI/AAAAAAAADWY/AS7W92GwBsMFVOUokQP7SwdXXKzMlJldwCLcBGAsYHQ/w1200-h630-p-k-no-nu/Blog_TelecomunicacionesyPeriodismo_Broadband_Ireland.jpeg"
+            },
+            {
+                "author": null,
+                "content": "The Delhi Metro Rail Corporation (DMRC) is ready to resume its services on Monday, September 7. The services were suspended on March 22 due to coronavirus pandemic.\r\nOnly the Yellow Line (Samyapur Ba\u2026 [+5871 chars]",
+                "description": "The Delhi Metro Rail Corporation has released guidelines for the public which need to be followed for a safe commuting experience.",
+                "publishedAt": "2020-09-06T09:20:50Z",
+                "source": {
+                    "id": null,
+                    "name": "India Today"
+                },
+                "title": "Delhi Metro to resume services, guidelines issued: All you need to know",
+                "url": "https://www.indiatoday.in/india/story/delhi-metro-to-resume-services-guidelines-issued-all-you-need-to-know-1719131-2020-09-06",
+                "urlToImage": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202009/WhatsApp_Image_2020-09-06_at_3-647x363.jpeg?sJSbSLzdbO61LqKLVJZFUnQ3fUPLisJ_"
+            },
+            {
+                "author": "\u306d\u3068\u3089\u307c",
+                "content": "- - - - - - - - Copyright \u00a9 2020 ITmedia Inc. \r\nCopyright \u00a9 2020 Yahoo Japan Corporation. All Rights Reserved.",
+                "description": "LINE\u30ea\u30b5\u30fc\u30c1\u306f\u3001\u5168\u56fd\u306e\u9ad8\u68211\uff5e3\u5e74\u751f\u306e\u7537\u5973\u3092\u5bfe\u8c61\u306b\u300c\u9ad8\u6821\u751f\u306eYouTube\u4e8b\u60c5\u300d\u306b\u3064\u3044\u3066\u306e\u8abf\u67fb\u3092\u5b9f\u65bd\u3002\u305d\u306e\u4e2d\u3067\u300c\u9ad8\u6821\u751f\u306b\u4eba\u6c17\u306eYouTuber\u30e9\u30f3\u30ad\u30f3\u30b0\u300d\u3092\u767a\u8868\u3057\u307e\u3057\u305f\u3002",
+                "publishedAt": "2020-09-06T09:05:28Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo.co.jp"
+                },
+                "title": "\u5973\u5b50\u30fb\u7537\u5b50\u9ad8\u6821\u751f\u306b\u4e00\u756a\u4eba\u6c17\u306eYouTuber\u30e9\u30f3\u30ad\u30f3\u30b0\u767a\u8868\uff01\u3000\u7537\u5973\u3068\u3082\u306b1\u4f4d\u306b\u8f1d\u3044\u305f\u306e\u306f\uff1f\uff08\u306d\u3068\u3089\u307c\uff09",
+                "url": "https://news.yahoo.co.jp/articles/f8171844b0433d8bc89998bdc25775e68ce4281f",
+                "urlToImage": "https://amd.c.yimg.jp/amd/20200906-10001678-it_nlab-000-1-view.jpg"
+            },
+            {
+                "author": "PTI",
+                "content": "Commuters found travelling without face masks in the Noida-Greater Noida metro rail network will have to pay a fine of Rs 500 and those caught spitting will have to cough up Rs 100. \r\nThe services of\u2026 [+2067 chars]",
+                "description": "Commuters found travelling without face masks in the Noida-Greater Noida metro rail network will have to pay a fine of Rs 500 and those caught spitting will have to cough up Rs 100",
+                "publishedAt": "2020-09-06T09:03:19Z",
+                "source": {
+                    "id": null,
+                    "name": "Business Today"
+                },
+                "title": "Rs 500 fine for commuters without face mask: Noida Metro",
+                "url": "https://www.businesstoday.in/latest/trends/rs-500-fine-for-commuters-without-face-mask-noida-metro/story/415293.html",
+                "urlToImage": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/delhi_metro_505_020920071039_060920023321.jpg"
+            },
+            {
+                "author": "Pamela N. Danziger, Senior Contributor, Pamela N. Danziger, Senior Contributorhttps://www.forbes.com/sites/pamdanziger/",
+                "content": "David Benjamin, left, carries shopping bags including a Gucci bag,and Paolo Presta, right, also ... [+] carries shopping bags, including a \"big brown bag\" from Bloomingdale's as the two men stroll do\u2026 [+10982 chars]",
+                "description": "In its most recent earnings call, Macy's announced it was leaning into luxury, most especially with its Bloomingdale's brand. While the bankruptcies of competing luxury retailers give it running room,  Bloomingdale's still has a rough road ahead.",
+                "publishedAt": "2020-09-06T09:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Forbes"
+                },
+                "title": "How Macy\u2019s Plans To Reclaim Luxury Leadership At Bloomingdale\u2019s",
+                "url": "https://www.forbes.com/sites/pamdanziger/2020/09/06/how-macys-plans-to-reclaim-luxury-leadership-at-bloomingdales/",
+                "urlToImage": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f539be0fc97196a2ce8ec0d%2F0x0.jpg"
+            },
+            {
+                "author": "None",
+                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+83816 chars]",
+                "description": "Bonner County Daily Bee\u00a0\u00a0Bonner County Daily Bee",
+                "publishedAt": "2020-09-06T08:03:45Z",
+                "source": {
+                    "id": null,
+                    "name": "Bonner County Daily Bee"
+                },
+                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
+                "url": "https://bonnercountydailybee.com/news/2020/sep/06/bonner-county-calendar-sept-6-2020/",
+                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
+            },
             {
                 "author": "New York Times",
                 "content": "Officials expressed concerns that further hacking attempts could hurt vaccine development efforts. Hackers extracting data could inadvertently or purposefully damage research systems. (Reuters/File)(\u2026 [+10653 chars]",
@@ -36809,97 +36900,6 @@
                 "title": "SC interest waiver verdict, border tension, FII flow and what else may guide market this week",
                 "url": "https://economictimes.indiatimes.com/markets/stocks/news/sc-interest-waiver-verdict-border-tension-fii-flow-and-what-else-may-guide-market-this-week/articleshow/77958037.cms",
                 "urlToImage": "https://img.etimg.com/thumb/msid-77958034,width-1070,height-580,imgsize-71505,overlay-etmarkets/photo.jpg"
-            },
-            {
-                "author": "V Sajeev Kumar",
-                "content": "The management of Bharat Petroleum Corporation Limited (BPCL), a Maharatna company and the Indias second largest fuel retailer, has cautioned employees against disseminating news against it through s\u2026 [+2498 chars]",
-                "description": "Nearly 5,000 employees under 15 unions of the BPCL marketing and refineries facilities in Mumbai and Kochi have served a strike notice for Monday and Tuesday",
-                "publishedAt": "2020-09-06T04:59:14Z",
-                "source": {
-                    "id": null,
-                    "name": "BusinessLine"
-                },
-                "title": "BPCL strike: Employees warned against outburst on social media",
-                "url": "https://www.thehindubusinessline.com/news/bpcl-strike-employees-warned-against-outburst-on-social-media/article32534374.ece",
-                "urlToImage": "https://www.thehindubusinessline.com/companies/cqbrze/article32262358.ece/ALTERNATES/LANDSCAPE_615/BL0401BPCL"
-            },
-            {
-                "author": null,
-                "content": "Kraft Heinz introduced a new hazelnut spread for its Canadian consumers in June 2020 which could turn out to be an invaluable lesson for multinational companies.\r\nA soft introduction was launched whe\u2026 [+7184 chars]",
-                "description": "Kraft Heinz introduced a new hazelnut spread for its Canadian consumers in June 2020 which could turn out to be an invaluable lesson for multinational companies. A soft introduction was launched when Kraft ran a poll on Twitter asking Kraft Peanut Butter foll\u2026",
-                "publishedAt": "2020-09-06T03:43:28Z",
-                "source": {
-                    "id": null,
-                    "name": "Cpopc.org"
-                },
-                "title": "Kraft Heinz\u2019s No Palm Oil Marketing a Lesson for Global Brands - CPOPC | Council of Palm Oil Producing Countries",
-                "url": "https://www.cpopc.org/kraft-heinzs-no-palm-oil-marketing-a-lesson-for-global-brands/",
-                "urlToImage": "https://www.cpopc.org/wp-content/uploads/2020/09/e9e5b042-8f4a-4028-89f7-fb93bf76d3ff-1.jpg"
-            },
-            {
-                "author": "threeme3",
-                "content": "console\r\nCtrl/CCtrl/DCtrl/HLFCtrl/QCtrl/SCtrl/TCtrl/ZESCTABBreakREBOOT\r\nPaper tape reader file\r\nnone\r\nBASIC-11 V007A\r\nODT-11X-V004A\r\nED-11-V004B\r\nPDP 11/70 Emulator - v3.1 August 2020\r\nThis emulator \u2026 [+54243 chars]",
-                "description": "Article URL: https://skn.noip.me/pdp11/pdp11.html\nComments URL: https://news.ycombinator.com/item?id=24388412\nPoints: 4\n# Comments: 0",
-                "publishedAt": "2020-09-06T02:03:19Z",
-                "source": {
-                    "id": null,
-                    "name": "Noip.me"
-                },
-                "title": "PDP 11/70 Emulator (2020)",
-                "url": "https://skn.noip.me/pdp11/pdp11.html",
-                "urlToImage": null
-            },
-            {
-                "author": "Balazs Szabo",
-                "content": "By Balazs Szabo on 06 Sep 2020, 04:00\r\nFormula 1 teams and drivers descended at Monza this weekend for the Italian Grand that takes place at the calendars true home of high-speed racing, the Autodrom\u2026 [+3502 chars]",
-                "description": "Formula 1 teams and drivers descended at Monza this weekend for the Italian Grand that takes place at the calendar\u2019s true home of high-speed racing, the Autodromo Nazionale Monza.",
-                "publishedAt": "2020-09-06T02:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "F1technical.net"
-                },
-                "title": "Things to know ahead of the Italian Grand Prix",
-                "url": "https://www.f1technical.net/news/22801",
-                "urlToImage": "http://f1tcdn.net/images/news/2020/italiangp-f2-ferrari4.jpg"
-            },
-            {
-                "author": "Caroline Cunningham",
-                "content": "LongformAdministration after administration, their plans have solved nothing. This is what having a front-row seat to decades of political futility looks like.\r\nFor decades, our mayors have promised \u2026 [+36141 chars]",
-                "description": "There are so many poor folk in Philadelphia that in March, City Council President Darrell L. Clarke announced a plan that would lift 100,000 of [\u2026]\nThe post For 40 Years, Philly Mayors Have Promised to End Poverty. For 40 Years, I\u2019ve Watched Them Fail. appear\u2026",
-                "publishedAt": "2020-09-06T01:00:51Z",
-                "source": {
-                    "id": null,
-                    "name": "phillymag.com"
-                },
-                "title": "For 40 Years, Philly Mayors Have Promised to End Poverty. For 40 Years, I\u2019ve Watched Them Fail.",
-                "url": "https://www.phillymag.com/news/2020/09/05/philadelphia-poverty-history-mayors/",
-                "urlToImage": "https://cdn10.phillymag.com/wp-content/uploads/sites/3/2020/09/philadelphia-poverty-fb.jpg"
-            },
-            {
-                "author": "Colleen Romaniuk - Local Journalism Initiative Reporter, The Sudbury Star",
-                "content": "After more than years of chronic uncertainty, Huron Central Railway\u2019s short-line freight service between Sault Ste. Marie and Sudbury might finally derail.\r\nGenesee &amp; Wyoming Canada Inc., HCR\u2019s M\u2026 [+2543 chars]",
-                "description": "Genesee & Wyoming Canada announced this week that it will cease operations by the end of the year because it has not been able to secure government funding.",
-                "publishedAt": "2020-09-05T21:11:16Z",
-                "source": {
-                    "id": null,
-                    "name": "Toronto Star"
-                },
-                "title": "\u2018Carefully consider\u2019 Huron Central Railway funding proposals, Domtar urges",
-                "url": "https://www.thestar.com/news/canada/2020/09/05/carefully-consider-huron-central-railway-funding-proposals-domtar-urges.html",
-                "urlToImage": "https://images.thestar.com/6xM5gvjm3v9JcK_i56zUgjABy3A=/1200x798/smart/filters:cb(1599340276793)/https://www.thestar.com/content/dam/thestar/news/canada/2020/09/05/carefully-consider-huron-central-railway-funding-proposals-domtar-urges/hcr.jpg"
-            },
-            {
-                "author": null,
-                "content": "<table><tr><td>VirtualBox (VB) development is progressing rapidly and the information on this page may be outdated. The Linux Downloads page now has yum repo configs. Unfortunately the RPM packages d\u2026 [+7233 chars]",
-                "description": "5.2.4 and 6.1.14 are released",
-                "publishedAt": "2020-09-05T20:53:46Z",
-                "source": {
-                    "id": null,
-                    "name": "Centos.org"
-                },
-                "title": "HowTos/Virtualization/VirtualBox",
-                "url": "https://wiki.centos.org/action/diff/HowTos/Virtualization/VirtualBox?action=diff&rev1=153&rev2=152",
-                "urlToImage": null
             }
         ],
         "MCD": [
@@ -37036,6 +37036,32 @@
         ],
         "MSFT": [
             {
+                "author": "Richard",
+                "content": "Le bruit court que Firefox, le navigateur de Mozilla Corporation, rival de Google Chrome, de Safari et de Microsoft Edge, ne survivra plus tr\u00e8s longtemps. En effet, selon les innombrables \u00e9tudes men\u00e9\u2026 [+2526 chars]",
+                "description": "Le bruit court que Firefox, le navigateur de Mozilla Corporation, rival de Google Chrome, de Safari et de Microsoft Edge, ne survivra plus tr\u00e8s longtemps. En effet, selon les innombrables \u00e9tudes men\u00e9es par les entreprises sp\u00e9cialis\u00e9es, les parts de march\u00e9 de \u2026",
+                "publishedAt": "2020-09-06T08:44:32Z",
+                "source": {
+                    "id": null,
+                    "name": "FREDZONE"
+                },
+                "title": "Firefox toujours sur le d\u00e9clin",
+                "url": "https://www.fredzone.org/firefox-declin-443",
+                "urlToImage": "https://www.fredzone.org/wp-content/uploads/2020/08/navigateur-firefox-640x453.jpg"
+            },
+            {
+                "author": "Wall Street Breakfast",
+                "content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nEconomic reports in the week ahead\r\nThe tech sector will be \u2026 [+8746 chars]",
+                "description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+                "publishedAt": "2020-09-06T08:42:43Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Wall Street Breakfast: The Week Ahead",
+                "url": "https://seekingalpha.com/article/4372787-wall-street-breakfast-week-ahead",
+                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
+            },
+            {
                 "author": "rtanglao",
                 "content": "In May 2019 I attended a talk by Mike Taylor who works on webcompat at Mozilla. Mike told the sordid story of window.event, a non-standard IE invention that was replicated in Konqueror, which showed \u2026 [+7814 chars]",
                 "description": " New post! It took me over a year, but I finally have my answer to a question @miketaylr once asked at a meetup: \"What is the value of browser diversity?\"",
@@ -37138,32 +37164,6 @@
                 "title": "Plight of Laid-Off American Workers Nothing to Celebrate, by Michelle Malkin",
                 "url": "https://www.unz.com/mmalkin/plight-of-laid-off-american-workers-nothing-to-celebrate/",
                 "urlToImage": "https://www.unz.com/wp-content/themes/unzSite/IMAGES/unz_large_logo.png"
-            },
-            {
-                "author": "SA Stocks To Watch",
-                "content": "Welcome to Seeking Alpha's Stocks to Watch - a preview of key events scheduled for the next week. Follow this account and turn the e-mail alert on to receive this article in your inbox every Saturday\u2026 [+12177 chars]",
-                "description": "Welcome to Seeking Alpha's Stocks to Watch - a preview of key events scheduled for the next week. Follow this account and turn the e-mail alert on to receive this article in your inbox every Saturday morning.",
-                "publishedAt": "2020-09-05T12:21:19Z",
-                "source": {
-                    "id": null,
-                    "name": "Seeking Alpha"
-                },
-                "title": "Stocks To Watch: Tech Reboots And Eyes On Lululemon, Peloton & GameStop",
-                "url": "https://seekingalpha.com/article/4372740-stocks-to-watch-tech-reboots-and-eyes-on-lululemon-peloton-gamestop",
-                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
-            },
-            {
-                "author": "Anuj Bhatia",
-                "content": "Written by Anuj Bhatia\r\n | New Delhi | \r\nSeptember 5, 2020 4:48:21 pm\r\nOver 150 laptops are expected to launch with the Tiger Lake processor. (Image credit: Intel)PCs have become more important now, \u2026 [+5955 chars]",
-                "description": "In an interview with Indianexpress.com, Prakash Mallya, VP and MD \u2013 Sales, Marketing and Communications Group, Intel India, tells us about the relevance of PCs in changing times.",
-                "publishedAt": "2020-09-05T11:18:21Z",
-                "source": {
-                    "id": null,
-                    "name": "The Indian Express"
-                },
-                "title": "PC\u2019s have become more important, we are not done innovating: Intel India MD",
-                "url": "https://indianexpress.com/article/technology/tech-news-technology/pcs-have-become-more-important-we-are-not-done-innovating-intel-india-md-6584178/",
-                "urlToImage": "https://images.indianexpress.com/2020/09/Intel-11th-gen-processors.jpg"
             }
         ],
         "MU": [
@@ -37378,17 +37378,17 @@
                 "urlToImage": null
             },
             {
-                "author": "PR Newswire",
-                "content": "IRVING, Texas, Aug. 30, 2020 /PRNewswire/ -- 7-Eleven, Inc. continues to expand its presence globally, with a planned entry into Laos. The world's largest convenience retailer has signed a master fra\u2026 [+3707 chars]",
-                "description": "7-Eleven, Inc. continues to expand its presence globally, with a planned entry into Laos. The world's largest convenience retailer has signed a master franchise agreement with CP ALL LAOS CO., LTD, a company under CP ALL Public Company Limited, to develop and\u2026",
+                "author": null,
+                "content": "IRVING, Texas, Aug. 30, 2020 /PRNewswire/ -- 7-Eleven, Inc. continues to expand its presence globally, with a planned entry into Laos. The world's largest convenience retailer has signed a master fra\u2026 [+3491 chars]",
+                "description": "IRVING, Texas, Aug. 30, 2020 /PRNewswire/ -- 7-Eleven, Inc. continues to expand its presence globally, with a planned entry into Laos. The world's largest convenience retailer has signed a master franchise agreement with CP ALL LAOS CO., LTD, a company under \u2026",
                 "publishedAt": "2020-08-31T01:22:00Z",
                 "source": {
                     "id": null,
-                    "name": "Yahoo Entertainment"
+                    "name": "PRNewswire"
                 },
                 "title": "7-Eleven, Inc. Continues Global Expansion, Signs Agreement with CP ALL to Operate 7-Eleven Stores in Laos",
-                "url": "https://news.yahoo.com/7-eleven-inc-continues-global-012200917.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/p3jBjIb0YU5SOPKIlo_iGA--~B/aD0zODc7dz00MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/765fb04b5311aac9c0b71285ba4040a1"
+                "url": "https://www.prnewswire.com/news-releases/7-eleven-inc-continues-global-expansion-signs-agreement-with-cp-all-to-operate-7-eleven-stores-in-laos-301120799.html",
+                "urlToImage": "https://mma.prnewswire.com/media/94545/7_eleven__inc__logo.jpg?p=facebook"
             },
             {
                 "author": "Doug Noland",
@@ -37432,6 +37432,19 @@
         ],
         "PFC": [
             {
+                "author": "David Fickling, David Fickling",
+                "content": "Theres one surprise entrant in the group of oil companies announcing plans this year for how theyll reduce emissions: PetroChina Co.\r\nChinas oil companies, unlike their peers in the U.S. and particul\u2026 [+5109 chars]",
+                "description": "PetroChina\u2019s announcement in its half-year results last week that it would seek a \"near-zero\u201d target for emissions by 2050 was unexpected.",
+                "publishedAt": "2020-09-06T09:20:42Z",
+                "source": {
+                    "id": null,
+                    "name": "The Japan Times"
+                },
+                "title": "Beijing may be more addicted to coal than oil",
+                "url": "https://www.japantimes.co.jp/opinion/2020/09/06/commentary/world-commentary/china-coal-oil/",
+                "urlToImage": "https://cdn.japantimes.2xx.jp/wp-content/uploads/2020/09/np_file_35993-870x596.jpeg"
+            },
+            {
                 "author": "David Fickling",
                 "content": "(Bloomberg Opinion) -- Theres one surprise entrant in the group of oil companies announcing plans this year\u00a0for how theyll reduce emissions: PetroChina Co.\r\nChinas oil companies, unlike their peers i\u2026 [+5367 chars]",
                 "description": "(Bloomberg Opinion) -- There\u2019s one surprise entrant in the group of oil companies announcing plans this year\u00a0for how they\u2019ll reduce emissions: PetroChina Co.China\u2019s oil companies, unlike their peers in the U.S. and particularly Europe, don\u2019t traditionally tre\u2026",
@@ -37456,6 +37469,19 @@
                 "title": "\u201eAngriff auf die freie Presse\u201c \u2013 Umweltaktivisten blockieren Auslieferung britischer Zeitungen",
                 "url": "https://www.welt.de/politik/ausland/article215091486/Extinction-Rebellion-greift-britische-Druckereien-an-Millionen-Zeitungen-nicht-geliefert.html",
                 "urlToImage": "https://www.welt.de/img/politik/ausland/mobile215091484/6021351887-ci16x9-w1200/TOPSHOT-A-handout-picture-release.jpg"
+            },
+            {
+                "author": "Tentaran",
+                "content": "India Business News Weekly Roundup 31 August to 5 September 2020.\u00a0News on Corporates, policies, budget, start-up world, funds, funding. Heres a roundup of all the India business news that created the\u2026 [+14046 chars]",
+                "description": "India Business News Weekly Roundup 31 August to 5 September 2020 - - News on Corporates, policies, budget, start-up world, funds, funding - Tentaran",
+                "publishedAt": "2020-09-05T16:04:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Tentaran"
+                },
+                "title": "Corporates \u2013 India Business News Weekly Roundup 31 August to 5 September 2020 - Tentaran",
+                "url": "https://www.tentaran.com/india-business-news-weekly-roundup-31-august-to-5-september-2020/",
+                "urlToImage": "https://www.tentaran.com/wp-content/uploads/2020/09/india-business-news-weekly-roundup-31-august-to-5-september-2020.jpg"
             },
             {
                 "author": "AFP",
@@ -37534,32 +37560,6 @@
                 "title": "Babcock & Wilcox Enterprises Announces Board Changes, Reflecting Improved Operational Stability and New Market-Focused Initiatives",
                 "url": "https://www.businesswire.com/news/home/20200903005123/en/Babcock-Wilcox-Enterprises-Announces-Board-Reflecting-Improved",
                 "urlToImage": "https://mms.businesswire.com/media/20200903005123/en/779518/23/BW-logo-name_4clr_%281%29.jpg"
-            },
-            {
-                "author": "Bill Bishop",
-                "content": "This week is the 75th anniversary of the end of World War II, also known in China as the victory of the Chinese People's War of Resistance Against Japanese Aggression and the World Anti-Fascist War. \u2026 [+53035 chars]",
-                "description": "This week is the 75th anniversary of the end of World War II, also known in China as the victory of the Chinese People's War of Resistance Against Japanese Aggression and the World Anti-Fascist War. There will be no military parade in Beijing as there was for\u2026",
-                "publishedAt": "2020-09-02T20:19:29Z",
-                "source": {
-                    "id": null,
-                    "name": "Sinocism.com"
-                },
-                "title": "US \"strategic ambiguity\" over Taiwan; China-India; 75th anniversary of end of WW II; Inner Mongolia",
-                "url": "https://sinocism.com/p/us-strategic-ambiguity-over-taiwan",
-                "urlToImage": "https://cdn.substack.com/image/fetch/h_600,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F57fc5ecd-27f0-4da4-8106-c931addb16e1_1024x705.jpeg"
-            },
-            {
-                "author": "Tyler Durden",
-                "content": "When rigging and manipulating stocks or markets, one usually allows for the occasional down day to avoid the impression of too much artificiality. But when it comes to the S&amp;P and certainly the N\u2026 [+25075 chars]",
-                "description": "Another Day, Another Record S&P High As Central Banks Fan Biggest Ever Bubble\n\n Tyler Durden\n \nWed, 09/02/2020 - 08:07\n\n When rigging and manipulating stocks or markets, one usually allows for the occasional down day to avoid the impression of too much artifi\u2026",
-                "publishedAt": "2020-09-02T12:07:24Z",
-                "source": {
-                    "id": null,
-                    "name": "Zerohedge.com"
-                },
-                "title": "Another Day, Another Record S&P High As Central Banks Fan Biggest Ever Bubble",
-                "url": "https://www.zerohedge.com/markets/another-day-another-record-sp-high-central-banks-fan-biggest-ever-bubble",
-                "urlToImage": "https://www.zerohedge.com/s3/files/styles/max_650x650/public/2020-09/traders%20happy%203.jpg?itok=t2qg_d_K"
             }
         ],
         "PNC": [
@@ -37583,11 +37583,11 @@
                 "publishedAt": "2020-09-02T11:15:00Z",
                 "source": {
                     "id": null,
-                    "name": "The Delaware County Daily Times"
+                    "name": "WFMZ Allentown"
                 },
-                "title": "PNC Bank Celebrates 10th Annual Women In Business Week - The Delaware County Daily Times",
-                "url": "https://delcotimes.com/pnc-bank-celebrates-10th-annual-women-in-business-week/article_e852e0fc-745f-5600-a124-434cba5df779.html",
-                "urlToImage": "https://bloximages.chicago2.vip.townnews.com/delcotimes.com/content/tncms/assets/v3/editorial/e/48/e48ba2e9-9dbd-5b2e-b945-61663ccd4211/5f4e38a21bb06.image.jpg?resize=602%2C200"
+                "title": "PNC Bank Celebrates 10th Annual Women In Business Week - WFMZ Allentown",
+                "url": "https://www.wfmz.com/news/pr_newswire/pr_newswire_pennsylvania/pnc-bank-celebrates-10th-annual-women-in-business-week/article_583af5fc-7c11-5621-9ae2-e970dd1c8bbc.html",
+                "urlToImage": "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/4/36/436fcac2-22d4-5a6d-b9fa-6cd325a80d1d/5f4f85d4e5828.image.jpg?resize=602%2C200"
             },
             {
                 "author": "PNC Bank",
@@ -37596,11 +37596,11 @@
                 "publishedAt": "2020-09-02T11:15:00Z",
                 "source": {
                     "id": null,
-                    "name": "WFMZ Allentown"
+                    "name": "The Delaware County Daily Times"
                 },
-                "title": "PNC Bank Celebrates 10th Annual Women In Business Week - WFMZ Allentown",
-                "url": "https://www.wfmz.com/news/pr_newswire/pr_newswire_pennsylvania/pnc-bank-celebrates-10th-annual-women-in-business-week/article_583af5fc-7c11-5621-9ae2-e970dd1c8bbc.html",
-                "urlToImage": "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/4/36/436fcac2-22d4-5a6d-b9fa-6cd325a80d1d/5f4f85d4e5828.image.jpg?resize=602%2C200"
+                "title": "PNC Bank Celebrates 10th Annual Women In Business Week - The Delaware County Daily Times",
+                "url": "https://delcotimes.com/pnc-bank-celebrates-10th-annual-women-in-business-week/article_e852e0fc-745f-5600-a124-434cba5df779.html",
+                "urlToImage": "https://bloximages.chicago2.vip.townnews.com/delcotimes.com/content/tncms/assets/v3/editorial/e/48/e48ba2e9-9dbd-5b2e-b945-61663ccd4211/5f4e38a21bb06.image.jpg?resize=602%2C200"
             },
             {
                 "author": "PR Newswire",
@@ -38092,30 +38092,30 @@
                 "urlToImage": "http://www.businesswire.com/images/bwlogo_square.png"
             },
             {
-                "author": null,
-                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc.\u00a0(NYSE: RES)\u00a0today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board \u2026 [+3574 chars]",
-                "description": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc. (NYSE: RES) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board in 1984, succeeds R. Randall Rollins, who served as Chairman\u2026",
-                "publishedAt": "2020-08-26T11:30:00Z",
-                "source": {
-                    "id": null,
-                    "name": "PRNewswire"
-                },
-                "title": "RPC, Inc. Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
-                "url": "https://www.prnewswire.com/news-releases/rpc-inc-board-of-directors-appoints-gary-w-rollins-as-chairman-of-the-board-and-new-directors-harry-j-cynkus-and-jerry-w-nix-301118311.html",
-                "urlToImage": "http://mma.prnewswire.com/media/569140/RPCBlueLogo.jpg?p=thumbnail&p=facebook"
-            },
-            {
                 "author": "PR Newswire",
-                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ --\u00a0Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined th\u2026 [+4353 chars]",
-                "description": "Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the Marine Products Corporation Board in 2001, succeeds R. Randall Rollins, who served as Chairman si\u2026",
+                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- RPC, Inc.\u00a0(NYSE: RES)\u00a0today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board \u2026 [+3755 chars]",
+                "description": "RPC, Inc. (NYSE: RES) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the RPC, Inc. Board in 1984, succeeds R. Randall Rollins, who served as Chairman since inception of the organization in\u2026",
                 "publishedAt": "2020-08-26T11:30:00Z",
                 "source": {
                     "id": null,
                     "name": "Yahoo Entertainment"
                 },
+                "title": "RPC, Inc. Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
+                "url": "https://news.yahoo.com/rpc-inc-board-directors-appoints-113000194.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/DQWRbexV_2lxxXDQUNdn2w--~B/aD00OTt3PTE0NDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/aced4f460f0d64d5967357941cc27ffd"
+            },
+            {
+                "author": null,
+                "content": "ATLANTA, Aug. 26, 2020 /PRNewswire/ --\u00a0Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined th\u2026 [+4115 chars]",
+                "description": "ATLANTA, Aug. 26, 2020 /PRNewswire/ -- Marine Products Corporation (NYSE: MPX) today announced yesterday's appointment of Gary W. Rollins as Chairman of its Board of Directors. Rollins, who joined the Marine Products Corporation Board in 2001, succeeds R. Ran\u2026",
+                "publishedAt": "2020-08-26T11:30:00Z",
+                "source": {
+                    "id": null,
+                    "name": "PRNewswire"
+                },
                 "title": "Marine Products Corporation Board of Directors Appoints Gary W. Rollins as Chairman of the Board and New Directors Harry J. Cynkus and Jerry W. Nix",
-                "url": "https://news.yahoo.com/marine-products-corporation-board-directors-113000823.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ia1PzgFbXVGG4h.QCdkFLA--~B/aD0zNzt3PTE0NDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/05bdb68286c2bb7171a648d0026eb1b7"
+                "url": "https://www.prnewswire.com/news-releases/marine-products-corporation-board-of-directors-appoints-gary-w-rollins-as-chairman-of-the-board-and-new-directors-harry-j-cynkus-and-jerry-w-nix-301118314.html",
+                "urlToImage": "https://mma.prnewswire.com/media/661612/Marine_Products_Corporation_Logo.jpg?p=thumbnail&p=facebook"
             }
         ],
         "STL": [
@@ -38199,6 +38199,19 @@
             }
         ],
         "T": [
+            {
+                "author": "None",
+                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+83816 chars]",
+                "description": "Bonner County Daily Bee\u00a0\u00a0Bonner County Daily Bee",
+                "publishedAt": "2020-09-06T08:03:45Z",
+                "source": {
+                    "id": null,
+                    "name": "Bonner County Daily Bee"
+                },
+                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
+                "url": "https://bonnercountydailybee.com/news/2020/sep/06/bonner-county-calendar-sept-6-2020/",
+                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
+            },
             {
                 "author": "jsled",
                 "content": "Diagnostic Efficiency of Home Pregnancy Test Kits \r\nA Meta-analysis \r\nLori A. Bastian, MD, MPH\r\n;\r\nKavita Nanda, MD, MHS\r\n;\r\nVic Hasselblad, PhD\r\n;\r\nDavid L. Simel, MD, MHS\r\nArch Fam Med.\u00a01998;7:465-\u2026 [+24480 chars]",
@@ -38315,22 +38328,35 @@
                 "title": "Kaskela Law LLC Announces Investigation of Plantronics, Inc. (PLT) and Encourages Long-Term PLT Stockholders to Contact the Firm",
                 "url": "https://news.yahoo.com/kaskela-law-llc-announces-investigation-123000443.html",
                 "urlToImage": "https://s.yimg.com/uu/api/res/1.2/UnmCH1eiHK3xUI2EsoozMg--~B/aD0zOTg7dz00MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/d1dd3e840e90af84b032ebe018b86573"
-            },
-            {
-                "author": "Jared Stanisci, Jason Halper, Nathan Bull, Sara Bussiere, Victor Bieger, Victor Celis, Jared Stanisci, Jason Halper, Nathan Bull, Sara Bussiere, Victor Bieger, Victor Celis",
-                "content": "In In re HomeFed Corp. Stockholder Litigation (HomeFed), the Delaware Court of Chancery considered on a motion to dismiss whether a squeeze-out merger by a controlling stockholder complied with the p\u2026 [+11058 chars]",
-                "description": "In In re HomeFed Corp. Stockholder Litigation (\u201cHomeFed\u201d), the Delaware Court of Chancery considered on a motion to dismiss whether a squeeze-out merger by a controlling stockholder complied with the procedural framework set forth in Kahn v. M&F Worldwide Cor\u2026",
-                "publishedAt": "2020-09-05T12:29:52Z",
-                "source": {
-                    "id": null,
-                    "name": "Harvard School of Engineering and Applied Sciences"
-                },
-                "title": "Delaware Chancery Court Clarifies the \u201cAb Initio\u201d Requirement",
-                "url": "https://corpgov.law.harvard.edu/2020/09/05/delaware-chancery-court-clarifies-the-ab-initio-requirement/",
-                "urlToImage": null
             }
         ],
         "TSLA": [
+            {
+                "author": "Anuj Bhatia",
+                "content": "Written by Anuj Bhatia\r\n | New Delhi | \r\nUpdated: September 6, 2020 2:51:52 pm\r\nMa Huateng better known as Pony Ma is the founder and CEO of Chinas tech major Tencent. Ma Huateng, also known as Pony \u2026 [+4967 chars]",
+                "description": "Ma Huateng is the founder and CEO of Tencent,  one of the largest technology companies in the world. Here are some of the lesser-known facts about China's richest man.",
+                "publishedAt": "2020-09-06T09:11:12Z",
+                "source": {
+                    "id": null,
+                    "name": "The Indian Express"
+                },
+                "title": "Interesting facts about Pony Ma, the CEO of Chinese internet behemoth Tencent",
+                "url": "https://indianexpress.com/article/technology/tech-news-technology/interesting-facts-about-pony-ma-the-ceo-of-chinese-internet-behemoth-tencent-6585070/",
+                "urlToImage": "https://images.indianexpress.com/2020/09/Pony-Ma.jpg"
+            },
+            {
+                "author": "Wall Street Breakfast",
+                "content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nEconomic reports in the week ahead\r\nThe tech sector will be \u2026 [+8746 chars]",
+                "description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+                "publishedAt": "2020-09-06T08:42:43Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Wall Street Breakfast: The Week Ahead",
+                "url": "https://seekingalpha.com/article/4372787-wall-street-breakfast-week-ahead",
+                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
+            },
             {
                 "author": null,
                 "content": "Elon Musk, the CEO of Tesla Inc visited Germany for projects related to Tesla to meet several German officials. The officials assured that the company will get complete support from the German govern\u2026 [+1834 chars]",
@@ -38434,32 +38460,6 @@
                 "title": "Huge Swings in Options-Overrun Stocks Leave Fund Manager Baffled",
                 "url": "https://finance.yahoo.com/news/huge-swings-options-overrun-stocks-132233956.html",
                 "urlToImage": "https://s.yimg.com/uu/api/res/1.2/Wob1eFCPgwOHudtbF7taUw--~B/aD02OTY7dz0xMDYxO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_markets_842/3662bdbb413a7cfdda573cb3c94f068f"
-            },
-            {
-                "author": "Stefan Redlich",
-                "content": "As a whole set of factors should be negatively impacting markets, such as the ongoing pandemic, an uncertain path to economic recovery and the even more uncertain November U.S. Presidential Elections\u2026 [+18938 chars]",
-                "description": "Markets were racing to all-time highs in August fueled by technology stocks and the mega caps. I am continuing my monthly investment plans and suspiciously follow the massive rally in technology stocks.",
-                "publishedAt": "2020-09-05T13:37:14Z",
-                "source": {
-                    "id": null,
-                    "name": "Seeking Alpha"
-                },
-                "title": "August 2020 Dividend Portfolio Update",
-                "url": "https://seekingalpha.com/article/4372749-august-2020-dividend-portfolio-update",
-                "urlToImage": "https://static.seekingalpha.com/uploads/2020/9/3/38506186-15991728111584718.png"
-            },
-            {
-                "author": "GS-JJ",
-                "content": "Walnut, CA, Sept. 05, 2020 (GLOBE NEWSWIRE) -- Whenever someone utters the word 'startup business', people always feel one way or another about it. It is an ambitious but risky matter to start a new \u2026 [+4511 chars]",
-                "description": "Walnut, CA, Sept.  05, 2020  (GLOBE NEWSWIRE) -- Whenever someone utters the word 'startup business', people always feel one way or another about it. It is...",
-                "publishedAt": "2020-09-05T13:28:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Small Businesses Have These Advantages Over Big Enterprises - GlobeNewswire",
-                "url": "https://www.globenewswire.com/news-release/2020/09/05/2089346/0/en/Small-Businesses-Have-These-Advantages-Over-Big-Enterprises.html",
-                "urlToImage": "http://www.globenewswire.com/news-release/2020/09/05/2089346/0/en/photos/899660/0/899660.jpg?lastModified=09%2F05%2F2020%2009%3A28%3A18&size=2"
             }
         ],
         "WFC": [
@@ -38728,6 +38728,32 @@
         ],
         "WMT": [
             {
+                "author": "JD Henning",
+                "content": "Introduction\r\nThe Weekly Breakout Forecast continues my doctoral research analysis on MDA breakout selections over more than five years. This subset of the different portfolios I regularly analyze ha\u2026 [+12518 chars]",
+                "description": "Two Sample Breakout Stocks for Week 37 with better than 10% short-term upside potential. Now up an average 201.7% YTD.",
+                "publishedAt": "2020-09-06T09:45:21Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Week 37 MDA Breakout Forecast: Short-Term Picks To Give You An Edge",
+                "url": "https://seekingalpha.com/article/4372788-week-37-mda-breakout-forecast-short-term-picks-to-give-you-edge",
+                "urlToImage": "https://static2.seekingalpha.com/uploads/2020/9/5/43516266-15993094581217618.png"
+            },
+            {
+                "author": "Wall Street Breakfast",
+                "content": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.\r\nEconomic reports in the week ahead\r\nThe tech sector will be \u2026 [+8746 chars]",
+                "description": "Listen on the go! A daily podcast of Wall Street Breakfast will be available by 8:00 a.m. on Seeking Alpha, iTunes, Stitcher and Spotify.",
+                "publishedAt": "2020-09-06T08:42:43Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "Wall Street Breakfast: The Week Ahead",
+                "url": "https://seekingalpha.com/article/4372787-wall-street-breakfast-week-ahead",
+                "urlToImage": "https://static3.seekingalpha.com/assets/og_image_192-59bfd51c9fe6af025b2f9f96c807e46f8e2f06c5ae787b15bf1423e6c676d4db.png"
+            },
+            {
                 "author": "Rachmatunnisa",
                 "content": "Jakarta - Selagi TikTok Amerika Serikat (AS) sedang dalam proses penjualan, TikTok India mulai menarik minat pembeli potensial. SoftBank mempertimbangkan untuk menawar TikTok India di tengah ketegang\u2026 [+2260 chars]",
                 "description": "Selagi TikTok AS sedang dalam proses penjualan, TikTok India mulai menarik minat pembeli potensial. SoftBank mempertimbangkan untuk menawar TikTok India.",
@@ -38830,32 +38856,6 @@
                 "title": "Food fight in Aisle 3: Grocers, suppliers clash over need for code of conduct in Canada",
                 "url": "https://financialpost.com/news/retail-marketing/does-ending-canadas-grocery-wars-mean-higher-prices-for-customers",
                 "urlToImage": "https://smartcdn.prod.postmedia.digital/financialpost/wp-content/uploads/2020/09/fp0905-grocery-bh-web.jpg"
-            },
-            {
-                "author": null,
-                "content": "BENTONVILLE, Ark.--(BUSINESS WIRE)--The wait is over for entrepreneurs who submitted their applications for Walmarts seventh annual Open Call event as approximately 850 small and medium-sized busines\u2026 [+3940 chars]",
-                "description": "BENTONVILLE, Ark.--(BUSINESS WIRE)--The wait is over for entrepreneurs who submitted their applications for Walmart\u2019s seventh annual Open Call event as approximately 850 small and medium-sized businesses received their official invitations to pitch Walmart me\u2026",
-                "publishedAt": "2020-09-04T18:50:10Z",
-                "source": {
-                    "id": null,
-                    "name": "Business Wire"
-                },
-                "title": "Walmart Selects 850 Entrepreneurs to Pitch their U.S. Manufactured Products at First-Ever Virtual Open Call Event",
-                "url": "https://www.businesswire.com/news/home/20200904005481/en/Walmart-Selects-850-Entrepreneurs-Pitch-U.S.-Manufactured",
-                "urlToImage": "http://www.businesswire.com/images/bwlogo_square.png"
-            },
-            {
-                "author": null,
-                "content": "Shop discounts on outdoor apparel, fishing gear, camping equipment, yard games, and more. Shop Now at Cabela's",
-                "description": "It's $340 under list price. Buy Now at Walmart \r\nTips\r\n <ul> <li>Available in Blue, Green, or Orange.</li> <li>The 10-ft.10\" x 30\" x 6\" is $299.99.</li> <li>The 12-ft. x 32\" x 6\" is $339.99.</li> <li>Sold by Little Red Lion INC via Amazon.</li> </ul> \r\n Featu\u2026",
-                "publishedAt": "2020-09-04T18:28:03Z",
-                "source": {
-                    "id": null,
-                    "name": "Dealnews.com"
-                },
-                "title": "Famistar Inflatable Stand Up Paddle Board for $260 + free shipping",
-                "url": "https://www.dealnews.com/Famistar-Inflatable-Stand-Up-Paddle-Board-for-260-free-shipping/18591664.html",
-                "urlToImage": "https://c.dlnws.com/image/upload/creative/logos/dn-logo-web.svg"
             }
         ]
     },
