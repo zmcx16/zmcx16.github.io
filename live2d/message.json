@@ -5,6 +5,10 @@
             "text": ["聽說這個是叫烘焙幾"]
         },
         {
+            "selector": ".menu-header_link.stocks",
+            "text": ["働いたら負け!"]
+        },
+        {
             "selector": ".menu-header_link.github",
             "text": ["多按一點星星我會很開心喔~"]
         },
