@@ -7,7 +7,7 @@ def html_2_str(plugin_path, html_name):
     html_data = ''
     with open(os.path.join(plugin_path, html_name), 'r', encoding='utf-8') as f:
         for line in f.readlines():
-            html_data += '\'' + line.replace('\'', '\\\'').replace('\n', '') + '\' +\n'
+            html_data += '\'' + line.replace('\\', '\\\\').replace('\'', '\\\'').replace('\n', '') + '\' +\n'
 
     last_plus_index = html_data.rfind("+")
 
