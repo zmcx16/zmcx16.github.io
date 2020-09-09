@@ -16,3 +16,21 @@
 .main-investment-formula .content-block{
     padding-top: 15px;
 }
+
+.main-investment-formula .formula-component{
+    position: relative;
+    margin-top: 50px;
+}
+
+fieldset.formula-block {
+    border: 2px groove #ddd;
+    padding: 0 20px 20px 20px;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.formula-block {
+    width:inherit;
+    padding:0 10px;
+    border-bottom:none;
+    font-size: xx-large;
+}
