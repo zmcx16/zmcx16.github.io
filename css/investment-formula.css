@@ -1,3 +1,26 @@
+fieldset.formula-block {
+    border: 2px groove #ddd;
+    padding: 0 20px 20px 20px;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.formula-block {
+    width:inherit;
+    padding:0 10px;
+    border-bottom:none;
+    font-size: 28px;
+}
+
+fieldset.arg-input{
+    border: 2px groove lightgreen;
+    border-radius: 4px;
+    padding: 0 10px 10px 10px;
+}
+
+legend.arg-input{
+    font-size: 20px;
+}
+
 .main-investment-formula > div{
     width: 960px;
     margin: 60px auto;
@@ -22,15 +45,24 @@
     margin-top: 50px;
 }
 
-fieldset.formula-block {
-    border: 2px groove #ddd;
-    padding: 0 20px 20px 20px;
-    box-shadow:  0px 0px 0px 0px #000;
+#kelly-formula-val{
+    font-size: 18px;
 }
 
-legend.formula-block {
-    width:inherit;
-    padding:0 10px;
-    border-bottom:none;
-    font-size: xx-large;
+.main-investment-formula .kelly-formula-input-block1{
+    display: grid;
+    grid-template-columns: 80px 10px 80px 60px 80px 10px 80px 60px 80px 10px 80px auto 140px 0px;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
+    text-align: right;
+}
+
+.main-investment-formula .kelly-formula-input-block2{
+    display: grid;
+    grid-template-columns: 80px 10px 80px 60px 80px 10px 80px auto 140px 0px;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
+    text-align: right;
 }
