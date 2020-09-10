@@ -24,6 +24,28 @@ body{
   overflow-x: hidden;
 }
 
+.click-btn {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999, -1px -1px 1px #CCC;
+    background: #66DDAA;
+    line-height: 28px;
+}
+
+.click-btn:hover {
+    background-color: #58bc9b;
+}
+
+.click-btn:active {
+    box-shadow: -1px -1px 1px #999;
+}
+
 .arrange--18 > .arrange_unit {
   padding-left: 9px;
   padding-right: 30px;
