@@ -4,7 +4,7 @@ var myvar =
 '    <div class="demo-img">' +
 '        <img src="/img/investment-formula/Etz haChayim-gold.png" />' +
 '    </div>' +
-'    <div class="formula-groups">' +
+'    <div class="formula-groups" style="display:none;">' +
 '        <div class="formula-component">' +
 '            <fieldset class="formula-block formula-group">' +
 '                <legend class="formula-block">凱利公式</legend>' +
@@ -52,16 +52,69 @@ var myvar =
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
+var kelly_formula = 'f^* = \\frac{bp-q}{b} = p - \\frac{q}{b}';
+
+function runMathJax(target){
+  MathJax.Hub.Queue(
+    () => { 
+      LoadingImg.doLoading(true);
+      $(target).hide();
+    }, 
+    ["Typeset", MathJax.Hub, $(".formula-groups")[0]], 
+    () => { 
+      $(target).show(); 
+      LoadingImg.doLoading(false); 
+    }
+  );
+}
+
+function calcKelly(){
+
+  let target = '#kelly-formula-val';
+  let b = $('#kelly-b-input').val();
+  let p = $('#kelly-p-input').val();
+  let q = $('#kelly-q-input').val();
+
+  if (isNaN(b) || b <= 0){
+    $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace賠率須為正實數}}' + '$$';
+    runMathJax(target);
+    return;
+  }
+  if (isNaN(p) || p <= 0 || p > 1) {
+    $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace獲利機率須為小於或等於1的正實數}}' + '$$';
+    runMathJax(target);
+    return;
+  }
+  if (isNaN(q) || q <= 0 || q > 1) {
+    $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace虧損機率須為小於或等於1的正實數}}' + '$$';
+    runMathJax(target);
+    return;
+  }
+
+  let result = (p - (q / b))*100;
+  if (result <= 0){
+    $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{Orange}{' + parseFloat(result.toFixed(2)) + '\\%\\enspace(期望值小於等於0, 要不玩就趁現在了!)}}' + '$$';
+  }else{
+    $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{LimeGreen}{' + parseFloat(result.toFixed(2)) + '\\%}}' + '$$';
+  }
+
+  runMathJax(target);
+}
+
 $(document).ready(function () {
 
   // disable cache
   // $.ajaxSetup({ cache: false });
 
-  setBanner('Money Money', 'gold', ['好用的公式整理', 'Etz haChayim', 'El Psy Congroo']);
+  setBanner('Unlimited Formula Works', 'gold', ['好用的公式整理', 'Etz haChayim', 'El Psy Congroo']);
 
-  $("#kelly-formula-val")[0].innerHTML = '$$f^* = \\frac{bp-q}{b} = p - \\frac{q}{b}$$';
+  $("#kelly-formula-val")[0].innerHTML = '$$' + kelly_formula + '$$';
   $("#kelly-formula-description")[0].innerHTML = '$$f^*: 下注比率 \\qquad b: 賠率 = \\cfrac{獲利金額}{虧損金額} \\qquad p: 獲利機率 \\qquad q: 虧損機率 $$'
 
-  MathJax.Hub.Queue(["Typeset", MathJax.Hub, $(".formula-groups")[0]]);
+  $('#kelly-manual-calc-btn').click(()=>{
+    calcKelly();
+  });
+
+  runMathJax(".formula-groups");
 
 });
