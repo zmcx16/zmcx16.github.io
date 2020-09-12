@@ -22,18 +22,28 @@
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/starry_sky.css"/>
     <link rel="shortcut icon" href="favicon.ico">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148957524-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148957524-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-	  gtag('config', 'UA-148957524-1');
-	</script>
+      gtag('config', 'UA-148957524-1');
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        messageStyle: "none",
+        tex2jax: {preview: "none"},
+        showMathMenu: false,
+        skipStartupTypeset: true
+      });
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
     <script src="js/jquery.min.js"></script>
     <script src="js/common.js"></script>
-	<script src="loading/loading.js"></script>
+    <script src="loading/loading.js"></script>
     <script>
 
         function RedirectPage(page_name){
@@ -76,29 +86,32 @@
                 <li class="menu-header_item">
                   <a class="menu-header_link stocks" href="./?page=investment-stocks">U.S. Stocks</a>
                 </li>
+                <li class="menu-header_item">
+                  <a class="menu-header_link formula" href="./?page=investment-formula">Formula</a>
+                </li>
               </ul>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">Links</a>
-			  <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
-				<li class="menu-header_item">
-				  <a class="menu-header_link github" target="_blank" href="https://github.com/zmcx16">GitHub</a>
-				</li>
-				<li class="menu-header_item">
-				  <a class="menu-header_link blog" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
-				</li>
-			  </ul>
+              <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+              <li class="menu-header_item">
+                <a class="menu-header_link github" target="_blank" href="https://github.com/zmcx16">GitHub</a>
+              </li>
+              <li class="menu-header_item">
+                <a class="menu-header_link blog" target="_blank" href="https://blog.zmcx16.moe/">Blog</a>
+              </li>
+              </ul>
             </li>
             <li class="menu-header_item">
               <a class="menu-header_link">About</a>
-			  <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
-				<li class="menu-header_item">
-				  <a class="menu-header_link about-me" onclick="window.open('/about-about_me.html', 'about', 'width=610,height=270'); return false;">About Me</a>
-				</li>
-				<li class="menu-header_item">
-				  <a class="menu-header_link donate-me" href="./?page=about-donate">Donate</a>
-				</li>
-			  </ul>              
+              <ul class="menu-header_drop-down-menu_level2" id="menu-header_drop-down-menu_level2">
+              <li class="menu-header_item">
+                <a class="menu-header_link about-me" onclick="window.open('/about-about_me.html', 'about', 'width=610,height=270'); return false;">About Me</a>
+              </li>
+              <li class="menu-header_item">
+                <a class="menu-header_link donate-me" href="./?page=about-donate">Donate</a>
+              </li>
+              </ul>              
             </li>
           </ul>
         </div>
