@@ -31,7 +31,7 @@ var myvar =
 '                </fieldset>' +
 '                <br><br><br>' +
 '                <fieldset class="formula-block formula-group arg-input">' +
-'                    <legend class="formula-block arg-input">自動取得(區間計算)</legend>' +
+'                    <legend class="formula-block arg-input">自動取得(區間盤整個股)</legend>' +
 '                    <div class="kelly-formula-input-block2">' +
 '                        <div>股票代號:</div>' +
 '                        <div></div>' +
@@ -39,13 +39,35 @@ var myvar =
 '                        <div></div>' +
 '                        <div>資料天數:</div>' +
 '                        <div></div>' +
-'                        <input type="text" id="kelly-date-input" value="180" name="kelly-date-input">' +
+'                        <input type="text" id="kelly-days-input" value="180" name="kelly-days-input">' +
 '                        <div></div>' +
-'                        <button id="kelly-auto-range-calc-btn" class="click-btn">計算</button>' +
+'                        <button id="kelly-auto-range-v1-calc-btn" class="click-btn">計算</button>' +
 '                        <div></div>' +
 '                    </div>' +
 '                </fieldset>' +
 '            </fieldset>' +
+'        </div>' +
+'    </div>' +
+'    <div class="hold-stocks-groups">' +
+'        <h1> 持有清單 </h1>' +
+'        <div class="hold-stocks content-block">' +
+'            <table id="hold-stocks-table">' +
+'                <thead>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-price">Price</th>' +
+'                    <th class="th-180d">180 days</th>' +
+'                    <th class="th-position">Position [Kelly Formula]</th>' +
+'                </thead>' +
+'                <tbody id="hold-stocks-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'        </div>' +
+'    </div>' +
+'    <div class="data-source groups">' +
+'        <h1> 數據源 </h1>' +
+'        <div class="data-source content-block">' +
+'            <a class="link" target="_blank" href="https://norn-minehunter.zmcx16.moe/">Norn-Minehunter</a>' +
+'            <a class="link" target="_blank" href="https://www.alphavantage.co/">Alpha Vantage</a>' +
 '        </div>' +
 '    </div>' +
 '</div>' ;
@@ -54,7 +76,7 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 var kelly_formula = 'f^* = \\frac{bp-q}{b} = p - \\frac{q}{b}';
 
-function runMathJax(target){
+function runMathJax(target, jump=true){
   MathJax.Hub.Queue(
     () => { 
       LoadingImg.doLoading(true);
@@ -64,8 +86,17 @@ function runMathJax(target){
     () => { 
       $(target).show(); 
       LoadingImg.doLoading(false); 
+    },
+    ()=>{
+      if (jump){
+        $(target)[0].scrollIntoView({ behavior: "smooth" });
+      }
     }
   );
+}
+
+function kellyFormula(b, p ,q){
+  return (p - (q / b));
 }
 
 function calcKelly(){
@@ -91,7 +122,7 @@ function calcKelly(){
     return;
   }
 
-  let result = (p - (q / b))*100;
+  let result = kellyFormula(b, p, q) * 100;
   if (result <= 0){
     $(target)[0].innerHTML = '$$' + kelly_formula + ' = {\\color{Orange}{' + parseFloat(result.toFixed(2)) + '\\%\\enspace(期望值小於等於0, 要不玩就趁現在了!)}}' + '$$';
   }else{
@@ -99,6 +130,104 @@ function calcKelly(){
   }
 
   runMathJax(target);
+}
+
+function getKellyAutoRangeV1(){
+
+  let symbol = $("#kelly-symbol-input").val();
+  let days = $("#kelly-days-input").val();
+
+  if (!symbol) {
+    $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace非法股票代號}}' + '$$';
+    runMathJax('#kelly-formula-val');
+    return;
+  }
+
+  if (isNaN(days) || days <= 0) {
+    $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace資料天數須為正整數}}' + '$$';
+    runMathJax('#kelly-formula-val');
+    return;
+  }
+
+  var data = [
+    {
+      'type': 'KellyFormula_Range_v1',
+      'name': '',
+      'target': [symbol],
+      'args': {
+        'days': days
+      }
+    }
+  ];
+
+  LoadingImg.doLoading(true);
+
+  $.ajax({
+    type: 'POST',
+    url: 'https://zmcx16.moe/stock-minehunter/api/task/calc-formula',
+    async: true,
+    data: "=" + JSON.stringify({ "data": data }),
+    cache: false,
+    success: function (resp_data, textStatus, xhr) {
+      LoadingImg.doLoading(false);
+      if (resp_data) {
+        console.log(resp_data);
+        if (resp_data["ret"] !== 0) {
+          $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+          runMathJax('#kelly-formula-val');
+        }else{
+          $('#kelly-b-input').val((resp_data["data"][0]["result"]["profit"] / resp_data["data"][0]["result"]["loss"]).toFixed(2));
+          $('#kelly-p-input').val((resp_data["data"][0]["result"]["p"]).toFixed(2));
+          $('#kelly-q-input').val((resp_data["data"][0]["result"]["q"]).toFixed(2));
+          calcKelly();
+        }
+      }
+      else {
+        console.log('get scan reports failed: ' + xhr);
+        $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+        runMathJax('#kelly-formula-val');
+      }
+    },
+    error: function (xhr, textStatus, errorThrown) {
+      LoadingImg.doLoading(false);
+      console.log('Get scan reports failed: ' + xhr);
+      console.log('Get scan reports failed: ' + textStatus);
+      console.log('Get scan reports failed: ' + errorThrown);
+      $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+      runMathJax('#kelly-formula-val');
+    },
+    timeout: 300000
+  });
+}
+
+function buildTable(data){
+
+  let total_postion = 0;
+  data["hold_stock_list"].forEach((symbol) => {
+    let kelly_result = data["KellyFormula_Range_v1"][symbol];
+    let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
+    if (score>0)
+      total_postion += score;
+  });
+
+  let output = "";
+  data["hold_stock_list"].forEach((symbol) => {
+
+    let kelly_result = data["KellyFormula_Range_v1"][symbol];
+    let price = kelly_result['close'];
+    let days = kelly_result['min_close'].toFixed(2) + ' - ' + kelly_result['max_close'].toFixed(2);
+    let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
+    let position = score > 0 ? (score / total_postion * 100).toFixed(2) : 0;
+    output += 
+    '<tr class="tr-stock main">' + 
+    '  <td class="td-symbol">' + symbol + '</td>' + 
+    '  <td class="td-price">' + price + '</td>' + 
+    '  <td class="td-180d">' + days + '</td>' + 
+    '  <td class="td-position">' + position + '%</td>' + 
+    '</tr>';
+  });
+
+  return output;
 }
 
 $(document).ready(function () {
@@ -115,6 +244,15 @@ $(document).ready(function () {
     calcKelly();
   });
 
-  runMathJax(".formula-groups");
+  $('#kelly-auto-range-v1-calc-btn').click(() => {
+    getKellyAutoRangeV1();
+  });
+
+  runMathJax(".formula-groups", false);
+
+  // load hold stocks data
+  $.getJSON("zmcx16_investment-formula-trade-data.json", function (json_data) {
+    $("#hold-stocks-tbody")[0].innerHTML = buildTable(json_data);
+  });
 
 });
