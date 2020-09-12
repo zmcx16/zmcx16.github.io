@@ -303,5 +303,17 @@
             "InsiderShares":"0.5"
          }
       }
+   ],
+   "formula_template":[
+      {
+         "name":"regular_formula",
+         "type":"KellyFormula_Range_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "days":"180"
+         }
+      }      
    ]
 }

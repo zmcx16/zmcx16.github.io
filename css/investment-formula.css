@@ -21,6 +21,11 @@ legend.arg-input{
     font-size: 20px;
 }
 
+
+.main-investment-formula h1{
+    font-family: 'Microsoft JhengHei';
+}
+
 .main-investment-formula > div{
     width: 960px;
     margin: 60px auto;
@@ -46,7 +51,7 @@ legend.arg-input{
 }
 
 #kelly-formula-val{
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .main-investment-formula .kelly-formula-input-block1{
@@ -65,4 +70,74 @@ legend.arg-input{
     font-size: 18px;
     margin: 20px;
     text-align: right;
+}
+
+.main-investment-formula .content-block{
+    padding-top: 15px;
+    width: 680px;
+}
+
+/* table */
+.main-investment-formula table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid silver;
+    margin-bottom: 30px;
+}
+
+.main-investment-formula th {
+    padding: 8px;
+    color: white;
+    border: 1px solid silver;
+    background: #535353;
+    text-align: center;
+    /*word-break: break-all;*/
+    font-size: medium;
+}
+
+.main-investment-formula td{
+    font-size: large;
+    border: none;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.main-investment-formula .tr-stock.main{
+    line-height: 48px;
+}
+
+.main-investment-formula .group-td{
+    padding-right: 0px;
+}
+
+.main-investment-formula .th-symbol{
+    width: 95px;
+}
+
+.main-investment-formula .th-price{
+    width: 95px;
+}
+
+.main-investment-formula .th-180d{
+    width: 150px;
+}
+
+.main-investment-formula .th-position{
+    width: 200px;
+}
+
+.main-investment-formula .td-symbol, .main-investment-formula .td-type-name{
+    padding-right: 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #188fff;
+}
+
+.main-investment-formula .data-source{
+    font-size: x-large;
+}
+
+.main-investment-formula .link{
+    padding-right: 30px;
 }

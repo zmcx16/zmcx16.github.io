@@ -30,7 +30,7 @@
                 </fieldset>
                 <br><br><br>
                 <fieldset class="formula-block formula-group arg-input">
-                    <legend class="formula-block arg-input">自動取得(區間計算)</legend>
+                    <legend class="formula-block arg-input">自動取得(區間盤整個股)</legend>
                     <div class="kelly-formula-input-block2">
                         <div>股票代號:</div>
                         <div></div>
@@ -38,13 +38,35 @@
                         <div></div>
                         <div>資料天數:</div>
                         <div></div>
-                        <input type="text" id="kelly-date-input" value="180" name="kelly-date-input">
+                        <input type="text" id="kelly-days-input" value="180" name="kelly-days-input">
                         <div></div>
-                        <button id="kelly-auto-range-calc-btn" class="click-btn">計算</button>
+                        <button id="kelly-auto-range-v1-calc-btn" class="click-btn">計算</button>
                         <div></div>
                     </div>
                 </fieldset>
             </fieldset>
+        </div>
+    </div>
+    <div class="hold-stocks-groups">
+        <h1> 持有清單 </h1>
+        <div class="hold-stocks content-block">
+            <table id="hold-stocks-table">
+                <thead>
+                    <th class="th-symbol">Symbol</th>
+                    <th class="th-price">Price</th>
+                    <th class="th-180d">180 days</th>
+                    <th class="th-position">Position [Kelly Formula]</th>
+                </thead>
+                <tbody id="hold-stocks-tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="data-source groups">
+        <h1> 數據源 </h1>
+        <div class="data-source content-block">
+            <a class="link" target="_blank" href="https://norn-minehunter.zmcx16.moe/">Norn-Minehunter</a>
+            <a class="link" target="_blank" href="https://www.alphavantage.co/">Alpha Vantage</a>
         </div>
     </div>
 </div>
