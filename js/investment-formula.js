@@ -172,7 +172,7 @@ function getKellyAutoRangeV1(){
       LoadingImg.doLoading(false);
       if (resp_data) {
         console.log(resp_data);
-        if (resp_data["ret"] !== 0) {
+        if (resp_data["ret"] !== 0 || resp_data["data"][0]["result"] === null) {
           $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
           runMathJax('#kelly-formula-val');
         }else{
