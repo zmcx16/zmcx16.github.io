@@ -80,6 +80,7 @@ var myvar =
 '				<li><a class="link" target="_blank" href="https://loveheaven.net/">https://loveheaven.net/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://hanascan.com/">https://hanascan.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.mangatown.com/">https://www.mangatown.com/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://www.ohmanhua.com/">https://www.ohmanhua.com/</a></li>' +
 '            </ul>' +
 '        </div>' +
 '        <div class="environment">' +
