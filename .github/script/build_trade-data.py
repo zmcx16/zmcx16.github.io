@@ -24,6 +24,7 @@ if __name__ == "__main__":
 
     DELAY_TIME_SEC = 60
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
+    SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
     FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
@@ -34,7 +35,7 @@ if __name__ == "__main__":
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
-    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}}
+    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}}
     formula_output = {"hold_stock_list": [], "KellyFormula_Range_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
@@ -47,6 +48,9 @@ if __name__ == "__main__":
         scan_output["star_stock_list"] = data["star_stock_list"]
         scan_list = data["hold_stock_list"] + data["star_stock_list"]
 
+        # SEC
+        sec_cik_table = data["sec_cik_table"]
+
         # news
         news_latest_days = data["news_config"]["latest_days"]
         news_max_count = data["news_config"]["max_count"]
@@ -54,7 +58,7 @@ if __name__ == "__main__":
         news_symbol_keyword = data["news_config"]["symbol_keyword"]
 
         for symbol in scan_list:
-            print("get {symbol} scan / formula output: {now}".format(symbol=symbol, now=datetime.now()))
+            print("get {symbol} scan / SEC / formula output: {now}".format(symbol=symbol, now=datetime.now()))
 
             # get norm-minehunter
             scan_list_args = data["tactic_template"].copy()
@@ -68,6 +72,22 @@ if __name__ == "__main__":
                         print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                     else:
                         scan_output["data"] += resp["data"]
+
+                except Exception as ex:
+                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+
+            # --- get SEC -------
+            sec_args = data["sec_template"].copy()
+            for sec_target in sec_args:
+                sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
+
+            ret, resp = send_post_json(SEC_URL, "=" + str({"data": [sec_target]}))
+            if ret == 0:
+                try:
+                    if resp["ret"] != 0:
+                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                    else:
+                        scan_output["SEC"][symbol] = resp["data"][0]["report"]
 
                 except Exception as ex:
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
