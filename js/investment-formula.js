@@ -214,6 +214,11 @@ function buildTable(data){
   data["hold_stock_list"].forEach((symbol) => {
 
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
+    if (kelly_result === null){
+      console.log('symbol ' + symbol + ' data is null');
+      continue;
+    }
+
     let price = kelly_result['close'];
     let days = kelly_result['min_close'].toFixed(2) + ' - ' + kelly_result['max_close'].toFixed(2);
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
