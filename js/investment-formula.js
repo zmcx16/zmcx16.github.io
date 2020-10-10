@@ -205,6 +205,11 @@ function buildTable(data){
   let total_postion = 0;
   data["hold_stock_list"].forEach((symbol) => {
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
+    if (kelly_result === null) {
+      console.log('symbol ' + symbol + ' data is null');
+      return;
+    }
+
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
     if (score>0)
       total_postion += score;
@@ -212,7 +217,6 @@ function buildTable(data){
 
   let output = "";
   data["hold_stock_list"].forEach((symbol) => {
-
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
     if (kelly_result === null){
       console.log('symbol ' + symbol + ' data is null');
