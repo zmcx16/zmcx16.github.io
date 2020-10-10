@@ -216,7 +216,7 @@ function buildTable(data){
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
     if (kelly_result === null){
       console.log('symbol ' + symbol + ' data is null');
-      continue;
+      return;
     }
 
     let price = kelly_result['close'];
