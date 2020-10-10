@@ -1,4 +1,605 @@
 {
+    "SEC": {
+        "AAPL": [],
+        "AMD": [],
+        "AMT": [
+            {
+                "date": "2020-09-28",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000119312520256461/0001193125-20-256461-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000119312520253390/0001193125-20-253390-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000105350720000150/0001053507-20-000150-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000119312520252438/0001193125-20-252438-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-09-23",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000119312520251879/0001193125-20-251879-index.htm",
+                "type": "424B5"
+            },
+            {
+                "date": "2020-09-17",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000087666120000777/0000876661-20-000777-index.htm",
+                "type": "CERT"
+            },
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/1053507/000105350720000143/0001053507-20-000143-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "AMZN": [],
+        "BAC": [
+            {
+                "date": "2020-10-08",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011315/0000891092-20-011315-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-08",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011302/0000891092-20-011302-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-08",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011301/0000891092-20-011301-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-07",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011291/0000891092-20-011291-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011285/0000891092-20-011285-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011284/0000891092-20-011284-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011282/0000891092-20-011282-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011281/0000891092-20-011281-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011238/0000891092-20-011238-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011174/0000891092-20-011174-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000222/0001481057-20-000222-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011165/0000891092-20-011165-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-06",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000221/0001481057-20-000221-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000219/0001481057-20-000219-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011153/0000891092-20-011153-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000218/0001481057-20-000218-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011082/0000891092-20-011082-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000114036120022395/0001140361-20-022395-index.htm",
+                "type": "SC 13D/A"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011032/0000891092-20-011032-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-05",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011029/0000891092-20-011029-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000217/0001481057-20-000217-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011010/0000891092-20-011010-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220011002/0000891092-20-011002-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010995/0000891092-20-010995-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010986/0000891092-20-010986-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010983/0000891092-20-010983-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010981/0000891092-20-010981-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010980/0000891092-20-010980-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010971/0000891092-20-010971-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010953/0000891092-20-010953-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010936/0000891092-20-010936-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010914/0000891092-20-010914-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010912/0000891092-20-010912-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010894/0000891092-20-010894-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000148105720000216/0001481057-20-000216-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010876/0000891092-20-010876-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010873/0000891092-20-010873-index.htm",
+                "type": "424B8"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010872/0000891092-20-010872-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010868/0000891092-20-010868-index.htm",
+                "type": "424B8"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/70858/000089109220010867/0000891092-20-010867-index.htm",
+                "type": "424B2"
+            }
+        ],
+        "BIO": [],
+        "COST": [
+            {
+                "date": "2020-10-07",
+                "link": "https://www.sec.gov/Archives/edgar/data/909832/000090983220000017/0000909832-20-000017-index.htm",
+                "type": "10-K"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/909832/000119312520253502/0001193125-20-253502-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/909832/000119312520247153/0001193125-20-247153-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "CRM": [
+            {
+                "date": "2020-09-25",
+                "link": "https://www.sec.gov/Archives/edgar/data/1108524/000119312520254588/0001193125-20-254588-index.htm",
+                "type": "SC 13G"
+            }
+        ],
+        "CRWD": [
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1535527/000110465920107900/0001104659-20-107900-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "DHI": [
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/882184/000119312520262510/0001193125-20-262510-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/882184/000119312520261852/0001193125-20-261852-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/882184/000119312520260457/0001193125-20-260457-index.htm",
+                "type": "424B2"
+            },
+            {
+                "date": "2020-09-30",
+                "link": "https://www.sec.gov/Archives/edgar/data/882184/000119312520258005/0001193125-20-258005-index.htm",
+                "type": "FWP"
+            },
+            {
+                "date": "2020-09-29",
+                "link": "https://www.sec.gov/Archives/edgar/data/882184/000119312520257240/0001193125-20-257240-index.htm",
+                "type": "424B5"
+            }
+        ],
+        "DIS": [],
+        "EME": [],
+        "EWBC": [],
+        "EXEL": [],
+        "FB": [],
+        "FBP": [],
+        "FHN": [
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/36966/000003696620000040/0000036966-20-000040-index.htm",
+                "type": "8-K/A"
+            },
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/36966/000003696620000036/0000036966-20-000036-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "FORM": [],
+        "GOOG": [
+            {
+                "date": "2020-09-25",
+                "link": "https://www.sec.gov/Archives/edgar/data/1652044/000119312520254587/0001193125-20-254587-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "INTC": [],
+        "JNJ": [
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/200406/000119312520261326/0001193125-20-261326-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/200406/000119312520260647/0001193125-20-260647-index.htm",
+                "type": "SC TO-T/A"
+            },
+            {
+                "date": "2020-09-23",
+                "link": "https://www.sec.gov/Archives/edgar/data/200406/000119312520252379/0001193125-20-252379-index.htm",
+                "type": "SC TO-T/A"
+            },
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/200406/000119312520246257/0001193125-20-246257-index.htm",
+                "type": "SC TO-T/A"
+            }
+        ],
+        "LN": [
+            {
+                "date": "2020-09-30",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520259652/0001193125-20-259652-index.htm",
+                "type": "SC 13D/A"
+            },
+            {
+                "date": "2020-09-30",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520259642/0001193125-20-259642-index.htm",
+                "type": "SC 13E3/A"
+            },
+            {
+                "date": "2020-09-28",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520255513/0001193125-20-255513-index.htm",
+                "type": "SC 13E3/A"
+            },
+            {
+                "date": "2020-09-28",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520255475/0001193125-20-255475-index.htm",
+                "type": "6-K"
+            },
+            {
+                "date": "2020-09-28",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520255427/0001193125-20-255427-index.htm",
+                "type": "6-K"
+            },
+            {
+                "date": "2020-09-28",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520255118/0001193125-20-255118-index.htm",
+                "type": "20-F/A"
+            },
+            {
+                "date": "2020-09-25",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520254005/0001193125-20-254005-index.htm",
+                "type": "SC 13D"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520252867/0001193125-20-252867-index.htm",
+                "type": "SC 13E3/A"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520252765/0001193125-20-252765-index.htm",
+                "type": "6-K"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520246842/0001193125-20-246842-index.htm",
+                "type": "SC 13D"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520246827/0001193125-20-246827-index.htm",
+                "type": "SC 14D9/A"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520246811/0001193125-20-246811-index.htm",
+                "type": "6-K"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520246802/0001193125-20-246802-index.htm",
+                "type": "SC 13E3/A"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/1611820/000119312520246790/0001193125-20-246790-index.htm",
+                "type": "SC TO-T/A"
+            }
+        ],
+        "MCD": [
+            {
+                "date": "2020-10-08",
+                "link": "https://www.sec.gov/Archives/edgar/data/63908/000006390820000066/0000063908-20-000066-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "MSFT": [
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/789019/000119312520250163/0001193125-20-250163-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "MU": [
+            {
+                "date": "2020-09-29",
+                "link": "https://www.sec.gov/Archives/edgar/data/723125/000072312520000079/0000723125-20-000079-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/723125/000072312520000074/0000723125-20-000074-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "PBCT": [
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1378946/000119312520252821/0001193125-20-252821-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/1378946/000119312520246012/0001193125-20-246012-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "PFC": [
+            {
+                "date": "2020-09-30",
+                "link": "https://www.sec.gov/Archives/edgar/data/946647/000119312520259674/0001193125-20-259674-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-25",
+                "link": "https://www.sec.gov/Archives/edgar/data/946647/000119312520254754/0001193125-20-254754-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-23",
+                "link": "https://www.sec.gov/Archives/edgar/data/946647/000119312520251801/0001193125-20-251801-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "PNC": [
+            {
+                "date": "2020-10-01",
+                "link": "https://www.sec.gov/Archives/edgar/data/713676/000071367620000122/0000713676-20-000122-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "PSX": [
+            {
+                "date": "2020-10-09",
+                "link": "https://www.sec.gov/Archives/edgar/data/1534701/000153470120000142/0001534701-20-000142-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "QNST": [
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/1117297/000110465920105308/0001104659-20-105308-index.htm",
+                "type": "DEFA14A"
+            },
+            {
+                "date": "2020-09-15",
+                "link": "https://www.sec.gov/Archives/edgar/data/1117297/000110465920105304/0001104659-20-105304-index.htm",
+                "type": "DEF 14A"
+            }
+        ],
+        "SLM": [
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/1032033/000162828020013784/0001628280-20-013784-index.htm",
+                "type": "8-K/A"
+            },
+            {
+                "date": "2020-09-14",
+                "link": "https://www.sec.gov/Archives/edgar/data/1032033/000162828020013526/0001628280-20-013526-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "SNV": [
+            {
+                "date": "2020-09-17",
+                "link": "https://www.sec.gov/Archives/edgar/data/18349/000114036120020740/0001140361-20-020740-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "STL": [
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1070154/000110465920108139/0001104659-20-108139-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "T": [
+            {
+                "date": "2020-09-18",
+                "link": "https://www.sec.gov/Archives/edgar/data/732717/000119312520249240/0001193125-20-249240-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-16",
+                "link": "https://www.sec.gov/Archives/edgar/data/732717/000119312520246459/0001193125-20-246459-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "TSLA": [
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020045592/0001564590-20-045592-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-24",
+                "link": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020044548/0001564590-20-044548-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/1318605/999999999720004698/9999999997-20-004698-index.htm",
+                "type": "CT ORDER"
+            },
+            {
+                "date": "2020-09-14",
+                "link": "https://www.sec.gov/Archives/edgar/data/1318605/000156459020043320/0001564590-20-043320-index.htm",
+                "type": "DEFA14A"
+            }
+        ],
+        "WFC": [
+            {
+                "date": "2020-10-08",
+                "link": "https://www.sec.gov/Archives/edgar/data/72971/000007297120000329/0000072971-20-000329-index.htm",
+                "type": "SC 13G/A"
+            }
+        ],
+        "WLK": [
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/1262823/000126282320000036/0001262823-20-000036-index.htm",
+                "type": "8-K"
+            }
+        ],
+        "WMT": [
+            {
+                "date": "2020-10-02",
+                "link": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000056/0000104169-20-000056-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-21",
+                "link": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000050/0000104169-20-000050-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-14",
+                "link": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000048/0000104169-20-000048-index.htm",
+                "type": "8-K"
+            },
+            {
+                "date": "2020-09-14",
+                "link": "https://www.sec.gov/Archives/edgar/data/104169/000010416920000045/0000104169-20-000045-index.htm",
+                "type": "8-K"
+            }
+        ]
+    },
     "data": [
         {
             "baseinfo": {
@@ -34275,6 +34876,19 @@
         ],
         "AMD": [
             {
+                "author": "Mik",
+                "content": "I am having trouble getting my wifi adapter working ubuntu 20.04 LTS. I have followed the instructions at the following link, and have tried multiple files contained within the firmware section with \u2026 [+4935 chars]",
+                "description": "I am having trouble getting my wifi adapter working ubuntu 20.04 LTS. I have followed the instructions at the following link, and have tried multiple files contained within the firmware section with no success. I succeeded in getting my ethrenet controller wo\u2026",
+                "publishedAt": "2020-10-10T18:34:38Z",
+                "source": {
+                    "id": null,
+                    "name": "Askubuntu.com"
+                },
+                "title": "Network controller: Qualcomm Atheros QCA9377 802.11ac Wireless Network Adapter (rev 31) Network unclaimed",
+                "url": "https://askubuntu.com/questions/1281721/network-controller-qualcomm-atheros-qca9377-802-11ac-wireless-network-adapter",
+                "urlToImage": "https://cdn.sstatic.net/Sites/askubuntu/Img/apple-touch-icon@2.png?v=c492c9229955"
+            },
+            {
                 "author": "Joel Anderson",
                 "content": "Apple has set records on the stock market in 2020, with the electronic device company clearing a market capitalization the combined value of all of its stock of $2 trillion in August. Apple is the wo\u2026 [+10755 chars]",
                 "description": "For some, COVID-19 is proving to be a boon for business.",
@@ -34390,19 +35004,6 @@
                 "title": "Advanced Micro Devices plans to buy rival Xilinx in $30 billion deal",
                 "url": "https://www.business-standard.com/article/international/advanced-micro-devices-plans-to-buy-rival-xilinx-in-30-billion-deal-120101000067_1.html",
                 "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2020-10/07/full/1602015924-4081.jpg"
-            },
-            {
-                "author": "Sunny Oh",
-                "content": "U.S. stocks rose Friday to clinch weekly gains as investors monitored the prospects for another round of fiscal stimulus from Congress, with President Donald Trump, once again, saying he was open to \u2026 [+691 chars]",
-                "description": "U.S. stocks rose Friday to clinch weekly gains as investors monitored the prospects for another round of fiscal stimulus from Congress, with President Donald Trump, once again, saying he was open to a broader package. The S&P 500 rose 0.9% to 3,477.13. The Do\u2026",
-                "publishedAt": "2020-10-09T20:09:32Z",
-                "source": {
-                    "id": null,
-                    "name": "MarketWatch"
-                },
-                "title": "U.S. stocks end with gains as Dow enjoys best week since August",
-                "url": "https://www.marketwatch.com/story/us-stocks-end-with-gains-as-dow-enjoys-best-week-since-august-2020-10-09",
-                "urlToImage": "https://s.wsj.net/public/resources/MWimages/MW-GP644_MicroS_ZG_20180906154215.jpg"
             }
         ],
         "AMT": [
@@ -34498,19 +35099,6 @@
                 "urlToImage": "https://static01.nyt.com/images/2020/10/07/us/donald-trump-taxes-las-vegas-1602094433672/donald-trump-taxes-las-vegas-1602094433672-facebookJumbo.jpg"
             },
             {
-                "author": "by Patrick Wilson, Richmond Times-Dispatch",
-                "content": "ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as theyre published.\r\nThis article was produced in partnership with the Richmond T\u2026 [+33755 chars]",
-                "description": "by Patrick Wilson, Richmond Times-Dispatch \n \n \n\nProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they\u2019re published.\r\n\n\n\n\n \n\n\n\n\nThis article was produced in partnership with the Richmond T\u2026",
-                "publishedAt": "2020-10-09T09:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "ProPublica"
-                },
-                "title": "Inside the Utility Company Lobbying Blitz That Will Hike Electric Bills",
-                "url": "https://www.propublica.org/article/inside-the-utility-company-lobbying-blitz-that-will-hike-electric-bills",
-                "urlToImage": "https://assets-c3.propublica.org/images/articles/_1200x630_crop_center-center_82_none/2020109-dominion-mainbar-1200x630.jpg?mtime=1602193125"
-            },
-            {
                 "author": "BY PATRICK WILSON Richmond Times-Dispatch",
                 "content": "This article was produced in partnership with the ProPublica Local Reporting Network. Sign up for\u00a0ProPublicas Big Story newsletter.\u00a0\r\nWhen Democrats campaigned for the Virginia legislature last year,\u2026 [+34159 chars]",
                 "description": "This article was produced in partnership with the ProPublica Local Reporting Network. Sign up for ProPublica\u2019s Big Story newsletter.",
@@ -34522,6 +35110,19 @@
                 "title": "Power Play: Inside the Dominion lobbying blitz that's going to raise your electric bills",
                 "url": "https://richmond.com/news/state-and-regional/power-play-inside-the-dominion-lobbying-blitz-thats-going-to-raise-your-electric-bills/article_febc3bc7-37cd-5ff8-90d6-fd303849765d.html",
                 "urlToImage": "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/f/eb/febc3bc7-37cd-5ff8-90d6-fd303849765d/5f7f8529a1b6a.preview.jpg?crop=898%2C505%2C11%2C0&resize=898%2C505&order=crop%2Cresize"
+            },
+            {
+                "author": "by Patrick Wilson, Richmond Times-Dispatch",
+                "content": "ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as theyre published.\r\nThis article was produced in partnership with the Richmond T\u2026 [+33755 chars]",
+                "description": "by Patrick Wilson, Richmond Times-Dispatch \n \n \n\nProPublica is a nonprofit newsroom that investigates abuses of power. Sign up to receive our biggest stories as soon as they\u2019re published.\r\n\n\n\n\n \n\n\n\n\nThis article was produced in partnership with the Richmond T\u2026",
+                "publishedAt": "2020-10-09T09:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "ProPublica"
+                },
+                "title": "Inside the Utility Company Lobbying Blitz That Will Hike Electric Bills",
+                "url": "https://www.propublica.org/article/inside-the-utility-company-lobbying-blitz-that-will-hike-electric-bills",
+                "urlToImage": "https://assets-c3.propublica.org/images/articles/_1200x630_crop_center-center_82_none/2020109-dominion-mainbar-1200x630.jpg?mtime=1602193125"
             },
             {
                 "author": "Philip Langdon",
@@ -35463,6 +36064,32 @@
         ],
         "DIS": [
             {
+                "author": "newsfeedback@fool.com (Daniel B. Kline)",
+                "content": "In this episode of Industry Focus: Consumer Goods, Emily Flippen chats with Dan Kline about the movie industry and movie theaters. They talk about how movie theaters are dealing with big- release pul\u2026 [+32340 chars]",
+                "description": "Discover how some recent releases fared and what the future might hold.",
+                "publishedAt": "2020-10-10T19:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Motley Fool"
+                },
+                "title": "How the Movie Industry Is Dealing With the Pandemic",
+                "url": "https://www.fool.com/investing/2020/10/10/how-the-movie-industry-is-dealing-with-the-pandemi/",
+                "urlToImage": "https://g.foolcdn.com/editorial/images/594490/cover_if.jpg"
+            },
+            {
+                "author": null,
+                "content": "October 10, 2020, 12:59 PM \u00b7 \r\nMultiple Disneyland Resort cast members have been posting on their social media accounts that the \"Frozen - Live at the Hyperion\" and \"Mickey and the Magical Map\" shows\u2026 [+2631 chars]",
+                "description": "By Robert Niles: Multiple Disneyland Resort cast members have been posting on their social media accounts that the \"Frozen - Live at the Hyperion\" and \"Mickey and the Magical Map\" shows have been closed permanently.Both shows have been closed, along with the \u2026",
+                "publishedAt": "2020-10-10T17:59:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Theme Park Insider"
+                },
+                "title": "Two of Disneyland's Live Theater Shows Will Not Return",
+                "url": "https://www.themeparkinsider.com/flume/202010/7782/",
+                "urlToImage": "https://www.themeparkinsider.com/art/flume/7782.jpg"
+            },
+            {
                 "author": "Bruce Haring",
                 "content": "\u201cAnd I just felt increasingly uncomfortable with my position on the board having some disagreements over how certain decisions are being made. So it was actually not that hard a decision to remove my\u2026 [+1687 chars]",
                 "description": "James Murdoch has spoken out regarding his step away from the family business at News Corp. after 21st Century Fox was sold to the Walt Disney Co. in a $71.3 billion deal. In an interview with the New York Times\u2019 Maureen Dowd that ran today, Murdoch amplified\u2026",
@@ -35565,32 +36192,6 @@
                 "title": "Jangan Lupa! Beli Produk dan Jasa Digital 36 Perusahaan Ini Kena Pajak",
                 "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-5207738/jangan-lupa-beli-produk-dan-jasa-digital-36-perusahaan-ini-kena-pajak",
                 "urlToImage": "https://awsimages.detik.net.id/api/wm/2014/10/01/aba994a2-34ed-467e-b236-0838b109f70c_169.jpg?wid=54&w=650&v=1&t=jpeg"
-            },
-            {
-                "author": null,
-                "content": "Walt Disney Co. defended its cooperation with government entities accused of human-rights abuses in Chinas Xinjiang region, saying the company had to work with the government in order to make films t\u2026 [+2234 chars]",
-                "description": "Walt Disney Co. defended its cooperation with government entities accused of human-rights abuses in China\u2019s Xinjiang region, saying the company had to work with the ...",
-                "publishedAt": "2020-10-10T03:06:40Z",
-                "source": {
-                    "id": null,
-                    "name": "The Japan Times"
-                },
-                "title": "Disney says It had to work with Chinese government on \u2018Mulan\u2019",
-                "url": "https://www.japantimes.co.jp/culture/2020/10/10/films/disney-chinese-government-mulan/",
-                "urlToImage": "https://cdn.japantimes.2xx.jp/wp-content/uploads/2020/10/np_file_43580-870x566.jpeg"
-            },
-            {
-                "author": "Hendra Kusuma",
-                "content": "Jakarta - Direktorat Jenderal Pajak (DJP) Kementerian Keuangan sudah menetapkan 36 perusahaan internasional berbasis digital sebagai wajib pungut (wapu) pajak pertambahan nilai (PPN) atas transaksi p\u2026 [+1823 chars]",
-                "description": "Sebanyak 36 perusahaan ini terbagi empat gelombang. Tugasnya sebagai pemungut, pelapor, dan penyetor PPN kepada otoritas pajak nasional.",
-                "publishedAt": "2020-10-10T02:00:15Z",
-                "source": {
-                    "id": null,
-                    "name": "Detik.com"
-                },
-                "title": "Daftar 36 Perusahaan Digital yang Bakal Setor Pajak Digital ke RI",
-                "url": "https://finance.detik.com/berita-ekonomi-bisnis/d-5207730/daftar-36-perusahaan-digital-yang-bakal-setor-pajak-digital-ke-ri",
-                "urlToImage": "https://awsimages.detik.net.id/api/wm/2020/04/30/41e413bc-52d8-4923-9219-2a8d3dd9451d_169.jpeg?wid=54&w=650&v=1&t=jpeg"
             }
         ],
         "EME": [
@@ -35926,6 +36527,19 @@
         ],
         "FB": [
             {
+                "author": "Fredrik Arnold",
+                "content": "Foreword\r\nAs supplement to this article, please note that Kiplinger has published an online slide-show detailing the 65 S&amp;P Dividend Aristocrats for 2020. The article is entitled 65 Best Dividend\u2026 [+10988 chars]",
+                "description": "S&P 500 Dividend Aristocrats measure performance of S&P 500 companies that have increased dividends every year for 25 consecutive years. - us.spindices.com.",
+                "publishedAt": "2020-10-10T17:43:38Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "65 Dividend Aristocrats Optimal October Outcomes",
+                "url": "https://seekingalpha.com/article/4378467-65-dividend-aristocrats-optimal-october-outcomes",
+                "urlToImage": "https://static1.seekingalpha.com/uploads/2020/10/8/748328-16021880435984454.png"
+            },
+            {
                 "author": "Eric Goldman",
                 "content": "by guest blogger Kieran McCarthy\nhiQ Labs v. LinkedIn Corp. is arguably the most important case in the history of web-scraping jurisprudence. In 2019, the Ninth Circuit concluded that \u201cwhen a compute\u2026 [+11032 chars]",
                 "description": "by guest blogger Kieran McCarthy hiQ Labs v. LinkedIn Corp. is arguably the most important case in the history of web-scraping jurisprudence. In 2019, the Ninth Circuit concluded that \u201cwhen a computer network generally permits public access to its data,...\nTh\u2026",
@@ -36041,19 +36655,6 @@
                 "title": "Chinese app offers peek behind Great Firewall",
                 "url": "https://www.bangkokpost.com/world/1999927/chinese-app-offers-peek-behind-great-firewall",
                 "urlToImage": "https://static.bangkokpost.com/media/content/20201010/c1_1999927_700.jpg"
-            },
-            {
-                "author": "None",
-                "content": "Editors note: Not all events are being held due to social distancing protocols and Idaho Gov. Brad Littles Stay-Home order in wake of the coronavirus pandemic. If you have moved your meeting or event\u2026 [+67152 chars]",
-                "description": "The events, activities and meetings in Bonner County.",
-                "publishedAt": "2020-10-10T08:06:19Z",
-                "source": {
-                    "id": null,
-                    "name": "Bonner County Daily Bee"
-                },
-                "title": "Bonner County Daily Bee - Bonner County Daily Bee",
-                "url": "https://bonnercountydailybee.com/news/2020/oct/10/bonner-county-calendar-oct-10-2020/",
-                "urlToImage": "https://hagadone.media.clients.ellingtoncms.com/static-3/dailybee/images/default-social.jpg"
             }
         ],
         "FBP": [
@@ -36402,6 +37003,19 @@
         ],
         "GOOG": [
             {
+                "author": "Chris Katje",
+                "content": "Google shares debuted in 2004 and it didnt take long for the company to hit the $100 billion market cap level.\r\nAbout Google: Founded by Sergey Brin and Larry Page in 1998, Google (NASDAQ: GOOG) has \u2026 [+2020 chars]",
+                "description": "Google shares debuted in 2004 and it didn't take long for the company to hit the $100 billion market cap level.About Google: Founded by Sergey Brin and Larry Page in 1998, Google (NASDAQ: GOOG) has gone from a search engine to a technology conglomerate. The c\u2026",
+                "publishedAt": "2020-10-10T15:27:10Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Here's How Long It Took Google To Reach A $100B Market Cap",
+                "url": "https://finance.yahoo.com/news/heres-long-took-google-reach-152710274.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/s3dp0PsiRX2zWG_ZKmVpGg--~B/aD00MDA7dz02MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/Benzinga/e8ab11918a87264dc9e8d89d121f8833"
+            },
+            {
                 "author": "Simply Wall St",
                 "content": "The worst result, after buying shares in a company (assuming no leverage), would be if you lose all the money you put in. But on a lighter note, a good company can see its share price rise well over \u2026 [+2366 chars]",
                 "description": "The worst result, after buying shares in a company (assuming no leverage), would be if you lose all the money you put...",
@@ -36517,22 +37131,113 @@
                 "title": "Alphabet Inc. (A)-Aktie Aktuell - Alphabet Inc. (A) gewinnt 0,8 Prozent",
                 "url": "https://www.focus.de/finanzen/boerse/aktien/alphabet-inc-a-aktie-10-10-2020_id_11103153.html",
                 "urlToImage": "https://p5.focus.de/img/fotos/crop10336803/725271261-w1200-h627-o-q75-p5/alphabet-3-.jpg"
-            },
-            {
-                "author": "f100/textOmatic",
-                "content": "Die Anleger von Alphabet Inc. (C) haben keinen richtigen Grund zur Freude. Bisher kann das Wertpapier unwesentlich zulegen. Bei B\u00f6rsenschluss erreichte der Anteilschein des Softwarehersteller den Sta\u2026 [+1015 chars]",
-                "description": "Mit einem Zuwachs von 0,8 Prozent geh\u00f6rte das Wertpapier Alphabet Inc. (C) zu den Gewinnern des Tages. Bei Handelsschluss betrug der Preis der Aktie 1.274,40 Euro.",
-                "publishedAt": "2020-10-09T22:15:37Z",
-                "source": {
-                    "id": "focus",
-                    "name": "Focus"
-                },
-                "title": "Alphabet Inc. (C)-Aktie Aktuell - Alphabet Inc. (C) gewinnt 0,8 Prozent",
-                "url": "https://www.focus.de/finanzen/boerse/aktien/alphabet-inc-c-aktie-10-10-2020_id_11103154.html",
-                "urlToImage": "https://p5.focus.de/img/fotos/crop10336803/725271261-w1200-h627-o-q75-p5/alphabet-3-.jpg"
             }
         ],
         "INTC": [
+            {
+                "author": "Borja Rodr\u00edguez",
+                "content": "Intel lanz\u00f3 sin hacer nada de ruido un nuevo procesador, el Core i3-10100F, el cual quiere convertirse en el nuevo procesador rey del mercado gaming de bajo coste. Para ello ofrece una configuraci\u00f3n \u2026 [+1121 chars]",
+                "description": "Intel lanz\u00f3 sin hacer nada de ruido un nuevo procesador, el Core i3-10100F, el cual quiere convertirse en el nuevo procesador rey del mercado gaming de bajo coste. Para ello ofrece una configuraci\u00f3n de 4 n\u00facleos y 8 hilos de procesamiento a una frecuencia Bas\u2026",
+                "publishedAt": "2020-10-10T18:50:30Z",
+                "source": {
+                    "id": null,
+                    "name": "Elchapuzasinformatico.com"
+                },
+                "title": "Inte lanza en silencio el Core i3-10100F para intentar plantar cara al AMD Ryzen 3 3300X",
+                "url": "https://elchapuzasinformatico.com/?p=392700",
+                "urlToImage": "https://elchapuzasinformatico.com/wp-content/uploads/2020/10/Intel-Core-i3-de-10\u00aa-Generacion.jpg"
+            },
+            {
+                "author": "Joe Osborne",
+                "content": "When you buy through our links, we may earn money from our affiliate partners. Learn more.\r\nAmazon\r\nAmazon Prime Day brings some of the best deals on laptops on an annual basis \u2013 this year set back a\u2026 [+4993 chars]",
+                "description": "Summary List Placement\nAmazon Prime Day brings some of the best deals on laptops on an annual basis \u2013 this year set back a bit for obvious reasons. In recent years, Prime Day laptop deals have rivaled those on Black Friday and Cyber Monday, and this year's ev\u2026",
+                "publishedAt": "2020-10-10T18:50:00Z",
+                "source": {
+                    "id": "business-insider",
+                    "name": "Business Insider"
+                },
+                "title": "The best laptop deals we expect on Amazon Prime Day 2020 from Apple, Dell, Lenovo, and more",
+                "url": "https://www.businessinsider.com/best-prime-day-laptop-deals",
+                "urlToImage": "https://i.insider.com/5d2ca98ca17d6c345463dce5?width=1200&format=jpeg"
+            },
+            {
+                "author": null,
+                "content": "the Media Driver 2020.3 with Gen12/Xe AV1 decode and other improvements for their quarterly feature release of this open-source video acceleration driver. They have also now released their adjoining \u2026 [+924 chars]",
+                "description": "Just over one week ago Intel released the Media Driver 2020.3 with Gen12/Xe AV1 decode and other improvements for their quarterly feature release of this open-source video acceleration driver. They have also now released their adjoining Media SDK 20.3 open-so\u2026",
+                "publishedAt": "2020-10-10T18:39:40Z",
+                "source": {
+                    "id": null,
+                    "name": "Phoronix"
+                },
+                "title": "Intel Media SDK 20.3 Released With AV1 Decode, Rocket Lake + DG1/SG1 Support",
+                "url": "https://www.phoronix.com/scan.php?page=news_item&px=Intel-Media-SDK-20.3-Released&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Phoronix+%28Phoronix%29",
+                "urlToImage": null
+            },
+            {
+                "author": "Brad Linder",
+                "content": "Apple is set to announce its new iPhones next week. But according to a new report, the company will introduce its next MacBook a month later\u2026 and it\u2019ll be the company\u2019s first to feature an Apple-made\u2026 [+3009 chars]",
+                "description": "Apple is set to announce its new iPhones next week. But according to a new report, the company will introduce its next MacBook a month later\u2026 and it\u2019ll be the company\u2019s first to feature an Apple-made processor based on ARM technology. Meanwhile, gaming compan\u2026",
+                "publishedAt": "2020-10-10T18:37:55Z",
+                "source": {
+                    "id": null,
+                    "name": "Liliputing"
+                },
+                "title": "Lilbits: Razer\u2019s Tiger Lake gaming laptop, Apple\u2019s ARM MacBooks & Pine64\u2019s open source communicator",
+                "url": "https://liliputing.com/2020/10/lilbits-razers-tiger-lake-gaming-laptop-apples-arm-macbooks-pine64s-open-source-communicator.html",
+                "urlToImage": "https://liliputing.com/wp-content/uploads/2020/10/razer-blade-stealth-13.jpg"
+            },
+            {
+                "author": "StackSocial",
+                "content": "There are many ways to drive traffic to your website, but search is still the most effective.\u00a0The Ultimate Google Ads &amp; SEO Certification Bundle\u00a0helps you reach the top of the results page, with \u2026 [+2291 chars]",
+                "description": "There are many ways to drive traffic to your website, but search is still the most effective.\u00a0The Ultimate Google Ads & SEO Certification Bundle\u00a0helps you reach the top of the results page, with 29 hours of hands-on instruction from top tutors. The training i\u2026",
+                "publishedAt": "2020-10-10T18:36:03Z",
+                "source": {
+                    "id": null,
+                    "name": "Windows Central"
+                },
+                "title": "Learn how to get more website traffic with this SEO and Google Ads training \u2014 now $49.99",
+                "url": "https://www.windowscentral.com/learn-how-get-more-website-traffic-seo-and-google-ads-training-now-4999",
+                "urlToImage": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2020/10/sale_41161_article_image-4d1n.jpg"
+            },
+            {
+                "author": "verko@corp.ixbt.com (VerKo)",
+                "content": "Razer, , Razer Blade Stealth 13.\u00a0\r\n Razer Blade Stealth 13 2020 (late 2020) 10-\u00a0 Tiger Lake \u00a0\u2014 Intel Core 11 (i7-1165G7).\u00a0\r\n Razer 13- Blade Stealth 13, 120 . OLED Full HD 100- DCI-P3. 120 , .\u00a0\r\n , N\u2026 [+159 chars]",
+                "description": "\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Razer, \u0445\u043e\u0440\u043e\u0448\u043e \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0438 \u0433\u0435\u0439\u043c\u0435\u0440\u043e\u0432, \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u043b\u0430 \u043d\u043e\u0432\u043e\u0435 \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u044f \u0443\u043b\u044c\u0442\u0440\u0430\u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0438\u0433\u0440\u043e\u0432\u043e\u0433\u043e \u043d\u043e\u0443\u0442\u0431\u0443\u043a\u0430 Razer Blade Stealth 13.\u00a0 \r\n \u041c\u043e\u0434\u0435\u043b\u044c Razer Blade Stealth 13 \u043a\u043e\u043d\u0446\u0430 2020 \u0433\u043e\u0434\u0430 (late 2020) \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0430 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 10-\u043d\u0430\u043d\u043e\u043c\u0435\u0442\u0440\u043e\u0432\u043e\u0433\u043e\u00a0\u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0435 Tiger Lake \u2026",
+                "publishedAt": "2020-10-10T18:18:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Ixbt.com"
+                },
+                "title": "11 \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435 Intel Core \u0438 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u044b\u0439 \u044d\u043a\u0440\u0430\u043d OLED. \u0413\u0435\u0439\u043c\u0435\u0440\u0441\u043a\u0438\u0439 \u0443\u043b\u044c\u0442\u0440\u0430\u043f\u043e\u0440\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043d\u043e\u0443\u0442\u0431\u0443\u043a Razer Blade Stealth \u0441\u0442\u0430\u043b \u0435\u0449\u0451 \u043b\u0443\u0447\u0448\u0435",
+                "url": "https://www.ixbt.com/news/2020/10/10/11-intel-core-oled-razer-blade-stealth.html",
+                "urlToImage": "https://www.ixbt.com/img/n1/news/2020/9/6/razer-blade-stealth-13-hero-desktop_large.jpg"
+            },
+            {
+                "author": "Lewis White",
+                "content": "Razer has revealed their upcoming Razer Blade Stealth 2020 upgrade with boosted specs and new display options.\u00a0\r\nThe ultra-portable slim laptop is now available with an updated 10nm four-core, eight-\u2026 [+1229 chars]",
+                "description": "Razer has revealed their upcoming Razer Blade Stealth 2020 upgrade with boosted specs and new display options.\u00a0 The ultra-portable slim laptop is now available with an updated 10nm four-core, eight-thread 11th-gen Intel CPU running at a base clock speed of 2.\u2026",
+                "publishedAt": "2020-10-10T18:12:00Z",
+                "source": {
+                    "id": null,
+                    "name": "MSPoweruser"
+                },
+                "title": "Razer Blade Stealth 2020 gets 11th-Gen Intel and OLED screen",
+                "url": "https://mspoweruser.com/razer-blade-stealth-2020-11thgen-intel-oled-screen/",
+                "urlToImage": "https://mspoweruser.com/wp-content/uploads/2020/10/F8DF7EB2-350D-47FE-8412-7B8757078304.jpeg"
+            },
+            {
+                "author": "Ray Flook",
+                "content": null,
+                "description": "Just when you thought STARZ's American Gods had wrapped up the reveals after debuting the first teaser for the third season after series creator/author, Neil Gaiman and cast members Ricky Whittle (Shadow Moon), Emily Browning (Laura Moon), Yetide Badaki (Bilq\u2026",
+                "publishedAt": "2020-10-10T18:08:22Z",
+                "source": {
+                    "id": null,
+                    "name": "Bleeding Cool News"
+                },
+                "title": "American Gods Season 3 Offers First Look at Julia Sweeney's Hinzelmann",
+                "url": "https://bleedingcool.com/tv/american-gods-season-3-offers-first-look-at-julia-sweeneys-hinzelmann/",
+                "urlToImage": "https://bleedingcool.com/wp-content/uploads/2020/10/1500x500-8-1200x628.jpg"
+            },
             {
                 "author": "Marius Nestor",
                 "content": "The Kubuntu Focus team announced the launch of Kubuntu Focus M2 as the second generation of their Kubuntu Focus Linux laptop with an updated design, newer components, and the latest Kubuntu release.\r\u2026 [+2131 chars]",
@@ -36558,245 +37263,232 @@
                 "title": "Meg\u00e9rkezett a DDR5-\u00f6s mem\u00f3ria",
                 "url": "https://www.origo.hu/techbazis/20201008-sk-hynix-elso-ddr5-dram-memoria.html",
                 "urlToImage": "https://cdn.nwmgroups.hu/s/img/i/2010/20201008197.jpg"
-            },
-            {
-                "author": "kolomas",
-                "content": "Description - MSI - PS42 8RB-428FR - ArgentGarantie 2 ans\r\nAvec le MSI PS42, MSI vous propose une nouvelle g\u00e9n\u00e9ration d'ultraportables performants. Malgr\u00e9 un poids ultral\u00e9ger et un ch\u00e2ssis ultrafin, \u2026 [+8310 chars]",
-                "description": "Description - MSI - PS42 8RB-428FR - Argent<br />Garantie 2 ans<br /><br /><br /><img src=\"https://static-pepper.dealabs.com/threads/content/H7Jrb/1977961.jpg\" data-image=\"1977961-H7Jrb\" data-height=\"376\" data-width=\"650\" alt=\"1977961.jpg\" /><br /><br /><br /\u2026",
-                "publishedAt": "2020-10-10T17:42:39Z",
-                "source": {
-                    "id": null,
-                    "name": "Dealabs.com"
-                },
-                "title": "Pc Portable 14\" MSI Prestige PS42 8RB-428FR - 1.19 kg, FHD, I7-8550U, RAM 8 Go, MX150, SSD 512 Go, Windows 10",
-                "url": "https://www.dealabs.com/bons-plans/pc-portable-14-full-hd-msi-msi-ps42-8rb-428fr-intel-core-i7-8550u-ssd-512-go-ram-8-go-nvidia-geforce-mx150-2-go-windows-10-1977961",
-                "urlToImage": "https://static-pepper.dealabs.com/threads/thread_full_screen/default/1977961_1.jpg"
-            },
-            {
-                "author": "Dan Ackerman",
-                "content": "\u00d3scar Guti\u00e9rrez/CNET\r\nThis story is part of Apple Event, our full coverage of the latest news from Apple headquarters.\r\nApple has announced its newest iPhone during a September media event every year\u2026 [+3562 chars]",
-                "description": "Apple announced another virtual event, happening Oct. 13. And there are still a few products we're waiting to see.",
-                "publishedAt": "2020-10-10T17:40:00Z",
-                "source": {
-                    "id": null,
-                    "name": "CNET"
-                },
-                "title": null,
-                "url": "https://www.cnet.com/news/iphone-12-isnt-only-apple-announcement-we-expect-on-october-13-homepod-and-more/",
-                "urlToImage": "https://cnet1.cbsistatic.com/img/cczYTnyi-6j07Cq6hqNFH3cmF-8=/1200x630/2020/07/08/e20c2771-c734-4606-a713-2b0dc6f49822/ios-14-10-de-13.jpg"
-            },
-            {
-                "author": "Borja Rodr\u00edguez",
-                "content": "Nada mejor que entretenerte un s\u00e1bado con un nuevo juego gratuito como el Sonic The Hedgehog 2, el cual est\u00e1 en Steam de forma gratuita hasta la tarde del 19 de octubre. Puedes a\u00f1adirlo a tu bibliote\u2026 [+800 chars]",
-                "description": "Nada mejor que entretenerte un s\u00e1bado con un nuevo juego gratuito como el Sonic The Hedgehog 2, el cual est\u00e1 en Steam de forma gratuita hasta la tarde del 19 de octubre. Puedes a\u00f1adirlo a tu biblioteca, para siempre, desde el siguiente enlace. El Dr. Eggman (\u2026",
-                "publishedAt": "2020-10-10T17:33:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Elchapuzasinformatico.com"
-                },
-                "title": "Descarga gratis desde Steam el juego Sonic The Hedgehog 2",
-                "url": "https://elchapuzasinformatico.com/?p=392674",
-                "urlToImage": "https://elchapuzasinformatico.com/wp-content/uploads/2020/10/Sonic-The-Hedgehog-2.jpg"
-            },
-            {
-                "author": "Mauro Notarianni",
-                "content": "Manca poco alla presentazione dei risultati del quarto trimestre dellanno fiscale 2020 di Apple (annunci specifici arriveranno a fine ottobre) ma Canalys (societ\u00e0 di analisi specializzata nel settore\u2026 [+1986 chars]",
-                "description": "Secondo una societ\u00e0 di analisi specializzata nel settore tecnologico, Apple segna un +13% nelle spedizioni dei Mac per il terzo trimestre dell'anno.\n- su macitynet.it Le spedizioni Mac nel terzo trimestre 2020 segnano un +13%",
-                "publishedAt": "2020-10-10T17:19:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Macitynet.it"
-                },
-                "title": "Le spedizioni Mac nel terzo trimestre 2020 segnano un +13%",
-                "url": "https://www.macitynet.it/le-spedizioni-mac-nel-terzo-trimestre-2020-segnano-un-13/",
-                "urlToImage": "https://www.macitynet.it/wp-content/uploads/2020/09/macbook-apple-ico-14set20.jpg"
-            },
-            {
-                "author": "feedfeeder",
-                "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way.",
-                "description": "A few short months after it updated the Blade Stealth earlier in the year, Razer is once refreshing the ultraportable. New to the late 2020 model is a 10nm Tiger Lake processor from Intel. The four-core, eight-thread 11th-gen CPU features a 2.8GHz ba...",
-                "publishedAt": "2020-10-10T17:14:08Z",
-                "source": {
-                    "id": null,
-                    "name": "Slashdot.org"
-                },
-                "title": "Razer's Blade Stealth gets an 11th-gen Intel CPU and OLED display option",
-                "url": "https://slashdot.org/firehose.pl?op=view&amp;id=137084000",
-                "urlToImage": null
-            },
-            {
-                "author": null,
-                "content": "Apply coupon code \"PFALL15\" to save on almost 5,000 items, including electronics, computers, tools, TVs, toys, and much more. Shop Now at eBay",
-                "description": "That's at least $142 less than you'd pay for a new one and a savings of $230 off list. Buy Now at eBay \r\n Tips\r\n <ul> <li>Sold by Acer via eBay.</li> <li>A 90-day Acer warranty is provided.</li> </ul> Features\r\n <ul> <li>9th-generation Intel i5-9300H 2.4GHz C\u2026",
-                "publishedAt": "2020-10-10T17:13:19Z",
-                "source": {
-                    "id": null,
-                    "name": "Dealnews.com"
-                },
-                "title": "Refurb Acer Nitro 5 9th-Gen i5 17.3\" Gaming Laptop w/ 512GB SSD, 4GB GPU for $650 + free shipping",
-                "url": "https://www.dealnews.com/products/Acer/Nitro-5-9-th-Gen-i5-2-4-GHz-17-3-1080-p-Gaming-Laptop/76759.html",
-                "urlToImage": "https://c.dlnws.com/image/upload/creative/logos/dn-logo-web.svg"
-            },
-            {
-                "author": "Ilya Tsukanov. Sputnik International",
-                "content": "Iranian websites, including those belonging to the Islamic Republics foreign language media, have been subjected to several waves of censorship, by the US government directly and from American tech g\u2026 [+4240 chars]",
-                "description": "Iranian websites, including those belonging to the Islamic Republic\u2019s foreign language media, have been subjected to several waves of censorship, by the US government directly and from American tech giants such as Google, Microsoft, Facebook, Twitter and Inst\u2026",
-                "publishedAt": "2020-10-10T17:04:14Z",
-                "source": {
-                    "id": null,
-                    "name": "Sputnik International"
-                },
-                "title": "DoJ Seizes 92 Iranian Government Domains, Claims They Were Used for \u2018Global Disinformation Campaign'",
-                "url": "https://sputniknews.com/world/202010101080732825-doj-seizes-92-iranian-government-domains-claims-they-were-used-for-global-disinformation-campaign/",
-                "urlToImage": "https://cdn1.img.sputniknews.com/images/105774/13/1057741382.jpg"
-            },
-            {
-                "author": "Adam Bankhurst",
-                "content": "The inaugural RazerCon 2020 featured some big announcements for PC gamers, including a new laptop, desktop mic, gaming chassis, Razer's first gaming chair, and much more.From the Razer Blade Stealth \u2026 [+4768 chars]",
-                "description": "From the Razer Blade Stealth 13 to the Razer Iskur Gaming Chair, here is every product announced at RazerCon 2020.",
-                "publishedAt": "2020-10-10T17:00:54Z",
-                "source": {
-                    "id": "ign",
-                    "name": "IGN"
-                },
-                "title": "The Razer Blade Stealth 13 and Every Product Announced at RazerCon 2020",
-                "url": "https://www.ign.com/articles/razercon-2020-the-razer-blade-stealth-13-razer-iskur-gaming-chair-and-every-other-product-announced",
-                "urlToImage": "https://assets1.ignimgs.com/2020/10/10/lappp-1602308185051.jpg?width=1280"
             }
         ],
         "JNJ": [
             {
-                "author": "Deutsche Welle (www.dw.com)",
-                "content": "Centenares de personas participaron en dos manifestaciones este s\u00e1bado (10.10.2020) en Roma para rechazar el uso obligatorio de las mascarillas como medida de protecci\u00f3n contra la pandemia de coronav\u2026 [+6222 chars]",
-                "description": "Centenares de personas participaron en dos manifestaciones este s\u00e1bado (10.10.2020) en Roma para rechazar el uso obligatorio de las mascarillas como medida de protecci\u00f3n contra la pandemia de coronavirus.\n\nUna de las manifestaciones reuni\u00f3 a cientos de neofas\u2026",
-                "publishedAt": "2020-10-10T17:35:00Z",
+                "author": "Dominic McGrath",
+                "content": "NEED TO CATCH up?\u00a0TheJournal.ie\u00a0brings you a round-up of todays news.\r\nIRELAND\r\nShopping on Grafton Street in Dublin today.\r\n Source: Sam Boal/RollingNews.ie\r\nINTERNATIONAL\r\nThere was a march in Lond\u2026 [+1254 chars]",
+                "description": "Here\u2019s your round-up of what made headlines today.",
+                "publishedAt": "2020-10-10T18:55:05Z",
                 "source": {
                     "id": null,
-                    "name": "DW (English)"
+                    "name": "TheJournal.ie"
                 },
-                "title": "Cientos de personas manifiestan en Roma contra el uso de mascarillas",
-                "url": "https://www.dw.com/es/cientos-de-personas-manifiestan-en-roma-contra-el-uso-de-mascarillas/a-55231307",
-                "urlToImage": "https://www.dw.com/image/55230658_6.jpg"
+                "title": "Here's What Happened Today: Saturday",
+                "url": "https://www.thejournal.ie/news-fix-evening-saturday-5229689-Oct2020/",
+                "urlToImage": "https://img2.thejournal.ie/article/5229689/river/?height=400&version=5229693"
             },
             {
-                "author": "Gary Washburn",
-                "content": "He does not see himself as a new-age leader or particularly special.\r\nI guess [being in the spotlight] doesnt mean as much to me as people would think, Brown said. I think that needs to be normalized\u2026 [+12783 chars]",
-                "description": "\u00ab I\u2019m not a civil rights leader or anything like that, but I do recognize that I have a platform and hopefully I can try to enhance voices that get lost, \u00bb said Brown.",
-                "publishedAt": "2020-10-10T17:29:20Z",
+                "author": "STERN.de",
+                "content": "Corona-Ausbruch in nieders\u00e4chsischem Altenheim +++ Hamburg versch\u00e4rft Maskenpflicht +++ Sperrstunden \"mehr als fragw\u00fcrdig\" Kassenarztchef kritisiert Corona-Politik +++ Mehr als 4700 Corona-Neuinfekti\u2026 [+132551 chars]",
+                "description": "Corona-Ausbruch in nieders\u00e4chsischem Altenheim +++ Hamburg versch\u00e4rft Maskenpflicht +++ Sperrstunden \"mehr als fragw\u00fcrdig\" \u2013 Kassenarztchef kritisiert Corona-Politik +++ Mehr als 4700 Corona-Neuinfektionen in Deutschland +++ News zur Coronavirus-Pandemie.",
+                "publishedAt": "2020-10-10T18:55:00Z",
+                "source": {
+                    "id": null,
+                    "name": "STERN.de"
+                },
+                "title": "News zum Coronavirus: Viele Corona-Infektionen in Stuttgart \u2013 Stadt \u00fcberschreitet Warnstufe",
+                "url": "https://www.stern.de/gesundheit/coronavirus-news--viele-corona-infektionen-in-stuttgart---stadt-ueberschreitet-warnstufe-9439590.html",
+                "urlToImage": "https://image.stern.de/9447552/t/J7/v1/w1440/r1.7778/-/stuttgart.jpg"
+            },
+            {
+                "author": "mirrornews@mirror.co.uk (Alan Selby)",
+                "content": "Tories are hiring a Grenfell tsar on \u00a3130,000 a year as families still face a bitter fight for justice.\r\nGovernment housing chiefs want an expert to oversee safety at the blaze site, liaise with rela\u2026 [+6621 chars]",
+                "description": "EXCLUSIVE: The Government is more interested on creating jobs for cronies than using cash to help victims of the Grenfell fire, the campaign group Justice 4 Grenfell is claiming",
+                "publishedAt": "2020-10-10T18:53:55Z",
+                "source": {
+                    "id": null,
+                    "name": "Mirror Online"
+                },
+                "title": "Fury as Tories hire \u00a3130,000 'Grenfell Tsar' as families fight on for justice",
+                "url": "https://www.mirror.co.uk/news/politics/fury-tories-hire-130000-grenfell-22824676",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article22824045.ece/ALTERNATES/s1200/0_Tower-block-fire-in-London.jpg"
+            },
+            {
+                "author": "Daniel Laguna",
+                "content": "Editorial: Gaming / Facebook / Twitter / YouTube / Instagram / Noticias / Discord / Foros\r\nMicrosoft quiere que todas las personas puedan disfrutar sin problemas lo que ofrece el ecosistema de Xbox. \u2026 [+2586 chars]",
+                "description": "Editorial: Gaming / Facebook / Twitter / YouTube / Instagram / Noticias / Discord / Foros\nContinuar leyendo \u00bb",
+                "publishedAt": "2020-10-10T18:45:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Levelup.com"
+                },
+                "title": "Xbox Series X apuesta por la accesibilidad con un detalle de su dise\u00f1o",
+                "url": "https://www.levelup.com/noticias/594830/Xbox-Series-X-apuesta-por-la-accesibilidad-con-un-detalle-de-su-diseno",
+                "urlToImage": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/665633_600x315.jpg"
+            },
+            {
+                "author": null,
+                "content": "Is it possible to make a $700 \"mainstream-audio\" power amplifier sound exactly like a high-priced perfectionist amplifier? Bob Carver, of Carver Corporation, seemed to think he could, so we challenge\u2026 [+5905 chars]",
+                "description": "Is it possible to make a $700 \"mainstream-audio\" power amplifier sound exactly like a high-priced perfectionist amplifier? Bob Carver, of Carver Corporation, seemed to think he could, so we challenged him to prove it.",
+                "publishedAt": "2020-10-10T18:36:44Z",
+                "source": {
+                    "id": null,
+                    "name": "Stereophile.com"
+                },
+                "title": "The Carver Challenge (1985)",
+                "url": "https://www.stereophile.com/content/carver-challenge",
+                "urlToImage": "https://www.stereophile.com/images/carver1042608.jpg"
+            },
+            {
+                "author": "Mark Landler",
+                "content": "Its a metaphor for his government, and thats affecting him personally, said Jonathan Powell, who was chief of staff to Tony Blair when he was prime minister. He looks like the wrong man for the job a\u2026 [+5789 chars]",
+                "description": "President Donald Trump got a well-wishing phone call this past week from one of the few foreign leaders who knows what he\u2019s been going through: Prime Minister Boris Johnson of Britain, a survivor of a serious brush with the coronavirus this spring.",
+                "publishedAt": "2020-10-10T18:31:23Z",
                 "source": {
                     "id": null,
                     "name": "The Boston Globe"
                 },
-                "title": "Jaylen Brown looks to make impact bigger than basketball",
-                "url": "https://www.bostonglobe.com/2020/10/10/sports/jaylen-brown-looks-make-impact-bigger-than-basketball/",
-                "urlToImage": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/hSXiLzjse31YvaoLPX-jZKc3vgc=/506x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/KJ7CLGCL6VEKY2LDF4DDSUYTUY.jpg"
+                "title": "For Boris Johnson, and maybe Trump, COVID as metaphor is hard to shake",
+                "url": "https://www.bostonglobe.com/2020/10/10/world/boris-johnson-maybe-trump-covid-metaphor-is-hard-shake/",
+                "urlToImage": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=207"
             },
             {
-                "author": "Wesley Yin-Poole",
-                "content": "Here's a brilliant feature of the Xbox Series X: it has tactile indicators over the ports for the blind and to help with reach-around cabling.\r\nBryce Johnson, inclusive lead at Microsoft Devices and \u2026 [+1275 chars]",
-                "description": "Here's a brilliant feature of the Xbox Series X: it has tactile indicators over the ports for the blind and to help with reach-around cabling.Bryce Johnson, inclusive lead at Microsoft Devices and co-inventor of the superb Xbox Adaptive Controller, took to Tw\u2026",
-                "publishedAt": "2020-10-10T17:24:00Z",
+                "author": "mirrornews@mirror.co.uk (Lorraine King)",
+                "content": "Six members of the Governments scientific advisory committee have been recognised in Queens honours in a move been dubbed 'premature'.\r\n The SAGE members will be made an OBE despite their advice on t\u2026 [+4294 chars]",
+                "description": "Six member of the Government\u2019s scientific advisory committee will be made an OBE despite their advice on the coronavirus\npandemic possibly becoming the subject of a future probe",
+                "publishedAt": "2020-10-10T18:25:09Z",
                 "source": {
                     "id": null,
-                    "name": "Eurogamer.net"
+                    "name": "Mirror Online"
                 },
-                "title": "Xbox Series X has tactile indicators over the ports",
-                "url": "https://www.eurogamer.net/articles/2020-10-10-xbox-series-x-has-tactile-indicators-over-the-ports",
-                "urlToImage": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-10-10-18-21/-1602350495245.jpg/EG11/resize/1200x-1/-1602350495245.jpg"
+                "title": "Birthday Honours for Government\u2019s scientific advisers dubbed 'premature'",
+                "url": "https://www.mirror.co.uk/news/uk-news/queens-birthday-honours-governments-scientific-22824199",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article22824711.ece/ALTERNATES/s1200/0_Calum-Semple-Professor-of-Outbreak-Medicine-at-the-University-of-Liverpool-who-will-be-leading-wor.jpg"
             },
             {
-                "author": "WND News Services",
-                "content": "(MSNBC) Fridays broadcast of MSNBCs Deadline, MSNBCs Jason Johnson accused President Donald Trump of raising an illegal white nationalist terrorist army to intimidate voters at the polls.\r\nAnchor Nic\u2026 [+1067 chars]",
-                "description": "(MSNBC) Friday\u2019s broadcast of MSNBC\u2019s \u201cDeadline,\u201d MSNBC\u2019s Jason Johnson accused President Donald Trump of \u201craising an illegal white nationalist terrorist army\u201d to intimidate voters at the polls. Anchor Nicolle Wallace said, \u201cI think what the foiled plot again\u2026",
-                "publishedAt": "2020-10-10T17:21:05Z",
+                "author": "James O'Brien",
+                "content": "By putting Tyler Johnson on waivers on Friday, the Tampa Bay Lightning hoped to circumvent his no-trade clause and get rid of his $5 million cap hit. That didn\u2019t work, as Johnson cleared waivers on S\u2026 [+2327 chars]",
+                "description": "Lightning do not get to clear his $5M in cap space so easily.",
+                "publishedAt": "2020-10-10T18:24:07Z",
                 "source": {
                     "id": null,
-                    "name": "Wnd.com"
+                    "name": "NBCSports.com"
                 },
-                "title": "MSNBC's Jason Johnson: Trump 'raising an illegal white nationalist terrorist army'",
-                "url": "https://www.wnd.com/2020/10/msnbcs-jason-johnson-trump-raising-illegal-white-nationalist-terrorist-army/",
-                "urlToImage": "https://www.wnd.com/wp-content/uploads/2020/10/Nicolle_Wallace_Jason_Johnson.jpg"
+                "title": "Tyler Johnson clears waivers, Lightning salary cap challenges continue",
+                "url": "https://nhl.nbcsports.com/2020/10/10/tyler-johnson-clears-waivers-lightning-salary-cap-challenges-continue/",
+                "urlToImage": "https://nhl.nbcsports.com/wp-content/uploads/sites/13/2020/10/GettyImages-1276285835-e1602354087447.jpg"
             },
             {
-                "author": "",
-                "content": "(ANSA) - ROMA, 10 OTT - Interverr\u00e0 in parlamento luned\u00ec il\r\nprimo ministro britannico Boris Johnson con un aggiornamento\r\nsulle misure per contrastare la diffusione del coronavirus, in\r\nparticolare i\u2026 [+580 chars]",
-                "description": "Interverr\u00e0 in parlamento luned\u00ec il primo ministro britannico Boris Johnson con un aggiornamento\r\nsulle misure per contrastare la diffusione del coronavirus, in particolare in Inghilterra, e\r\nnell'ambito delle quali si attendono ulteriori restrizioni, relativ.\u2026",
-                "publishedAt": "2020-10-10T17:20:15Z",
-                "source": {
-                    "id": "ansa",
-                    "name": "ANSA.it"
-                },
-                "title": "Covid: luned\u00ec Johnson in parlamento, attese nuove misure",
-                "url": "https://www.ansa.it/sito/notizie/mondo/europa/2020/10/10/covid-lunedi-johnson-in-parlamento-attese-nuove-misure_be22a0a3-964d-4a24-845c-024dbb9eb395.html",
-                "urlToImage": "https://www.ansa.it/webimages/img_165x110/2019/6/13/e53b6f535126da5713466fb67c1e8d59.jpg"
-            },
-            {
-                "author": "STERN.de",
-                "content": "Racing-Point-Pilot Stroll nicht topfit: Blitz-Comeback f\u00fcr H\u00fclkenberg am N\u00fcrburgring +++ Biathlon-Weltcup in Ruhpolding gestrichen +++ Juve wartet 45 Minuten auf Gegner +++ Last-Minute-Sieg: Lewandow\u2026 [+59635 chars]",
-                "description": "Racing-Point-Pilot Stroll nicht topfit: Blitz-Comeback f\u00fcr H\u00fclkenberg am N\u00fcrburgring +++ Biathlon-Weltcup in Ruhpolding gestrichen +++ Juve wartet 45 Minuten auf Gegner +++ Last-Minute-Sieg: Lewandowski\u00a0schn\u00fcrt Viererpack +++ Sport-News im \u00dcberblick.",
-                "publishedAt": "2020-10-10T17:16:00Z",
+                "author": "Skwawkbox (sw)",
+                "content": "A leaked document sent by NHS staff \u2018bank\u2019 NHS Professionals to contact tracers has exposed the Department of Health and Social Care\u2019s (DHSC) instructions not to trace contacts of people who catch th\u2026 [+1700 chars]",
+                "description": "A leaked document sent by NHS staff \u2018bank\u2019 NHS Professionals to contact tracers has exposed the Department of Health and Social Care\u2019s (DHSC) instructions not to trace contacts of\u2026",
+                "publishedAt": "2020-10-10T18:21:48Z",
                 "source": {
                     "id": null,
-                    "name": "STERN.de"
+                    "name": "Skwawkbox.org"
                 },
-                "title": "Sport kompakt: Deutsches Doppel Krawietz/Mies gewinnt wie im Vorjahr French Open",
-                "url": "https://www.stern.de/sport/sportwelt/sport-kompakt--deutsches-doppel-krawietz-mies-gewinnt-french-open-8575184.html",
-                "urlToImage": "https://image.stern.de/9447538/t/qt/v1/w1440/r1.7778/-/krawitz-mies-french-open.jpg"
+                "title": "Breaking: proof govt has told track and trace agents NOT to trace contacts of school staff or pupils or pass details to local health teams",
+                "url": "https://skwawkbox.org/2020/10/10/breaking-proof-govt-has-told-track-and-trace-agents-not-to-trace-contacts-of-school-staff-or-pupils-or-pass-details-to-local-health-teams/",
+                "urlToImage": "https://i0.wp.com/skwawkbox.org/wp-content/uploads/2020/10/nhsp-tt-cropped.png?fit=1111%2C959&ssl=1"
             },
             {
-                "author": "STERN.de",
-                "content": "Hat Donald Trump im eher linkslastigen Hollywood noch Unterst\u00fctzung? Welche Promis legen sich f\u00fcr Joe Biden ins Zeug? Rot oder Blau? Beim Endspurt im US-Wahlkampf bekennen viele K\u00fcnstler Farbe.\r\nEs i\u2026 [+6177 chars]",
-                "description": "Hat Donald Trump im eher linkslastigen Hollywood noch Unterst\u00fctzung? Welche Promis legen sich f\u00fcr Joe Biden ins Zeug? Rot oder Blau? Beim Endspurt im US-Wahlkampf bekennen viele K\u00fcnstler Farbe.",
-                "publishedAt": "2020-10-10T17:14:00Z",
+                "author": null,
+                "content": "Bryce Johnson, el director de tecnolog\u00eda inclusiva de Microsoft y uno de los responsables del Xbox Adaptative Controller, ha revelado en Twitter que los puertos traseros de Xbox Series X y Xbox Serie\u2026 [+484 chars]",
+                "description": "<table><tr><td></td></tr></table>Bryce Johnson, el director de tecnolog\u00eda inclusiva de Microsoft y uno de los responsables del Xbox Adaptative Controller, ha revelado en Twitter que los puertos traseros de Xbox Series X y Xbox Series S tienen indicadores t\u00e1ct\u2026",
+                "publishedAt": "2020-10-10T18:13:16Z",
                 "source": {
                     "id": null,
-                    "name": "STERN.de"
+                    "name": "Elotrolado.net"
                 },
-                "title": "US-Wahl: Wahlkampf spaltet auch Hollywood: Trump oder Biden?",
-                "url": "https://www.stern.de/lifestyle/wahlkampf-spaltet-auch-hollywood--trump-oder-biden--9446300.html",
-                "urlToImage": "https://image.stern.de/9446302/t/rs/v5/w1440/r1.7778/-/angelina-jolie.jpg"
-            },
-            {
-                "author": "By Frances Mulraney For Dailymail.com",
-                "content": "The last limo to safely transport President John F. Kennedy before his assassination is expected to reach up to $500,000 at auction this week.\u00a0\r\nThe 1963 Lincoln Continental that JFK and First Lady J\u2026 [+4920 chars]",
-                "description": "The 1963 Lincoln Continental that JFK and First Lady Jackie Kennedy traveled in on the morning of November 22, 1963, is going up for auction this week and is expected to make $500,000.",
-                "publishedAt": "2020-10-10T17:03:34Z",
-                "source": {
-                    "id": null,
-                    "name": "Daily Mail"
-                },
-                "title": "Convertible JFK rode in on the morning of his assassination may fetch up to $500,000 at auction",
-                "url": "https://www.dailymail.co.uk/news/article-8826505/Convertible-JFK-rode-morning-assassination-fetch-500-000-auction.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2020/10/10/17/34231792-0-image-a-24_1602347699611.jpg"
-            },
-            {
-                "author": "By Associated Press",
-                "content": "Sara Branscome\u00b4s golf cart whizzed down the smooth asphalt path that winds through The Villages, the nation\u00b4s largest retirement community, an expanse of beautiful homes, shops and entertainment venu\u2026 [+16087 chars]",
-                "description": "THE VILLAGES, Fla. (AP) - Sara Branscome\u00b4s golf cart whizzed down the smooth asphalt path that winds through The Villages, the nation\u00b4s largest retirement...",
-                "publishedAt": "2020-10-10T17:02:51Z",
-                "source": {
-                    "id": null,
-                    "name": "Daily Mail"
-                },
-                "title": "A senior warning sign for Trump: 'Go Biden' cry at...",
-                "url": "https://www.dailymail.co.uk/news/article-8825661/A-senior-warning-sign-Trump-Go-Biden-cry-Villages.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2020/10/10/17/wire-34232028-1602348074-837_636x382.jpg"
-            },
-            {
-                "author": "",
-                "content": "STILLWATER, Minn. \u2014 (AP) A man already imprisoned in Minnesota for murder has been sentenced to life behind bars after admitting to killing a guard in 2018.\r\nEdward Muhammad Johnson, 44, pleaded guil\u2026 [+1969 chars]",
-                "description": "An inmate who is already imprisoned for murder has pleaded guilty to killing a Minnesota corrections officer in 2018 and was sentenced to life in prison",
-                "publishedAt": "2020-10-10T17:00:23Z",
-                "source": {
-                    "id": null,
-                    "name": "KOKI FOX 23"
-                },
-                "title": "Man in prison for murder admits to killing Minnesota guard",
-                "url": "https://www.fox23.com/news/national/man-prison-murder/JTWRQKG7UIA6VUO63TO272Z57Y/",
-                "urlToImage": "https://www.fox23.com/resizer/mY-gdNjnZTuPfjXKXA9di-J4Crg=/1200x628/cloudfront-us-east-1.images.arcpublishing.com/cmg/LL56XM5RG2QFTVA4KVH2PTMRSM.jpg"
+                "title": "Breve: Xbox Series X y Xbox Series S tienen indicadores t\u00e1ctiles para identificar los puertos",
+                "url": "https://www.elotrolado.net/hilo_xbox-series-x-y-xbox-series-s-tienen-indicadores-tactiles-para-identificar-los-puertos_2397070",
+                "urlToImage": "https://images.elotrolado.net/headers/breves_news.jpg"
             }
         ],
         "LN": [
+            {
+                "author": "mirrornews@mirror.co.uk (Alan Selby)",
+                "content": "Starbucks has been roasted after its tax bill fell by half last year even though annual profits were up by more than \u00a313million.\r\nGross profits by the coffee chains UK arm rose 24 per cent to \u00a369.9mi\u2026 [+1989 chars]",
+                "description": "EXCLUSIVE: The coffee chain giant has been slammed after paying just \u00a31.9m in corporation tax after returning profits in the UK of \u00a369.9m - campaigners are demanding reform",
+                "publishedAt": "2020-10-10T18:57:07Z",
+                "source": {
+                    "id": null,
+                    "name": "Mirror Online"
+                },
+                "title": "Starbucks tax bill plummeted by half last year - despite profits rising by \u00a313m",
+                "url": "https://www.mirror.co.uk/news/uk-news/starbucks-tax-bill-plummeted-half-22824731",
+                "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article7136467.ece/ALTERNATES/s1200/Starbucks.jpg"
+            },
+            {
+                "author": "CNW Group",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "TORONTO, Oct. 10, 2020 /CNW/ - Saturday 10/10/2020PICK-2: 8 7 PICK-3: 7 9 1 PICK-4: 3 3 8 9 ENCORE: 1679203 DAILY KENO 2,\u00a0 6,\u00a0 8,\u00a0 9, 14, 18, 21, 31, 32, 33, 34, 35, 37, 40, 50, 51, 55, 56, 59, 67.",
+                "publishedAt": "2020-10-10T18:37:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Ontario Lottery and Gaming Corporation - MidDay lottery winning numbers - October 10, 2020",
+                "url": "https://finance.yahoo.com/news/covid-19-pandemic-sparks-72-080000388.html",
+                "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png"
+            },
+            {
+                "author": null,
+                "content": "Is it possible to make a $700 \"mainstream-audio\" power amplifier sound exactly like a high-priced perfectionist amplifier? Bob Carver, of Carver Corporation, seemed to think he could, so we challenge\u2026 [+5905 chars]",
+                "description": "Is it possible to make a $700 \"mainstream-audio\" power amplifier sound exactly like a high-priced perfectionist amplifier? Bob Carver, of Carver Corporation, seemed to think he could, so we challenged him to prove it.",
+                "publishedAt": "2020-10-10T18:36:44Z",
+                "source": {
+                    "id": null,
+                    "name": "Stereophile.com"
+                },
+                "title": "The Carver Challenge (1985)",
+                "url": "https://www.stereophile.com/content/carver-challenge",
+                "urlToImage": "https://www.stereophile.com/images/carver1042608.jpg"
+            },
+            {
+                "author": "John Cassidy",
+                "content": "Over the decades, Presidents who are trailing in the polls going into an election have resorted to many different tactics, such as whistle-stop tours, fresh policy initiatives, and military adventuri\u2026 [+8304 chars]",
+                "description": "John Cassidy writes about Donald Trump\u2019s bizarre statements in interviews during his coronavirus treatment, and their possible effects on the Presidential election.",
+                "publishedAt": "2020-10-10T18:13:03Z",
+                "source": {
+                    "id": null,
+                    "name": "The New Yorker"
+                },
+                "title": "Donald Trump\u2019s Loopy Self-Pity Tour of Conservative Media Outlets",
+                "url": "https://www.newyorker.com/news/our-columnists/donald-trumps-loopy-self-pity-tour-of-conservative-media-outlets",
+                "urlToImage": "https://media.newyorker.com/photos/5f81dc00b3351a3acb584c9f/16:9/w_1280,c_limit/Cassidy-TrumpSelfPityTour.jpg"
+            },
+            {
+                "author": "Patrick Gillespie",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "(Bloomberg) -- Argentina is expanding benefits to its burgeoning tech sector in an effort to boost much-needed foreign investment and exports, supporting a resilient industry that\u2019s grown amid a severe, three-year recession.Both chambers of congress recently \u2026",
+                "publishedAt": "2020-10-10T17:56:29Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Argentina Expands Tech Companies\u2019 Incentives Amid Recovery Push",
+                "url": "https://finance.yahoo.com/news/argentina-expands-tech-companies-incentives-175629629.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/m6FJ9lKqrXij7zZyjcDV0w--~B/aD03OTA7dz0xMjk2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/d99b038cdf538c6a66c4a7719d653db5"
+            },
+            {
+                "author": "Esteban Duarte",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "(Bloomberg) -- Air Canada slashed the purchase price for tour operator Transat AT Inc. to almost a quarter of its earlier offer, citing the impact of the Covid-19 outbreak on the air transport industry.The Montreal-based airline said it\u2019s cutting the offer fo\u2026",
+                "publishedAt": "2020-10-10T17:28:17Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Air Canada Slashes Price of Transat Deal, Citing Covid Impact",
+                "url": "https://finance.yahoo.com/news/air-canada-slashes-price-transat-172817971.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/.CnJItwv6ssrBtirJMRbXw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/cf6aea045cb3d6d2c595ceaba369f70a"
+            },
+            {
+                "author": "Jan Wolfe",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "U.S. House of Representatives Speaker Nancy Pelosi on Saturday said a new $1.8 trillion economic stimulus proposal from the Trump administration \"amounted to...",
+                "publishedAt": "2020-10-10T17:15:06Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Pelosi says Trump stimulus proposal is 'one step forward, two steps back'",
+                "url": "https://finance.yahoo.com/news/pelosi-says-trump-stimulus-proposal-171506086.html",
+                "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png"
+            },
             {
                 "author": "Rebekah Barton",
                 "content": "United States Vice President Mike Pence has spoken to a number of executives from domestic cruise lines regarding the CDC\u2019s \u2018No Sail Order.\u2019\r\nRelated:\u00a0CLIA Update: Disney Cruise Line 100% COVID Testi\u2026 [+2726 chars]",
@@ -36835,97 +37527,6 @@
                 "title": "The Devastating Economic Impact of Covid-19 Shutdowns",
                 "url": "https://www.activistpost.com/2020/10/the-devastating-economic-impact-of-covid-19-shutdowns.html",
                 "urlToImage": "https://www.activistpost.com/wp-content/uploads/2020/10/economic-impact-aier-scaled-1.jpg"
-            },
-            {
-                "author": "By Rachel Sharp For Dailymail.com",
-                "content": "James Murdoch has said he quit his father's media empire because it was 'legitimizing disinformation' and slammed 'crazy' Trump for 'infecting the US with cruelty' and downplaying COVID-19.\u00a0\u00a0\r\nThe yo\u2026 [+12221 chars]",
-                "description": "The son of Rupert Murdoch told the New York Times he 'pulled the rip cord' from the family business because he was 'increasingly uncomfortable' with News Corp and Fox.",
-                "publishedAt": "2020-10-10T15:30:44Z",
-                "source": {
-                    "id": null,
-                    "name": "Daily Mail"
-                },
-                "title": "James Murdoch says he quit his father's media empire because they were 'legitimizing disinformation'",
-                "url": "https://www.dailymail.co.uk/news/article-8826341/James-Murdoch-says-quit-fathers-media-empire-legitimizing-disinformation.html",
-                "urlToImage": "https://i.dailymail.co.uk/1s/2020/10/10/16/34230062-0-image-a-12_1602343042327.jpg"
-            },
-            {
-                "author": "Zacks Equity Research",
-                "content": "It has been about a month since the last earnings report for Oracle (ORCL). Shares have added about 6.7% in that time frame, outperforming the S&amp;P 500.\r\nWill the recent positive trend continue le\u2026 [+6738 chars]",
-                "description": "Oracle (ORCL) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
-                "publishedAt": "2020-10-10T15:30:03Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Why Is Oracle (ORCL) Up 6.7% Since Last Earnings Report?",
-                "url": "https://finance.yahoo.com/news/why-oracle-orcl-6-7-153003714.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/8Y4ZgFndgyBkdLVc8sfe1g--~B/aD02NzU7dz05MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en-us/zacks.com/105b2acef7bf0873f24b78932b1fdc3c"
-            },
-            {
-                "author": "Aditi Raja, PARIMAL DABHI",
-                "content": "Written by Aditi Raja\r\n, PARIMAL DABHI | \r\nOctober 10, 2020 8:23:34 pm\r\nAccording to organisers, garba festivities run into a commercial business of over Rs 7,000 crore annually. (File/Express Photo)\u2026 [+9652 chars]",
-                "description": "This will be for the first time in the recent history of Gujarat that there will be no garba during the Navratri, which is its essential element and which the state government has branded as the \u2018Longest Dance Festival of the World\u2019.",
-                "publishedAt": "2020-10-10T14:53:34Z",
-                "source": {
-                    "id": null,
-                    "name": "The Indian Express"
-                },
-                "title": "Explained: What Navaratri without Garba means for Gujarat",
-                "url": "https://indianexpress.com/article/explained/explained-what-navaratri-without-garba-means-for-gujarat-6719914/",
-                "urlToImage": "https://images.indianexpress.com/2020/10/navratri-2019-759.jpg"
-            },
-            {
-                "author": "Special Correspondent",
-                "content": "The 529.45 km semi-high speed rail SilverLine project will receive the Central government approval soon.\r\nChief Minister Pinarayi Vijayan was pursuing the project with special interest and land acqui\u2026 [+765 chars]",
-                "description": "The 529.45 km semi-high speed rail SilverLine project will receive the Central government approval soon.Chief Minister Pinarayi Vijayan was pursuing the project with special interest and land acquisit",
-                "publishedAt": "2020-10-10T13:50:11Z",
-                "source": {
-                    "id": "the-hindu",
-                    "name": "The Hindu"
-                },
-                "title": "Centre\u2019s nod for SilverLine soon: Minister",
-                "url": "https://www.thehindu.com/news/national/kerala/centres-nod-for-silverline-soon-minister/article32821790.ece",
-                "urlToImage": "https://www.thehindu.com/static/theme/default/base/img/og-image.jpg"
-            },
-            {
-                "author": "Tudor Invest Holdings",
-                "content": "Investment thesis\r\nDynagas LNG Partners (DLNG) had to make drastic changes last year, as the size of their debt was too big for bankers' comfort. At the end of the 3rd quarter of 2019, their total de\u2026 [+9813 chars]",
-                "description": "Debt restructuring and lower cost of capital help improve Dynagas LNG Partners' balance sheet. Common equity holders will have to wait before they get rewarded.",
-                "publishedAt": "2020-10-10T13:49:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Seeking Alpha"
-                },
-                "title": "Dynagas LNG: Improving The Balance Sheet Quarter By Quarter",
-                "url": "https://seekingalpha.com/article/4378459-dynagas-lng-improving-balance-sheet-quarter-quarter",
-                "urlToImage": "https://static3.seekingalpha.com/uploads/2020/9/24/1733851-16009302012103968.jpg"
-            },
-            {
-                "author": "Bloomberg News",
-                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
-                "description": "(Bloomberg) -- China will remove a method it had used to control weakness in the yuan, dialing back its support for a currency that has rallied to the highest since April last year.The reserve ratio for financial institutions when they sell the dollar against\u2026",
-                "publishedAt": "2020-10-10T13:04:47Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "PBOC Dials Back on Tool to Control Yuan as Currency Rallies",
-                "url": "https://finance.yahoo.com/news/pboc-lowers-risk-reserves-ratio-110822744.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/Z..GFQ5MPAkkGYiCffXo1Q--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_markets_842/a55e5e18d7aca03b23ae13fd130fb2bb"
-            },
-            {
-                "author": "Pierluigi Paganini",
-                "content": "Carnival Corporation, the world\u2019s largest cruise line operator, has confirmed a data breach as a result of the ransomware attack that took place in August. Ransomware operators have stolen the person\u2026 [+4349 chars]",
-                "description": "Carnival Corporation, the world\u2019s largest cruise line operator, has confirmed a data breach as a result of the august ransomware attack. Carnival Corporation, the world\u2019s largest cruise line operator, has confirmed a data breach as a result of the ransomware \u2026",
-                "publishedAt": "2020-10-10T13:04:07Z",
-                "source": {
-                    "id": null,
-                    "name": "Securityaffairs.co"
-                },
-                "title": "Carnival confirms data breach as a result of the August ransomware attack",
-                "url": "https://securityaffairs.co/wordpress/109308/data-breach/carnival-data-breach.html",
-                "urlToImage": "https://i2.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2020/10/Carnival-data-breach.jpg?resize=300%2C300&ssl=1"
             }
         ],
         "MCD": [
@@ -36941,6 +37542,19 @@
                 "title": "Northside business owner moves forward with apartment/retail development",
                 "url": "https://www.startribune.com/northside-business-owner-moves-forward-with-apartment-retail-development/572692532/",
                 "urlToImage": "https://stmedia.stimg.co/ows_610540bf-d185-452b-a766-3234bca9e556.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces"
+            },
+            {
+                "author": "Jayson Derrick",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "The viability of mom-and-pop and small restaurant chains hinges on a new stimulus program, as these eateries \"simply can't stay alive\" as is with required social distancing and other health and safety precautions, CNBC's Jim Cramer said Thursday on \"Mad Money\u2026",
+                "publishedAt": "2020-10-09T17:34:55Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Why Wendy's, Chipotle Are Among Cramer's 'Last Man Standing' Restaurants",
+                "url": "https://finance.yahoo.com/news/why-wendys-chipotle-among-cramers-173455436.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/7dJR0p6M5vDhnuQOK08I3w--~B/aD00MDA7dz02MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/b11679e0c61e87516040c36b24029a20"
             },
             {
                 "author": "Dioane P. Lagare",
@@ -37045,19 +37659,6 @@
                 "title": "These Are the Rappers With Major Endorsement Deals in 2020",
                 "url": "https://www.xxlmag.com/rappers-major-endorsement-deals-2020/",
                 "urlToImage": "https://townsquare.media/site/812/files/2020/10/cardi-b-megan-thee-stallion-travis-scott.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89"
-            },
-            {
-                "author": null,
-                "content": "LOS ANGELES, Oct. 7, 2020 /PRNewswire/ --\u00a0LiveXLive Media\r\n\u00a0(NASDAQ: LIVX) (\"LiveXLive\"), a global platform for livestream and on-demand audio, video and podcast content in music, comedy, and pop cul\u2026 [+7546 chars]",
-                "description": "LOS ANGELES, Oct. 7, 2020 /PRNewswire/ -- LiveXLive Media (NASDAQ: LIVX) (\"LiveXLive\"), a global platform for livestream and on-demand audio, video and podcast content in music, comedy, and pop culture, announced today that it would partner with McDonald's Ca\u2026",
-                "publishedAt": "2020-10-07T11:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "PRNewswire"
-                },
-                "title": "LiveXLive Teams With McDonald's For This Year's 'Monopoly Coast To Coast Game' As Exclusive Monopoly Rewards Music Partner To Drive New User Acquisition",
-                "url": "https://www.prnewswire.com/news-releases/livexlive-teams-with-mcdonalds-for-this-years-monopoly-coast-to-coast-game-as-exclusive-monopoly-rewards-music-partner-to-drive-new-user-acquisition-301147414.html",
-                "urlToImage": "https://mma.prnewswire.com/media/337602/Loton_Corp_LiveXLive_Logo.jpg?p=facebook"
             }
         ],
         "MSFT": [
@@ -37153,30 +37754,30 @@
                 "urlToImage": null
             },
             {
-                "author": null,
-                "content": "HOUSTON, Oct. 9, 2020 /PRNewswire/ -- BMC, a global leader celebrating 40 years of delivering IT solutions for the Autonomous Digital Enterprise, today announced that Gartner Inc. has positioned BMC \u2026 [+4445 chars]",
-                "description": "HOUSTON, Oct. 9, 2020 /PRNewswire/ -- BMC, a global leader celebrating 40 years of delivering IT solutions for the Autonomous Digital Enterprise, today announced that Gartner Inc. has positioned BMC as a Leader for the seventh consecutive year in Gartner's 20\u2026",
+                "author": "PR Newswire",
+                "content": "BMC believes this recognition reflects its commitment to helping customers run and reinvent the business with innovative service experiences\r\nHOUSTON, Oct. 9, 2020 /PRNewswire/ -- BMC, a global leade\u2026 [+4854 chars]",
+                "description": "BMC, a global leader celebrating 40 years of delivering IT solutions for the Autonomous Digital Enterprise, today announced that Gartner Inc. has positioned BMC as a Leader for the seventh consecutive year in Gartner's 2020 Magic Quadrant for IT Service Manag\u2026",
                 "publishedAt": "2020-10-09T16:30:00Z",
                 "source": {
                     "id": null,
-                    "name": "PRNewswire"
+                    "name": "Yahoo Entertainment"
                 },
                 "title": "BMC Positioned as a Leader for the Seventh Consecutive Year in the Gartner Magic Quadrant for IT Service Management Tools",
-                "url": "https://www.prnewswire.com/news-releases/bmc-positioned-as-a-leader-for-the-seventh-consecutive-year-in-the-gartner-magic-quadrant-for-it-service-management-tools-301149548.html",
-                "urlToImage": "https://mma.prnewswire.com/media/364342/bmc_logo.jpg?p=facebook"
+                "url": "https://news.yahoo.com/bmc-positioned-leader-seventh-consecutive-163000413.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/toD5cdMhOxQ0rWoF2a00qw--~B/aD0xNjc7dz00MDA7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/4fb7aac7d641f5d61250dee6aff613af"
             },
             {
-                "author": null,
-                "content": "DUBLIN, Oct. 9, 2020 /PRNewswire/ -- The \"Key Management as a Service Market Research Report: By Component, Enterprise, Application, Industry - Global Industry Analysis and Growth Forecast to 2030\" r\u2026 [+6630 chars]",
-                "description": "DUBLIN, Oct. 9, 2020 /PRNewswire/ -- The \"Key Management as a Service Market Research Report: By Component, Enterprise, Application, Industry - Global Industry Analysis and Growth Forecast to 2030\" report has been added to ResearchAndMarkets.com's offering. I\u2026",
+                "author": "PR Newswire",
+                "content": "DUBLIN, Oct. 9, 2020 /PRNewswire/ -- The \"Key Management as a Service Market Research Report: By Component, Enterprise, Application, Industry - Global Industry Analysis and Growth Forecast to 2030\" r\u2026 [+6833 chars]",
+                "description": "The \"Key Management as a Service Market Research Report: By Component, Enterprise, Application, Industry - Global Industry Analysis and Growth Forecast to 2030\" report has been added to ResearchAndMarkets.com's offering.",
                 "publishedAt": "2020-10-09T15:15:00Z",
                 "source": {
                     "id": null,
-                    "name": "PRNewswire"
+                    "name": "Yahoo Entertainment"
                 },
                 "title": "$500+ Million Key Management as a Service Markets, 2030 - Growing Requirement for Next-Generation Key Management Solutions",
-                "url": "https://www.prnewswire.com/news-releases/500-million-key-management-as-a-service-markets-2030---growing-requirement-for-next-generation-key-management-solutions-301149452.html",
-                "urlToImage": "https://mma.prnewswire.com/media/539438/Research_and_Markets_Logo.jpg?p=facebook"
+                "url": "https://news.yahoo.com/500-million-key-management-markets-151500558.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/M.ZtJLKJavJmZ21BEYlWXg--~B/aD00Mjt3PTQwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/e75ef6f3096d7cb6f5dd43ba82eca2fe"
             },
             {
                 "author": "hiren",
@@ -37326,6 +37927,19 @@
         ],
         "PBCT": [
             {
+                "author": "Fredrik Arnold",
+                "content": "Foreword\r\nAs supplement to this article, please note that Kiplinger has published an online slide-show detailing the 65 S&amp;P Dividend Aristocrats for 2020. The article is entitled 65 Best Dividend\u2026 [+10988 chars]",
+                "description": "S&P 500 Dividend Aristocrats measure performance of S&P 500 companies that have increased dividends every year for 25 consecutive years. - us.spindices.com.",
+                "publishedAt": "2020-10-10T17:43:38Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "65 Dividend Aristocrats Optimal October Outcomes",
+                "url": "https://seekingalpha.com/article/4378467-65-dividend-aristocrats-optimal-october-outcomes",
+                "urlToImage": "https://static1.seekingalpha.com/uploads/2020/10/8/748328-16021880435984454.png"
+            },
+            {
                 "author": "Bill Bishop",
                 "content": "I hope those of you in China were able to have a nice vacation. Todays newsletter is long, good for weekend catchup reading. It will be back to the normal schedule Monday. \r\nThe data so far from the \u2026 [+85617 chars]",
                 "description": "I hope those of you in China were able to have a nice vacation. Today\u2019s newsletter is long, good for weekend catchup reading. It will be back to the normal schedule Monday. The data so far from the holiday week are off from last year but most reports seem to \u2026",
@@ -37391,17 +38005,17 @@
                 "urlToImage": "https://mms.businesswire.com/media/20201008005340/en/796507/23/TAK_Logo.jpg"
             },
             {
-                "author": "CNW Group",
-                "content": "Full Financial Results for the Third Quarter\u00a0of 2020 Will Be Released on Nov. 3, 2020\r\nLAVAL, QC, Oct. 8, 2020 /CNW/ -- Bausch Health Companies Inc. (NYSE/TSX: BHC) (\"Bausch Health\" or the \"Company\")\u2026 [+10502 chars]",
-                "description": "Full Financial Results for the Third Quarter\u00a0of 2020 Will Be Released on Nov. 3, 2020LAVAL, QC, Oct.",
+                "author": "PR Newswire",
+                "content": "Full Financial Results for the Third Quarter\u00a0of 2020 Will Be Released on Nov. 3, 2020\r\nLAVAL, QC, Oct. 8, 2020 /PRNewswire/ -- Bausch Health Companies Inc. (NYSE/TSX: BHC) (\"Bausch Health\" or the \"Co\u2026 [+10385 chars]",
+                "description": "Bausch Health Companies Inc. (NYSE/TSX: BHC) (\"Bausch Health\" or the \"Company\") today provided a preliminary update on its third-quarter 2020 financial results and the pace of its business recovery from the COVID-19 pandemic.",
                 "publishedAt": "2020-10-08T11:00:00Z",
                 "source": {
                     "id": null,
                     "name": "Yahoo Entertainment"
                 },
                 "title": "Bausch Health Companies Inc. Provides Preliminary Update On Third-Quarter 2020 Financial Results And Business Recovery",
-                "url": "https://finance.yahoo.com/news/medtronic-announces-closing-public-offering-104700344.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/byQt2u9qYNrtPdHj5PfByw--~B/aD0zOTt3PTQwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/cnwgroup.com/610a90a235a71158fee46f0f1972f35f"
+                "url": "https://news.yahoo.com/bausch-health-companies-inc-provides-110000869.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/3TR5ooF8GfMquLu8J_9eag--~B/aD0zOTt3PTQwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/prnewswire.com/610a90a235a71158fee46f0f1972f35f"
             },
             {
                 "author": "Mike Rivero",
@@ -37441,19 +38055,6 @@
                 "title": "Blue Apron Launches Three New Product Expansions",
                 "url": "https://www.prnewswire.com/news-releases/blue-apron-launches-three-new-product-expansions-301147671.html",
                 "urlToImage": "https://mma.prnewswire.com/media/1174769/Blue_Apron_Logo.jpg?p=facebook"
-            },
-            {
-                "author": "Asma UL Husna",
-                "content": "At the end of February we announced the arrival of the first US recession since 2009 and we predicted that the market will decline by at least 20% in (see why hell is coming). We reversed our stance \u2026 [+6747 chars]",
-                "description": "At the end of February we announced the arrival of the first US recession since 2009 and we predicted that the market will decline by at least 20% in (see why hell is coming). We reversed our stance on March 25th after seeing unprecedented fiscal and monetary\u2026",
-                "publishedAt": "2020-10-07T01:07:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Hedge Funds Slowly Warming Up To Lincoln Electric Holdings, Inc. (LECO)",
-                "url": "https://finance.yahoo.com/news/hedge-funds-slowly-warming-lincoln-010737470.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/VW0vgvmvAEvShNrq1ahyCQ--~B/aD02MDA7dz00ODI7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insidermonkey.com/351e5bfee1e035647f5e9785f9078169"
             }
         ],
         "PFC": [
@@ -37722,6 +38323,19 @@
         ],
         "PSX": [
             {
+                "author": "CNA",
+                "content": "HOUSTON: Hurricane Delta shut power and toppled equipment at U.S. Gulf Coast oil refineries and closed oil-export ports as its destructive winds and storm surge reached from far from its center.\r\nNea\u2026 [+2425 chars]",
+                "description": "Hurricane Delta shut power and toppled equipment at U.S. Gulf Coast oil refineries and closed oil-export ports as its destructive winds and storm surge reached from far from its center.",
+                "publishedAt": "2020-10-10T18:25:29Z",
+                "source": {
+                    "id": null,
+                    "name": "CNA"
+                },
+                "title": "Hurricane Delta's winds topple gear, disrupt US oil refineries",
+                "url": "https://www.channelnewsasia.com/news/business/hurricane-delta-s-winds-topple-gear--disrupt-us-oil-refineries-13251078",
+                "urlToImage": "https://cna-sg-res.cloudinary.com/image/upload/q_auto,f_auto/image/13251076/16x9/991/557/cfb30093a33b3934115dfc3cc17b3b86/DX/file-photo--hurricane-delta-passes-through-cancun-3.jpg"
+            },
+            {
                 "author": "Nashville Tennessean, Tom Kreager, Nashville Tennessean",
                 "content": "Last SlideNext Slide\r\nBrentwood 47, Dickson Co. 13:Cade Granzow was 9 of 13 passing for 189 yards and had three touchdowns. He also had two rushing touchdowns. Tennessee commitment Walker Merrill had\u2026 [+2503 chars]",
                 "description": "Check out what happened in Week 8 of the Tennessee high school football season in the Nashville area.",
@@ -37837,19 +38451,6 @@
                 "title": "Concepts of extracellular matrix remodelling in tumour progression and metastasis",
                 "url": "https://www.nature.com/articles/s41467-020-18794-x?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ncomms%2Frss%2Fcurrent+%28Nature+Communications+-+current%29",
                 "urlToImage": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41467-020-18794-x/MediaObjects/41467_2020_18794_Fig1_HTML.png"
-            },
-            {
-                "author": "Jacob Wolinsky",
-                "content": "Black Bear Value Fund letter to investors for the third quarter ended September 30, 2020, discussing their top 5 long positions.\r\nHalf of the American people have never read a newspaper. Half never v\u2026 [+15135 chars]",
-                "description": "Black Bear Value Fund letter to investors for the third quarter ended September 30, 2020, discussing their top 5 long positions. \u201cHalf of the American people have never read a newspaper. Half never voted for President. One hopes it\u2019s the same half.\u201d \u2013 Gore Vi\u2026",
-                "publishedAt": "2020-10-08T18:53:47Z",
-                "source": {
-                    "id": null,
-                    "name": "ValueWalk"
-                },
-                "title": "Black Bear Value Fund LP 3Q20 Letter: Long Armstrong World",
-                "url": "https://www.valuewalk.com/2020/10/black-bear-3q20-top-5-long-positions/",
-                "urlToImage": "https://www.valuewalk.com/wp-content/uploads/2020/10/Black-Bear-Value-Fund-1.png"
             }
         ],
         "QNST": [
@@ -38382,6 +38983,19 @@
         ],
         "T": [
             {
+                "author": "Fredrik Arnold",
+                "content": "Foreword\r\nAs supplement to this article, please note that Kiplinger has published an online slide-show detailing the 65 S&amp;P Dividend Aristocrats for 2020. The article is entitled 65 Best Dividend\u2026 [+10988 chars]",
+                "description": "S&P 500 Dividend Aristocrats measure performance of S&P 500 companies that have increased dividends every year for 25 consecutive years. - us.spindices.com.",
+                "publishedAt": "2020-10-10T17:43:38Z",
+                "source": {
+                    "id": null,
+                    "name": "Seeking Alpha"
+                },
+                "title": "65 Dividend Aristocrats Optimal October Outcomes",
+                "url": "https://seekingalpha.com/article/4378467-65-dividend-aristocrats-optimal-october-outcomes",
+                "urlToImage": "https://static1.seekingalpha.com/uploads/2020/10/8/748328-16021880435984454.png"
+            },
+            {
                 "author": "Cnn",
                 "content": "(CNN) \u2014 Jay-Z\u00a0showed his support of protesters\u00a0this week by paying the fees for those arrested and fined in Wauwatosa, Wisconsin, where demonstrators are\u00a0calling for justice in the death of Alvin Col\u2026 [+2039 chars]",
                 "description": "(CNN) \u2014 Jay-Z\u00a0showed his support of protesters\u00a0this week by paying the fees for those arrested and fined in Wauwatosa, Wisconsin, where demonstrators are\u00a0calling for justice...",
@@ -38497,19 +39111,6 @@
                 "title": "Good sleep, good learning, good life",
                 "url": "https://supermemo.guru/wiki/Good_sleep,_good_learning,_good_life",
                 "urlToImage": null
-            },
-            {
-                "author": null,
-                "content": "Spiro Theodore Agnew (/\u02c8sp\u026aro\u028a\u02c8\u00e6\u0261nju\u02d0/; November 9, 1918\u00a0\u2013 September 17, 1996) was an American politician who served as the 39thVice President of the United States from 1969 to 1973, serving under Pr\u2026 [+22948 chars]",
-                "description": "After being investigated for extortion and bribery allegedly committed while he was governor of Maryland, Agnew pleaded no contest to a charge of tax evasion and became the second US vice president to resign. President Richard Nixon then selected House Minori\u2026",
-                "publishedAt": "2020-10-10T04:22:38Z",
-                "source": {
-                    "id": null,
-                    "name": "Thefreedictionary.com"
-                },
-                "title": "US Vice President Spiro Agnew Resigns (1973)",
-                "url": "https://encyclopedia.thefreedictionary.com/Spiro+Agnew",
-                "urlToImage": "http://img.tfd.com/TFDlogo1200x1200.png"
             }
         ],
         "TSLA": [
@@ -38646,6 +39247,32 @@
         ],
         "WFC": [
             {
+                "author": "Esteban Duarte",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "(Bloomberg) -- Air Canada slashed the purchase price for tour operator Transat AT Inc. to almost a quarter of its earlier offer, citing the impact of the Covid-19 outbreak on the air transport industry.The Montreal-based airline said it\u2019s cutting the offer fo\u2026",
+                "publishedAt": "2020-10-10T17:28:17Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Air Canada Slashes Price of Transat Deal, Citing Covid Impact",
+                "url": "https://finance.yahoo.com/news/air-canada-slashes-price-transat-172817971.html",
+                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/.CnJItwv6ssrBtirJMRbXw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/cf6aea045cb3d6d2c595ceaba369f70a"
+            },
+            {
+                "author": "Jan Wolfe",
+                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
+                "description": "U.S. House of Representatives Speaker Nancy Pelosi on Saturday said a new $1.8 trillion economic stimulus proposal from the Trump administration \"amounted to...",
+                "publishedAt": "2020-10-10T17:15:06Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Pelosi says Trump stimulus proposal is 'one step forward, two steps back'",
+                "url": "https://finance.yahoo.com/news/pelosi-says-trump-stimulus-proposal-171506086.html",
+                "urlToImage": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png"
+            },
+            {
                 "author": "Matt O'Brien and Alexandra Olson, Associated Press",
                 "content": "The U.S. Labor Department is twisting a Civil Rights-era presidential order to scrutinize companies over their public commitments to diversity\r\nAmerican companies promising to hire more Black employe\u2026 [+7902 chars]",
                 "description": "American companies promising to hire more Black employees in leadership roles and teach their workforce about racism are getting a... View Article\nThe post Trump administration targets diversity hiring by contractors appeared first on TheGrio.",
@@ -38748,32 +39375,6 @@
                 "title": "RBI\u00a0Urges Court to Not Consider More Relief for Borrowers",
                 "url": "https://finance.yahoo.com/news/rbi-urges-court-not-consider-073556860.html",
                 "urlToImage": "https://s.yimg.com/uu/api/res/1.2/eroimuobkam9TWT9GFvGtQ--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_markets_842/5f70774d52e5f3401f0874ad36c397c2"
-            },
-            {
-                "author": "Bloomberg News",
-                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
-                "description": "(Bloomberg) -- A developer backed by Chinese cybersecurity giant 360 Security Technology Inc. has introduced a browser that allows mainland Chinese users to access previously blocked sites like Google and Facebook, partially bypassing Beijing\u2019s Great Firewall\u2026",
-                "publishedAt": "2020-10-10T06:43:51Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Chinese App Provides Legal Way to Get Over the Great Firewall",
-                "url": "https://finance.yahoo.com/news/chinese-app-provides-legal-way-064351345.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/WXDdwvrxUt7b7HarSEMQ5A--~B/aD0xMzM0O3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_technology_68/ac0bcc0536cde9dcc20f0e0aef0e62e8"
-            },
-            {
-                "author": "James Hirai",
-                "content": "If the stock markets ups and downs this year have taught us any enduring lesson, its a repeat of an old stand-by: the importance of setting up a steady income stream, to keep the portfolio profitable\u2026 [+7343 chars]",
-                "description": "(Bloomberg) -- An upcoming surge in euro-area bond sales should be more than swept up by the record amount cash of sitting idly in the economy, potentially adding fuel to the rally sweeping across the region\u2019s debt markets.Next week, bond offerings in the eur\u2026",
-                "publishedAt": "2020-10-10T06:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Europe\u2019s Record Cash Pile Set to Prime Next Stage of Bond Rally",
-                "url": "https://finance.yahoo.com/news/europe-record-cash-pile-set-060000109.html",
-                "urlToImage": "https://s.yimg.com/uu/api/res/1.2/ZMKUSlVtalNZbAWh0C3Onw--~B/aD02NzU7dz0xMjAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bloomberg_markets_842/9633412ed78df853ef9e0ec7488f49d4"
             }
         ],
         "WLK": [
