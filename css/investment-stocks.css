@@ -23,7 +23,7 @@
     width: 100%;
     table-layout: fixed;
     border: 1px solid silver;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .main-investment-stocks th {
@@ -172,6 +172,46 @@
 
 .main-investment-stocks .link{
     padding-right: 30px;
+}
+
+/* sec table */
+.main-investment-stocks .td-symbol,.main-investment-stocks .td-date, .main-investment-stocks .td-filings{
+    padding-right: 0px;
+    text-align: center;
+}
+
+.main-investment-stocks .th-date{
+    width: 120px;
+}
+
+.main-investment-stocks .tr-sec.main{
+    height: 36px;
+}
+
+#hold-stocks-sec-table{
+    width: 460px;
+}
+
+#star-stocks-sec-table{
+    width: 460px;
+}
+
+.main-investment-stocks .tr-sec.main:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.main-investment-stocks .sec-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main-investment-stocks .sec-checkbox{
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    width: 16px;
+    height: 16px;
 }
 
 /* others */

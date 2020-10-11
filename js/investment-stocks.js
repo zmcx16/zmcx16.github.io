@@ -22,6 +22,16 @@ var myvar =
 '                <tbody id="hold-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
+'            <div class="sec-title"><input type="checkbox" id="hold-stocks-sec-show" class="sec-checkbox"><label for="hold-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
+'            <table id="hold-stocks-sec-table" style="display: none;">' +
+'                <thead>' +
+'                    <th class="th-date">Date</th>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-filings">Filings</th>' +
+'                </thead>' +
+'                <tbody id="hold-stocks-sec-tbody">' +
+'                </tbody>' +
+'            </table>' +
 '        </div>' +
 '    </div>' +
 '    <div class="star-stocks-groups">' +
@@ -42,6 +52,16 @@ var myvar =
 '                <tbody id="star-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
+'            <div class="sec-title"><input type="checkbox" id="star-stocks-sec-show" class="sec-checkbox"><label for="star-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
+'            <table id="star-stocks-sec-table" style="display: none;">' +
+'                <thead>' +
+'                    <th class="th-date">Date</th>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-filings">Filings</th>' +
+'                </thead>' +
+'                <tbody id="star-stocks-sec-tbody">' +
+'                </tbody>' +
+'            </table>' +
 '        </div>' +
 '    </div>' +
 '    <div class="data-source groups">' +
@@ -51,6 +71,7 @@ var myvar =
 '            <a class="link" target="_blank" href="https://finance.yahoo.com/">Yahoo Finance</a>' +
 '            <a class="link" target="_blank" href="https://finviz.com/">Finviz</a>' +
 '            <a class="link" target="_blank" href="https://newsapi.org/">NewsAPI</a>' +
+'            <a class="link" target="_blank" href="https://www.sec.gov/">SEC</a>' +
 '        </div>' +
 '    </div>' +
 '</div>' ;
@@ -235,6 +256,40 @@ function buildTable(data){
   return output;
 }
 
+function buildSECTable(data) {
+
+  var ENABLE_SEC = ["10-Q", "6-K", "10-K", "20-F", "8-K", "6-K", "11-K", "13F"];
+
+  var sec_list = [];
+  data.forEach((stock) => {
+    stock["SEC"].forEach((sec)=>{
+      ENABLE_SEC.forEach((type)=>{
+        if (sec["type"].includes(type)){
+          sec["symbol"] = stock["symbol"];
+          sec_list.push(sec);
+          return;
+        }
+      });
+    });
+  });
+
+  sec_list = sec_list.sort(function (a, b) {
+    return new Date(a.date) < new Date(b.date) ? 1 : -1;
+  });
+
+  var sec_output = "";
+  sec_list.forEach((doc) => {
+    sec_output +=
+      '<tr class="tr-sec main" onclick="window.open(\'' + doc["link"] + '\');">' +
+      '  <td class="td-date">' + doc["date"] + '</td>' +
+      '  <td class="td-symbol">' + doc["symbol"] + '</td>' +
+      '  <td class="td-filings">' + doc["type"] + '</td>' +
+      '</tr>';
+  });
+
+  return sec_output;
+}
+
 function preprocessData(json_data, input_key)
 {
   var output = []
@@ -282,7 +337,7 @@ function preprocessData(json_data, input_key)
 
     });
 
-    output.push({ "symbol": symbol, "base_info": base_info, "scan_list": scan_list, "news": json_data["news"][symbol] });
+    output.push({ "symbol": symbol, "base_info": base_info, "scan_list": scan_list, "news": json_data["news"][symbol], "SEC": json_data["SEC"][symbol] });
 
   });
 
@@ -302,7 +357,24 @@ $(document).ready(function () {
     var star_stocks = preprocessData(json_data, "star_stock_list");
 
     $("#hold-stocks-tbody")[0].innerHTML = buildTable(hold_stocks);
+    $("#hold-stocks-sec-tbody")[0].innerHTML = buildSECTable(hold_stocks);
+    $("#hold-stocks-sec-show").click(function (e) {
+      if ($("#hold-stocks-sec-show")[0].checked){
+        $("#hold-stocks-sec-table").show();
+      }else{
+        $("#hold-stocks-sec-table").hide();
+      }
+    });
+
     $("#star-stocks-tbody")[0].innerHTML = buildTable(star_stocks);
+    $("#star-stocks-sec-tbody")[0].innerHTML = buildSECTable(star_stocks);
+    $("#star-stocks-sec-show").click(function (e) {
+      if ($("#star-stocks-sec-show")[0].checked) {
+        $("#star-stocks-sec-table").show();
+      } else {
+        $("#star-stocks-sec-table").hide();
+      }
+    });
 
     $(".tr-stock.main, .tr-scan.main").click(function (e) {
       var second = $(this).next();
