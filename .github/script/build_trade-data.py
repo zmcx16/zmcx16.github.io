@@ -35,8 +35,8 @@ if __name__ == "__main__":
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
-    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}, "portfolio": {}}
-    formula_output = {"hold_stock_list": [], "KellyFormula_Range_v1": {}}
+    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}}
+    formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
@@ -52,7 +52,7 @@ if __name__ == "__main__":
         sec_cik_table = data["sec_cik_table"]
 
         # portfolio
-        scan_output["portfolio"] = data["portfolio"]
+        formula_output["portfolio"] = data["portfolio"]
 
         # news
         news_latest_days = data["news_config"]["latest_days"]
@@ -139,13 +139,13 @@ if __name__ == "__main__":
                 for stock in scan_output["data"]:
                     if symbol == stock["symbol"]:
                         price = float(stock["baseinfo"]["Price"])
-                        scan_output["portfolio"][symbol]["profit_%"] = (price - data["portfolio"][symbol]["cost_p"]) / data["portfolio"][symbol]["cost_p"] * 100
+                        formula_output["portfolio"][symbol]["profit_%"] = (price - data["portfolio"][symbol]["cost_p"]) / data["portfolio"][symbol]["cost_p"] * 100
                         break
             # ------------------
             
             time.sleep(DELAY_TIME_SEC)
 
-    if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(formula_output["KellyFormula_Range_v1"]) > 0:
+    if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(formula_output["KellyFormula_Range_v1"]) > 0 or len(formula_output["portfolio"]) > 0:
         with open(stocks_output_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(scan_output, separators=(',', ':')))
         with open(stocks_output_readable_path, 'w', encoding='utf-8') as f:
