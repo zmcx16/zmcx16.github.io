@@ -56,7 +56,10 @@ var myvar =
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-180d">180 days</th>' +
-'                    <th class="th-position">Position [Kelly Formula]</th>' +
+'                    <th class="th-avg_cost">Avg Cost</th>' +
+'                    <th class="th-profit_now">Profit (now)</th>' +
+'                    <th class="th-position_now">Position (now)</th>' +
+'                    <th class="th-position_kelly">Position [Kelly Formula]</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-tbody">' +
 '                </tbody>' +
@@ -202,7 +205,7 @@ function getKellyAutoRangeV1(){
 
 function buildTable(data){
 
-  let total_postion = 0;
+  let total_postion_kelly = 0;
   data["hold_stock_list"].forEach((symbol) => {
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
     if (kelly_result === null) {
@@ -212,7 +215,7 @@ function buildTable(data){
 
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
     if (score>0)
-      total_postion += score;
+      total_postion_kelly += score;
   });
 
   let output = "";
@@ -226,13 +229,19 @@ function buildTable(data){
     let price = kelly_result['close'];
     let days = kelly_result['min_close'].toFixed(2) + ' - ' + kelly_result['max_close'].toFixed(2);
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
-    let position = score > 0 ? (score / total_postion * 100).toFixed(2) : 0;
+    let avg_cost = data["portfolio"][symbol]["cost_p"];
+    let profit_now = data["portfolio"][symbol]["profit_%"].toFixed(2);
+    let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
+    let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
     output += 
     '<tr class="tr-stock main">' + 
     '  <td class="td-symbol">' + symbol + '</td>' + 
     '  <td class="td-price">' + price + '</td>' + 
     '  <td class="td-180d">' + days + '</td>' + 
-    '  <td class="td-position">' + position + '%</td>' + 
+    '  <td class="td-avg_cost">' + avg_cost + '</td>' + 
+    '  <td class="td-profit_now">' + profit_now + '%</td>' + 
+    '  <td class="td-position_now">' + position_now + '%</td>' + 
+    '  <td class="td-position_kelly">' + position_kelly + '%</td>' + 
     '</tr>';
   });
 
