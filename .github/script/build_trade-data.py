@@ -35,7 +35,7 @@ if __name__ == "__main__":
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
-    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}}
+    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}, "portfolio": {}}
     formula_output = {"hold_stock_list": [], "KellyFormula_Range_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
@@ -50,6 +50,9 @@ if __name__ == "__main__":
 
         # SEC
         sec_cik_table = data["sec_cik_table"]
+
+        # portfolio
+        scan_output["portfolio"] = data["portfolio"]
 
         # news
         news_latest_days = data["news_config"]["latest_days"]
@@ -131,6 +134,15 @@ if __name__ == "__main__":
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # -------------------
+            # -- load portfolio -
+            if symbol in data["hold_stock_list"]:
+                for stock in scan_output["data"]:
+                    if symbol == stock["symbol"]:
+                        price = float(stock["baseinfo"]["Price"])
+                        scan_output["portfolio"][symbol]["profit_%"] = (price - data["portfolio"][symbol]["cost_p"]) / data["portfolio"][symbol]["cost_p"] * 100
+                        break
+            # ------------------
+            
             time.sleep(DELAY_TIME_SEC)
 
     if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(formula_output["KellyFormula_Range_v1"]) > 0:
