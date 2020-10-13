@@ -74,7 +74,6 @@ legend.arg-input{
 
 .main-investment-formula .content-block{
     padding-top: 15px;
-    width: 680px;
 }
 
 /* table */
@@ -123,7 +122,7 @@ legend.arg-input{
     width: 150px;
 }
 
-.main-investment-formula .th-position{
+.main-investment-formula .th-position_kelly{
     width: 200px;
 }
 
