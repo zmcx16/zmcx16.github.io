@@ -63,6 +63,36 @@
             </table>
         </div>
     </div>
+    <div class="screener-stocks-groups">
+        <h1> 自動選股 (每日) </h1>
+        <div class="screener-stocks content-block">
+            <table id="screener-stocks-table">
+                <thead>
+                    <th class="th-symbol">Symbol</th>
+                    <th class="th-price">Price</th>
+                    <th class="th-52w">52W</th>
+                    <th class="th-sma20">SMA20</th>
+                    <th class="th-sma50">SMA50</th>
+                    <th class="th-sma200">SMA200</th>
+                    <th class="th-rsi">RSI</th>
+                    <th class="th-atr">ATR</th>
+                    <th class="th-risk">Risk</th>
+                </thead>
+                <tbody id="screener-stocks-tbody">
+                </tbody>
+            </table>
+            <div class="sec-title"><input type="checkbox" id="screener-stocks-sec-show" class="sec-checkbox"><label for="screener-stocks-sec-show"> SEC 文件 (近30天)</label></div>
+            <table id="screener-stocks-sec-table" style="display: none;">
+                <thead>
+                    <th class="th-date">Date</th>
+                    <th class="th-symbol">Symbol</th>
+                    <th class="th-filings">Filings</th>
+                </thead>
+                <tbody id="screener-stocks-sec-tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
     <div class="data-source groups">
         <h1> 數據源 </h1>
         <div class="data-source content-block">

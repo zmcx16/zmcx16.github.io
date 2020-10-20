@@ -196,6 +196,10 @@
     width: 460px;
 }
 
+#screener-stocks-sec-table{
+    width: 460px;
+}
+
 .main-investment-stocks .tr-sec.main:hover{
     background-color: aquamarine;
     cursor: pointer;
