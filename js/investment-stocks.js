@@ -64,6 +64,36 @@ var myvar =
 '            </table>' +
 '        </div>' +
 '    </div>' +
+'    <div class="screener-stocks-groups">' +
+'        <h1> 自動選股 (每日) </h1>' +
+'        <div class="screener-stocks content-block">' +
+'            <table id="screener-stocks-table">' +
+'                <thead>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-price">Price</th>' +
+'                    <th class="th-52w">52W</th>' +
+'                    <th class="th-sma20">SMA20</th>' +
+'                    <th class="th-sma50">SMA50</th>' +
+'                    <th class="th-sma200">SMA200</th>' +
+'                    <th class="th-rsi">RSI</th>' +
+'                    <th class="th-atr">ATR</th>' +
+'                    <th class="th-risk">Risk</th>' +
+'                </thead>' +
+'                <tbody id="screener-stocks-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'            <div class="sec-title"><input type="checkbox" id="screener-stocks-sec-show" class="sec-checkbox"><label for="screener-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
+'            <table id="screener-stocks-sec-table" style="display: none;">' +
+'                <thead>' +
+'                    <th class="th-date">Date</th>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-filings">Filings</th>' +
+'                </thead>' +
+'                <tbody id="screener-stocks-sec-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'        </div>' +
+'    </div>' +
 '    <div class="data-source groups">' +
 '        <h1> 數據源 </h1>' +
 '        <div class="data-source content-block">' +
@@ -102,7 +132,7 @@ function getScoreAndMappingImg(score_dict){
 
 function buildTable(data){
   var output = "";
-
+  
   data.forEach((stock) => {
 
     var stock_output = "";
@@ -262,6 +292,9 @@ function buildSECTable(data) {
 
   var sec_list = [];
   data.forEach((stock) => {
+    if (stock["SEC"] === undefined) {
+      return;
+    }
     stock["SEC"].forEach((sec)=>{
       ENABLE_SEC.forEach((type)=>{
         if (sec["type"].includes(type)){
@@ -355,6 +388,7 @@ $(document).ready(function () {
 
     var hold_stocks = preprocessData(json_data, "hold_stock_list");
     var star_stocks = preprocessData(json_data, "star_stock_list");
+    var screener_stocks = preprocessData(json_data, "screener_stock_list");
 
     $("#hold-stocks-tbody")[0].innerHTML = buildTable(hold_stocks);
     $("#hold-stocks-sec-tbody")[0].innerHTML = buildSECTable(hold_stocks);
@@ -373,6 +407,16 @@ $(document).ready(function () {
         $("#star-stocks-sec-table").show();
       } else {
         $("#star-stocks-sec-table").hide();
+      }
+    });
+
+    $("#screener-stocks-tbody")[0].innerHTML = buildTable(screener_stocks);
+    $("#screener-stocks-sec-tbody")[0].innerHTML = buildSECTable(screener_stocks);
+    $("#screener-stocks-sec-show").click(function (e) {
+      if ($("#screener-stocks-sec-show")[0].checked) {
+        $("#screener-stocks-sec-table").show();
+      } else {
+        $("#screener-stocks-sec-table").hide();
       }
     });
 

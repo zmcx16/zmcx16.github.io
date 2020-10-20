@@ -10,7 +10,7 @@ from newsapi import NewsApiClient
 
 def send_post_json(url, req_data):
     try:
-        headers = {'content-type': 'application/x-www-form-urlencoded'}
+        headers = {'content-type': 'application/json'}
         res = requests.post(url, req_data, headers=headers)
         res.raise_for_status()
     except Exception as ex:
@@ -24,6 +24,7 @@ if __name__ == "__main__":
 
     DELAY_TIME_SEC = 60
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
+    SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
     FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
@@ -35,7 +36,7 @@ if __name__ == "__main__":
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
-    scan_output = {"hold_stock_list": [], "star_stock_list": [], "data": [], "news": {}, "SEC": {}}
+    scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {}, "SEC": {}}
     formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
@@ -43,10 +44,23 @@ if __name__ == "__main__":
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
 
+        # screener
+        screen_template = data["screen_template"].copy()
+        ret, resp = send_post_json(SCREENER_URL, str({"data": screen_template}))
+        if ret == 0:
+            try:
+                if resp["ret"] != 0:
+                    print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                else:
+                    scan_output["screener_stock_list"] += resp["data"][0]["result"]["symbols"]
+
+            except Exception as ex:
+                print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+
         # norm-minehunter
         formula_output["hold_stock_list"] = scan_output["hold_stock_list"] = data["hold_stock_list"]
         scan_output["star_stock_list"] = data["star_stock_list"]
-        scan_list = data["hold_stock_list"] + data["star_stock_list"]
+        scan_list = data["hold_stock_list"] + data["star_stock_list"] + scan_output["screener_stock_list"]
 
         # SEC
         sec_cik_table = data["sec_cik_table"]
@@ -68,7 +82,7 @@ if __name__ == "__main__":
             for target in scan_list_args:
                 target["target"] = [symbol]
 
-            ret, resp = send_post_json(SCAN_URL, "=" + str({"data": scan_list_args}))
+            ret, resp = send_post_json(SCAN_URL, str({"data": scan_list_args}))
             if ret == 0:
                 try:
                     if resp["ret"] != 0:
@@ -84,7 +98,7 @@ if __name__ == "__main__":
             for sec_target in sec_args:
                 sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
 
-            ret, resp = send_post_json(SEC_URL, "=" + str({"data": [sec_target]}))
+            ret, resp = send_post_json(SEC_URL, str({"data": [sec_target]}))
             if ret == 0:
                 try:
                     if resp["ret"] != 0:
@@ -94,7 +108,7 @@ if __name__ == "__main__":
 
                 except Exception as ex:
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
-
+            
             # --- get news ------
             query = symbol
             if symbol in news_symbol_keyword:
@@ -115,6 +129,7 @@ if __name__ == "__main__":
                         news_title.append(article['title'])
 
                 scan_output["news"][symbol] = news_temp[:min(news_max_count, len(news_temp))]
+            
             # -------------------
             # --- get formula ---
             if symbol in data["hold_stock_list"]:
@@ -122,7 +137,7 @@ if __name__ == "__main__":
                 for target in formula_list_args:
                     target["target"] = [symbol]
 
-                ret, resp = send_post_json(FORMULA_URL, "=" + str({"data": formula_list_args}))
+                ret, resp = send_post_json(FORMULA_URL, str({"data": formula_list_args}))
                 if ret == 0:
                     try:
                         if resp["ret"] != 0:
