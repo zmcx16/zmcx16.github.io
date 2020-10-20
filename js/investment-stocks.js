@@ -327,6 +327,10 @@ function preprocessData(json_data, input_key)
 {
   var output = []
 
+  if (json_data[input_key] === undefined) {
+    return [];
+  }
+
   json_data[input_key].forEach((symbol) => {
 
     var base_info = {};
