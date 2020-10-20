@@ -411,14 +411,6 @@ $(document).ready(function () {
     });
 
     $("#screener-stocks-tbody")[0].innerHTML = buildTable(screener_stocks);
-    $("#screener-stocks-sec-tbody")[0].innerHTML = buildSECTable(screener_stocks);
-    $("#screener-stocks-sec-show").click(function (e) {
-      if ($("#screener-stocks-sec-show")[0].checked) {
-        $("#screener-stocks-sec-table").show();
-      } else {
-        $("#screener-stocks-sec-table").hide();
-      }
-    });
 
     $(".tr-stock.main, .tr-scan.main").click(function (e) {
       var second = $(this).next();
