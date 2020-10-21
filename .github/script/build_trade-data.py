@@ -60,7 +60,7 @@ if __name__ == "__main__":
         # norm-minehunter
         formula_output["hold_stock_list"] = scan_output["hold_stock_list"] = data["hold_stock_list"]
         scan_output["star_stock_list"] = data["star_stock_list"]
-        scan_list = data["hold_stock_list"] + data["star_stock_list"] + scan_output["screener_stock_list"]
+        scan_list = set(data["hold_stock_list"] + data["star_stock_list"] + scan_output["screener_stock_list"])
 
         # SEC
         sec_cik_table = data["sec_cik_table"]
@@ -94,20 +94,21 @@ if __name__ == "__main__":
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # --- get SEC -------
-            sec_args = data["sec_template"].copy()
-            for sec_target in sec_args:
-                sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
+            if (symbol in data["hold_stock_list"]) or (symbol in data["star_stock_list"]): # screener_stock_list no CIK info
+                sec_args = data["sec_template"].copy()
+                for sec_target in sec_args:
+                    sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
 
-            ret, resp = send_post_json(SEC_URL, str({"data": [sec_target]}))
-            if ret == 0:
-                try:
-                    if resp["ret"] != 0:
-                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
-                    else:
-                        scan_output["SEC"][symbol] = resp["data"][0]["report"]
+                ret, resp = send_post_json(SEC_URL, str({"data": [sec_target]}))
+                if ret == 0:
+                    try:
+                        if resp["ret"] != 0:
+                            print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                        else:
+                            scan_output["SEC"][symbol] = resp["data"][0]["report"]
 
-                except Exception as ex:
-                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                    except Exception as ex:
+                        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
             
             # --- get news ------
             query = symbol
