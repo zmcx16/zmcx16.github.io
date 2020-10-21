@@ -321,7 +321,7 @@
          "type":"Finviz_v1",
          "name":"regular_screen",
          "args":{
-            "query_url":"v=111&f=cap_midover,fa_debteq_u0.5,fa_eps5years_pos,fa_estltgrowth_pos,fa_ltdebteq_u0.5,fa_netmargin_pos,fa_pe_low,fa_roa_pos,fa_roe_pos,fa_roi_pos,fa_sales5years_pos,sh_avgvol_o100,ta_beta_u2&ft=4"
+            "query_url":"v=111&f=cap_midover,fa_debteq_u0.5,fa_eps5years_pos,fa_epsqoq_pos,fa_epsyoy_pos,fa_estltgrowth_pos,fa_ltdebteq_u0.5,fa_netmargin_pos,fa_pe_low,fa_peg_low,fa_roa_pos,fa_roe_pos,fa_roi_pos,fa_sales5years_pos,fa_salesqoq_pos,sh_avgvol_o100,ta_beta_u2&ft=4"
          }
       }
    ],
