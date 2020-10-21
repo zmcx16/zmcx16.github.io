@@ -111,7 +111,7 @@ if __name__ == "__main__":
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
             
             # --- get news ------
-            query = symbol
+            query = symbol + ' stock'
             if symbol in news_symbol_keyword:
                 query = news_symbol_keyword[symbol]
 
