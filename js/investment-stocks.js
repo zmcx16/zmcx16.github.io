@@ -82,16 +82,6 @@ var myvar =
 '                <tbody id="screener-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
-'            <div class="sec-title"><input type="checkbox" id="screener-stocks-sec-show" class="sec-checkbox"><label for="screener-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
-'            <table id="screener-stocks-sec-table" style="display: none;">' +
-'                <thead>' +
-'                    <th class="th-date">Date</th>' +
-'                    <th class="th-symbol">Symbol</th>' +
-'                    <th class="th-filings">Filings</th>' +
-'                </thead>' +
-'                <tbody id="screener-stocks-sec-tbody">' +
-'                </tbody>' +
-'            </table>' +
 '        </div>' +
 '    </div>' +
 '    <div class="data-source groups">' +
