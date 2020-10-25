@@ -184,6 +184,7 @@ ul.menu-header_drop-down-menu {
 }
 
 ul.menu-header_drop-down-menu li {
+  text-align: left;
   position: relative;
   white-space: nowrap;
   min-width: 140px;
