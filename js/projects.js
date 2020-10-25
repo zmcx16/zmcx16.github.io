@@ -110,6 +110,7 @@ oss_projects['OpenAI-Gym-GongZhu'] = {
   msg: '要一起玩牌嗎?'
 };
 oss_projects['bypass-fb-block-website-algorithm-bug'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/bypass-fb-block-website-algorithm-bug',
   featured: true,
   position: 16,
   background: 'bypass-fb-block-website-algorithm-bug_885x450.jpg',
