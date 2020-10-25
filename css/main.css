@@ -184,10 +184,13 @@ ul.menu-header_drop-down-menu {
 }
 
 ul.menu-header_drop-down-menu li {
-  text-align: center;
   position: relative;
   white-space: nowrap;
   min-width: 140px;
+}
+
+ul.menu-header_drop-down-menu .main-li{
+  text-align: center;
 }
 
 ul.menu-header_drop-down-menu > li {
