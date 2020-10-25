@@ -15,6 +15,7 @@
       "PSX"
    ],
    "star_stock_list":[
+      "MCY",
       "JNJ",
       "AMZN",
       "FB",
@@ -58,7 +59,7 @@
          "FBP":"First BanCorp.",
          "WFC":"Wells Fargo & Company",
          "SLM":"SLM Corporation",
-         "PSX":"Phillips 66",
+         "PSX":"Phillips 66 Company",
          "JNJ":"Johnson & Johnson",
          "AMZN":"Amazon.com, Inc.",
          "FB":"Facebook, Inc.",
@@ -83,6 +84,7 @@
          "QNST":"QuinStreet, Inc.",
          "FORM":"FormFactor, Inc.",
          "EME":"EMCOR Group, Inc.",
+		 "MCY":"Mercury General Corporation",
          "EXEL":"Exelixis, Inc."
       }
    },
