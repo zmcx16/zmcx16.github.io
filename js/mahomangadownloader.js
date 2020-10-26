@@ -66,7 +66,7 @@ var myvar =
 '                <li><a class="link" target="_blank" href="https://www.huhudm.com/">https://www.huhudm.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://99.hhxxee.com/">https://99.hhxxee.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://www.comicbus.com/">https://www.comicbus.com/</a></li>' +
-'				<li><a class="link" target="_blank" href="https://www.manhuadui.com/">https://www.manhuadui.com/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://www.manhuabei.com/">https://www.manhuabei.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.comicun.com/">https://www.comicun.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>' +
@@ -80,7 +80,7 @@ var myvar =
 '				<li><a class="link" target="_blank" href="https://loveheaven.net/">https://loveheaven.net/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://hanascan.com/">https://hanascan.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.mangatown.com/">https://www.mangatown.com/</a></li>' +
-'				<li><a class="link" target="_blank" href="https://www.ohmanhua.com/">https://www.ohmanhua.com/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://www.cocomanhua.com/">https://www.cocomanhua.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.gufengmh8.com/">https://www.gufengmh8.com/</a></li>' +
 '            </ul>' +
 '        </div>' +
