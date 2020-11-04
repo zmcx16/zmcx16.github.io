@@ -11,12 +11,12 @@ var myvar =
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
+'                    <th class="th-change">Change</th>' +
 '                    <th class="th-52w">52W</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
 '                    <th class="th-rsi">RSI</th>' +
-'                    <th class="th-atr">ATR</th>' +
 '                    <th class="th-risk">Risk</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-tbody">' +
@@ -41,12 +41,12 @@ var myvar =
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
+'                    <th class="th-change">Change</th>' +
 '                    <th class="th-52w">52W</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
 '                    <th class="th-rsi">RSI</th>' +
-'                    <th class="th-atr">ATR</th>' +
 '                    <th class="th-risk">Risk</th>' +
 '                </thead>' +
 '                <tbody id="star-stocks-tbody">' +
@@ -71,12 +71,12 @@ var myvar =
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
+'                    <th class="th-change">Change</th>' +
 '                    <th class="th-52w">52W</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
 '                    <th class="th-rsi">RSI</th>' +
-'                    <th class="th-atr">ATR</th>' +
 '                    <th class="th-risk">Risk</th>' +
 '                </thead>' +
 '                <tbody id="screener-stocks-tbody">' +
@@ -118,6 +118,17 @@ function getScoreAndMappingImg(score_dict){
   }
 
   return { "score": score, "image": bomb_img};
+}
+
+function getStockChangeColor(val){
+  let sign = Math.sign(parseFloat(val));
+  if (sign === 1) {
+    return '<span style="color:green;">' + '+' + val + '</span>'
+  } else if (sign == -1) {
+    return '<span style="color:red;">' + val + '</span>'
+  } else {
+    return '<span style="color:black;">' + val + '</span>'
+  }
 }
 
 function buildTable(data){
@@ -186,12 +197,12 @@ function buildTable(data){
     '<tr class="tr-stock main">' + 
     '  <td class="td-symbol">' + stock["symbol"] + '</td>' + 
     '  <td class="td-price">' + stock["base_info"]["Price"] + '</td>' + 
+    '  <td class="td-change">' + getStockChangeColor(stock["base_info"]["Change"]) + '</td>' + 
     '  <td class="td-52w">' + stock["base_info"]["52W Range"] + '</td>' + 
     '  <td class="td-sma20">' + stock["base_info"]["SMA20"] + '</td>' + 
     '  <td class="td-sma50">' + stock["base_info"]["SMA50"] + '</td>' + 
     '  <td class="td-sma200">' + stock["base_info"]["SMA200"] + '</td>' + 
     '  <td class="td-rsi">' + stock["base_info"]["RSI (14)"] + '</td>' + 
-    '  <td class="td-atr">' + stock["base_info"]["ATR"] + '</td>' + 
     '  <td class="td-risk">' +
     '    <div>' +
     '      <img class="bomb-image" src="/img/investment-stocks/' + stock_result["image"] + '" />' +
@@ -204,7 +215,7 @@ function buildTable(data){
     '    <div class="stock-detail">' +
     '      <div class="stock-statistics">';
 
-    var second_info_key = ["Beta", "Market Cap", "Dividend %", "P/E", "Forward P/E", "PEG", "Debt/Eq",
+    var second_info_key = ["ATR", "Beta", "Market Cap", "Dividend %", "P/E", "Forward P/E", "PEG", "Debt/Eq",
       "LT Debt/Eq", "EPS (ttm)", "ROA", "ROE", "ROI", "Gross Margin", "Oper. Margin", "Profit Margin"];
 
     second_info_key.forEach((key) => {
@@ -331,6 +342,7 @@ function preprocessData(json_data, input_key)
       if (stock["symbol"] == symbol) {
         if (scan_list.length === 0) {
           base_info["Price"] = stock["baseinfo"]["Price"];
+          base_info["Change"] = stock["baseinfo"]["Change"];
           base_info["52W Range"] = stock["baseinfo"]["52W Range"];
           base_info["SMA20"] = stock["baseinfo"]["SMA20"];
           base_info["SMA50"] = stock["baseinfo"]["SMA50"];
