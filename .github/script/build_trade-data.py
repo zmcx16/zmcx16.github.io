@@ -22,7 +22,7 @@ def send_post_json(url, req_data):
 
 if __name__ == "__main__":
 
-    DELAY_TIME_SEC = 60
+    DELAY_TIME_SEC = 90
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
