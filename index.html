@@ -42,28 +42,28 @@
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
     <script src="js/jquery.min.js"></script>
+    <script src="js/signalr.min.js"></script>
     <script src="js/common.js"></script>
     <script src="loading/loading.js"></script>
     <script>
+      function RedirectPage(page_name){
+        var loc = window.location;
+        loc.href = loc.protocol + '//' + loc.host + loc.pathname+"?page=" + page_name;
+      }
 
-        function RedirectPage(page_name){
-          var loc = window.location;
-          loc.href = loc.protocol + '//' + loc.host + loc.pathname+"?page=" + page_name;
+      window.onload = function () {
+        var params = new URL(window.location.href).searchParams;
+        var load_js = '';
+        if( !params.has('page')) {
+          load_js = 'sideprojects';
+        }else{
+          load_js = params.get('page');
         }
 
-        window.onload = function () {
-          var params = new URL(window.location.href).searchParams;
-          var load_js = '';
-          if( !params.has('page')) {
-            load_js = 'sideprojects';
-          }else{
-            load_js = params.get('page');
-          }
+        loadScripts(['js/' + load_js.toLowerCase() + ".js"], 0);
 
-          loadScripts(['js/' + load_js.toLowerCase() + ".js"], 0);
-
-          animateStarrySky();
-        };
+        animateStarrySky();
+      };
     </script>
   </head>
   <body class="ytype borderless">

@@ -429,4 +429,22 @@ $(document).ready(function () {
     });
 
   });
+
+  // ----- SignalR init connection -----
+  var connection = new signalR.HubConnectionBuilder().withUrl("https://zmcx16.moe/hubs/signalRHub").build();
+
+  connection.on("EchoReply", function (message) {
+    console.log(message);
+  });
+
+  connection.start().then(function () {
+    var message = 'Hello Happy World';
+    connection.invoke("Echo", message).catch(function (err) {
+      return console.error(err.toString());
+    });
+  }).catch(function (err) {
+    return console.error(err.toString());
+  });
+  // -----------------------------------
+
 });
