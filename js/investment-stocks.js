@@ -98,6 +98,8 @@ var myvar =
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
+var g_last_closed_price_list = {};
+
 function getScoreAndMappingImg(score_dict){
 
   var score = Math.round(score_dict["fail"] / (score_dict["pass"] + score_dict["fail"]) * 100);
@@ -196,8 +198,8 @@ function buildTable(data){
     stock_output += 
     '<tr class="tr-stock main">' + 
     '  <td class="td-symbol">' + stock["symbol"] + '</td>' + 
-    '  <td class="td-price">' + stock["base_info"]["Price"] + '</td>' + 
-    '  <td class="td-change">' + getStockChangeColor(stock["base_info"]["Change"]) + '</td>' + 
+    '  <td class="td-price symbol-' + stock["symbol"] +'">' + stock["base_info"]["Price"] + '</td>' + 
+    '  <td class="td-change symbol-' + stock["symbol"] +'">' + getStockChangeColor(stock["base_info"]["Change"]) + '</td>' + 
     '  <td class="td-52w">' + stock["base_info"]["52W Range"] + '</td>' + 
     '  <td class="td-sma20">' + stock["base_info"]["SMA20"] + '</td>' + 
     '  <td class="td-sma50">' + stock["base_info"]["SMA50"] + '</td>' + 
@@ -342,6 +344,7 @@ function preprocessData(json_data, input_key)
       if (stock["symbol"] == symbol) {
         if (scan_list.length === 0) {
           base_info["Price"] = stock["baseinfo"]["Price"];
+          g_last_closed_price_list[symbol] = parseFloat(base_info["Price"]);
           base_info["Change"] = stock["baseinfo"]["Change"];
           base_info["52W Range"] = stock["baseinfo"]["52W Range"];
           base_info["SMA20"] = stock["baseinfo"]["SMA20"];
@@ -432,9 +435,32 @@ $(document).ready(function () {
 
   // ----- SignalR init connection -----
   var connection = new signalR.HubConnectionBuilder().withUrl("https://zmcx16.moe/hubs/signalRHub").build();
+  //var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:44341/signalRHub").build();
 
   connection.on("EchoReply", function (message) {
     console.log(message);
+  });
+
+  connection.on("GetStockInfo", function (message) {
+    //console.log(message);
+    /*
+    [{ "Key": "PNC", "Value": 119.695 },...]
+    */
+    var msg_arr = JSON.parse(message);
+    msg_arr.forEach((stock) => {
+      $($(".td-price.symbol-" + stock["Key"])[0]).fadeOut(500, function () {
+        $(this).text(stock["Value"].toString()).fadeIn(500);
+      });
+
+      if (stock["Key"] in g_last_closed_price_list){
+        $($(".td-change.symbol-" + stock["Key"])[0]).fadeOut(500, function () {
+          var change = ((stock["Value"] - g_last_closed_price_list[stock["Key"]]) * 100 / g_last_closed_price_list[stock["Key"]]).toFixed(2);
+          $(this).html(getStockChangeColor(change.toString() + '%')).fadeIn(500);
+        });
+
+      }
+    });
+
   });
 
   connection.start().then(function () {
