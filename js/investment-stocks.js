@@ -217,7 +217,7 @@ function buildTable(data){
     '    <div class="stock-detail">' +
     '      <div class="stock-statistics">';
 
-    var second_info_key = ["ATR", "Beta", "Market Cap", "Dividend %", "P/E", "Forward P/E", "PEG", "Debt/Eq",
+    var second_info_key = ["ATR", "Beta", "Market Cap", "Dividend %", "P/E", "P/B", "Forward P/E", "PEG", "Debt/Eq",
       "LT Debt/Eq", "EPS (ttm)", "ROA", "ROE", "ROI", "Gross Margin", "Oper. Margin", "Profit Margin"];
 
     second_info_key.forEach((key) => {
@@ -356,6 +356,7 @@ function preprocessData(json_data, input_key)
           base_info["Market Cap"] = stock["baseinfo"]["Market Cap"];
           base_info["Dividend %"] = stock["baseinfo"]["Dividend %"];
           base_info["P/E"] = stock["baseinfo"]["P/E"];
+          base_info["P/B"] = stock["baseinfo"]["P/B"];
           base_info["Forward P/E"] = stock["baseinfo"]["Forward P/E"];
           base_info["PEG"] = stock["baseinfo"]["PEG"];
           base_info["Debt/Eq"] = stock["baseinfo"]["Debt/Eq"];
