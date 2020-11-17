@@ -7,7 +7,7 @@
       "SNV",
       "FHN",
       "STL",
-      "EWBC",
+      "SFM",
       "BIO",
       "PBCT",
       "FBP",
@@ -17,6 +17,7 @@
    "star_stock_list":[
       "MCY",
       "SLM",
+	  "EWBC",
       "JNJ",
       "AMZN",
       "FB",
@@ -85,6 +86,7 @@
          "FORM":"FormFactor, Inc.",
          "EME":"EMCOR Group, Inc.",
          "MCY":"Mercury General Corporation",
+		 "SFM":"Sprouts Farmers Market",
          "EXEL":"Exelixis, Inc."
       }
    },
@@ -378,60 +380,100 @@
       "FORM":"1039399",
       "EME":"105634",
       "MCY":"64996",
+	  "SFM":"1575515",
       "EXEL":"939767"
    },
    "portfolio":{
       "BAC":{
          "cost_p":25.9,
-         "position_%":4.291546194312739
+         "position":230,
+         "position_%":4.155146487572436,
+         "profit":386.3999999999999,
+         "profit_%":6.486486486486485
       },
       "BIO":{
          "cost_p":597.32,
-         "position_%":8.176112318776369
+         "position":19,
+         "position_%":7.91624809454064,
+         "profit":-2.090000000000259,
+         "profit_%":-0.01841558963369946
       },
       "DHI":{
          "cost_p":72.88,
-         "position_%":5.250426164873467
-      },
-      "EWBC":{
-         "cost_p":32.92,
-         "position_%":9.486499964195088
+         "position":100,
+         "position_%":5.083550042207137,
+         "profit":125.0,
+         "profit_%":1.7151481888035127
       },
       "FBP":{
          "cost_p":6.92,
-         "position_%":8.37532305465875
+         "position":1680,
+         "position_%":8.109127246251823,
+         "profit":2368.8,
+         "profit_%":20.3757225433526
       },
       "FHN":{
          "cost_p":10.96,
-         "position_%":10.58038677659134
+         "position":1340,
+         "position_%":10.244106660245734,
+         "profit":1942.999999999999,
+         "profit_%":13.229927007299263
       },
       "PBCT":{
          "cost_p":14.03,
-         "position_%":7.277401886263146
+         "position":720,
+         "position_%":7.046101688578432,
+         "profit":-525.599999999999,
+         "profit_%":-5.203136136849599
       },
       "PFC":{
          "cost_p":17.29,
-         "position_%":4.982429659202099
+         "position":400,
+         "position_%":4.824071362775049,
+         "profit":1820.0000000000002,
+         "profit_%":26.315789473684216
       },
       "PNC":{
          "cost_p":99.87,
-         "position_%":7.9143258396611476
+         "position":110,
+         "position_%":7.662782066228726,
+         "profit":2906.2000000000003,
+         "profit_%":26.454390707920293
       },
       "PSX":{
          "cost_p":74.12,
-         "position_%":9.077589166832002
+         "position":170,
+         "position_%":8.789072990096983,
+         "profit":-1955.0000000000011,
+         "profit_%":-15.515380464112258
+      },
+      "SFM":{
+         "cost_p":20.61,
+         "position":860,
+         "position_%":12.363322046940809,
+         "profit":-223.5999999999983,
+         "profit_%":-1.2615235322658807
       },
       "SNV":{
          "cost_p":15.59,
-         "position_%":8.98508714713253
+         "position":800,
+         "position_%":8.699510994293004,
+         "profit":12280.000000000002,
+         "profit_%":98.46055163566389
       },
       "STL":{
          "cost_p":16.83,
-         "position_%":7.2748083716921315
+         "position":600,
+         "position_%":7.043590604583927,
+         "profit":-371.99999999999847,
+         "profit_%":-3.6838978015448456
       },
       "WFC":{
          "cost_p":34,
-         "position_%":8.328063455809176
+         "position":340,
+         "position_%":8.063369715685305,
+         "profit":-3094.0000000000005,
+         "profit_%":-26.764705882352946
       }
    }
 }
