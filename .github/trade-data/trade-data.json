@@ -1,8 +1,9 @@
 {
    "hold_stock_list":[
+      "INTC",
+      "T",
       "DHI",
       "BAC",
-      "PNC",
       "PFC",
       "SNV",
       "FHN",
@@ -15,9 +16,10 @@
       "PSX"
    ],
    "star_stock_list":[
+      "PNC",
       "MCY",
       "SLM",
-	  "EWBC",
+      "EWBC",
       "JNJ",
       "AMZN",
       "FB",
@@ -26,10 +28,8 @@
       "LN",
       "DIS",
       "AAPL",
-      "T",
       "COST",
       "MSFT",
-      "INTC",
       "MCD",
       "AMD",
       "WMT",
@@ -86,7 +86,7 @@
          "FORM":"FormFactor, Inc.",
          "EME":"EMCOR Group, Inc.",
          "MCY":"Mercury General Corporation",
-		 "SFM":"Sprouts Farmers Market",
+         "SFM":"Sprouts Farmers Market",
          "EXEL":"Exelixis, Inc."
       }
    },
@@ -380,99 +380,78 @@
       "FORM":"1039399",
       "EME":"105634",
       "MCY":"64996",
-	  "SFM":"1575515",
+      "SFM":"1575515",
       "EXEL":"939767"
    },
    "portfolio":{
       "BAC":{
          "cost_p":25.9,
-         "position":230,
-         "position_%":4.155146487572436,
-         "profit":386.3999999999999,
+         "position_%":4.061499156132699,
          "profit_%":6.486486486486485
       },
       "BIO":{
          "cost_p":597.32,
-         "position":19,
-         "position_%":7.91624809454064,
-         "profit":-2.090000000000259,
+         "position_%":7.737834286198171,
          "profit_%":-0.01841558963369946
       },
       "DHI":{
          "cost_p":72.88,
-         "position":100,
-         "position_%":5.083550042207137,
-         "profit":125.0,
+         "position_%":4.968978655345832,
          "profit_%":1.7151481888035127
       },
       "FBP":{
          "cost_p":6.92,
-         "position":1680,
-         "position_%":8.109127246251823,
-         "profit":2368.8,
+         "position_%":7.9263663907229,
          "profit_%":20.3757225433526
       },
       "FHN":{
          "cost_p":10.96,
-         "position":1340,
-         "position_%":10.244106660245734,
-         "profit":1942.999999999999,
+         "position_%":10.013228337523467,
          "profit_%":13.229927007299263
+      },
+      "INTC":{
+         "cost_p":45.18,
+         "position_%":4.928615930812835,
+         "profit_%":2.2355024347056176
       },
       "PBCT":{
          "cost_p":14.03,
-         "position":720,
-         "position_%":7.046101688578432,
-         "profit":-525.599999999999,
+         "position_%":6.887298955109969,
          "profit_%":-5.203136136849599
       },
       "PFC":{
          "cost_p":17.29,
-         "position":400,
-         "position_%":4.824071362775049,
-         "profit":1820.0000000000002,
+         "position_%":4.715348021456061,
          "profit_%":26.315789473684216
-      },
-      "PNC":{
-         "cost_p":99.87,
-         "position":110,
-         "position_%":7.662782066228726,
-         "profit":2906.2000000000003,
-         "profit_%":26.454390707920293
       },
       "PSX":{
          "cost_p":74.12,
-         "position":170,
-         "position_%":8.789072990096983,
-         "profit":-1955.0000000000011,
+         "position_%":8.590987739958784,
          "profit_%":-15.515380464112258
       },
       "SFM":{
          "cost_p":20.61,
-         "position":860,
-         "position_%":12.363322046940809,
-         "profit":-223.5999999999983,
+         "position_%":12.084681541512447,
          "profit_%":-1.2615235322658807
       },
       "SNV":{
          "cost_p":15.59,
-         "position":800,
-         "position_%":8.699510994293004,
-         "profit":12280.000000000002,
+         "position_%":8.503444263100056,
          "profit_%":98.46055163566389
       },
       "STL":{
          "cost_p":16.83,
-         "position":600,
-         "position_%":7.043590604583927,
-         "profit":-371.99999999999847,
+         "position_%":6.884844465104583,
          "profit_%":-3.6838978015448456
+      },
+      "T":{
+         "cost_p":28.25,
+         "position_%":4.815232128619639,
+         "profit_%":2.5486725663716774
       },
       "WFC":{
          "cost_p":34,
-         "position":340,
-         "position_%":8.063369715685305,
-         "profit":-3094.0000000000005,
+         "position_%":7.8816401284025535,
          "profit_%":-26.764705882352946
       }
    }
