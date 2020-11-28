@@ -87,7 +87,8 @@
          "EME":"EMCOR Group, Inc.",
          "MCY":"Mercury General Corporation",
          "SFM":"Sprouts Farmers Market",
-         "EXEL":"Exelixis, Inc."
+         "EXEL":"Exelixis, Inc.",
+		 "T": "AT&T Inc."
       }
    },
    "tactic_template":[
