@@ -136,8 +136,6 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 var switch_imgs_random = 0;
 var switch_demo_imgs = 0;
-var request_cnt = 0;
-const total_request_cnt = 3;
 
 $(document).ready(function () {
 
@@ -156,67 +154,47 @@ $(document).ready(function () {
     $('#main-plugin-wrap').on('mouseout', '.manga-show-2', function () { switch_demo_imgs.run(); });
     $('#main-plugin-wrap').on('click', '#img-prev', function () { switch_demo_imgs.doSwitch(0, 500); });
     $('#main-plugin-wrap').on('click', '#img-next', function () { switch_demo_imgs.doSwitch(1, 500); });
-
-    var getPackageInfo = function (platform) {
-        $.ajax({
-            url: 'https://zmcx16.moe/api/MahoManga/Query' + platform,
-            async: true,
-            success: function (data, textStatus, xhr) {
-                var resp_data = JSON.parse(data);
+ 
+    const getPackageInfo = (platform) => {
+        return fetch('https://zmcx16.moe/api/MahoManga/Query' + platform, {})
+            .then((response) => {
+                return response.json();
+            }).then((resp_data) => {
                 if (resp_data) {
-                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
-                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
-                    document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
+                    $('#main-plugin-wrap')[0].innerHTML = $('#main-plugin-wrap')[0].innerHTML.replace("{FileName" + platform + "}", resp_data['FileName']);
+                    $('#main-plugin-wrap')[0].innerHTML = $('#main-plugin-wrap')[0].innerHTML.replace("{FileSize" + platform + "}", (parseInt(resp_data['Size']) / 1048576).toFixed(2));
+                    $('#main-plugin-wrap')[0].innerHTML = $('#main-plugin-wrap')[0].innerHTML.replace("{FilePath" + platform + "}", "https://drive.google.com/open?id=" + resp_data['FileID']);
                 }
                 else {
-                    console.log('get ' + platform + ' package info failed: ' + xhr);
+                    console.error('get ' + platform + ' package info failed.');
                 }
-				request_cnt+=1;
-				if(request_cnt >= total_request_cnt)
-					LoadingImg.doLoading(false);
-            },
-			error: function (xhr, textStatus, errorThrown) {
-				console.log(xhr);
-				console.log(textStatus);
-				console.log(errorThrown);
-				request_cnt+=1;
-				if(request_cnt >= total_request_cnt)
-					LoadingImg.doLoading(false);
-			},
-            timeout: 10000
-        });
-
+            }).catch((err) => {
+                console.error('get ' + platform + ' package info failed: ' + err);
+            });
     };
 
-	LoadingImg.doLoading(true);
-    getPackageInfo("X64");
-    getPackageInfo("X86");
+    const getVersion = () => {
+        return fetch('https://zmcx16.moe/api/MahoManga/QueryVersion', {})
+            .then((response) => {
+                return response.json();
+            }).then((resp_data) => {
+                if (resp_data) {
+                    $('#main-plugin-wrap')[0].innerHTML = $('#main-plugin-wrap')[0].innerHTML.replace("{Version}", "Ver" + resp_data);
+                }
+                else {
+                    console.error('get package version failed.');
+                }
+            }).catch((err) => {
+                console.error('get package version failed: ' + err);
+            });
+    };
+    
+    LoadingImg.doLoading(true);
+    Promise.all([getPackageInfo("X64"),getPackageInfo("X86"), getVersion()])
+        .then(()=>{
+            LoadingImg.doLoading(false);
+        });
 
-    $.ajax({
-        url: 'https://zmcx16.moe/api/MahoManga/QueryVersion',
-        async: true,
-        contentType: 'text/plain',
-        success: function (data, textStatus, xhr) {
-            if (data) {
-                document.getElementById('main-plugin-wrap').innerHTML = document.getElementById('main-plugin-wrap').innerHTML.replace("{Version}", "Ver" + data);
-            }
-            else {
-                console.log('get version failed: ' + xhr);
-            }
-			request_cnt+=1;
-			if(request_cnt >= total_request_cnt)
-				LoadingImg.doLoading(false);
-        },
-        error: function (xhr, textStatus, errorThrown) {
-            console.log(xhr);
-            console.log(textStatus);
-            console.log(errorThrown);
-			request_cnt+=1;
-			if(request_cnt >= total_request_cnt)
-				LoadingImg.doLoading(false);
-        },
-        timeout: 10000
-    });    
 });
 
 //# sourceURL=js/mahomangadownloader.js
