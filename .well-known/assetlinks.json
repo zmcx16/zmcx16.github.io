@@ -1,0 +1,9 @@
+[{
+  relation [delegate_permissioncommon.handle_all_urls],
+  target {
+    namespace android_app,
+    package_name com.zmcx16.norn_stockscreener,
+    sha256_cert_fingerprints
+    [E7E1AD72102B8B4FDB2B63E6234F23DD7B515E1BFFFC767559A4086604F71A53]
+  }
+}]
