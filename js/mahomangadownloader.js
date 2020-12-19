@@ -66,7 +66,7 @@ var myvar =
 '                <li><a class="link" target="_blank" href="https://www.huhudm.com/">https://www.huhudm.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://99.hhxxee.com/">https://99.hhxxee.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://www.comicbus.com/">https://www.comicbus.com/</a></li>' +
-'				<li><a class="link" target="_blank" href="https://www.manhuabei.com/">https://www.manhuabei.com/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://www.manhuadai.com/">https://www.manhuadai.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.comicun.com/">https://www.comicun.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>' +
