@@ -5,7 +5,7 @@
       "DHI",
       "BAC",
       "PFC",
-      "SNV",
+      "REGI",
       "FHN",
       "STL",
       "SFM",
@@ -16,10 +16,7 @@
       "PSX"
    ],
    "star_stock_list":[
-      "PNC",
       "MCY",
-      "SLM",
-      "EWBC",
       "JNJ",
       "AMZN",
       "FB",
@@ -37,11 +34,6 @@
       "AMT",
       "CRWD",
       "CRM",
-      "WLK",
-      "QNST",
-      "FORM",
-      "EME",
-      "EXEL"
    ],
    "news_config":{
       "latest_days":30,
@@ -87,6 +79,7 @@
          "EME":"EMCOR Group, Inc.",
          "MCY":"Mercury General Corporation",
          "SFM":"Sprouts Farmers Market",
+		 "REGI":"Renewable Energy Group Inc",
          "EXEL":"Exelixis, Inc."
       }
    },
@@ -433,11 +426,6 @@
          "cost_p":20.61,
          "position_%":11.290389772797198,
          "profit_%":-0.09704027171275874
-      },
-      "SNV":{
-         "cost_p":15.59,
-         "position_%":1.9861342603828387,
-         "profit_%":110.58370750481077
       },
       "STL":{
          "cost_p":16.83,
