@@ -1,5 +1,6 @@
 {
    "hold_stock_list":[
+	  "SMP",
       "INTC",
       "T",
       "DHI",
@@ -7,11 +8,9 @@
       "PFC",
       "REGI",
       "FHN",
-      "STL",
       "SFM",
       "BIO",
       "PBCT",
-      "FBP",
       "WFC",
       "PSX"
    ],
@@ -47,6 +46,7 @@
          "SNV":"Synovus Financial Corp.",
          "FHN":"First Horizon National Corporation",
          "STL":"Sterling Bancorp",
+		 "SMP":"Standard Motor Products, Inc.",
          "EWBC":"East West Bancorp, Inc.",
          "PBCT":"People's United Financial, Inc.",
          "FBP":"First BanCorp.",
@@ -375,6 +375,7 @@
       "MCY":"64996",
       "SFM":"1575515",
       "REGI":"1463258",
+	  "SMP":"93389",
       "EXEL":"939767"
    },
    "portfolio":{
@@ -392,11 +393,6 @@
          "cost_p":72.88,
          "position_%":4.539736271720409,
          "profit_%":-0.4116355653128391
-      },
-      "FBP":{
-         "cost_p":6.92,
-         "position_%":7.241651756382106,
-         "profit_%":28.03468208092485
       },
       "FHN":{
          "cost_p":10.96,
@@ -432,11 +428,6 @@
          "cost_p":20.61,
          "position_%":11.040753227460971,
          "profit_%":-1.989325570111597
-      },
-      "STL":{
-         "cost_p":16.83,
-         "position_%":6.290101107551137,
-         "profit_%":2.198455139631616
       },
       "T":{
          "cost_p":28.54,
