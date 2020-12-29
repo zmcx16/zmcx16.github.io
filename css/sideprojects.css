@@ -78,7 +78,7 @@
 .project .bottom-links {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  width: 196px;
+  width: 210px;
 
   position: absolute;
   bottom: 0px;
@@ -135,11 +135,19 @@
 }
 
 .online-website{
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .octicon-global-text:before {
   content: '\f0b6';
+}
+
+.android{
+  margin-left: 10px;
+}
+
+.octicon-android-text:before {
+  content: '\f038';
 }
 
 .project .island-item img {
