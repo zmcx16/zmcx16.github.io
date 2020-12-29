@@ -12,6 +12,7 @@ oss_projects['MahoMangaDownloader'] = {
 oss_projects['Norn-StockScreener'] = {
   blog_post: 'https://blog.zmcx16.moe/search/label/Norn-StockScreener',
   online_website: 'https://norn-stockscreener.zmcx16.moe/',
+  android: 'https://play.google.com/store/apps/details?id=moe.zmcx16.norn_stockscreener',
   featured: true,
   position: 2,
   background: 'norn-stockscreener_885x450.png',
@@ -300,6 +301,12 @@ Repository.prototype.onlineWebsite = function () {
   }
 }
 
+Repository.prototype.android = function () {
+  if (oss_projects[this.name] && oss_projects[this.name].android) {
+    return oss_projects[this.name].android;
+  }
+}
+
 Repository.prototype.msg = function () {
   if (oss_projects[this.name] && oss_projects[this.name].msg) {
     return oss_projects[this.name].msg;
@@ -342,13 +349,19 @@ Repository.prototype.classes = function () {
 
 Repository.prototype.getBlogLink = function () {
   if (this.blogPost()) {
-    return '<a href="' + this.blogPost() + '" target="_blank" class="blog-post"><span class="octicon octicon-file-text"></span> Blog post</a> ';
+    return '<a href="' + this.blogPost() + '" target="_blank" class="blog-post"><span class="octicon octicon-file-text"></span>&nbsp&nbspBlog</a> ';
   }
 }
 
 Repository.prototype.getWebsiteLink = function () {
   if (this.onlineWebsite()) {
-    return '<a href="' + this.onlineWebsite() + '" target="_blank" class="online-website"><span class="octicon octicon-global-text"></span> Online website</a> ';
+    return '<a href="' + this.onlineWebsite() + '" target="_blank" class="online-website"><span class="octicon octicon-global-text"></span>&nbsp&nbspWebsite</a> ';
+  }
+}
+
+Repository.prototype.getAndroidLink = function () {
+  if (this.android()) {
+    return '<a href="' + this.android() + '" target="_blank" class="android"><span class="octicon octicon-android-text"></span>&nbsp&nbspAndroid</a> ';
   }
 }
 
@@ -419,11 +432,12 @@ Repository.prototype.repoContent = function () {
 }
 
 Repository.prototype.bottomLinks = function () {
-  if (this.blogPost() || this.onlineWebsite()) {
+  if (this.blogPost() || this.onlineWebsite() || this.android()) {
     return [
       '<div class="island-item bottom-links">',
       this.getBlogLink(),
       this.getWebsiteLink(),
+	  this.getAndroidLink(),
       '</div>'
     ].join('');
   }
