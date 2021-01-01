@@ -158,3 +158,7 @@
 .main-MahoMangaDownloader .detail .disclaimer h4{
     margin-left: 20px;
 }
+
+.main-MahoMangaDownloader .line-through{
+	text-decoration: line-through;
+}
