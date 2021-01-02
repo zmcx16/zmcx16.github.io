@@ -169,7 +169,7 @@ function getKellyAutoRangeV1(){
     type: 'POST',
     url: 'https://zmcx16.moe/stock-minehunter/api/task/calc-formula',
     async: true,
-    data: "=" + JSON.stringify({ "data": data }),
+    data: JSON.stringify({ "data": data }),
     dataType: 'json',
     contentType: 'application/json',
     cache: false,
