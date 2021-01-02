@@ -170,6 +170,8 @@ function getKellyAutoRangeV1(){
     url: 'https://zmcx16.moe/stock-minehunter/api/task/calc-formula',
     async: true,
     data: "=" + JSON.stringify({ "data": data }),
+    dataType: 'json',
+    contentType: 'application/json',
     cache: false,
     success: function (resp_data, textStatus, xhr) {
       LoadingImg.doLoading(false);
