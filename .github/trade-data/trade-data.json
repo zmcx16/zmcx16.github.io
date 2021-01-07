@@ -8,7 +8,7 @@
       "PFC",
       "REGI",
       "FHN",
-      "SFM",
+      "BGFV",
       "BIO",
       "PBCT",
       "WFC",
@@ -80,7 +80,8 @@
          "MCY":"Mercury General Corporation",
          "SFM":"Sprouts Farmers Market",
          "REGI":"Renewable Energy Group Inc",
-         "EXEL":"Exelixis, Inc."
+         "EXEL":"Exelixis, Inc.",
+         "BGFV":"Big 5 Sporting Goods Corporation"
       }
    },
    "tactic_template":[
@@ -376,73 +377,61 @@
       "SFM":"1575515",
       "REGI":"1463258",
       "SMP":"93389",
-      "EXEL":"939767"
+      "EXEL":"939767",
+      "BGFV":"1156388"
    },
    "portfolio":{
       "BAC":{
          "cost_p":25.9,
-         "position_%":3.605539129783733,
-         "profit_%":16.332046332046335
+         "position_%":3.6187377597273556
+      },
+      "BGFV":{
+         "cost_p":12.23,
+         "position_%":10.401213349345607
       },
       "BIO":{
          "cost_p":597.32,
-         "position_%":6.869154276824907,
-         "profit_%":-4.240608049286821
+         "position_%":6.894299871439742
       },
       "DHI":{
          "cost_p":72.88,
-         "position_%":4.411141376173216,
-         "profit_%":-3.4028540065861557
+         "position_%":4.427289036913374
       },
       "FHN":{
          "cost_p":10.96,
-         "position_%":8.88910355475169,
-         "profit_%":15.602189781021888
+         "position_%":8.921643484045633
       },
       "INTC":{
          "cost_p":46.15,
-         "position_%":7.2625254353323845,
-         "profit_%":1.9934994582881944
+         "position_%":7.289111025510918
       },
       "PBCT":{
          "cost_p":14.03,
-         "position_%":6.1141034200811415,
-         "profit_%":-7.341411261582318
+         "position_%":6.136485035028009
       },
       "PFC":{
          "cost_p":17.29,
-         "position_%":4.1859843245902795,
-         "profit_%":32.50433776749567
+         "position_%":4.201307763349738
       },
       "PSX":{
          "cost_p":70.43,
-         "position_%":10.657131144479951,
-         "profit_%":-1.5618344455487838
+         "position_%":10.696143210407824
       },
       "REGI":{
          "cost_p":77.53,
-         "position_%":4.035625413960622,
-         "profit_%":-4.424093899135827
-      },
-      "SFM":{
-         "cost_p":20.61,
-         "position_%":10.728007194857268,
-         "profit_%":-0.19408054342551748
+         "position_%":4.050398440826409
       },
       "SMP":{
          "cost_p":41.45,
-         "position_%":15.981096733945655,
-         "profit_%":0.4825090470446217
+         "position_%":16.03959799389377
       },
       "T":{
          "cost_p":28.54,
-         "position_%":7.255141252457889,
-         "profit_%":0.03503854239664178
+         "position_%":7.281699811700497
       },
       "WFC":{
          "cost_p":31.79,
-         "position_%":10.005446742761277,
-         "profit_%":-5.850896508335953
+         "position_%":10.04207321781114
       }
    }
 }
