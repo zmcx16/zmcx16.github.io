@@ -4,7 +4,6 @@
       "INTC",
       "T",
       "DHI",
-      "BAC",
       "PFC",
       "REGI",
       "FHN",
@@ -12,7 +11,10 @@
       "BIO",
       "PBCT",
       "WFC",
-      "PSX"
+      "PSX",
+      "SNX",
+      "LAKE",
+      "HTH"
    ],
    "star_stock_list":[
       "MCY",
@@ -80,7 +82,10 @@
          "SFM":"Sprouts Farmers Market",
          "REGI":"Renewable Energy Group Inc",
          "EXEL":"Exelixis, Inc.",
-         "BGFV":"Big 5 Sporting Goods Corporation"
+         "BGFV":"Big 5 Sporting Goods Corporation",
+         "SNX":"SYNNEX Corporation",
+         "LAKE":"Lakeland Industries, Inc.",
+         "HTH":"Hilltop Holdings Inc."
       }
    },
    "tactic_template":[
@@ -377,60 +382,72 @@
       "REGI":"1463258",
       "SMP":"93389",
       "EXEL":"939767",
-      "BGFV":"1156388"
+      "BGFV":"1156388",
+      "HTH":"1265131",
+      "LAKE":"798081",
+      "SNX":"1177394"
    },
    "portfolio":{
-      "BAC":{
-         "cost_p":25.9,
-         "position_%":3.6187377597273556
-      },
       "BGFV":{
          "cost_p":12.23,
-         "position_%":10.401213349345607
+         "position_%":9.177379907884236
       },
       "BIO":{
          "cost_p":597.32,
-         "position_%":6.894299871439742
+         "position_%":6.083098864908938
       },
       "DHI":{
          "cost_p":72.88,
-         "position_%":4.427289036913374
+         "position_%":3.9063628529763057
       },
       "FHN":{
          "cost_p":10.96,
-         "position_%":8.921643484045633
+         "position_%":7.871900027984526
+      },
+      "HTH":{
+         "cost_p":29.52,
+         "position_%":5.53794470320406
       },
       "INTC":{
          "cost_p":46.15,
-         "position_%":7.289111025510918
+         "position_%":6.4314555259142
+      },
+      "LAKE":{
+         "cost_p":29.7,
+         "position_%":4.775753707466915
       },
       "PBCT":{
          "cost_p":14.03,
-         "position_%":6.136485035028009
+         "position_%":5.4144504659200665
       },
       "PFC":{
          "cost_p":17.29,
-         "position_%":4.201307763349738
+         "position_%":3.7069711156948584
       },
       "PSX":{
          "cost_p":70.43,
-         "position_%":10.696143210407824
+         "position_%":9.437607565008275
       },
       "REGI":{
          "cost_p":77.53,
-         "position_%":4.050398440826409
+         "position_%":3.5738181711371784
       },
       "SMP":{
          "cost_p":41.45,
-         "position_%":16.03959799389377
+         "position_%":14.15233775287978
+      },
+      "SNX":{
+         "cost_p":86.67,
+         "position_%":4.645505879081455
       },
       "T":{
          "cost_p":28.54,
-         "position_%":7.281699811700497
+         "position":420,
+         "position_%":6.424916334530238
       },
       "WFC":{
          "cost_p":31.79,
-         "position_%":10.04207321781114
+         "position_%":8.860497125408989
       }
    }
 }
