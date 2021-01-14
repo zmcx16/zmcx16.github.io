@@ -46,6 +46,71 @@
                 </fieldset>
             </fieldset>
         </div>
+        <div class="formula-component">
+            <fieldset class="formula-block formula-group">
+                <legend class="formula-block">Beneish M-Score模型</legend>
+                <div id="beneish-formula-val" style="pointer-events:none;"></div>
+                <div id="beneish-formula-description" style="pointer-events:none;"></div>
+                <fieldset class="formula-block formula-group arg-input">
+                    <legend class="formula-block arg-input">手動輸入</legend>
+                    <div class="beneish-formula-input-block1">
+                        <div>DSRI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-DSRI-input" name="beneish-DSRI-input">
+                        <div></div>
+                        <div>GMI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-GMI-input" name="beneish-GMI-input">
+                        <div></div>
+                        <div>AQI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-AQI-input" name="beneish-AQI-input">
+                        <div></div>
+                        <div>SGI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-SGI-input" name="beneish-SGI-input">
+                        <div></div>
+                        <div>DEPI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-DEPI-input" name="beneish-DEPI-input">
+                        <div></div>
+                        <div>SGAI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-SGAI-input" name="beneish-SGAI-input">
+                        <div></div>
+                        <div>LVGI:</div>
+                        <div></div>
+                        <input type="text" id="beneish-LVGI-input" name="beneish-LVGI-input">
+                        <div></div>
+                        <div>TATA:</div>
+                        <div></div>
+                        <input type="text" id="beneish-TATA-input" name="beneish-TATA-input">
+                        <div></div>
+                    </div>
+                    <div class="beneish-formula-input-block1-1">
+                        <div></div>
+                        <button id="beneish-manual-calc-btn" class="click-btn">計算</button>
+                        <div></div>
+                    </div>
+                </fieldset>
+                <br><br><br>
+                <fieldset class="formula-block formula-group arg-input">
+                    <legend class="formula-block arg-input">自動取得</legend>
+                    <div class="beneish-formula-input-block2">
+                        <div>股票代號:</div>
+                        <div></div>
+                        <input type="text" id="beneish-symbol-input" name="beneish-symbol-input">
+                        <div></div>
+                        <div>比較年度:</div>
+                        <div></div>
+                        <input type="text" id="beneish-year-input" name="beneish-year-input">
+                        <div></div>
+                        <button id="beneish-auto-range-v1-calc-btn" class="click-btn">計算</button>
+                        <div></div>
+                    </div>
+                </fieldset>
+            </fieldset>
+        </div>
     </div>
     <div class="hold-stocks-groups">
         <h1> 持有清單 </h1>

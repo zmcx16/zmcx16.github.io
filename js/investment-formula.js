@@ -47,6 +47,71 @@ var myvar =
 '                </fieldset>' +
 '            </fieldset>' +
 '        </div>' +
+'        <div class="formula-component">' +
+'            <fieldset class="formula-block formula-group">' +
+'                <legend class="formula-block">Beneish M-Score模型</legend>' +
+'                <div id="beneish-formula-val" style="pointer-events:none;"></div>' +
+'                <div id="beneish-formula-description" style="pointer-events:none;"></div>' +
+'                <fieldset class="formula-block formula-group arg-input">' +
+'                    <legend class="formula-block arg-input">手動輸入</legend>' +
+'                    <div class="beneish-formula-input-block1">' +
+'                        <div>DSRI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-DSRI-input" name="beneish-DSRI-input">' +
+'                        <div></div>' +
+'                        <div>GMI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-GMI-input" name="beneish-GMI-input">' +
+'                        <div></div>' +
+'                        <div>AQI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-AQI-input" name="beneish-AQI-input">' +
+'                        <div></div>' +
+'                        <div>SGI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-SGI-input" name="beneish-SGI-input">' +
+'                        <div></div>' +
+'                        <div>DEPI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-DEPI-input" name="beneish-DEPI-input">' +
+'                        <div></div>' +
+'                        <div>SGAI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-SGAI-input" name="beneish-SGAI-input">' +
+'                        <div></div>' +
+'                        <div>LVGI:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-LVGI-input" name="beneish-LVGI-input">' +
+'                        <div></div>' +
+'                        <div>TATA:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-TATA-input" name="beneish-TATA-input">' +
+'                        <div></div>' +
+'                    </div>' +
+'                    <div class="beneish-formula-input-block1-1">' +
+'                        <div></div>' +
+'                        <button id="beneish-manual-calc-btn" class="click-btn">計算</button>' +
+'                        <div></div>' +
+'                    </div>' +
+'                </fieldset>' +
+'                <br><br><br>' +
+'                <fieldset class="formula-block formula-group arg-input">' +
+'                    <legend class="formula-block arg-input">自動取得</legend>' +
+'                    <div class="beneish-formula-input-block2">' +
+'                        <div>股票代號:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-symbol-input" name="beneish-symbol-input">' +
+'                        <div></div>' +
+'                        <div>比較年度:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="beneish-year-input" name="beneish-year-input">' +
+'                        <div></div>' +
+'                        <button id="beneish-auto-range-v1-calc-btn" class="click-btn">計算</button>' +
+'                        <div></div>' +
+'                    </div>' +
+'                </fieldset>' +
+'            </fieldset>' +
+'        </div>' +
 '    </div>' +
 '    <div class="hold-stocks-groups">' +
 '        <h1> 持有清單 </h1>' +
@@ -78,6 +143,8 @@ var myvar =
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 var kelly_formula = 'f^* = \\frac{bp-q}{b} = p - \\frac{q}{b}';
+var beneish_formula1 = 'M = -4.84+0.920 \\times DSRI+0.528 \\times GMI+0.404 \\times AQI+0.892 \\times SGI+';
+var beneish_formula2 = '0.115 \\times DEPI–0.172 \\times SGAI–0.327 \\times LVGI+4.697 \\times TATA';
 
 function runMathJax(target, jump=true){
   MathJax.Hub.Queue(
@@ -98,6 +165,8 @@ function runMathJax(target, jump=true){
   );
 }
 
+
+// kelly
 function kellyFormula(b, p ,q){
   return (p - (q / b));
 }
@@ -188,22 +257,134 @@ function getKellyAutoRangeV1(){
         }
       }
       else {
-        console.log('get scan reports failed: ' + xhr);
+        console.log('get formula reports failed: ' + xhr);
         $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
         runMathJax('#kelly-formula-val');
       }
     },
     error: function (xhr, textStatus, errorThrown) {
       LoadingImg.doLoading(false);
-      console.log('Get scan reports failed: ' + xhr);
-      console.log('Get scan reports failed: ' + textStatus);
-      console.log('Get scan reports failed: ' + errorThrown);
+      console.log('Get formula reports failed: ' + xhr);
+      console.log('Get formula reports failed: ' + textStatus);
+      console.log('Get formula reports failed: ' + errorThrown);
       $('#kelly-formula-val')[0].innerHTML = '$$' + kelly_formula + ' = {\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
       runMathJax('#kelly-formula-val');
     },
     timeout: 300000
   });
 }
+
+// beneish
+function beneishFormula(DSRI, GMI, AQI, SGI, DEPI, SGAI, LVGI, TATA) {
+  return -4.84 + 0.92 * DSRI + 0.528 * GMI + 0.404 * AQI + 0.892 * SGI + 0.115 * DEPI - 0.172 * SGAI - 0.327 * LVGI + 4.679 * TATA;
+}
+
+function calcBeneish() {
+
+  let target = '#beneish-formula-val';
+  let DSRI = $('#beneish-DSRI-input').val();
+  let GMI = $('#beneish-GMI-input').val();
+  let AQI = $('#beneish-AQI-input').val();
+  let SGI = $('#beneish-SGI-input').val();
+  let DEPI = $('#beneish-DEPI-input').val();
+  let SGAI = $('#beneish-SGAI-input').val();
+  let LVGI = $('#beneish-LVGI-input').val();
+  let TATA = $('#beneish-TATA-input').val();
+
+  if (isNaN(DSRI) || isNaN(GMI) || isNaN(AQI) || isNaN(SGI) || isNaN(DEPI) || isNaN(SGAI) || isNaN(LVGI) || isNaN(TATA) || isNaN(DSRI)) {
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace不合法參數}}' + '$$';
+    runMathJax(target);
+    return;
+  }
+
+
+  let result = beneishFormula(DSRI, GMI, AQI, SGI, DEPI, SGAI, LVGI, TATA);
+  if (result <= -2.22) {
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{LimeGreen}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{LimeGreen}{財報造假機率低\\%}}$$';
+  } else if (result >= -1.78) {
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{red}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{red}{財報造假可能性高\\%}}$$';
+  } else {
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{Orange}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{Orange}{進行一些財務操作可能性高\\%}}$$';
+  }
+
+  runMathJax(target);
+}
+
+function getBeneishAutoRangeV1() {
+
+  let symbol = $("#beneish-symbol-input").val();
+  let year = $("#beneish-year-input").val();
+
+  if (!symbol) {
+    $('#beneish-formula-val')[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace非法股票代號}}' + '$$';
+    runMathJax('#beneish-formula-val');
+    return;
+  }
+
+  if (isNaN(year) || year <= 0) {
+    $('#beneish-formula-val')[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace比較年度須為正整數}}' + '$$';
+    runMathJax('#beneish-formula-val');
+    return;
+  }
+
+  var data = [
+    {
+      'type': 'Beneish_Model_v1',
+      'name': '',
+      'target': [symbol],
+      'args': {
+        'year': year
+      }
+    }
+  ];
+
+  LoadingImg.doLoading(true);
+
+  $.ajax({
+    type: 'POST',
+    url: 'https://zmcx16.moe/stock-minehunter/api/task/calc-formula',
+    async: true,
+    data: JSON.stringify({ "data": data }),
+    dataType: 'json',
+    contentType: 'application/json',
+    cache: false,
+    success: function (resp_data, textStatus, xhr) {
+      LoadingImg.doLoading(false);
+      if (resp_data) {
+        console.log(resp_data);
+        if (resp_data["ret"] !== 0 || resp_data["data"][0]["result"] === null) {
+          $('#beneish-formula-val')[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+          runMathJax('#beneish-formula-val');
+        } else {
+          $('#beneish-DSRI-input').val((resp_data["data"][0]["result"][year]["DSRI"]));
+          $('#beneish-GMI-input').val((resp_data["data"][0]["result"][year]["GMI"]));
+          $('#beneish-AQI-input').val((resp_data["data"][0]["result"][year]["AQI"]));
+          $('#beneish-SGI-input').val((resp_data["data"][0]["result"][year]["SGI"]));
+          $('#beneish-DEPI-input').val((resp_data["data"][0]["result"][year]["DEPI"]));
+          $('#beneish-SGAI-input').val((resp_data["data"][0]["result"][year]["SGAI"]));
+          $('#beneish-LVGI-input').val((resp_data["data"][0]["result"][year]["LVGI"]));
+          $('#beneish-TATA-input').val((resp_data["data"][0]["result"][year]["TATA"]));
+          calcBeneish();
+        }
+      }
+      else {
+        console.log('get formula reports failed: ' + xhr);
+        $('#beneish-formula-val')[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+        runMathJax('#beneish-formula-val');
+      }
+    },
+    error: function (xhr, textStatus, errorThrown) {
+      LoadingImg.doLoading(false);
+      console.log('Get formula reports failed: ' + xhr);
+      console.log('Get formula reports failed: ' + textStatus);
+      console.log('Get formula reports failed: ' + errorThrown);
+      $('#beneish-formula-val')[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace取得資料失敗...}}' + '$$';
+      runMathJax('#beneish-formula-val');
+    },
+    timeout: 300000
+  });
+}
+
 
 function buildTable(data){
 
@@ -257,6 +438,7 @@ $(document).ready(function () {
 
   setBanner('Unlimited Formula Works', 'gold', ['好用的公式整理', 'Etz haChayim', 'El Psy Congroo']);
 
+  // kelly
   $("#kelly-formula-val")[0].innerHTML = '$$' + kelly_formula + '$$';
   $("#kelly-formula-description")[0].innerHTML = '$$f^*: 下注比率 \\qquad b: 賠率 = \\cfrac{獲利金額}{虧損金額} \\qquad p: 獲利機率 \\qquad q: 虧損機率 $$'
 
@@ -266,6 +448,21 @@ $(document).ready(function () {
 
   $('#kelly-auto-range-v1-calc-btn').click(() => {
     getKellyAutoRangeV1();
+  });
+
+  // beneish (workaround: mathjax break line not work problem )
+  $("#beneish-formula-val")[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$';
+  $("#beneish-formula-description")[0].innerHTML = '$$' + 'DSRI(應收帳款指數): \\cfrac{本期應收帳款佔銷售收入比例}{上期應收帳款佔銷售收入比例} \\qquad GMI(毛利率指數): \\cfrac{上期毛利率}{本期毛利率}' + '$$' +
+    '$$' + 'AQI(資產質量指數): \\cfrac{本期非流動資產占比}{上期非流動資產占比} \\qquad SGI(營業收入指數): \\cfrac{本期銷貨收入}{上期銷貨收入}' + '$$' + 
+    '$$' + 'DEPI(折舊率指數): \\cfrac{上期折舊率}{本期折舊率} \\qquad SGAI(銷售管理費用指數): \\cfrac{本期銷售管理費用占銷售收入比例}{上期銷售管理費用占銷售收入比例}' + '$$' +
+    '$$' + 'LVGI(財務杠桿指數): \\cfrac{本期資產負債率}{上期資產負債率} \\qquad TATA(應計系數): \\cfrac{淨收入 - 營運現金流量}{總資產}' + '$$';
+
+  $('#beneish-manual-calc-btn').click(() => {
+    calcBeneish();
+  });
+
+  $('#beneish-auto-range-v1-calc-btn').click(() => {
+    getBeneishAutoRangeV1();
   });
 
   runMathJax(".formula-groups", false);

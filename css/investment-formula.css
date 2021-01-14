@@ -72,6 +72,43 @@ legend.arg-input{
     text-align: right;
 }
 
+#beneish-formula-val{
+    font-size: 21px;
+    padding: 20px 0px 5px 0px;
+}
+
+.main-investment-formula .beneish-formula-input-block1{
+    display: grid;
+    grid-template-columns: repeat(4, 80px 10px 120px 0px);
+    align-items: center;
+    font-size: 18px;
+    margin: 20px 25px;
+    text-align: right;
+    gap: 20px 0px;
+}
+
+.main-investment-formula .beneish-formula-input-block1-1{
+    display: grid;
+    grid-template-columns: auto 140px 0px;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
+    text-align: right;
+}
+
+.main-investment-formula .beneish-formula-input-block2{
+    display: grid;
+    grid-template-columns: 80px 10px 80px 60px 80px 10px 80px auto 140px 0px;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
+    text-align: right;
+}
+
+.math-left-align .mjx-chtml.MJXc-display{
+    text-align: left !important;
+ }
+
 .main-investment-formula .content-block{
     padding-top: 15px;
 }
