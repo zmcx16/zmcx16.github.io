@@ -36,7 +36,8 @@ if __name__ == "__main__":
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
-    scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {}, "SEC": {}}
+    scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
+                   "SEC": {}, "Beneish_Model_v1": {}}
     formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
@@ -109,7 +110,7 @@ if __name__ == "__main__":
 
                     except Exception as ex:
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
-            
+
             # --- get news ------
             query = symbol + ' stock'
             if symbol in news_symbol_keyword:
@@ -130,11 +131,11 @@ if __name__ == "__main__":
                         news_title.append(article['title'])
 
                 scan_output["news"][symbol] = news_temp[:min(news_max_count, len(news_temp))]
-            
+
             # -------------------
-            # --- get formula ---
+            # --- get KellyFormula ---
             if symbol in data["hold_stock_list"]:
-                formula_list_args = data["formula_template"].copy()
+                formula_list_args = data["KellyFormula_Range_v1_template"].copy()
                 for target in formula_list_args:
                     target["target"] = [symbol]
 
@@ -150,6 +151,24 @@ if __name__ == "__main__":
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # -------------------
+
+            # --- get Beneish_Model ---
+            formula_list_args = data["Beneish_Model_v1_template"].copy()
+            for target in formula_list_args:
+                target["target"] = [symbol]
+
+            ret, resp = send_post_json(FORMULA_URL, str({"data": formula_list_args}))
+            if ret == 0:
+                try:
+                    if resp["ret"] != 0:
+                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                    else:
+                        scan_output["Beneish_Model_v1"][symbol] = resp["data"][0]["result"]
+
+                except Exception as ex:
+                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+
+            # -------------------
             # -- load portfolio -
             if symbol in data["hold_stock_list"]:
                 for stock in scan_output["data"]:
@@ -158,7 +177,7 @@ if __name__ == "__main__":
                         formula_output["portfolio"][symbol]["profit_%"] = (price - data["portfolio"][symbol]["cost_p"]) / data["portfolio"][symbol]["cost_p"] * 100
                         break
             # ------------------
-            
+
             time.sleep(DELAY_TIME_SEC)
 
     if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(formula_output["KellyFormula_Range_v1"]) > 0 or len(formula_output["portfolio"]) > 0:

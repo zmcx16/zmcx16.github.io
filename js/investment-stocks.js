@@ -218,7 +218,7 @@ function buildTable(data){
     '      <div class="stock-statistics">';
 
     var second_info_key = ["ATR", "Beta", "Market Cap", "Dividend %", "P/E", "P/B", "Forward P/E", "PEG", "Debt/Eq",
-      "LT Debt/Eq", "EPS (ttm)", "ROA", "ROE", "ROI", "Gross Margin", "Oper. Margin", "Profit Margin"];
+      "LT Debt/Eq", "EPS (ttm)", "ROA", "ROE", "ROI", "Gross Margin", "Oper. Margin", "Profit Margin", "Beneish Model"];
 
     second_info_key.forEach((key) => {
       stock_output += 
@@ -368,6 +368,14 @@ function preprocessData(json_data, input_key)
           base_info["Gross Margin"] = stock["baseinfo"]["Gross Margin"];
           base_info["Oper. Margin"] = stock["baseinfo"]["Oper. Margin"];
           base_info["Profit Margin"] = stock["baseinfo"]["Profit Margin"];
+          
+          if (json_data["Beneish_Model_v1"][symbol]) {
+            let bm_year_key = Object.keys(json_data["Beneish_Model_v1"][symbol])[0]
+            base_info["Beneish Model"] = json_data["Beneish_Model_v1"][symbol][bm_year_key]["M_Score"];
+          }
+          else{
+            base_info["Beneish Model"] = "-";
+          }
         }
 
         var report = {
