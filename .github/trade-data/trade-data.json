@@ -16,7 +16,6 @@
       "HTH"
    ],
    "star_stock_list":[
-      "MCY",
       "INTC",
       "JNJ",
       "AMZN",
@@ -29,9 +28,7 @@
       "MSFT",
       "MCD",
       "AMD",
-      "WMT",
       "TSLA",
-      "AMT",
       "CRWD",
       "CRM"
    ],
@@ -306,7 +303,7 @@
          }
       }
    ],
-   "formula_template":[
+   "KellyFormula_Range_v1_template":[
       {
          "name":"regular_formula",
          "type":"KellyFormula_Range_v1",
@@ -315,6 +312,18 @@
          ],
          "args":{
             "days":180
+         }
+      }
+   ],
+   "Beneish_Model_v1_template":[
+      {
+         "name":"regular_formula",
+         "type":"Beneish_Model_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "year":2019
          }
       }
    ],

@@ -300,11 +300,11 @@ function calcBeneish() {
 
   let result = beneishFormula(DSRI, GMI, AQI, SGI, DEPI, SGAI, LVGI, TATA);
   if (result <= -2.22) {
-    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{LimeGreen}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{LimeGreen}{財報造假機率低\\}}$$';
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{LimeGreen}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{LimeGreen}{財報造假機率低}}$$';
   } else if (result >= -1.78) {
-    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{red}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{red}{財報造假可能性高\\}}$$';
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{red}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{red}{財報造假可能性高}}$$';
   } else {
-    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{Orange}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{Orange}{進行一些財務操作可能性高\\}}$$';
+    $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + ' = {\\color{Orange}{' + parseFloat(result.toFixed(5)) + '}}' + '$$$${\\color{Orange}{進行一些財務操作可能性高}}$$';
   }
 
   runMathJax(target);
