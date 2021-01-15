@@ -370,8 +370,13 @@ function preprocessData(json_data, input_key)
           base_info["Profit Margin"] = stock["baseinfo"]["Profit Margin"];
           
           if (json_data["Beneish_Model_v1"][symbol]) {
-            let bm_year_key = Object.keys(json_data["Beneish_Model_v1"][symbol])[0]
-            base_info["Beneish Model"] = json_data["Beneish_Model_v1"][symbol][bm_year_key]["M_Score"];
+            let bm_year_key = '';
+            Object.keys(json_data["Beneish_Model_v1"][symbol]).forEach((year) => {
+              if (bm_year_key == '' || year > bm_year_key){
+                bm_year_key = year;
+              }
+            });
+            base_info["Beneish Model"] = parseFloat(json_data["Beneish_Model_v1"][symbol][bm_year_key]["M_Score"].toFixed(5));
           }
           else{
             base_info["Beneish Model"] = "-";
