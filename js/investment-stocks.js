@@ -376,7 +376,7 @@ function preprocessData(json_data, input_key)
                 bm_year_key = year;
               }
             });
-            base_info["Beneish Model"] = parseFloat(json_data["Beneish_Model_v1"][symbol][bm_year_key]["M_Score"].toFixed(5));
+            base_info["Beneish Model"] = parseFloat(json_data["Beneish_Model_v1"][symbol][bm_year_key]["M_Score"].toFixed(3));
           }
           else{
             base_info["Beneish Model"] = "-";
