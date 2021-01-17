@@ -291,12 +291,33 @@ function calcBeneish() {
   let LVGI = $('#beneish-LVGI-input').val();
   let TATA = $('#beneish-TATA-input').val();
 
-  if (isNaN(DSRI) || isNaN(GMI) || isNaN(AQI) || isNaN(SGI) || isNaN(DEPI) || isNaN(SGAI) || isNaN(LVGI) || isNaN(TATA) || isNaN(DSRI)) {
+  if (isNaN(TATA)) {
     $(target)[0].innerHTML = '$$' + beneish_formula1 + '$$' + '$$' + beneish_formula2 + '$$$${\\color{red}{Error!!\\enspace不合法參數}}' + '$$';
     runMathJax(target);
     return;
   }
 
+  if (isNaN(DSRI)){
+    DSRI = 1.0;
+  }
+  if (isNaN(GMI)) {
+    GMI = 1.0;
+  }
+  if (isNaN(AQI)) {
+    AQI = 1.0;
+  }
+  if (isNaN(SGI)) {
+    SGI = 1.0;
+  }
+  if (isNaN(DEPI)) {
+    DEPI = 1.0;
+  }
+  if (isNaN(SGAI)) {
+    SGAI = 1.0;
+  }
+  if (isNaN(LVGI)) {
+    LVGI = 1.0;
+  }
 
   let result = beneishFormula(DSRI, GMI, AQI, SGI, DEPI, SGAI, LVGI, TATA);
   if (result <= -2.22) {
