@@ -3,12 +3,11 @@
       "SMP",
       "T",
       "DHI",
-      "PFC",
+      "C",
       "REGI",
-      "FHN",
+      "TDS",
       "BGFV",
       "BIO",
-      "PBCT",
       "WFC",
       "PSX",
       "SNX",
@@ -82,7 +81,9 @@
          "BGFV":"Big 5 Sporting Goods Corporation",
          "SNX":"SYNNEX Corporation",
          "LAKE":"Lakeland Industries, Inc.",
-         "HTH":"Hilltop Holdings Inc."
+         "HTH":"Hilltop Holdings Inc.",
+         "C":"Citigroup Inc.",
+         "TDS":"Telephone and Data Systems, Inc."
       }
    },
    "tactic_template":[
@@ -323,6 +324,7 @@
             
          ],
          "args":{
+            
          }
       }
    ],
@@ -393,64 +395,62 @@
       "BGFV":"1156388",
       "HTH":"1265131",
       "LAKE":"798081",
-      "SNX":"1177394"
+      "SNX":"1177394",
+      "C":"831001",
+      "TDS":"1051512"
    },
    "portfolio":{
       "BGFV":{
          "cost_p":12.23,
-         "position_%":9.0310441747919
+         "position_%":9.612785307630746
       },
       "BIO":{
          "cost_p":597.32,
-         "position_%":5.986102255767274
+         "position_%":6.371701289517928
+      },
+      "C":{
+         "cost_p":62.71,
+         "position_%":5.527531209129732
       },
       "DHI":{
          "cost_p":72.88,
-         "position_%":3.8440748712699078
-      },
-      "FHN":{
-         "cost_p":10.96,
-         "position_%":7.746380514464652
+         "position_%":4.0916936877708725
       },
       "HTH":{
          "cost_p":29.44,
-         "position_%":6.987692630980207
+         "position_%":7.437809821019281
       },
       "LAKE":{
          "cost_p":29.73,
-         "position_%":6.586090187650773
-      },
-      "PBCT":{
-         "cost_p":14.03,
-         "position_%":5.328115631122407
-      },
-      "PFC":{
-         "cost_p":17.29,
-         "position_%":3.647862487610138
+         "position_%":7.010337870707982
       },
       "PSX":{
          "cost_p":70.43,
-         "position_%":9.287122433573671
+         "position_%":9.88535902955895
       },
       "REGI":{
          "cost_p":80.92,
-         "position_%":5.975405516141951
+         "position_%":6.3603155118027805
       },
       "SMP":{
          "cost_p":41.45,
-         "position_%":13.92667501026423
+         "position_%":14.823771684839654
       },
       "SNX":{
          "cost_p":86.45,
-         "position_%":6.611750758793375
+         "position_%":7.037651385788944
       },
       "T":{
          "cost_p":28.54,
-         "position_%":6.322469356056275
+         "position_%":6.729735715775506
+      },
+      "TDS":{
+         "cost_p":20.77,
+         "position_%":5.830438933520926
       },
       "WFC":{
          "cost_p":31.79,
-         "position_%":8.719214171513254
+         "position_%":9.280868552936708
       }
    }
 }
