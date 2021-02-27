@@ -112,25 +112,28 @@ if __name__ == "__main__":
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # --- get news ------
-            query = symbol + ' stock'
-            if symbol in news_symbol_keyword:
-                query = news_symbol_keyword[symbol]
+            if (symbol in data["hold_stock_list"]) or (
+                    symbol in data["star_stock_list"]):
 
-            news = newsapi.get_everything(q=query,
-                                            exclude_domains=news_exclude_domains,
-                                            from_param=(datetime.now() - timedelta(days=news_latest_days)).strftime("%Y-%m-%d"),
-                                            to=date.today().strftime("%Y-%m-%d"),
-                                            sort_by='publishedAt')
+                query = symbol + ' stock'
+                if symbol in news_symbol_keyword:
+                    query = news_symbol_keyword[symbol]
 
-            if news['status'] == 'ok' and news['totalResults'] > 0:
-                news_temp = []
-                news_title = []
-                for article in news['articles']:
-                    if article['title'] not in news_title:
-                        news_temp.append(article)
-                        news_title.append(article['title'])
+                news = newsapi.get_everything(q=query,
+                                                exclude_domains=news_exclude_domains,
+                                                from_param=(datetime.now() - timedelta(days=news_latest_days)).strftime("%Y-%m-%d"),
+                                                to=date.today().strftime("%Y-%m-%d"),
+                                                sort_by='publishedAt')
 
-                scan_output["news"][symbol] = news_temp[:min(news_max_count, len(news_temp))]
+                if news['status'] == 'ok' and news['totalResults'] > 0:
+                    news_temp = []
+                    news_title = []
+                    for article in news['articles']:
+                        if article['title'] not in news_title:
+                            news_temp.append(article)
+                            news_title.append(article['title'])
+
+                    scan_output["news"][symbol] = news_temp[:min(news_max_count, len(news_temp))]
 
             # -------------------
             # --- get KellyFormula ---
