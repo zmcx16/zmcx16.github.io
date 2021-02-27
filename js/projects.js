@@ -125,16 +125,9 @@ oss_projects['OpenAI-Gym-GongZhu'] = {
   background: 'OpenAI-Gym-GongZhu_885x450.jpg',
   msg: '要一起玩牌嗎?'
 };
-oss_projects['bypass-fb-block-website-algorithm-bug'] = {
-  blog_post: 'https://blog.zmcx16.moe/search/label/bypass-fb-block-website-algorithm-bug',
-  featured: true,
-  position: 18,
-  background: 'bypass-fb-block-website-algorithm-bug_885x450.jpg',
-  msg: '有bug就要修啊...'
-};
 oss_projects['Misc'] = {
   featured: true,
-  position: 19,
+  position: 18,
   background: 'Misc_885x450.jpg',
   msg: '聽說是某個大哥哥的黑歷史?'
 };
