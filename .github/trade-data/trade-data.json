@@ -34,7 +34,7 @@
       "CRM"
    ],
    "news_config":{
-      "latest_days":30,
+      "latest_days":28,
       "max_count":10,
       "exclude_domains":"",
       "symbol_keyword":{
