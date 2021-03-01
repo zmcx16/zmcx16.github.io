@@ -539,7 +539,7 @@ function getFactorIntersectionalV1() {
 function buildFactorIntersectionalTable(data) {
 
   let output = "";
-  if (data.length <= 0){
+  if (!data || data.length <= 0){
     $('#factor-intersectional-formula-table').css("display", "none");
     return "";
   }
