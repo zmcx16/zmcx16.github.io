@@ -105,6 +105,30 @@ legend.arg-input{
     text-align: right;
 }
 
+#factor-intersectional-formula-val{
+    font-size: 21px;
+    padding: 20px 0px 5px 0px;
+}
+
+.main-investment-formula .factor-intersectional-formula-input-block1{
+    display: grid;
+    grid-template-columns: repeat(3, 200px 10px 70px 0px);
+    align-items: center;
+    font-size: 18px;
+    margin: 20px 25px;
+    text-align: right;
+    gap: 20px 0px;
+}
+
+.main-investment-formula .factor-intersectional-formula-input-block1-1{
+    display: grid;
+    grid-template-columns: auto 140px 0px;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
+    text-align: right;
+}
+
 .math-left-align .mjx-chtml.MJXc-display{
     text-align: left !important;
  }
@@ -157,6 +181,10 @@ legend.arg-input{
 
 .main-investment-formula .th-180d{
     width: 150px;
+}
+
+.main-investment-formula .th-52w{
+    width: 165px;
 }
 
 .main-investment-formula .th-position_kelly{

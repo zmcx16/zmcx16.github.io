@@ -111,6 +111,70 @@
                 </fieldset>
             </fieldset>
         </div>
+        <div class="formula-component">
+            <fieldset class="formula-block formula-group">
+                <legend class="formula-block">多因子交互選股模型</legend>
+                <div id="factor-intersectional-formula-val" style="pointer-events:none;"></div>
+                <div id="factor-intersectional-formula-description" style="pointer-events:none;"></div>
+                <fieldset class="formula-block formula-group arg-input">
+                    <legend class="formula-block arg-input">輸入參數</legend>
+                    <div class="factor-intersectional-formula-input-block1">
+                        <div>輸出個股數:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-TopN-input" value="30" name="factor-intersectional-TopN-input">
+                        <div></div>
+                        <div>公司市值(百萬美元):</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-M-input" value="300" name="factor-intersectional-M-input">
+                        <div></div>
+                        <div>外部股東報酬率權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-EPw-input" value="1.0" name="factor-intersectional-EPw-input">
+                        <div></div>
+                        <div>股價淨值比倒數權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-BPw-input" value="1.0" name="factor-intersectional-BPw-input">
+                        <div></div>
+                        <div>市銷率倒數權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-SPw-input" value="1.0" name="factor-intersectional-SPw-input">
+                        <div></div>
+                        <div>股東權益報酬率權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-ROEw-input" value="1.0" name="factor-intersectional-ROEw-input">
+                        <div></div>
+                        <div>資產報酬率權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-ROAw-input" value="1.0" name="factor-intersectional-ROAw-input">
+                        <div></div>
+                        <div>投資回報率權重:</div>
+                        <div></div>
+                        <input type="text" id="factor-intersectional-ROIw-input" value="1.0" name="factor-intersectional-ROIw-input">
+                        <div></div>
+                    </div>
+                    <div class="factor-intersectional-formula-input-block1-1">
+                        <div></div>
+                        <button id="factor-intersectional-get-btn" class="click-btn">計算</button>
+                        <div></div>
+                    </div>
+                </fieldset>
+                <div class="factor-intersectional-formula content-block">
+                    <table id="factor-intersectional-formula-table" style="display:none;">
+                        <thead>
+                            <th class="th-symbol">Symbol</th>
+                            <th class="th-market">Market Cap</th>
+                            <th class="th-price">Price</th>
+                            <th class="th-52w">52 weeks</th>
+                            <th class="th-pe">P/E</th>
+                            <th class="th-roa">ROA</th>
+                            <th class="th-score">Score</th>
+                        </thead>
+                        <tbody id="factor-intersectional-formula-tbody">
+                        </tbody>
+                    </table>
+                </div>
+            </fieldset>
+        </div>
     </div>
     <div class="hold-stocks-groups">
         <h1> 持有清單 </h1>
