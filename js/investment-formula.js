@@ -112,6 +112,70 @@ var myvar =
 '                </fieldset>' +
 '            </fieldset>' +
 '        </div>' +
+'        <div class="formula-component">' +
+'            <fieldset class="formula-block formula-group">' +
+'                <legend class="formula-block">多因子交互選股模型</legend>' +
+'                <div id="factor-intersectional-formula-val" style="pointer-events:none;"></div>' +
+'                <div id="factor-intersectional-formula-description" style="pointer-events:none;"></div>' +
+'                <fieldset class="formula-block formula-group arg-input">' +
+'                    <legend class="formula-block arg-input">輸入參數</legend>' +
+'                    <div class="factor-intersectional-formula-input-block1">' +
+'                        <div>輸出個股數:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-TopN-input" value="30" name="factor-intersectional-TopN-input">' +
+'                        <div></div>' +
+'                        <div>公司市值:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-M-input" value="300" name="factor-intersectional-M-input">' +
+'                        <div></div>' +
+'                        <div>外部股東報酬率權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-EPw-input" value="1.0" name="factor-intersectional-EPw-input">' +
+'                        <div></div>' +
+'                        <div>股價淨值比倒數權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-BPw-input" value="1.0" name="factor-intersectional-BPw-input">' +
+'                        <div></div>' +
+'                        <div>市銷率倒數權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-SPw-input" value="1.0" name="factor-intersectional-SPw-input">' +
+'                        <div></div>' +
+'                        <div>股東權益報酬率權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-ROEw-input" value="1.0" name="factor-intersectional-ROEw-input">' +
+'                        <div></div>' +
+'                        <div>資產報酬率權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-ROAw-input" value="1.0" name="factor-intersectional-ROAw-input">' +
+'                        <div></div>' +
+'                        <div>投資回報率權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-ROIw-input" value="1.0" name="factor-intersectional-ROIw-input">' +
+'                        <div></div>' +
+'                    </div>' +
+'                    <div class="factor-intersectional-formula-input-block1-1">' +
+'                        <div></div>' +
+'                        <button id="factor-intersectional-get-btn" class="click-btn">計算</button>' +
+'                        <div></div>' +
+'                    </div>' +
+'                </fieldset>' +
+'                <div class="factor-intersectional-formula content-block">' +
+'                    <table id="factor-intersectional-formula-table" style="display:none;">' +
+'                        <thead>' +
+'                            <th class="th-symbol">Symbol</th>' +
+'                            <th class="th-market">Market Cap</th>' +
+'                            <th class="th-price">Price</th>' +
+'                            <th class="th-52w">52 weeks</th>' +
+'                            <th class="th-pe">P/E</th>' +
+'                            <th class="th-roa">ROA</th>' +
+'                            <th class="th-score">Score</th>' +
+'                        </thead>' +
+'                        <tbody id="factor-intersectional-formula-tbody">' +
+'                        </tbody>' +
+'                    </table>' +
+'                </div>' +
+'            </fieldset>' +
+'        </div>' +
 '    </div>' +
 '    <div class="hold-stocks-groups">' +
 '        <h1> 持有清單 </h1>' +
@@ -145,6 +209,7 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 var kelly_formula = 'f^* = \\frac{bp-q}{b} = p - \\frac{q}{b}';
 var beneish_formula1 = 'M = -4.84+0.920 \\times DSRI+0.528 \\times GMI+0.404 \\times AQI+0.892 \\times SGI+';
 var beneish_formula2 = '0.115 \\times DEPI–0.172 \\times SGAI–0.327 \\times LVGI+4.697 \\times TATA';
+var factor_intersectional_formula = 'S = \\sum_{i=1}^n w_i \\times (c - f^*_i)'
 
 function runMathJax(target, jump=true){
   MathJax.Hub.Queue(
@@ -407,6 +472,95 @@ function getBeneishAutoRangeV1() {
 }
 
 
+function getFactorIntersectionalV1() {
+
+  let topN = $('#factor-intersectional-TopN-input').val();
+  let M = $('#factor-intersectional-M-input').val();
+  let EPw = $('#factor-intersectional-EPw-input').val();
+  let BPw = $('#factor-intersectional-BPw-input').val();
+  let SPw = $('#factor-intersectional-SPw-input').val();
+  let ROEw = $('#factor-intersectional-ROEw-input').val();
+  let ROAw = $('#factor-intersectional-ROAw-input').val();
+  let ROIw = $('#factor-intersectional-ROIw-input').val();
+
+  if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || 
+    isNaN(BPw) || isNaN(SPw) || isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw)) {
+    return;
+  }
+
+  var data = {
+    'type': 'Factor_Intersectional_v1',
+    'args': {
+      'Top_N': topN,
+      'Market Cap': M,
+      'E/P_w': EPw,
+      'B/P_w': BPw,
+      'S/P_w': SPw,
+      'ROE_w': ROEw,
+      'ROA_w': ROAw,
+      'ROI_w': ROIw
+    }
+  };
+
+  LoadingImg.doLoading(true);
+
+  $.ajax({
+    type: 'POST',
+    url: 'https://zmcx16.moe/stock-minehunter/api/task/calc-formula2',
+    async: true,
+    data: JSON.stringify({ "data": data }),
+    dataType: 'json',
+    contentType: 'application/json',
+    cache: false,
+    success: function (resp_data, textStatus, xhr) {
+      LoadingImg.doLoading(false);
+      if (resp_data) {
+        console.log(resp_data);
+        if (resp_data["ret"] !== 0) {
+          console.log('Get factor intersectional result failed: ' + resp_data);
+        } else {
+          $("#factor-intersectional-formula-tbody")[0].innerHTML = buildFactorIntersectionalTable(resp_data["result"]["data"])
+        }
+      }
+      else {
+        console.log('Get factor intersectional result failed: ' + xhr);
+      }
+    },
+    error: function (xhr, textStatus, errorThrown) {
+      LoadingImg.doLoading(false);
+      console.log('Get factor intersectional result failed: ' + xhr);
+      console.log('Get factor intersectional result failed: ' + textStatus);
+      console.log('Get factor intersectional result failed: ' + errorThrown);
+    },
+    timeout: 300000
+  });
+}
+
+function buildFactorIntersectionalTable(data) {
+
+  let output = "";
+  if (data.length <= 0){
+    $('#factor-intersectional-formula-table').css("display", "none");
+    return "";
+  }
+
+  data.forEach((stock) => {
+    output +=
+      '<tr class="tr-stock main">' +
+      '  <td class="td-symbol">' + stock['symbol'] + '</td>' +
+      '  <td class="td-market">' + convertKMBT(stock['Market Cap'], 3) + '</td>' +
+      '  <td class="td-price">' + stock['Price'] + '</td>' +
+      '  <td class="td-52w">' + stock['52W Range'] + '</td>' +
+      '  <td class="td-pe">' + stock['P/E'] + '</td>' +
+      '  <td class="td-roa">' + (stock['ROA'] * 100).toFixed(2) + '%</td>' +
+      '  <td class="td-score">' + stock['Score'].toFixed(0) + '</td>' +
+      '</tr>';
+  });
+
+  $('#factor-intersectional-formula-table').css("display", "table");
+  return output;
+}
+
 function buildTable(data){
 
   let total_postion_kelly = 0;
@@ -484,6 +638,17 @@ $(document).ready(function () {
 
   $('#beneish-auto-range-v1-calc-btn').click(() => {
     getBeneishAutoRangeV1();
+  });
+
+  // factor-intersectional
+  $("#factor-intersectional-formula-val")[0].innerHTML = '$$' + factor_intersectional_formula + '$$';
+  $("#factor-intersectional-formula-description")[0].innerHTML = '$$' + 'S: 個股分數 \\qquad w: 因子權重 \\qquad n: 因子個數 \\qquad c: 市值M以上個股數 \\qquad f^*: 因子排行值' + '$$' + 
+    '$$' + 'f_i: 外部股東報酬率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
+    '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI)' + '$$'
+
+
+  $('#factor-intersectional-get-btn').click(() => {
+    getFactorIntersectionalV1();
   });
 
   runMathJax(".formula-groups", false);
