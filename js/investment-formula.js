@@ -124,7 +124,7 @@ var myvar =
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-TopN-input" value="30" name="factor-intersectional-TopN-input">' +
 '                        <div></div>' +
-'                        <div>公司市值:</div>' +
+'                        <div>公司市值(百萬美元):</div>' +
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-M-input" value="300" name="factor-intersectional-M-input">' +
 '                        <div></div>' +
