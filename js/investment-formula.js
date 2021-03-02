@@ -546,7 +546,7 @@ function buildFactorIntersectionalTable(data) {
 
   data.forEach((stock) => {
     output +=
-      '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' + 
+      '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + stock['symbol'] + '\',\'_blank\',\'noopener\');">' + 
       '  <td class="td-symbol">' + stock['symbol'] + '</td>' +
       '  <td class="td-market">' + convertKMBT(stock['Market Cap'], 3) + '</td>' +
       '  <td class="td-price">' + stock['Price'] + '</td>' +
