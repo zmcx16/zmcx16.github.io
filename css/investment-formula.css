@@ -167,7 +167,8 @@ legend.arg-input{
     line-height: 48px;
 }
 
-.main-investment-formula .tr-stock.main.link{
+.main-investment-formula .tr-stock.main.link:hover{
+    background-color: rgb(189,252,201);
     cursor: pointer;
 }
 
