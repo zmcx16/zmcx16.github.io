@@ -592,7 +592,7 @@ function buildTable(data){
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
     output += 
-    '<tr class="tr-stock main">' + 
+    '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' + 
     '  <td class="td-symbol">' + symbol + '</td>' + 
     '  <td class="td-price">' + price + '</td>' + 
     '  <td class="td-180d">' + days + '</td>' + 

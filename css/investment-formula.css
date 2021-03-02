@@ -167,6 +167,10 @@ legend.arg-input{
     line-height: 48px;
 }
 
+.main-investment-formula .tr-stock.main.link{
+    cursor: pointer;
+}
+
 .main-investment-formula .group-td{
     padding-right: 0px;
 }
