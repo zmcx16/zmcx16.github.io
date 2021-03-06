@@ -1,12 +1,12 @@
 {
     "KellyFormula_Range_v1": {
         "BGFV": {
-            "close": 13.2,
-            "loss": 5.85831356,
+            "close": 13.195,
+            "loss": 5.85331345,
             "max_close": 16.16,
             "min_close": 1.76140082,
             "p": 0.122222222,
-            "profit": 1.68681908,
+            "profit": 1.69181919,
             "q": 0.872222245
         },
         "BIO": {
