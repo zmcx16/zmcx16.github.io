@@ -112,9 +112,9 @@ legend.arg-input{
 
 .main-investment-formula .factor-intersectional-formula-input-block1{
     display: grid;
-    grid-template-columns: repeat(3, 200px 10px 70px 0px);
+    grid-template-columns: repeat(3, 210px 10px 60px 0px);
     align-items: center;
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 25px;
     text-align: right;
     gap: 20px 0px;
