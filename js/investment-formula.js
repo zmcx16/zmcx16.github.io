@@ -140,6 +140,10 @@ var myvar =
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-SPw-input" value="1.0" name="factor-intersectional-SPw-input">' +
 '                        <div></div>' +
+'                        <div>股價自由現金流比倒數權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-FCFPw-input" value="0.5" name="factor-intersectional-FCFPw-input">' +
+'                        <div></div>' +
 '                        <div>股東權益報酬率權重:</div>' +
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-ROEw-input" value="1.0" name="factor-intersectional-ROEw-input">' +
@@ -151,6 +155,10 @@ var myvar =
 '                        <div>投資回報率權重:</div>' +
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-ROIw-input" value="1.0" name="factor-intersectional-ROIw-input">' +
+'                        <div></div>' +
+'                        <div>股息率權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-DIVw-input" value="0.5" name="factor-intersectional-DIVw-input">' +
 '                        <div></div>' +
 '                    </div>' +
 '                    <div class="factor-intersectional-formula-input-block1-1">' +
@@ -479,12 +487,14 @@ function getFactorIntersectionalV1() {
   let EPw = $('#factor-intersectional-EPw-input').val();
   let BPw = $('#factor-intersectional-BPw-input').val();
   let SPw = $('#factor-intersectional-SPw-input').val();
+  let FCFPw = $('#factor-intersectional-FCFPw-input').val();
   let ROEw = $('#factor-intersectional-ROEw-input').val();
   let ROAw = $('#factor-intersectional-ROAw-input').val();
   let ROIw = $('#factor-intersectional-ROIw-input').val();
+  let DIVw = $('#factor-intersectional-DIVw-input').val();
 
-  if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || 
-    isNaN(BPw) || isNaN(SPw) || isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw)) {
+  if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || isNaN(BPw) || isNaN(SPw) || isNaN(FCFPw) || 
+    isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw)) {
     return;
   }
 
@@ -496,9 +506,11 @@ function getFactorIntersectionalV1() {
       'E/P_w': EPw,
       'B/P_w': BPw,
       'S/P_w': SPw,
+      'FCF/P_w': FCFPw,
       'ROE_w': ROEw,
       'ROA_w': ROAw,
-      'ROI_w': ROIw
+      'ROI_w': ROIw,
+      'DIV_w': DIVw
     }
   };
 
@@ -644,7 +656,8 @@ $(document).ready(function () {
   $("#factor-intersectional-formula-val")[0].innerHTML = '$$' + factor_intersectional_formula + '$$';
   $("#factor-intersectional-formula-description")[0].innerHTML = '$$' + 'S: 個股分數 \\qquad w: 因子權重 \\qquad n: 因子個數 \\qquad c: 市值M以上個股數 \\qquad f^*: 因子排行值' + '$$' + 
     '$$' + 'f_i: 外部股東報酬率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
-    '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI)' + '$$'
+    '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI)' + '$$' + 
+    '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 股息率(\\%)' + '$$'
 
 
   $('#factor-intersectional-get-btn').click(() => {
