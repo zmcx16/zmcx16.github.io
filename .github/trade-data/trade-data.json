@@ -417,99 +417,85 @@
    "portfolio":{
       "BIO":{
          "cost_p":580.11,
-         "position":62,
-         "position_%":16.819199319428574,
+         "position_%":16.813522577059793,
          "profit":0,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":41.7,
-         "position":200,
-         "position_%":3.900042381395806,
+         "position_%":3.8987260562006507,
          "profit":0,
          "profit_%":0
       },
       "DHI":{
          "cost_p":72.88,
-         "position":100,
-         "position_%":3.408094589401995,
+         "position_%":3.4069443042674266,
          "profit":0,
          "profit_%":0
       },
       "ELP":{
-         "cost_p":1.05,
-         "position":18050,
-         "position_%":8.862776167074822,
+         "cost_p":5.27,
+         "position_%":8.893536403045625,
          "profit":0,
          "profit_%":0
       },
       "HTH":{
          "cost_p":29.44,
-         "position":200,
-         "position_%":2.7534112160262,
+         "position_%":2.75248189675173,
          "profit":0,
          "profit_%":0
       },
       "LAKE":{
          "cost_p":28.88,
-         "position":790,
-         "position_%":10.66909435731674,
+         "position_%":10.665493371394374,
          "profit":0,
          "profit_%":0
       },
       "MDC":{
          "cost_p":59.95,
-         "position":170,
-         "position_%":4.765861142685295,
+         "position_%":4.764252590140159,
          "profit":0,
          "profit_%":0
       },
       "PBFX":{
          "cost_p":11.39,
-         "position":1000,
-         "position_%":5.326316873393074,
+         "position_%":5.324519158288418,
          "profit":0,
          "profit_%":0
       },
       "PHM":{
          "cost_p":49.31,
-         "position":185,
-         "position_%":4.26589347936763,
+         "position_%":4.264453673714868,
          "profit":0,
          "profit_%":0
       },
       "QDEL":{
          "cost_p":120.27,
-         "position":103,
-         "position_%":5.792923742527432,
+         "position_%":5.790968540319302,
          "profit":0,
          "profit_%":0
       },
       "SMP":{
          "cost_p":41.45,
-         "position":637,
-         "position_%":12.347164751024147,
+         "position_%":12.342997390144161,
          "profit":0,
          "profit_%":0
       },
       "STC":{
          "cost_p":53.5,
-         "position":530,
-         "position_%":13.259676465764759,
+         "position_%":13.255201117933984,
          "profit":0,
          "profit_%":0
       },
       "TDS":{
          "cost_p":20.77,
-         "position":500,
-         "position_%":4.856347737505449,
+         "position_%":4.854708644321793,
          "profit":0,
          "profit_%":0
       },
       "WFC":{
          "cost_p":31.79,
-         "position":200,
-         "position_%":2.9731977770880738,
+         "position_%":2.972194276417714,
          "profit":0,
          "profit_%":0
       }
