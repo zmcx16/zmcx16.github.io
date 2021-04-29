@@ -10,9 +10,7 @@
       "CNNE",
       "LAKE",
       "HTH",
-      "MDC",
       "PBFX",
-      "PHM",
       "ELP"
    ],
    "star_stock_list":[
@@ -417,86 +415,62 @@
    "portfolio":{
       "BIO":{
          "cost_p":580.11,
-         "position_%":16.813522577059793,
-         "profit":0,
+         "position_%":16.6036576701693,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":41.7,
-         "position_%":3.8987260562006507,
-         "profit":0,
+         "position_%":3.8500625011944893,
          "profit_%":0
       },
       "DHI":{
          "cost_p":72.88,
-         "position_%":3.4069443042674266,
-         "profit":0,
+         "position_%":3.364419125744057,
          "profit_%":0
       },
       "ELP":{
          "cost_p":5.27,
-         "position_%":8.893536403045625,
-         "profit":0,
+         "position_%":8.782528065524554,
          "profit_%":0
       },
       "HTH":{
          "cost_p":29.44,
-         "position_%":2.75248189675173,
-         "profit":0,
+         "position_%":2.7181256603157258,
          "profit_%":0
       },
       "LAKE":{
          "cost_p":28.88,
-         "position_%":10.665493371394374,
-         "profit":0,
-         "profit_%":0
-      },
-      "MDC":{
-         "cost_p":59.95,
-         "position_%":4.764252590140159,
-         "profit":0,
+         "position_%":10.532367623171764,
          "profit_%":0
       },
       "PBFX":{
          "cost_p":11.39,
-         "position_%":5.324519158288418,
-         "profit":0,
-         "profit_%":0
-      },
-      "PHM":{
-         "cost_p":49.31,
-         "position_%":4.264453673714868,
-         "profit":0,
+         "position_%":5.258058979449069,
          "profit_%":0
       },
       "QDEL":{
-         "cost_p":120.27,
-         "position_%":5.790968540319302,
-         "profit":0,
+         "cost_p":112.07,
+         "position_%":15.882888115614147,
          "profit_%":0
       },
       "SMP":{
          "cost_p":41.45,
-         "position_%":12.342997390144161,
-         "profit":0,
+         "position_%":12.188933184611976,
          "profit_%":0
       },
       "STC":{
          "cost_p":53.5,
-         "position_%":13.255201117933984,
-         "profit":0,
+         "position_%":13.089750865871672,
          "profit_%":0
       },
       "TDS":{
          "cost_p":20.77,
-         "position_%":4.854708644321793,
-         "profit":0,
+         "position_%":4.794112598909445,
          "profit_%":0
       },
       "WFC":{
          "cost_p":31.79,
-         "position_%":2.972194276417714,
-         "profit":0,
+         "position_%":2.9350956094238083,
          "profit_%":0
       }
    }
