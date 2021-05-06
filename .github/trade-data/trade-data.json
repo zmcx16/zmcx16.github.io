@@ -1,16 +1,14 @@
-{ 
+{
    "hold_stock_list":[
       "SMP",
-      "DHI",
       "TDS",
       "QDEL",
       "BIO",
-      "WFC",
+      "KGC",
       "STC",
       "CNNE",
       "LAKE",
       "HTH",
-      "PBFX",
       "ELP"
    ],
    "star_stock_list":[
@@ -89,6 +87,7 @@
          "ELP":"Companhia Paranaense de Energia - COPEL",
          "CNNE":"Cannae Holdings, Inc.",
          "QDEL":"Quidel Corporation",
+         "KGC":"Kinross Gold Corporation (KGC)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -410,67 +409,68 @@
       "ELP":"1041792",
       "CNNE":"1704720",
       "QDEL":"353569",
+      "KGC":"701818",
       "STC":"94344"
    },
    "portfolio":{
       "BIO":{
          "cost_p":580.11,
-         "position_%":16.6036576701693,
+         "position_%":15.883762444815938,
+         "profit":0,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":41.7,
-         "position_%":3.8500625011944893,
-         "profit_%":0
-      },
-      "DHI":{
-         "cost_p":72.88,
-         "position_%":3.364419125744057,
+         "position_%":3.6831329205574734,
+         "profit":0,
          "profit_%":0
       },
       "ELP":{
          "cost_p":5.27,
-         "position_%":8.782528065524554,
+         "position_%":8.401738474068315,
+         "profit":0,
          "profit_%":0
       },
       "HTH":{
          "cost_p":29.44,
-         "position_%":2.7181256603157258,
+         "position_%":2.600274177007482,
+         "profit":0,
+         "profit_%":0
+      },
+      "KGC":{
+         "cost_p":7.61,
+         "position_%":15.392227600302885,
+         "profit":0,
          "profit_%":0
       },
       "LAKE":{
          "cost_p":28.88,
-         "position_%":10.532367623171764,
-         "profit_%":0
-      },
-      "PBFX":{
-         "cost_p":11.39,
-         "position_%":5.258058979449069,
+         "position_%":10.075709137782118,
+         "profit":0,
          "profit_%":0
       },
       "QDEL":{
          "cost_p":112.07,
-         "position_%":15.882888115614147,
+         "position_%":15.194243749030086,
+         "profit":0,
          "profit_%":0
       },
       "SMP":{
          "cost_p":41.45,
-         "position_%":12.188933184611976,
+         "position_%":11.660449944589608,
+         "profit":0,
          "profit_%":0
       },
       "STC":{
          "cost_p":53.5,
-         "position_%":13.089750865871672,
+         "position_%":12.522210307243064,
+         "profit":0,
          "profit_%":0
       },
       "TDS":{
          "cost_p":20.77,
-         "position_%":4.794112598909445,
-         "profit_%":0
-      },
-      "WFC":{
-         "cost_p":31.79,
-         "position_%":2.9350956094238083,
+         "position_%":4.586251244603041,
+         "profit":0,
          "profit_%":0
       }
    }
