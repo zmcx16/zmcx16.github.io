@@ -160,6 +160,22 @@ var myvar =
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-DIVw-input" value="0.5" name="factor-intersectional-DIVw-input">' +
 '                        <div></div>' +
+'                        <div>內部人持股權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-InsiderOwnw-input" value="0.2" name="factor-intersectional-InsiderOwnw-input">' +
+'                        <div></div>' +
+'                        <div>內部人交易權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-InsiderTransw-input" value="1" name="factor-intersectional-InsiderTransw-input">' +
+'                        <div></div>' +
+'                        <div>機構持股權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-InstOwnw-input" value="0.2" name="factor-intersectional-InstOwnw-input">' +
+'                        <div></div>' +
+'                        <div>機構交易權重:</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-InstTransw-input" value="1" name="factor-intersectional-InstTransw-input">' +
+'                        <div></div>' +
 '                    </div>' +
 '                    <div class="factor-intersectional-formula-input-block1-1">' +
 '                        <div></div>' +
@@ -492,9 +508,14 @@ function getFactorIntersectionalV1() {
   let ROAw = $('#factor-intersectional-ROAw-input').val();
   let ROIw = $('#factor-intersectional-ROIw-input').val();
   let DIVw = $('#factor-intersectional-DIVw-input').val();
+  let InsiderOwnw = $('#factor-intersectional-InsiderOwnw-input').val();
+  let InsiderTransw = $('#factor-intersectional-InsiderTransw-input').val();
+  let InstOwnw = $('#factor-intersectional-InstOwnw-input').val();
+  let InstTransw = $('#factor-intersectional-InstTransw-input').val();
 
   if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || isNaN(BPw) || isNaN(SPw) || isNaN(FCFPw) || 
-    isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw)) {
+    isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw) || isNaN(InsiderOwnw) || isNaN(InsiderTransw) || 
+    isNaN(InstOwnw) || isNaN(InstTransw)) {
     return;
   }
 
@@ -510,7 +531,11 @@ function getFactorIntersectionalV1() {
       'ROE_w': ROEw,
       'ROA_w': ROAw,
       'ROI_w': ROIw,
-      'DIV_w': DIVw
+      'DIV_w': DIVw,
+      'InsiderOwn_w': InsiderOwnw,
+      'InsiderTrans_w': InsiderTransw,
+      'InstOwn_w': InstOwnw,
+      'InstTrans_w': InstTransw
     }
   };
 
@@ -627,7 +652,7 @@ $(document).ready(function () {
 
   // kelly
   $("#kelly-formula-val")[0].innerHTML = '$$' + kelly_formula + '$$';
-  $("#kelly-formula-description")[0].innerHTML = '$$f^*: 下注比率 \\qquad b: 賠率 = \\cfrac{獲利金額}{虧損金額} \\qquad p: 獲利機率 \\qquad q: 虧損機率 $$'
+  $("#kelly-formula-description")[0].innerHTML = '$$f^*: 下注比率 \\qquad b: 賠率 = \\cfrac{獲利金額}{虧損金額} \\qquad p: 獲利機率 \\qquad q: 虧損機率 $$';
 
   $('#kelly-manual-calc-btn').click(()=>{
     calcKelly();
@@ -657,8 +682,8 @@ $(document).ready(function () {
   $("#factor-intersectional-formula-description")[0].innerHTML = '$$' + 'S: 個股分數 \\qquad w: 因子權重 \\qquad n: 因子個數 \\qquad c: 市值M以上個股數 \\qquad f^*: 因子排行值' + '$$' + 
     '$$' + 'f_i: 外部股東報酬率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
     '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI)' + '$$' + 
-    '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 股息率(\\%)' + '$$'
-
+    '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 股息率(\\%) \\qquad 內部人持股(\\%) \\qquad 內部人交易(\\%, 6M)' + '$$' + 
+    '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M)' + '$$';
 
   $('#factor-intersectional-get-btn').click(() => {
     getFactorIntersectionalV1();
