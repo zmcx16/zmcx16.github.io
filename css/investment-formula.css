@@ -129,6 +129,73 @@ legend.arg-input{
     text-align: right;
 }
 
+.main-investment-formula .factor-intersectional-formula-input-block1-0{
+    font-size: 16px;
+    margin: 30px 0px 0px 15px;
+}
+
+fieldset.arg2-input{
+    border: 2px groove paleturquoise;
+    border-radius: 3px;
+    padding: 0 10px 10px 10px;
+    margin-top: 15px;
+}
+
+legend.sector-industry-block {
+    width: inherit;
+    padding: 0 7px;
+    border-bottom: none;
+    font-size: 16px;
+}
+
+.main-investment-formula .sector-industry-input-block{
+    padding: 5px 0px 0px 0px;
+}
+
+.main-investment-formula .selectable-block{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.main-investment-formula .selectable-button{
+    padding: 1px 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 3px 5px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.main-investment-formula .selectable-button.disabled{
+    background: whitesmoke;
+}
+
+.main-investment-formula .selectable-button.disabled:hover {
+    background: #eee;
+}
+
+.main-investment-formula .selectable-button.enabled{
+    background: #FF8F00;
+    color: white;
+}
+
+.main-investment-formula .selectable-button.enabled:hover {
+    background: #EF6C00;
+}
+
+.main-investment-formula .sector-title{
+    display: inline-block;
+}
+
+.main-investment-formula .industry-title{
+    display: inline-block;
+}
+
 .math-left-align .mjx-chtml.MJXc-display{
     text-align: left !important;
  }

@@ -177,6 +177,32 @@ var myvar =
 '                        <input type="text" id="factor-intersectional-InstTransw-input" value="1" name="factor-intersectional-InstTransw-input">' +
 '                        <div></div>' +
 '                    </div>' +
+'                    <div class="factor-intersectional-formula-input-block1-0">' +
+'                        <div class="sector-industry-title">' +
+'                            <div class="sector-title">' +
+'                                <input type="checkbox" id="factor-intersectional-sector-filter" class="factor-checkbox">' +
+'                                <label for="factor-intersectional-sector-filter">過濾部門</label>' +
+'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=sector&v=150&o=-perf1w">(指標數據)</a>' +
+'                            </div>' +
+'                            <div class="industry-title">' +
+'                                <input type="checkbox" id="factor-intersectional-industry-filter" class="factor-checkbox">' +
+'                                <label for="factor-intersectional-industry-filter">過濾行業</label>' +
+'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=industry&v=150&o=-perf1w">(指標數據)</a>' +
+'                            </div>' +
+'                        </div>' +
+'                        <div class="sector-industry-content">' +
+'                            <fieldset class="sector-industry-block sector-industry-group arg2-input" id="factor-intersectional-sector-block" style="display:none;">' +
+'                                <legend class="sector-industry-block arg2-input">Sectors</legend>' +
+'                                <div class="sector-industry-input-block" id="factor-intersectional-sector">' +
+'                                </div>' +
+'                            </fieldset>' +
+'                            <fieldset class="sector-industry-block sector-industry-group arg2-input" id="factor-intersectional-industry-block" style="display:none;">' +
+'                                <legend class="sector-industry-block arg2-input">Industries</legend>' +
+'                                <div class="sector-industry-input-block" id="factor-intersectional-industry">' +
+'                                </div>' +
+'                            </fieldset>' +
+'                        </div>' +
+'                    </div>' +
 '                    <div class="factor-intersectional-formula-input-block1-1">' +
 '                        <div></div>' +
 '                        <button id="factor-intersectional-get-btn" class="click-btn">計算</button>' +
@@ -495,6 +521,29 @@ function getBeneishAutoRangeV1() {
   });
 }
 
+function getFactorIntersectionalFIF(){
+
+  let fif_output = { sectors: [], industries: []};
+  let getFIFArgs = (src, targetID)=>{
+    let enabled_list = []
+    Object.keys(src).forEach((key) => {
+      let id = targetID + "_" + key;
+      if ($("#" + id).hasClass('enabled')) {
+        enabled_list.push(key)
+      }
+    });
+    return enabled_list;
+  };
+
+  if ($("#factor-intersectional-sector-filter")[0].checked) {
+    fif_output.sectors = getFIFArgs(StockSectorDict, "factor-intersectional-sector")
+  }
+  if ($("#factor-intersectional-industry-filter")[0].checked) {
+    fif_output.industries = getFIFArgs(StockIndustryDict, "factor-intersectional-industry")
+  }
+
+  return fif_output;
+}
 
 function getFactorIntersectionalV1() {
 
@@ -512,6 +561,7 @@ function getFactorIntersectionalV1() {
   let InsiderTransw = $('#factor-intersectional-InsiderTransw-input').val();
   let InstOwnw = $('#factor-intersectional-InstOwnw-input').val();
   let InstTransw = $('#factor-intersectional-InstTransw-input').val();
+  let FIF = getFactorIntersectionalFIF();
 
   if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || isNaN(BPw) || isNaN(SPw) || isNaN(FCFPw) || 
     isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw) || isNaN(InsiderOwnw) || isNaN(InsiderTransw) || 
@@ -535,7 +585,9 @@ function getFactorIntersectionalV1() {
       'InsiderOwn_w': InsiderOwnw,
       'InsiderTrans_w': InsiderTransw,
       'InstOwn_w': InstOwnw,
-      'InstTrans_w': InstTransw
+      'InstTrans_w': InstTransw,
+      'Sectors': FIF.sectors,
+      'Industries': FIF.industries
     }
   };
 
@@ -690,6 +742,55 @@ $(document).ready(function () {
   });
 
   runMathJax(".formula-groups", false);
+
+  // build factor-intersectional filter pannel
+  let buildFIF = (dictData, targetID)=>{
+    var data_list = Object.keys(dictData).map(function (key) {
+      return [key, dictData[key]];
+    });
+
+    data_list.sort(function (first, second) {
+      var orderBool = first[1] > second[1];
+      return orderBool ? 1 : -1;
+    });
+    
+    let body = "";
+    data_list.forEach((data) => {
+      if (data[0] !== "-1") {
+        body += '<button class="selectable-button disabled" id="' + targetID +'_' + data[0] + '">' + data[1] +'</button>';
+      }
+    });
+
+    $("#" + targetID)[0].innerHTML = body;
+  }
+  buildFIF(StockSectorDict, "factor-intersectional-sector");
+  buildFIF(StockIndustryDict, "factor-intersectional-industry");
+
+  $(".selectable-button").click((e) => {
+    if ($(e.target).hasClass('disabled')){
+      $(e.target).removeClass('disabled');
+      $(e.target).addClass('enabled');
+    } else {
+      $(e.target).removeClass('enabled');
+      $(e.target).addClass('disabled');
+    }
+  });
+
+  $("#factor-intersectional-sector-filter").click(function (e) {
+    if ($("#factor-intersectional-sector-filter")[0].checked) {
+      $("#factor-intersectional-sector-block").show();
+    } else {
+      $("#factor-intersectional-sector-block").hide();
+    }
+  });
+
+  $("#factor-intersectional-industry-filter").click(function (e) {
+    if ($("#factor-intersectional-industry-filter")[0].checked) {
+      $("#factor-intersectional-industry-block").show();
+    } else {
+      $("#factor-intersectional-industry-block").hide();
+    }
+  });
 
   // load hold stocks data
   $.getJSON("zmcx16_investment-formula-trade-data.json", function (json_data) {
