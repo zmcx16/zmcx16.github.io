@@ -182,12 +182,12 @@ var myvar =
 '                            <div class="sector-title">' +
 '                                <input type="checkbox" id="factor-intersectional-sector-filter" class="factor-checkbox">' +
 '                                <label for="factor-intersectional-sector-filter">過濾部門</label>' +
-'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=sector&v=150&o=-perf1w">(指標數據)</a>' +
+'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=sector&v=152&o=-perf1w&c=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26">(指標數據)</a>' +
 '                            </div>' +
 '                            <div class="industry-title">' +
 '                                <input type="checkbox" id="factor-intersectional-industry-filter" class="factor-checkbox">' +
 '                                <label for="factor-intersectional-industry-filter">過濾行業</label>' +
-'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=industry&v=150&o=-perf1w">(指標數據)</a>' +
+'                                <a class="link" target="_blank" href="https://finviz.com/groups.ashx?g=industry&v=152&o=-perf1w&c=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26">(指標數據)</a>' +
 '                            </div>' +
 '                        </div>' +
 '                        <div class="sector-industry-content">' +
