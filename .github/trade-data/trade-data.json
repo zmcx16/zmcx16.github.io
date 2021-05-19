@@ -1,14 +1,12 @@
 {
    "hold_stock_list":[
-      "SMP",
-      "TDS",
       "QDEL",
       "BIO",
       "KGC",
       "STC",
       "CNNE",
       "LAKE",
-      "HTH",
+      "LDI",
       "TX"
    ],
    "star_stock_list":[
@@ -89,6 +87,7 @@
          "QDEL":"Quidel Corporation",
          "KGC":"Kinross Gold Corporation (KGC)",
          "TX":"Ternium S.A. (TX)",
+         "LDI":"loanDepot, Inc. (LDI)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -412,66 +411,55 @@
       "QDEL":"353569",
       "KGC":"701818",
       "TX":"1342874",
+      "LDI":"1831631",
       "STC":"94344"
    },
    "portfolio":{
       "BIO":{
          "cost_p":580.11,
-         "position_%":15.560127819776245,
+         "position_%":15.234179185289454,
          "profit":0,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":40.66,
-         "position_%":4.34485658995066,
-         "profit":0,
-         "profit_%":0
-      },
-      "HTH":{
-         "cost_p":29.44,
-         "position_%":2.5472931052242744,
+         "position_%":4.253841908777192,
          "profit":0,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":15.078608089481287,
+         "position_%":14.762746177956284,
          "profit":0,
          "profit_%":0
       },
       "LAKE":{
          "cost_p":28.88,
-         "position_%":9.870414683137376,
+         "position_%":9.663652359263788,
+         "profit":0,
+         "profit_%":0
+      },
+      "LDI":{
+         "cost_p":13.57,
+         "position_%":14.254387033105989,
          "profit":0,
          "profit_%":0
       },
       "QDEL":{
          "cost_p":112.07,
-         "position_%":14.884658196138368,
-         "profit":0,
-         "profit_%":0
-      },
-      "SMP":{
-         "cost_p":41.45,
-         "position_%":5.379685761457855,
+         "position_%":14.572859085615143,
          "profit":0,
          "profit_%":0
       },
       "STC":{
          "cost_p":53.5,
-         "position_%":12.267067934550662,
-         "profit":0,
-         "profit_%":0
-      },
-      "TDS":{
-         "cost_p":20.77,
-         "position_%":4.492805519319648,
+         "position_%":12.0101012766456,
          "profit":0,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":15.574482300963632,
+         "position_%":15.248232973346553,
          "profit":0,
          "profit_%":0
       }
