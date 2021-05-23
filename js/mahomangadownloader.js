@@ -81,6 +81,7 @@ var myvar =
 '				<li><a class="link" target="_blank" href="https://www.mangatown.com/">https://www.mangatown.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.cocomanhua.com/">https://www.cocomanhua.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.gufengmh8.com/">https://www.gufengmh8.com/</a></li>' +
+'                <li><a class="link" target="_blank" href="https://copymanga.com/">https://copymanga.com/</a></li>' +
 '            </ul>' +
 '        </div>' +
 '        <div class="environment">' +
