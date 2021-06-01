@@ -7,6 +7,7 @@
       "CNNE",
       "LAKE",
       "LDI",
+      "EDRY",
       "TX"
    ],
    "star_stock_list":[
@@ -88,6 +89,7 @@
          "KGC":"Kinross Gold Corporation (KGC)",
          "TX":"Ternium S.A. (TX)",
          "LDI":"loanDepot, Inc. (LDI)",
+         "EDRY":"EuroDry Ltd. (EDRY)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -412,54 +414,61 @@
       "KGC":"701818",
       "TX":"1342874",
       "LDI":"1831631",
+      "EDRY":"1731388",
       "STC":"94344"
    },
    "portfolio":{
       "BIO":{
          "cost_p":580.11,
-         "position_%":15.234179185289454,
+         "position_%":14.614662366371393,
          "profit":0,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":40.66,
-         "position_%":4.253841908777192,
+         "position_%":4.080854143866908,
+         "profit":0,
+         "profit_%":0
+      },
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":4.066624209831308,
          "profit":0,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":14.762746177956284,
+         "position_%":14.162400767847567,
          "profit":0,
          "profit_%":0
       },
       "LAKE":{
          "cost_p":28.88,
-         "position_%":9.663652359263788,
+         "position_%":9.270667932868031,
          "profit":0,
          "profit_%":0
       },
       "LDI":{
          "cost_p":13.57,
-         "position_%":14.254387033105989,
+         "position_%":13.674714679054647,
          "profit":0,
          "profit_%":0
       },
       "QDEL":{
          "cost_p":112.07,
-         "position_%":14.572859085615143,
+         "position_%":13.980235669974917,
          "profit":0,
          "profit_%":0
       },
       "STC":{
          "cost_p":53.5,
-         "position_%":12.0101012766456,
+         "position_%":11.52169559050427,
          "profit":0,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":15.248232973346553,
+         "position_%":14.628144639680965,
          "profit":0,
          "profit_%":0
       }
