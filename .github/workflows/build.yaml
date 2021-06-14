@@ -18,7 +18,6 @@ jobs:
       with:
         node-version: 14
         architecture: x64
-      run: npm --prefix ./.github/plugin-react/ install
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -36,6 +35,9 @@ jobs:
     - name: build js plugin pages
       run: |-
         python ./.github/script/build_plugin.py
+    - name: install react plugin pages dependency
+      run: |-
+        npm --prefix ./.github/plugin-react/ install
     - name: build react plugin pages
       run: |-
         npm --prefix ./.github/plugin-react/ build
