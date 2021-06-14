@@ -40,7 +40,7 @@ jobs:
         npm --prefix ./.github/plugin-react/ install
     - name: build react plugin pages
       run: |-
-        npm --prefix ./.github/plugin-react/ build
+        npm --prefix ./.github/plugin-react/ run build
     # - name: get trade data
     #  env:
     #    NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
