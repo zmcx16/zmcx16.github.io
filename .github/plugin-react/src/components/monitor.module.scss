@@ -1,0 +1,30 @@
+.container {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.controlPannel {
+  border: 1px solid silver;
+  border-radius: 4px;
+  padding: 20px 40px 20px 10px;
+  margin: 0 1px 10px 1px;
+}
+
+.valueText {
+  width: 100%;
+}
+
+.ControlToggleContainer {
+  margin-right: 16px;
+}
+
+.ControlToggle {
+  padding: 0 0 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.monitorBtn {
+  top: 1px;
+  height: 38px;
+}
