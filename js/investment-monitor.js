@@ -1,7 +1,7 @@
 var myvar = 
 '<link rel="stylesheet" type="text/css" href="css/investment-monitor.css">' +
 '<div class=\'main-investment-monitor\'>' +
-'  <iframe src="./plugin-react" name="mainframe" width="100%" marginwidth="0" marginheight="0" onload="Javascript:SetIFrameHeight()"' +
+'  <iframe src="./plugin-react/monitor" name="mainframe" width="100%" marginwidth="0" marginheight="0" onload="Javascript:SetIFrameHeight()"' +
 '    scrolling="No" frameborder="0" id="mainframe"></iframe>' +
 '</div>' ;
 
