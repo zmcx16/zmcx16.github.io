@@ -1,12 +1,12 @@
 {
    "hold_stock_list":[
-      "QDEL",
+      "CEIX",
       "BIO",
       "KGC",
       "GSL",
-      "CNNE",
+      "ARLP",
       "GOGL",
-	  "CPLP",
+      "CPLP",
       "LDI",
       "EDRY",
       "TX"
@@ -92,8 +92,10 @@
          "LDI":"loanDepot, Inc. (LDI)",
          "EDRY":"EuroDry Ltd. (EDRY)",
          "GSL":"Global Ship Lease, Inc. (GSL)",
-		 "GOGL":"Golden Ocean Group Limited (GOGL)",
-		 "CPLP":"Capital Product Partners L.P. (CPLP)",
+         "GOGL":"Golden Ocean Group Limited (GOGL)",
+         "CPLP":"Capital Product Partners L.P. (CPLP)",
+         "ARLP":"Alliance Resource Partners, L.P. (ARLP)",
+         "CEIX":"CONSOL Energy Inc. (CEIX)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -420,70 +422,72 @@
       "LDI":"1831631",
       "EDRY":"1731388",
       "GSL":"1430725",
-	  "GOGL":"1029145",
+      "GOGL":"1029145",
       "CPLP":"1392326",
+      "CEIX":"1710366",
+      "ARLP":"1086600",
       "STC":"94344"
    },
    "portfolio":{
-    "BIO": {
-        "cost_p": 580.11,
-        "position_%": 14.634172540552997,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "CNNE": {
-        "cost_p": 40.66,
-        "position_%": 4.086301972435276,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "CPLP": {
-        "cost_p": 13.14,
-        "position_%": 3.8226764121973935,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "EDRY": {
-        "cost_p": 22.24,
-        "position_%": 4.072053041827283,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "GOGL": {
-        "cost_p": 11.03,
-        "position_%": 4.0390957779995444,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "GSL": {
-        "cost_p": 15.76,
-        "position_%": 12.824851306794164,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "KGC": {
-        "cost_p": 7.61,
-        "position_%": 14.18130718517584,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "LDI": {
-        "cost_p": 13.57,
-        "position_%": 13.692970048804822,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "QDEL": {
-        "cost_p": 112.07,
-        "position_%": 13.99889890188431,
-        "profit": 0,
-        "profit_%": 0
-    },
-    "TX": {
-        "cost_p": 40.0,
-        "position_%": 14.647672812328361,
-        "profit": 0,
-        "profit_%": 0
-    }
-}
+      "ARLP":{
+         "cost_p":7.06,
+         "position_%":8.88299918498804,
+         "profit":0,
+         "profit_%":0
+      },
+      "BIO":{
+         "cost_p":580.11,
+         "position_%":14.740716277722434,
+         "profit":0,
+         "profit_%":0
+      },
+      "CEIX":{
+         "cost_p":1155,
+         "position_%":8.605822987074975,
+         "profit":0,
+         "profit_%":0
+      },
+      "CPLP":{
+         "cost_p":13.14,
+         "position_%":3.8505073148204385,
+         "profit":0,
+         "profit_%":0
+      },
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":4.101699524935652,
+         "profit":0,
+         "profit_%":0
+      },
+      "GOGL":{
+         "cost_p":11.03,
+         "position_%":4.068502316550382,
+         "profit":0,
+         "profit_%":0
+      },
+      "GSL":{
+         "cost_p":15.76,
+         "position_%":12.918222324737386,
+         "profit":0,
+         "profit_%":0
+      },
+      "KGC":{
+         "cost_p":7.61,
+         "position_%":14.284553847142512,
+         "profit":0,
+         "profit_%":0
+      },
+      "LDI":{
+         "cost_p":13.57,
+         "position_%":13.792661384130142,
+         "profit":0,
+         "profit_%":0
+      },
+      "TX":{
+         "cost_p":40.0,
+         "position_%":14.75431483789803,
+         "profit":0,
+         "profit_%":0
+      }
+   }
 }
