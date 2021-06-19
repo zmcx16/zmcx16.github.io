@@ -1,4 +1,4 @@
-export const MonitorConfig = {
+const MonitorConfig = {
   monitor_data: [
     {
       name: 'All Stock Change Order 200',
@@ -54,4 +54,10 @@ export const MonitorConfig = {
     'Avg Volume',
     'Volume'
   ]
+}
+
+module.exports = {
+  getMonitorConfig: function () {
+    return MonitorConfig
+  }
 }
