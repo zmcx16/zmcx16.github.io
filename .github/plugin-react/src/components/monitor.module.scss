@@ -14,17 +14,21 @@
   width: 100%;
 }
 
-.ControlToggleContainer {
+.controlToggleContainer {
   margin-right: 16px;
-}
-
-.ControlToggle {
-  padding: 0 0 0 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
 }
 
 .monitorBtn {
   top: 1px;
   height: 38px;
+}
+
+.monitorTable{
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.monitorTableTitle{
+  padding-left:5px;
 }

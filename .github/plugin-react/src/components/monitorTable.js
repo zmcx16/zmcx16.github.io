@@ -147,9 +147,9 @@ const MonitorTableObj = ({data}) => {
   )
 }
 
-const MonitorTable = ({MonitorTableRef}) => {
-  // MonitorTableRef API
-  MonitorTableRef.current = {
+const MonitorTable = ({monitorTableRef}) => {
+
+  monitorTableRef.current = {
     setTable: (data)=>{
       const appendIdInData = (src) => {
         return src.map((value, index) => {
