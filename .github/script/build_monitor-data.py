@@ -58,7 +58,6 @@ def getMonitorData(config, monitor_data_path):
                 sys.exit(1)
         
         with open((monitor_data_path), 'w', encoding='utf-8') as f:
-            print(monitor_data_path)
             f.write(json.dumps(monitor_ouput, separators=(',', ':')))
 
         print('get monitor ' + monitor_item["name"] + ' done')
