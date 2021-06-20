@@ -3,6 +3,8 @@ name: BuildPluginPage
 on:
   push:
   workflow_dispatch:
+  schedule:
+    - cron:  '0 4 * * *'
 
 jobs:
   build:
@@ -39,9 +41,14 @@ jobs:
     - name: build react plugin pages
       run: |-
         npm --prefix ./.github/plugin-react/ run build
+    - name: get monitor data
+      env:
+        MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
+      run: |-
+        python ./.github/script/build_monitor-data.py
     - name: Commit and push if page changed
       run: |-
         git diff
         git config --global user.name "zmcx16-bot"
-        git add *.js && git add ./plugin-react/\* && git commit -m "Updated plugin pages"
+        git diff --quiet || (git add *.js && git add ./plugin-react/\* && git commit -m "Updated plugin pages & monitor data")
         git push
