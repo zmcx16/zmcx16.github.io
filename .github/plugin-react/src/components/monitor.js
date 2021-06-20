@@ -32,7 +32,7 @@ const Monitor = () => {
   }
 
   const setDefaultMonitorData = async () => {
-    const resp_data = await get('/monitor_data.json')
+    const resp_data = await get('/plugin-react/monitor_data.json')
     if (response.ok) {
       resp_data.forEach((value, index) => {
         monitorTablesRef.current[index].current.setTable(value.data)
