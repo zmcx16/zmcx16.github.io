@@ -9,4 +9,5 @@ document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
 $(document).ready(function () {
   setBanner('Real-Time Monitoring Stocks', '#83ff78', ['這頁是拿來撿寶用的', '暫不對外開放使用', '俺のドリルは天を創るドリルだ！！！！']);
+  setInterval(SetIFrameHeight, 100);
 });
