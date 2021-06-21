@@ -11,6 +11,22 @@ import MonitorTable from './monitorTable'
 import commonStyle from './common.module.scss'
 import monitorStyle from './monitor.module.scss'
 
+const QueryData = ({ queryDataRef }) => {
+  const { get, response, error } = useFetch({ cachePolicy: 'no-cache' })
+
+  queryDataRef.current = {
+    doGet: async (url) => {
+      const resp_data = await get(url)
+      if (error) {
+        console.error(error)
+      }
+      return { resp: resp_data, ok: response.ok, err: error}
+    }
+  }
+
+  return <></>
+}
+
 const Monitor = () => {
 
   const MonitorConfig = require('../common/config').getMonitorConfig() // config.js also used on nodejs
@@ -19,27 +35,25 @@ const Monitor = () => {
 
   const monitoring = useRef(false) 
 
-  const { get, response, error } = useFetch({ cachePolicy: 'no-cache' })
-
   const refreshMonitorData = async (monitor_index) => {
-    const resp_data = await get('/test_data.json')
-    if (response.ok) {
-      monitorTablesRef.current[monitor_index].current.setTable(resp_data.data)
+    const { resp, ok, err } = await queryDataRef.current.doGet('/test_data.json')
+    if (ok && Object.keys(resp).length > 0) {
+      monitorTablesRef.current[monitor_index].current.setTable(resp.data)
     }
     else {
-      console.error(error)
+      console.error("refreshMonitorData failed")
     }
   }
 
   const setDefaultMonitorData = async () => {
-    const resp_data = await get('/plugin-react/monitor_data.json')
-    if (response.ok) {
-      resp_data.forEach((value, index) => {
+    const { resp, ok, err } = await queryDataRef.current.doGet('/plugin-react/monitor_data.json')
+    if (ok && Object.keys(resp).length > 0) {
+      resp.forEach((value, index) => {
         monitorTablesRef.current[index].current.setTable(value.data)
       })
     }
     else {
-      console.error(error)
+      console.error("setDefaultMonitorData failed")
     }
   }
 
@@ -63,6 +77,11 @@ const Monitor = () => {
         })
       }
     }
+  }
+
+  const queryDataRef = useRef()
+  queryDataRef.current = {
+    doGet: null
   }
 
   useEffect(() => {
@@ -99,15 +118,16 @@ const Monitor = () => {
       <div>
         {MonitorConfig.monitor_data.map((value, index) => {
           return (
-            <div className={monitorStyle.monitorTable} >
-              <Typography className={monitorStyle.monitorTableTitle} key={shortid.generate()} variant="h6">
+            <div key={shortid.generate()} className={monitorStyle.monitorTable} >
+              <Typography className={monitorStyle.monitorTableTitle} variant="h6">
                 {value.name}
               </Typography>
-              <MonitorTable key={shortid.generate()} monitorTableRef={monitorTablesRef.current[index]} />
+              <MonitorTable monitorTableRef={monitorTablesRef.current[index]} />
             </div>
           )
         })}
       </div>
+      <QueryData queryDataRef={queryDataRef}/>
     </div>
   )
 }
