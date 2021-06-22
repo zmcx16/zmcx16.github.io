@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { DataGrid, GridOverlay } from '@material-ui/data-grid'
+import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import { makeStyles } from '@material-ui/core/styles'
@@ -147,10 +149,10 @@ const MonitorTableObj = ({data}) => {
   )
 }
 
-const MonitorTable = ({monitorTableRef}) => {
+const MonitorTable = ({name, monitorTableRef}) => {
 
   monitorTableRef.current = {
-    setTable: (data)=>{
+    setTable: (data, lastUpdateTime)=>{
       const appendIdInData = (src) => {
         return src.map((value, index) => {
           value.id = index
@@ -158,13 +160,27 @@ const MonitorTable = ({monitorTableRef}) => {
         })
       }
       setMonitorTable(<MonitorTableObj data={appendIdInData(data)}/>)
+      setLastUpdateTime('Last Update Time: ' + lastUpdateTime)
     }
   }
 
   const [monitorTable, setMonitorTable] = useState()
+  const [lastUpdateTime, setLastUpdateTime] = useState('Last Update Time: None')
 
   return (
     <>
+      <Grid container spacing={3}>
+        <Grid item xs={7}>
+          <Typography className={monitorTableStyle.monitorTableTitle} variant="h6">
+            {name}
+          </Typography>
+        </Grid>
+        <Grid container item xs={5} justify="flex-end">
+          <Typography className={monitorTableStyle.monitorTableLastUpdateTime} variant="h6">
+            {lastUpdateTime}
+          </Typography>
+        </Grid>
+      </Grid>
       {monitorTable}
     </>
   )

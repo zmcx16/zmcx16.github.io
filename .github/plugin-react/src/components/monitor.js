@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef, createRef } from 'react'
 import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
 import TextField from '@material-ui/core/TextField'
 import shortid from 'shortid'
 import useFetch from 'use-http'
@@ -11,17 +10,24 @@ import MonitorTable from './monitorTable'
 import commonStyle from './common.module.scss'
 import monitorStyle from './monitor.module.scss'
 
-const QueryData = ({ queryDataRef }) => {
-  const { get, response, error } = useFetch({ cachePolicy: 'no-cache' })
+const QueryData = ({ serverUrl, queryDataRef }) => {
+  const { get, post, response, error } = useFetch(serverUrl, { cachePolicy: 'no-cache' })
 
   queryDataRef.current = {
-    doGet: async (url) => {
-      const resp_data = await get(url)
+    doGet: async (api) => {
+      const resp_data = await get(api)
       if (error) {
         console.error(error)
       }
       return { resp: resp_data, ok: response.ok, err: error}
-    }
+    },
+    doPost: async (api, body) => {
+      const resp_data = await post(api, body)
+      if (error) {
+        console.error(error)
+      }
+      return { resp: resp_data, ok: response.ok, err: error }
+    },
   }
 
   return <></>
@@ -29,16 +35,20 @@ const QueryData = ({ queryDataRef }) => {
 
 const Monitor = () => {
 
-  const MonitorConfig = require('../common/config').getMonitorConfig() // config.js also used on nodejs
+  const config = require('../common/config')
+  const monitorConfig = config.getMonitorConfig() // config.js also used on nodejs
   const apiTokenRef = useRef("None")
   const refreshTimeMinutesRef = useRef(5)
 
   const monitoring = useRef(false) 
 
   const refreshMonitorData = async (monitor_index) => {
-    const { resp, ok, err } = await queryDataRef.current.doGet('/test_data.json')
+    const { resp, ok, err } = await queryMonitorDataRef.current.doPost('/api/StockMineHunterFunc?code=' + apiTokenRef.current.value + '&api=get-monitor-data', {
+      monitor_url: monitorConfig.monitor_data[monitor_index].monitor_url,
+      max_count: monitorConfig.monitor_data[monitor_index].max_count,
+    })
     if (ok && Object.keys(resp).length > 0) {
-      monitorTablesRef.current[monitor_index].current.setTable(resp.data)
+      monitorTablesRef.current[monitor_index].current.setTable(resp.data, new Date().toLocaleString('en-US'))
     }
     else {
       console.error("refreshMonitorData failed")
@@ -46,10 +56,10 @@ const Monitor = () => {
   }
 
   const setDefaultMonitorData = async () => {
-    const { resp, ok, err } = await queryDataRef.current.doGet('/plugin-react/monitor_data.json')
+    const { resp, ok, err } = await queryLocalDataRef.current.doGet('/plugin-react/monitor_data.json')
     if (ok && Object.keys(resp).length > 0) {
       resp.forEach((value, index) => {
-        monitorTablesRef.current[index].current.setTable(value.data)
+        monitorTablesRef.current[index].current.setTable(value.data, new Date(value.timestamp*1000).toLocaleString('en-US'))
       })
     }
     else {
@@ -58,7 +68,7 @@ const Monitor = () => {
   }
 
   const monitorTablesRef = useRef([])
-  MonitorConfig.monitor_data.forEach((value, index) => {
+  monitorConfig.monitor_data.forEach((value, index) => {
     monitorTablesRef.current[index] = createRef()
     monitorTablesRef.current[index].current = {
       setTable: null
@@ -70,7 +80,7 @@ const Monitor = () => {
     onChange: (val) => {
       monitoring.current = val
       if (monitoring.current) {
-        MonitorConfig.monitor_data.forEach((value, index) => {
+        monitorConfig.monitor_data.forEach((value, index) => {
           setTimeout(() => {
             refreshMonitorData(index)
           }, 5000 * index)
@@ -79,8 +89,12 @@ const Monitor = () => {
     }
   }
 
-  const queryDataRef = useRef()
-  queryDataRef.current = {
+  const queryLocalDataRef = useRef()
+  queryLocalDataRef.current = {
+    doGet: null
+  }
+  const queryMonitorDataRef = useRef()
+  queryMonitorDataRef.current = {
     doGet: null
   }
 
@@ -116,18 +130,16 @@ const Monitor = () => {
         </Grid>
       </div>
       <div>
-        {MonitorConfig.monitor_data.map((value, index) => {
+        {monitorConfig.monitor_data.map((value, index) => {
           return (
             <div key={shortid.generate()} className={monitorStyle.monitorTable} >
-              <Typography className={monitorStyle.monitorTableTitle} variant="h6">
-                {value.name}
-              </Typography>
-              <MonitorTable monitorTableRef={monitorTablesRef.current[index]} />
+              <MonitorTable name={value.name} monitorTableRef={monitorTablesRef.current[index]} />
             </div>
           )
         })}
       </div>
-      <QueryData queryDataRef={queryDataRef}/>
+      <QueryData serverUrl={''} queryDataRef={queryLocalDataRef} />
+      <QueryData serverUrl={config.getMonitorURL()} queryDataRef={queryMonitorDataRef}/>
     </div>
   )
 }

@@ -56,8 +56,13 @@ const MonitorConfig = {
   ]
 }
 
+const MonitorURL = 'https://stockminehunterfuncmonitor0.azurewebsites.net'
+// /api/StockMineHunterFunc
 module.exports = {
   getMonitorConfig: function () {
     return MonitorConfig
-  }
+  },
+  getMonitorURL: function () {
+    return MonitorURL
+  },
 }
