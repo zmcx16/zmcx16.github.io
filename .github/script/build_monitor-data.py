@@ -48,7 +48,7 @@ def getMonitorData(config, monitor_data_path):
                     if resp["ret"] != 0:
                         print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                     else:
-                        output = {"name":  monitor_item["name"], "data": resp["data"]}
+                        output = {"name":  monitor_item["name"], "data": resp["data"], "timestamp": datetime.now().timestamp()}
                         monitor_ouput.append(output)
 
                 except Exception as ex:
