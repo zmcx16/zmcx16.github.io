@@ -170,12 +170,12 @@ const MonitorTable = ({name, monitorTableRef}) => {
   return (
     <>
       <Grid container spacing={3}>
-        <Grid item xs={7}>
+        <Grid item xs={6}>
           <Typography className={monitorTableStyle.monitorTableTitle} variant="h6">
             {name}
           </Typography>
         </Grid>
-        <Grid container item xs={5} justify="flex-end">
+        <Grid container item xs={6} justify="flex-end">
           <Typography className={monitorTableStyle.monitorTableLastUpdateTime} variant="h6">
             {lastUpdateTime}
           </Typography>

@@ -3,6 +3,10 @@ import Grid from '@material-ui/core/Grid'
 import TextField from '@material-ui/core/TextField'
 import shortid from 'shortid'
 import useFetch from 'use-http'
+import Cookies from 'universal-cookie'
+
+import { MonitorURL, COOKIE_KEY_API_TOKEN, COOKIE_KEY_REFRESH_TIME } from '../common/monitorDef'
+import { isPositiveInteger } from '../common/utils'
 
 import MonitorSwitch from './monitorSwitch'
 import MonitorTable from './monitorTable'
@@ -37,10 +41,18 @@ const Monitor = () => {
 
   const config = require('../common/config')
   const monitorConfig = config.getMonitorConfig() // config.js also used on nodejs
+  const cookies = new Cookies()
+
+  if (!cookies.get(COOKIE_KEY_API_TOKEN)){
+    cookies.set(COOKIE_KEY_API_TOKEN, 'None', { path: '/' })
+  }
+
+  if (!cookies.get(COOKIE_KEY_REFRESH_TIME)) {
+    cookies.set(COOKIE_KEY_REFRESH_TIME, '5', { path: '/' })
+  }
+
   const apiTokenRef = useRef("None")
   const refreshTimeMinutesRef = useRef(5)
-
-  const monitoring = useRef(false) 
 
   const refreshMonitorData = async (monitor_index) => {
     const { resp, ok, err } = await queryMonitorDataRef.current.doPost('/api/StockMineHunterFunc?code=' + apiTokenRef.current.value + '&api=get-monitor-data', {
@@ -63,6 +75,7 @@ const Monitor = () => {
       })
     }
     else {
+      alert("Get default monitor data failed...")
       console.error("setDefaultMonitorData failed")
     }
   }
@@ -77,15 +90,25 @@ const Monitor = () => {
 
   const monitorSwitchRef = useRef()
   monitorSwitchRef.current = {
-    onChange: (val) => {
-      monitoring.current = val
-      if (monitoring.current) {
-        monitorConfig.monitor_data.forEach((value, index) => {
-          setTimeout(() => {
-            refreshMonitorData(index)
-          }, 5000 * index)
-        })
+    canEnable: () => {
+      if (!isPositiveInteger(refreshTimeMinutesRef.current.value)) {
+        alert("The refresh time is invalid...")
+        return false
+      } else if (parseInt(refreshTimeMinutesRef.current.value) < 5) {
+        alert("The refresh time must greater than or equal to 5...")
+        return false
       }
+      return true
+    }, 
+    getTaskCycleTime: () => {
+      return parseInt(refreshTimeMinutesRef.current.value) * 60 * 1000
+    }, 
+    doTasks: () => {
+      monitorConfig.monitor_data.forEach((value, index) => {
+        setTimeout(() => {
+          refreshMonitorData(index)
+        }, 5000 * index)
+      })
     }
   }
 
@@ -112,17 +135,21 @@ const Monitor = () => {
     <div className={commonStyle.defaultFont + ' ' + monitorStyle.container}>
       <div className={monitorStyle.controlPannel}>
         <Grid container spacing={3}>
-          <Grid item xs={8}>
+          <Grid item xs={5} md={8}>
             <form noValidate autoComplete="off" key={shortid.generate()}>
-              <TextField className={monitorStyle.valueText} label={'API Token'} variant="outlined" defaultValue={'None'} size="small" inputRef={apiTokenRef} />
+              <TextField className={monitorStyle.valueText} label={'API Token'} variant="outlined" defaultValue={cookies.get(COOKIE_KEY_API_TOKEN)} size="small" inputRef={apiTokenRef} onChange={(e) => {
+                cookies.set(COOKIE_KEY_API_TOKEN, apiTokenRef.current.value, { path: '/' })
+              }} />
             </form>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={5} md={2}>
             <form noValidate autoComplete="off" key={shortid.generate()}>
-              <TextField className={monitorStyle.valueText} label={'Refresh Time (min)'} variant="outlined" defaultValue={'5'} size="small" inputRef={refreshTimeMinutesRef} />
+              <TextField className={monitorStyle.valueText} label={'Refresh Time (min)'} variant="outlined" defaultValue={cookies.get(COOKIE_KEY_REFRESH_TIME)} size="small" inputRef={refreshTimeMinutesRef} onChange={(e) => {
+                cookies.set(COOKIE_KEY_REFRESH_TIME, refreshTimeMinutesRef.current.value, { path: '/' })
+              }} />
             </form>
           </Grid>
-          <Grid container item xs={2} justify="flex-end">
+          <Grid container item xs={2} md={2} justify="flex-end">
             <div className={monitorStyle.controlToggleContainer} >
               <MonitorSwitch monitorSwitchRef={monitorSwitchRef}/>
             </div>
@@ -139,7 +166,7 @@ const Monitor = () => {
         })}
       </div>
       <QueryData serverUrl={''} queryDataRef={queryLocalDataRef} />
-      <QueryData serverUrl={config.getMonitorURL()} queryDataRef={queryMonitorDataRef}/>
+      <QueryData serverUrl={MonitorURL} queryDataRef={queryMonitorDataRef}/>
     </div>
   )
 }
