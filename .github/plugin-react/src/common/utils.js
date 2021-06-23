@@ -17,3 +17,8 @@ export const convertKMBT = (n, precision) => {
   if (n >= 1e9 && n < 1e12) return +(n / 1e9).toFixed(precision) + "B";
   if (n >= 1e12) return +(n / 1e12).toFixed(precision) + "T";
 }
+
+export const isPositiveInteger = (v) => {
+  var i
+  return v && (i = parseInt(v)) && i > 0 && (i === v || '' + i === v)
+}
