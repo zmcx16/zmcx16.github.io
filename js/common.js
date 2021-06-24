@@ -164,7 +164,7 @@ class SwitchImgs {
     }
 }
 
-function convertKMBT(n, precision) {
+function convert2KMBTString(n, precision) {
   if (n < 1e3) return n;
   if (n >= 1e3 && n < 1e6) return +(n / 1e3).toFixed(precision) + "K";
   if (n >= 1e6 && n < 1e9) return +(n / 1e6).toFixed(precision) + "M";
