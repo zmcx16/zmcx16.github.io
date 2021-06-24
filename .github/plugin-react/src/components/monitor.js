@@ -160,7 +160,7 @@ const Monitor = () => {
         {monitorConfig.monitor_data.map((value, index) => {
           return (
             <div key={shortid.generate()} className={monitorStyle.monitorTable} >
-              <MonitorTable name={value.name} monitorTableRef={monitorTablesRef.current[index]} />
+              <MonitorTable tableID={value.id} name={value.name} monitorTableRef={monitorTablesRef.current[index]} />
             </div>
           )
         })}
