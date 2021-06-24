@@ -655,7 +655,7 @@ function buildFactorIntersectionalTable(data) {
     output +=
       '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + stock['symbol'] + '\',\'_blank\',\'noopener\');">' + 
       '  <td class="td-symbol">' + stock['symbol'] + '</td>' +
-      '  <td class="td-market">' + convertKMBT(stock['Market Cap'], 3) + '</td>' +
+      '  <td class="td-market">' + convert2KMBTString(stock['Market Cap'], 3) + '</td>' +
       '  <td class="td-price">' + stock['Price'] + '</td>' +
       '  <td class="td-52w">' + stock['52W Range'] + '</td>' +
       '  <td class="td-pe">' + stock['P/E'] + '</td>' +

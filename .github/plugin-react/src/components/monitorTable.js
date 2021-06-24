@@ -5,6 +5,10 @@ import Typography from '@material-ui/core/Typography'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import { makeStyles } from '@material-ui/core/styles'
+import Cookies from 'universal-cookie'
+
+import { tryConvertFloat, convert2KMBTFloat, convert2KMBTString } from '../common/utils'
+import { colorPosGreenNegRedPercentField, percentField, KMBTField } from '../common/reactUtils'
 
 import monitorTableStyle from './monitorTable.module.scss'
 import './monitorTable.css'
@@ -83,12 +87,25 @@ function NoDataInTable() {
   )
 }
 
-const MonitorTableObj = ({data}) => {
+const MonitorTableObj = ({ headerKey, headerList, data}) => {
+  const cookies = new Cookies()
+  // console.log(data)
   const tableColList = {}
-  Object.keys(data[0]).forEach((key) => {
-    if (key !== 'id')
-      tableColList[key] = { show: true, text: key}
-  })
+  const initTableColList = (headerEnableList)=>{
+    headerList.forEach((key, index) => {
+      const show = headerEnableList.includes(index)
+      if (key !== 'id') {
+        tableColList[key] = { show: show, text: key }
+      }
+    })
+  }
+  let headerKeyVal = cookies.get(headerKey)
+  if (headerKeyVal) {
+    initTableColList(headerKeyVal.split`,`.map(x => +x))
+  }
+  else {
+    initTableColList(headerList.map((v,i)=>{return i}))
+  }
 
   const showColListRef = useRef(Object.keys(tableColList).reduce((accumulator, currentValue) => {
     accumulator[currentValue] = tableColList[currentValue].show
@@ -97,8 +114,20 @@ const MonitorTableObj = ({data}) => {
 
   const getTableColTemplate = (showColList) => {
     return Object.keys(showColList).map((key) => {
-      return {
-        field: tableColList[key].text, headerName: tableColList[key].text, width: 110, colShow: showColList[key]
+      if (key === 'Change' || key === 'EPS Q/Q' || key === 'EPS next 5Y' || key === 'EPS next Y' || key === 'EPS past 5Y' || 
+        key === 'EPS this Y' || key === 'Insider Trans' || key === 'Inst Trans' || key === 'ROA' || key === 'ROE' || 
+        key === 'ROI' || key === 'SMA20' || key === 'SMA200' || key.indexOf('Perf ')!=-1) {
+        return colorPosGreenNegRedPercentField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+      } else if (key === 'Dividend' || key === 'Sales Q/Q' || key === 'Sales past 5Y' || key === 'Insider Own' || 
+        key === 'Inst Own' || key === 'Gross Margin' || key === 'Oper. Margin' || key === 'Profit Margin' || key === 'Float Short' || 
+        key === '52W High' || key === '52W Low' || key === '50D High' || key === '50D Low'){
+        return percentField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+      } else if (key === 'Market Cap' || key === 'Volume' || key === 'Avg Volume') {
+        return KMBTField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+      } else {
+        return {
+          field: tableColList[key].text, headerName: tableColList[key].text, width: 110, colShow: showColList[key]
+        }
       }
     })
   }
@@ -113,6 +142,17 @@ const MonitorTableObj = ({data}) => {
   }
   const [tableCol, setTableCol] = useState(getTableCol())
 
+  const setHeaderCookie = ()=>{
+    let output = []
+    Object.keys(showColListRef.current).map((key, index) => {
+      if (showColListRef.current[key]) {
+        output.push(index)
+      }
+    })
+    let val = output.join(',')
+    cookies.set(headerKey, val, { path: '/' })
+  }
+
   const renderCheckbox = (key) => {
     return <FormControlLabel
       key={key}
@@ -120,11 +160,12 @@ const MonitorTableObj = ({data}) => {
         <Checkbox
           onChange={() => {
             showColListRef.current[key] = !showColListRef.current[key]
+            setHeaderCookie()
             setTableCol(getTableCol())
           }}
           name={tableColList[key].text}
           color="primary"
-          defaultChecked={tableColList[key].show}
+          checked={tableColList[key].show}
         />
       }
       label={
@@ -149,17 +190,45 @@ const MonitorTableObj = ({data}) => {
   )
 }
 
-const MonitorTable = ({name, monitorTableRef}) => {
+const MonitorTable = ({tableID, name, monitorTableRef}) => {
+  const config = require('../common/config')
+  const monitorConfig = config.getMonitorConfig() // config.js also used on nodejs
 
   monitorTableRef.current = {
     setTable: (data, lastUpdateTime)=>{
-      const appendIdInData = (src) => {
+      const appendIdAndTryConvertFloat = (src) => {
+        // console.log(src)
         return src.map((value, index) => {
-          value.id = index
+          value.id = index 
+          //tryConvertFloat
+          Object.keys(value).forEach((key) => {
+            if (key === 'Market Cap' || key === 'Avg Volume') {
+              value[key] = convert2KMBTFloat(value[key])
+            } else {
+              value[key] = tryConvertFloat(value[key])
+            }
+          })
           return value
         })
       }
-      setMonitorTable(<MonitorTableObj data={appendIdInData(data)}/>)
+
+      const genOrderedHeaderList = (row)=>{
+        let headerList = [] 
+        monitorConfig.header_order.forEach((item) => {
+          if (item in row) {
+            headerList.push(item)
+          }
+        })
+
+        Object.keys(row).forEach((key) => {
+          if (!monitorConfig.header_order.includes(key)) {
+            headerList.push(key)
+          }
+        })  
+        return headerList
+      }
+
+      setMonitorTable(<MonitorTableObj headerKey={tableID + '_header'} headerList={genOrderedHeaderList(data[0])} data={appendIdAndTryConvertFloat(data)}/>)
       setLastUpdateTime('Last Update Time: ' + lastUpdateTime)
     }
   }
