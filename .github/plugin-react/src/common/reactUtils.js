@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import Link from '@material-ui/core/Link'
 import { convert2KMBTString } from '../common/utils'
 
 export function useInterval(callback, delay) {
@@ -73,6 +74,36 @@ export function KMBTField(field, headerName, width, colShow){
       params.value === "-" || params.value === -Number.MAX_VALUE || params.value === "Infinity" || params.value === 'NaN' ?
         <span>-</span> :
         <span>{convert2KMBTString(params.value, 2)}</span>
+    ),
+    colShow: colShow
+  }
+}
+
+export function IndustryNameField(field, headerName, width, colShow) {
+  return {
+    field: field,
+    headerName: headerName,
+    width: width,
+    renderCell: (params) => (
+      params.row['Url'] === '-' ?
+        <span>{params.value}</span> :
+        <Link href={params.row['Url']} target="_blank" rel="noreferrer noopener">
+          <span>{params.value}</span>
+        </Link>
+    ),
+    colShow: colShow
+  }
+}
+
+export function SymbolNameField(field, headerName, width, colShow) {
+  return {
+    field: field,
+    headerName: headerName,
+    width: width,
+    renderCell: (params) => (
+      <Link href={"https://finviz.com/quote.ashx?t=" + params.value + "&ty=c&p=d&b=1"} target="_blank" rel="noreferrer noopener">
+        <span>{params.value}</span>
+      </Link>
     ),
     colShow: colShow
   }
