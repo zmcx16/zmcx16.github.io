@@ -576,11 +576,13 @@ function getFactorIntersectionalV1() {
   let TgtPricew = $('#factor-intersectional-TgtPrice-input').val();
   let ShortFloatw = $('#factor-intersectional-ShortFloat-input').val();
   let ShortRatiow = $('#factor-intersectional-ShortRatio-input').val();
+  let EQPw = $('#factor-intersectional-EQPw-input').val();
   let FIF = getFactorIntersectionalFIF();
 
   if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || isNaN(BPw) || isNaN(SPw) || isNaN(FCFPw) || 
     isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw) || isNaN(InsiderOwnw) || isNaN(InsiderTransw) || 
-    isNaN(InstOwnw) || isNaN(InstTransw) || isNaN(TgtPricew) || isNaN(ShortFloatw) || isNaN(ShortRatiow)) {
+    isNaN(InstOwnw) || isNaN(InstTransw) || isNaN(TgtPricew) || isNaN(ShortFloatw) || isNaN(ShortRatiow) || 
+    isNaN(EQPw)) {
     return;
   }
 
@@ -606,6 +608,7 @@ function getFactorIntersectionalV1() {
       'Industries': FIF.industries,
       'ShortFloat_w': ShortFloatw,
       'ShortRatio_w': ShortRatiow,
+      'E_Q/P_w': EQPw,
     }
   };
 
@@ -750,10 +753,10 @@ $(document).ready(function () {
   // factor-intersectional
   $("#factor-intersectional-formula-val")[0].innerHTML = '$$' + factor_intersectional_formula + '$$';
   $("#factor-intersectional-formula-description")[0].innerHTML = '$$' + 'S: 個股分數 \\qquad w: 因子權重 \\qquad n: 因子個數 \\qquad c: 市值M以上個股數 \\qquad f^*: 因子排行值' + '$$' + 
-    '$$' + 'f_i: 外部股東報酬率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
+    '$$' + 'f_i: 盈餘殖利率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
     '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI) \\qquad 股息率(\\%)' + '$$' + 
     '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 目標價現價差(\\%) \\qquad 內部人持股(\\%) \\qquad 內部人交易(\\%, 6M)' + '$$' + 
-    '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M) \\qquad 做空比率(\\%) \\qquad 做空回補天數(Days)' + '$$';
+    '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M) \\qquad 做空比率(\\%) \\qquad 做空回補天數(Days) \\qquad 盈餘殖利率(Last Q)(\\cfrac{每股盈餘}{股價})' + '$$';
 
   $('#factor-intersectional-get-btn').click(() => {
     getFactorIntersectionalV1();
