@@ -9,7 +9,7 @@ const MonitorConfig = {
     {
       id: 'pb2-tpc-change-order-200',
       name: 'P/B < 2 & Target Price > Current, Change Order 200',
-      monitor_url: 'https://finviz.com/screener.ashx?v=151&f=fa_pb_u2,targetprice_above&ft=4&o=-change',
+      monitor_url: 'https://finviz.com/screener.ashx?v=151&f=fa_pb_u2,targetprice_above&ft=4&o=-change&c=1,4,6,7,8,10,11,12,14,17,18,19,20,21,22,23,26,27,28,29,30,31,32,33,34,35,36,37,38,42,43,44,45,46,47,52,54,55,56,57,58,62,63,65,66,67,69',
       max_count: 200
     },
     {
