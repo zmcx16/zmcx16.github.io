@@ -190,7 +190,7 @@ var myvar =
 '                        <div></div>' +
 '                        <div>盈餘殖利率權重(LastQ):</div>' +
 '                        <div></div>' +
-'                        <input type="text" id="factor-intersectional-EQPw-input" value="0" name="factor-intersectional-EQPw-input">' +
+'                        <input type="text" id="factor-intersectional-EQPw-input" value="1.0" name="factor-intersectional-EQPw-input">' +
 '                        <div></div>' +
 '                    </div>' +
 '                    <div class="factor-intersectional-formula-input-block1-0">' +
