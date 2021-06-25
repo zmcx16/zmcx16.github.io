@@ -7,8 +7,8 @@ import Checkbox from '@material-ui/core/Checkbox'
 import { makeStyles } from '@material-ui/core/styles'
 import Cookies from 'universal-cookie'
 
-import { tryConvertFloat, convert2KMBTFloat, convert2KMBTString } from '../common/utils'
-import { colorPosGreenNegRedPercentField, percentField, KMBTField } from '../common/reactUtils'
+import { tryConvertFloat, convert2KMBTFloat } from '../common/utils'
+import { colorPosGreenNegRedPercentField, percentField, KMBTField, SymbolNameField, IndustryNameField } from '../common/reactUtils'
 
 import monitorTableStyle from './monitorTable.module.scss'
 import './monitorTable.css'
@@ -94,7 +94,7 @@ const MonitorTableObj = ({ headerKey, headerList, data}) => {
   const initTableColList = (headerEnableList)=>{
     headerList.forEach((key, index) => {
       const show = headerEnableList.includes(index)
-      if (key !== 'id') {
+      if (key !== 'id' && key !== 'Url' ) {
         tableColList[key] = { show: show, text: key }
       }
     })
@@ -117,13 +117,17 @@ const MonitorTableObj = ({ headerKey, headerList, data}) => {
       if (key === 'Change' || key === 'EPS Q/Q' || key === 'EPS next 5Y' || key === 'EPS next Y' || key === 'EPS past 5Y' || 
         key === 'EPS this Y' || key === 'Insider Trans' || key === 'Inst Trans' || key === 'ROA' || key === 'ROE' || 
         key === 'ROI' || key === 'SMA20' || key === 'SMA200' || key.indexOf('Perf ')!=-1) {
-        return colorPosGreenNegRedPercentField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+        return colorPosGreenNegRedPercentField(tableColList[key].text, tableColList[key].text, 120, showColList[key])
       } else if (key === 'Dividend' || key === 'Sales Q/Q' || key === 'Sales past 5Y' || key === 'Insider Own' || 
         key === 'Inst Own' || key === 'Gross Margin' || key === 'Oper. Margin' || key === 'Profit Margin' || key === 'Float Short' || 
         key === '52W High' || key === '52W Low' || key === '50D High' || key === '50D Low'){
-        return percentField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+        return percentField(tableColList[key].text, tableColList[key].text, 120, showColList[key])
       } else if (key === 'Market Cap' || key === 'Volume' || key === 'Avg Volume') {
-        return KMBTField(tableColList[key].text, tableColList[key].text, 110, showColList[key])
+        return KMBTField(tableColList[key].text, tableColList[key].text, 120, showColList[key])
+      } else if (key === 'Ticker') {
+        return SymbolNameField(tableColList[key].text, tableColList[key].text, 130, showColList[key])
+      } else if (key === 'Name') {
+        return IndustryNameField(tableColList[key].text, tableColList[key].text, 250, showColList[key])
       } else {
         return {
           field: tableColList[key].text, headerName: tableColList[key].text, width: 110, colShow: showColList[key]
