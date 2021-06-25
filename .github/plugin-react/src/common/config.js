@@ -1,9 +1,9 @@
 const MonitorConfig = {
   monitor_data: [
     {
-      id: 'all-industry-perf-week-order',
-      name: 'All Industry, Performance Week Order',
-      monitor_url: 'https://finviz.com/groups.ashx?g=industry&v=152&o=-perf1w&c=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26',
+      id: 'all-stock-change-order-200',
+      name: 'All Stock, Change Order 200',
+      monitor_url: 'https://finviz.com/screener.ashx?v=152&o=-change&c=1,4,6,7,8,10,11,12,14,17,18,19,20,21,22,23,26,27,28,29,30,31,32,33,34,35,36,37,38,42,43,44,45,46,47,52,54,55,56,57,58,62,63,65,66,67,69',
       max_count: 200
     },
     {
@@ -13,9 +13,9 @@ const MonitorConfig = {
       max_count: 200
     },
     {
-      id: 'all-stock-change-order-200',
-      name: 'All Stock, Change Order 200',
-      monitor_url: 'https://finviz.com/screener.ashx?v=152&o=-change&c=1,4,6,7,8,10,11,12,14,17,18,19,20,21,22,23,26,27,28,29,30,31,32,33,34,35,36,37,38,42,43,44,45,46,47,52,54,55,56,57,58,62,63,65,66,67,69',
+      id: 'all-industry-change-order',
+      name: 'All Industry, Change Order',
+      monitor_url: 'https://finviz.com/groups.ashx?g=industry&v=152&o=-change&c=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26',
       max_count: 200
     },
   ],
