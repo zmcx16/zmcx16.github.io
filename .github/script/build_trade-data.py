@@ -14,8 +14,8 @@ def send_post_json(url, req_data):
         res = requests.post(url, req_data, headers=headers)
         res.raise_for_status()
     except Exception as ex:
-        print('Generated an exception: ex'.format(ex=ex))
-        return -1, exc
+        print('Generated an exception: {ex}'.format(ex=ex))
+        return -1, ex
 
     return 0, res.json()
 
@@ -23,6 +23,7 @@ def send_post_json(url, req_data):
 if __name__ == "__main__":
 
     DELAY_TIME_SEC = 300
+    SEC_RETRY_CNT = 5
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
@@ -100,16 +101,19 @@ if __name__ == "__main__":
                 for sec_target in sec_args:
                     sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
 
-                ret, resp = send_post_json(SEC_URL, str({"data": [sec_target]}))
-                if ret == 0:
-                    try:
-                        if resp["ret"] != 0:
-                            print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
-                        else:
-                            scan_output["SEC"][symbol] = resp["data"][0]["report"]
-
-                    except Exception as ex:
-                        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                for retry_i in range(SEC_RETRY_CNT):
+                    ret, resp = send_post_json(SEC_URL, str({"data": [sec_target]}))
+                    if ret == 0:
+                        try:
+                            if resp["ret"] != 0:
+                                print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                            else:
+                                scan_output["SEC"][symbol] = resp["data"][0]["report"]
+                            break
+                        except Exception as ex:
+                            print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                        
+                    print('SEC retry {retry_i} failed.'.format(retry_i=retry_i))
 
             # --- get news ------
             if (symbol in data["hold_stock_list"]) or (
