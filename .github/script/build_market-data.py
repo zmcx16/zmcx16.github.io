@@ -32,7 +32,7 @@ def send_post_json(url, req_data):
 def getMarketData(config, market_folder_path):
 
     param = {
-        'code': os.environ.get("MONITOR_TOKEN_KEY", ""),
+        'code': os.environ.get("MARKET_TOKEN_KEY", ""),
         'api': 'get-market'
     }
     encoded_args = urlencode(param)
