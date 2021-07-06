@@ -46,6 +46,11 @@ jobs:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
       run: |-
         python ./.github/script/build_monitor-data.py
+    - name: get market data
+      env:
+        MARKET_TOKEN_KEY: ${{ secrets.MARKET_TOKEN_KEY }}
+      run: |-
+        python ./.github/script/build_market-data.py
     - name: Commit and push if page changed
       run: |-
         git diff
