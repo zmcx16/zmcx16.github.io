@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 
-import { IOSSwitch } from './iOSSwitch'
-import { useInterval } from '../common/reactUtils'
+import { IOSSwitch } from '../iOSSwitch'
+import { useInterval } from '../../common/reactUtils'
 
 import monitorSwitchStyle from './monitorSwitch.module.scss'
 

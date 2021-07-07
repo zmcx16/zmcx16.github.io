@@ -5,13 +5,13 @@ import shortid from 'shortid'
 import useFetch from 'use-http'
 import Cookies from 'universal-cookie'
 
-import { MonitorURL, COOKIE_KEY_API_TOKEN, COOKIE_KEY_REFRESH_TIME } from '../common/monitorDef'
-import { isPositiveInteger } from '../common/utils'
+import { MonitorURL, COOKIE_KEY_API_TOKEN, COOKIE_KEY_REFRESH_TIME } from '../../common/def'
+import { isPositiveInteger } from '../../common/utils'
 
 import MonitorSwitch from './monitorSwitch'
 import MonitorTable from './monitorTable'
 
-import commonStyle from './common.module.scss'
+import commonStyle from '../common.module.scss'
 import monitorStyle from './monitor.module.scss'
 
 const QueryData = ({ serverUrl, queryDataRef }) => {
@@ -39,7 +39,7 @@ const QueryData = ({ serverUrl, queryDataRef }) => {
 
 const Monitor = () => {
 
-  const config = require('../common/config')
+  const config = require('../../common/config')
   const monitorConfig = config.getMonitorConfig() // config.js also used on nodejs
   const cookies = new Cookies()
 
