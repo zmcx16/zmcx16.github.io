@@ -54,14 +54,16 @@ const table2MatrixData = (table) => {
     return `rgba(46, 233, 255, ${isNaN(alpha) ? 0 : alpha})`
   }
 
+  
+
   const parsedData = categories.reduce((acc, rowSymbolSrc) => {
     const category = table.find((d) => d.symbol === rowSymbolSrc.symbol)
     const categoryCorrelations = categories.reduce((acc2, colSymbolSrc) => {
       const value = category.correlations[colSymbolSrc.symbol]['value']
       const pValue = category.correlations[colSymbolSrc.symbol]['p_value']
       const dataUrl = category['dataUrl']
-      const row = categories.indexOf(rowSymbolSrc.symbol)
-      const column = categories.indexOf(colSymbolSrc.symbol)
+      const row = categories.findIndex(p => p.symbol == rowSymbolSrc.symbol)
+      const column = categories.findIndex(p => p.symbol == colSymbolSrc.symbol)
       const color =
         value < 0 ? negativeColor(value) : positiveColor(value)
 
