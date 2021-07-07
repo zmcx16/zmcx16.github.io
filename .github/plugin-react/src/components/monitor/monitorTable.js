@@ -7,8 +7,8 @@ import Checkbox from '@material-ui/core/Checkbox'
 import { makeStyles } from '@material-ui/core/styles'
 import Cookies from 'universal-cookie'
 
-import { tryConvertFloat, convert2KMBTFloat } from '../common/utils'
-import { colorPosGreenNegRedPercentField, percentField, KMBTField, SymbolNameField, IndustryNameField } from '../common/reactUtils'
+import { tryConvertFloat, convert2KMBTFloat } from '../../common/utils'
+import { colorPosGreenNegRedPercentField, percentField, KMBTField, SymbolNameField, IndustryNameField } from '../../common/reactUtils'
 
 import monitorTableStyle from './monitorTable.module.scss'
 import './monitorTable.css'
@@ -195,7 +195,7 @@ const MonitorTableObj = ({ headerKey, headerList, data}) => {
 }
 
 const MonitorTable = ({tableID, name, monitorTableRef}) => {
-  const config = require('../common/config')
+  const config = require('../../common/config')
   const monitorConfig = config.getMonitorConfig() // config.js also used on nodejs
 
   monitorTableRef.current = {

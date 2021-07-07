@@ -51,6 +51,9 @@ jobs:
         MARKET_TOKEN_KEY: ${{ secrets.MARKET_TOKEN_KEY }}
       run: |-
         python ./.github/script/build_market-data.py
+    - name: build correlation matrix
+      run: |-
+        python ./.github/script/build_correlation-matrix.py
     - name: Commit and push if page changed
       run: |-
         git diff
