@@ -118,6 +118,51 @@ const MarketConfig = {
       api: "investing/stock/EDRY"
     },
     {
+      symbol: "HRN00",
+      src: "marketwatch",
+      api: "investing/future/hrn00"
+    },
+    {
+      symbol: "TIOc1",
+      src: "investing",
+      api: "https://www.investing.com/commodities/iron-ore-62-cfr-futures-historical-data;curr_id=961729&smlID=301009&header=Iron+ore+fines+62%25+Fe+CFR+Futures+Historical+Data;https://www.investing.com/commodities/iron-ore-62-cfr-futures"
+    },
+    {
+      symbol: "STEEL",
+      src: "marketwatch",
+      api: "investing/index/steel?countryCode=XX"
+    },
+    {
+      symbol: "FBX",
+      src: "freightos",
+      api: "api/lane/FBX?isDaily=true"
+    },
+    {
+      symbol: "BDIY:IND",
+      src: "bloomberg",
+      api: "https://www.bloomberg.com/markets2/api/history/BDIY%3AIND/PX_LAST?timeframe=1_YEAR&period=daily&volumePeriod=daily"
+    },
+    {
+      symbol: "DJUSMT",
+      src: "marketwatch",
+      api: "investing/index/djusmt?countrycode=xx"
+    },
+    {
+      symbol: "COAL",
+      src: "marketwatch",
+      api: "investing/Future/COAL"
+    },
+    {
+      symbol: "NBI",
+      src: "marketwatch",
+      api: "investing/index/nbi"
+    },
+    {
+      symbol: "TMUBMUSD10Y",
+      src: "marketwatch",
+      api: "investing/bond/tmubmusd10y?countrycode=bx"
+    },
+    {
       symbol: "DJIA",
       src: "marketwatch",
       api: "investing/index/djia"
