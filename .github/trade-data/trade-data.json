@@ -26,7 +26,8 @@
       "AMD",
       "TSLA",
       "CRWD",
-      "CRM"
+      "CRM",
+      "S"
    ],
    "news_config":{
       "latest_days":28,
@@ -96,6 +97,7 @@
          "CPLP":"Capital Product Partners L.P. (CPLP)",
          "ARLP":"Alliance Resource Partners, L.P. (ARLP)",
          "CEIX":"CONSOL Energy Inc. (CEIX)",
+         "S": "SentinelOne, Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -426,6 +428,7 @@
       "CPLP":"1392326",
       "CEIX":"1710366",
       "ARLP":"1086600",
+      "S": "1583708",
       "STC":"94344"
    },
    "portfolio":{
