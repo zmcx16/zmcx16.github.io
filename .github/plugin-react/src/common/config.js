@@ -153,6 +153,11 @@ const MarketConfig = {
       api: "investing/Future/COAL"
     },
     {
+      symbol: "GC00",
+      src: "marketwatch",
+      api: "investing/future/gold"
+    },
+    {
       symbol: "NBI",
       src: "marketwatch",
       api: "investing/index/nbi"
@@ -161,6 +166,11 @@ const MarketConfig = {
       symbol: "TMUBMUSD10Y",
       src: "marketwatch",
       api: "investing/bond/tmubmusd10y?countrycode=bx"
+    },
+    {
+      symbol: "COMP",
+      src: "marketwatch",
+      api: "investing/index/comp"
     },
     {
       symbol: "DJIA",
