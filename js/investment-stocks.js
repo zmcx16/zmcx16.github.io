@@ -414,13 +414,6 @@ $(document).ready(function () {
     });
 
     $("#star-stocks-tbody")[0].innerHTML = buildTable(star_stocks);
-    $("#star-stocks-sec-show").click(function (e) {
-      if ($("#star-stocks-sec-show")[0].checked) {
-        $("#star-stocks-sec-table").show();
-      } else {
-        $("#star-stocks-sec-table").hide();
-      }
-    });
 
     $("#screener-stocks-tbody")[0].innerHTML = buildTable(screener_stocks);
 
