@@ -52,16 +52,6 @@ var myvar =
 '                <tbody id="star-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
-'            <div class="sec-title"><input type="checkbox" id="star-stocks-sec-show" class="sec-checkbox"><label for="star-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
-'            <table id="star-stocks-sec-table" style="display: none;">' +
-'                <thead>' +
-'                    <th class="th-date">Date</th>' +
-'                    <th class="th-symbol">Symbol</th>' +
-'                    <th class="th-filings">Filings</th>' +
-'                </thead>' +
-'                <tbody id="star-stocks-sec-tbody">' +
-'                </tbody>' +
-'            </table>' +
 '        </div>' +
 '    </div>' +
 '    <div class="screener-stocks-groups">' +
@@ -424,7 +414,6 @@ $(document).ready(function () {
     });
 
     $("#star-stocks-tbody")[0].innerHTML = buildTable(star_stocks);
-    $("#star-stocks-sec-tbody")[0].innerHTML = buildSECTable(star_stocks);
     $("#star-stocks-sec-show").click(function (e) {
       if ($("#star-stocks-sec-show")[0].checked) {
         $("#star-stocks-sec-table").show();
