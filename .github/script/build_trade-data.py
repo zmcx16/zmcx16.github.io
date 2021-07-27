@@ -96,7 +96,7 @@ if __name__ == "__main__":
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # --- get SEC -------
-            if (symbol in data["hold_stock_list"]) or (symbol in data["star_stock_list"]): # screener_stock_list no CIK info
+            if (symbol in data["hold_stock_list"]):
                 sec_args = data["sec_template"].copy()
                 for sec_target in sec_args:
                     sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
