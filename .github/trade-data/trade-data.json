@@ -7,7 +7,8 @@
       "ARLP",
       "GOGL",
       "CPLP",
-      "LDI",
+      "TDS",
+      "BXS",
       "EDRY",
       "TX"
    ],
@@ -97,7 +98,8 @@
          "CPLP":"Capital Product Partners L.P. (CPLP)",
          "ARLP":"Alliance Resource Partners, L.P. (ARLP)",
          "CEIX":"CONSOL Energy Inc. (CEIX)",
-         "S": "SentinelOne, Inc.",
+         "S":"SentinelOne, Inc.",
+         "BXS":"BancorpSouth Bank",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -428,68 +430,64 @@
       "CPLP":"1392326",
       "CEIX":"1710366",
       "ARLP":"1086600",
-      "S": "1583708",
+      "S":"1583708",
+      "BXS":"1299939",
       "STC":"94344"
    },
    "portfolio":{
       "ARLP":{
          "cost_p":7.06,
-         "position_%":8.532702143336419,
-         "profit":0,
+         "position_%":8.875298659192824,
          "profit_%":0
       },
       "BIO":{
          "cost_p":580.11,
-         "position_%":14.159422820819003,
-         "profit":0,
+         "position_%":14.727937793387053,
+         "profit_%":0
+      },
+      "BXS":{
+         "cost_p":26.04,
+         "position_%":4.798366245970855,
          "profit_%":0
       },
       "CEIX":{
          "cost_p":18.18,
-         "position_%":8.266456263002272,
-         "profit":0,
+         "position_%":8.598362740763903,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":5.6252955553669395,
-         "profit":0,
+         "position_%":5.85115679200184,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":3.9399508655687825,
-         "profit":0,
+         "position_%":4.09814382912411,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":5.924886143766004,
-         "profit":0,
+         "position_%":6.162776241838315,
          "profit_%":0
       },
       "GSL":{
          "cost_p":15.76,
-         "position_%":12.40879808980096,
-         "profit":0,
+         "position_%":12.907023730414863,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":13.72124894867718,
-         "profit":0,
+         "position_%":14.272170802510583,
          "profit_%":0
       },
-      "LDI":{
-         "cost_p":13.57,
-         "position_%":13.248754041717184,
-         "profit":0,
+      "TDS":{
+         "cost_p":20.56,
+         "position_%":4.967238599601029,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":14.172485127945261,
-         "profit":0,
+         "position_%":14.741524565194641,
          "profit_%":0
       }
    }
