@@ -108,9 +108,14 @@ const MarketConfig = {
       api: "investing/stock/CPLP"
     },
     {
-      symbol: "LDI",
+      symbol: "BXS",
       src: "marketwatch",
-      api: "investing/stock/LDI"
+      api: "investing/stock/BXS"
+    },
+    {
+      symbol: "TDS",
+      src: "marketwatch",
+      api: "investing/stock/TDS"
     },
     {
       symbol: "EDRY",
