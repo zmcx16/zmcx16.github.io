@@ -122,6 +122,16 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/EDRY"
     },
+	{
+      symbol: "PBFX",
+      src: "marketwatch",
+      api: "investing/stock/PBFX"
+    },
+	{
+      symbol: "CNNE",
+      src: "marketwatch",
+      api: "investing/stock/CNNE"
+    },
     {
       symbol: "HRN00",
       src: "marketwatch",
@@ -166,6 +176,16 @@ const MarketConfig = {
       symbol: "NBI",
       src: "marketwatch",
       api: "investing/index/nbi"
+    },
+    {
+      symbol: "CL.1",
+      src: "marketwatch",
+      api: "investing/future/cl.1"
+    },
+    {
+      symbol: "U.S. Crude Oil Inventories",
+      src: "investing",
+      api: "https://sbcharts.investing.com/events_charts/us/75.json;https://www.investing.com/economic-calendar/eia-crude-oil-inventories-75"
     },
     {
       symbol: "TMUBMUSD10Y",
