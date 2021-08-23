@@ -10,6 +10,8 @@
       "TDS",
       "BXS",
       "EDRY",
+      "CNNE",
+      "PBFX",
       "TX"
    ],
    "star_stock_list":[
@@ -437,57 +439,67 @@
    "portfolio":{
       "ARLP":{
          "cost_p":7.06,
-         "position_%":8.875298659192824,
+         "position_%":8.574818497921196,
          "profit_%":0
       },
       "BIO":{
          "cost_p":580.11,
-         "position_%":14.727937793387053,
+         "position_%":9.180201269396917,
          "profit_%":0
       },
       "BXS":{
          "cost_p":26.04,
-         "position_%":4.798366245970855,
+         "position_%":4.63591381267316,
          "profit_%":0
       },
       "CEIX":{
          "cost_p":18.18,
-         "position_%":8.598362740763903,
+         "position_%":8.307258461096582,
+         "profit_%":0
+      },
+      "CNNE":{
+         "cost_p":31,
+         "position_%":3.9245831218397123,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":5.85115679200184,
+         "position_%":5.65306131330319,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":4.09814382912411,
+         "position_%":3.959397972114097,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":6.162776241838315,
+         "position_%":5.954130643516901,
          "profit_%":0
       },
       "GSL":{
          "cost_p":15.76,
-         "position_%":12.907023730414863,
+         "position_%":12.470046371006827,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":14.272170802510583,
+         "position_%":13.788975323788,
+         "profit_%":0
+      },
+      "PBFX":{
+         "cost_p":11.7,
+         "position_%":9.257585186597707,
          "profit_%":0
       },
       "TDS":{
          "cost_p":20.56,
-         "position_%":4.967238599601029,
+         "position_%":4.799068861004479,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":14.741524565194641,
+         "position_%":9.494959165741239,
          "profit_%":0
       }
    }
