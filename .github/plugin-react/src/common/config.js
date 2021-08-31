@@ -128,6 +128,11 @@ const MarketConfig = {
       api: "investing/stock/PBFX"
     },
 	{
+      symbol: "ET",
+      src: "marketwatch",
+      api: "investing/stock/ET"
+    },
+	{
       symbol: "CNNE",
       src: "marketwatch",
       api: "investing/stock/CNNE"
