@@ -12,6 +12,7 @@
       "EDRY",
       "CNNE",
       "PBFX",
+	  "ET",
       "TX"
    ],
    "star_stock_list":[
@@ -102,6 +103,7 @@
          "CEIX":"CONSOL Energy Inc. (CEIX)",
          "S":"SentinelOne, Inc.",
          "BXS":"BancorpSouth Bank",
+		 "ET":"Energy Transfer LP (ET)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -434,73 +436,79 @@
       "ARLP":"1086600",
       "S":"1583708",
       "BXS":"1299939",
+	  "ET":"1276187",
       "STC":"94344"
    },
    "portfolio":{
-      "ARLP":{
-         "cost_p":7.06,
-         "position_%":8.574818497921196,
-         "profit_%":0
-      },
-      "BIO":{
-         "cost_p":580.11,
-         "position_%":9.180201269396917,
-         "profit_%":0
-      },
-      "BXS":{
-         "cost_p":26.04,
-         "position_%":4.63591381267316,
-         "profit_%":0
-      },
-      "CEIX":{
-         "cost_p":18.18,
-         "position_%":8.307258461096582,
-         "profit_%":0
-      },
-      "CNNE":{
-         "cost_p":31,
-         "position_%":3.9245831218397123,
-         "profit_%":0
-      },
-      "CPLP":{
-         "cost_p":12.99,
-         "position_%":5.65306131330319,
-         "profit_%":0
-      },
-      "EDRY":{
-         "cost_p":22.24,
-         "position_%":3.959397972114097,
-         "profit_%":0
-      },
-      "GOGL":{
-         "cost_p":10.75,
-         "position_%":5.954130643516901,
-         "profit_%":0
-      },
-      "GSL":{
-         "cost_p":15.76,
-         "position_%":12.470046371006827,
-         "profit_%":0
-      },
-      "KGC":{
-         "cost_p":7.61,
-         "position_%":13.788975323788,
-         "profit_%":0
-      },
-      "PBFX":{
-         "cost_p":11.7,
-         "position_%":9.257585186597707,
-         "profit_%":0
-      },
-      "TDS":{
-         "cost_p":20.56,
-         "position_%":4.799068861004479,
-         "profit_%":0
-      },
-      "TX":{
-         "cost_p":40.0,
-         "position_%":9.494959165741239,
-         "profit_%":0
-      }
-   }
+    "ARLP": {
+        "cost_p": 7.06,
+        "position_%": 8.156744738470247,
+        "profit_%": 0
+    },
+    "BIO": {
+        "cost_p": 580.11,
+        "position_%": 8.732611473981002,
+        "profit_%": 0
+    },
+    "BXS": {
+        "cost_p": 26.04,
+        "position_%": 4.409885248147307,
+        "profit_%": 0
+    },
+    "CEIX": {
+        "cost_p": 18.18,
+        "position_%": 7.902229855954287,
+        "profit_%": 0
+    },
+    "CNNE": {
+        "cost_p": 31,
+        "position_%": 3.7332361889077728,
+        "profit_%": 0
+    },
+    "CPLP": {
+        "cost_p": 12.99,
+        "position_%": 5.377440716058787,
+        "profit_%": 0
+    },
+    "EDRY": {
+        "cost_p": 22.24,
+        "position_%": 3.7663536067126,
+        "profit_%": 0
+    },
+    "ET": {
+        "cost_p": 9.35,
+        "position_%": 7.846758181131203,
+        "profit_%": 0
+    },
+    "GOGL": {
+        "cost_p": 10.75,
+        "position_%": 5.663831113211894,
+        "profit_%": 0
+    },
+    "GSL": {
+        "cost_p": 15.75,
+        "position_%": 8.890897677716344,
+        "profit_%": 0
+    },
+    "KGC": {
+        "cost_p": 7.61,
+        "position_%": 13.116680189612273,
+        "profit_%": 0
+    },
+    "PBFX": {
+        "cost_p": 11.7,
+        "position_%": 8.806222461738095,
+        "profit_%": 0
+    },
+    "TDS": {
+        "cost_p": 20.56,
+        "position_%": 4.56508551067811,
+        "profit_%": 0
+    },
+    "TX": {
+        "cost_p": 40.0,
+        "position_%": 9.032023037680096,
+        "profit_%": 0
+    }
+}
 }
