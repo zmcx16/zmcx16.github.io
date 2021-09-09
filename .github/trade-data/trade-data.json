@@ -12,7 +12,9 @@
       "EDRY",
       "CNNE",
       "PBFX",
-	  "ET",
+      "ET",
+      "SB",
+      "NMM",
       "TX"
    ],
    "star_stock_list":[
@@ -103,7 +105,9 @@
          "CEIX":"CONSOL Energy Inc. (CEIX)",
          "S":"SentinelOne, Inc.",
          "BXS":"BancorpSouth Bank",
-		 "ET":"Energy Transfer LP (ET)",
+         "ET":"Energy Transfer LP (ET)",
+         "NMM":"Navios Maritime Partners L.P.",
+         "SB":"Safe Bulkers, Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -436,79 +440,91 @@
       "ARLP":"1086600",
       "S":"1583708",
       "BXS":"1299939",
-	  "ET":"1276187",
+      "ET":"1276187",
+      "NMM":"1415921",
+      "SB":"1434754",
       "STC":"94344"
    },
    "portfolio":{
-    "ARLP": {
-        "cost_p": 7.06,
-        "position_%": 8.156744738470247,
-        "profit_%": 0
-    },
-    "BIO": {
-        "cost_p": 580.11,
-        "position_%": 8.732611473981002,
-        "profit_%": 0
-    },
-    "BXS": {
-        "cost_p": 26.04,
-        "position_%": 4.409885248147307,
-        "profit_%": 0
-    },
-    "CEIX": {
-        "cost_p": 18.18,
-        "position_%": 7.902229855954287,
-        "profit_%": 0
-    },
-    "CNNE": {
-        "cost_p": 31,
-        "position_%": 3.7332361889077728,
-        "profit_%": 0
-    },
-    "CPLP": {
-        "cost_p": 12.99,
-        "position_%": 5.377440716058787,
-        "profit_%": 0
-    },
-    "EDRY": {
-        "cost_p": 22.24,
-        "position_%": 3.7663536067126,
-        "profit_%": 0
-    },
-    "ET": {
-        "cost_p": 9.35,
-        "position_%": 7.846758181131203,
-        "profit_%": 0
-    },
-    "GOGL": {
-        "cost_p": 10.75,
-        "position_%": 5.663831113211894,
-        "profit_%": 0
-    },
-    "GSL": {
-        "cost_p": 15.75,
-        "position_%": 8.890897677716344,
-        "profit_%": 0
-    },
-    "KGC": {
-        "cost_p": 7.61,
-        "position_%": 13.116680189612273,
-        "profit_%": 0
-    },
-    "PBFX": {
-        "cost_p": 11.7,
-        "position_%": 8.806222461738095,
-        "profit_%": 0
-    },
-    "TDS": {
-        "cost_p": 20.56,
-        "position_%": 4.56508551067811,
-        "profit_%": 0
-    },
-    "TX": {
-        "cost_p": 40.0,
-        "position_%": 9.032023037680096,
-        "profit_%": 0
-    }
-}
+      "ARLP":{
+         "cost_p":7.06,
+         "position_%":7.881007126256939,
+         "profit_%":0
+      },
+      "BIO":{
+         "cost_p":580.11,
+         "position_%":4.218703383758491,
+         "profit_%":0
+      },
+      "BXS":{
+         "cost_p":26.04,
+         "position_%":4.260809695650996,
+         "profit_%":0
+      },
+      "CEIX":{
+         "cost_p":18.18,
+         "position_%":7.63509608365848,
+         "profit_%":0
+      },
+      "CNNE":{
+         "cost_p":31,
+         "position_%":3.607034662984971,
+         "profit_%":0
+      },
+      "CPLP":{
+         "cost_p":12.99,
+         "position_%":5.195657086632282,
+         "profit_%":0
+      },
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":3.6390325511243535,
+         "profit_%":0
+      },
+      "ET":{
+         "cost_p":9.35,
+         "position_%":7.581499621025014,
+         "profit_%":0
+      },
+      "GOGL":{
+         "cost_p":10.75,
+         "position_%":5.4723660965649,
+         "profit_%":0
+      },
+      "GSL":{
+         "cost_p":15.75,
+         "position_%":8.590342128328622,
+         "profit_%":0
+      },
+      "KGC":{
+         "cost_p":7.61,
+         "position_%":12.67327265491387,
+         "profit_%":0
+      },
+      "NMM":{
+         "cost_p":30.04,
+         "position_%":5.843759766400872,
+         "profit_%":0
+      },
+      "PBFX":{
+         "cost_p":11.7,
+         "position_%":8.508529346154065,
+         "profit_%":0
+      },
+      "SB":{
+         "cost_p":4.05,
+         "position_%":6.118777978835216,
+         "profit_%":0
+      },
+      "TDS":{
+         "cost_p":20.56,
+         "position_%":4.410763435067831,
+         "profit_%":0
+      },
+      "TX":{
+         "cost_p":40.0,
+         "position_%":4.363348382643109,
+         "profit_%":0
+      }
+   }
 }
