@@ -73,11 +73,6 @@ const MonitorConfig = {
 const MarketConfig = {
   data:[
     {
-      symbol: "CEIX",
-      src: "marketwatch",
-      api: "investing/stock/CEIX"
-    },
-    {
       symbol: "BIO",
       src: "marketwatch",
       api: "investing/stock/BIO"
@@ -93,11 +88,6 @@ const MarketConfig = {
       api: "investing/stock/GSL"
     },
     {
-      symbol: "ARLP",
-      src: "marketwatch",
-      api: "investing/stock/ARLP"
-    },
-    {
       symbol: "GOGL",
       src: "marketwatch",
       api: "investing/stock/GOGL"
@@ -108,6 +98,31 @@ const MarketConfig = {
       api: "investing/stock/CPLP"
     },
     {
+      symbol: "EDRY",
+      src: "marketwatch",
+      api: "investing/stock/EDRY"
+    },
+    {
+      symbol: "NMM",
+      src: "marketwatch",
+      api: "investing/stock/NMM"
+    },
+    {
+      symbol: "SB",
+      src: "marketwatch",
+      api: "investing/stock/SB"
+    },	
+    {
+      symbol: "CEIX",
+      src: "marketwatch",
+      api: "investing/stock/CEIX"
+    },
+    {
+      symbol: "ARLP",
+      src: "marketwatch",
+      api: "investing/stock/ARLP"
+    },
+    {
       symbol: "BXS",
       src: "marketwatch",
       api: "investing/stock/BXS"
@@ -116,11 +131,6 @@ const MarketConfig = {
       symbol: "TDS",
       src: "marketwatch",
       api: "investing/stock/TDS"
-    },
-    {
-      symbol: "EDRY",
-      src: "marketwatch",
-      api: "investing/stock/EDRY"
     },
 	{
       symbol: "PBFX",
