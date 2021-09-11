@@ -82,6 +82,7 @@ var myvar =
 '				<li><a class="link" target="_blank" href="https://www.cocomanga.com/">https://www.cocomanga.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.gufengmh8.com/">https://www.gufengmh8.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://copymanga.com/">https://copymanga.com/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://yande.re/">https://yande.re/</a> (preview, only support tag url)</li>' +
 '            </ul>' +
 '        </div>' +
 '        <div class="environment">' +
