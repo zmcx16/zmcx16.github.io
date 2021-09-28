@@ -123,29 +123,34 @@ const MarketConfig = {
       api: "investing/stock/ARLP"
     },
     {
-      symbol: "BXS",
-      src: "marketwatch",
-      api: "investing/stock/BXS"
-    },
-    {
       symbol: "TDS",
       src: "marketwatch",
       api: "investing/stock/TDS"
     },
-	{
+	  {
       symbol: "PBFX",
       src: "marketwatch",
       api: "investing/stock/PBFX"
     },
-	{
+	  {
       symbol: "ET",
       src: "marketwatch",
       api: "investing/stock/ET"
     },
-	{
+	  {
       symbol: "CNNE",
       src: "marketwatch",
       api: "investing/stock/CNNE"
+    },
+    {
+      symbol: "SID",
+      src: "marketwatch",
+      api: "investing/stock/SID"
+    },
+    {
+      symbol: "TX",
+      src: "marketwatch",
+      api: "investing/stock/TX"
     },
     {
       symbol: "HRN00",
