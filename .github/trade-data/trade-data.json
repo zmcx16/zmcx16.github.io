@@ -7,7 +7,6 @@
       "ARLP",
       "GOGL",
       "CPLP",
-      "TDS",
       "SID",
       "EDRY",
       "CNNE",
@@ -108,7 +107,7 @@
          "ET":"Energy Transfer LP (ET)",
          "NMM":"Navios Maritime Partners L.P.",
          "SB":"Safe Bulkers, Inc.",
-         "SID": "Companhia Siderúrgica Nacional (SID)",
+         "SID":"Companhia Siderúrgica Nacional (SID)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -444,89 +443,84 @@
       "ET":"1276187",
       "NMM":"1415921",
       "SB":"1434754",
-      "SID": "1049659",
+      "SID":"1049659",
       "STC":"94344"
    },
    "portfolio":{
-      "ARLP": {
-         "cost_p": 7.06,
-         "position_%": 7.808008484475358,
-         "profit_%": 0
+      "ARLP":{
+         "cost_p":7.06,
+         "position_%":7.81858200137475,
+         "profit_%":0
       },
-      "BIO": {
-         "cost_p": 580.11,
-         "position_%": 4.179627208320492,
-         "profit_%": 0
+      "BIO":{
+         "cost_p":580.11,
+         "position_%":4.185287212277737,
+         "profit_%":0
       },
-      "CEIX": {
-         "cost_p": 18.18,
-         "position_%": 7.564375218285573,
-         "profit_%": 0
+      "CEIX":{
+         "cost_p":18.18,
+         "position_%":7.574618809767691,
+         "profit_%":0
       },
-      "CNNE": {
-         "cost_p": 31,
-         "position_%": 3.5736241321938325,
-         "profit_%": 0
+      "CNNE":{
+         "cost_p":31,
+         "position_%":3.578463493630101,
+         "profit_%":0
       },
-      "CPLP": {
-         "cost_p": 12.99,
-         "position_%": 5.147531776705411,
-         "profit_%": 0
+      "CPLP":{
+         "cost_p":12.99,
+         "position_%":5.154502506096826,
+         "profit_%":0
       },
-      "EDRY": {
-         "cost_p": 22.24,
-         "position_%": 3.605325636592326,
-         "profit_%": 0
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":3.6102079278477874,
+         "profit_%":0
       },
-      "ET": {
-         "cost_p": 9.35,
-         "position_%": 7.511275198418095,
-         "profit_%": 0
+      "ET":{
+         "cost_p":9.35,
+         "position_%":7.521446882453067,
+         "profit_%":0
       },
-      "GOGL": {
-         "cost_p": 10.75,
-         "position_%": 5.421677740878748,
-         "profit_%": 0
+      "GOGL":{
+         "cost_p":10.75,
+         "position_%":5.429019715638409,
+         "profit_%":0
       },
-      "GSL": {
-         "cost_p": 15.75,
-         "position_%": 8.510773197891059,
-         "profit_%": 0
+      "GSL":{
+         "cost_p":15.75,
+         "position_%":8.522298390827736,
+         "profit_%":0
       },
-      "KGC": {
-         "cost_p": 7.61,
-         "position_%": 12.555885159138851,
-         "profit_%": 0
+      "KGC":{
+         "cost_p":7.61,
+         "position_%":12.57288819700452,
+         "profit_%":0
       },
-      "NMM": {
-         "cost_p": 30.04,
-         "position_%": 5.789631338522174,
-         "profit_%": 0
+      "NMM":{
+         "cost_p":30.04,
+         "position_%":5.797471591887783,
+         "profit_%":0
       },
-      "PBFX": {
-         "cost_p": 11.7,
-         "position_%": 8.429718215054,
-         "profit_%": 0
+      "PBFX":{
+         "cost_p":11.7,
+         "position_%":8.441133644248424,
+         "profit_%":0
       },
-      "SB": {
-         "cost_p": 4.05,
-         "position_%": 6.062102166383545,
-         "profit_%": 0
+      "SB":{
+         "cost_p":4.05,
+         "position_%":6.070311396666727,
+         "profit_%":0
       },
-      "SID": {
-         "cost_p": 5.56,
-         "position_%": 5.1476038255790435,
-         "profit_%": 0
+      "SID":{
+         "cost_p":5.46,
+         "position_%":9.394981746048495,
+         "profit_%":0
       },
-      "TDS": {
-         "cost_p": 20.56,
-         "position_%": 4.3699082835850875,
-         "profit_%": 0
-      },
-      "TX": {
-         "cost_p": 40.0,
-         "position_%": 4.322932417976411,
-         "profit_%": 0
+      "TX":{
+         "cost_p":40.0,
+         "position_%":4.328786484229961,
+         "profit_%":0
       }
    }
 }

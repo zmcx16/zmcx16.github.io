@@ -122,22 +122,17 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/ARLP"
     },
-    {
-      symbol: "TDS",
-      src: "marketwatch",
-      api: "investing/stock/TDS"
-    },
-	  {
+	{
       symbol: "PBFX",
       src: "marketwatch",
       api: "investing/stock/PBFX"
     },
-	  {
+	{
       symbol: "ET",
       src: "marketwatch",
       api: "investing/stock/ET"
     },
-	  {
+	{
       symbol: "CNNE",
       src: "marketwatch",
       api: "investing/stock/CNNE"
