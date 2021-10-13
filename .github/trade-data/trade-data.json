@@ -14,6 +14,7 @@
       "ET",
       "SB",
       "NMM",
+	  "X",
       "TX"
    ],
    "star_stock_list":[
@@ -108,6 +109,7 @@
          "NMM":"Navios Maritime Partners L.P.",
          "SB":"Safe Bulkers, Inc.",
          "SID":"Companhia Siderúrgica Nacional (SID)",
+		 "X":"United States Steel Corporation",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -444,83 +446,89 @@
       "NMM":"1415921",
       "SB":"1434754",
       "SID":"1049659",
+      "X":"1163302",
       "STC":"94344"
    },
    "portfolio":{
-      "ARLP":{
-         "cost_p":7.06,
-         "position_%":7.81858200137475,
-         "profit_%":0
-      },
-      "BIO":{
-         "cost_p":580.11,
-         "position_%":4.185287212277737,
-         "profit_%":0
-      },
-      "CEIX":{
-         "cost_p":18.18,
-         "position_%":7.574618809767691,
-         "profit_%":0
-      },
-      "CNNE":{
-         "cost_p":31,
-         "position_%":3.578463493630101,
-         "profit_%":0
-      },
-      "CPLP":{
-         "cost_p":12.99,
-         "position_%":5.154502506096826,
-         "profit_%":0
-      },
-      "EDRY":{
-         "cost_p":22.24,
-         "position_%":3.6102079278477874,
-         "profit_%":0
-      },
-      "ET":{
-         "cost_p":9.35,
-         "position_%":7.521446882453067,
-         "profit_%":0
-      },
-      "GOGL":{
-         "cost_p":10.75,
-         "position_%":5.429019715638409,
-         "profit_%":0
-      },
-      "GSL":{
-         "cost_p":15.75,
-         "position_%":8.522298390827736,
-         "profit_%":0
-      },
-      "KGC":{
-         "cost_p":7.61,
-         "position_%":12.57288819700452,
-         "profit_%":0
-      },
-      "NMM":{
-         "cost_p":30.04,
-         "position_%":5.797471591887783,
-         "profit_%":0
-      },
-      "PBFX":{
-         "cost_p":11.7,
-         "position_%":8.441133644248424,
-         "profit_%":0
-      },
-      "SB":{
-         "cost_p":4.05,
-         "position_%":6.070311396666727,
-         "profit_%":0
-      },
-      "SID":{
-         "cost_p":5.46,
-         "position_%":9.394981746048495,
-         "profit_%":0
-      },
-      "TX":{
-         "cost_p":40.0,
-         "position_%":4.328786484229961,
-         "profit_%":0
-      }
-   }
+    "ARLP": {
+        "cost_p": 7.06,
+        "position_%": 7.747359625619467,
+        "profit_%": 0
+    },
+    "BIO": {
+        "cost_p": 580.11,
+        "position_%": 4.147161872104262,
+        "profit_%": 0
+    },
+    "CEIX": {
+        "cost_p": 18.18,
+        "position_%": 7.505618785597394,
+        "profit_%": 0
+    },
+    "CNNE": {
+        "cost_p": 31,
+        "position_%": 3.5458659367425387,
+        "profit_%": 0
+    },
+    "CPLP": {
+        "cost_p": 12.99,
+        "position_%": 5.107548222793763,
+        "profit_%": 0
+    },
+    "EDRY": {
+        "cost_p": 22.24,
+        "position_%": 3.577321199084609,
+        "profit_%": 0
+    },
+    "ET": {
+        "cost_p": 9.35,
+        "position_%": 7.452931221174425,
+        "profit_%": 0
+    },
+    "GOGL": {
+        "cost_p": 10.75,
+        "position_%": 5.379564752820081,
+        "profit_%": 0
+    },
+    "GSL": {
+        "cost_p": 15.75,
+        "position_%": 8.444665600357105,
+        "profit_%": 0
+    },
+    "KGC": {
+        "cost_p": 7.61,
+        "position_%": 12.458357075205353,
+        "profit_%": 0
+    },
+    "NMM": {
+        "cost_p": 30.04,
+        "position_%": 5.74466026368589,
+        "profit_%": 0
+    },
+    "PBFX": {
+        "cost_p": 11.7,
+        "position_%": 4.182120106843518,
+        "profit_%": 0
+    },
+    "SB": {
+        "cost_p": 4.05,
+        "position_%": 6.015014669054359,
+        "profit_%": 0
+    },
+    "SID": {
+        "cost_p": 5.46,
+        "position_%": 9.309399357833671,
+        "profit_%": 0
+    },
+    "TX": {
+        "cost_p": 40.0,
+        "position_%": 4.289353955736941,
+        "profit_%": 0
+    },
+    "X": {
+        "cost_p": 21.82,
+        "position_%": 5.093057355346632,
+        "profit_%": 0
+    }
+}
 }
