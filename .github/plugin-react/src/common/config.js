@@ -83,9 +83,9 @@ const MarketConfig = {
       api: "investing/stock/KGC"
     },
     {
-      symbol: "GSL",
+      symbol: "DAC",
       src: "marketwatch",
-      api: "investing/stock/GSL"
+      api: "investing/stock/DAC"
     },
     {
       symbol: "GOGL",
