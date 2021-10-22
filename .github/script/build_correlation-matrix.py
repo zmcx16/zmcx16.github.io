@@ -98,7 +98,7 @@ def calc_market_correlation(config, market_folder_path, correlation_config_path)
                 
                 data1 = np.array(list(intersection_key_data_val.values())).astype(np.float)
                 data2 = np.array(list(intersection_correlation_key_data_val.values())).astype(np.float)
-				
+
                 if len(data1) > 2 and len(data2) > 2:
                     val, p_value = stats.pearsonr(data1, data2)
                     market_dict[key]['correlations'][market_dict[correlation_key]['symbol']] = {'value': val, 'p_value': p_value}
