@@ -73,11 +73,6 @@ const MonitorConfig = {
 const MarketConfig = {
   data:[
     {
-      symbol: "BIO",
-      src: "marketwatch",
-      api: "investing/stock/BIO"
-    },
-    {
       symbol: "KGC",
       src: "marketwatch",
       api: "investing/stock/KGC"
@@ -123,9 +118,9 @@ const MarketConfig = {
       api: "investing/stock/ARLP"
     },
 	{
-      symbol: "PBFX",
+      symbol: "INTC",
       src: "marketwatch",
-      api: "investing/stock/PBFX"
+      api: "investing/stock/INTC"
     },
 	{
       symbol: "ET",
