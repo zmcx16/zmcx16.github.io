@@ -1,7 +1,7 @@
 {
    "hold_stock_list":[
       "CEIX",
-      "BIO",
+      "INTC",
       "KGC",
       "DAC",
       "ARLP",
@@ -10,7 +10,6 @@
       "SID",
       "EDRY",
       "CNNE",
-      "PBFX",
       "ET",
       "SB",
       "NMM",
@@ -18,7 +17,6 @@
       "TX"
    ],
    "star_stock_list":[
-      "INTC",
       "JNJ",
       "AMZN",
       "FB",
@@ -454,82 +452,77 @@
    "portfolio":{
       "ARLP":{
          "cost_p":7.06,
-         "position_%":7.424490232983794,
-         "profit_%":0
-      },
-      "BIO":{
-         "cost_p":580.11,
-         "position_%":3.9743298752029874,
+         "position_%":7.279541486487864,
          "profit_%":0
       },
       "CEIX":{
          "cost_p":18.18,
-         "position_%":7.192823885687612,
+         "position_%":7.052397974509949,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":31,
-         "position_%":3.398092806710247,
+         "position_%":3.331751646933203,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":4.894692350310758,
+         "position_%":4.7991329922407795,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":12.260212656210363,
+         "position_%":12.02085582489603,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":3.428237178382677,
+         "position_%":3.361307508317288,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":7.142332063136292,
+         "position_%":7.002891906691608,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":5.155372655341655,
+         "position_%":5.054724020800878,
+         "profit_%":0
+      },
+      "INTC":{
+         "cost_p":49.94,
+         "position_%":9.778630628577938,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":11.939157970415083,
+         "position_%":11.706069108052468,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":5.505252896548695,
-         "profit_%":0
-      },
-      "PBFX":{
-         "cost_p":11.7,
-         "position_%":4.007831233720755,
+         "position_%":5.397773530092971,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":5.764340345576448,
+         "position_%":5.65180280006857,
          "profit_%":0
       },
       "SID":{
          "cost_p":5.46,
-         "position_%":8.921432326262401,
+         "position_%":8.747258693856626,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":4.110596137149493,
+         "position_%":4.03034473419339,
          "profit_%":0
       },
       "X":{
          "cost_p":21.82,
-         "position_%":4.8808053863607554,
+         "position_%":4.78551714428043,
          "profit_%":0
       }
    }
