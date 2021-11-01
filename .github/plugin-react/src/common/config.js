@@ -143,11 +143,6 @@ const MarketConfig = {
       api: "investing/stock/TX"
     },
     {
-      symbol: "X",
-      src: "marketwatch",
-      api: "investing/stock/X"
-    },
-    {
       symbol: "HRN00",
       src: "marketwatch",
       api: "investing/future/hrn00"
