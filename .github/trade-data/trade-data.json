@@ -13,7 +13,6 @@
       "ET",
       "SB",
       "NMM",
-      "X",
       "TX"
    ],
    "star_stock_list":[
@@ -452,77 +451,100 @@
    "portfolio":{
       "ARLP":{
          "cost_p":7.06,
-         "position_%":7.279541486487864,
+         "position":3070,
+         "position_%":7.219303935486917,
+         "profit":0,
          "profit_%":0
       },
       "CEIX":{
          "cost_p":18.18,
-         "position_%":7.052397974509949,
+         "position":1155,
+         "position_%":6.994040015638905,
+         "profit":0,
          "profit_%":0
       },
       "CNNE":{
          "cost_p":31,
-         "position_%":3.331751646933203,
+         "position":320,
+         "position_%":3.304181701748172,
+         "profit":0,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":4.7991329922407795,
+         "position":1100,
+         "position_%":4.759420598415285,
+         "profit":0,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":12.02085582489603,
+         "position":465,
+         "position_%":11.921384324229226,
+         "profit":0,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":3.361307508317288,
+         "position":450,
+         "position_%":3.3334929910378737,
+         "profit":0,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":7.002891906691608,
+         "position":2230,
+         "position_%":6.944943606078654,
+         "profit":0,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":5.054724020800878,
+         "position":1400,
+         "position_%":5.012896634204636,
+         "profit":0,
          "profit_%":0
       },
       "INTC":{
          "cost_p":49.94,
-         "position_%":9.778630628577938,
+         "position":583,
+         "position_%":9.697713339720975,
+         "profit":0,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":11.706069108052468,
+         "position":4580,
+         "position_%":11.609202439152263,
+         "profit":0,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":5.397773530092971,
+         "position":535,
+         "position_%":5.353107439664876,
+         "profit":0,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":5.65180280006857,
+         "position":4155,
+         "position_%":5.6050346402815325,
+         "profit":0,
          "profit_%":0
       },
       "SID":{
-         "cost_p":5.46,
-         "position_%":8.747258693856626,
+         "cost_p":4.85,
+         "position":8820,
+         "position_%":14.248284340290478,
+         "profit":0,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":4.03034473419339,
-         "profit_%":0
-      },
-      "X":{
-         "cost_p":21.82,
-         "position_%":4.78551714428043,
+         "position":300,
+         "position_%":3.996993994050208,
+         "profit":0,
          "profit_%":0
       }
    }
