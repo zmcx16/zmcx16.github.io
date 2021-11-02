@@ -113,9 +113,19 @@ const MarketConfig = {
       api: "investing/stock/T"
     },
     {
-      symbol: "ARLP",
+      symbol: "GGB",
       src: "marketwatch",
-      api: "investing/stock/ARLP"
+      api: "investing/stock/GGB"
+    },
+    {
+      symbol: "TDS",
+      src: "marketwatch",
+      api: "investing/stock/TDS"
+    },
+    {
+      symbol: "THO",
+      src: "marketwatch",
+      api: "investing/stock/THO"
     },
 	{
       symbol: "INTC",
