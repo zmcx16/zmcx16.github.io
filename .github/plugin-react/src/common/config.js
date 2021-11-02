@@ -108,9 +108,9 @@ const MarketConfig = {
       api: "investing/stock/SB"
     },	
     {
-      symbol: "CEIX",
+      symbol: "T",
       src: "marketwatch",
-      api: "investing/stock/CEIX"
+      api: "investing/stock/T"
     },
     {
       symbol: "ARLP",
