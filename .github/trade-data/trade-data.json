@@ -4,7 +4,9 @@
       "INTC",
       "KGC",
       "DAC",
-      "ARLP",
+      "GGB",
+      "TDS",
+      "THO",
       "GOGL",
       "CPLP",
       "SID",
@@ -108,6 +110,8 @@
          "SID":"Companhia Siderúrgica Nacional (SID)",
          "X":"United States Steel Corporation",
          "DAC":"Danaos Corporation (DAC)",
+		 "GGB":"Gerdau S.A. (GGB)",
+		 "THO":"Thor Industries, Inc. (THO)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -446,78 +450,90 @@
       "SID":"1049659",
       "X":"1163302",
       "DAC":"1369241",
+      "GGB":"1073404",
+      "THO":"730263",
       "STC":"94344"
    },
    "portfolio":{
-      "ARLP":{
-         "cost_p":7.06,
-         "position_%":7.062437115922022,
-         "profit_%":0
-      },
-      "CNNE":{
-         "cost_p":31,
-         "position_%":3.232385794628936,
-         "profit_%":0
-      },
-      "CPLP":{
-         "cost_p":12.99,
-         "position_%":4.656004094702909,
-         "profit_%":0
-      },
-      "DAC":{
-         "cost_p":76.97,
-         "position_%":11.662346934965118,
-         "profit_%":0
-      },
-      "EDRY":{
-         "cost_p":22.24,
-         "position_%":3.261060184742579,
-         "profit_%":0
-      },
-      "ET":{
-         "cost_p":9.35,
-         "position_%":6.794038307551474,
-         "profit_%":0
-      },
-      "GOGL":{
-         "cost_p":10.75,
-         "position_%":4.903972400117488,
-         "profit_%":0
-      },
-      "INTC":{
-         "cost_p":49.94,
-         "position_%":9.48699365507433,
-         "profit_%":0
-      },
-      "KGC":{
-         "cost_p":7.61,
-         "position_%":11.356948387987702,
-         "profit_%":0
-      },
-      "NMM":{
-         "cost_p":30.04,
-         "position_%":5.236790832641076,
-         "profit_%":0
-      },
-      "SB":{
-         "cost_p":4.05,
-         "position_%":5.483243957214422,
-         "profit_%":0
-      },
-      "SID":{
-         "cost_p":4.85,
-         "position_%":13.938686203310683,
-         "profit_%":0
-      },
-      "T":{
-         "cost_p":25.22,
-         "position_%":9.014948024735313,
-         "profit_%":0
-      },
-      "TX":{
-         "cost_p":40.0,
-         "position_%":3.91014410640597,
-         "profit_%":0
-      }
-   }
+    "CNNE": {
+        "cost_p": 31,
+        "position_%": 3.101968683812486,
+        "profit_%": 0
+    },
+    "CPLP": {
+        "cost_p": 12.99,
+        "position_%": 4.468148238205304,
+        "profit_%": 0
+    },
+    "DAC": {
+        "cost_p": 76.97,
+        "position_%": 11.191806074674082,
+        "profit_%": 0
+    },
+    "EDRY": {
+        "cost_p": 22.24,
+        "position_%": 3.129486147943081,
+        "profit_%": 0
+    },
+    "ET": {
+        "cost_p": 9.35,
+        "position_%": 6.519919157442766,
+        "profit_%": 0
+    },
+    "GGB": {
+        "cost_p": 4.59,
+        "position_%": 2.2175167358558907,
+        "profit_%": 0
+    },
+    "GOGL": {
+        "cost_p": 10.75,
+        "position_%": 4.706111763243741,
+        "profit_%": 0
+    },
+    "INTC": {
+        "cost_p": 49.94,
+        "position_%": 9.104221801267562,
+        "profit_%": 0
+    },
+    "KGC": {
+        "cost_p": 7.61,
+        "position_%": 10.898729446760447,
+        "profit_%": 0
+    },
+    "NMM": {
+        "cost_p": 30.04,
+        "position_%": 5.025501966232257,
+        "profit_%": 0
+    },
+    "SB": {
+        "cost_p": 4.05,
+        "position_%": 5.262011443450158,
+        "profit_%": 0
+    },
+    "SID": {
+        "cost_p": 4.85,
+        "position_%": 13.376301853573258,
+        "profit_%": 0
+    },
+    "T": {
+        "cost_p": 25.22,
+        "position_%": 8.651221801986768,
+        "profit_%": 0
+    },
+    "TDS": {
+        "cost_p": 19.46,
+        "position_%": 5.324472960042047,
+        "profit_%": 0
+    },
+    "THO": {
+        "cost_p": 104.58,
+        "position_%": 3.270200453156349,
+        "profit_%": 0
+    },
+    "TX": {
+        "cost_p": 40.0,
+        "position_%": 3.752381472353814,
+        "profit_%": 0
+    }
+}
 }
