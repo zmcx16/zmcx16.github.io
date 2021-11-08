@@ -118,11 +118,6 @@ const MarketConfig = {
       api: "investing/stock/GGB"
     },
     {
-      symbol: "TDS",
-      src: "marketwatch",
-      api: "investing/stock/TDS"
-    },
-    {
       symbol: "THO",
       src: "marketwatch",
       api: "investing/stock/THO"
@@ -138,9 +133,9 @@ const MarketConfig = {
       api: "investing/stock/ET"
     },
 	{
-      symbol: "CNNE",
+      symbol: "LDI",
       src: "marketwatch",
-      api: "investing/stock/CNNE"
+      api: "investing/stock/LDI"
     },
     {
       symbol: "SID",
