@@ -5,13 +5,12 @@
       "KGC",
       "DAC",
       "GGB",
-      "TDS",
+      "LDI",
       "THO",
       "GOGL",
       "CPLP",
       "SID",
       "EDRY",
-      "CNNE",
       "ET",
       "SB",
       "NMM",
@@ -110,8 +109,8 @@
          "SID":"Companhia Siderúrgica Nacional (SID)",
          "X":"United States Steel Corporation",
          "DAC":"Danaos Corporation (DAC)",
-		 "GGB":"Gerdau S.A. (GGB)",
-		 "THO":"Thor Industries, Inc. (THO)",
+         "GGB":"Gerdau S.A. (GGB)",
+         "THO":"Thor Industries, Inc. (THO)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -455,85 +454,80 @@
       "STC":"94344"
    },
    "portfolio":{
-    "CNNE": {
-        "cost_p": 31,
-        "position_%": 3.101968683812486,
-        "profit_%": 0
-    },
-    "CPLP": {
-        "cost_p": 12.99,
-        "position_%": 4.468148238205304,
-        "profit_%": 0
-    },
-    "DAC": {
-        "cost_p": 76.97,
-        "position_%": 11.191806074674082,
-        "profit_%": 0
-    },
-    "EDRY": {
-        "cost_p": 22.24,
-        "position_%": 3.129486147943081,
-        "profit_%": 0
-    },
-    "ET": {
-        "cost_p": 9.35,
-        "position_%": 6.519919157442766,
-        "profit_%": 0
-    },
-    "GGB": {
-        "cost_p": 4.59,
-        "position_%": 2.2175167358558907,
-        "profit_%": 0
-    },
-    "GOGL": {
-        "cost_p": 10.75,
-        "position_%": 4.706111763243741,
-        "profit_%": 0
-    },
-    "INTC": {
-        "cost_p": 49.94,
-        "position_%": 9.104221801267562,
-        "profit_%": 0
-    },
-    "KGC": {
-        "cost_p": 7.61,
-        "position_%": 10.898729446760447,
-        "profit_%": 0
-    },
-    "NMM": {
-        "cost_p": 30.04,
-        "position_%": 5.025501966232257,
-        "profit_%": 0
-    },
-    "SB": {
-        "cost_p": 4.05,
-        "position_%": 5.262011443450158,
-        "profit_%": 0
-    },
-    "SID": {
-        "cost_p": 4.85,
-        "position_%": 13.376301853573258,
-        "profit_%": 0
-    },
-    "T": {
-        "cost_p": 25.22,
-        "position_%": 8.651221801986768,
-        "profit_%": 0
-    },
-    "TDS": {
-        "cost_p": 19.46,
-        "position_%": 5.324472960042047,
-        "profit_%": 0
-    },
-    "THO": {
-        "cost_p": 104.58,
-        "position_%": 3.270200453156349,
-        "profit_%": 0
-    },
-    "TX": {
-        "cost_p": 40.0,
-        "position_%": 3.752381472353814,
-        "profit_%": 0
-    }
-}
+      "CPLP":{
+         "cost_p":12.99,
+         "position_%":4.44402478801078,
+         "profit_%":0
+      },
+      "DAC":{
+         "cost_p":76.97,
+         "position_%":11.131381719429857,
+         "profit_%":0
+      },
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":3.1125901097635866,
+         "profit_%":0
+      },
+      "ET":{
+         "cost_p":9.35,
+         "position_%":6.484718233775546,
+         "profit_%":0
+      },
+      "GGB":{
+         "cost_p":4.45,
+         "position_%":4.567184828325167,
+         "profit_%":0
+      },
+      "GOGL":{
+         "cost_p":10.75,
+         "position_%":4.680703552352316,
+         "profit_%":0
+      },
+      "INTC":{
+         "cost_p":49.94,
+         "position_%":9.055068275136792,
+         "profit_%":0
+      },
+      "KGC":{
+         "cost_p":7.61,
+         "position_%":10.839887406842335,
+         "profit_%":0
+      },
+      "LDI":{
+         "cost_p":7.03,
+         "position_%":6.559205177349524,
+         "profit_%":0
+      },
+      "NMM":{
+         "cost_p":30.04,
+         "position_%":4.998369373506645,
+         "profit_%":0
+      },
+      "SB":{
+         "cost_p":4.05,
+         "position_%":5.233601940405095,
+         "profit_%":0
+      },
+      "SID":{
+         "cost_p":4.85,
+         "position_%":13.304083445779069,
+         "profit_%":0
+      },
+      "T":{
+         "cost_p":25.22,
+         "position_%":8.604514014524051,
+         "profit_%":0
+      },
+      "THO":{
+         "cost_p":104.58,
+         "position_%":3.252544701029935,
+         "profit_%":0
+      },
+      "TX":{
+         "cost_p":40.0,
+         "position_%":3.732122433769288,
+         "profit_%":0
+      }
+   }
 }
