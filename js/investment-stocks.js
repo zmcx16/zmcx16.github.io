@@ -281,7 +281,7 @@ function buildTable(data){
 
 function buildSECTable(data) {
 
-  var ENABLE_SEC = ["10-Q", "6-K", "10-K", "20-F", "8-K", "6-K", "11-K", "13F"];
+  var ENABLE_SEC = ["10-Q", "6-K", "10-K", "20-F", "8-K", "6-K", "11-K", "13F", "3", "4", "5"];
 
   var sec_list = [];
   data.forEach((stock) => {
