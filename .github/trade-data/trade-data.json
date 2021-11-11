@@ -1,6 +1,6 @@
 {
    "hold_stock_list":[
-      "T",
+      "VALE",
       "INTC",
       "KGC",
       "DAC",
@@ -111,6 +111,7 @@
          "DAC":"Danaos Corporation (DAC)",
          "GGB":"Gerdau S.A. (GGB)",
          "THO":"Thor Industries, Inc. (THO)",
+         "VALE":"Vale S.A.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -451,82 +452,83 @@
       "DAC":"1369241",
       "GGB":"1073404",
       "THO":"730263",
+      "VALE":"917851",
       "STC":"94344"
    },
    "portfolio":{
       "CPLP":{
          "cost_p":12.99,
-         "position_%":4.44402478801078,
+         "position_%":4.447238367370211,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":11.131381719429857,
+         "position_%":11.139431084643125,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":3.1125901097635866,
+         "position_%":3.11484089723851,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":6.484718233775546,
+         "position_%":6.489407486797718,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":4.567184828325167,
+         "position_%":4.570487467620656,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":4.680703552352316,
+         "position_%":4.684088279720182,
          "profit_%":0
       },
       "INTC":{
          "cost_p":49.94,
-         "position_%":9.055068275136792,
+         "position_%":9.061616209024498,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":10.839887406842335,
+         "position_%":10.847725985628658,
          "profit_%":0
       },
       "LDI":{
          "cost_p":7.03,
-         "position_%":6.559205177349524,
+         "position_%":6.563948293641106,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":4.998369373506645,
+         "position_%":5.001983812537869,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":5.233601940405095,
+         "position_%":5.237386481665203,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.85,
-         "position_%":13.304083445779069,
-         "profit_%":0
-      },
-      "T":{
-         "cost_p":25.22,
-         "position_%":8.604514014524051,
+         "position_%":13.313703942962807,
          "profit_%":0
       },
       "THO":{
          "cost_p":104.58,
-         "position_%":3.252544701029935,
+         "position_%":3.2548966929776517,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":3.732122433769288,
+         "position_%":3.7348212197104442,
+         "profit_%":0
+      },
+      "VALE":{
+         "cost_p":12.76,
+         "position_%":8.53842377846136,
          "profit_%":0
       }
    }

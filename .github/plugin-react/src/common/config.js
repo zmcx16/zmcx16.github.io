@@ -108,9 +108,9 @@ const MarketConfig = {
       api: "investing/stock/SB"
     },	
     {
-      symbol: "T",
+      symbol: "VALE",
       src: "marketwatch",
-      api: "investing/stock/T"
+      api: "investing/stock/VALE"
     },
     {
       symbol: "GGB",
