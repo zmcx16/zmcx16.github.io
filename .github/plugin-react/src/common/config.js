@@ -230,11 +230,677 @@ const MarketConfig = {
   ]
 }
 
+const ForecastConfig = {
+  VALE: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'VALE',
+        file_path: 'stock/historical-quotes/VALE.json',
+        type: 'stock'
+      },
+      feature_data: [] 
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'VALE',
+        file_path: 'stock/historical-quotes/VALE.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'VALE',
+        file_path: 'stock/historical-quotes/VALE.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  INTC: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  KGC: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'KGC',
+        file_path: 'stock/historical-quotes/KGC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'KGC',
+        file_path: 'stock/historical-quotes/KGC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'KGC',
+        file_path: 'stock/historical-quotes/KGC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  DAC: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DAC',
+        file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DAC',
+        file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DAC',
+        file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  GGB: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GGB',
+        file_path: 'stock/historical-quotes/GGB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GGB',
+        file_path: 'stock/historical-quotes/GGB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GGB',
+        file_path: 'stock/historical-quotes/GGB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  LDI: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'LDI',
+        file_path: 'stock/historical-quotes/LDI.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'LDI',
+        file_path: 'stock/historical-quotes/LDI.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'LDI',
+        file_path: 'stock/historical-quotes/LDI.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  THO: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'THO',
+        file_path: 'stock/historical-quotes/THO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'THO',
+        file_path: 'stock/historical-quotes/THO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'THO',
+        file_path: 'stock/historical-quotes/THO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  GOGL: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GOGL',
+        file_path: 'stock/historical-quotes/GOGL.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GOGL',
+        file_path: 'stock/historical-quotes/GOGL.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GOGL',
+        file_path: 'stock/historical-quotes/GOGL.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  CPLP: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'CPLP',
+        file_path: 'stock/historical-quotes/CPLP.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'CPLP',
+        file_path: 'stock/historical-quotes/CPLP.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'CPLP',
+        file_path: 'stock/historical-quotes/CPLP.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  SID: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SID',
+        file_path: 'stock/historical-quotes/SID.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SID',
+        file_path: 'stock/historical-quotes/SID.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SID',
+        file_path: 'stock/historical-quotes/SID.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  EDRY: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'EDRY',
+        file_path: 'stock/historical-quotes/EDRY.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'EDRY',
+        file_path: 'stock/historical-quotes/EDRY.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'EDRY',
+        file_path: 'stock/historical-quotes/EDRY.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  ET: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ET',
+        file_path: 'stock/historical-quotes/ET.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ET',
+        file_path: 'stock/historical-quotes/ET.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ET',
+        file_path: 'stock/historical-quotes/ET.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  SB: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SB',
+        file_path: 'stock/historical-quotes/SB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SB',
+        file_path: 'stock/historical-quotes/SB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SB',
+        file_path: 'stock/historical-quotes/SB.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  NMM: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NMM',
+        file_path: 'stock/historical-quotes/NMM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NMM',
+        file_path: 'stock/historical-quotes/NMM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NMM',
+        file_path: 'stock/historical-quotes/NMM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  TX: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'TX',
+        file_path: 'stock/historical-quotes/TX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'TX',
+        file_path: 'stock/historical-quotes/TX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'TX',
+        file_path: 'stock/historical-quotes/TX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+}
+
 module.exports = {
   getMonitorConfig: function () {
     return MonitorConfig
   },
   getMarketConfig: function () {
     return MarketConfig
+  },
+  getForecastConfig: function () {
+    return ForecastConfig
   },
 }
