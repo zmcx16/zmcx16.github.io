@@ -231,6 +231,7 @@ const MarketConfig = {
 }
 
 const ForecastConfig = {
+// hold stocks
   VALE: [
     {
       type: 'stock_fbprophet_empty',
@@ -891,6 +892,8 @@ const ForecastConfig = {
       feature_data: []
     },
   ],
+// watch market
+// watch stocks
 }
 
 module.exports = {

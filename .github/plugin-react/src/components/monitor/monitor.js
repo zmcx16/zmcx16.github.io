@@ -2,40 +2,17 @@ import React, { useState, useEffect, useRef, createRef } from 'react'
 import Grid from '@material-ui/core/Grid'
 import TextField from '@material-ui/core/TextField'
 import shortid from 'shortid'
-import useFetch from 'use-http'
 import Cookies from 'universal-cookie'
 
 import { MonitorURL, COOKIE_KEY_API_TOKEN, COOKIE_KEY_REFRESH_TIME } from '../../common/def'
 import { isPositiveInteger } from '../../common/utils'
+import { QueryData } from '../../common/reactUtils'
 
 import MonitorSwitch from './monitorSwitch'
 import MonitorTable from './monitorTable'
 
 import commonStyle from '../common.module.scss'
 import monitorStyle from './monitor.module.scss'
-
-const QueryData = ({ serverUrl, queryDataRef }) => {
-  const { get, post, response, error } = useFetch(serverUrl, { cachePolicy: 'no-cache' })
-
-  queryDataRef.current = {
-    doGet: async (api) => {
-      const resp_data = await get(api)
-      if (error) {
-        console.error(error)
-      }
-      return { resp: resp_data, ok: response.ok, err: error}
-    },
-    doPost: async (api, body) => {
-      const resp_data = await post(api, body)
-      if (error) {
-        console.error(error)
-      }
-      return { resp: resp_data, ok: response.ok, err: error }
-    },
-  }
-
-  return <></>
-}
 
 const Monitor = () => {
 
