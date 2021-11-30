@@ -1,0 +1,39 @@
+.container {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.controlPannel {
+  border: 1px solid silver;
+  border-radius: 4px;
+  padding: 20px 40px 20px 10px;
+  margin: 0 1px 10px 1px;
+}
+
+.valueText {
+  width: 100%;
+}
+
+.controlToggleContainer {
+  margin-right: 16px;
+}
+
+.forecastBtn {
+  top: 1px;
+  height: 38px;
+}
+
+.forecastTable{
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.forecastTableSelect {
+  padding-left:5px;
+}
+
+.forecastTableLastUpdateTime {
+  padding-right: 10px;
+}
