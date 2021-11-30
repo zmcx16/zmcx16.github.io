@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import Link from '@material-ui/core/Link'
+import useFetch from 'use-http'
 import { convert2KMBTString } from '../common/utils'
 
 export function useInterval(callback, delay) {
@@ -51,7 +52,7 @@ export function colorPosGreenNegRedPercentField(field, headerName, width, colSho
   }
 }
 
-export function percentField(field, headerName, width, colShow){
+export function PercentField(field, headerName, width, colShow){
   return {
     field: field,
     headerName: headerName,
@@ -107,4 +108,42 @@ export function SymbolNameField(field, headerName, width, colShow) {
     ),
     colShow: colShow
   }
+}
+
+
+export function PureFieldWithValueCheck(field, headerName, width, valueFixed, colShow) {
+  return {
+    field: field,
+    headerName: headerName,
+    width: width,
+    renderCell: (params) => (
+      params.value === "-" || params.value === -Number.MAX_VALUE || params.value === Number.MAX_VALUE || params.value === null || params.value === undefined || params.value === "Infinity" || params.value === 'NaN' ?
+        <span>-</span> :
+        <span>{params.value.toFixed(valueFixed)}</span>
+    ),
+    colShow: colShow
+  }
+}
+
+export const QueryData = ({ serverUrl, queryDataRef }) => {
+  const { get, post, response, error } = useFetch(serverUrl, { cachePolicy: 'no-cache' })
+
+  queryDataRef.current = {
+    doGet: async (api) => {
+      const resp_data = await get(api)
+      if (error) {
+        console.error(error)
+      }
+      return { resp: resp_data, ok: response.ok, err: error }
+    },
+    doPost: async (api, body) => {
+      const resp_data = await post(api, body)
+      if (error) {
+        console.error(error)
+      }
+      return { resp: resp_data, ok: response.ok, err: error }
+    },
+  }
+
+  return <></>
 }
