@@ -125,6 +125,17 @@ export function PureFieldWithValueCheck(field, headerName, width, valueFixed, co
   }
 }
 
+
+export const GetDataByFetchObj = async (url, fetchObj) => {
+  const resp_data = await fetchObj.get(url)
+  if (fetchObj.response.ok && resp_data) {
+    return resp_data
+  }
+  else {
+    return null
+  }
+}
+
 export const QueryData = ({ serverUrl, queryDataRef }) => {
   const { get, post, response, error } = useFetch(serverUrl, { cachePolicy: 'no-cache' })
 

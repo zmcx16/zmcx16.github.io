@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import InputLabel from '@material-ui/core/InputLabel'
@@ -9,27 +9,20 @@ import useFetch from 'use-http'
 
 import ForecastTable from './forecastTable'
 import { DAF_Def } from '../../common/def'
+import { GetDataByFetchObj } from '../../common/reactUtils'
 
 import commonStyle from '../common.module.scss'
 import forecastStyle from './forecast.module.scss'
 
 const Forecast = () => {
+
   const fetchStockData = useFetch({ cachePolicy: 'no-cache' })
   const fetchForecastData = useFetch({ cachePolicy: 'no-cache' })
 
-  const getData = async (url, fetchObj) => {
-    const resp_data = await fetchObj.get(url)
-    if (fetchObj.response.ok && resp_data) {
-      return resp_data
-    }
-    else {
-      return null
-    }
-  }
   const refreshForecastData = (forecast_name) => {
     Promise.all([
-      getData("/plugin-react/stock-data/stat.json", fetchStockData),
-      getData('/plugin-react/forecast-data/' + forecast_name + '.json', fetchForecastData),
+      GetDataByFetchObj("/stock-data/stat.json", fetchStockData),
+      GetDataByFetchObj('/forecast-data/' + forecast_name + '.json', fetchForecastData),
     ]).then((allResponses) => {
       console.log(allResponses)
       if (allResponses.length == 2 && allResponses[0] !== null && allResponses[1] !== null) {
@@ -56,6 +49,7 @@ const Forecast = () => {
             PerfHalfY: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf Half Y'] !== '-' ? stockInfo['Perf Half Y'] : -Number.MAX_VALUE,
             PerfYear: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf Year'] !== '-' ? stockInfo['Perf Year'] : -Number.MAX_VALUE,
             PerfYTD: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf YTD'] !== '-' ? stockInfo['Perf YTD'] : -Number.MAX_VALUE,
+            ChartUrl: '/forecast-data/' + forecast_name + '/' + symbol +'.json',
           }
 
           if (o.Close == -Number.MAX_VALUE) {
@@ -100,10 +94,11 @@ const Forecast = () => {
           PerfHalfY: { show: true, text: 'Perf Half Y' },
           PerfYear: { show: true, text: 'Perf Year' },
           PerfYTD: { show: true, text: 'Perf YTD' },
+          Chart: { show: true, text: 'Chart' },
         }
 
         setLastUpdateTime('Last Update Time: ' + new Date(update_time).toLocaleString('en-US'))
-        setForecastTable(<ForecastTable tableColList={tableColList} data={output} />)
+        setForecastTable(<ForecastTable tableColList={tableColList} data={output}/>)
       } else {
         alert("Get some data failed...")
         console.error("refreshForecastData some data failed")
@@ -131,7 +126,7 @@ const Forecast = () => {
 
   return (
     <div className={commonStyle.defaultFont + ' ' + forecastStyle.container}>
-      <div key={shortid.generate()} className={forecastStyle.forecastTable} >
+      <div key={shortid.generate()} >
         <Grid container spacing={3}>
           <Grid item xs={6}>
             <FormControl size="small" variant="outlined" className={forecastStyle.argNodesSelect}>
