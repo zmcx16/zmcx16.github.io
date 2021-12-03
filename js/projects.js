@@ -55,6 +55,7 @@ oss_projects['PhotoMosaic-Artifact'] = {
   msg: 'Photo Mosaic Artifact...中二病?'
 };
 oss_projects['stock-forecast'] = {
+  blog_post: 'https://blog.zmcx16.moe/search/label/stock-forecast',
   featured: true,
   position: 8,
   background: 'stock-forecast_885x450.png',
