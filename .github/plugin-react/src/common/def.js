@@ -21,4 +21,8 @@ export const DAF_Def = [
     name: 'stock_fbprophet_v',
     display_name: 'Stock-FBProphet-Volume'
   },
+  {
+    name: 'market_fbprophet_empty',
+    display_name: 'Market-FBProphet-Empty'
+  },
 ]

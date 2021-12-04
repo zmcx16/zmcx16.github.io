@@ -33,6 +33,7 @@ jobs:
         python ./.github/script/build_trade-data.py
     - name: Commit and push if data changed
       run: |-
+        git pull
         git diff
         git config --global user.email "zmcx16-bot@zmcx16.moe"
         git config --global user.name "zmcx16-bot"
