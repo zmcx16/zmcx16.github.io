@@ -76,7 +76,7 @@ const ForecastTableObj = ({ tableColList, data }) => {
                 if (resp_data.length > 0) {
                   let stockData = []
                   let trendData = []
-                  let info = { symbol: params.row['Symbol'] !== null ? params.row['Symbol'] : params.row['Market'] }
+                  let info = { symbol: params.row['Symbol'] !== undefined ? params.row['Symbol'] : params.row['Market'] }
                   // {"Date":"12/26/2021","Close":"-","Predict":16.228974118231985,"Predict_Upper":17.094573558273776,"Predict_Lower":15.283983613772198,"Trend":2.7869199587015787,"Trend_Upper":2.8005154366707754,"Trend_Lower":2.7728914911786458}
                   resp_data.forEach((value, index) => {
                     let s = { "Date": value.Date, "PredictUpperAndLower": [value.Predict_Lower.toFixed(3), value.Predict_Upper.toFixed(3)], "Predict": value.Predict.toFixed(3) }
