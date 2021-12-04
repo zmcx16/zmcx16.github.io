@@ -14,14 +14,38 @@ import { GetDataByFetchObj } from '../../common/reactUtils'
 import commonStyle from '../common.module.scss'
 import forecastStyle from './forecast.module.scss'
 
+const calcFCST = (o) => {
+  if (o.Close == -Number.MAX_VALUE) {
+    o.FCST = -Number.MAX_VALUE
+    o.FCST_Upper30 = -Number.MAX_VALUE
+    o.FCST_Lower30 = -Number.MAX_VALUE
+  } else {
+    if (o.FCST == -Number.MAX_VALUE) {
+      o.FCST = -Number.MAX_VALUE
+    } else {
+      o.FCST = (o.FCST - o.Close) / o.Close
+    }
+    if (o.FCST_Upper30 == -Number.MAX_VALUE) {
+      o.FCST_Upper30 = -Number.MAX_VALUE
+    } else {
+      o.FCST_Upper30 = (o.FCST_Upper30 - o.Close) / o.Close
+    }
+    if (o.FCST_Lower30 == -Number.MAX_VALUE) {
+      o.FCST_Lower30 = -Number.MAX_VALUE
+    } else {
+      o.FCST_Lower30 = (o.FCST_Lower30 - o.Close) / o.Close
+    }
+  }
+}
+
 const Forecast = () => {
 
-  const fetchStockData = useFetch({ cachePolicy: 'no-cache' })
+  const fetchStatData = useFetch({ cachePolicy: 'no-cache' })
   const fetchForecastData = useFetch({ cachePolicy: 'no-cache' })
 
-  const refreshForecastData = (forecast_name) => {
+  const renderStockData = (forecast_name) => {
     Promise.all([
-      GetDataByFetchObj("/stock-data/stat.json", fetchStockData),
+      GetDataByFetchObj("/stock-data/stat.json", fetchStatData),
       GetDataByFetchObj('/forecast-data/' + forecast_name + '.json', fetchForecastData),
     ]).then((allResponses) => {
       console.log(allResponses)
@@ -49,38 +73,17 @@ const Forecast = () => {
             PerfHalfY: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf Half Y'] !== '-' ? stockInfo['Perf Half Y'] : -Number.MAX_VALUE,
             PerfYear: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf Year'] !== '-' ? stockInfo['Perf Year'] : -Number.MAX_VALUE,
             PerfYTD: stockInfo !== undefined && stockInfo !== null && stockInfo['Perf YTD'] !== '-' ? stockInfo['Perf YTD'] : -Number.MAX_VALUE,
-            ChartUrl: '/forecast-data/' + forecast_name + '/' + symbol +'.json',
+            ChartUrl: '/forecast-data/' + forecast_name + '/' + symbol + '.json',
           }
 
-          if (o.Close == -Number.MAX_VALUE) {
-            o.FCST = -Number.MAX_VALUE
-            o.FCST_Upper30 = -Number.MAX_VALUE
-            o.FCST_Lower30 = -Number.MAX_VALUE
-          } else {
-            if (o.FCST == -Number.MAX_VALUE) {
-              o.FCST = -Number.MAX_VALUE
-            } else {
-              o.FCST = (o.FCST - o.Close) / o.Close
-            }
-            if (o.FCST_Upper30 == -Number.MAX_VALUE) {
-              o.FCST_Upper30 = -Number.MAX_VALUE
-            } else {
-              o.FCST_Upper30 = (o.FCST_Upper30 - o.Close) / o.Close
-            }
-            if (o.FCST_Lower30 == -Number.MAX_VALUE) {
-              o.FCST_Lower30 = -Number.MAX_VALUE
-            } else {
-              o.FCST_Lower30 = (o.FCST_Lower30 - o.Close) / o.Close
-            }
-          }
-
+          calcFCST(o)
           return o
         })
 
         const tableColList = {
           Symbol: { show: true, text: 'Symbol' },
           Close: { show: true, text: 'Price' },
-          FCST: { show: true, text: 'FCST' },
+          FCST: { show: true, text: 'FCST_30' },
           FCST_Upper30: { show: true, text: 'FCST_Upper30' },
           FCST_Lower30: { show: true, text: 'FCST_Lower30' },
           PE: { show: true, text: 'P/E' },
@@ -98,7 +101,7 @@ const Forecast = () => {
         }
 
         setLastUpdateTime('Last Update Time: ' + new Date(update_time).toLocaleString('en-US'))
-        setForecastTable(<ForecastTable tableColList={tableColList} data={output}/>)
+        setForecastTable(<ForecastTable tableColList={tableColList} data={output} />)
       } else {
         alert("Get some data failed...")
         console.error("refreshForecastData some data failed")
@@ -109,8 +112,86 @@ const Forecast = () => {
     })
   }
 
-  const [forecastTable, setForecastTable] = useState()
+  const renderMarketData = (forecast_name) => {
+    Promise.all([
+      GetDataByFetchObj("/indusrty-table.json", fetchStatData),
+      GetDataByFetchObj('/forecast-data/' + forecast_name + '.json', fetchForecastData),
+    ]).then((allResponses) => {
+      console.log(allResponses)
+      if (allResponses.length == 2 && allResponses[0] !== null && allResponses[1] !== null) {
+        let update_time = allResponses[1]["update_time"]
+        let forecast_data = allResponses[1]["data"]
+        let output = Object.keys(forecast_data).map((symbol, index) => {
 
+          // get all market dict 
+          let all_market_data = {}
+          allResponses[0]["data"].forEach((industry) => {
+            industry["Market"].forEach((market) => {
+              // {"Perf Week":-0.015445719329214538,"Perf Month":-0.04125483455092398,"Perf Quart":-0.1634795650543683,"Perf Half":-0.22989299275112188,"Perf Year":-0.12544100352802834,"Perf YTD":-0.1415929203539823,"src":"marketwatch","symbol":"WSJIXUSPAP","dataUrl":"https://www.marketwatch.com/investing/index/wsjixuspap?countrycode=xx"}
+              let key_name = (market["src"] + '_' + market["symbol"]).match(/\w+/gi).join('_')
+              all_market_data[key_name] = market
+            })
+          })
+
+          let forecastInfo = forecast_data[symbol]
+          let marketInfo = all_market_data[symbol]
+          let o = {
+            id: index,
+            Market: symbol,
+            Close: marketInfo !== undefined && marketInfo !== null && marketInfo['Close'] !== '-' ? marketInfo['Close'] : -Number.MAX_VALUE,
+            FCST: forecastInfo['FCST'] !== undefined && forecastInfo !== null && forecastInfo['FCST'] !== '-' ? forecastInfo['FCST'] : -Number.MAX_VALUE,
+            FCST_Upper30: forecastInfo['FCST_Upper30'] !== undefined && forecastInfo !== null && forecastInfo['FCST_Upper30'] !== '-' ? forecastInfo['FCST_Upper30'] : -Number.MAX_VALUE,
+            FCST_Lower30: forecastInfo['FCST_Lower30'] !== undefined && forecastInfo !== null && forecastInfo['FCST_Lower30'] !== '-' ? forecastInfo['FCST_Lower30'] : -Number.MAX_VALUE,
+            PerfWeek: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Week'] !== '-' ? marketInfo['Perf Week'] : -Number.MAX_VALUE,
+            PerfMonth: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Month'] !== '-' ? marketInfo['Perf Month'] : -Number.MAX_VALUE,
+            PerfQuarter: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Quart'] !== '-' ? marketInfo['Perf Quart'] : -Number.MAX_VALUE,
+            PerfHalfY: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Half'] !== '-' ? marketInfo['Perf Half'] : -Number.MAX_VALUE,
+            PerfYear: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Year'] !== '-' ? marketInfo['Perf Year'] : -Number.MAX_VALUE,
+            PerfYTD: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf YTD'] !== '-' ? marketInfo['Perf YTD'] : -Number.MAX_VALUE,
+            MarketUrl: marketInfo["dataUrl"],
+            ChartUrl: '/forecast-data/' + forecast_name + '/' + symbol + '.json',
+          }
+
+          calcFCST(o)
+          return o
+        })
+
+        const tableColList = {
+          Market: { show: true, text: 'Market' },
+          Close: { show: true, text: 'Price' },
+          FCST: { show: true, text: 'FCST_30' },
+          FCST_Upper30: { show: true, text: 'FCST_Upper30' },
+          FCST_Lower30: { show: true, text: 'FCST_Lower30' },
+          PerfWeek: { show: true, text: 'Perf Week' },
+          PerfMonth: { show: true, text: 'Perf Month' },
+          PerfQuarter: { show: true, text: 'Perf Quarter' },
+          PerfHalfY: { show: true, text: 'Perf Half Y' },
+          PerfYear: { show: true, text: 'Perf Year' },
+          PerfYTD: { show: true, text: 'Perf YTD' },
+          Chart: { show: true, text: 'Chart' },
+        }
+
+        setLastUpdateTime('Last Update Time: ' + new Date(update_time).toLocaleString('en-US'))
+        setForecastTable(<ForecastTable tableColList={tableColList} data={output} />)
+      } else {
+        alert("Get some data failed...")
+        console.error("refreshForecastData some data failed")
+      }
+    }).catch(() => {
+      alert("Get data failed...")
+      console.error("refreshForecastData failed")
+    })
+  }
+
+  const refreshForecastData = (forecast_name) => {
+    if (forecast_name.startsWith('stock')){
+      renderStockData(forecast_name)
+    } else if (forecast_name.startsWith('market')) {
+      renderMarketData(forecast_name)
+    }
+  }
+
+  const [forecastTable, setForecastTable] = useState()
   const [lastUpdateTime, setLastUpdateTime] = useState('Last Update Time: None')
   const [arg, setArg] = useState(0)
 

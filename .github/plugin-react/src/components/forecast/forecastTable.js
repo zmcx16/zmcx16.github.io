@@ -4,6 +4,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Checkbox from '@material-ui/core/Checkbox'
 import IconButton from '@material-ui/core/IconButton'
 import BarChartSharpIcon from '@material-ui/icons/BarChartSharp'
+import Link from '@material-ui/core/Link'
 import useFetch from 'use-http'
 
 import ForecastChart from './forecastChart'
@@ -34,8 +35,24 @@ const ForecastTableObj = ({ tableColList, data }) => {
     return Object.keys(showColList).map((key) => {
       if (key === 'Symbol') {
         return SymbolNameField(key, tableColList[key].text, 110, showColList[key])
+      } else if (key === 'Market') {
+        return {
+          field: key,
+          headerName: tableColList[key].text,
+          width: 200,
+          renderCell: (params) => (
+            <Link href={params.row['MarketUrl']} target="_blank" rel="noreferrer noopener">
+              <span>{params.value}</span>
+            </Link>
+          ),
+          colShow: showColList[key]
+        }
       } else if (key === 'Close' || key === 'PE' || key === 'PB') {
-        return PureFieldWithValueCheck(key, tableColList[key].text, 110, 2, showColList[key])
+        let w = 110
+        if (key === 'PE' || key === 'PB') {
+          w = 90
+        }
+        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, showColList[key])
       } else if (key.indexOf('Perf') != -1 || key.indexOf('FCST') != -1) {
         let w = 120
         if (key.indexOf('FCST_') != -1) {
@@ -59,7 +76,7 @@ const ForecastTableObj = ({ tableColList, data }) => {
                 if (resp_data.length > 0) {
                   let stockData = []
                   let trendData = []
-                  let info = { symbol: params.row['Symbol']}
+                  let info = { symbol: params.row['Symbol'] !== null ? params.row['Symbol'] : params.row['Market'] }
                   // {"Date":"12/26/2021","Close":"-","Predict":16.228974118231985,"Predict_Upper":17.094573558273776,"Predict_Lower":15.283983613772198,"Trend":2.7869199587015787,"Trend_Upper":2.8005154366707754,"Trend_Lower":2.7728914911786458}
                   resp_data.forEach((value, index) => {
                     let s = { "Date": value.Date, "PredictUpperAndLower": [value.Predict_Lower.toFixed(3), value.Predict_Upper.toFixed(3)], "Predict": value.Predict.toFixed(3) }
