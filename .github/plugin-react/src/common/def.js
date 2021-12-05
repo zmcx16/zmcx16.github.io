@@ -22,6 +22,26 @@ export const DAF_Def = [
     display_name: 'Stock-FBProphet-Volume'
   },
   {
+    name: 'stock_fbprophet_empty_CL_1_NG00',
+    display_name: 'Stock-FBProphet-Empty-CL.1&NG00'
+  },
+  {
+    name: 'stock_fbprophet_empty_GC00',
+    display_name: 'Stock-FBProphet-Empty-GC00'
+  },
+  {
+    name: 'stock_fbprophet_empty_TIOc1_HRN00',
+    display_name: 'Stock-FBProphet-Empty-TIOc1&HRN00'
+  },
+  {
+    name: 'stock_fbprophet_empty_bdi',
+    display_name: 'Stock-FBProphet-Empty-BDI'
+  },
+  {
+    name: 'stock_fbprophet_empty_bdi_fbx',
+    display_name: 'Stock-FBProphet-Empty-BDI&FBX'
+  },
+  {
     name: 'market_fbprophet_empty',
     display_name: 'Market-FBProphet-Empty'
   },
