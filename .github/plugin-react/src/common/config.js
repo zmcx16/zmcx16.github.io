@@ -275,6 +275,33 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_TIOc1_HRN00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'VALE',
+        file_path: 'stock/historical-quotes/VALE.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "TIOc1",
+          file_path: "markets/historical-quotes/investing_TIOc1.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "HRN00",
+          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   INTC: [
     {
@@ -363,6 +390,27 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_GC00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'KGC',
+        file_path: 'stock/historical-quotes/KGC.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "GC00",
+          file_path: "markets/historical-quotes/marketwatch_GC00.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   DAC: [
     {
@@ -407,6 +455,54 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DAC',
+        file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DAC',
+        file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   GGB: [
     {
@@ -450,6 +546,33 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_TIOc1_HRN00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GGB',
+        file_path: 'stock/historical-quotes/GGB.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "TIOc1",
+          file_path: "markets/historical-quotes/investing_TIOc1.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "HRN00",
+          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
+          type: "market"
+        }
+      ]
     },
   ],
   LDI: [
@@ -583,6 +706,54 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GOGL',
+        file_path: 'stock/historical-quotes/GOGL.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'GOGL',
+        file_path: 'stock/historical-quotes/GOGL.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   CPLP: [
     {
@@ -626,6 +797,54 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'CPLP',
+        file_path: 'stock/historical-quotes/CPLP.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'CPLP',
+        file_path: 'stock/historical-quotes/CPLP.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
     },
   ],
   SID: [
@@ -671,6 +890,33 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_TIOc1_HRN00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SID',
+        file_path: 'stock/historical-quotes/SID.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "TIOc1",
+          file_path: "markets/historical-quotes/investing_TIOc1.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "HRN00",
+          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   EDRY: [
     {
@@ -714,6 +960,54 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'EDRY',
+        file_path: 'stock/historical-quotes/EDRY.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'EDRY',
+        file_path: 'stock/historical-quotes/EDRY.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
     },
   ],
   ET: [
@@ -759,6 +1053,33 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_CL_1_NG00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ET',
+        file_path: 'stock/historical-quotes/ET.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "CL_1",
+          file_path: "markets/historical-quotes/marketwatch_CL_1.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "NG00",
+          file_path: "markets/historical-quotes/marketwatch_NG00.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   SB: [
     {
@@ -802,6 +1123,54 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SB',
+        file_path: 'stock/historical-quotes/SB.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'SB',
+        file_path: 'stock/historical-quotes/SB.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
     },
   ],
   NMM: [
@@ -847,6 +1216,54 @@ const ForecastConfig = {
       },
       feature_data: []
     },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NMM',
+        file_path: 'stock/historical-quotes/NMM.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NMM',
+        file_path: 'stock/historical-quotes/NMM.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
+    },
   ],
   TX: [
     {
@@ -890,6 +1307,33 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_TIOc1_HRN00',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'TX',
+        file_path: 'stock/historical-quotes/TX.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "TIOc1",
+          file_path: "markets/historical-quotes/investing_TIOc1.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "HRN00",
+          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
+          type: "market"
+        }
+      ]
     },
   ],
 // watch market
