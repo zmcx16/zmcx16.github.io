@@ -34,9 +34,9 @@ jobs:
     - name: build js plugin pages
       run: |-
         python ./.github/script/build_plugin.py
-    # - name: install react plugin pages dependency
-    #   run: |-
-    #     npm --prefix ./.github/plugin-react/ install
+    - name: install react plugin pages dependency
+      run: |-
+        npm --prefix ./.github/plugin-react/ install
     - name: build react plugin pages
       run: |-
         npm --prefix ./.github/plugin-react/ run build
