@@ -40,6 +40,9 @@ jobs:
     - name: build react plugin pages
       run: |-
         npm --prefix ./.github/plugin-react/ run build
+    - name: remove node_modules
+      run: |-
+        rm -rf ./.github/plugin-react/node_modules
     - name: get monitor data
       env:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
