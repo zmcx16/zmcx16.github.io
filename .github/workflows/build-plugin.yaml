@@ -34,15 +34,15 @@ jobs:
     - name: build js plugin pages
       run: |-
         python ./.github/script/build_plugin.py
-    - name: install react plugin pages dependency
-      run: |-
-        npm --prefix ./.github/plugin-react/ install
-    - name: build react plugin pages
-      run: |-
-        npm --prefix ./.github/plugin-react/ run build
-    - name: remove node_modules
-      run: |-
-        rm -rf ./.github/plugin-react/node_modules
+    # - name: install react plugin pages dependency
+    #   run: |-
+    #     npm --prefix ./.github/plugin-react/ install
+    # - name: build react plugin pages
+    #   run: |-
+    #     npm --prefix ./.github/plugin-react/ run build
+    # - name: remove node_modules
+    #   run: |-
+    #     rm -rf ./.github/plugin-react/node_modules
     - name: get monitor data
       env:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
