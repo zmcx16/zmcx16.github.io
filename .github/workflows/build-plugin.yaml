@@ -58,6 +58,7 @@ jobs:
         python ./.github/script/build_correlation-matrix.py
     - name: Commit and push if page changed
       run: |-
+        ls ./plugin-react/
         git pull
         git diff
         git config --global user.email "zmcx16-bot@zmcx16.moe"
