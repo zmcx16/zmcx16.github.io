@@ -32,7 +32,7 @@ const ForecastChart = ({ stockData, trendData, info}) => {
           }}/>
           <YAxis domain={['auto', 'auto']}/>
           <Tooltip />
-          <Legend />
+          <Legend wrapperStyle={{ bottom: -10 }}/>
           <Line type="monotone" name={`Close of Stock (${info.symbol})`}  strokeWidth={2} dataKey="Close" stroke="#ff7300" dot={false} />
           <Line type="monotone" name={`Predict`} strokeWidth={2} dataKey="Predict" stroke="#00cc00" dot={false} />
           <Area name={`Predict Upper & Lower`} dataKey="PredictUpperAndLower" stroke="#e0b5ff" fill="#e8c9ff" />

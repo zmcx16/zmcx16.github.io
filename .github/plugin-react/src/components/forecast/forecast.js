@@ -81,23 +81,23 @@ const Forecast = () => {
         })
 
         const tableColList = {
-          Symbol: { show: true, text: 'Symbol' },
-          Close: { show: true, text: 'Price' },
-          FCST: { show: true, text: 'FCST_30' },
-          FCST_Upper30: { show: true, text: 'FCST_Upper30' },
-          FCST_Lower30: { show: true, text: 'FCST_Lower30' },
-          PE: { show: true, text: 'P/E' },
-          PB: { show: true, text: 'P/B' },
-          Dividend: { show: true, text: 'Dividend %' },
-          High52: { show: true, text: '52W High' },
-          Low52: { show: true, text: '52W Low' },
-          PerfWeek: { show: true, text: 'Perf Week' },
-          PerfMonth: { show: true, text: 'Perf Month' },
-          PerfQuarter: { show: true, text: 'Perf Quarter' },
-          PerfHalfY: { show: true, text: 'Perf Half Y' },
-          PerfYear: { show: true, text: 'Perf Year' },
-          PerfYTD: { show: true, text: 'Perf YTD' },
-          Chart: { show: true, text: 'Chart' },
+          Symbol: { hide: false, text: 'Symbol' },
+          Close: { hide: false, text: 'Price' },
+          FCST: { hide: false, text: 'FCST_30' },
+          FCST_Upper30: { hide: false, text: 'FCST_Upper30' },
+          FCST_Lower30: { hide: false, text: 'FCST_Lower30' },
+          PE: { hide: true, text: 'P/E' },
+          PB: { hide: true, text: 'P/B' },
+          Dividend: { hide: true, text: 'Dividend %' },
+          High52: { hide: true, text: '52W High' },
+          Low52: { hide: true, text: '52W Low' },
+          PerfWeek: { hide: false, text: 'Perf Week' },
+          PerfMonth: { hide: false, text: 'Perf Month' },
+          PerfQuarter: { hide: false, text: 'Perf Quarter' },
+          PerfHalfY: { hide: false, text: 'Perf Half Y' },
+          PerfYear: { hide: false, text: 'Perf Year' },
+          PerfYTD: { hide: false, text: 'Perf YTD' },
+          Chart: { hide: false, text: 'Chart' },
         }
 
         setLastUpdateTime('Last Update Time: ' + new Date(update_time).toLocaleString('en-US'))
@@ -157,18 +157,18 @@ const Forecast = () => {
         })
 
         const tableColList = {
-          Market: { show: true, text: 'Market' },
-          Close: { show: true, text: 'Price' },
-          FCST: { show: true, text: 'FCST_30' },
-          FCST_Upper30: { show: true, text: 'FCST_Upper30' },
-          FCST_Lower30: { show: true, text: 'FCST_Lower30' },
-          PerfWeek: { show: true, text: 'Perf Week' },
-          PerfMonth: { show: true, text: 'Perf Month' },
-          PerfQuarter: { show: true, text: 'Perf Quarter' },
-          PerfHalfY: { show: true, text: 'Perf Half Y' },
-          PerfYear: { show: true, text: 'Perf Year' },
-          PerfYTD: { show: true, text: 'Perf YTD' },
-          Chart: { show: true, text: 'Chart' },
+          Market: { hide: false, text: 'Market' },
+          Close: { hide: false, text: 'Price' },
+          FCST: { hide: false, text: 'FCST_30' },
+          FCST_Upper30: { hide: false, text: 'FCST_Upper30' },
+          FCST_Lower30: { hide: false, text: 'FCST_Lower30' },
+          PerfWeek: { hide: false, text: 'Perf Week' },
+          PerfMonth: { hide: false, text: 'Perf Month' },
+          PerfQuarter: { hide: false, text: 'Perf Quarter' },
+          PerfHalfY: { hide: false, text: 'Perf Half Y' },
+          PerfYear: { hide: false, text: 'Perf Year' },
+          PerfYTD: { hide: false, text: 'Perf YTD' },
+          Chart: { hide: false, text: 'Chart' },
         }
 
         setLastUpdateTime('Last Update Time: ' + new Date(update_time).toLocaleString('en-US'))
