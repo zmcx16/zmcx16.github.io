@@ -126,7 +126,7 @@ const Monitor = () => {
               }} />
             </form>
           </Grid>
-          <Grid container item xs={2} md={2} justify="flex-end">
+          <Grid container item xs={2} md={2} justifyContent="flex-end">
             <div className={monitorStyle.controlToggleContainer} >
               <MonitorSwitch monitorSwitchRef={monitorSwitchRef}/>
             </div>

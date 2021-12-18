@@ -26,46 +26,41 @@ const ForecastTableObj = ({ tableColList, data }) => {
 
   const fetchForecastQuoteData = useFetch({ cachePolicy: 'no-cache' })
 
-  const showColListRef = useRef(Object.keys(tableColList).reduce((accumulator, currentValue) => {
-    accumulator[currentValue] = tableColList[currentValue].show
-    return accumulator
-  }, {}))
-
-  const getTableColTemplate = (showColList) => {
-    return Object.keys(showColList).map((key) => {
+  const genTableColTemplate = () => {
+    return Object.keys(tableColList).map((key) => {
       if (key === 'Symbol') {
-        return SymbolNameField(key, tableColList[key].text, 110, showColList[key])
+        return SymbolNameField(key, tableColList[key].text, 130, tableColList[key].hide)
       } else if (key === 'Market') {
         return {
           field: key,
           headerName: tableColList[key].text,
-          width: 200,
+          width: 220,
           renderCell: (params) => (
             <Link href={params.row['MarketUrl']} target="_blank" rel="noreferrer noopener">
               <span>{params.value}</span>
             </Link>
           ),
-          colShow: showColList[key]
+          hide: tableColList[key].hide
         }
       } else if (key === 'Close' || key === 'PE' || key === 'PB') {
         let w = 110
-        if (key === 'PE' || key === 'PB') {
-          w = 90
-        }
-        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, showColList[key])
+        //if (key === 'PE' || key === 'PB') {
+        //  w = 110
+        //}
+        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, tableColList[key].hide)
       } else if (key.indexOf('Perf') != -1 || key.indexOf('FCST') != -1) {
-        let w = 120
+        let w = 155
         if (key.indexOf('FCST_') != -1) {
-          w = 140
+          w = 180
         }
-        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, showColList[key])
+        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, tableColList[key].hide)
       } else if (key === 'Dividend' || key === 'High52' || key === 'Low52') {
-        return PercentField(key, tableColList[key].text, 110, showColList[key])
+        return PercentField(key, tableColList[key].text, 150, tableColList[key].hide)
       } else if (key === 'Chart') {
         return {
           field: 'Chart',
           headerName: tableColList[key].text,
-          width: 90,
+          width: 130,
           renderCell: (params) => (
             <IconButton
               size="small"
@@ -99,54 +94,19 @@ const ForecastTableObj = ({ tableColList, data }) => {
               <BarChartSharpIcon color="primary" style={{ fontSize: 40 }} />
             </IconButton>
           ),
-          colShow: showColList['Chart']
+          hide: tableColList['Chart'].hide
         }
       } else {
-        return KMBTField(key, tableColList[key].text, 130, 2, showColList[key])
+        return KMBTField(key, tableColList[key].text, 130, 2, tableColList[key])
       }
     })
-  }
-
-  const getTableCol = ()=>{
-    return getTableColTemplate(showColListRef.current).reduce((accumulator, currentValue) => {
-      if (currentValue.colShow) {
-        accumulator.push(currentValue)
-      }
-      return accumulator
-    }, [])
-  }
-  const [tableCol, setTableCol] = useState(getTableCol())
-
-  const renderCheckbox = (key) => {
-    return <FormControlLabel
-      key={key}
-      control={
-        <Checkbox
-          onChange={() => {
-            showColListRef.current[key] = !showColListRef.current[key]
-            setTableCol(getTableCol())
-          }}
-          name={tableColList[key].text}
-          color="primary"
-          checked={showColListRef.current[key]}
-        />
-      }
-      label={
-        <div>{tableColList[key].text}</div>
-      }
-    />
   }
 
   return (
     <>
       <div className={forecastTableStyle.container}>
-        <div className={forecastTableStyle.showColumn}>
-          {Object.keys(showColListRef.current).map((key) => {
-            return renderCheckbox(key)
-          })}
-        </div>
         <div className={forecastTableStyle.table}>
-          <DataGrid rows={data} columns={tableCol} scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick />
+          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]}  scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick />
         </div>
       </div>
       <ModalWindow modalWindowRef={modalWindowRef} />
