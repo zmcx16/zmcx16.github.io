@@ -265,7 +265,7 @@ var myvar =
 '        <h1> 數據源 </h1>' +
 '        <div class="data-source content-block">' +
 '            <a class="link" target="_blank" href="https://norn-minehunter.zmcx16.moe/">Norn-Minehunter</a>' +
-'            <a class="link" target="_blank" href="https://www.alphavantage.co/">Alpha Vantage</a>' +
+'            <a class="link" target="_blank" href="https://www.marketwatch.com/">MarketWatch</a>' +
 '        </div>' +
 '    </div>' +
 '</div>' ;
