@@ -230,7 +230,7 @@ const Forecast = () => {
               </Select>
             </FormControl>
           </Grid>
-          <Grid container item xs={6} justify="flex-end">
+          <Grid container item xs={6} justifyContent="flex-end">
             <Typography className={forecastStyle.forecastTableLastUpdateTime} variant="h6">
               {lastUpdateTime}
             </Typography>
