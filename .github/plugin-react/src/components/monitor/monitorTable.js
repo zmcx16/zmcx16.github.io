@@ -22,25 +22,27 @@ const MonitorTableObj = ({ headerList, data}) => {
     }
   })
 
+  const [hideColState, setHideColState] = useState({})
+
   const genTableColTemplate = () => {
     return Object.keys(tableColList).map((key) => {
       if (key === 'Change' || key === 'EPS Q/Q' || key === 'EPS next 5Y' || key === 'EPS next Y' || key === 'EPS past 5Y' || 
         key === 'EPS this Y' || key === 'Insider Trans' || key === 'Inst Trans' || key === 'ROA' || key === 'ROE' || 
         key === 'ROI' || key === 'SMA20' || key === 'SMA200' || key.indexOf('Perf ')!=-1) {
-        return colorPosGreenNegRedPercentField(tableColList[key].text, tableColList[key].text, 150, tableColList[key].hide)
+        return colorPosGreenNegRedPercentField(tableColList[key].text, tableColList[key].text, 150, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Dividend' || key === 'Sales Q/Q' || key === 'Sales past 5Y' || key === 'Insider Own' || 
         key === 'Inst Own' || key === 'Gross Margin' || key === 'Oper. Margin' || key === 'Profit Margin' || key === 'Float Short' || 
         key === '52W High' || key === '52W Low' || key === '50D High' || key === '50D Low'){
-        return PercentField(tableColList[key].text, tableColList[key].text, 150, tableColList[key].hide)
+        return PercentField(tableColList[key].text, tableColList[key].text, 150, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Market Cap' || key === 'Volume' || key === 'Avg Volume') {
-        return KMBTField(tableColList[key].text, tableColList[key].text, 150, tableColList[key].hide)
+        return KMBTField(tableColList[key].text, tableColList[key].text, 150, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Ticker') {
-        return SymbolNameField(tableColList[key].text, tableColList[key].text, 130, tableColList[key].hide)
+        return SymbolNameField(tableColList[key].text, tableColList[key].text, 130, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Name') {
-        return IndustryNameField(tableColList[key].text, tableColList[key].text, 250, tableColList[key].hide)
+        return IndustryNameField(tableColList[key].text, tableColList[key].text, 250, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else {
         return {
-          field: tableColList[key].text, headerName: tableColList[key].text, width: 150, hide: tableColList[key].hide
+          field: tableColList[key].text, headerName: tableColList[key].text, width: 150, hide: hideColState[key] ? hideColState[key] : tableColList[key].hide
         }
       }
     })
@@ -50,7 +52,11 @@ const MonitorTableObj = ({ headerList, data}) => {
     <>
       <div className={monitorTableStyle.container}>
         <div className={monitorTableStyle.table}>
-          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]}  scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick />
+          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]} scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
+            let tempHideColState = hideColState
+            tempHideColState[param['field']] = !param['isVisible']
+            setHideColState(tempHideColState)
+          }}/>
         </div>
       </div>
     </>
