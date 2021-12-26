@@ -24,12 +24,14 @@ const ForecastTableObj = ({ tableColList, data }) => {
     popModalWindow: null,
   })
 
+  const [hideColState, setHideColState] = useState({})
+
   const fetchForecastQuoteData = useFetch({ cachePolicy: 'no-cache' })
 
   const genTableColTemplate = () => {
     return Object.keys(tableColList).map((key) => {
       if (key === 'Symbol') {
-        return SymbolNameField(key, tableColList[key].text, 130, tableColList[key].hide)
+        return SymbolNameField(key, tableColList[key].text, 130, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Market') {
         return {
           field: key,
@@ -40,22 +42,22 @@ const ForecastTableObj = ({ tableColList, data }) => {
               <span>{params.value}</span>
             </Link>
           ),
-          hide: tableColList[key].hide
+          hide: hideColState[key] ? hideColState[key] : tableColList[key].hide
         }
       } else if (key === 'Close' || key === 'PE' || key === 'PB') {
         let w = 110
         //if (key === 'PE' || key === 'PB') {
         //  w = 110
         //}
-        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, tableColList[key].hide)
+        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key.indexOf('Perf') != -1 || key.indexOf('FCST') != -1) {
         let w = 155
         if (key.indexOf('FCST_') != -1) {
           w = 180
         }
-        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, tableColList[key].hide)
+        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Dividend' || key === 'High52' || key === 'Low52') {
-        return PercentField(key, tableColList[key].text, 150, tableColList[key].hide)
+        return PercentField(key, tableColList[key].text, 150, hideColState[key] ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Chart') {
         return {
           field: 'Chart',
@@ -94,10 +96,10 @@ const ForecastTableObj = ({ tableColList, data }) => {
               <BarChartSharpIcon color="primary" style={{ fontSize: 40 }} />
             </IconButton>
           ),
-          hide: tableColList['Chart'].hide
+          hide: hideColState[key] ? hideColState[key] : tableColList['Chart'].hide
         }
       } else {
-        return KMBTField(key, tableColList[key].text, 130, 2, tableColList[key])
+        return KMBTField(key, tableColList[key].text, 130, 2, hideColState[key] ? hideColState[key] : tableColList[key])
       }
     })
   }
@@ -106,7 +108,11 @@ const ForecastTableObj = ({ tableColList, data }) => {
     <>
       <div className={forecastTableStyle.container}>
         <div className={forecastTableStyle.table}>
-          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]}  scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick />
+          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]} scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param)=>{
+            let tempHideColState = hideColState
+            tempHideColState[param['field']] = !param['isVisible']
+            setHideColState(tempHideColState)
+          }}/>
         </div>
       </div>
       <ModalWindow modalWindowRef={modalWindowRef} />
@@ -114,7 +120,7 @@ const ForecastTableObj = ({ tableColList, data }) => {
   )
 }
 
-const ForecastTable = ({ tableColList, data, modalWindowRef }) => {
+const ForecastTable = ({ tableColList, data }) => {
   const appendIdAndTryConvertFloat = (src) => {
     // console.log(src)
     return src.map((value, index) => {
