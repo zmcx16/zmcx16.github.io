@@ -31,7 +31,7 @@ const ForecastTableObj = ({ tableColList, data }) => {
   const genTableColTemplate = () => {
     return Object.keys(tableColList).map((key) => {
       if (key === 'Symbol') {
-        return SymbolNameField(key, tableColList[key].text, 130, hideColState[key] ? hideColState[key] : tableColList[key].hide)
+        return SymbolNameField(key, tableColList[key].text, 130, key in hideColState ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Market') {
         return {
           field: key,
@@ -42,22 +42,22 @@ const ForecastTableObj = ({ tableColList, data }) => {
               <span>{params.value}</span>
             </Link>
           ),
-          hide: hideColState[key] ? hideColState[key] : tableColList[key].hide
+          hide: key in hideColState ? hideColState[key] : tableColList[key].hide
         }
       } else if (key === 'Close' || key === 'PE' || key === 'PB') {
         let w = 110
         //if (key === 'PE' || key === 'PB') {
         //  w = 110
         //}
-        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, hideColState[key] ? hideColState[key] : tableColList[key].hide)
+        return PureFieldWithValueCheck(key, tableColList[key].text, w, 2, key in hideColState ? hideColState[key] : tableColList[key].hide)
       } else if (key.indexOf('Perf') != -1 || key.indexOf('FCST') != -1) {
         let w = 155
         if (key.indexOf('FCST_') != -1) {
           w = 180
         }
-        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, hideColState[key] ? hideColState[key] : tableColList[key].hide)
+        return colorPosGreenNegRedPercentField(key, tableColList[key].text, w, key in hideColState ? hideColState[key] : tableColList[key].hide)
       } else if (key === 'Dividend' || key === 'High52' || key === 'Low52') {
-        return PercentField(key, tableColList[key].text, 150, hideColState[key] ? hideColState[key] : tableColList[key].hide)
+        return PercentField(key, tableColList[key].text, 150, hideColState[key] ? key in hideColState : tableColList[key].hide)
       } else if (key === 'Chart') {
         return {
           field: 'Chart',
@@ -96,10 +96,10 @@ const ForecastTableObj = ({ tableColList, data }) => {
               <BarChartSharpIcon color="primary" style={{ fontSize: 40 }} />
             </IconButton>
           ),
-          hide: hideColState[key] ? hideColState[key] : tableColList['Chart'].hide
+          hide: key in hideColState ? hideColState[key] : tableColList['Chart'].hide
         }
       } else {
-        return KMBTField(key, tableColList[key].text, 130, 2, hideColState[key] ? hideColState[key] : tableColList[key])
+        return KMBTField(key, tableColList[key].text, 130, 2, key in hideColState ? hideColState[key] : tableColList[key])
       }
     })
   }
