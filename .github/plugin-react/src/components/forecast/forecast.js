@@ -148,7 +148,7 @@ const Forecast = () => {
             PerfHalfY: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Half'] !== '-' ? marketInfo['Perf Half'] : -Number.MAX_VALUE,
             PerfYear: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf Year'] !== '-' ? marketInfo['Perf Year'] : -Number.MAX_VALUE,
             PerfYTD: marketInfo !== undefined && marketInfo !== null && marketInfo['Perf YTD'] !== '-' ? marketInfo['Perf YTD'] : -Number.MAX_VALUE,
-            MarketUrl: marketInfo["dataUrl"],
+            MarketUrl: marketInfo !== undefined && marketInfo !== null ? marketInfo["dataUrl"] : '-',
             ChartUrl: '/forecast-data/' + forecast_name + '/' + symbol + '.json',
           }
 
