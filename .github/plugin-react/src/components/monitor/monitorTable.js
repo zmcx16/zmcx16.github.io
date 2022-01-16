@@ -52,7 +52,7 @@ const MonitorTableObj = ({ headerList, data}) => {
     <>
       <div className={monitorTableStyle.container}>
         <div className={monitorTableStyle.table}>
-          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]} scrollbarSize={17} pageSize={50} components={{ noRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
+          <DataGrid rows={data} columns={genTableColTemplate()} rowsPerPageOptions={[]} scrollbarSize={17} pageSize={50} components={{ NoRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
             let tempHideColState = hideColState
             tempHideColState[param['field']] = !param['isVisible']
             setHideColState(tempHideColState)
