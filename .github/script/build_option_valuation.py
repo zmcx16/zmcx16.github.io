@@ -10,7 +10,7 @@ def get_option_data(config, option_folder_path):
     try:
         hold_list = config["hold_stock_list"]
         hold_list_str = ",".join(hold_list)
-        os.system("python ./Norn-Finance-API-Server/option_cron_job.py -i " + hold_list_str)
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + hold_list_str)
         shutil.copytree('./Norn-Finance-API-Server/output', option_folder_path, dirs_exist_ok=True)
 
     except Exception:
