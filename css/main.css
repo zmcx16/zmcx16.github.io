@@ -205,6 +205,7 @@ ul.menu-header_drop-down-menu a {
   padding: 0 30px;
   text-decoration: none;
   line-height: 37px;
+  min-width: 150px;
 }
 ul.menu-header_drop-down-menu a:hover { 
   border-width:3px; 
