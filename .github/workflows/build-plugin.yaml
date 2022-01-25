@@ -43,6 +43,12 @@ jobs:
     # - name: remove node_modules
     #   run: |-
     #     rm -rf ./.github/plugin-react/node_modules
+    - name: Checkout Norn-Finance-API-Server
+      uses: actions/checkout@v2
+      with: 
+        repository: zmcx16/Norn-Finance-API-Server
+        path: ./.github/script/Norn-Finance-API-Server
+        fetch-depth: 0
     - name: get options data
       run: |-
         python ./.github/script/build_option_valuation.py
