@@ -23,17 +23,31 @@ export function useInterval(callback, delay) {
   }, [delay])
 }
 
-
-export function colorPosGreenNegRedField(field, headerName, width, hide){
+export function ColorPosGreenNegRedField(field, headerName, width, hide) {
   return {
     field: field,
     headerName: headerName,
     width: width,
     type: 'number',
     renderCell: (params) => (
-      params.value === "-" || params.value === "Infinity" || params.value === 'NaN' ?
+      params.value === "-" || params.value === -Number.MAX_VALUE || params.value === Number.MAX_VALUE || params.value === null || params.value === undefined || params.value === "Infinity" || params.value === 'NaN' ?
         <span>-</span> :
         <span style={{ fontWeight: 500, color: Math.sign(parseFloat(params.value)) === 1 ? 'green' : Math.sign(parseFloat(params.value)) === -1 ? 'red' : '' }}>{Math.sign(parseFloat(params.value)) === 1 ? '+' : ''}{params.value}</span>
+    ),
+    hide: hide
+  }
+}
+
+export function ColorPercentField(field, headerName, width, valueFixed, hide, fontWeight) {
+  return {
+    field: field,
+    headerName: headerName,
+    width: width,
+    type: 'number',
+    renderCell: (params) => (
+      params.value === '-' || params.value === -Number.MAX_VALUE || params.value === Number.MAX_VALUE || params.value === null || params.value === undefined || params.value === "Infinity" || params.value === 'NaN' ?
+        <span>-</span> :
+        <span style={{ fontWeight: fontWeight, color: Math.sign(parseFloat(params.value)) === 1 ? 'green' : Math.sign(parseFloat(params.value)) === -1 ? 'red' : '' }}>{Math.sign(parseFloat(params.value)) === 1 ? '+' : ''}{(params.value * 100).toFixed(valueFixed) + "%"}</span>
     ),
     hide: hide
   }
