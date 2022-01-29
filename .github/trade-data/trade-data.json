@@ -14,6 +14,7 @@
       "ET",
       "SB",
       "NMM",
+      "X",
       "TX"
    ],
    "star_stock_list":[
@@ -458,77 +459,82 @@
    "portfolio":{
       "CPLP":{
          "cost_p":12.99,
-         "position_%":4.256500300627063,
+         "position_%":4.1612994087687305,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":10.661670871632602,
+         "position_%":10.42321192555197,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":2.9812481635296835,
+         "position_%":2.9145695628075763,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":6.211082617273747,
+         "position_%":6.072165534504333,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":4.374463357457374,
+         "position_%":4.276624103699966,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":4.48319193256612,
+         "position_%":4.382920855341129,
          "profit_%":0
       },
       "INTC":{
          "cost_p":49.94,
-         "position_%":8.672971613322343,
+         "position_%":8.478991917719208,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":10.38247674280884,
+         "position_%":10.150262253015859,
          "profit_%":0
       },
       "LDI":{
          "cost_p":6.36,
-         "position_%":9.472790927282567,
+         "position_%":9.260922471750693,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":4.787453210966322,
+         "position_%":4.680377025550127,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":5.012759670647146,
+         "position_%":4.900644280629016,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":13.841236977295567,
+         "position_%":13.531663851113256,
          "profit_%":0
       },
       "THO":{
          "cost_p":104.58,
-         "position_%":3.115297091745946,
+         "position_%":3.0456203525021612,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":3.574638085767006,
+         "position_%":3.49468772518894,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.76,
-         "position_%":8.172218437077671,
+         "position_%":7.989438587736116,
+         "profit_%":0
+      },
+      "X":{
+         "cost_p":19.2,
+         "position_%":2.236600144120922,
          "profit_%":0
       }
    }
