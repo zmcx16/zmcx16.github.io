@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
-import { DataGrid } from '@material-ui/data-grid'
-import Grid from '@material-ui/core/Grid'
-import Typography from '@material-ui/core/Typography'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import Checkbox from '@material-ui/core/Checkbox'
+import { DataGrid } from '@mui/x-data-grid'
+import Grid from '@mui/material/Grid'
+import Typography from '@mui/material/Typography'
 
 import { tryConvertFloat, convert2KMBTFloat } from '../../common/utils'
 import { colorPosGreenNegRedPercentField, PercentField, KMBTField, SymbolNameField, IndustryNameField } from '../../common/reactUtils'
