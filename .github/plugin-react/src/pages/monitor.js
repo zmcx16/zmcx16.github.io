@@ -1,5 +1,5 @@
 import React from 'react'
-import { StylesProvider } from '@material-ui/core/styles'
+import { StylesProvider } from '@mui/styles'
 
 import Monitor from '../components/monitor/monitor'
 

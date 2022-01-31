@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
+import React, { useState } from 'react'
+import FormControlLabel from '@mui/material/FormControlLabel'
 
 import { IOSSwitch } from '../iOSSwitch'
 import { useInterval } from '../../common/reactUtils'

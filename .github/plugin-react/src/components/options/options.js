@@ -1,10 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { DataGrid } from '@material-ui/data-grid'
+import { DataGrid } from '@mui/x-data-grid'
+import SearchIcon from '@mui/icons-material/Search'
+import { blue } from '@mui/material/colors'
+import { createTheme } from '@mui/material/styles'
+import { ThemeProvider } from '@mui/styles'
+import Button from '@mui/material/Button'
+import Box from '@mui/material/Box'
+import Grid from '@mui/material/Grid'
 import shortid from 'shortid'
 import useFetch from 'use-http'
 import moment from 'moment'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
+import LinearProgressWithLabel from '../linearProgressWithLabel'
+import { NornFinanceAPIURL } from '../../common/def'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
 
@@ -12,11 +21,142 @@ import commonStyle from '../common.module.scss'
 import optionsStyle from './options.module.scss'
 
 
+const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
+  const [ws, setWs] = useState(null)
+
+  const queryDataRef = useRef({
+    symbols: [],
+    now: 0,
+    data: [],
+  })
+
+  const syncData = (symbols) => {
+    if (symbols.length > 0){
+      queryDataRef.current.symbols = symbols
+    }
+    if (queryDataRef.current.symbols.length == 0) {
+      console.error("No symbols data")
+      return
+    }
+
+    let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
+    let query_string = "/ws/option/quote-valuation?symbol=" + symbol
+    setWs(new WebSocket(NornFinanceAPIURL + query_string))
+    let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
+    let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now + 1}/${queryDataRef.current.symbols.length})`
+    ControlPannelRef.current.updateProgress(val, text)
+  }
+
+  SyncDataRef.current = {
+    syncData: syncData,
+  }
+
+  useInterval(() => {
+    if (ws && ws.readyState === WebSocket.OPEN) {
+      ws.send("") // heartbeat
+      console.log("heartbeat")
+    } else if (queryDataRef.current.now < queryDataRef.current.symbols.length) {
+      console.warn("unexpected disconnected, do syncData again")
+      syncData([])
+    }
+  }, ws ? 3000 : null)
+
+  useEffect(() => {
+    if (ws) {
+      ws.onopen = () => {
+        console.log('WebSocket Connected')
+      }
+      ws.onmessage = (e) => {
+        const message = JSON.parse(e.data)
+        console.log(message)
+        queryDataRef.current.data.push(message)
+        queryDataRef.current.now += 1
+        if (queryDataRef.current.symbols.length !== 0){
+          if (queryDataRef.current.now >= queryDataRef.current.symbols.length) {
+            OptionsRef.current.renderTable(queryDataRef.current.data)
+            queryDataRef.current.now = 0
+            queryDataRef.current.data = []
+            setWs(null)
+            ControlPannelRef.current.updateProgress(100, `100%`)
+          } else {
+            let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
+            let query_string = "/ws/option/quote-valuation?symbol=" + symbol
+            setWs(new WebSocket(NornFinanceAPIURL + query_string))
+            let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
+            let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now+1}/${queryDataRef.current.symbols.length})`
+            ControlPannelRef.current.updateProgress(val, text)
+          }
+        }
+      }
+    }
+    return () => {
+    }
+  }, [ws])
+  return <></>
+}
+
+const ControlPannel = ({ SyncDataRef, modalWindowRef, ControlPannelRef }) => {
+
+  const [progress, setProgress] = useState({val:0, text:'0%'});
+  const fetchOptionsData = useFetch({ cachePolicy: 'no-cache' })
+
+  const refreshQueryOptionsData = () => {
+    Promise.all([
+      GetDataByFetchObj('/trade-data.json', fetchOptionsData),
+    ]).then((allResponses) => {
+      console.log(allResponses)
+      if (allResponses.length === 1 && allResponses[0] !== null) {
+        let trade_data = allResponses[0]
+        SyncDataRef.current.syncData(trade_data['hold_stock_list'].concat(trade_data['star_option_list']))
+      } else {
+        console.error("renderDefaultOptionsData some data failed")
+        modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
+      }
+    }).catch(() => {
+      console.error("renderDefaultOptionsData failed")
+      modalWindowRef.current.popModalWindow(<div>Get data failed...</div>)
+    })
+  }
+
+  ControlPannelRef.current = {
+    updateProgress: (val, text) => {
+      setProgress({val:val, text:text})
+    },
+  }
+
+  return (
+    <div className={optionsStyle.queryPannel} >
+      <Grid container spacing={2} alignItems="center">
+        <Grid item xs={10} >
+          <LinearProgressWithLabel progress={progress}/>
+        </Grid>
+        <Grid item xs={2} >
+          <Box display="flex" justifyContent="flex-end">
+            <ThemeProvider theme={createTheme({ palette: { primary: blue } })}>
+              <Button className={optionsStyle.queryBtn} variant="contained" color="primary" startIcon={<SearchIcon />} onClick={() => {
+                refreshQueryOptionsData()
+              }}>{'Query Now'}</Button>
+            </ThemeProvider>
+          </Box>
+        </Grid>
+      </Grid>
+    </div>
+  )
+}
+
 const Options = () => {
 
   const modalWindowRef = useRef({
     popModalWindow: null,
     popPureModal: null,
+  })
+
+  const SyncDataRef = useRef({
+    syncData: null,
+  })
+
+  const ControlPannelRef = useRef({
+    updateProgress: null
   })
 
   const tableColList = {
@@ -159,7 +299,7 @@ const Options = () => {
     setPutsData(puts)
   }
 
-  const renderOptionsData = () => {
+  const renderDefaultOptionsData = () => {
     Promise.all([
       GetDataByFetchObj('/plugin-react/option-valuation/output.json', fetchOptionsData),
     ]).then((allResponses) => {
@@ -167,75 +307,72 @@ const Options = () => {
       if (allResponses.length === 1 && allResponses[0] !== null) {
         renderTable(allResponses[0])
       } else {
-        console.error("renderOptionsData some data failed")
+        console.error("renderDefaultOptionsData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
       }
     }).catch(() => {
-      console.error("renderOptionsData failed")
+      console.error("renderDefaultOptionsData failed")
       modalWindowRef.current.popModalWindow(<div>Get data failed...</div>)
     })
   }
 
-  const refreshData = () => {
-    renderOptionsData()
-  }
+
+  const OptionsRef = useRef({
+    renderTable: renderTable,
+  })
+
   const [callsData, setCallsData] = useState([])
   const [putsData, setPutsData] = useState([])
   const [hideColState, setHideColState] = useState({})
-  const [ws, setWs] = useState(null)
 
   useEffect(() => {
     // componentDidMount is here!
     // componentDidUpdate is here!
-    refreshData()
-
+    renderDefaultOptionsData()
     return () => {
       // componentWillUnmount is here!
     }
   }, [])
 
-  useInterval(() => {
-    if (ws && ws.readyState === WebSocket.OPEN) {
-      ws.send("") // heartbeat
-      console.log("heartbeat")
-    }
-  }, ws ? 3000 : null)
-
-  useEffect(() => {
-    if (ws) {
-      ws.onopen = () => {
-        console.log('WebSocket Connected')
-      }
-      ws.onmessage = (e) => {
-        const message = JSON.parse(e.data)
-        console.log(message)
-        renderTable([message])
-        setWs(null)
-      }
-    }
-    return () => {
-    }
-  }, [ws])
-  
   return (
     <div className={commonStyle.defaultFont + ' ' + optionsStyle.container}>
+      <ControlPannel SyncDataRef={SyncDataRef} modalWindowRef={modalWindowRef} ControlPannelRef={ControlPannelRef}/>
       <div key={shortid.generate()} >
         <div className={optionsStyle.table}>
           <DataGrid rows={callsData} columns={genTableColTemplate()} rowsPerPageOptions={[]} autoPageSize={true} components={{ NoRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
             let tempHideColState = hideColState
             tempHideColState[param['field']] = !param['isVisible']
             setHideColState(tempHideColState)
-          }} />
+          }} initialState={{
+            filter: {
+              filterModel: {
+                items: [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }],
+              },
+            },
+            sorting: {
+              sortModel: [{ field: 'priceBias', sort: 'desc' }],
+            },
+          }}/>
         </div>
         <div className={optionsStyle.table}>
           <DataGrid rows={putsData} columns={genTableColTemplate()} rowsPerPageOptions={[]} autoPageSize={true} components={{ NoRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
             let tempHideColState = hideColState
             tempHideColState[param['field']] = !param['isVisible']
             setHideColState(tempHideColState)
-          }} />
+          }} initialState={{
+            filter: {
+              filterModel: {
+                items: [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }],
+              },
+            },
+            sorting: {
+              sortModel: [{ field: 'priceBias', sort: 'desc' }],
+            },
+          }}/>
         </div>
       </div>
       <ModalWindow modalWindowRef={modalWindowRef} />
+      <SyncData OptionsRef={OptionsRef} ControlPannelRef={ControlPannelRef} SyncDataRef={SyncDataRef}/>
     </div>
   )
 }

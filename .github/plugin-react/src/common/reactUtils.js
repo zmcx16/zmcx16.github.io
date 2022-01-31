@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import Link from '@material-ui/core/Link'
+import Link from '@mui/material/Link'
 import useFetch from 'use-http'
 import { convert2KMBTString } from '../common/utils'
 
