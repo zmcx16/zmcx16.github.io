@@ -9,7 +9,8 @@ import traceback
 def get_option_data(config, option_folder_path):
     try:
         hold_list = config["hold_stock_list"]
-        hold_list_str = ",".join(hold_list)
+        star_options = config["star_option_list"]
+        hold_list_str = ",".join(hold_list+star_options)
         os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + hold_list_str)
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_folder_path, dirs_exist_ok=True)
 
