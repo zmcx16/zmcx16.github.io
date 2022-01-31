@@ -24,7 +24,7 @@ if __name__ == "__main__":
     root = pathlib.Path(__file__).parent.resolve()
     plugin_react_folder_path = root / ".." / ".." / "plugin-react"
 
-    input_path = root / '..' / 'trade-data' / 'trade-data.json'
+    input_path = root / ".." / ".." / 'trade-data.json'
     option_folder_path = plugin_react_folder_path / 'option-valuation'
     if not os.path.exists(option_folder_path):
         os.makedirs(option_folder_path)
