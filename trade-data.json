@@ -116,6 +116,7 @@
          "GGB":"Gerdau S.A. (GGB)",
          "THO":"Thor Industries, Inc. (THO)",
          "VALE":"Vale S.A.",
+         "ZIM": "ZIM Integrated Shipping Services Ltd.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -457,6 +458,7 @@
       "GGB":"1073404",
       "THO":"730263",
       "VALE":"917851",
+      "ZIM": "1654126",
       "STC":"94344"
    },
    "portfolio":{
