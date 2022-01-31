@@ -31,7 +31,7 @@ if __name__ == "__main__":
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
     script_path = pathlib.Path(__file__).parent.resolve()
-    input_path = script_path / '..' / 'trade-data' / 'trade-data.json'
+    input_path = script_path / '..' / '..' / 'trade-data.json'
     stocks_output_path = script_path / '..' / '..' / 'zmcx16_investment-stocks-trade-data.json'
     stocks_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-stocks-trade-data_readable.json'
     formula_output_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data.json'

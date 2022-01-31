@@ -20,19 +20,22 @@
    "star_stock_list":[
       "JNJ",
       "AMZN",
-      "FB",
       "GOOG",
       "MU",
-      "DIS",
       "AAPL",
       "COST",
       "MSFT",
-      "MCD",
       "AMD",
       "TSLA",
       "CRWD",
       "CRM",
-      "S"
+      "S",
+      "BIO",
+      "ZIM"
+   ],
+   "star_option_list": [
+      "BIO",
+      "ZIM"
    ],
    "news_config":{
       "latest_days":28,
