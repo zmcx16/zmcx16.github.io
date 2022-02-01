@@ -127,10 +127,10 @@ const ControlPannel = ({ SyncDataRef, modalWindowRef, ControlPannelRef }) => {
   return (
     <div className={optionsStyle.queryPannel} >
       <Grid container spacing={2} alignItems="center">
-        <Grid item xs={10} >
+        <Grid item md={10} xs={7} >
           <LinearProgressWithLabel progress={progress}/>
         </Grid>
-        <Grid item xs={2} >
+        <Grid item md={2} xs={5}>
           <Box display="flex" justifyContent="flex-end">
             <ThemeProvider theme={createTheme({ palette: { primary: blue } })}>
               <Button className={optionsStyle.queryBtn} variant="contained" color="primary" startIcon={<SearchIcon />} onClick={() => {
