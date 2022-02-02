@@ -132,11 +132,6 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/ET"
     },
-	{
-      symbol: "LDI",
-      src: "marketwatch",
-      api: "investing/stock/LDI"
-    },
     {
       symbol: "SID",
       src: "marketwatch",
@@ -649,50 +644,6 @@ const ForecastConfig = {
           type: "market"
         }
       ]
-    },
-  ],
-  LDI: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'LDI',
-        file_path: 'stock/historical-quotes/LDI.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'LDI',
-        file_path: 'stock/historical-quotes/LDI.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'LDI',
-        file_path: 'stock/historical-quotes/LDI.json',
-        type: 'stock'
-      },
-      feature_data: []
     },
   ],
   THO: [
