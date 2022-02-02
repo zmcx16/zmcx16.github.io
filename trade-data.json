@@ -35,6 +35,7 @@
    "star_option_list": [
       "HUM",
       "BIO",
+      "PYPL",
       "ZIM"
    ],
    "news_config":{
