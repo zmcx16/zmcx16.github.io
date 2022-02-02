@@ -5,7 +5,6 @@
       "KGC",
       "DAC",
       "GGB",
-      "LDI",
       "THO",
       "GOGL",
       "CPLP",
@@ -117,7 +116,7 @@
          "GGB":"Gerdau S.A. (GGB)",
          "THO":"Thor Industries, Inc. (THO)",
          "VALE":"Vale S.A.",
-         "ZIM": "ZIM Integrated Shipping Services Ltd.",
+         "ZIM":"ZIM Integrated Shipping Services Ltd.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -459,88 +458,83 @@
       "GGB":"1073404",
       "THO":"730263",
       "VALE":"917851",
-      "ZIM": "1654126",
+      "ZIM":"1654126",
       "STC":"94344"
    },
    "portfolio":{
       "CPLP":{
          "cost_p":12.99,
-         "position_%":4.1612994087687305,
+         "position_%":4.3059661844993045,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":10.42321192555197,
+         "position_%":10.785572888776251,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":2.9145695628075763,
+         "position_%":3.0158940145894775,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":6.072165534504333,
+         "position_%":6.283263204556146,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":4.276624103699966,
+         "position_%":4.425300120328385,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":4.382920855341129,
+         "position_%":4.535292258150643,
          "profit_%":0
       },
       "INTC":{
-         "cost_p":49.94,
-         "position_%":8.478991917719208,
+         "cost_p":49.9,
+         "position_%":9.082517909884194,
          "profit_%":0
       },
       "KGC":{
          "cost_p":7.61,
-         "position_%":10.150262253015859,
-         "profit_%":0
-      },
-      "LDI":{
-         "cost_p":6.36,
-         "position_%":9.260922471750693,
+         "position_%":10.50313417323129,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":4.680377025550127,
+         "position_%":4.8430894350592855,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":4.900644280629016,
+         "position_%":5.0710142390096005,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":13.531663851113256,
+         "position_%":14.0020895492703,
          "profit_%":0
       },
       "THO":{
-         "cost_p":104.58,
-         "position_%":3.0456203525021612,
+         "cost_p":98.99,
+         "position_%":8.9491411422126,
          "profit_%":0
       },
       "TX":{
          "cost_p":40.0,
-         "position_%":3.49468772518894,
+         "position_%":3.6161798736084863,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.76,
-         "position_%":7.989438587736116,
+         "position_%":8.2671898877146,
          "profit_%":0
       },
       "X":{
          "cost_p":19.2,
-         "position_%":2.236600144120922,
+         "position_%":2.314355119109431,
          "profit_%":0
       }
    }
