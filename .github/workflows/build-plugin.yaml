@@ -68,9 +68,10 @@ jobs:
         python ./.github/script/build_correlation-matrix.py
     - name: Commit and push if page changed
       run: |-
-        git pull
-        git diff
         git config --global user.email "zmcx16-bot@zmcx16.moe"
         git config --global user.name "zmcx16-bot"
+        git config --global pull.ff only
+        git pull
+        git diff
         git diff --quiet || (git add *.js && git add *.json && git add ./plugin-react/\* && git commit -m "Updated plugin pages & monitor data")
         git push
