@@ -23,8 +23,8 @@ export function useInterval(callback, delay) {
   }, [delay])
 }
 
-export function ColorPosGreenNegRedField(field, headerName, width, hide) {
-  return {
+export function ColorPosGreenNegRedField(field, headerName, width, hide, description = null) {
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -36,10 +36,15 @@ export function ColorPosGreenNegRedField(field, headerName, width, hide) {
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function ColorPercentField(field, headerName, width, valueFixed, hide, fontWeight) {
-  return {
+export function ColorPercentField(field, headerName, width, valueFixed, hide, fontWeight, description = null) {
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -51,10 +56,15 @@ export function ColorPercentField(field, headerName, width, valueFixed, hide, fo
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function colorPosGreenNegRedPercentField(field, headerName, width, hide){
-  return {
+export function colorPosGreenNegRedPercentField(field, headerName, width, hide, description = null){
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -66,10 +76,15 @@ export function colorPosGreenNegRedPercentField(field, headerName, width, hide){
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function PercentField(field, headerName, width, hide){
-  return {
+export function PercentField(field, headerName, width, hide, description = null){
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -81,10 +96,15 @@ export function PercentField(field, headerName, width, hide){
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function KMBTField(field, headerName, width, hide){
-  return {
+export function KMBTField(field, headerName, width, hide, description = null){
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -96,10 +116,15 @@ export function KMBTField(field, headerName, width, hide){
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function IndustryNameField(field, headerName, width, hide) {
-  return {
+export function IndustryNameField(field, headerName, width, hide, description = null) {
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -112,10 +137,15 @@ export function IndustryNameField(field, headerName, width, hide) {
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
-export function SymbolNameField(field, headerName, width, hide) {
-  return {
+export function SymbolNameField(field, headerName, width, hide, description = null) {
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -126,11 +156,16 @@ export function SymbolNameField(field, headerName, width, hide) {
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
 
-export function PureFieldWithValueCheck(field, headerName, width, valueFixed, hide) {
-  return {
+export function PureFieldWithValueCheck(field, headerName, width, valueFixed, hide, description = null) {
+  let output = {
     field: field,
     headerName: headerName,
     width: width,
@@ -142,6 +177,11 @@ export function PureFieldWithValueCheck(field, headerName, width, valueFixed, hi
     ),
     hide: hide
   }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
 }
 
 
