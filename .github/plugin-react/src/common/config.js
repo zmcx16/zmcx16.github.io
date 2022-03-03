@@ -108,9 +108,9 @@ const MarketConfig = {
       api: "investing/stock/SB"
     },	
     {
-      symbol: "VALE",
+      symbol: "ARLP",
       src: "marketwatch",
-      api: "investing/stock/VALE"
+      api: "investing/stock/ARLP"
     },
     {
       symbol: "GGB",
@@ -227,7 +227,7 @@ const MarketConfig = {
 
 const ForecastConfig = {
 // hold stocks
-  VALE: [
+  ARLP: [
     {
       type: 'stock_fbprophet_empty',
       algorithm: 'fbprophet',
@@ -236,8 +236,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
+        name: 'ARLP',
+        file_path: 'stock/historical-quotes/ARLP.json',
         type: 'stock'
       },
       feature_data: [] 
@@ -250,8 +250,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
+        name: 'ARLP',
+        file_path: 'stock/historical-quotes/ARLP.json',
         type: 'stock'
       },
       feature_data: []
@@ -264,35 +264,29 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
+        name: 'ARLP',
+        file_path: 'stock/historical-quotes/ARLP.json',
         type: 'stock'
       },
       feature_data: []
     },
     {
-      type: 'stock_fbprophet_empty_TIOc1_HRN00',
+      type: 'stock_fbprophet_empty_COAL',
       algorithm: 'fbprophet',
       args: {
         using_regressors: [],
         forecast_periods: 30
       },
       target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
+        name: 'ARLP',
+        file_path: 'stock/historical-quotes/ARLP.json',
         type: 'stock'
       },
       feature_data: [
         {
           using_regressors: ["Close"],
-          name: "TIOc1",
-          file_path: "markets/historical-quotes/investing_TIOc1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "HRN00",
-          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
+          name: "COAL",
+          file_path: "markets/historical-quotes/marketwatch_COAL.json",
           type: "market"
         }
       ]
