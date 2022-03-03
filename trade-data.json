@@ -1,6 +1,6 @@
 {
    "hold_stock_list":[
-      "VALE",
+      "ARLP",
       "INTC",
       "BIO",
       "DAC",
@@ -32,9 +32,10 @@
       "ZIM"
    ],
    "star_option_list":[
-      "X", 
+      "X",
+      "VALE",
       "PYPL",
-      "ZIM", 
+      "ZIM",
       "FB"
    ],
    "news_config":{
@@ -464,79 +465,79 @@
       "STC":"94344"
    },
    "portfolio":{
+      "ARLP":{
+         "cost_p":14.01,
+         "position_%":9.071557376998229,
+         "profit_%":0
+      },
       "BIO":{
          "cost_p":596.71,
-         "position_%":7.058549372347322,
+         "position_%":6.800168910973847,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":3.841504095238546,
+         "position_%":3.7008846069929393,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":9.62218945677707,
+         "position_%":9.269966128708422,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":2.690585274347216,
+         "position_%":2.592095538301164,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":5.605520409949703,
+         "position_%":5.4003285393034,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":3.947966102496889,
+         "position_%":3.803449538364568,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":4.046093962722383,
+         "position_%":3.897985396825791,
          "profit_%":0
       },
       "INTC":{
          "cost_p":47.28,
-         "position_%":15.303945804601138,
+         "position_%":7.396361244877192,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":4.320690665282158,
+         "position_%":4.162530399106048,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":6.074904947708873,
+         "position_%":5.852531105664464,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":4.524030410711068,
+         "position_%":4.358426828002339,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":12.49175725974106,
+         "position_%":12.034492482819338,
          "profit_%":0
       },
       "THO":{
          "cost_p":98.9,
-         "position_%":8.269060032958057,
+         "position_%":7.966368440998539,
          "profit_%":0
       },
       "TX":{
-         "cost_p":39.41,
-         "position_%":8.772759749016355,
-         "profit_%":0
-      },
-      "VALE":{
-         "cost_p":12.76,
-         "position_%":3.430442456102166,
+         "cost_p":39.81,
+         "position_%":13.692853462063717,
          "profit_%":0
       }
    }
