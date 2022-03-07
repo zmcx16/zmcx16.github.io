@@ -1,5 +1,5 @@
 export const MonitorURL = 'https://stockminehunterfuncmonitor0.azurewebsites.net'
-export const NornFinanceAPIURL = "wss://norn-finance.zmcx16.moe"
+export const NornFinanceAPIServerDomain = "norn-finance.zmcx16.moe"
 
 // cookie
 export const COOKIE_KEY_API_TOKEN = 'api_token'

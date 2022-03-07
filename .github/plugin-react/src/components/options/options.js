@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { DataGrid } from '@mui/x-data-grid'
 import SearchIcon from '@mui/icons-material/Search'
+import IconButton from '@mui/material/IconButton'
+import BarChartSharpIcon from '@mui/icons-material/BarChartSharp'
 import { blue } from '@mui/material/colors'
 import { createTheme } from '@mui/material/styles'
 import { ThemeProvider } from '@mui/styles'
@@ -13,14 +15,21 @@ import moment from 'moment'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIURL } from '../../common/def'
-import { getRedLevel, getBlueLevel } from '../../common/utils'
+import { NornFinanceAPIServerDomain } from '../../common/def'
+import { getRedLevel, getBlueLevel, workdayCount } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
+import MonteCarloChart from '../monteCarloChart'
 
 import commonStyle from '../common.module.scss'
 import optionsStyle from './options.module.scss'
 
+
+const FetchNornFinanceAPIServer = ({FetchNornFinanceAPIServerRef}) => {
+  const useFetchNornFinanceAPIServer = useFetch("https://" + NornFinanceAPIServerDomain, { cachePolicy: 'no-cache' })
+  FetchNornFinanceAPIServerRef.current.server = useFetchNornFinanceAPIServer
+  return <></>
+}
 
 const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
   const [ws, setWs] = useState(null)
@@ -42,7 +51,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
 
     let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
     let query_string = "/ws/option/quote-valuation?symbol=" + symbol
-    setWs(new WebSocket(NornFinanceAPIURL + query_string))
+    setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
     let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
     let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now + 1}/${queryDataRef.current.symbols.length})`
     ControlPannelRef.current.updateProgress(val, text)
@@ -82,7 +91,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
           } else {
             let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
             let query_string = "/ws/option/quote-valuation?symbol=" + symbol
-            setWs(new WebSocket(NornFinanceAPIURL + query_string))
+            setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
             let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
             let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now+1}/${queryDataRef.current.symbols.length})`
             ControlPannelRef.current.updateProgress(val, text)
@@ -151,6 +160,10 @@ const Options = () => {
     popModalWindow: null,
     popPureModal: null,
   })
+    
+  const FetchNornFinanceAPIServerRef = useRef({
+    server: null
+  })
 
   const SyncDataRef = useRef({
     syncData: null,
@@ -192,6 +205,7 @@ const Options = () => {
     BSM_EWMAHisVol: { hide: false, text: 'Black Scholes Merton' },
     MC_EWMAHisVol: { hide: false, text: 'Monte Carlo' },
     BT_EWMAHisVol: { hide: false, text: 'Binomial Tree' },
+    MCChart: { hide: false, text: 'MC Chart' },
   }
 
   const genTableColTemplate = () => {
@@ -256,6 +270,50 @@ const Options = () => {
       PureFieldWithValueCheck("BSM_EWMAHisVol", tableColList.BSM_EWMAHisVol.text, 140, 2, "BSM_EWMAHisVol" in hideColState ? hideColState["BSM_EWMAHisVol"] : tableColList['BSM_EWMAHisVol'].hide),
       PureFieldWithValueCheck("MC_EWMAHisVol", tableColList.MC_EWMAHisVol.text, 140, 2, "MC_EWMAHisVol" in hideColState ? hideColState["MC_EWMAHisVol"] : tableColList['MC_EWMAHisVol'].hide),
       PureFieldWithValueCheck("BT_EWMAHisVol", tableColList.BT_EWMAHisVol.text, 140, 2, "BT_EWMAHisVol" in hideColState ? hideColState["BT_EWMAHisVol"] : tableColList['BT_EWMAHisVol'].hide),
+      {
+        field: 'MCChart',
+        headerName: tableColList.MCChart.text,
+        width: 120,
+        renderCell: (params) => (
+          <IconButton
+            size="small"
+            aria-haspopup="true"
+            onClick={() => {
+              let iteration = 50
+              const query_string = '/stock/price-simulation-by-mc?symbol=' + params.row['symbol'] + '&iteration=' + iteration + '&mu=0&vol=' + 
+              params.row['EWMAHisVol'] + '&days=' + workdayCount(moment(new Date().toISOString().split('T')[0]), moment(params.row['expiryDate']))
+              Promise.all([
+                GetDataByFetchObj(query_string, FetchNornFinanceAPIServerRef.current.server),
+              ]).then((allResponses) => {
+                console.log(allResponses)
+                if (allResponses.length === 1 && allResponses[0] !== null) {
+                  let chartData = []
+                  let cost = params.row['kind'] === 1 ? params.row['strike'] + params.row['lastPrice'] : params.row['strike'] - params.row['lastPrice']
+                  let info = {'symbol': params.row['symbol'], 'strike': params.row['strike'], 'cost': cost}
+                  allResponses[0]['mean'].forEach((mean_point, mean_index) => {
+                    let d = {'Mean': parseInt(mean_point * 100, 10) / 100.0, 'Name': 'Day' + mean_index}
+                    allResponses[0]['data'].forEach((data_points, data_i) => {
+                      d['Path-'+String(data_i).padStart(2, '0')] =  parseInt(data_points[mean_index] * 100, 10) / 100.0
+                    })
+                    chartData.push(d)
+                  })
+                  console.log(chartData)
+                  modalWindowRef.current.popModalWindow(<MonteCarloChart data={chartData} iteration={iteration} info={info}/>)
+                } else {
+                  console.error("Call simulation api failed")
+                  modalWindowRef.current.popModalWindow(<div>Call simulation api failed</div>)
+                }
+              }).catch(() => {
+                console.error("Call simulation api failed...")
+                modalWindowRef.current.popModalWindow(<div>Call simulation api failed...</div>)
+              })
+            }}
+          >
+            <BarChartSharpIcon color="primary" style={{ fontSize: 40 }} />
+          </IconButton>
+        ),
+        hide: 'MCChart' in  hideColState? hideColState['MCChart'] : tableColList['MCChart'].hide
+      },
     ]
   }
 
@@ -436,6 +494,7 @@ const Options = () => {
       </div>
       <ModalWindow modalWindowRef={modalWindowRef} />
       <SyncData OptionsRef={OptionsRef} ControlPannelRef={ControlPannelRef} SyncDataRef={SyncDataRef}/>
+      <FetchNornFinanceAPIServer FetchNornFinanceAPIServerRef={FetchNornFinanceAPIServerRef}/>
     </div>
   )
 }
