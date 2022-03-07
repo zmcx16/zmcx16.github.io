@@ -1,5 +1,6 @@
 import os
 import time
+import random
 import datetime
 import pathlib
 import json
@@ -21,7 +22,7 @@ def send_post_json(url, req_data):
 
 
 if __name__ == "__main__":
-
+    MAX_SCREENER_STOCKS = 20
     DELAY_TIME_SEC = 300
     SEC_RETRY_CNT = 5
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
@@ -54,7 +55,7 @@ if __name__ == "__main__":
                 if resp["ret"] != 0:
                     print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                 else:
-                    scan_output["screener_stock_list"] += resp["data"][0]["result"]["symbols"]
+                    scan_output["screener_stock_list"] += random.choices(resp["data"][0]["result"]["symbols"], k=MAX_SCREENER_STOCKS)
 
             except Exception as ex:
                 print('Generated an exception: {ex}, try next target.'.format(ex=ex))
