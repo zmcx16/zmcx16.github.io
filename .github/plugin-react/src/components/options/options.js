@@ -50,7 +50,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
     }
 
     let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
-    let query_string = "/ws/option/quote-valuation?symbol=" + symbol
+    let query_string = "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
     setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
     let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
     let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now + 1}/${queryDataRef.current.symbols.length})`
@@ -90,7 +90,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
             ControlPannelRef.current.updateProgress(100, `100%`)
           } else {
             let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
-            let query_string = "/ws/option/quote-valuation?symbol=" + symbol
+            let query_string = "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
             setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
             let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
             let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now+1}/${queryDataRef.current.symbols.length})`
