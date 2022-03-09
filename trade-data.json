@@ -14,6 +14,7 @@
       "SB",
       "NMM",
       "PKX",
+      "NC",
       "TX"
    ],
    "star_stock_list":[
@@ -32,7 +33,7 @@
       "ZIM"
    ],
    "star_option_list":[
-      "X",  
+      "X",
       "VALE",
       "PYPL",
       "ZIM",
@@ -119,6 +120,7 @@
          "VALE":"Vale S.A.",
          "ZIM":"ZIM Integrated Shipping Services Ltd.",
          "PKX":"POSCO (PKX)",
+         "NC":"NACCO Industries, Inc. (NC)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -462,82 +464,88 @@
       "VALE":"917851",
       "ZIM":"1654126",
       "PKX":"889132",
+      "NC":"789933",
       "STC":"94344"
    },
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":9.071557376998229,
+         "position_%":8.299037752340507,
          "profit_%":0
       },
       "BIO":{
          "cost_p":596.71,
-         "position_%":6.800168910973847,
+         "position_%":6.221077172213007,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":3.7008846069929393,
+         "position_%":3.3857230676143755,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":9.269966128708422,
+         "position_%":8.48055032536493,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":2.592095538301164,
+         "position_%":2.3713567401976814,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":5.4003285393034,
+         "position_%":4.940445015137065,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":3.803449538364568,
+         "position_%":3.4795537299962978,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":3.897985396825791,
+         "position_%":3.566039062747312,
          "profit_%":0
       },
       "INTC":{
          "cost_p":47.28,
-         "position_%":7.396361244877192,
+         "position_%":6.766498700303158,
+         "profit_%":0
+      },
+      "NC":{
+         "cost_p":29.95,
+         "position_%":8.515843449510859,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":4.162530399106048,
+         "position_%":3.808055826779878,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":5.852531105664464,
+         "position_%":5.354138718872151,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":4.358426828002339,
+         "position_%":3.9872700224681785,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":12.034492482819338,
+         "position_%":11.009653943039291,
          "profit_%":0
       },
       "THO":{
          "cost_p":98.9,
-         "position_%":7.966368440998539,
+         "position_%":7.287964975951865,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.81,
-         "position_%":13.692853462063717,
+         "position_%":12.526791497463444,
          "profit_%":0
       }
    }
