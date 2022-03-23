@@ -127,6 +127,11 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/THO"
     },
+    {
+      symbol: "WGO",
+      src: "marketwatch",
+      api: "investing/stock/WGO"
+    },
 	{
       symbol: "INTC",
       src: "marketwatch",
@@ -723,6 +728,50 @@ const ForecastConfig = {
       target_data: {
         name: 'THO',
         file_path: 'stock/historical-quotes/THO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  WGO: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'WGO',
+        file_path: 'stock/historical-quotes/WGO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'WGO',
+        file_path: 'stock/historical-quotes/WGO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'WGO',
+        file_path: 'stock/historical-quotes/WGO.json',
         type: 'stock'
       },
       feature_data: []

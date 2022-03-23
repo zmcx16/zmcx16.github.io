@@ -6,6 +6,7 @@
       "DAC",
       "GGB",
       "THO",
+      "WGO",
       "GOGL",
       "CPLP",
       "SID",
@@ -121,6 +122,7 @@
          "ZIM":"ZIM Integrated Shipping Services Ltd.",
          "PKX":"POSCO (PKX)",
          "NC":"NACCO Industries, Inc. (NC)",
+         "WGO":"Winnebago Industries, Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -465,87 +467,93 @@
       "ZIM":"1654126",
       "PKX":"889132",
       "NC":"789933",
+      "WGO":"107687",
       "STC":"94344"
    },
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":7.7087170634746665,
+         "position_%":7.768982124265297,
          "profit_%":0
       },
       "BIO":{
          "cost_p":596.71,
-         "position_%":5.778564356705856,
+         "position_%":5.8237399065894415,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":3.144892451677074,
+         "position_%":3.169478531723821,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":5.08214091970574,
+         "position_%":5.121871983766167,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":2.2026792397217547,
+         "position_%":2.2198993033446706,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":4.589025128678902,
+         "position_%":4.624901121541573,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":1.95881746937686,
+         "position_%":1.9741310751166636,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":3.3123823499013203,
+         "position_%":3.3382778292703135,
          "profit_%":0
       },
       "INTC":{
          "cost_p":47.28,
-         "position_%":6.28518938551588,
+         "position_%":6.334325618857929,
          "profit_%":0
       },
       "NC":{
          "cost_p":29.95,
-         "position_%":7.910101106674647,
+         "position_%":7.971940543785718,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":3.537184165993626,
+         "position_%":3.5648370966999936,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":4.973292294126524,
+         "position_%":5.012172403484177,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":3.703650637113085,
+         "position_%":3.732604966212858,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":10.226523814730555,
+         "position_%":10.306472536975365,
          "profit_%":0
       },
       "THO":{
          "cost_p":89.53,
-         "position_%":17.951094094196147,
+         "position_%":9.15493969961178,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.81,
-         "position_%":11.635745522407378,
+         "position_%":11.72671123115997,
+         "profit_%":0
+      },
+      "WGO":{
+         "cost_p":56.56,
+         "position_%":8.154714027594272,
          "profit_%":0
       }
    }
