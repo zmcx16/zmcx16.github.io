@@ -1,7 +1,6 @@
 {
    "hold_stock_list":[
       "ARLP",
-      "INTC",
       "BIO",
       "DAC",
       "GGB",
@@ -20,6 +19,7 @@
    ],
    "star_stock_list":[
       "JNJ",
+      "INTC",
       "AMZN",
       "GOOG",
       "MU",
@@ -34,10 +34,8 @@
       "ZIM"
    ],
    "star_option_list":[
-      "X",
       "VALE",
       "PYPL",
-      "ZIM",
       "FB"
    ],
    "news_config":{
@@ -471,90 +469,85 @@
       "STC":"94344"
    },
    "portfolio":{
-      "ARLP":{
-         "cost_p":14.01,
-         "position_%":7.768982124265297,
-         "profit_%":0
-      },
-      "BIO":{
-         "cost_p":596.71,
-         "position_%":5.8237399065894415,
-         "profit_%":0
-      },
-      "CPLP":{
-         "cost_p":12.99,
-         "position_%":3.169478531723821,
-         "profit_%":0
-      },
-      "DAC":{
-         "cost_p":76.97,
-         "position_%":5.121871983766167,
-         "profit_%":0
-      },
-      "EDRY":{
-         "cost_p":22.24,
-         "position_%":2.2198993033446706,
-         "profit_%":0
-      },
-      "ET":{
-         "cost_p":9.35,
-         "position_%":4.624901121541573,
-         "profit_%":0
-      },
-      "GGB":{
-         "cost_p":4.45,
-         "position_%":1.9741310751166636,
-         "profit_%":0
-      },
-      "GOGL":{
-         "cost_p":10.75,
-         "position_%":3.3382778292703135,
-         "profit_%":0
-      },
-      "INTC":{
-         "cost_p":47.28,
-         "position_%":6.334325618857929,
-         "profit_%":0
-      },
-      "NC":{
-         "cost_p":29.95,
-         "position_%":7.971940543785718,
-         "profit_%":0
-      },
-      "NMM":{
-         "cost_p":30.04,
-         "position_%":3.5648370966999936,
-         "profit_%":0
-      },
-      "PKX":{
-         "cost_p":58.54,
-         "position_%":5.012172403484177,
-         "profit_%":0
-      },
-      "SB":{
-         "cost_p":4.05,
-         "position_%":3.732604966212858,
-         "profit_%":0
-      },
-      "SID":{
-         "cost_p":4.82,
-         "position_%":10.306472536975365,
-         "profit_%":0
-      },
-      "THO":{
-         "cost_p":89.53,
-         "position_%":9.15493969961178,
-         "profit_%":0
-      },
-      "TX":{
-         "cost_p":39.81,
-         "position_%":11.72671123115997,
-         "profit_%":0
-      },
-      "WGO":{
-         "cost_p":56.56,
-         "position_%":8.154714027594272,
-         "profit_%":0
-      }
-   }
+    "ARLP": {
+        "cost_p": 14.01,
+        "position_%": 8.294374834319715,
+        "profit_%": 0
+    },
+    "BIO": {
+        "cost_p": 596.71,
+        "position_%": 6.217581782299054,
+        "profit_%": 0
+    },
+    "CPLP": {
+        "cost_p": 12.99,
+        "position_%": 3.383820756819255,
+        "profit_%": 0
+    },
+    "DAC": {
+        "cost_p": 76.97,
+        "position_%": 5.4682486595082525,
+        "profit_%": 0
+    },
+    "EDRY": {
+        "cost_p": 22.24,
+        "position_%": 2.3700243637936245,
+        "profit_%": 0
+    },
+    "ET": {
+        "cost_p": 9.35,
+        "position_%": 4.93766916439638,
+        "profit_%": 0
+    },
+    "GGB": {
+        "cost_p": 4.45,
+        "position_%": 2.107635575316073,
+        "profit_%": 0
+    },
+    "GOGL": {
+        "cost_p": 10.75,
+        "position_%": 3.564035439158079,
+        "profit_%": 0
+    },
+    "NC": {
+        "cost_p": 29.95,
+        "position_%": 8.511058716501086,
+        "profit_%": 0
+    },
+    "NMM": {
+        "cost_p": 30.04,
+        "position_%": 3.805916223048847,
+        "profit_%": 0
+    },
+    "PKX": {
+        "cost_p": 58.54,
+        "position_%": 5.351130429156755,
+        "profit_%": 0
+    },
+    "SB": {
+        "cost_p": 4.05,
+        "position_%": 3.985029725002814,
+        "profit_%": 0
+    },
+    "SID": {
+        "cost_p": 4.82,
+        "position_%": 11.003468031454638,
+        "profit_%": 0
+    },
+    "THO": {
+        "cost_p": 89.53,
+        "position_%": 9.774060519074174,
+        "profit_%": 0
+    },
+    "TX": {
+        "cost_p": 39.81,
+        "position_%": 12.51975316319394,
+        "profit_%": 0
+    },
+    "WGO": {
+        "cost_p": 56.56,
+        "position_%": 8.706192616957315,
+        "profit_%": 0
+    }
+}
 }
