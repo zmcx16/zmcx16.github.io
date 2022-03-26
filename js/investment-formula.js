@@ -764,7 +764,7 @@ $(document).ready(function () {
   $("#factor-intersectional-formula-val")[0].innerHTML = '$$' + factor_intersectional_formula + '$$';
   $("#factor-intersectional-formula-description")[0].innerHTML = '$$' + 'S: 個股分數 \\qquad w: 因子權重 \\qquad n: 因子個數 \\qquad c: 市值M以上個股數 \\qquad f^*: 因子排行值' + '$$' + 
     '$$' + 'f_i: 盈餘殖利率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
-    '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI) \\qquad 股息率(\\%)  \\qquad 股價區間權重(52W)' + '$$' + 
+    '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI) \\qquad 股息率(\\%)  \\qquad 股價區間(52W)' + '$$' + 
     '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 目標價現價差(\\%) \\qquad 內部人持股(\\%) \\qquad 內部人交易(\\%, 6M)' + '$$' + 
     '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M) \\qquad 做空比率(\\%) \\qquad 做空回補天數(Days) \\qquad 盈餘殖利率(Last Q)(\\cfrac{每股盈餘}{股價})' + '$$';
 
