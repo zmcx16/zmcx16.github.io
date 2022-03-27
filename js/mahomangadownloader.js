@@ -76,7 +76,7 @@ var myvar =
 '                <li><a class="link line-through" target="_blank" href="https://hentai-comic.com/">https://hentai-comic.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://manhua.dmzj.com/">https://manhua.dmzj.com/</a></li>' +
 '                <li><a class="link line-through" target="_blank" href="https://www.youma.org/">https://www.youma.org/</a></li>' +
-'				<li><a class="link" target="_blank" href="https://welovemanga.net/">https://welovemanga.net/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://welovemanga.net/">https://welovemanga.net/ (https://4uview.com/)</a></li>' +
 '				<li><a class="link line-through" target="_blank" href="https://hanascan.com/">https://hanascan.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.mangatown.com/">https://www.mangatown.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://www.cocomanga.com/">https://www.cocomanga.com/</a></li>' +
