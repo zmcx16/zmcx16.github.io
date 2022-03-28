@@ -34,8 +34,8 @@
       "ZIM"
    ],
    "star_option_list":[
-      "VALE", 
-      "PYPL", 
+      "VALE",
+      "PYPL",
       "FB"
    ],
    "news_config":{
@@ -469,85 +469,85 @@
       "STC":"94344"
    },
    "portfolio":{
-    "ARLP": {
-        "cost_p": 14.01,
-        "position_%": 8.294374834319715,
-        "profit_%": 0
-    },
-    "BIO": {
-        "cost_p": 596.71,
-        "position_%": 6.217581782299054,
-        "profit_%": 0
-    },
-    "CPLP": {
-        "cost_p": 12.99,
-        "position_%": 3.383820756819255,
-        "profit_%": 0
-    },
-    "DAC": {
-        "cost_p": 76.97,
-        "position_%": 5.4682486595082525,
-        "profit_%": 0
-    },
-    "EDRY": {
-        "cost_p": 22.24,
-        "position_%": 2.3700243637936245,
-        "profit_%": 0
-    },
-    "ET": {
-        "cost_p": 9.35,
-        "position_%": 4.93766916439638,
-        "profit_%": 0
-    },
-    "GGB": {
-        "cost_p": 4.45,
-        "position_%": 2.107635575316073,
-        "profit_%": 0
-    },
-    "GOGL": {
-        "cost_p": 10.75,
-        "position_%": 3.564035439158079,
-        "profit_%": 0
-    },
-    "NC": {
-        "cost_p": 29.95,
-        "position_%": 8.511058716501086,
-        "profit_%": 0
-    },
-    "NMM": {
-        "cost_p": 30.04,
-        "position_%": 3.805916223048847,
-        "profit_%": 0
-    },
-    "PKX": {
-        "cost_p": 58.54,
-        "position_%": 5.351130429156755,
-        "profit_%": 0
-    },
-    "SB": {
-        "cost_p": 4.05,
-        "position_%": 3.985029725002814,
-        "profit_%": 0
-    },
-    "SID": {
-        "cost_p": 4.82,
-        "position_%": 11.003468031454638,
-        "profit_%": 0
-    },
-    "THO": {
-        "cost_p": 89.53,
-        "position_%": 9.774060519074174,
-        "profit_%": 0
-    },
-    "TX": {
-        "cost_p": 39.81,
-        "position_%": 12.51975316319394,
-        "profit_%": 0
-    },
-    "WGO": {
-        "cost_p": 56.56,
-        "position_%": 8.706192616957315,
-        "profit_%": 0
-    }
-}
+      "ARLP":{
+         "cost_p":14.01,
+         "position_%":8.360422853837084,
+         "profit_%":0
+      },
+      "BIO":{
+         "cost_p":596.71,
+         "position_%":6.267092320598931,
+         "profit_%":0
+      },
+      "CPLP":{
+         "cost_p":12.99,
+         "position_%":3.410766085895163,
+         "profit_%":0
+      },
+      "DAC":{
+         "cost_p":76.97,
+         "position_%":5.511792266037176,
+         "profit_%":0
+      },
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":1.5925978952405713,
+         "profit_%":0
+      },
+      "ET":{
+         "cost_p":9.35,
+         "position_%":4.97698777198944,
+         "profit_%":0
+      },
+      "GGB":{
+         "cost_p":4.45,
+         "position_%":2.124418655221986,
+         "profit_%":0
+      },
+      "GOGL":{
+         "cost_p":10.75,
+         "position_%":3.5924158158529083,
+         "profit_%":0
+      },
+      "NC":{
+         "cost_p":29.95,
+         "position_%":8.57883218749193,
+         "profit_%":0
+      },
+      "NMM":{
+         "cost_p":30.04,
+         "position_%":3.8362226938802944,
+         "profit_%":0
+      },
+      "PKX":{
+         "cost_p":58.54,
+         "position_%":5.393741424449919,
+         "profit_%":0
+      },
+      "SB":{
+         "cost_p":4.05,
+         "position_%":4.016762474765367,
+         "profit_%":0
+      },
+      "SID":{
+         "cost_p":4.82,
+         "position_%":11.091088531590845,
+         "profit_%":0
+      },
+      "THO":{
+         "cost_p":89.53,
+         "position_%":9.851891260127331,
+         "profit_%":0
+      },
+      "TX":{
+         "cost_p":39.81,
+         "position_%":12.619447825877108,
+         "profit_%":0
+      },
+      "WGO":{
+         "cost_p":56.56,
+         "position_%":8.775519937143942,
+         "profit_%":0
+      }
+   }
 }
