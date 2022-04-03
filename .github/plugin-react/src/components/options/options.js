@@ -34,29 +34,35 @@ const FetchNornFinanceAPIServer = ({FetchNornFinanceAPIServerRef}) => {
   return <></>
 }
 
+function buildQuoteValuationAPI(symbol, specific_contract_args) {
+  return specific_contract_args != "" ? 
+  "/ws/option/quote-valuation?symbol=" + symbol + "&max_next_days=252&min_volume=0&last_trade_days=252&specific_contract=" + specific_contract_args : 
+  "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
+}
+
 const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
   const [ws, setWs] = useState(null)
 
   const queryDataRef = useRef({
-    symbols: [],
+    apiArgs: [],
     now: 0,
     data: [],
   })
 
-  const syncData = (symbols) => {
-    if (symbols.length > 0){
-      queryDataRef.current.symbols = symbols
+  const syncData = (apiArgs) => {
+    if (apiArgs.length > 0){
+      queryDataRef.current.apiArgs = apiArgs
     }
-    if (queryDataRef.current.symbols.length == 0) {
-      console.error("No symbols data")
+    if (queryDataRef.current.apiArgs.length == 0) {
+      console.error("No apiArgs data")
       return
     }
 
-    let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
-    let query_string = "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
+    let args = queryDataRef.current.apiArgs[queryDataRef.current.now]
+    let query_string = buildQuoteValuationAPI(args.symbol, args.specific_contract_args)
     setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
-    let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
-    let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now + 1}/${queryDataRef.current.symbols.length})`
+    let val = queryDataRef.current.now * 100 / queryDataRef.current.apiArgs.length
+    let text = `${Math.round(val)}% - Querying ${args.symbol} (${queryDataRef.current.now + 1}/${queryDataRef.current.apiArgs.length})`
     ControlPannelRef.current.updateProgress(val, text)
   }
 
@@ -68,7 +74,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
     if (ws && ws.readyState === WebSocket.OPEN) {
       ws.send("") // heartbeat
       console.log("heartbeat")
-    } else if (queryDataRef.current.now < queryDataRef.current.symbols.length) {
+    } else if (queryDataRef.current.now < queryDataRef.current.apiArgs.length) {
       console.warn("unexpected disconnected, do syncData again")
       syncData([])
     }
@@ -84,19 +90,19 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
         console.log(message)
         queryDataRef.current.data.push(message)
         queryDataRef.current.now += 1
-        if (queryDataRef.current.symbols.length !== 0){
-          if (queryDataRef.current.now >= queryDataRef.current.symbols.length) {
+        if (queryDataRef.current.apiArgs.length !== 0){
+          if (queryDataRef.current.now >= queryDataRef.current.apiArgs.length) {
             OptionsRef.current.renderTable(queryDataRef.current.data)
             queryDataRef.current.now = 0
             queryDataRef.current.data = []
             setWs(null)
             ControlPannelRef.current.updateProgress(100, `100%`)
           } else {
-            let symbol = queryDataRef.current.symbols[queryDataRef.current.now]
-            let query_string = "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
+            let args = queryDataRef.current.apiArgs[queryDataRef.current.now]
+            let query_string = buildQuoteValuationAPI(args.symbol, args.specific_contract_args)
             setWs(new WebSocket("wss://" + NornFinanceAPIServerDomain + query_string))
-            let val = queryDataRef.current.now * 100 / queryDataRef.current.symbols.length
-            let text = `${Math.round(val)}% - Querying ${symbol} (${queryDataRef.current.now+1}/${queryDataRef.current.symbols.length})`
+            let val = queryDataRef.current.now * 100 / queryDataRef.current.apiArgs.length
+            let text = `${Math.round(val)}% - Querying ${args.symbol} (${queryDataRef.current.now+1}/${queryDataRef.current.apiArgs.length})`
             ControlPannelRef.current.updateProgress(val, text)
           }
         }
@@ -108,19 +114,30 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
   return <></>
 }
 
-const ControlPannel = ({ SyncDataRef, modalWindowRef, ControlPannelRef }) => {
+const ControlPannel = ({ selectArg, SyncDataRef, modalWindowRef, ControlPannelRef }) => {
 
   const [progress, setProgress] = useState({val:0, text:'0%'});
   const fetchOptionsData = useFetch({ cachePolicy: 'no-cache' })
 
-  const refreshQueryOptionsData = () => {
+  const refreshQueryOptionsData = (argValue) => {
     Promise.all([
       GetDataByFetchObj('/trade-data.json', fetchOptionsData),
     ]).then((allResponses) => {
       console.log(allResponses)
       if (allResponses.length === 1 && allResponses[0] !== null) {
         let trade_data = allResponses[0]
-        SyncDataRef.current.syncData(trade_data['hold_stock_list'].concat(trade_data['star_option_list']))
+        let apiArgs = []
+        if (argValue==0) {
+          let symbols = trade_data['hold_stock_list'].concat(trade_data['star_option_list'])
+          symbols.forEach((symbol) => {
+            apiArgs.push({"symbol": symbol, "specific_contract_args": ""})
+          })
+        } else {
+          trade_data['hold_option_list'].forEach((data) => {
+            apiArgs.push({"symbol": data.symbol, "specific_contract_args": data.type + "_" + data.expiry + "_" + data.strike})
+          })
+        }
+        SyncDataRef.current.syncData(apiArgs)
       } else {
         console.error("refreshQueryOptionsData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
@@ -147,7 +164,7 @@ const ControlPannel = ({ SyncDataRef, modalWindowRef, ControlPannelRef }) => {
           <Box display="flex" justifyContent="flex-end">
             <ThemeProvider theme={createTheme({ palette: { primary: blue } })}>
               <Button className={optionsStyle.queryBtn} variant="contained" color="primary" startIcon={<SearchIcon />} onClick={() => {
-                refreshQueryOptionsData()
+                refreshQueryOptionsData(selectArg)
               }}>{'Query Now'}</Button>
             </ThemeProvider>
           </Box>
@@ -448,7 +465,7 @@ const Options = () => {
   const [putsData, setPutsData] = useState([])
   const [hideColState, setHideColState] = useState({})
   const [arg, setArg] = useState(0)
-  
+
   useEffect(() => {
     // componentDidMount is here!
     // componentDidUpdate is here!
@@ -470,7 +487,7 @@ const Options = () => {
               value={arg}
               displayEmpty
               onChange={(event) => {
-                setArg(event.target.value)
+                setArg(parseInt(event.target.value))
                 refreshData(Options_Def[event.target.value].local_path)
               }}
               label={'Options Valuation'}
@@ -484,7 +501,7 @@ const Options = () => {
           </FormControl>
         </Grid>
       </Grid>
-      <ControlPannel SyncDataRef={SyncDataRef} modalWindowRef={modalWindowRef} ControlPannelRef={ControlPannelRef}/>
+      <ControlPannel selectArg={arg} SyncDataRef={SyncDataRef} modalWindowRef={modalWindowRef} ControlPannelRef={ControlPannelRef}/>
       <div key={shortid.generate()} >
         <div className={optionsStyle.table}>
           <DataGrid rows={callsData} columns={genTableColTemplate()} rowsPerPageOptions={[]} autoPageSize={true} components={{ NoRowsOverlay: DefaultDataGridTable, }} disableSelectionOnClick onColumnVisibilityChange={(param) => {
