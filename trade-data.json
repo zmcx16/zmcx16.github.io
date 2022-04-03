@@ -33,6 +33,14 @@
       "S",
       "ZIM"
    ],
+   "hold_option_list":[
+      {
+         "symbol": "INTC",
+         "type": "put",
+         "expiry": "2022-04-29",
+         "strike": 44
+      }
+   ],
    "star_option_list":[
       "C",
       "INTC",
