@@ -422,7 +422,7 @@ const Options = () => {
 
   const renderDefaultOptionsData = () => {
     Promise.all([
-      GetDataByFetchObj('/plugin-react/option-valuation/output.json', fetchOptionsData),
+      GetDataByFetchObj('/plugin-react/option-valuation/star/output.json', fetchOptionsData),
     ]).then((allResponses) => {
       console.log(allResponses)
       if (allResponses.length === 1 && allResponses[0] !== null) {
