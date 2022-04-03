@@ -15,11 +15,11 @@
       "NMM",
       "PKX",
       "NC",
+      "INTC",
       "TX"
    ],
    "star_stock_list":[
       "JNJ",
-      "INTC",
       "AMZN",
       "GOOG",
       "MU",
@@ -35,172 +35,172 @@
    ],
    "hold_option_list":[
       {
-         "symbol": "BIO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 540
+         "symbol":"BIO",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":540
       },
       {
-         "symbol": "C",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 51
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":51
       },
       {
-         "symbol": "ET",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 9.5
+         "symbol":"ET",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":9.5
       },
       {
-         "symbol": "ET",
-         "type": "put",
-         "expiry": "2022-04-08",
-         "strike": 9
+         "symbol":"ET",
+         "type":"put",
+         "expiry":"2022-04-08",
+         "strike":9
       },
       {
-         "symbol": "INTC",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 44
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":44
       },
       {
-         "symbol": "INTC",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 44
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":44
       },
       {
-         "symbol": "NMM",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 22.5
+         "symbol":"NMM",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":22.5
       },
       {
-         "symbol": "PKX",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 55
+         "symbol":"PKX",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":55
       },
       {
-         "symbol": "T",
-         "type": "put",
-         "expiry": "2022-04-22",
-         "strike": 22
+         "symbol":"T",
+         "type":"put",
+         "expiry":"2022-04-22",
+         "strike":22
       },
       {
-         "symbol": "THO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 75
+         "symbol":"THO",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":75
       },
       {
-         "symbol": "WGO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 50
+         "symbol":"WGO",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":50
       },
       {
-         "symbol": "X",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 19
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":19
       },
       {
-         "symbol": "ZIM",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 45
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":45
       },
       {
-         "symbol": "ABB",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 36
+         "symbol":"ABB",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":36
       },
       {
-         "symbol": "ADI",
-         "type": "put",
-         "expiry": "2022-04-08",
-         "strike": 155
+         "symbol":"ADI",
+         "type":"put",
+         "expiry":"2022-04-08",
+         "strike":155
       },
       {
-         "symbol": "APO",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 66
+         "symbol":"APO",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":66
       },
       {
-         "symbol": "CLX",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 135
+         "symbol":"CLX",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":135
       },
       {
-         "symbol": "FB",
-         "type": "put",
-         "expiry": "2022-04-08",
-         "strike": 205
+         "symbol":"FB",
+         "type":"put",
+         "expiry":"2022-04-08",
+         "strike":205
       },
       {
-         "symbol": "GTN",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 22.5
+         "symbol":"GTN",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":22.5
       },
       {
-         "symbol": "JOBS",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 60
+         "symbol":"JOBS",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":60
       },
       {
-         "symbol": "LBTYA",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 25
+         "symbol":"LBTYA",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":25
       },
       {
-         "symbol": "MCHP",
-         "type": "put",
-         "expiry": "2022-04-08",
-         "strike": 73
+         "symbol":"MCHP",
+         "type":"put",
+         "expiry":"2022-04-08",
+         "strike":73
       },
       {
-         "symbol": "NTAP",
-         "type": "call",
-         "expiry": "2022-04-08",
-         "strike": 89
+         "symbol":"NTAP",
+         "type":"call",
+         "expiry":"2022-04-08",
+         "strike":89
       },
       {
-         "symbol": "RMD",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 250
+         "symbol":"RMD",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":250
       },
       {
-         "symbol": "TD",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 82.5
+         "symbol":"TD",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":82.5
       },
       {
-         "symbol": "UDR",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 60
+         "symbol":"UDR",
+         "type":"call",
+         "expiry":"2022-04-14",
+         "strike":60
       },
       {
-         "symbol": "USB",
-         "type": "call",
-         "expiry": "2022-04-08",
-         "strike": 57
+         "symbol":"USB",
+         "type":"call",
+         "expiry":"2022-04-08",
+         "strike":57
       },
       {
-         "symbol": "VTRS",
-         "type": "call",
-         "expiry": "2022-04-08",
-         "strike": 11
+         "symbol":"VTRS",
+         "type":"call",
+         "expiry":"2022-04-08",
+         "strike":11
       }
    ],
    "star_option_list":[
@@ -209,7 +209,7 @@
       "TDS",
       "T",
       "PYPL",
-      "FB"  
+      "FB"
    ],
    "news_config":{
       "latest_days":28,
@@ -644,82 +644,87 @@
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":8.43892246440919,
+         "position_%":8.323903536925833,
          "profit_%":0
       },
       "BIO":{
          "cost_p":596.71,
-         "position_%":6.325936749306346,
+         "position_%":6.239716919310111,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":2.5038481727377677,
+         "position_%":2.469721786030928,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":5.563544857264029,
+         "position_%":5.4877161048152585,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":1.607551482727712,
+         "position_%":1.5856412390683556,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":5.023718853509317,
+         "position_%":4.955247700119117,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.45,
-         "position_%":2.144365736852014,
+         "position_%":2.1151389430018535,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":3.6261465550137992,
+         "position_%":3.576723718222236,
+         "profit_%":0
+      },
+      "INTC":{
+         "cost_p":47.41,
+         "position_%":5.633636926276285,
          "profit_%":0
       },
       "NC":{
          "cost_p":29.95,
-         "position_%":8.659382537355212,
+         "position_%":4.2706794163756525,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":3.872242640813872,
+         "position_%":3.8194656189393243,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":5.444385585486778,
+         "position_%":5.370180923281438,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":4.054477587450728,
+         "position_%":3.9992167806853307,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":11.195227538166458,
+         "position_%":11.042641343684554,
          "profit_%":0
       },
       "THO":{
          "cost_p":89.53,
-         "position_%":9.944394909863634,
+         "position_%":9.808857032625472,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.81,
-         "position_%":12.737937256051291,
+         "position_%":12.564324583613509,
          "profit_%":0
       },
       "WGO":{
          "cost_p":56.56,
-         "position_%":8.857917072991848,
+         "position_%":8.737187427024736,
          "profit_%":0
       }
    }
