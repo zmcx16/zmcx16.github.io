@@ -6,13 +6,13 @@ import logging
 import traceback
 
 
-def get_option_data(config, option_folder_path):
+def get_option_data(config, option_star_folder_path, option_hold_folder_path):
     try:
         hold_list = config["hold_stock_list"]
         star_options = config["star_option_list"]
-        hold_list_str = ",".join(hold_list+star_options)
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + hold_list_str)
-        shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_folder_path, dirs_exist_ok=True)
+        star_list_str = ",".join(hold_list+star_options)
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + star_list_str)
+        shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_star_folder_path, dirs_exist_ok=True)
 
     except Exception:
         logging.error(traceback.format_exc())
@@ -26,13 +26,17 @@ if __name__ == "__main__":
     plugin_react_folder_path = root / ".." / ".." / "plugin-react"
 
     input_path = root / ".." / ".." / 'trade-data.json'
-    option_folder_path = plugin_react_folder_path / 'option-valuation'
-    if not os.path.exists(option_folder_path):
-        os.makedirs(option_folder_path)
+    option_star_folder_path = plugin_react_folder_path / 'option-valuation' / 'star'
+    if not os.path.exists(option_star_folder_path):
+        os.makedirs(option_star_folder_path)
+
+    option_hold_folder_path = plugin_react_folder_path / 'option-valuation' / 'hold'
+    if not os.path.exists(option_hold_folder_path):
+        os.makedirs(option_hold_folder_path)
 
     with open(input_path, 'r', encoding='utf-8') as f:
         config = json.loads(f.read())
-        get_option_data(config, option_folder_path)
+        get_option_data(config, option_star_folder_path, option_hold_folder_path)
 
     logging.info('all task done')
 
