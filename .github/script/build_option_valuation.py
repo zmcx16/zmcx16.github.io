@@ -19,7 +19,7 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path):
         hold_options = config["hold_option_list"]
         specific_contracts = []
         for sc in hold_options:
-            specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + sc["strike"])
+            specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + str(sc["strike"]))
 
         os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -s " + specific_contracts.join(","))
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_hold_folder_path, dirs_exist_ok=True)
