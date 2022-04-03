@@ -8,11 +8,21 @@ import traceback
 
 def get_option_data(config, option_star_folder_path, option_hold_folder_path):
     try:
-        hold_list = config["hold_stock_list"]
+        hold_stock_list = config["hold_stock_list"]
         star_options = config["star_option_list"]
-        star_list_str = ",".join(hold_list+star_options)
+        star_list_str = ",".join(hold_stock_list+star_options)
         os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + star_list_str)
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_star_folder_path, dirs_exist_ok=True)
+
+        shutil.rmtree('./.github/script/Norn-Finance-API-Server/output')
+
+        hold_options = config["hold_option_list"]
+        specific_contracts = []
+        for sc in hold_options:
+            specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + sc["strike"])
+
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -s " + specific_contracts.join(","))
+        shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_hold_folder_path, dirs_exist_ok=True)
 
     except Exception:
         logging.error(traceback.format_exc())
