@@ -47,3 +47,17 @@ export const DAF_Def = [
     display_name: 'Market-FBProphet-Empty'
   },
 ]
+
+// option
+export const Options_Def = [
+  {
+    name: 'star_list',
+    display_name: 'Option Star List',
+    local_path: '/plugin-react/option-valuation/star/output.json'
+  },
+  {
+    name: 'hold_list',
+    display_name: 'Option Hold List',
+    local_path: '/plugin-react/option-valuation/hold/output.json'
+  },
+]

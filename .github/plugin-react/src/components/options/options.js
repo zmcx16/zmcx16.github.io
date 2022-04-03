@@ -6,6 +6,9 @@ import BarChartSharpIcon from '@mui/icons-material/BarChartSharp'
 import { blue } from '@mui/material/colors'
 import { createTheme } from '@mui/material/styles'
 import { ThemeProvider } from '@mui/styles'
+import InputLabel from '@mui/material/InputLabel'
+import FormControl from '@mui/material/FormControl'
+import Select from '@mui/material/Select'
 import Button from '@mui/material/Button'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
@@ -15,7 +18,7 @@ import moment from 'moment'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain } from '../../common/def'
+import { NornFinanceAPIServerDomain, Options_Def } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
@@ -119,11 +122,11 @@ const ControlPannel = ({ SyncDataRef, modalWindowRef, ControlPannelRef }) => {
         let trade_data = allResponses[0]
         SyncDataRef.current.syncData(trade_data['hold_stock_list'].concat(trade_data['star_option_list']))
       } else {
-        console.error("renderDefaultOptionsData some data failed")
+        console.error("refreshQueryOptionsData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
       }
     }).catch(() => {
-      console.error("renderDefaultOptionsData failed")
+      console.error("refreshQueryOptionsData failed")
       modalWindowRef.current.popModalWindow(<div>Get data failed...</div>)
     })
   }
@@ -420,23 +423,22 @@ const Options = () => {
     setPutsData(puts)
   }
 
-  const renderDefaultOptionsData = () => {
+  const refreshData = (local_path) => {
     Promise.all([
-      GetDataByFetchObj('/plugin-react/option-valuation/star/output.json', fetchOptionsData),
+      GetDataByFetchObj(local_path, fetchOptionsData),
     ]).then((allResponses) => {
       console.log(allResponses)
       if (allResponses.length === 1 && allResponses[0] !== null) {
         renderTable(allResponses[0])
       } else {
-        console.error("renderDefaultOptionsData some data failed")
+        console.error("refreshData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
       }
     }).catch(() => {
-      console.error("renderDefaultOptionsData failed")
+      console.error("refreshData failed")
       modalWindowRef.current.popModalWindow(<div>Get data failed...</div>)
     })
   }
-
 
   const OptionsRef = useRef({
     renderTable: renderTable,
@@ -445,11 +447,13 @@ const Options = () => {
   const [callsData, setCallsData] = useState([])
   const [putsData, setPutsData] = useState([])
   const [hideColState, setHideColState] = useState({})
-
+  const [arg, setArg] = useState(0)
+  
   useEffect(() => {
     // componentDidMount is here!
     // componentDidUpdate is here!
-    renderDefaultOptionsData()
+    refreshData(Options_Def[0].local_path)
+
     return () => {
       // componentWillUnmount is here!
     }
@@ -457,6 +461,29 @@ const Options = () => {
 
   return (
     <div className={commonStyle.defaultFont + ' ' + optionsStyle.container}>
+      <Grid container spacing={3}>
+        <Grid item xs={6}>
+          <FormControl size="small" variant="outlined" className={optionsStyle.optionsTableSelect}>
+            <InputLabel htmlFor="arg-select">{'Options Valuation'}</InputLabel>
+            <Select
+              native
+              value={arg}
+              displayEmpty
+              onChange={(event) => {
+                setArg(event.target.value)
+                refreshData(Options_Def[event.target.value].local_path)
+              }}
+              label={'Options Valuation'}
+            >
+              {
+                Options_Def.map((value, index) => {
+                  return <option key={shortid.generate()} index={index} value={index}>{value.display_name}</option>
+                })
+              }
+            </Select>
+          </FormControl>
+        </Grid>
+      </Grid>
       <ControlPannel SyncDataRef={SyncDataRef} modalWindowRef={modalWindowRef} ControlPannelRef={ControlPannelRef}/>
       <div key={shortid.generate()} >
         <div className={optionsStyle.table}>
