@@ -212,6 +212,7 @@
       "FB",
       "ABR",
       "AER",
+      "AFCG",
       "ASX",
       "AX",
       "BAC",
@@ -240,9 +241,7 @@
       "SWM",
       "TCBI",
       "TPH",
-      "VSH",
-      "WBA",
-      "AFCG"
+      "VSH"
    ],
    "news_config":{
       "latest_days":28,
