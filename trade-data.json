@@ -59,6 +59,12 @@
          "strike":51
       },
       {
+         "symbol":"CSWC",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":22.5
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2022-05-06",
@@ -75,6 +81,18 @@
          "type":"put",
          "expiry":"2022-04-08",
          "strike":9
+      },
+      {
+         "symbol":"GRBK",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":17.5
+      },
+      {
+         "symbol":"ILPT",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":20
       },
       {
          "symbol":"INTC",
@@ -143,12 +161,6 @@
          "strike":36
       },
       {
-         "symbol":"ADI",
-         "type":"put",
-         "expiry":"2022-04-08",
-         "strike":155
-      },
-      {
          "symbol":"APO",
          "type":"call",
          "expiry":"2022-04-14",
@@ -177,12 +189,6 @@
          "type":"call",
          "expiry":"2022-04-14",
          "strike":60
-      },
-      {
-         "symbol":"LBTYA",
-         "type":"put",
-         "expiry":"2022-04-14",
-         "strike":25
       },
       {
          "symbol":"MCHP",
