@@ -35,6 +35,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AER",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":37.5
+      },
+      {
          "symbol":"AX",
          "type":"put",
          "expiry":"2022-05-20",
@@ -149,6 +155,12 @@
          "strike":75
       },
       {
+         "symbol":"VSH",
+         "type":"put",
+         "expiry":"2022-04-14",
+         "strike":17.5
+      },
+      {
          "symbol":"WGO",
          "type":"put",
          "expiry":"2022-04-14",
@@ -185,12 +197,6 @@
          "strike":135
       },
       {
-         "symbol":"FB",
-         "type":"put",
-         "expiry":"2022-04-08",
-         "strike":205
-      },
-      {
          "symbol":"GTN",
          "type":"put",
          "expiry":"2022-04-14",
@@ -201,18 +207,6 @@
          "type":"call",
          "expiry":"2022-04-14",
          "strike":60
-      },
-      {
-         "symbol":"MCHP",
-         "type":"put",
-         "expiry":"2022-04-08",
-         "strike":73
-      },
-      {
-         "symbol":"NTAP",
-         "type":"call",
-         "expiry":"2022-04-08",
-         "strike":89
       },
       {
          "symbol":"RMD",
@@ -231,18 +225,6 @@
          "type":"call",
          "expiry":"2022-04-14",
          "strike":60
-      },
-      {
-         "symbol":"USB",
-         "type":"call",
-         "expiry":"2022-04-08",
-         "strike":57
-      },
-      {
-         "symbol":"VTRS",
-         "type":"call",
-         "expiry":"2022-04-08",
-         "strike":11
       }
    ],
    "star_option_list":[
