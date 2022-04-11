@@ -107,6 +107,11 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/SB"
     },	
+	{
+      symbol: "ZIM",
+      src: "marketwatch",
+      api: "investing/stock/ZIM"
+    },
     {
       symbol: "ARLP",
       src: "marketwatch",
@@ -551,6 +556,98 @@ const ForecastConfig = {
       target_data: {
         name: 'DAC',
         file_path: 'stock/historical-quotes/DAC.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        },
+        {
+          using_regressors: ["Close"],
+          name: "FBX",
+          file_path: "markets/historical-quotes/freightos_FBX.json",
+          type: "market"
+        }
+      ]
+    },
+  ],
+  ZIM: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ZIM',
+        file_path: 'stock/historical-quotes/ZIM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ZIM',
+        file_path: 'stock/historical-quotes/ZIM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ZIM',
+        file_path: 'stock/historical-quotes/ZIM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ZIM',
+        file_path: 'stock/historical-quotes/ZIM.json',
+        type: 'stock'
+      },
+      feature_data: [
+        {
+          using_regressors: ["Close"],
+          name: "BDIY_IND",
+          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
+          type: "market"
+        }
+      ]
+    },
+    {
+      type: 'stock_fbprophet_empty_bdi_fbx',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ZIM',
+        file_path: 'stock/historical-quotes/ZIM.json',
         type: 'stock'
       },
       feature_data: [
