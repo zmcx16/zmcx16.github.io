@@ -196,6 +196,14 @@ var myvar =
 '                        <div></div>' +
 '                        <input type="text" id="factor-intersectional-Range52W-input" value="0.2" name="factor-intersectional-Range52W-input">' +
 '                        <div></div>' +
+'                        <div>對外流通股變動權重(6M):</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-ShareOutstandingHalfYear-input" value="0" name="factor-intersectional-ShareOutstandingHalfYear-input">' +
+'                        <div></div>' +
+'                        <div>對外流通股變動權重(1Y):</div>' +
+'                        <div></div>' +
+'                        <input type="text" id="factor-intersectional-ShareOutstandingOneYear-input" value="0" name="factor-intersectional-ShareOutstandingOneYear-input">' +
+'                        <div></div>' +
 '                    </div>' +
 '                    <div class="factor-intersectional-formula-input-block1-0">' +
 '                        <div class="sector-industry-title">' +
@@ -586,12 +594,14 @@ function getFactorIntersectionalV1() {
   let ShortRatiow = $('#factor-intersectional-ShortRatio-input').val();
   let EQPw = $('#factor-intersectional-EQPw-input').val();
   let Range52Ww = $('#factor-intersectional-Range52W-input').val();
+  let ShareOutstandingHalfYearw = $('#factor-intersectional-ShareOutstandingHalfYear-input').val();
+  let ShareOutstandingOneYearw = $('#factor-intersectional-ShareOutstandingOneYear-input').val();
   let FIF = getFactorIntersectionalFIF();
 
   if (isNaN(topN) || topN <= 0 || isNaN(M) || M <= 0 || isNaN(EPw) || isNaN(BPw) || isNaN(SPw) || isNaN(FCFPw) || 
     isNaN(ROEw) || isNaN(ROAw) || isNaN(ROIw) || isNaN(DIVw) || isNaN(InsiderOwnw) || isNaN(InsiderTransw) || 
     isNaN(InstOwnw) || isNaN(InstTransw) || isNaN(TgtPricew) || isNaN(ShortFloatw) || isNaN(ShortRatiow) || 
-    isNaN(EQPw) || isNaN(Range52Ww)) {
+    isNaN(EQPw) || isNaN(Range52Ww)|| isNaN(ShareOutstandingHalfYearw)|| isNaN(ShareOutstandingOneYearw)) {
     return;
   }
 
@@ -619,6 +629,8 @@ function getFactorIntersectionalV1() {
       'ShortRatio_w': ShortRatiow,
       'E_Q/P_w': EQPw,
       'Range52W_w': Range52Ww,
+      'ShareOutstandingHalfYear_w': ShareOutstandingHalfYearw,
+      'ShareOutstandingOneYear_w': ShareOutstandingOneYearw,
     }
   };
 
@@ -766,7 +778,8 @@ $(document).ready(function () {
     '$$' + 'f_i: 盈餘殖利率(\\cfrac{每股盈餘}{股價}) \\qquad 股價淨值比倒數(\\cfrac{每股淨值}{股價}) \\qquad 市銷率倒數(\\cfrac{每股營收}{股價})' + '$$' + 
     '$$' + '股東權益報酬率(ROE) \\qquad 資產報酬率(ROA) \\qquad 投資回報率(ROI) \\qquad 股息率(\\%)  \\qquad 股價區間(52W)' + '$$' + 
     '$$' + '股價自由現金流比倒數(\\cfrac{自由現金流}{股價}) \\qquad 目標價現價差(\\%) \\qquad 內部人持股(\\%) \\qquad 內部人交易(\\%, 6M)' + '$$' + 
-    '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M) \\qquad 做空比率(\\%) \\qquad 做空回補天數(Days) \\qquad 盈餘殖利率(Last Q)(\\cfrac{每股盈餘}{股價})' + '$$';
+    '$$' + '機構持股(\\%) \\qquad 機構交易(\\%, 3M) \\qquad 做空比率(\\%) \\qquad 做空回補天數(Days) \\qquad 盈餘殖利率(Last Q)(\\cfrac{每股盈餘}{股價})' + '$$' + 
+    '$$' + '對外流通股變動(\\%, 6M) \\qquad 對外流通股變動(\\%, 1Y)' + '$$';
 
   $('#factor-intersectional-get-btn').click(() => {
     getFactorIntersectionalV1();
