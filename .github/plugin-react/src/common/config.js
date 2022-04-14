@@ -123,9 +123,9 @@ const MarketConfig = {
       api: "investing/stock/NC"
     },
     {
-      symbol: "GGB",
+      symbol: "HIMX",
       src: "marketwatch",
-      api: "investing/stock/GGB"
+      api: "investing/stock/HIMX"
     },
     {
       symbol: "THO",
@@ -211,6 +211,11 @@ const MarketConfig = {
       symbol: "TMUBMUSD10Y",
       src: "marketwatch",
       api: "investing/bond/tmubmusd10y?countrycode=bx"
+    },
+	{
+      symbol: "SOX",
+      src: "marketwatch",
+      api: "investing/index/sox"
     },
     {
       symbol: "COMP",
@@ -666,7 +671,7 @@ const ForecastConfig = {
       ]
     },
   ],
-  GGB: [
+  HIMX: [
     {
       type: 'stock_fbprophet_empty',
       algorithm: 'fbprophet',
@@ -675,8 +680,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'GGB',
-        file_path: 'stock/historical-quotes/GGB.json',
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
         type: 'stock'
       },
       feature_data: []
@@ -689,8 +694,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'GGB',
-        file_path: 'stock/historical-quotes/GGB.json',
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
         type: 'stock'
       },
       feature_data: []
@@ -703,38 +708,11 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'GGB',
-        file_path: 'stock/historical-quotes/GGB.json',
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
         type: 'stock'
       },
       feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_TIOc1_HRN00',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GGB',
-        file_path: 'stock/historical-quotes/GGB.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "TIOc1",
-          file_path: "markets/historical-quotes/investing_TIOc1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "HRN00",
-          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
-          type: "market"
-        }
-      ]
     },
   ],
   THO: [
