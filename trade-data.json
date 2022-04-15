@@ -1,7 +1,8 @@
 {
-   "hold_stock_list": [
+   "hold_stock_list":[
       "ARLP",
       "BIO",
+      "BAC",
       "DAC",
       "HIMX",
       "THO",
@@ -19,7 +20,7 @@
       "ZIM",
       "TX"
    ],
-   "star_stock_list": [
+   "star_stock_list":[
       "JNJ",
       "AMZN",
       "GOOG",
@@ -33,267 +34,157 @@
       "CRM",
       "S"
    ],
-   "hold_option_list": [
+   "hold_option_list":[
       {
-         "symbol": "AER",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 37.5
+         "symbol":"AER",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":37.5
       },
       {
-         "symbol": "AX",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 35
+         "symbol":"AX",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":35
       },
       {
-         "symbol": "BAC",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 38
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-04-22",
+         "strike":34
       },
       {
-         "symbol": "BAC",
-         "type": "put",
-         "expiry": "2022-04-22",
-         "strike": 34
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":35
       },
       {
-         "symbol": "BAC",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 35
+         "symbol":"BIO",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":530
       },
       {
-         "symbol": "BIO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 540
+         "symbol":"BK",
+         "type":"put",
+         "expiry":"2022-04-22",
+         "strike":45
       },
       {
-         "symbol": "BIO",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 530
+         "symbol":"BK",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":45
       },
       {
-         "symbol": "BK",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 45
+         "symbol":"BZH",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":13
       },
       {
-         "symbol": "BZH",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 14
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":51
       },
       {
-         "symbol": "BZH",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 13
+         "symbol":"CSWC",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":22.5
       },
       {
-         "symbol": "C",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 46
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":65
       },
       {
-         "symbol": "C",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 49
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":65
       },
       {
-         "symbol": "C",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 51
+         "symbol":"ET",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":9.5
       },
       {
-         "symbol": "CSWC",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 22.5
+         "symbol":"GRBK",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":17.5
       },
       {
-         "symbol": "DHI",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 65
+         "symbol":"ILPT",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":20
       },
       {
-         "symbol": "DHI",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 65
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-04-29",
+         "strike":44
       },
       {
-         "symbol": "ET",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 9.5
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":44
       },
       {
-         "symbol": "ET",
-         "type": "put",
-         "expiry": "2022-04-08",
-         "strike": 9
+         "symbol":"PKX",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":55
       },
       {
-         "symbol": "GRBK",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 17.5
+         "symbol":"T",
+         "type":"put",
+         "expiry":"2022-04-22",
+         "strike":22
       },
       {
-         "symbol": "ILPT",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 20
+         "symbol":"TDS",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":17.5
       },
       {
-         "symbol": "INTC",
-         "type": "put",
-         "expiry": "2022-04-29",
-         "strike": 44
+         "symbol":"THO",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":75
       },
       {
-         "symbol": "INTC",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 44
+         "symbol":"WGO",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":50
       },
       {
-         "symbol": "NMM",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 22.5
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":45
       },
       {
-         "symbol": "PKX",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 55
-      },
-      {
-         "symbol": "PKX",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 55
-      },
-      {
-         "symbol": "T",
-         "type": "put",
-         "expiry": "2022-04-22",
-         "strike": 22
-      },
-      {
-         "symbol": "TDS",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 17.5
-      },
-      {
-         "symbol": "THO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 75
-      },
-      {
-         "symbol": "THO",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 75
-      },
-      {
-         "symbol": "VSH",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 17.5
-      },
-      {
-         "symbol": "WGO",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 50
-      },
-      {
-         "symbol": "WGO",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 50
-      },
-      {
-         "symbol": "X",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 19
-      },
-      {
-         "symbol": "ZIM",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 45
-      },
-      {
-         "symbol": "ZIM",
-         "type": "put",
-         "expiry": "2022-05-06",
-         "strike": 45
-      },
-      {
-         "symbol": "ZIM",
-         "type": "put",
-         "expiry": "2022-05-20",
-         "strike": 40
-      },
-      {
-         "symbol": "ABB",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 36
-      },
-      {
-         "symbol": "APO",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 66
-      },
-      {
-         "symbol": "CLX",
-         "type": "put",
-         "expiry": "2022-04-14",
-         "strike": 135
-      },
-      {
-         "symbol": "RMD",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 250
-      },
-      {
-         "symbol": "TD",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 82.5
-      },
-      {
-         "symbol": "UDR",
-         "type": "call",
-         "expiry": "2022-04-14",
-         "strike": 60
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":40
       }
    ],
-   "star_option_list": [
+   "star_option_list":[
       "C",
       "INTC",
       "TDS",
       "T",
-      "PYPL",
-      "FB",
       "ABR",
       "AER",
       "AFCG",
@@ -327,492 +218,533 @@
       "TPH",
       "VSH"
    ],
-   "news_config": {
-      "latest_days": 28,
-      "max_count": 10,
-      "exclude_domains": "",
-      "symbol_keyword": {
-         "DHI": "D.R. Horton, Inc.",
-         "BAC": "Bank of America Corporation",
-         "PNC": "The PNC Financial Services Group, Inc.",
-         "PFC": "Premier Financial Corp.",
-         "SNV": "Synovus Financial Corp.",
-         "FHN": "First Horizon National Corporation",
-         "STL": "Sterling Bancorp",
-         "SMP": "Standard Motor Products, Inc.",
-         "EWBC": "East West Bancorp, Inc.",
-         "PBCT": "People's United Financial, Inc.",
-         "FBP": "First BanCorp.",
-         "WFC": "Wells Fargo & Company",
-         "SLM": "SLM Corporation",
-         "PSX": "Phillips 66 Company",
-         "JNJ": "Johnson & Johnson",
-         "AMZN": "Amazon.com, Inc.",
-         "FB": "Facebook, Inc.",
-         "GOOG": "Alphabet Inc.",
-         "MU": "Micron Technology, Inc.",
-         "LN": "LINE Corporation",
-         "DIS": "The Walt Disney Company",
-         "AAPL": "Apple Inc.",
-         "T": "AT&T Inc.",
-         "COST": "Costco Wholesale Corporation",
-         "MSFT": "Microsoft Corporation",
-         "INTC": "Intel",
-         "MCD": "McDonald's Corporation",
-         "AMD": "Advanced Micro Devices, Inc.",
-         "WMT": "Walmart Inc.",
-         "TSLA": "Tesla, Inc.",
-         "AMT": "American Tower Corporation",
-         "CRWD": "CrowdStrike Holdings, Inc.",
-         "CRM": "salesforce.com, inc.",
-         "WLK": "Westlake Chemical Corporation",
-         "BIO": "Bio-Rad Laboratories, Inc.",
-         "QNST": "QuinStreet, Inc.",
-         "FORM": "FormFactor, Inc.",
-         "EME": "EMCOR Group, Inc.",
-         "MCY": "Mercury General Corporation",
-         "SFM": "Sprouts Farmers Market",
-         "REGI": "Renewable Energy Group Inc",
-         "EXEL": "Exelixis, Inc.",
-         "BGFV": "Big 5 Sporting Goods Corporation",
-         "SNX": "SYNNEX Corporation",
-         "LAKE": "Lakeland Industries, Inc.",
-         "HTH": "Hilltop Holdings Inc.",
-         "C": "Citigroup Inc.",
-         "TDS": "Telephone and Data Systems, Inc.",
-         "MDC": "M.D.C. Holdings, Inc.",
-         "PBFX": "PBF Logistics LP",
-         "PHM": "PulteGroup, Inc.",
-         "ELP": "Companhia Paranaense de Energia - COPEL",
-         "CNNE": "Cannae Holdings, Inc.",
-         "QDEL": "Quidel Corporation",
-         "KGC": "Kinross Gold Corporation (KGC)",
-         "TX": "Ternium S.A. (TX)",
-         "LDI": "loanDepot, Inc. (LDI)",
-         "EDRY": "EuroDry Ltd. (EDRY)",
-         "GSL": "Global Ship Lease, Inc. (GSL)",
-         "GOGL": "Golden Ocean Group Limited (GOGL)",
-         "CPLP": "Capital Product Partners L.P. (CPLP)",
-         "ARLP": "Alliance Resource Partners, L.P. (ARLP)",
-         "CEIX": "CONSOL Energy Inc. (CEIX)",
-         "S": "SentinelOne, Inc.",
-         "BXS": "BancorpSouth Bank",
-         "ET": "Energy Transfer LP (ET)",
-         "NMM": "Navios Maritime Partners L.P.",
-         "SB": "Safe Bulkers, Inc.",
-         "SID": "Companhia Siderúrgica Nacional (SID)",
-         "X": "United States Steel Corporation",
-         "DAC": "Danaos Corporation (DAC)",
-         "GGB": "Gerdau S.A. (GGB)",
-         "THO": "Thor Industries, Inc. (THO)",
-         "VALE": "Vale S.A.",
-         "ZIM": "ZIM Integrated Shipping Services Ltd.",
-         "PKX": "POSCO (PKX)",
-         "NC": "NACCO Industries, Inc. (NC)",
-         "WGO": "Winnebago Industries, Inc.",
-         "HIMX": "Himax Technologies (奇景光電)",
-         "STC": "Stewart Information Services Corporation"
+   "news_config":{
+      "latest_days":28,
+      "max_count":10,
+      "exclude_domains":"",
+      "symbol_keyword":{
+         "DHI":"D.R. Horton, Inc.",
+         "BAC":"Bank of America Corporation",
+         "PNC":"The PNC Financial Services Group, Inc.",
+         "PFC":"Premier Financial Corp.",
+         "SNV":"Synovus Financial Corp.",
+         "FHN":"First Horizon National Corporation",
+         "STL":"Sterling Bancorp",
+         "SMP":"Standard Motor Products, Inc.",
+         "EWBC":"East West Bancorp, Inc.",
+         "PBCT":"People's United Financial, Inc.",
+         "FBP":"First BanCorp.",
+         "WFC":"Wells Fargo & Company",
+         "SLM":"SLM Corporation",
+         "PSX":"Phillips 66 Company",
+         "JNJ":"Johnson & Johnson",
+         "AMZN":"Amazon.com, Inc.",
+         "FB":"Facebook, Inc.",
+         "GOOG":"Alphabet Inc.",
+         "MU":"Micron Technology, Inc.",
+         "LN":"LINE Corporation",
+         "DIS":"The Walt Disney Company",
+         "AAPL":"Apple Inc.",
+         "T":"AT&T Inc.",
+         "COST":"Costco Wholesale Corporation",
+         "MSFT":"Microsoft Corporation",
+         "INTC":"Intel",
+         "MCD":"McDonald's Corporation",
+         "AMD":"Advanced Micro Devices, Inc.",
+         "WMT":"Walmart Inc.",
+         "TSLA":"Tesla, Inc.",
+         "AMT":"American Tower Corporation",
+         "CRWD":"CrowdStrike Holdings, Inc.",
+         "CRM":"salesforce.com, inc.",
+         "WLK":"Westlake Chemical Corporation",
+         "BIO":"Bio-Rad Laboratories, Inc.",
+         "QNST":"QuinStreet, Inc.",
+         "FORM":"FormFactor, Inc.",
+         "EME":"EMCOR Group, Inc.",
+         "MCY":"Mercury General Corporation",
+         "SFM":"Sprouts Farmers Market",
+         "REGI":"Renewable Energy Group Inc",
+         "EXEL":"Exelixis, Inc.",
+         "BGFV":"Big 5 Sporting Goods Corporation",
+         "SNX":"SYNNEX Corporation",
+         "LAKE":"Lakeland Industries, Inc.",
+         "HTH":"Hilltop Holdings Inc.",
+         "C":"Citigroup Inc.",
+         "TDS":"Telephone and Data Systems, Inc.",
+         "MDC":"M.D.C. Holdings, Inc.",
+         "PBFX":"PBF Logistics LP",
+         "PHM":"PulteGroup, Inc.",
+         "ELP":"Companhia Paranaense de Energia - COPEL",
+         "CNNE":"Cannae Holdings, Inc.",
+         "QDEL":"Quidel Corporation",
+         "KGC":"Kinross Gold Corporation (KGC)",
+         "TX":"Ternium S.A. (TX)",
+         "LDI":"loanDepot, Inc. (LDI)",
+         "EDRY":"EuroDry Ltd. (EDRY)",
+         "GSL":"Global Ship Lease, Inc. (GSL)",
+         "GOGL":"Golden Ocean Group Limited (GOGL)",
+         "CPLP":"Capital Product Partners L.P. (CPLP)",
+         "ARLP":"Alliance Resource Partners, L.P. (ARLP)",
+         "CEIX":"CONSOL Energy Inc. (CEIX)",
+         "S":"SentinelOne, Inc.",
+         "BXS":"BancorpSouth Bank",
+         "ET":"Energy Transfer LP (ET)",
+         "NMM":"Navios Maritime Partners L.P.",
+         "SB":"Safe Bulkers, Inc.",
+         "SID":"Companhia Siderúrgica Nacional (SID)",
+         "X":"United States Steel Corporation",
+         "DAC":"Danaos Corporation (DAC)",
+         "GGB":"Gerdau S.A. (GGB)",
+         "THO":"Thor Industries, Inc. (THO)",
+         "VALE":"Vale S.A.",
+         "ZIM":"ZIM Integrated Shipping Services Ltd.",
+         "PKX":"POSCO (PKX)",
+         "NC":"NACCO Industries, Inc. (NC)",
+         "WGO":"Winnebago Industries, Inc.",
+         "HIMX":"Himax Technologies (奇景光電)",
+         "STC":"Stewart Information Services Corporation"
       }
    },
-   "tactic_template": [
+   "tactic_template":[
       {
-         "name": "regular_tactic",
-         "type": "BenjaminGraham_v1",
-         "target": [],
-         "args": {
-            "Sales": "5000",
-            "EPS": "0,4",
-            "Dividend %": "0",
-            "Current Ratio": "2",
-            "CA_CL_LTD": "0,2",
-            "P/E": "15",
-            "P/E * P/B": "22.5"
+         "name":"regular_tactic",
+         "type":"BenjaminGraham_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "Sales":"5000",
+            "EPS":"0,4",
+            "Dividend %":"0",
+            "Current Ratio":"2",
+            "CA_CL_LTD":"0,2",
+            "P/E":"15",
+            "P/E * P/B":"22.5"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "HarryBurnIII_v1",
-         "target": [],
-         "args": {
-            "Market Cap": "10000",
-            "Forward P/E": "12",
-            "P/S": "1",
-            "P/B": "1",
-            "P/C": "7.5"
+         "name":"regular_tactic",
+         "type":"HarryBurnIII_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "Market Cap":"10000",
+            "Forward P/E":"12",
+            "P/S":"1",
+            "P/B":"1",
+            "P/C":"7.5"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "JamesPOshaughnessy_v1",
-         "target": [],
-         "args": {
-            "Market Cap": "5000",
-            "P/FCF": "15",
-            "Shs Outstand": "500",
-            "P/S": "1",
-            "Dividend %": "5"
+         "name":"regular_tactic",
+         "type":"JamesPOshaughnessy_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "Market Cap":"5000",
+            "P/FCF":"15",
+            "Shs Outstand":"500",
+            "P/S":"1",
+            "Dividend %":"5"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "JohnNeff_v1",
-         "target": [],
-         "args": {
-            "LT Debt/Eq": "0.5",
-            "Debt/Eq": "0.5",
-            "Quick Ratio": "1",
-            "Cash/sh": "0",
-            "ROE": "15",
-            "P/E < (EPS growth this Y + Dividend %) / 2": "None"
+         "name":"regular_tactic",
+         "type":"JohnNeff_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "LT Debt/Eq":"0.5",
+            "Debt/Eq":"0.5",
+            "Quick Ratio":"1",
+            "Cash/sh":"0",
+            "ROE":"15",
+            "P/E < (EPS growth this Y + Dividend %) / 2":"None"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "MichaelBerry_v1",
-         "target": [],
-         "args": {
-            "P/E": "7.5",
-            "EPS this Y": "15",
-            "P/B": "2"
+         "name":"regular_tactic",
+         "type":"MichaelBerry_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/E":"7.5",
+            "EPS this Y":"15",
+            "P/B":"2"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "MichaelPrice_v1",
-         "target": [],
-         "args": {
-            "P/B": "1",
-            "InsiderShares": "0.5",
-            "LT Debt/Eq": "0.2",
-            "Debt/Eq": "0.2"
+         "name":"regular_tactic",
+         "type":"MichaelPrice_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/B":"1",
+            "InsiderShares":"0.5",
+            "LT Debt/Eq":"0.2",
+            "Debt/Eq":"0.2"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "PeterLynch_v1",
-         "target": [],
-         "args": {
-            "PEG": "1",
-            "Market Cap": "10000",
-            "LT Debt/Eq": "0.3",
-            "Debt/Eq": "0.3",
-            "EPS this Y": "0",
-            "EPS next Y_%": "0",
-            "EPS past 5Y": "0",
-            "EPS next 5Y": "0"
+         "name":"regular_tactic",
+         "type":"PeterLynch_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "PEG":"1",
+            "Market Cap":"10000",
+            "LT Debt/Eq":"0.3",
+            "Debt/Eq":"0.3",
+            "EPS this Y":"0",
+            "EPS next Y_%":"0",
+            "EPS past 5Y":"0",
+            "EPS next 5Y":"0"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "RichardBuchwald_MarvinKline_v1",
-         "target": [],
-         "args": {
-            "Market Cap": "25000",
-            "Dividend %": "2",
-            "P/E": "7.5",
-            "Cash/sh": "0",
-            "LT Debt/Eq": "0.3",
-            "Debt/Eq": "0.3"
+         "name":"regular_tactic",
+         "type":"RichardBuchwald_MarvinKline_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "Market Cap":"25000",
+            "Dividend %":"2",
+            "P/E":"7.5",
+            "Cash/sh":"0",
+            "LT Debt/Eq":"0.3",
+            "Debt/Eq":"0.3"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "RobertSanborn_v1",
-         "target": [],
-         "args": {
-            "P/S": "0.75",
-            "P/FCF": "15",
-            "InsiderShares": "0.5"
+         "name":"regular_tactic",
+         "type":"RobertSanborn_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/S":"0.75",
+            "P/FCF":"15",
+            "InsiderShares":"0.5"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "Stasistw_v1",
-         "target": [],
-         "args": {
-            "P/B": "3",
-            "EPS past 5Y": "0",
-            "Dividend %": "2",
-            "LT Debt/Eq": "0.6",
-            "Sales past 5Y": "0",
-            "ROE": "0",
-            "SMA200": "0",
-            "EPS this Y": "0",
-            "EPS next Y_%": "0"
+         "name":"regular_tactic",
+         "type":"Stasistw_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/B":"3",
+            "EPS past 5Y":"0",
+            "Dividend %":"2",
+            "LT Debt/Eq":"0.6",
+            "Sales past 5Y":"0",
+            "ROE":"0",
+            "SMA200":"0",
+            "EPS this Y":"0",
+            "EPS next Y_%":"0"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "StevenCLeuthold_v1",
-         "target": [],
-         "args": {
-            "P/B": "1.5",
-            "P/E": "12",
-            "C/P": "15",
-            "Dividend %": "3",
-            "P/FCF": "15",
-            "LT Debt/Eq": "0.5",
-            "Current Ratio": "2"
+         "name":"regular_tactic",
+         "type":"StevenCLeuthold_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/B":"1.5",
+            "P/E":"12",
+            "C/P":"15",
+            "Dividend %":"3",
+            "P/FCF":"15",
+            "LT Debt/Eq":"0.5",
+            "Current Ratio":"2"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "TrinityInvestmentManagement_v1",
-         "target": [],
-         "args": {
-            "P/E": "7.5",
-            "P/B": "1",
-            "Dividend %": "5"
+         "name":"regular_tactic",
+         "type":"TrinityInvestmentManagement_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "P/E":"7.5",
+            "P/B":"1",
+            "Dividend %":"5"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "WarrenEBuffett_v1",
-         "target": [],
-         "args": {
-            "ROE": "9",
-            "ROI": "6",
-            "Capex Margin": "4",
-            "Net Income Margin": "4",
-            "Gross Margin": "15"
+         "name":"regular_tactic",
+         "type":"WarrenEBuffett_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "ROE":"9",
+            "ROI":"6",
+            "Capex Margin":"4",
+            "Net Income Margin":"4",
+            "Gross Margin":"15"
          }
       },
       {
-         "name": "regular_tactic",
-         "type": "zmcx16_v1",
-         "target": [],
-         "args": {
-            "Beta": "1.5",
-            "P/B": "2",
-            "PEG": "1",
-            "LT Debt/Eq": "0.5",
-            "Debt/Eq": "0.5",
-            "ROE": "10,2",
-            "ROA": "5,2",
-            "EPS": "5,2",
-            "TR": "5,2",
-            "OI": "5,2",
-            "NI": "5,2",
-            "TSE": "5,2",
-            "CFFOAE": "5,2",
-            "FCF": "5,2",
-            "Annual Dividend Yield (Forward, Trailing, 5 Year Avg)": "3",
-            "ARDD diff": "0,3",
-            "ARDD diff And DSID diff": "0,0,3",
-            "NST_6M": "1",
-            "InsiderShares": "0.5"
+         "name":"regular_tactic",
+         "type":"zmcx16_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "Beta":"1.5",
+            "P/B":"2",
+            "PEG":"1",
+            "LT Debt/Eq":"0.5",
+            "Debt/Eq":"0.5",
+            "ROE":"10,2",
+            "ROA":"5,2",
+            "EPS":"5,2",
+            "TR":"5,2",
+            "OI":"5,2",
+            "NI":"5,2",
+            "TSE":"5,2",
+            "CFFOAE":"5,2",
+            "FCF":"5,2",
+            "Annual Dividend Yield (Forward, Trailing, 5 Year Avg)":"3",
+            "ARDD diff":"0,3",
+            "ARDD diff And DSID diff":"0,0,3",
+            "NST_6M":"1",
+            "InsiderShares":"0.5"
          }
       }
    ],
-   "KellyFormula_Range_v1_template": [
+   "KellyFormula_Range_v1_template":[
       {
-         "name": "regular_formula",
-         "type": "KellyFormula_Range_v1",
-         "target": [],
-         "args": {
-            "days": 180
+         "name":"regular_formula",
+         "type":"KellyFormula_Range_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "days":180
          }
       }
    ],
-   "Beneish_Model_v1_template": [
+   "Beneish_Model_v1_template":[
       {
-         "name": "regular_formula",
-         "type": "Beneish_Model_v1",
-         "target": [],
-         "args": {}
-      }
-   ],
-   "screen_template": [
-      {
-         "type": "Finviz_v1",
-         "name": "regular_screen",
-         "args": {
-            "query_url": "v=111&f=cap_midover,fa_debteq_u0.5,fa_eps5years_pos,fa_epsqoq_pos,fa_epsyoy_pos,fa_estltgrowth_pos,fa_ltdebteq_u0.5,fa_netmargin_pos,fa_pe_low,fa_peg_low,fa_roa_pos,fa_roe_pos,fa_roi_pos,fa_sales5years_pos,fa_salesqoq_pos,sh_avgvol_o100,ta_beta_u2&ft=4"
+         "name":"regular_formula",
+         "type":"Beneish_Model_v1",
+         "target":[
+            
+         ],
+         "args":{
+            
          }
       }
    ],
-   "sec_template": [
+   "screen_template":[
       {
-         "name": "regular_sec",
-         "type": "sec_Range_v1",
-         "target": [],
-         "args": {
-            "days": 30
+         "type":"Finviz_v1",
+         "name":"regular_screen",
+         "args":{
+            "query_url":"v=111&f=cap_midover,fa_debteq_u0.5,fa_eps5years_pos,fa_epsqoq_pos,fa_epsyoy_pos,fa_estltgrowth_pos,fa_ltdebteq_u0.5,fa_netmargin_pos,fa_pe_low,fa_peg_low,fa_roa_pos,fa_roe_pos,fa_roi_pos,fa_sales5years_pos,fa_salesqoq_pos,sh_avgvol_o100,ta_beta_u2&ft=4"
          }
       }
    ],
-   "sec_cik_table": {
-      "DHI": "882184",
-      "BAC": "70858",
-      "PNC": "713676",
-      "PFC": "946647",
-      "SNV": "18349",
-      "FHN": "36966",
-      "STL": "1070154",
-      "EWBC": "1069157",
-      "PBCT": "1378946",
-      "FBP": "1057706",
-      "WFC": "72971",
-      "SLM": "1032033",
-      "PSX": "1534701",
-      "JNJ": "200406",
-      "AMZN": "1018724",
-      "FB": "1326801",
-      "GOOG": "1652044",
-      "MU": "723125",
-      "LN": "1611820",
-      "DIS": "1744489",
-      "AAPL": "320193",
-      "T": "732717",
-      "COST": "909832",
-      "MSFT": "789019",
-      "INTC": "50863",
-      "MCD": "63908",
-      "AMD": "2488",
-      "WMT": "104169",
-      "TSLA": "1318605",
-      "AMT": "1053507",
-      "CRWD": "1535527",
-      "CRM": "1108524",
-      "WLK": "1262823",
-      "BIO": "12208",
-      "QNST": "1117297",
-      "FORM": "1039399",
-      "EME": "105634",
-      "MCY": "64996",
-      "SFM": "1575515",
-      "REGI": "1463258",
-      "SMP": "93389",
-      "EXEL": "939767",
-      "BGFV": "1156388",
-      "HTH": "1265131",
-      "LAKE": "798081",
-      "SNX": "1177394",
-      "C": "831001",
-      "TDS": "1051512",
-      "MDC": "773141",
-      "PBFX": "1582568",
-      "PHM": "822416",
-      "ELP": "1041792",
-      "CNNE": "1704720",
-      "QDEL": "353569",
-      "KGC": "701818",
-      "TX": "1342874",
-      "LDI": "1831631",
-      "EDRY": "1731388",
-      "GSL": "1430725",
-      "GOGL": "1029145",
-      "CPLP": "1392326",
-      "CEIX": "1710366",
-      "ARLP": "1086600",
-      "S": "1583708",
-      "BXS": "1299939",
-      "ET": "1276187",
-      "NMM": "1415921",
-      "SB": "1434754",
-      "SID": "1049659",
-      "X": "1163302",
-      "DAC": "1369241",
-      "GGB": "1073404",
-      "THO": "730263",
-      "VALE": "917851",
-      "ZIM": "1654126",
-      "PKX": "889132",
-      "NC": "789933",
-      "WGO": "107687",
-      "HIMX": "1342338",
-      "STC": "94344"
+   "sec_template":[
+      {
+         "name":"regular_sec",
+         "type":"sec_Range_v1",
+         "target":[
+            
+         ],
+         "args":{
+            "days":30
+         }
+      }
+   ],
+   "sec_cik_table":{
+      "DHI":"882184",
+      "BAC":"70858",
+      "PNC":"713676",
+      "PFC":"946647",
+      "SNV":"18349",
+      "FHN":"36966",
+      "STL":"1070154",
+      "EWBC":"1069157",
+      "PBCT":"1378946",
+      "FBP":"1057706",
+      "WFC":"72971",
+      "SLM":"1032033",
+      "PSX":"1534701",
+      "JNJ":"200406",
+      "AMZN":"1018724",
+      "FB":"1326801",
+      "GOOG":"1652044",
+      "MU":"723125",
+      "LN":"1611820",
+      "DIS":"1744489",
+      "AAPL":"320193",
+      "T":"732717",
+      "COST":"909832",
+      "MSFT":"789019",
+      "INTC":"50863",
+      "MCD":"63908",
+      "AMD":"2488",
+      "WMT":"104169",
+      "TSLA":"1318605",
+      "AMT":"1053507",
+      "CRWD":"1535527",
+      "CRM":"1108524",
+      "WLK":"1262823",
+      "BIO":"12208",
+      "QNST":"1117297",
+      "FORM":"1039399",
+      "EME":"105634",
+      "MCY":"64996",
+      "SFM":"1575515",
+      "REGI":"1463258",
+      "SMP":"93389",
+      "EXEL":"939767",
+      "BGFV":"1156388",
+      "HTH":"1265131",
+      "LAKE":"798081",
+      "SNX":"1177394",
+      "C":"831001",
+      "TDS":"1051512",
+      "MDC":"773141",
+      "PBFX":"1582568",
+      "PHM":"822416",
+      "ELP":"1041792",
+      "CNNE":"1704720",
+      "QDEL":"353569",
+      "KGC":"701818",
+      "TX":"1342874",
+      "LDI":"1831631",
+      "EDRY":"1731388",
+      "GSL":"1430725",
+      "GOGL":"1029145",
+      "CPLP":"1392326",
+      "CEIX":"1710366",
+      "ARLP":"1086600",
+      "S":"1583708",
+      "BXS":"1299939",
+      "ET":"1276187",
+      "NMM":"1415921",
+      "SB":"1434754",
+      "SID":"1049659",
+      "X":"1163302",
+      "DAC":"1369241",
+      "GGB":"1073404",
+      "THO":"730263",
+      "VALE":"917851",
+      "ZIM":"1654126",
+      "PKX":"889132",
+      "NC":"789933",
+      "WGO":"107687",
+      "HIMX":"1342338",
+      "STC":"94344"
    },
-   "portfolio": {
-      "ARLP": {
-         "cost_p": 14.01,
-         "position_%": 8.008393024537625,
-         "profit_%": 0
+   "portfolio":{
+      "ARLP":{
+         "cost_p":14.01,
+         "position_%":7.3681982379182696,
+         "profit_%":0
       },
-      "BIO": {
-         "cost_p": 596.71,
-         "position_%": 6.0032057351480725,
-         "profit_%": 0
+      "BAC":{
+         "cost_p":38,
+         "position_%":7.994048052559435,
+         "profit_%":0
       },
-      "CPLP": {
-         "cost_p": 12.99,
-         "position_%": 2.3761090738328337,
-         "profit_%": 0
+      "BIO":{
+         "cost_p":596.71,
+         "position_%":5.523306583986331,
+         "profit_%":0
       },
-      "DAC": {
-         "cost_p": 76.97,
-         "position_%": 5.279708874506732,
-         "profit_%": 0
+      "CPLP":{
+         "cost_p":12.99,
+         "position_%":2.186161772689412,
+         "profit_%":0
       },
-      "EDRY": {
-         "cost_p": 22.24,
-         "position_%": 1.5255388510982164,
-         "profit_%": 0
+      "DAC":{
+         "cost_p":76.97,
+         "position_%":4.857646410043419,
+         "profit_%":0
       },
-      "ET": {
-         "cost_p": 9.35,
-         "position_%": 4.767423233636595,
-         "profit_%": 0
+      "EDRY":{
+         "cost_p":22.24,
+         "position_%":1.4035865422809617,
+         "profit_%":0
       },
-      "GOGL": {
-         "cost_p": 10.75,
-         "position_%": 3.4411510355258033,
-         "profit_%": 0
+      "ET":{
+         "cost_p":9.35,
+         "position_%":4.386313129470802,
+         "profit_%":0
       },
-      "HIMX": {
-         "cost_p": 9.18,
-         "position_%": 9.025647573179107,
-         "profit_%": 0
+      "GOGL":{
+         "cost_p":10.75,
+         "position_%":3.1660637681847237,
+         "profit_%":0
       },
-      "INTC": {
-         "cost_p": 47.41,
-         "position_%": 5.420098690839812,
-         "profit_%": 0
+      "HIMX":{
+         "cost_p":9.18,
+         "position_%":8.304132969124502,
+         "profit_%":0
       },
-      "NC": {
-         "cost_p": 29.95,
-         "position_%": 4.10880293079061,
-         "profit_%": 0
+      "INTC":{
+         "cost_p":47.41,
+         "position_%":4.986813396997931,
+         "profit_%":0
       },
-      "NMM": {
-         "cost_p": 30.04,
-         "position_%": 3.6746920101228833,
-         "profit_%": 0
+      "NC":{
+         "cost_p":29.95,
+         "position_%":3.780343250118238,
+         "profit_%":0
       },
-      "PKX": {
-         "cost_p": 58.54,
-         "position_%": 5.166628764464896,
-         "profit_%": 0
+      "NMM":{
+         "cost_p":30.04,
+         "position_%":3.3809353650500973,
+         "profit_%":0
       },
-      "SB": {
-         "cost_p": 4.05,
-         "position_%": 3.847629856350122,
-         "profit_%": 0
+      "PKX":{
+         "cost_p":58.54,
+         "position_%":4.753605978336213,
+         "profit_%":0
       },
-      "SID": {
-         "cost_p": 4.82,
-         "position_%": 7.714580461039243,
-         "profit_%": 0
+      "SB":{
+         "cost_p":4.05,
+         "position_%":3.5400484767488694,
+         "profit_%":0
       },
-      "THO": {
-         "cost_p": 89.53,
-         "position_%": 9.437060615886924,
-         "profit_%": 0
+      "SID":{
+         "cost_p":4.82,
+         "position_%":7.097873191930404,
+         "profit_%":0
       },
-      "TX": {
-         "cost_p": 39.96,
-         "position_%": 5.48206227427021,
-         "profit_%": 0
+      "THO":{
+         "cost_p":89.53,
+         "position_%":8.68265745550376,
+         "profit_%":0
       },
-      "WGO": {
-         "cost_p": 56.56,
-         "position_%": 8.406011738875126,
-         "profit_%": 0
+      "TX":{
+         "cost_p":39.96,
+         "position_%":5.043823581793816,
+         "profit_%":0
       },
-      "ZIM": {
-         "cost_p": 55.24,
-         "position_%": 6.315255255895195,
-         "profit_%": 0
+      "WGO":{
+         "cost_p":56.56,
+         "position_%":7.734031121165659,
+         "profit_%":0
+      },
+      "ZIM":{
+         "cost_p":55.24,
+         "position_%":5.810410716097147,
+         "profit_%":0
       }
    }
 }
