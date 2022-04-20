@@ -162,6 +162,11 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/PKX"
     },
+	{
+      symbol: "STC",
+      src: "marketwatch",
+      api: "investing/stock/STC"
+    },
     {
       symbol: "HRN00",
       src: "marketwatch",
@@ -487,6 +492,50 @@ const ForecastConfig = {
       target_data: {
         name: 'BIO',
         file_path: 'stock/historical-quotes/BIO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  STC: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'STC',
+        file_path: 'stock/historical-quotes/STC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'STC',
+        file_path: 'stock/historical-quotes/STC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'STC',
+        file_path: 'stock/historical-quotes/STC.json',
         type: 'stock'
       },
       feature_data: []
