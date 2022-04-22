@@ -123,11 +123,6 @@ const MarketConfig = {
       api: "investing/stock/ARLP"
     },
     {
-      symbol: "NC",
-      src: "marketwatch",
-      api: "investing/stock/NC"
-    },
-    {
       symbol: "HIMX",
       src: "marketwatch",
       api: "investing/stock/HIMX"
@@ -305,71 +300,6 @@ const ForecastConfig = {
       target_data: {
         name: 'ARLP',
         file_path: 'stock/historical-quotes/ARLP.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "COAL",
-          file_path: "markets/historical-quotes/marketwatch_COAL.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
-  NC: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'NC',
-        file_path: 'stock/historical-quotes/NC.json',
-        type: 'stock'
-      },
-      feature_data: [] 
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'NC',
-        file_path: 'stock/historical-quotes/NC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'NC',
-        file_path: 'stock/historical-quotes/NC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_COAL',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'NC',
-        file_path: 'stock/historical-quotes/NC.json',
         type: 'stock'
       },
       feature_data: [
