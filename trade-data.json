@@ -87,6 +87,12 @@
       {
          "symbol":"BK",
          "type":"put",
+         "expiry":"2022-04-29",
+         "strike":44
+      },
+      {
+         "symbol":"BK",
+         "type":"put",
          "expiry":"2022-05-06",
          "strike":45
       },
@@ -100,6 +106,12 @@
          "symbol":"C",
          "type":"put",
          "expiry":"2022-04-29",
+         "strike":49
+      },
+      {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-04-29",
          "strike":51
       },
       {
@@ -107,6 +119,12 @@
          "type":"put",
          "expiry":"2022-05-20",
          "strike":22.5
+      },
+      {
+         "symbol":"CVLG",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":15
       },
       {
          "symbol":"DHI",
@@ -127,10 +145,22 @@
          "strike":9.5
       },
       {
+         "symbol":"ET",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":11
+      },
+      {
          "symbol":"GRBK",
          "type":"put",
          "expiry":"2022-05-20",
          "strike":17.5
+      },
+      {
+         "symbol":"HIMX",
+         "type":"put",
+         "expiry":"2022-05-27",
+         "strike":8
       },
       {
          "symbol":"ILPT",
@@ -155,6 +185,12 @@
          "type":"put",
          "expiry":"2022-05-20",
          "strike":55
+      },
+      {
+         "symbol":"STC",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":50
       },
       {
          "symbol":"T",
