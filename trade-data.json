@@ -1,23 +1,24 @@
 {
    "hold_stock_list":[
-      "ARLP",
       "BIO",
-      "BAC",
-      "DAC",
       "HIMX",
+      "STC",
+      "ET",
+      "INTC",
+      "ARLP",
+      "BAC",
+      "BK",
       "THO",
       "WGO",
+      "DAC",
       "GOGL",
       "CPLP",
-      "SID",
-      "STC",
       "EDRY",
-      "ET",
       "SB",
       "NMM",
-      "PKX",
-      "INTC",
       "ZIM",
+      "SID",
+      "PKX",
       "TX"
    ],
    "star_stock_list":[
@@ -386,6 +387,7 @@
          "NC":"NACCO Industries, Inc. (NC)",
          "WGO":"Winnebago Industries, Inc.",
          "HIMX":"Himax Technologies (奇景光電)",
+         "BK":"The Bank of New York Mellon Corporation (BK)",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -732,102 +734,108 @@
       "NC":"789933",
       "WGO":"107687",
       "HIMX":"1342338",
+      "BK":"1390777",
       "STC":"94344"
    },
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":5.141115493194158,
+         "position_%":5.09165687863668,
          "profit_%":0
       },
       "BAC":{
          "cost_p":37.59,
-         "position_%":4.868485486564262,
+         "position_%":4.821649630128551,
          "profit_%":0
       },
       "BIO":{
          "cost_p":596.71,
-         "position_%":5.667431714385984,
+         "position_%":5.612909826857157,
+         "profit_%":0
+      },
+      "BK":{
+         "cost_p":45,
+         "position_%":0.962021075444643,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":2.243207465477335,
+         "position_%":2.2216273368934956,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":4.984401807672935,
+         "position_%":4.936450811798278,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":1.4402117214842933,
+         "position_%":1.4263565811925905,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":4.5007695591739,
+         "position_%":4.45747120745745,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":3.2486790180363636,
+         "position_%":3.217426041209306,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":9.18,
-         "position_%":8.520820967306806,
+         "position_%":8.438848873800406,
          "profit_%":0
       },
       "INTC":{
          "cost_p":47.41,
-         "position_%":5.116939277245979,
+         "position_%":5.067713242981169,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":3.4691574731209043,
+         "position_%":3.4357834470891184,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":2.527278002868422,
+         "position_%":2.502965055845751,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":3.6324224814459414,
+         "position_%":3.597477811625242,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":7.283085054388498,
+         "position_%":7.213020241222723,
          "profit_%":0
       },
       "STC":{
          "cost_p":54.28,
-         "position_%":9.373464297621997,
+         "position_%":9.283289595579594,
          "profit_%":0
       },
       "THO":{
          "cost_p":89.53,
-         "position_%":8.909222669467827,
+         "position_%":8.823514069729255,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":5.175437085477731,
+         "position_%":5.125648289969057,
          "profit_%":0
       },
       "WGO":{
          "cost_p":56.56,
-         "position_%":7.935842884989293,
+         "position_%":7.859498403921522,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":55.24,
-         "position_%":5.962027540077366,
+         "position_%":5.904671578618008,
          "profit_%":0
       }
    }
