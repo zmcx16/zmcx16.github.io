@@ -90,7 +90,7 @@ var myvar =
 '            <h3>環境需求</h3>' +
 '            <ol class=\'environment-list\'>' +
 '                <li><a class="link" target="_blank" href="https://www.microsoft.com/zh-tw/download/details.aspx?id=42642">.Net framework 4.5.2或以上的版本</a></li>' +
-'                <li><a class="link" target="_blank" href="https://www.microsoft.com/zh-tw/download/details.aspx?id=48145">Visual C++ 2015</a></li>' +
+'                <li><a class="link" target="_blank" href="https://docs.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft Visual C++ 2019可轉散發套件</a></li>' +
 '            </ol>' +
 '        </div>' +
 '        <div class="founction">' +
