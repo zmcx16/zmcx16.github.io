@@ -39,12 +39,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-04-22",
-         "strike":34
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2022-05-06",
          "strike":35
       },
@@ -65,12 +59,6 @@
          "type":"put",
          "expiry":"2022-05-20",
          "strike":530
-      },
-      {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-04-22",
-         "strike":45
       },
       {
          "symbol":"BK",
