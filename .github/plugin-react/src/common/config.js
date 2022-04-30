@@ -87,6 +87,11 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/BK"
     },
+	{
+      symbol: "C",
+      src: "marketwatch",
+      api: "investing/stock/C"
+    },
     {
       symbol: "DAC",
       src: "marketwatch",
@@ -559,6 +564,50 @@ const ForecastConfig = {
       target_data: {
         name: 'BK',
         file_path: 'stock/historical-quotes/BK.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  C: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'C',
+        file_path: 'stock/historical-quotes/C.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'C',
+        file_path: 'stock/historical-quotes/C.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'C',
+        file_path: 'stock/historical-quotes/C.json',
         type: 'stock'
       },
       feature_data: []
