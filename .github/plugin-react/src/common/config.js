@@ -137,6 +137,11 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/HIMX"
     },
+	{
+      symbol: "ILPT",
+      src: "marketwatch",
+      api: "investing/stock/ILPT"
+    },
     {
       symbol: "THO",
       src: "marketwatch",
@@ -432,6 +437,50 @@ const ForecastConfig = {
       target_data: {
         name: 'BIO',
         file_path: 'stock/historical-quotes/BIO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  ILPT: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ILPT',
+        file_path: 'stock/historical-quotes/ILPT.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ILPT',
+        file_path: 'stock/historical-quotes/ILPT.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ILPT',
+        file_path: 'stock/historical-quotes/ILPT.json',
         type: 'stock'
       },
       feature_data: []
