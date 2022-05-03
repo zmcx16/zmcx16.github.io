@@ -80,6 +80,12 @@
          "strike":13
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":42
+      },
+      {
          "symbol":"CCS",
          "type":"put",
          "expiry":"2022-05-20",
@@ -144,6 +150,12 @@
          "type":"put",
          "expiry":"2022-05-20",
          "strike":20
+      },
+      {
+         "symbol":"ILPT",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":15
       },
       {
          "symbol":"INTC",
