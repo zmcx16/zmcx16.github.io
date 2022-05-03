@@ -2,6 +2,7 @@
    "hold_stock_list":[
       "BIO",
       "HIMX",
+      "ILPT",
       "STC",
       "ET",
       "INTC",
@@ -79,6 +80,12 @@
          "expiry":"2022-05-20",
          "strike":13
       },
+	  {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":42
+      },
       {
          "symbol":"CCS",
          "type":"put",
@@ -143,7 +150,7 @@
          "symbol":"ILPT",
          "type":"put",
          "expiry":"2022-05-20",
-         "strike":20
+         "strike":15
       },
       {
          "symbol":"INTC",
@@ -694,112 +701,118 @@
       "WGO":"107687",
       "HIMX":"1342338",
       "BK":"1390777",
+      "ILPT":"1717307",
       "STC":"94344"
    },
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":4.080138252907311,
+         "position_%":3.944973965358236,
          "profit_%":0
       },
       "BAC":{
          "cost_p":37.59,
-         "position_%":3.8637711784049835,
+         "position_%":3.735774565003555,
          "profit_%":0
       },
       "BIO":{
          "cost_p":596.71,
-         "position_%":4.497838059506325,
+         "position_%":4.348836472025535,
          "profit_%":0
       },
       "BK":{
          "cost_p":44.1,
-         "position_%":4.532915907625958,
+         "position_%":4.382752282965063,
          "profit_%":0
       },
       "C":{
          "cost_p":50,
-         "position_%":8.565600732475355,
+         "position_%":8.281844827976311,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":1.780274456237678,
+         "position_%":1.7212986290465964,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":3.955765730271769,
+         "position_%":3.8247215784560193,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":1.1429937617415113,
+         "position_%":1.1051293738451589,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":3.571941161449548,
+         "position_%":3.4536121117144014,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":2.578245820475082,
+         "position_%":2.4928352932208697,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":9.18,
-         "position_%":6.7623704662746436,
+         "position_%":6.538350854790738,
+         "profit_%":0
+      },
+      "ILPT":{
+         "cost_p":20,
+         "position_%":3.3127379311905245,
          "profit_%":0
       },
       "INTC":{
          "cost_p":45.14,
-         "position_%":11.599536511918126,
+         "position_%":11.21527426604552,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":2.7532239122380884,
+         "position_%":2.6620168193667695,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":2.005721067516429,
+         "position_%":1.9392767849189327,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":2.882795754518243,
+         "position_%":2.787296286079567,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":5.78006737427437,
+         "position_%":5.588588889918414,
          "profit_%":0
       },
       "STC":{
          "cost_p":54.28,
-         "position_%":7.439052924140197,
+         "position_%":7.192616596200867,
          "profit_%":0
       },
       "THO":{
          "cost_p":89.53,
-         "position_%":7.0706173135939405,
+         "position_%":6.83638629187719,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":4.107376863236582,
+         "position_%":3.971310231911201,
          "profit_%":0
       },
       "WGO":{
          "cost_p":56.56,
-         "position_%":6.2981149065744795,
+         "position_%":6.089474865114422,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":55.24,
-         "position_%":4.731637844619386,
+         "position_%":4.574891082974114,
          "profit_%":0
       }
    }
