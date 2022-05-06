@@ -80,7 +80,7 @@
          "expiry":"2022-05-20",
          "strike":13
       },
-	  {
+      {
          "symbol":"C",
          "type":"put",
          "expiry":"2022-05-06",
@@ -89,14 +89,26 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2022-05-06",
-         "strike":42
+         "expiry":"2022-05-20",
+         "strike":46.5
       },
       {
          "symbol":"CCS",
          "type":"put",
          "expiry":"2022-05-20",
          "strike":40
+      },
+      {
+         "symbol":"CCS",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":45
+      },
+      {
+         "symbol":"CSWC",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":22
       },
       {
          "symbol":"CVLG",
@@ -109,6 +121,18 @@
          "type":"put",
          "expiry":"2022-05-06",
          "strike":65
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":69
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-05-06",
+         "strike":70
       },
       {
          "symbol":"DHI",
@@ -141,6 +165,24 @@
          "strike":17.5
       },
       {
+         "symbol":"GRBK",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":17.5
+      },
+      {
+         "symbol":"HIMX",
+         "type":"put",
+         "expiry":"2022-05-13",
+         "strike":8.5
+      },
+      {
+         "symbol":"HIMX",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":8
+      },
+      {
          "symbol":"HIMX",
          "type":"put",
          "expiry":"2022-05-20",
@@ -159,16 +201,16 @@
          "strike":15
       },
       {
-         "symbol":"ILPT",
-         "type":"put",
-         "expiry":"2022-05-20",
-         "strike":15
-      },
-      {
          "symbol":"INTC",
          "type":"put",
          "expiry":"2022-05-06",
          "strike":44
+      },
+      {
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":39
       },
       {
          "symbol":"NAVI",
