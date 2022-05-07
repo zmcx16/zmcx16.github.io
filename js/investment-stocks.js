@@ -359,7 +359,7 @@ function preprocessData(json_data, input_key)
           base_info["Oper. Margin"] = stock["baseinfo"]["Oper. Margin"];
           base_info["Profit Margin"] = stock["baseinfo"]["Profit Margin"];
           
-          if (json_data["Beneish_Model_v1"][symbol]) {
+          if (json_data["Beneish_Model_v1"][symbol] && Object.keys(json_data["Beneish_Model_v1"][symbol]).length > 0) {
             let bm_year_key = '';
             Object.keys(json_data["Beneish_Model_v1"][symbol]).forEach((year) => {
               if (bm_year_key == '' || year > bm_year_key){
