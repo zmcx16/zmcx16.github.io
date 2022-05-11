@@ -71,6 +71,18 @@
       {
          "symbol":"C",
          "type":"put",
+         "expiry":"2022-05-13",
+         "strike":45.5
+      },
+      {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-05-20",
+         "strike":42
+      },
+      {
+         "symbol":"C",
+         "type":"put",
          "expiry":"2022-05-20",
          "strike":46.5
       },
