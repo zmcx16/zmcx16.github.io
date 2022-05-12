@@ -57,12 +57,6 @@
          "strike":530
       },
       {
-         "symbol":"BZH",
-         "type":"put",
-         "expiry":"2022-05-20",
-         "strike":13
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2022-05-13",
@@ -121,12 +115,6 @@
          "type":"put",
          "expiry":"2022-05-27",
          "strike":10.5
-      },
-      {
-         "symbol":"GRBK",
-         "type":"put",
-         "expiry":"2022-05-20",
-         "strike":17.5
       },
       {
          "symbol":"GRBK",
