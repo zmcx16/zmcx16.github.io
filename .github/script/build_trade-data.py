@@ -24,6 +24,7 @@ def send_post_json(url, req_data):
 if __name__ == "__main__":
     MAX_SCREENER_STOCKS = 20
     DELAY_TIME_SEC = 300
+    SCAN_RETRY_CNT = 3
     SEC_RETRY_CNT = 5
     SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
@@ -85,19 +86,20 @@ if __name__ == "__main__":
             for target in scan_list_args:
                 target["target"] = [symbol]
 
-            ret, resp = send_post_json(SCAN_URL, str({"data": scan_list_args}))
-            if ret == 0:
-                try:
-                    if resp["ret"] != 0:
-                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
-                    else:
-                        scan_output["data"] += resp["data"]
-
-                except Exception as ex:
-                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+            for retry_i in range(SCAN_RETRY_CNT):
+                ret, resp = send_post_json(SCAN_URL, str({"data": scan_list_args}))
+                if ret == 0:
+                    try:
+                        if resp["ret"] != 0:
+                            print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                        else:
+                            scan_output["data"] += resp["data"]
+                        break
+                    except Exception as ex:
+                        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # --- get SEC -------
-            if (symbol in data["hold_stock_list"]):
+            if symbol in data["hold_stock_list"]:
                 sec_args = data["sec_template"].copy()
                 for sec_target in sec_args:
                     sec_target["target"] = [{"symbol": symbol, "CIK": sec_cik_table[symbol]}]
