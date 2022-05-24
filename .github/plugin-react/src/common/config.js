@@ -78,11 +78,6 @@ const MarketConfig = {
       api: "investing/stock/AX"
     },
     {
-      symbol: "SF",
-      src: "marketwatch",
-      api: "investing/stock/SF"
-    },
-    {
       symbol: "BIO",
       src: "marketwatch",
       api: "investing/stock/BIO"
@@ -491,50 +486,6 @@ const ForecastConfig = {
       target_data: {
         name: 'AX',
         file_path: 'stock/historical-quotes/AX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
-  SF: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'SF',
-        file_path: 'stock/historical-quotes/SF.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'SF',
-        file_path: 'stock/historical-quotes/SF.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'SF',
-        file_path: 'stock/historical-quotes/SF.json',
         type: 'stock'
       },
       feature_data: []
