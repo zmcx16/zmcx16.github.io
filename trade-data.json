@@ -46,6 +46,12 @@
          "strike":15
       },
       {
+         "symbol":"AER",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":37.5
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-06-03",
@@ -611,117 +617,117 @@
    "portfolio":{
       "ARLP":{
          "cost_p":14.01,
-         "position_%":1.8100227977603776,
+         "position_%":1.8201343495598548,
          "profit_%":0
       },
       "AX":{
          "cost_p":37.5,
-         "position_%":2.906888861499536,
+         "position_%":2.923127970385206,
          "profit_%":0
       },
       "BAC":{
          "cost_p":37.29,
-         "position_%":5.781220567750277,
+         "position_%":5.813516907502097,
          "profit_%":0
       },
       "BIO":{
          "cost_p":550.38,
-         "position_%":10.239318346189535,
+         "position_%":10.296519502979901,
          "profit_%":0
       },
       "BK":{
          "cost_p":44.42,
-         "position_%":6.312729046692904,
+         "position_%":6.347994617287196,
          "profit_%":0
       },
       "C":{
          "cost_p":50,
-         "position_%":6.459753025554524,
+         "position_%":6.495839934189346,
          "profit_%":0
       },
       "CPLP":{
          "cost_p":12.99,
-         "position_%":1.3425950688312525,
+         "position_%":1.3500953719219138,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":2.9832431422615904,
+         "position_%":2.999908798407324,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.8619894437299956,
+         "position_%":0.8668048808182262,
          "profit_%":0
       },
       "ET":{
          "cost_p":9.35,
-         "position_%":2.6937816091864923,
+         "position_%":2.7088302109562994,
          "profit_%":0
       },
       "GOGL":{
          "cost_p":10.75,
-         "position_%":1.9443856606919119,
+         "position_%":1.3966055858507096,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":9.18,
-         "position_%":5.099845818614786,
+         "position_%":5.128335711243805,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.42,
-         "position_%":4.5011559082063926,
+         "position_%":4.526301266143137,
          "profit_%":0
       },
       "INTC":{
          "cost_p":45.14,
-         "position_%":8.747797547205936,
+         "position_%":8.796666438879212,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":2.0763454954979395,
+         "position_%":2.0879448383666133,
          "profit_%":0
       },
       "PKX":{
          "cost_p":58.54,
-         "position_%":1.5126157684638475,
+         "position_%":1.5210658789897773,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":2.174062179515503,
+         "position_%":2.1862074090510957,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":4.359041341644193,
+         "position_%":4.383392787590971,
          "profit_%":0
       },
       "STC":{
          "cost_p":54.28,
-         "position_%":5.610166307633594,
+         "position_%":5.641507066044763,
          "profit_%":0
       },
       "THO":{
          "cost_p":80.73,
-         "position_%":7.937167015880915,
+         "position_%":7.981507383041753,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":3.0975807708139054,
+         "position_%":3.1148851652424754,
          "profit_%":0
       },
       "WGO":{
          "cost_p":53.71,
-         "position_%":7.979926705058271,
+         "position_%":8.024505945902124,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":55.24,
-         "position_%":3.5683675713163194,
+         "position_%":3.588301979646195,
          "profit_%":0
       }
    }
