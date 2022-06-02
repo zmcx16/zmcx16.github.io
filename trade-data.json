@@ -60,8 +60,26 @@
       {
          "symbol":"BAC",
          "type":"put",
+         "expiry":"2022-06-10",
+         "strike":34
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
          "expiry":"2022-06-17",
          "strike":32.5
+      },
+      {
+         "symbol":"BK",
+         "type":"put",
+         "expiry":"2022-06-03",
+         "strike":44.5
+      },
+     {
+         "symbol":"BK",
+         "type":"put",
+         "expiry":"2022-06-10",
+         "strike":43
       },
       {
          "symbol":"BK",
@@ -104,6 +122,12 @@
          "type":"put",
          "expiry":"2022-06-17",
          "strike":17.5
+      },
+      {
+         "symbol":"HIMX",
+         "type":"put",
+         "expiry":"2022-07-08",
+         "strike":7.5
       },
       {
          "symbol":"JPM",
