@@ -54,12 +54,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-06-03",
-         "strike":31.5
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2022-06-10",
          "strike":34
       },
@@ -72,12 +66,6 @@
       {
          "symbol":"BK",
          "type":"put",
-         "expiry":"2022-06-03",
-         "strike":44.5
-      },
-     {
-         "symbol":"BK",
-         "type":"put",
          "expiry":"2022-06-10",
          "strike":43
       },
@@ -86,12 +74,6 @@
          "type":"put",
          "expiry":"2022-06-24",
          "strike":41
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-06-03",
-         "strike":50
       },
       {
          "symbol":"C",
@@ -138,12 +120,6 @@
       {
          "symbol":"JPM",
          "type":"put",
-         "expiry":"2022-06-03",
-         "strike":122
-      },
-      {
-         "symbol":"JPM",
-         "type":"put",
          "expiry":"2022-06-10",
          "strike":121
       },
@@ -152,18 +128,6 @@
          "type":"put",
          "expiry":"2022-06-17",
          "strike":70
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-06-03",
-         "strike":55
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-06-03",
-         "strike":56
       }
    ],
    "star_option_list":[
