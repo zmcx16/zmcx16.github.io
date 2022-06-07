@@ -94,6 +94,12 @@
          "strike":40
       },
       {
+         "symbol":"COLB",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":25
+      },
+      {
          "symbol":"CSWC",
          "type":"put",
          "expiry":"2022-06-17",
@@ -104,6 +110,12 @@
          "type":"put",
          "expiry":"2022-06-17",
          "strike":65
+      },
+      {
+         "symbol":"F",
+         "type":"put",
+         "expiry":"2022-07-08",
+         "strike":11
       },
       {
          "symbol":"GRBK",
@@ -128,6 +140,12 @@
          "type":"put",
          "expiry":"2022-06-17",
          "strike":70
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-06-10",
+         "strike":58
       }
    ],
    "star_option_list":[
