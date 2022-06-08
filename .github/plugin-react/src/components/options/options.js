@@ -514,7 +514,7 @@ const Options = () => {
           }} initialState={{
             filter: {
               filterModel: {
-                items: [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }],
+                items: Options_Def[arg].name === 'star_list' ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
               },
             },
             sorting: {
@@ -530,7 +530,7 @@ const Options = () => {
           }} initialState={{
             filter: {
               filterModel: {
-                items: [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }],
+                items: Options_Def[arg].name === 'star_list' ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
               },
             },
             sorting: {
