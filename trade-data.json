@@ -118,6 +118,12 @@
          "strike":22
       },
       {
+         "symbol":"DAC",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":70
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2022-06-17",
