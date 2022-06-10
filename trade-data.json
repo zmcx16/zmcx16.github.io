@@ -78,6 +78,12 @@
       {
          "symbol":"BK",
          "type":"put",
+         "expiry":"2022-06-17",
+         "strike":42.5
+      },
+      {
+         "symbol":"BK",
+         "type":"put",
          "expiry":"2022-06-24",
          "strike":41
       },
@@ -180,8 +186,20 @@
       {
          "symbol":"MMM",
          "type":"put",
+         "expiry":"2022-06-10",
+         "strike":140
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
          "expiry":"2022-06-17",
          "strike":136
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-06-17",
+         "strike":122
       },
       {
          "symbol":"WAL",
