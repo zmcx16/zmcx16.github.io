@@ -83,6 +83,16 @@ const MarketConfig = {
       api: "investing/stock/BIO"
     },
 	{
+      symbol: "INTC",
+      src: "marketwatch",
+      api: "investing/stock/INTC"
+    },
+	{
+      symbol: "MMM",
+      src: "marketwatch",
+      api: "investing/stock/MMM"
+    },
+	{
       symbol: "BAC",
       src: "marketwatch",
       api: "investing/stock/BAC"
@@ -91,6 +101,11 @@ const MarketConfig = {
       symbol: "BK",
       src: "marketwatch",
       api: "investing/stock/BK"
+    },
+	{
+      symbol: "JPM",
+      src: "marketwatch",
+      api: "investing/stock/JPM"
     },
 	{
       symbol: "C",
@@ -442,6 +457,138 @@ const ForecastConfig = {
       target_data: {
         name: 'BIO',
         file_path: 'stock/historical-quotes/BIO.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  JPM: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'JPM',
+        file_path: 'stock/historical-quotes/JPM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'JPM',
+        file_path: 'stock/historical-quotes/JPM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'JPM',
+        file_path: 'stock/historical-quotes/JPM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  INTC: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'INTC',
+        file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  MMM: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
         type: 'stock'
       },
       feature_data: []
