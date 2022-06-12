@@ -22,7 +22,7 @@ def send_post_json(url, req_data):
 
 
 if __name__ == "__main__":
-    MAX_SCREENER_STOCKS = 20
+    MAX_SCREENER_STOCKS = 10
     DELAY_TIME_SEC = 300
     SCAN_RETRY_CNT = 3
     SEC_RETRY_CNT = 5
