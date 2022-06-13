@@ -88,11 +88,6 @@ const MarketConfig = {
       api: "investing/stock/INTC"
     },
 	{
-      symbol: "MMM",
-      src: "marketwatch",
-      api: "investing/stock/MMM"
-    },
-	{
       symbol: "BAC",
       src: "marketwatch",
       api: "investing/stock/BAC"
@@ -103,11 +98,6 @@ const MarketConfig = {
       api: "investing/stock/BK"
     },
 	{
-      symbol: "JPM",
-      src: "marketwatch",
-      api: "investing/stock/JPM"
-    },
-	{
       symbol: "C",
       src: "marketwatch",
       api: "investing/stock/C"
@@ -116,16 +106,6 @@ const MarketConfig = {
       symbol: "DAC",
       src: "marketwatch",
       api: "investing/stock/DAC"
-    },
-    {
-      symbol: "GOGL",
-      src: "marketwatch",
-      api: "investing/stock/GOGL"
-    },
-    {
-      symbol: "CPLP",
-      src: "marketwatch",
-      api: "investing/stock/CPLP"
     },
     {
       symbol: "EDRY",
@@ -146,16 +126,6 @@ const MarketConfig = {
       symbol: "ZIM",
       src: "marketwatch",
       api: "investing/stock/ZIM"
-    },
-    {
-      symbol: "ARLP",
-      src: "marketwatch",
-      api: "investing/stock/ARLP"
-    },
-    {
-      symbol: "HIMX",
-      src: "marketwatch",
-      api: "investing/stock/HIMX"
     },
 	{
       symbol: "ILPT",
@@ -282,71 +252,6 @@ const MarketConfig = {
 
 const ForecastConfig = {
 // hold stocks
-  ARLP: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ARLP',
-        file_path: 'stock/historical-quotes/ARLP.json',
-        type: 'stock'
-      },
-      feature_data: [] 
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ARLP',
-        file_path: 'stock/historical-quotes/ARLP.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ARLP',
-        file_path: 'stock/historical-quotes/ARLP.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_COAL',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ARLP',
-        file_path: 'stock/historical-quotes/ARLP.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "COAL",
-          file_path: "markets/historical-quotes/marketwatch_COAL.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
   PKX: [
     {
       type: 'stock_fbprophet_empty',
@@ -462,50 +367,6 @@ const ForecastConfig = {
       feature_data: []
     },
   ],
-  JPM: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'JPM',
-        file_path: 'stock/historical-quotes/JPM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'JPM',
-        file_path: 'stock/historical-quotes/JPM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'JPM',
-        file_path: 'stock/historical-quotes/JPM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
   INTC: [
     {
       type: 'stock_fbprophet_empty',
@@ -545,50 +406,6 @@ const ForecastConfig = {
       target_data: {
         name: 'INTC',
         file_path: 'stock/historical-quotes/INTC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
-  MMM: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
         type: 'stock'
       },
       feature_data: []
@@ -1042,50 +859,6 @@ const ForecastConfig = {
       ]
     },
   ],
-  HIMX: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'HIMX',
-        file_path: 'stock/historical-quotes/HIMX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'HIMX',
-        file_path: 'stock/historical-quotes/HIMX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'HIMX',
-        file_path: 'stock/historical-quotes/HIMX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
   THO: [
     {
       type: 'stock_fbprophet_empty',
@@ -1172,190 +945,6 @@ const ForecastConfig = {
         type: 'stock'
       },
       feature_data: []
-    },
-  ],
-  GOGL: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GOGL',
-        file_path: 'stock/historical-quotes/GOGL.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GOGL',
-        file_path: 'stock/historical-quotes/GOGL.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GOGL',
-        file_path: 'stock/historical-quotes/GOGL.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_bdi',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GOGL',
-        file_path: 'stock/historical-quotes/GOGL.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "BDIY_IND",
-          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
-          type: "market"
-        }
-      ]
-    },
-    {
-      type: 'stock_fbprophet_empty_bdi_fbx',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'GOGL',
-        file_path: 'stock/historical-quotes/GOGL.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "BDIY_IND",
-          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "FBX",
-          file_path: "markets/historical-quotes/freightos_FBX.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
-  CPLP: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'CPLP',
-        file_path: 'stock/historical-quotes/CPLP.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'CPLP',
-        file_path: 'stock/historical-quotes/CPLP.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'CPLP',
-        file_path: 'stock/historical-quotes/CPLP.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_bdi',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'CPLP',
-        file_path: 'stock/historical-quotes/CPLP.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "BDIY_IND",
-          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
-          type: "market"
-        }
-      ]
-    },
-    {
-      type: 'stock_fbprophet_empty_bdi_fbx',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'CPLP',
-        file_path: 'stock/historical-quotes/CPLP.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "BDIY_IND",
-          file_path: "markets/historical-quotes/bloomberg_BDIY_IND.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "FBX",
-          file_path: "markets/historical-quotes/freightos_FBX.json",
-          type: "market"
-        }
-      ]
     },
   ],
   SID: [
