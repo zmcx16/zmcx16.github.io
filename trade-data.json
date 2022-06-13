@@ -4,7 +4,6 @@
       "BIO",
       "ILPT",
       "STC",
-      "ET",
       "INTC",
       "BAC",
       "BK",
@@ -17,7 +16,6 @@
       "NMM",
       "ZIM",
       "SID",
-      "PKX",
       "TX"
    ],
    "star_stock_list":[
@@ -33,48 +31,6 @@
       "CRM"
    ],
    "hold_option_list":[
-      {
-         "symbol":"ABR",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":15
-      },
-      {
-         "symbol":"AER",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":37.5
-      },
-      {
-         "symbol":"AX",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":35
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":32.5
-      },
-      {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":42.5
-      },
-      {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-06-24",
-         "strike":41
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":47.5
-      },
       {
          "symbol":"CCS",
          "type":"put",
@@ -94,12 +50,6 @@
          "strike":25
       },
       {
-         "symbol":"CSWC",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":22
-      },
-      {
          "symbol":"DAC",
          "type":"put",
          "expiry":"2022-06-17",
@@ -112,24 +62,6 @@
          "strike":65
       },
       {
-         "symbol":"F",
-         "type":"put",
-         "expiry":"2022-07-08",
-         "strike":11
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":32.5
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":33
-      },
-      {
          "symbol":"GRBK",
          "type":"put",
          "expiry":"2022-06-17",
@@ -138,26 +70,20 @@
       {
          "symbol":"HIMX",
          "type":"put",
+         "expiry":"2022-07-01",
+         "strike":7.5
+      },
+      {
+         "symbol":"HIMX",
+         "type":"put",
          "expiry":"2022-07-08",
          "strike":7.5
       },
       {
-         "symbol":"MMM",
+         "symbol":"STC",
          "type":"put",
          "expiry":"2022-06-17",
-         "strike":136
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":122
-      },
-      {
-         "symbol":"WAL",
-         "type":"put",
-         "expiry":"2022-06-17",
-         "strike":70
+         "strike":50
       }
    ],
    "star_option_list":[
@@ -217,6 +143,7 @@
       "SBUX",
       "T",
       "HIMX",
+      "ET",
       "TDS"
    ],
    "news_config":{
@@ -663,97 +590,87 @@
    "portfolio":{
       "AX":{
          "cost_p":37.5,
-         "position_%":2.8752251940265854,
+         "position_%":3.0000444006571296,
          "profit_%":0
       },
       "BAC":{
          "cost_p":35.99,
-         "position_%":5.51889891909423,
+         "position_%":5.758485225581338,
          "profit_%":0
       },
       "BIO":{
          "cost_p":550.38,
-         "position_%":10.127785230645452,
+         "position_%":10.567452398295494,
          "profit_%":0
       },
       "BK":{
          "cost_p":43.8,
-         "position_%":6.156815548808928,
+         "position_%":6.424095076607133,
          "profit_%":0
       },
       "C":{
          "cost_p":49.1,
-         "position_%":11.921322593366229,
+         "position_%":12.438850761657939,
          "profit_%":0
       },
       "DAC":{
          "cost_p":76.97,
-         "position_%":2.950747775789684,
+         "position_%":3.0788455669143904,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.8526001108686834,
-         "profit_%":0
-      },
-      "ET":{
-         "cost_p":9.35,
-         "position_%":2.6644392403578365,
+         "position_%":0.8896131662748608,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.42,
-         "position_%":4.452126478217166,
+         "position_%":4.6454020852841955,
          "profit_%":0
       },
       "INTC":{
          "cost_p":45.14,
-         "position_%":8.652511017224004,
+         "position_%":9.028133616377522,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":2.05372863036795,
-         "profit_%":0
-      },
-      "PKX":{
-         "cost_p":58.54,
-         "position_%":1.4961394031850337,
+         "position_%":2.1428850480320443,
          "profit_%":0
       },
       "SB":{
          "cost_p":4.05,
-         "position_%":2.1503809226124835,
+         "position_%":2.2437332072514673,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":4.311559913175866,
+         "position_%":4.498733247918736,
          "profit_%":0
       },
       "STC":{
          "cost_p":54.28,
-         "position_%":5.549056836684908,
+         "position_%":5.789952357961564,
          "profit_%":0
       },
       "THO":{
          "cost_p":80.73,
-         "position_%":7.850710385083383,
+         "position_%":8.191525234573472,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":3.0638399667547294,
+         "position_%":3.1968473133402378,
          "profit_%":0
       },
       "WGO":{
          "cost_p":53.71,
-         "position_%":7.893004308748582,
+         "position_%":8.235655221030605,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":56.94,
-         "position_%":9.459107524988262,
+         "position_%":9.86974607224187,
          "profit_%":0
       }
    }

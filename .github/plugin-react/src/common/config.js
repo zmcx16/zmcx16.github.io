@@ -142,11 +142,6 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/WGO"
     },
-	{
-      symbol: "ET",
-      src: "marketwatch",
-      api: "investing/stock/ET"
-    },
     {
       symbol: "SID",
       src: "marketwatch",
@@ -156,11 +151,6 @@ const MarketConfig = {
       symbol: "TX",
       src: "marketwatch",
       api: "investing/stock/TX"
-    },
-    {
-      symbol: "PKX",
-      src: "marketwatch",
-      api: "investing/stock/PKX"
     },
 	{
       symbol: "STC",
@@ -252,77 +242,6 @@ const MarketConfig = {
 
 const ForecastConfig = {
 // hold stocks
-  PKX: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'PKX',
-        file_path: 'stock/historical-quotes/PKX.json',
-        type: 'stock'
-      },
-      feature_data: [] 
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'PKX',
-        file_path: 'stock/historical-quotes/PKX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'PKX',
-        file_path: 'stock/historical-quotes/PKX.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_TIOc1_HRN00',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'PKX',
-        file_path: 'stock/historical-quotes/PKX.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "TIOc1",
-          file_path: "markets/historical-quotes/investing_TIOc1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "HRN00",
-          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
   BIO: [
     {
       type: 'stock_fbprophet_empty',
@@ -1105,77 +1024,6 @@ const ForecastConfig = {
           using_regressors: ["Close"],
           name: "FBX",
           file_path: "markets/historical-quotes/freightos_FBX.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
-  ET: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ET',
-        file_path: 'stock/historical-quotes/ET.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ET',
-        file_path: 'stock/historical-quotes/ET.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ET',
-        file_path: 'stock/historical-quotes/ET.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_CL_1_NG00',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'ET',
-        file_path: 'stock/historical-quotes/ET.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "CL_1",
-          file_path: "markets/historical-quotes/marketwatch_CL_1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "NG00",
-          file_path: "markets/historical-quotes/marketwatch_NG00.json",
           type: "market"
         }
       ]
