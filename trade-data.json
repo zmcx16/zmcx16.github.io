@@ -127,10 +127,6 @@
       "TPH",
       "VSH",
       "WAL",
-      "HMC",
-      "MMM",
-      "GM",
-      "F",
       "STM",
       "QCOM",
       "SONY",
@@ -143,8 +139,7 @@
       "SBUX",
       "T",
       "HIMX",
-      "ET",
-      "TDS"
+      "ET"
    ],
    "news_config":{
       "latest_days":28,
