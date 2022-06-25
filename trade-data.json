@@ -32,6 +32,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-07-01",
+         "strike":29
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2022-06-24",
@@ -60,6 +66,12 @@
          "type":"put",
          "expiry":"2022-07-08",
          "strike":7.5
+      },
+      {
+         "symbol":"JPM",
+         "type":"put",
+         "expiry":"2022-07-01",
+         "strike":103
       },
       {
          "symbol":"WGO",
