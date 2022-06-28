@@ -1,1 +1,1 @@
-{"update_time":"2022-06-27 04:44:43.345463","data":{"X":{"FCST":15.335,"FCST_Upper30":16.932,"FCST_Lower30":13.803},"TX":{"FCST":39.596,"FCST_Upper30":42.383,"FCST_Lower30":36.93},"SID":{"FCST":3.476,"FCST_Upper30":3.793,"FCST_Lower30":3.181}}}
+{"update_time":"2022-06-28 04:39:05.783729","data":{"SID":{"FCST":3.476,"FCST_Upper30":3.787,"FCST_Lower30":3.177},"TX":{"FCST":39.596,"FCST_Upper30":42.5,"FCST_Lower30":37.006},"GGB":{"FCST":5.514,"FCST_Upper30":5.911,"FCST_Lower30":5.112},"X":{"FCST":15.335,"FCST_Upper30":17.168,"FCST_Lower30":13.765}}}
