@@ -39,6 +39,12 @@
          "strike":29
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-07-15",
+         "strike":41
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2022-06-24",
@@ -73,6 +79,18 @@
          "type":"put",
          "expiry":"2022-07-01",
          "strike":103
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-07-29",
+         "strike":100
+      },
+      {
+         "symbol":"SONY",
+         "type":"put",
+         "expiry":"2022-07-01",
+         "strike":79
       },
       {
          "symbol":"WGO",
