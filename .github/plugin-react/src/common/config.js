@@ -83,6 +83,11 @@ const MarketConfig = {
       api: "investing/stock/INTC"
     },
 	{
+      symbol: "HIMX",
+      src: "marketwatch",
+      api: "investing/stock/HIMX"
+    },
+	{
       symbol: "BAC",
       src: "marketwatch",
       api: "investing/stock/BAC"
@@ -418,6 +423,50 @@ const ForecastConfig = {
       target_data: {
         name: 'INTC',
         file_path: 'stock/historical-quotes/INTC.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  HIMX: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'HIMX',
+        file_path: 'stock/historical-quotes/HIMX.json',
         type: 'stock'
       },
       feature_data: []
