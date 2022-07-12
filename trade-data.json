@@ -112,6 +112,12 @@
          "strike":100
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-08-05",
+         "strike":105
+      },
+      {
          "symbol":"THO",
          "type":"put",
          "expiry":"2022-07-15",
@@ -133,6 +139,12 @@
          "symbol":"X",
          "type":"put",
          "expiry":"2022-07-15",
+         "strike":13
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-08-05",
          "strike":13
       }
    ],
