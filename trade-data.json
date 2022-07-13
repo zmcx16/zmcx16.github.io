@@ -52,6 +52,12 @@
          "strike":27
       },
       {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-07-29",
+         "strike":27
+      },
+      {
          "symbol":"BK",
          "type":"put",
          "expiry":"2022-07-15",
@@ -103,6 +109,12 @@
          "symbol":"JPM",
          "type":"put",
          "expiry":"2022-07-15",
+         "strike":100
+      },
+      {
+         "symbol":"JPM",
+         "type":"put",
+         "expiry":"2022-07-22",
          "strike":100
       },
       {
