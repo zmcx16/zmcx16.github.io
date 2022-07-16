@@ -34,18 +34,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AX",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":32.5
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":28
-      },
-      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-07-22",
@@ -58,28 +46,16 @@
          "strike":27
       },
       {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":38
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":41
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2022-07-22",
          "strike":40
       },
       {
-         "symbol":"DAC",
+         "symbol":"DHI",
          "type":"put",
-         "expiry":"2022-07-15",
-         "strike":50
+         "expiry":"2022-07-22",
+         "strike":62
       },
       {
          "symbol":"ET",
@@ -94,22 +70,10 @@
          "strike":8
       },
       {
-         "symbol":"GRBK",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":12.5
-      },
-      {
          "symbol":"INTC",
          "type":"put",
          "expiry":"2022-07-29",
          "strike":32
-      },
-      {
-         "symbol":"JPM",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":100
       },
       {
          "symbol":"JPM",
@@ -130,33 +94,15 @@
          "strike":105
       },
       {
-         "symbol":"THO",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":60
-      },
-      {
-         "symbol":"WAL",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":60
-      },
-      {
-         "symbol":"WGO",
-         "type":"put",
-         "expiry":"2022-07-15",
-         "strike":35
-      },
-      {
          "symbol":"X",
          "type":"put",
-         "expiry":"2022-07-15",
+         "expiry":"2022-08-05",
          "strike":13
       },
       {
          "symbol":"X",
          "type":"put",
-         "expiry":"2022-08-05",
+         "expiry":"2022-08-12",
          "strike":13
       }
    ],
