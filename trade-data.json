@@ -82,6 +82,12 @@
          "strike":34
       },
       {
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2022-08-26",
+         "strike":32
+      },
+      {
          "symbol":"MMM",
          "type":"put",
          "expiry":"2022-07-29",
@@ -102,8 +108,32 @@
       {
          "symbol":"SBUX",
          "type":"put",
+         "expiry":"2022-07-29",
+         "strike":76
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2022-08-12",
+         "strike":72
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
          "expiry":"2022-08-19",
          "strike":72
+      },
+      {
+         "symbol":"SONY",
+         "type":"put",
+         "expiry":"2022-07-29",
+         "strike":76
+      },
+      {
+         "symbol":"THO",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":65
       },
       {
          "symbol":"WBD",
@@ -122,6 +152,12 @@
          "type":"put",
          "expiry":"2022-08-12",
          "strike":13
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":30
       }
    ],
    "star_option_list":[
