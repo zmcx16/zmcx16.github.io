@@ -114,6 +114,12 @@
       {
          "symbol":"SBUX",
          "type":"put",
+         "expiry":"2022-08-05",
+         "strike":69
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
          "expiry":"2022-08-12",
          "strike":72
       },
