@@ -40,28 +40,16 @@
          "strike":32.5
       },
       {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-07-29",
-         "strike":27
-      },
-      {
-         "symbol":"ET",
-         "type":"put",
-         "expiry":"2022-07-29",
-         "strike":8
-      },
-      {
          "symbol":"ET",
          "type":"put",
          "expiry":"2022-08-05",
          "strike":8
       },
       {
-         "symbol":"INTC",
+         "symbol":"ETD",
          "type":"put",
-         "expiry":"2022-07-29",
-         "strike":32
+         "expiry":"2022-08-19",
+         "strike":20
       },
       {
          "symbol":"INTC",
@@ -94,12 +82,6 @@
          "strike":33
       },
       {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2022-07-29",
-         "strike":120
-      },
-      {
          "symbol":"NEWT",
          "type":"put",
          "expiry":"2022-08-19",
@@ -108,20 +90,8 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2022-07-29",
-         "strike":100
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
          "expiry":"2022-08-05",
          "strike":105
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2022-07-29",
-         "strike":76
       },
       {
          "symbol":"SBUX",
@@ -140,12 +110,6 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":72
-      },
-      {
-         "symbol":"SONY",
-         "type":"put",
-         "expiry":"2022-07-29",
-         "strike":76
       },
       {
          "symbol":"THO",
@@ -689,97 +653,97 @@
    "portfolio":{
       "BAC":{
          "cost_p":35.99,
-         "position_%":5.558197791559731,
+         "position_%":5.8463412101414605,
          "profit_%":0
       },
       "BIO":{
-         "cost_p":550.38,
-         "position_%":7.366596592894764,
+         "cost_p":522.14,
+         "position_%":5.301140246358819,
          "profit_%":0
       },
       "C":{
          "cost_p":49.1,
-         "position_%":12.006211724891344,
+         "position_%":12.628627662640014,
          "profit_%":0
       },
       "CCS":{
          "cost_p":44.7,
-         "position_%":1.725836630193943,
+         "position_%":1.815306002315388,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.49,
-         "position_%":5.674797939729435,
+         "position_%":5.96898604519722,
          "profit_%":0
       },
       "DHI":{
          "cost_p":64.7,
-         "position_%":2.498023041913828,
+         "position_%":2.627523453015786,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.858671289832512,
+         "position_%":0.9031858051788417,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.57,
-         "position_%":2.587854061143908,
+         "position_%":2.7220114164472653,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":7.32,
-         "position_%":4.89875059595095,
+         "position_%":5.1527075072433215,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.42,
-         "position_%":4.483829097386798,
+         "position_%":4.716275997066974,
          "profit_%":0
       },
       "INTC":{
          "cost_p":43.58,
-         "position_%":6.169512034171308,
+         "position_%":6.489346691945943,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":2.0683527828858264,
+         "position_%":2.175578589531061,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":4.342261588571486,
+         "position_%":4.567369464438568,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.86,
-         "position_%":8.163554744702624,
+         "position_%":8.586762888804602,
          "profit_%":0
       },
       "THO":{
          "cost_p":80.73,
-         "position_%":7.906613577134891,
+         "position_%":8.316501593171298,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":3.0856569012326602,
+         "position_%":3.2456209329987877,
          "profit_%":0
       },
       "WGO":{
          "cost_p":52.16,
-         "position_%":6.04158648529638,
+         "position_%":4.942613926662152,
          "profit_%":0
       },
       "X":{
          "cost_p":19.57,
-         "position_%":5.037229359119383,
+         "position_%":3.9737738775516944,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":56.94,
-         "position_%":9.526463761388221,
+         "position_%":10.020326689290803,
          "profit_%":0
       }
    }
