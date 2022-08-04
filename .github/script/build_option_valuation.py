@@ -3,6 +3,7 @@ import pathlib
 import json
 import shutil
 import logging
+import argparse
 import traceback
 
 
@@ -31,7 +32,12 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path):
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-l", "-log-level", dest="log_level", default="DEBUG")
+    args = parser.parse_args()
+
+    logging.basicConfig(level=args.log_level)
+
     root = pathlib.Path(__file__).parent.resolve()
     plugin_react_folder_path = root / ".." / ".." / "plugin-react"
 
