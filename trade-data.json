@@ -40,6 +40,12 @@
          "strike":32.5
       },
       {
+         "symbol":"DAC",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":60
+      },
+      {
          "symbol":"ET",
          "type":"put",
          "expiry":"2022-08-05",
@@ -122,6 +128,18 @@
          "type":"put",
          "expiry":"2022-08-12",
          "strike":11.5
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":11.5
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":11
       },
       {
          "symbol":"WBD",
