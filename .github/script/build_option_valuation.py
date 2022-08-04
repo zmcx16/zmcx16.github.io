@@ -11,7 +11,7 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path):
         hold_stock_list = config["hold_stock_list"]
         star_options = config["star_option_list"]
         star_list_str = ",".join(hold_stock_list+star_options)
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + star_list_str + " > /dev/null")
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -i " + star_list_str)
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_star_folder_path, dirs_exist_ok=True)
 
         shutil.rmtree('./.github/script/Norn-Finance-API-Server/output')
@@ -21,7 +21,7 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path):
         for sc in hold_options:
             specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + str(sc["strike"]))
 
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -s " + ",".join(specific_contracts) + " > /dev/null")
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -s " + ",".join(specific_contracts))
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_hold_folder_path, dirs_exist_ok=True)
 
     except Exception:
