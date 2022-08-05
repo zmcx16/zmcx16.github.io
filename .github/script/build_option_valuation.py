@@ -7,12 +7,12 @@ import argparse
 import traceback
 
 
-def get_option_data(config, option_star_folder_path, option_hold_folder_path, log_level):
+def get_option_data(config, option_star_folder_path, option_hold_folder_path, log_level, data_source):
     try:
         hold_stock_list = config["hold_stock_list"]
         star_options = config["star_option_list"]
         star_list_str = ",".join(hold_stock_list+star_options)
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -i " + star_list_str)
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -d " + data_source + " -i " + star_list_str)
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_star_folder_path, dirs_exist_ok=True)
 
         shutil.rmtree('./.github/script/Norn-Finance-API-Server/output')
@@ -22,7 +22,7 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path, lo
         for sc in hold_options:
             specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + str(sc["strike"]))
 
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -s " + ",".join(specific_contracts))
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -d " + data_source + " -s " + ",".join(specific_contracts))
         shutil.copytree('./.github/script/Norn-Finance-API-Server/output', option_hold_folder_path, dirs_exist_ok=True)
 
     except Exception:
@@ -34,6 +34,7 @@ def get_option_data(config, option_star_folder_path, option_hold_folder_path, lo
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-l", "-log-level", dest="log_level", default="DEBUG")
+    parser.add_argument("-d", "-data-source", dest="data_source", default="marketwatch")
     args = parser.parse_args()
 
     logging.basicConfig(level=args.log_level)
@@ -52,7 +53,7 @@ if __name__ == "__main__":
 
     with open(input_path, 'r', encoding='utf-8') as f:
         config = json.loads(f.read())
-        get_option_data(config, option_star_folder_path, option_hold_folder_path, args.log_level)
+        get_option_data(config, option_star_folder_path, option_hold_folder_path, args.log_level, args.data_source)
 
     logging.info('all task done')
 
