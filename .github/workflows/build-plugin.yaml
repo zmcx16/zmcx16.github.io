@@ -52,7 +52,7 @@ jobs:
     - name: get options data
       run: |-
         python -m pip install -r ./.github/script/Norn-Finance-API-Server/requirements.txt
-        python ./.github/script/build_option_valuation.py -l ERROR > /dev/null 2>&1
+        python ./.github/script/build_option_valuation.py -l ERROR -d yahoo > /dev/null 2>&1
     - name: get monitor data
       env:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
