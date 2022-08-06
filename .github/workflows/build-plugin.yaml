@@ -50,6 +50,9 @@ jobs:
         path: ./.github/script/Norn-Finance-API-Server
         fetch-depth: 0
     - name: get options data
+      env:
+        CONFIG_URL: ${{ secrets.CONFIG_URL }}
+        ENCRY_PASS: ${{ secrets.ENCRY_PASS }}
       run: |-
         python -m pip install -r ./.github/script/Norn-Finance-API-Server/requirements.txt
         python ./.github/script/build_option_valuation.py -l ERROR -d yahoo
