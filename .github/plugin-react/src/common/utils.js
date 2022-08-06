@@ -1,3 +1,5 @@
+var CryptoJS = require("crypto-js")
+
 export function getUrl() {
   let href = 'https://norn-stockscreener.zmcx16.moe/'
   if (typeof window !== 'undefined') {
@@ -98,4 +100,10 @@ export function getBlueLevel (val){
   } else {
     return '#4d4dff'
   } 
+}
+
+export function decryptECB(encrypted_data, pass_key) {
+  let key = CryptoJS.enc.Utf8.parse(pass_key)
+  var decrypted =  CryptoJS.AES.decrypt(encrypted_data, key, {mode:CryptoJS.mode.ECB})
+  return decrypted.toString(CryptoJS.enc.Utf8)
 }

@@ -15,11 +15,12 @@ import Grid from '@mui/material/Grid'
 import shortid from 'shortid'
 import useFetch from 'use-http'
 import moment from 'moment'
+import Cookies from 'universal-cookie'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain, Options_Def } from '../../common/def'
-import { getRedLevel, getBlueLevel, workdayCount } from '../../common/utils'
+import { NornFinanceAPIServerDomain, Options_Def, Option_Config, COOKIE_KEY_SECRET } from '../../common/def'
+import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
 import MonteCarloChart from '../monteCarloChart'
@@ -27,6 +28,8 @@ import MonteCarloChart from '../monteCarloChart'
 import commonStyle from '../common.module.scss'
 import optionsStyle from './options.module.scss'
 
+const cookies = new Cookies()
+const secret = cookies.get(COOKIE_KEY_SECRET)
 
 const FetchNornFinanceAPIServer = ({FetchNornFinanceAPIServerRef}) => {
   const useFetchNornFinanceAPIServer = useFetch("https://" + NornFinanceAPIServerDomain, { cachePolicy: 'no-cache' })
@@ -121,11 +124,16 @@ const ControlPannel = ({ selectArg, SyncDataRef, modalWindowRef, ControlPannelRe
 
   const refreshQueryOptionsData = (argValue) => {
     Promise.all([
-      GetDataByFetchObj('/trade-data.json', fetchOptionsData),
+      GetDataByFetchObj(Option_Config, fetchOptionsData),
     ]).then((allResponses) => {
-      console.log(allResponses)
       if (allResponses.length === 1 && allResponses[0] !== null) {
-        let trade_data = allResponses[0]
+        if (!secret) {
+          console.error("Verify Authentication Failed")
+          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed</div>)   
+          return     
+        }
+        let trade_data = JSON.parse(decryptECB(allResponses[0], secret))
+        console.log(trade_data)
         let apiArgs = []
         if (argValue==0) {
           let symbols = trade_data['hold_stock_list'].concat(trade_data['star_option_list'])
@@ -447,9 +455,15 @@ const Options = () => {
     Promise.all([
       GetDataByFetchObj(local_path, fetchOptionsData),
     ]).then((allResponses) => {
-      console.log(allResponses)
       if (allResponses.length === 1 && allResponses[0] !== null) {
-        renderTable(allResponses[0])
+        if (!secret) {
+          console.error("Verify Authentication Failed")
+          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed</div>)   
+          return     
+        }
+        let decrypted_data = JSON.parse(decryptECB(allResponses[0], secret))
+        console.log(decrypted_data)
+        renderTable(decrypted_data)
       } else {
         console.error("refreshData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
