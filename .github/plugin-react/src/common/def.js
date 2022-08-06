@@ -4,6 +4,7 @@ export const NornFinanceAPIServerDomain = "norn-finance.zmcx16.moe"
 // cookie
 export const COOKIE_KEY_API_TOKEN = 'api_token'
 export const COOKIE_KEY_REFRESH_TIME = 'refresh_time'
+export const COOKIE_KEY_SECRET = 'secret'
 
 // const
 export const rollingCorrelationWindowDays = 90
@@ -49,6 +50,7 @@ export const DAF_Def = [
 ]
 
 // option
+export const Option_Config = "/plugin-react/option-valuation/config.json"
 export const Options_Def = [
   {
     name: 'star_list',
