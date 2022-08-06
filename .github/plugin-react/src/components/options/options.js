@@ -128,8 +128,8 @@ const ControlPannel = ({ selectArg, SyncDataRef, modalWindowRef, ControlPannelRe
     ]).then((allResponses) => {
       if (allResponses.length === 1 && allResponses[0] !== null) {
         if (!secret) {
-          console.error("Verify Authentication Failed")
-          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed</div>)   
+          console.error("Verify Authentication Failed, this page is private use only")
+          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
           return     
         }
         let trade_data = JSON.parse(decryptECB(allResponses[0], secret))
@@ -457,8 +457,8 @@ const Options = () => {
     ]).then((allResponses) => {
       if (allResponses.length === 1 && allResponses[0] !== null) {
         if (!secret) {
-          console.error("Verify Authentication Failed")
-          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed</div>)   
+          console.error("Verify Authentication Failed, this page is private use only")
+          modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
           return     
         }
         let decrypted_data = JSON.parse(decryptECB(allResponses[0], secret))
