@@ -7,6 +7,14 @@ var myvar =
 
 document.getElementById('main-plugin-wrap').innerHTML = myvar;
 
+if (typeof window !== 'undefined') {
+  const urlParams = new URLSearchParams(window.location.search)
+  const key = urlParams.get("secret")
+  if (key) {
+    document.cookie = "secret="+key
+  }
+}
+
 $(document).ready(function () {
   setBanner('Options Valuation', '#465155', ['選擇權估值模型(暫不對外開放使用)', '給開司一罐啤酒!', '再加一串烤雞肉串~']);
   setInterval(SetIFrameHeight, 100);
