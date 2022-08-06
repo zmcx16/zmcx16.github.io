@@ -29,10 +29,12 @@ import commonStyle from '../common.module.scss'
 import optionsStyle from './options.module.scss'
 
 const cookies = new Cookies()
-const urlParams = new URLSearchParams(window.location.search)
-const key = urlParams.get(COOKIE_KEY_SECRET)
-if (key) {
-  cookies.set(COOKIE_KEY_SECRET, key, { path: '/' })
+if (typeof window !== 'undefined') {
+  const urlParams = new URLSearchParams(window.location.search)
+  const key = urlParams.get(COOKIE_KEY_SECRET)
+  if (key) {
+    cookies.set(COOKIE_KEY_SECRET, key, { path: '/' })
+  }
 }
 const secret = cookies.get(COOKIE_KEY_SECRET)
 
