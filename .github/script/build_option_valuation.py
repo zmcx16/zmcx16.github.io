@@ -28,10 +28,10 @@ def decrypt(enc, key):
     return unpad(cipher.decrypt(enc), 16)
 
 
-def encry_all_files(folder_path, endswith):
-    for file in os.listdir(folder_path):
-        if file.endswith(endswith):
-            file_path = os.path.join(folder_path, file)
+def encry_all_files(folder_path):
+    for cur, folders, files in os.walk(folder_path):
+        for file in files:
+            file_path = os.path.join(cur, file)
             with open(file_path, "r+") as f:
                 output = encrypt(f.read(), encry_pass)
                 f.seek(0)
@@ -87,7 +87,7 @@ def get_option_data(public_config, private_config, option_folder_path, log_level
         with open(option_folder_path / 'config.json', 'w', encoding='utf-8') as f:
             f.write(json.dumps(option_config, separators=(',', ':')))
 
-        encry_all_files(option_folder_path, ".json")
+        encry_all_files(option_folder_path)
 
     except Exception:
         logging.error(traceback.format_exc())
