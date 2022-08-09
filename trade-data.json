@@ -58,6 +58,12 @@
          "strike":20
       },
       {
+         "symbol":"FAF",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":50
+      },
+      {
          "symbol":"INTC",
          "type":"put",
          "expiry":"2022-08-12",
@@ -142,12 +148,6 @@
          "strike":11
       },
       {
-         "symbol":"WBD",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":13.5
-      },
-      {
          "symbol":"X",
          "type":"put",
          "expiry":"2022-08-12",
@@ -164,6 +164,12 @@
          "type":"put",
          "expiry":"2022-08-26",
          "strike":15
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":18.5
       },
       {
          "symbol":"X",
