@@ -52,6 +52,12 @@
          "strike":60
       },
       {
+         "symbol":"DAC",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":65
+      },
+      {
          "symbol":"ETD",
          "type":"put",
          "expiry":"2022-08-19",
@@ -62,12 +68,6 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":50
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2022-08-12",
-         "strike":34
       },
       {
          "symbol":"INTC",
@@ -96,12 +96,6 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2022-08-12",
-         "strike":72
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
          "expiry":"2022-08-19",
          "strike":72
       },
@@ -116,12 +110,6 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":75
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2022-08-12",
-         "strike":11.5
       },
       {
          "symbol":"VALE",
@@ -146,18 +134,6 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":65
-      },
-      {
-         "symbol":"WBD",
-         "type":"put",
-         "expiry":"2022-08-12",
-         "strike":11
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2022-08-12",
-         "strike":13
       },
       {
          "symbol":"X",
