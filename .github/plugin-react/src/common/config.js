@@ -78,6 +78,21 @@ const MarketConfig = {
       api: "investing/stock/BIO"
     },
 	{
+      symbol: "ASML",
+      src: "marketwatch",
+      api: "investing/stock/ASML"
+    },
+	{
+      symbol: "NFLX",
+      src: "marketwatch",
+      api: "investing/stock/NFLX"
+    },
+	{
+      symbol: "NKE",
+      src: "marketwatch",
+      api: "investing/stock/NKE"
+    },
+	{
       symbol: "INTC",
       src: "marketwatch",
       api: "investing/stock/INTC"
@@ -136,11 +151,6 @@ const MarketConfig = {
       symbol: "WGO",
       src: "marketwatch",
       api: "investing/stock/WGO"
-    },
-	{
-      symbol: "X",
-      src: "marketwatch",
-      api: "investing/stock/X"
     },
 	{
       symbol: "VALE",
@@ -467,6 +477,138 @@ const ForecastConfig = {
       target_data: {
         name: 'ILPT',
         file_path: 'stock/historical-quotes/ILPT.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  ASML: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ASML',
+        file_path: 'stock/historical-quotes/ASML.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ASML',
+        file_path: 'stock/historical-quotes/ASML.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'ASML',
+        file_path: 'stock/historical-quotes/ASML.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  NFLX: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NFLX',
+        file_path: 'stock/historical-quotes/NFLX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NFLX',
+        file_path: 'stock/historical-quotes/NFLX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NFLX',
+        file_path: 'stock/historical-quotes/NFLX.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  NKE: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NKE',
+        file_path: 'stock/historical-quotes/NKE.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NKE',
+        file_path: 'stock/historical-quotes/NKE.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'NKE',
+        file_path: 'stock/historical-quotes/NKE.json',
         type: 'stock'
       },
       feature_data: []
@@ -1255,77 +1397,6 @@ const ForecastConfig = {
       target_data: {
         name: 'GGB',
         file_path: 'stock/historical-quotes/GGB.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "TIOc1",
-          file_path: "markets/historical-quotes/investing_TIOc1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "HRN00",
-          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
-  X: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'X',
-        file_path: 'stock/historical-quotes/X.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'X',
-        file_path: 'stock/historical-quotes/X.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'X',
-        file_path: 'stock/historical-quotes/X.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_TIOc1_HRN00',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'X',
-        file_path: 'stock/historical-quotes/X.json',
         type: 'stock'
       },
       feature_data: [
