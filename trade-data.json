@@ -39,6 +39,12 @@
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-08-19",
+         "strike":510
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-08-19",
          "strike":522.5
       },
       {
@@ -64,6 +70,18 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":65
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":72.5
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-08-26",
+         "strike":69
       },
       {
          "symbol":"ETD",
@@ -96,6 +114,12 @@
          "strike":33
       },
       {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-08-26",
+         "strike":57
+      },
+      {
          "symbol":"NEWT",
          "type":"put",
          "expiry":"2022-08-19",
@@ -108,10 +132,22 @@
          "strike":162.5
       },
       {
+         "symbol":"PNC",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":165
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2022-08-19",
          "strike":72
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":85
       },
       {
          "symbol":"THO",
@@ -160,6 +196,18 @@
          "type":"put",
          "expiry":"2022-08-19",
          "strike":65
+      },
+      {
+         "symbol":"WGO",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":60
+      },
+      {
+         "symbol":"WLK",
+         "type":"put",
+         "expiry":"2022-08-19",
+         "strike":100
       },
       {
          "symbol":"X",
