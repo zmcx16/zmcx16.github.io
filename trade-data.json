@@ -36,70 +36,22 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":510
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":522.5
-      },
-      {
-         "symbol":"AX",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":32.5
-      },
-      {
          "symbol":"AX",
          "type":"put",
          "expiry":"2022-09-16",
          "strike":35
       },
       {
-         "symbol":"DAC",
+         "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":60
-      },
-      {
-         "symbol":"DAC",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":65
-      },
-      {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":72.5
+         "expiry":"2022-09-16",
+         "strike":31
       },
       {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2022-08-26",
          "strike":69
-      },
-      {
-         "symbol":"ETD",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":20
-      },
-      {
-         "symbol":"FAF",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":50
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":34
       },
       {
          "symbol":"INTC",
@@ -120,45 +72,27 @@
          "strike":57
       },
       {
-         "symbol":"NEWT",
+         "symbol":"MU",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":17.5
+         "expiry":"2022-09-09",
+         "strike":50
+      },
+      {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":47.5
       },
       {
          "symbol":"PNC",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":162.5
-      },
-      {
-         "symbol":"PNC",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":165
+         "expiry":"2022-08-26",
+         "strike":157.5
       },
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":72
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":85
-      },
-      {
-         "symbol":"THO",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":65
-      },
-      {
-         "symbol":"THO",
-         "type":"put",
-         "expiry":"2022-08-19",
+         "expiry":"2022-09-16",
          "strike":75
       },
       {
@@ -174,10 +108,10 @@
          "strike":44
       },
       {
-         "symbol":"VALE",
+         "symbol":"TOL",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":11.5
+         "expiry":"2022-09-02",
+         "strike":42
       },
       {
          "symbol":"VALE",
@@ -190,30 +124,6 @@
          "type":"put",
          "expiry":"2022-09-16",
          "strike":10
-      },
-      {
-         "symbol":"WAL",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":65
-      },
-      {
-         "symbol":"WGO",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":60
-      },
-      {
-         "symbol":"WLK",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":100
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2022-08-19",
-         "strike":15
       },
       {
          "symbol":"X",
@@ -242,14 +152,14 @@
       {
          "symbol":"ZIM",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":30
+         "expiry":"2022-08-26",
+         "strike":40
       },
       {
          "symbol":"ZIM",
          "type":"put",
-         "expiry":"2022-08-19",
-         "strike":35
+         "expiry":"2022-08-26",
+         "strike":41
       }
    ],
    "news_config":{
