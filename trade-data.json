@@ -44,8 +44,26 @@
       {
          "symbol":"BAC",
          "type":"put",
+         "expiry":"2022-09-02",
+         "strike":31.5
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
          "expiry":"2022-09-16",
          "strike":31
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-09-23",
+         "strike":29
+      },
+      {
+         "symbol":"DAC",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":55
       },
       {
          "symbol":"DHI",
@@ -84,10 +102,22 @@
          "strike":107
       },
       {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":130
+      },
+      {
          "symbol":"MU",
          "type":"put",
          "expiry":"2022-08-26",
          "strike":57
+      },
+      {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":50
       },
       {
          "symbol":"MU",
@@ -120,6 +150,18 @@
          "strike":155
       },
       {
+         "symbol":"PNC",
+         "type":"put",
+         "expiry":"2022-09-30",
+         "strike":145
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":123
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2022-09-09",
@@ -130,6 +172,12 @@
          "type":"put",
          "expiry":"2022-09-16",
          "strike":75
+      },
+      {
+         "symbol":"SCHN",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":30
       },
       {
          "symbol":"THO",
@@ -168,10 +216,28 @@
          "strike":10
       },
       {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2022-09-30",
+         "strike":11
+      },
+      {
          "symbol":"WFC",
          "type":"put",
          "expiry":"2022-09-02",
          "strike":40.5
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":38
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":39
       },
       {
          "symbol":"X",
