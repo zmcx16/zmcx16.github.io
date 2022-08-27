@@ -36,6 +36,24 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-09-02",
+         "strike":460
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-09-09",
+         "strike":445
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-09-23",
+         "strike":420
+      },
+      {
          "symbol":"AX",
          "type":"put",
          "expiry":"2022-09-16",
@@ -66,22 +84,10 @@
          "strike":55
       },
       {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2022-08-26",
-         "strike":69
-      },
-      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2022-09-16",
          "strike":85
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2022-08-26",
-         "strike":32
       },
       {
          "symbol":"INTC",
@@ -92,14 +98,14 @@
       {
          "symbol":"JPM",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":110
+         "expiry":"2022-09-02",
+         "strike":107
       },
       {
          "symbol":"JPM",
          "type":"put",
-         "expiry":"2022-09-02",
-         "strike":107
+         "expiry":"2022-09-09",
+         "strike":103
       },
       {
          "symbol":"MMM",
@@ -108,10 +114,10 @@
          "strike":130
       },
       {
-         "symbol":"MU",
+         "symbol":"MMM",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":57
+         "expiry":"2022-09-16",
+         "strike":130
       },
       {
          "symbol":"MU",
@@ -132,22 +138,40 @@
          "strike":47.5
       },
       {
-         "symbol":"NFLX",
+         "symbol":"MU",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":195
+         "expiry":"2022-09-30",
+         "strike":45
       },
       {
-         "symbol":"PNC",
+         "symbol":"NFLX",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":157.5
+         "expiry":"2022-09-02",
+         "strike":200
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2022-09-30",
+         "strike":175
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2022-09-09",
+         "strike":98
       },
       {
          "symbol":"PNC",
          "type":"put",
          "expiry":"2022-09-02",
          "strike":155
+      },
+      {
+         "symbol":"PNC",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":150
       },
       {
          "symbol":"PNC",
@@ -162,6 +186,12 @@
          "strike":123
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-09-23",
+         "strike":120
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2022-09-09",
@@ -174,10 +204,28 @@
          "strike":75
       },
       {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2022-09-30",
+         "strike":74
+      },
+      {
          "symbol":"SCHN",
          "type":"put",
          "expiry":"2022-09-16",
          "strike":30
+      },
+      {
+         "symbol":"STM",
+         "type":"put",
+         "expiry":"2022-09-09",
+         "strike":30
+      },
+      {
+         "symbol":"TFC",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":45
       },
       {
          "symbol":"THO",
@@ -188,20 +236,14 @@
       {
          "symbol":"TOL",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":40
-      },
-      {
-         "symbol":"TOL",
-         "type":"put",
-         "expiry":"2022-08-26",
-         "strike":44
-      },
-      {
-         "symbol":"TOL",
-         "type":"put",
          "expiry":"2022-09-02",
          "strike":42
+      },
+      {
+         "symbol":"TOL",
+         "type":"put",
+         "expiry":"2022-09-16",
+         "strike":38
       },
       {
          "symbol":"VALE",
@@ -240,10 +282,16 @@
          "strike":39
       },
       {
-         "symbol":"X",
+         "symbol":"WFC",
          "type":"put",
-         "expiry":"2022-08-26",
-         "strike":15
+         "expiry":"2022-09-23",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2022-09-30",
+         "strike":38
       },
       {
          "symbol":"X",
@@ -268,18 +316,6 @@
          "type":"put",
          "expiry":"2022-09-23",
          "strike":18
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-08-26",
-         "strike":40
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-08-26",
-         "strike":41
       }
    ],
    "news_config":{
