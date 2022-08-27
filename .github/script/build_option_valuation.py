@@ -50,8 +50,12 @@ def send_request(url):
     return 0, res.text
 
 
-def get_option_data(public_config, private_config, option_folder_path, log_level, data_source):
+def get_option_data(public_config, private_config, option_folder_path, log_level, data_source, calc_kelly_iv):
     try:
+        calc_kelly_iv_param = ""
+        if calc_kelly_iv:
+            calc_kelly_iv_param = " -c"
+
         nfas_output_path = './.github/script/Norn-Finance-API-Server/output'
 
         option_config = {
@@ -71,7 +75,8 @@ def get_option_data(public_config, private_config, option_folder_path, log_level
         hold_stock_list = option_config["hold_stock_list"]
         star_options = option_config["star_option_list"]
         star_list_str = ",".join(hold_stock_list+star_options)
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -d " + data_source + " -i " + star_list_str)
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level +
+                  " -d " + data_source + " -i " + star_list_str + calc_kelly_iv_param)
         shutil.copytree(nfas_output_path, option_star_folder_path, dirs_exist_ok=True)
 
         shutil.rmtree('./.github/script/Norn-Finance-API-Server/output')
@@ -81,7 +86,8 @@ def get_option_data(public_config, private_config, option_folder_path, log_level
         for sc in hold_options:
             specific_contracts.append(sc["symbol"] + "_" + sc["type"] + "_" + sc["expiry"] + "_" + str(sc["strike"]))
 
-        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level + " -d " + data_source + " -s " + ",".join(specific_contracts))
+        os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level +
+                  " -d " + data_source + " -s " + ",".join(specific_contracts) + calc_kelly_iv_param)
         shutil.copytree(nfas_output_path, option_hold_folder_path, dirs_exist_ok=True)
 
         with open(option_folder_path / 'config.json', 'w', encoding='utf-8') as f:
@@ -99,6 +105,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-l", "-log-level", dest="log_level", default="DEBUG")
     parser.add_argument("-d", "-data-source", dest="data_source", default="marketwatch")
+    parser.add_argument("-c", "-calc-kelly-iv", dest="calc_kelly_iv", action="store_true")
     args = parser.parse_args()
 
     logging.basicConfig(level=args.log_level)
@@ -115,6 +122,7 @@ if __name__ == "__main__":
             exit(-1)
 
         private_config = json.loads(resp)
-        get_option_data(public_config, private_config, plugin_react_folder_path / 'option-valuation', args.log_level, args.data_source)
+        get_option_data(public_config, private_config, plugin_react_folder_path / 'option-valuation', args.log_level,
+                        args.data_source, args.calc_kelly_iv)
 
     logging.info('all task done')
