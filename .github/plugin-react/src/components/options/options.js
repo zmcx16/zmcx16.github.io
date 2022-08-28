@@ -39,8 +39,8 @@ const FetchNornFinanceAPIServer = ({FetchNornFinanceAPIServerRef}) => {
 
 function buildQuoteValuationAPI(symbol, specific_contract_args) {
   return specific_contract_args != "" ? 
-  "/ws/option/quote-valuation?symbol=" + symbol + "&max_next_days=252&min_volume=0&last_trade_days=252&specific_contract=" + specific_contract_args : 
-  "/ws/option/quote-valuation?symbol=" + symbol + "&only_otm=true"
+  "/ws/option/quote-valuation?symbol=" + symbol + "&max_next_days=252&min_volume=0&last_trade_days=252&calc_kelly_iv=true&specific_contract=" + specific_contract_args : 
+  "/ws/option/quote-valuation?symbol=" + symbol + "&calc_kelly_iv=true&only_otm=true"
 }
 
 const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
