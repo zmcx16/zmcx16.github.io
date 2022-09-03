@@ -148,9 +148,9 @@ const MarketConfig = {
       api: "investing/stock/THO"
     },
     {
-      symbol: "WGO",
+      symbol: "MMM",
       src: "marketwatch",
-      api: "investing/stock/WGO"
+      api: "investing/stock/MMM"
     },
 	{
       symbol: "VALE",
@@ -974,7 +974,7 @@ const ForecastConfig = {
       feature_data: []
     },
   ],
-  WGO: [
+  MMM: [
     {
       type: 'stock_fbprophet_empty',
       algorithm: 'fbprophet',
@@ -983,8 +983,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'WGO',
-        file_path: 'stock/historical-quotes/WGO.json',
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
         type: 'stock'
       },
       feature_data: []
@@ -997,8 +997,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'WGO',
-        file_path: 'stock/historical-quotes/WGO.json',
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
         type: 'stock'
       },
       feature_data: []
@@ -1011,8 +1011,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'WGO',
-        file_path: 'stock/historical-quotes/WGO.json',
+        name: 'MMM',
+        file_path: 'stock/historical-quotes/MMM.json',
         type: 'stock'
       },
       feature_data: []
