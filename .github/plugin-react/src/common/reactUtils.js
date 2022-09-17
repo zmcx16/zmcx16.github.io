@@ -185,6 +185,28 @@ export function PureFieldWithValueCheck(field, headerName, width, valueFixed, hi
 }
 
 
+export function NameWithLinkField(field, headerName, width, linkKey, hide, align='left', description = null) {
+  let output = {
+    field: field,
+    headerName: headerName,
+    width: width,
+    align: align,
+    renderCell: (params) => (
+      linkKey in params.row && params.row[linkKey] != "" && params.row[linkKey] != "-" ?       
+      <Link href={params.row[linkKey]} target="_blank" rel="noreferrer noopener">
+        <span>{params.value}</span>
+      </Link> : <span>{params.value}</span>
+    ),
+    hide: hide
+  }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
+}
+
+
 export const GetDataByFetchObj = async (url, fetchObj) => {
   const resp_data = await fetchObj.get(url)
   if (fetchObj.response.ok && resp_data) {

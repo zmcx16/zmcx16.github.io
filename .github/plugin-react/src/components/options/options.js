@@ -19,9 +19,9 @@ import Cookies from 'universal-cookie'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain, Options_Def, Option_Config, COOKIE_KEY_SECRET } from '../../common/def'
+import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, COOKIE_KEY_SECRET } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
-import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField } from '../../common/reactUtils'
+import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, NameWithLinkField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
 import MonteCarloChart from '../monteCarloChart'
 
@@ -219,6 +219,8 @@ const Options = () => {
     KellyCriterion_MU_0_sell: { hide: false, text: 'Kelly (Sell, MU0)', description: 'Kelly Criterion, MU=0' },
     KellyCriterion_IV_buy: { hide: false, text: 'Kelly (Buy, IV)', description: 'Kelly Criterion (IV)' },
     KellyCriterion_IV_sell: { hide: false, text: 'Kelly (Sell, IV)', description: 'Kelly Criterion (IV)' },
+    EarningDate: { hide: false, text: 'Earning Date' },
+    ExDividendDate: { hide: false, text: 'Ex-Dividend Date' }, 
     Delta: { hide: false, text: 'δ (Delta)' },
     Gamma: { hide: false, text: 'γ (Gamma)' },
     Rho: { hide: false, text: 'ρ (Rho)' },
@@ -278,6 +280,18 @@ const Options = () => {
       ColorPercentField("KellyCriterion_MU_0_sell", tableColList.KellyCriterion_MU_0_sell.text, 130, 2, "KellyCriterion_MU_0_sell" in hideColState ? hideColState["KellyCriterion_MU_0_sell"] : tableColList['KellyCriterion_MU_0_sell'].hide, 500, tableColList.KellyCriterion_MU_0_sell.description),
       ColorPercentField("KellyCriterion_IV_buy", tableColList.KellyCriterion_IV_buy.text, 130, 2, "KellyCriterion_IV_buy" in hideColState ? hideColState["kellyCriterion_IV_buy"] : tableColList['KellyCriterion_IV_buy'].hide, 500, tableColList.KellyCriterion_IV_buy.description),
       ColorPercentField("KellyCriterion_IV_sell", tableColList.KellyCriterion_IV_sell.text, 130, 2, "KellyCriterion_IV_sell" in hideColState ? hideColState["KellyCriterion_IV_sell"] : tableColList['KellyCriterion_IV_sell'].hide, 500, tableColList.KellyCriterion_IV_sell.description),
+      {
+        field: "earningDate",
+        headerName: tableColList.EarningDate.text,
+        width: 120,
+        renderCell: ({ value }) => (
+          <span style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}>
+            {value}
+          </span>
+        ),
+        hide: "earningDate" in hideColState ? hideColState["earningDate"] : tableColList['EarningDate'].hide
+      },
+      NameWithLinkField('exDividendDate', tableColList.ExDividendDate.text, 120, 'exDividendLink', 'exDividendDate' in hideColState ? hideColState['exDividendDate'] : tableColList['ExDividendDate'].hide),
       PureFieldWithValueCheck("delta", tableColList.Delta.text, 90, 2, "delta" in hideColState ? hideColState["delta"] : tableColList['Delta'].hide),
       PureFieldWithValueCheck("gamma", tableColList.Gamma.text, 90, 2, "gamma" in hideColState ? hideColState["gamma"] : tableColList['Gamma'].hide),
       PureFieldWithValueCheck("rho", tableColList.Rho.text, 90, 2, "rho" in hideColState ? hideColState["rho"] : tableColList['Rho'].hide),
@@ -353,14 +367,26 @@ const Options = () => {
 
 
   const fetchOptionsData = useFetch({ cachePolicy: 'no-cache' })
+  const exDividendDictRef = useRef({}) 
+  const fetchExDividendData = useFetch({ cachePolicy: 'no-cache' })
 
   const renderTable = (resp) => {
+    console.log(resp)
     // [{"symbol":"A","stockPrice":149.50999450683594,"EWMA_historicalVolatility":0.2519420533670158,"contracts":[{"expiryDate":"2022-01-21","calls":[{"lastTradeDate":"2022-01-12","strike":155.0,"lastPrice":0.32,"bid":0.35,"ask":0.5,"change":0.049999982,"percentChange":18.51851,"volume":30,"openInterest":721,"impliedVolatility":0.22461712890624996,"valuationData":{"BSM_EWMAHisVol":0.7042894690005248,"MC_EWMAHisVol":0.70279983534146,"BT_EWMAHisVol":0.7046023394736802}}],"puts":[]}]}
     var calls = []
     var puts = []
     resp.forEach((data) => {
       let symbol = data["symbol"]
       let stock_price = data["stockPrice"]
+      let stock_extra_info = data["stockExtraInfo"]
+      let earningDate = 'No Data'
+      if (stock_extra_info["earningsDate"] !== undefined && stock_extra_info["earningsDate"] !== null && stock_extra_info["earningsDate"] !== '') {
+        let temp = stock_extra_info["earningsDate"].split(' - ')
+        temp.forEach((d, i) => {
+          temp[i] = temp[i].split(' ')[0]
+        })
+        earningDate = temp.join(" - ")
+      }
       let ewma_his_vol = data["EWMA_historicalVolatility"]
       data["contracts"].forEach((contracts) => {
         let expiry_date = contracts["expiryDate"]
@@ -397,6 +423,9 @@ const Options = () => {
               KellyCriterion_MU_0_sell: v["KellyCriterion_MU_0_sell"] !== undefined && v["KellyCriterion_MU_0_sell"] !== null ? v["KellyCriterion_MU_0_sell"] : -Number.MAX_VALUE,
               KellyCriterion_IV_buy: v["KellyCriterion_IV_buy"] !== undefined && v["KellyCriterion_IV_buy"] !== null ? v["KellyCriterion_IV_buy"] : -Number.MAX_VALUE,
               KellyCriterion_IV_sell: v["KellyCriterion_IV_sell"] !== undefined && v["KellyCriterion_IV_sell"] !== null ? v["KellyCriterion_IV_sell"] : -Number.MAX_VALUE,
+              earningDate: earningDate,
+              exDividendDate: symbol in exDividendDictRef.current ? exDividendDictRef.current[symbol]['ex_dividend_date'] : 'No Data',
+              exDividendLink: symbol in exDividendDictRef.current ? exDividendDictRef.current[symbol]['link'] : '',
             }
             let cnt = 0
             let sum = 0
@@ -459,17 +488,18 @@ const Options = () => {
 
   const refreshData = (local_path) => {
     Promise.all([
+      GetDataByFetchObj(ExDividend_Path, fetchExDividendData),
       GetDataByFetchObj(local_path, fetchOptionsData),
     ]).then((allResponses) => {
-      if (allResponses.length === 1 && allResponses[0] !== null) {
+      if (allResponses.length === 2 && allResponses[0] !== null && allResponses[1] !== null) {
         if (!secret) {
           console.error("Verify Authentication Failed, this page is private use only")
           modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
           return     
         }
-        let decrypted_data = JSON.parse(decryptECB(allResponses[0], secret))
-        console.log(decrypted_data)
-        renderTable(decrypted_data)
+        exDividendDictRef.current = Object.assign({}, ...JSON.parse(decryptECB(allResponses[0], secret))['data'].map((x) => ({[x['symbol']]: x})))
+        console.log(exDividendDictRef.current)
+        renderTable(JSON.parse(decryptECB(allResponses[1], secret)))
       } else {
         console.error("refreshData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
