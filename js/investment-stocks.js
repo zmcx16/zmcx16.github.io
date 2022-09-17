@@ -290,7 +290,7 @@ function buildSECTable(data) {
     }
     stock["SEC"].forEach((sec)=>{
       ENABLE_SEC.forEach((type)=>{
-        if (sec["type"].includes(type)){
+        if (sec["type"] == type){
           sec["symbol"] = stock["symbol"];
           sec_list.push(sec);
           return;
