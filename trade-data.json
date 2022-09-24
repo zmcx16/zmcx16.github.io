@@ -37,18 +37,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":420
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":29
-      },
-      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-09-30",
@@ -65,12 +53,6 @@
          "type":"put",
          "expiry":"2022-10-14",
          "strike":29
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":44
       },
       {
          "symbol":"C",
@@ -93,20 +75,8 @@
       {
          "symbol":"JPM",
          "type":"put",
-         "expiry":"2022-09-23",
-         "strike":105
-      },
-      {
-         "symbol":"JPM",
-         "type":"put",
          "expiry":"2022-10-07",
          "strike":103
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":45
       },
       {
          "symbol":"MU",
@@ -153,18 +123,6 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2022-09-23",
-         "strike":110
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":120
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
          "expiry":"2022-09-30",
          "strike":105
       },
@@ -189,20 +147,8 @@
       {
          "symbol":"WFC",
          "type":"put",
-         "expiry":"2022-09-23",
-         "strike":40
-      },
-      {
-         "symbol":"WFC",
-         "type":"put",
          "expiry":"2022-09-30",
          "strike":38
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2022-09-23",
-         "strike":18
       },
       {
          "symbol":"X",
