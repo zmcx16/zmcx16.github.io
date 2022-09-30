@@ -22,7 +22,10 @@ var myvar =
 '                <tbody id="hold-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
-'            <div class="sec-title"><input type="checkbox" id="hold-stocks-sec-show" class="sec-checkbox"><label for="hold-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
+'            <div class="sub-table-title">' +
+'                <div class="sec-title"><input type="checkbox" id="hold-stocks-sec-show" class="sec-checkbox"><label for="hold-stocks-sec-show"> SEC 文件 (近30天)</label></div>' +
+'                <div class="earnings-date-title"><input type="checkbox" id="hold-stocks-earnings-date-show" class="earnings-date-checkbox"><label for="hold-stocks-earnings-date-show"> 近期業績公布日</label></div>' +
+'            </div>' +
 '            <table id="hold-stocks-sec-table" style="display: none;">' +
 '                <thead>' +
 '                    <th class="th-date">Date</th>' +
@@ -30,6 +33,15 @@ var myvar =
 '                    <th class="th-filings">Filings</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-sec-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'            <table id="hold-stocks-earnings-date-table" style="display: none;">' +
+'                <thead>' +
+'                    <th class="th-earnings-date-date">Date</th>' +
+'                    <th class="th-earnings-date-symbol">Symbol</th>' +
+'                    <th class="th-earnings-date-similar">Similar</th>' +
+'                </thead>' +
+'                <tbody id="hold-stocks-earnings-date-tbody">' +
 '                </tbody>' +
 '            </table>' +
 '        </div>' +
@@ -316,6 +328,34 @@ function buildSECTable(data) {
   return sec_output;
 }
 
+function buildEarningsDateTable(data) {
+
+  earningsDate_data = Object.keys(data).filter(key => 
+    new Date(data[key]["earningsDate"][0]) > new Date() - 1000 * 60 * 60 * 24 * 3).map(function (key) {
+    return {
+      "symbol": key,
+      "earningsDate": data[key]["earningsDate"],
+      "similar": data[key]["similar"],
+    }
+  });
+
+  earningsDate_data = earningsDate_data.sort(function (a, b) {
+    return new Date(a["earningsDate"][0]) > new Date(b["earningsDate"][0]) ? 1 : -1;
+  });
+  console.log(earningsDate_data)
+  var output = "";
+  earningsDate_data.forEach((doc) => {
+    output +=
+      '<tr class="tr-earnings-date main" onclick="window.open(\'' + "https://hk.finance.yahoo.com/quote/" + doc["symbol"] + '\');">' +
+      '  <td class="td-earnings-date-date">' + doc["earningsDate"].join(' ~ ') + '</td>' +
+      '  <td class="td-earnings-date-symbol">' + doc["symbol"] + '</td>' +
+      '  <td class="td-earnings-date-similar">' + doc["similar"] + '</td>' +
+      '</tr>';
+  });
+
+  return output;
+}
+
 function preprocessData(json_data, input_key)
 {
   var output = []
@@ -397,19 +437,33 @@ $(document).ready(function () {
 
   setBanner('Money Money', 'gold', ['目前持有 & 關注的個股清單', '往財富自由之路持續前進 ( • ̀ω•́ )', '$$$$$$$$$$$$$$$$$$$$$$$$']);
 
-  $.getJSON("zmcx16_investment-stocks-trade-data.json", function (json_data) {
-
-    var hold_stocks = preprocessData(json_data, "hold_stock_list");
-    var star_stocks = preprocessData(json_data, "star_stock_list");
-    var screener_stocks = preprocessData(json_data, "screener_stock_list");
+  Promise.all([
+    fetch("zmcx16_investment-stocks-trade-data.json"),
+    fetch("earnings_data.json"),
+  ])
+  .then(json_datas => Promise.all(json_datas.map(r => r.json())) )
+  .then(json_datas => {
+    var hold_stocks = preprocessData(json_datas[0], "hold_stock_list");
+    var star_stocks = preprocessData(json_datas[0], "star_stock_list");
+    var screener_stocks = preprocessData(json_datas[0], "screener_stock_list");
 
     $("#hold-stocks-tbody")[0].innerHTML = buildTable(hold_stocks);
+
     $("#hold-stocks-sec-tbody")[0].innerHTML = buildSECTable(hold_stocks);
     $("#hold-stocks-sec-show").click(function (e) {
       if ($("#hold-stocks-sec-show")[0].checked){
         $("#hold-stocks-sec-table").show();
       }else{
         $("#hold-stocks-sec-table").hide();
+      }
+    });
+
+    $("#hold-stocks-earnings-date-tbody")[0].innerHTML = buildEarningsDateTable(json_datas[1])
+    $("#hold-stocks-earnings-date-show").click(function (e) {
+      if ($("#hold-stocks-earnings-date-show")[0].checked){
+        $("#hold-stocks-earnings-date-table").show();
+      }else{
+        $("#hold-stocks-earnings-date-table").hide();
       }
     });
 
@@ -426,7 +480,6 @@ $(document).ready(function () {
         second.css("display", "none");
       }
     });
-
   });
 
   // ----- SignalR init connection -----
