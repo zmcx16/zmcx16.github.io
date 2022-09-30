@@ -21,7 +21,10 @@
                 <tbody id="hold-stocks-tbody">
                 </tbody>
             </table>
-            <div class="sec-title"><input type="checkbox" id="hold-stocks-sec-show" class="sec-checkbox"><label for="hold-stocks-sec-show"> SEC 文件 (近30天)</label></div>
+            <div class="sub-table-title">
+                <div class="sec-title"><input type="checkbox" id="hold-stocks-sec-show" class="sec-checkbox"><label for="hold-stocks-sec-show"> SEC 文件 (近30天)</label></div>
+                <div class="earnings-date-title"><input type="checkbox" id="hold-stocks-earnings-date-show" class="earnings-date-checkbox"><label for="hold-stocks-earnings-date-show"> 近期業績公布日</label></div>
+            </div>
             <table id="hold-stocks-sec-table" style="display: none;">
                 <thead>
                     <th class="th-date">Date</th>
@@ -29,6 +32,15 @@
                     <th class="th-filings">Filings</th>
                 </thead>
                 <tbody id="hold-stocks-sec-tbody">
+                </tbody>
+            </table>
+            <table id="hold-stocks-earnings-date-table" style="display: none;">
+                <thead>
+                    <th class="th-earnings-date-date">Date</th>
+                    <th class="th-earnings-date-symbol">Symbol</th>
+                    <th class="th-earnings-date-similar">Similar</th>
+                </thead>
+                <tbody id="hold-stocks-earnings-date-tbody">
                 </tbody>
             </table>
         </div>

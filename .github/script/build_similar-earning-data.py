@@ -66,7 +66,7 @@ if __name__ == "__main__":
             earningsDate.append(d['fmt'])
 
         if len(earningsDate) > 0:
-            output[symbol] = {'earningsDate':  earningsDate, "similar": "None"}
+            output[symbol] = {'earningsDate':  earningsDate, "similar": "-"}
 
         for similar in data['context']['dispatcher']['stores']['RecommendationStore']['recommendedSimilarSymbols'][symbol]:
             logging.info(f'get similar {similar["symbol"]} for {symbol}')
