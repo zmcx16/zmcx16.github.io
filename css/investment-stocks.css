@@ -174,8 +174,13 @@
     padding-right: 30px;
 }
 
+.main-investment-stocks .sub-table-title{
+    display: inline-flex;
+    font-size: 20px;
+} 
+
 /* sec table */
-.main-investment-stocks .td-symbol,.main-investment-stocks .td-date, .main-investment-stocks .td-filings{
+.main-investment-stocks .td-symbol, .main-investment-stocks .td-filings{
     padding-right: 0px;
     text-align: center;
 }
@@ -206,11 +211,46 @@
 }
 
 .main-investment-stocks .sec-title{
-    font-size: 20px;
-    margin-bottom: 10px;
+    margin: 5px 20px 10px 0px;
 }
 
 .main-investment-stocks .sec-checkbox{
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    width: 16px;
+    height: 16px;
+}
+
+
+/* earnings date table */
+.main-investment-stocks .td-earnings-date-symbol, .main-investment-stocks .td-earnings-date-symbol, .main-investment-stocks .td-earnings-date-similar{
+    padding-right: 0px;
+    text-align: center;
+}
+
+.main-investment-stocks .th-earnings-date-date{
+    width: 240px;
+}
+
+.main-investment-stocks .tr-earnings-date.main{
+    height: 36px;
+}
+
+#hold-stocks-earnings-date-table{
+    width: 580px;
+}
+
+.main-investment-stocks .tr-earnings-date.main:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.main-investment-stocks .earnings-date-title{
+    margin: 5px 20px 10px 0px;
+}
+
+.main-investment-stocks .earnings-date-checkbox{
     vertical-align: bottom;
     position: relative;
     top: -1px;
