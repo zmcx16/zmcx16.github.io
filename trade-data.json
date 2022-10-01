@@ -39,12 +39,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-09-30",
-         "strike":30
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2022-10-07",
          "strike":30
       },
@@ -59,6 +53,18 @@
          "type":"put",
          "expiry":"2022-10-07",
          "strike":41
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2022-10-21",
+         "strike":80
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2022-11-04",
+         "strike":75
       },
       {
          "symbol":"INTC",
@@ -81,38 +87,14 @@
       {
          "symbol":"MU",
          "type":"put",
-         "expiry":"2022-09-30",
-         "strike":45
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
          "expiry":"2022-10-21",
          "strike":42.5
-      },
-      {
-         "symbol":"NFLX",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":175
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":85
       },
       {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2022-10-07",
          "strike":85
-      },
-      {
-         "symbol":"PNC",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":145
       },
       {
          "symbol":"PNC",
@@ -123,32 +105,8 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2022-09-30",
-         "strike":105
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":74
-      },
-      {
-         "symbol":"TOL",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":38
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":11
-      },
-      {
-         "symbol":"WFC",
-         "type":"put",
-         "expiry":"2022-09-30",
-         "strike":38
+         "expiry":"2022-10-21",
+         "strike":90
       },
       {
          "symbol":"X",
@@ -622,112 +580,112 @@
    "portfolio":{
       "ASML":{
          "cost_p":569.13,
-         "position_%":3.452652560251708,
+         "position_%":3.3490394277263484,
          "profit_%":0
       },
       "BAC":{
          "cost_p":35.99,
-         "position_%":5.240038612343429,
+         "position_%":5.08278652696732,
          "profit_%":0
       },
       "BIO":{
          "cost_p":522.14,
-         "position_%":4.75137844027681,
+         "position_%":4.6087909092642345,
          "profit_%":0
       },
       "C":{
          "cost_p":49.1,
-         "position_%":11.318959019762861,
+         "position_%":10.979280242214996,
          "profit_%":0
       },
       "CCS":{
          "cost_p":45.45,
-         "position_%":2.2057956370381477,
+         "position_%":2.1396003301904667,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.49,
-         "position_%":5.349964401515956,
+         "position_%":5.189413474115426,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.8095197189394125,
+         "position_%":0.7852262597926728,
          "profit_%":0
       },
       "EMN":{
          "cost_p":85,
-         "position_%":3.0939377747234746,
+         "position_%":3.0010895720493345,
          "profit_%":0
       },
       "GGB":{
          "cost_p":4.57,
-         "position_%":2.4397215989858676,
+         "position_%":2.366506239794824,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":7.32,
-         "position_%":4.6183391159637,
+         "position_%":4.479744057666112,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.42,
-         "position_%":4.227168316524152,
+         "position_%":4.100312183929365,
          "profit_%":0
       },
       "INTC":{
          "cost_p":39.47,
-         "position_%":8.62007463305898,
+         "position_%":8.361388617090864,
          "profit_%":0
       },
       "MMM":{
          "cost_p":129.87,
-         "position_%":6.302897236130786,
+         "position_%":6.113749062306621,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":3.017256650267583,
+         "position_%":2.9267096265773667,
          "profit_%":0
       },
       "NKE":{
-         "cost_p":115.53,
-         "position_%":2.8034716165788476,
+         "cost_p":97.21,
+         "position_%":5.72031210390031,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":1.949957315791798,
+         "position_%":1.8914396450287716,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":4.093704334085099,
+         "position_%":3.9708534180762567,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.86,
-         "position_%":7.696261212794488,
+         "position_%":7.4652985778130745,
          "profit_%":0
       },
       "THO":{
          "cost_p":79.5,
-         "position_%":2.8937418010648965,
+         "position_%":2.8069014232696716,
          "profit_%":0
       },
       "TX":{
          "cost_p":39.96,
-         "position_%":2.909029493598825,
+         "position_%":2.8217303364492095,
          "profit_%":0
       },
       "VALE":{
          "cost_p":13.29,
-         "position_%":3.224975139299998,
+         "position_%":3.128194542159659,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":56.94,
-         "position_%":8.981155371003178,
+         "position_%":8.711633423617092,
          "profit_%":0
       }
    }
