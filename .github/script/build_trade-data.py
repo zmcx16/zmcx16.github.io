@@ -30,6 +30,7 @@ if __name__ == "__main__":
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
     FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
+    FORMULA2_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula2"
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
     script_path = pathlib.Path(__file__).parent.resolve()
@@ -41,7 +42,8 @@ if __name__ == "__main__":
 
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
                    "SEC": {}, "Beneish_Model_v1": {}}
-    formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {}}
+    formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {},
+                      "Factor_Intersectional_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
@@ -78,6 +80,20 @@ if __name__ == "__main__":
         news_exclude_domains = data["news_config"]["exclude_domains"]
         news_symbol_keyword = data["news_config"]["symbol_keyword"]
 
+        # --- get FactorIntersectional ---
+        print("get FactorIntersectional output")
+        ret, resp = send_post_json(FORMULA2_URL, str({"data": data["Factor_Intersectional_v1_template"]}))
+        if ret == 0:
+            try:
+                if resp["ret"] != 0:
+                    print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                else:
+                    formula_output["Factor_Intersectional_v1"] = resp["data"][0]["result"]
+
+            except Exception as ex:
+                print('Generated an exception: {ex}'.format(ex=ex))
+
+        # -------------------
         for symbol in scan_list:
             print("get {symbol} scan / SEC / formula output: {now}".format(symbol=symbol, now=datetime.now()))
 
@@ -161,7 +177,6 @@ if __name__ == "__main__":
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
 
             # -------------------
-
             # --- get Beneish_Model ---
             formula_list_args = data["Beneish_Model_v1_template"].copy()
             for target in formula_list_args:
