@@ -51,6 +51,7 @@ if __name__ == "__main__":
         data = json.loads(f.read())
 
         # screener
+        print("get screener output")
         screen_template = data["screen_template"].copy()
         ret, resp = send_post_json(SCREENER_URL, str({"data": screen_template}))
         if ret == 0:
