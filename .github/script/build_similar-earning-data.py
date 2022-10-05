@@ -10,23 +10,30 @@ import traceback
 import base64
 
 
-DELAY_TIME_SEC = 2
+DELAY_TIME_SEC = 3
+RETRY_SEND_REQUEST = 5
 
 
-def send_request(url):
-    try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
-        res = requests.get(url, headers=headers)
-        res.raise_for_status()
-    except Exception as ex:
-        logging.error(traceback.format_exc())
-        return -1, ex
+def send_request(url, retry):
+    for r in range(retry):
+        try:
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"}
+            res = requests.get(url, headers=headers)
+            res.raise_for_status()
+        except Exception as ex:
+            logging.error(traceback.format_exc())
+            logging.info(f'retry = {r}')
+        
+        if res.status_code == 200:
+            return 0, res.text
+        
+        time.sleep(DELAY_TIME_SEC)
 
-    return 0, res.text
+    return -2, "exceed retry cnt"
 
 
 def get_stock_data(symbol):
-    ret, resp = send_request("https://hk.finance.yahoo.com/quote/" + symbol + "?p=" + symbol)
+    ret, resp = send_request("https://hk.finance.yahoo.com/quote/" + symbol + "?p=" + symbol, RETRY_SEND_REQUEST)
     if ret != 0:
         logging.error('get yahoo data failed')
         exit(-1)
