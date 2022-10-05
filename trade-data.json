@@ -463,40 +463,38 @@
          }
       }
    ],
-   "Factor_Intersectional_v1_template":[
-      {
-         "type":"Factor_Intersectional_v1",
-         "args":{
-            "Top_N":"100000",
-            "Market Cap":"300",
-            "E/P_w":"1.0",
-            "B/P_w":"1.0",
-            "S/P_w":"1.0",
-            "FCF/P_w":"0.5",
-            "ROE_w":"1.0",
-            "ROA_w":"1.0",
-            "ROI_w":"1.0",
-            "DIV_w":"0.1",
-            "InsiderOwn_w":"0.2",
-            "InsiderTrans_w":"1",
-            "InstOwn_w":"0.2",
-            "InstTrans_w":"1",
-            "TgtPrice_w":"0.5",
-            "Sectors":[
-               
-            ],
-            "Industries":[
-               
-            ],
-            "ShortFloat_w":"0",
-            "ShortRatio_w":"0",
-            "E_Q/P_w":"1.0",
-            "Range52W_w":"0.2",
-            "ShareOutstandingHalfYear_w":"0",
-            "ShareOutstandingOneYear_w":"0"
-         }
+   "Factor_Intersectional_v1_template":{
+      "type":"Factor_Intersectional_v1",
+      "args":{
+         "Top_N":100000,
+         "Market Cap":300,
+         "E/P_w":1.0,
+         "B/P_w":1.0,
+         "S/P_w":1.0,
+         "FCF/P_w":0.5,
+         "ROE_w":1.0,
+         "ROA_w":1.0,
+         "ROI_w":1.0,
+         "DIV_w":0.1,
+         "InsiderOwn_w":0.2,
+         "InsiderTrans_w":1,
+         "InstOwn_w":0.2,
+         "InstTrans_w":1,
+         "TgtPrice_w":0.5,
+         "Sectors":[
+            
+         ],
+         "Industries":[
+            
+         ],
+         "ShortFloat_w":0,
+         "ShortRatio_w":0,
+         "E_Q/P_w":1.0,
+         "Range52W_w":0.2,
+         "ShareOutstandingHalfYear_w":0,
+         "ShareOutstandingOneYear_w":0
       }
-   ],
+   },
    "screen_template":[
       {
          "type":"Finviz_v1",
