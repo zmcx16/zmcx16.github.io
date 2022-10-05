@@ -89,7 +89,7 @@ if __name__ == "__main__":
                 if resp["ret"] != 0:
                     print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                 else:
-                    formula_output["Factor_Intersectional_v1"] = resp["data"][0]["result"]
+                    formula_output["Factor_Intersectional_v1"] =  resp["result"]["data"]
 
             except Exception as ex:
                 print('Generated an exception: {ex}'.format(ex=ex))
@@ -132,7 +132,7 @@ if __name__ == "__main__":
                             break
                         except Exception as ex:
                             print('Generated an exception: {ex}, try next target.'.format(ex=ex))
-                        
+
                     print('SEC retry {retry_i} failed.'.format(retry_i=retry_i))
 
             # --- get news ------
