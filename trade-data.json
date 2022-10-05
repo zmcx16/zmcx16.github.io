@@ -91,6 +91,12 @@
          "strike":42.5
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2022-10-14",
+         "strike":190
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2022-10-07",
