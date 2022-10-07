@@ -239,29 +239,42 @@ legend.sector-industry-block {
     cursor: pointer;
 }
 
+.main-investment-formula .th-52w{
+    width: 165px;
+}
+
 .main-investment-formula .group-td{
     padding-right: 0px;
 }
 
 .main-investment-formula .th-symbol{
-    width: 95px;
+    width: 90px;
 }
 
 .main-investment-formula .th-price{
-    width: 95px;
+    width: 85px;
 }
 
 .main-investment-formula .th-180d{
     width: 150px;
 }
 
-.main-investment-formula .th-52w{
-    width: 165px;
+.main-investment-formula .th-avg_cost{
+    width: 85px;
+}
+
+.main-investment-formula .th-profit_now{
+    width: 85px;
+}
+
+.main-investment-formula .th-position_now{
+    width: 85px;
 }
 
 .main-investment-formula .th-position_kelly{
-    width: 200px;
+    width: 85px;
 }
+
 
 .main-investment-formula .td-symbol, .main-investment-formula .td-type-name{
     padding-right: 0px;
