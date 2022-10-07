@@ -51,12 +51,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-10-07",
-         "strike":30
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2022-10-14",
          "strike":28.5
       },
@@ -65,12 +59,6 @@
          "type":"put",
          "expiry":"2022-10-14",
          "strike":29
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-10-07",
-         "strike":41
       },
       {
          "symbol":"DHI",
@@ -107,12 +95,6 @@
          "type":"put",
          "expiry":"2022-10-28",
          "strike":25
-      },
-      {
-         "symbol":"JPM",
-         "type":"put",
-         "expiry":"2022-10-07",
-         "strike":103
       },
       {
          "symbol":"MMM",
@@ -153,20 +135,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2022-10-07",
-         "strike":85
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
          "expiry":"2022-10-21",
          "strike":75
-      },
-      {
-         "symbol":"PNC",
-         "type":"put",
-         "expiry":"2022-10-07",
-         "strike":140
       },
       {
          "symbol":"QCOM",
