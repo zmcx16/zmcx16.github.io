@@ -264,9 +264,10 @@ var myvar =
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-180d">180 days</th>' +
 '                    <th class="th-avg_cost">Avg Cost</th>' +
-'                    <th class="th-profit_now">Profit (now)</th>' +
-'                    <th class="th-position_now">Position (now)</th>' +
-'                    <th class="th-position_kelly">Position [Kelly Formula]</th>' +
+'                    <th class="th-profit_now">Profit</th>' +
+'                    <th class="th-position_now">Position</th>' +
+'                    <th class="th-position_kelly">Position<br>[Kelly bet]</th>' +
+'                    <th class="th-mf_score">Multi-Factor Rank</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-tbody">' +
 '                </tbody>' +
@@ -708,6 +709,12 @@ function buildTable(data){
       total_postion_kelly += score;
   });
 
+  let mf_data_dict = {}
+  data["Factor_Intersectional_v1"].forEach((v, i) => {
+    mf_data_dict[v["symbol"]] = {"rank": i+1, "score": v["Score"]};
+  });
+  $(".th-mf_score")[0].innerText = "Multi-Factor Rank\n[Total: " + data["Factor_Intersectional_v1"].length + "]";
+
   let output = "";
   data["hold_stock_list"].forEach((symbol) => {
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
@@ -721,17 +728,20 @@ function buildTable(data){
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
     let avg_cost = data["portfolio"][symbol]["cost_p"];
     let profit_now = data["portfolio"][symbol]["profit_%"].toFixed(2);
+    let profit_color = data["portfolio"][symbol]["profit_%"] > 0 ? "limegreen;" : "orangered";
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
+    let mf_score = symbol in mf_data_dict ? mf_data_dict[symbol]["rank"] + " (" + mf_data_dict[symbol]["score"].toFixed(0) + ")" : "-&nbsp;";
     output += 
     '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' + 
     '  <td class="td-symbol">' + symbol + '</td>' + 
     '  <td class="td-price">' + price + '</td>' + 
     '  <td class="td-180d">' + days + '</td>' + 
     '  <td class="td-avg_cost">' + avg_cost + '</td>' + 
-    '  <td class="td-profit_now">' + profit_now + '%</td>' + 
+    '  <td class="td-profit_now" style="font-weight: bold; color: ' + profit_color + '">' + profit_now + '%</td>' + 
     '  <td class="td-position_now">' + position_now + '%</td>' + 
     '  <td class="td-position_kelly">' + position_kelly + '%</td>' + 
+    '  <td class="td-mf_score">' + mf_score + '</td>' + 
     '</tr>';
   });
 
