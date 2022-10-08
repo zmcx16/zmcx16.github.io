@@ -5,6 +5,7 @@ import datetime
 import pathlib
 import json
 import requests
+from urllib.parse import urlencode
 from datetime import date, timedelta, datetime
 from newsapi import NewsApiClient
 
@@ -30,7 +31,12 @@ if __name__ == "__main__":
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
     FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
-    FORMULA2_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula2"
+    FORMULA2_param = {
+        'code': os.environ.get("MARKET_TOKEN_KEY", ""),
+        'api': 'calc-formula2'
+    }
+    FORMULA2_URL = "https://stockminehunterfuncmarket0.azurewebsites.net/api/StockMineHunterFunc" + '?' + urlencode(FORMULA2_param)
+
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
     script_path = pathlib.Path(__file__).parent.resolve()
