@@ -514,7 +514,7 @@
    "Factor_Intersectional_v1_template":{
       "type":"Factor_Intersectional_v1",
       "args":{
-         "Top_N":1000,
+         "Top_N":100000,
          "Market Cap":300,
          "E/P_w":1.0,
          "B/P_w":1.0,
