@@ -59,6 +59,7 @@ if __name__ == "__main__":
 
     root = pathlib.Path(__file__).parent.resolve()
     earnings_data_path = root / '..' / '..' / 'earnings_data.json'
+    earnings_data_readable_path = root / '..' / '..' / 'earnings_data_readable.json'
     input_path = root / ".." / ".." / 'trade-data.json'
     with open(input_path, 'r', encoding='utf-8') as f:
         config = json.loads(f.read())
@@ -88,5 +89,6 @@ if __name__ == "__main__":
     logging.info(f'output = {output}')
     with open(earnings_data_path, 'w', encoding='utf-8') as f:
         f.write(json.dumps(output, separators=(',', ':')))
-
+    with open(earnings_data_readable_path, 'w', encoding='utf-8') as f:
+        f.write(json.dumps(output, indent=4, sort_keys=True))
     logging.info('all task done')
