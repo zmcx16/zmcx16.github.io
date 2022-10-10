@@ -23,6 +23,7 @@ def send_request(url, retry):
         except Exception as ex:
             logging.error(traceback.format_exc())
             logging.info(f'retry = {r}')
+            continue
         
         if res.status_code == 200:
             return 0, res.text
