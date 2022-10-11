@@ -20,6 +20,13 @@
         ],
         "similar": "ASML"
     },
+    "AFG": {
+        "earningsDate": [
+            "2022-10-31",
+            "2022-11-04"
+        ],
+        "similar": "STC"
+    },
     "ALGN": {
         "earningsDate": [
             "2022-10-26"
@@ -74,20 +81,6 @@
         ],
         "similar": "INTC"
     },
-    "AVNT": {
-        "earningsDate": [
-            "2022-10-26",
-            "2022-10-31"
-        ],
-        "similar": "EMN"
-    },
-    "AXNX": {
-        "earningsDate": [
-            "2022-11-02",
-            "2022-11-07"
-        ],
-        "similar": "BIO"
-    },
     "BAC": {
         "earningsDate": [
             "2022-10-17"
@@ -115,10 +108,10 @@
         ],
         "similar": "BAC"
     },
-    "BRKR": {
+    "BSX": {
         "earningsDate": [
-            "2022-10-31",
-            "2022-11-04"
+            "2022-10-25",
+            "2022-10-31"
         ],
         "similar": "BIO"
     },
@@ -146,6 +139,12 @@
         "earningsDate": [
             "2022-11-07",
             "2022-11-11"
+        ],
+        "similar": "EMN"
+    },
+    "CC": {
+        "earningsDate": [
+            "2022-10-25"
         ],
         "similar": "EMN"
     },
@@ -216,6 +215,12 @@
             "2021-11-02"
         ],
         "similar": "NFLX"
+    },
+    "CTKB": {
+        "earningsDate": [
+            "2022-08-10"
+        ],
+        "similar": "BIO"
     },
     "CUBE": {
         "earningsDate": [
@@ -326,13 +331,6 @@
             "2022-12-19"
         ],
         "similar": "NKE"
-    },
-    "FR": {
-        "earningsDate": [
-            "2022-10-18",
-            "2022-10-24"
-        ],
-        "similar": "ILPT"
     },
     "GFF": {
         "earningsDate": [
@@ -817,7 +815,7 @@
         "earningsDate": [
             "2022-10-27"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "RY": {
         "earningsDate": [
@@ -839,6 +837,13 @@
             "2022-11-18"
         ],
         "similar": "DAC"
+    },
+    "SELF": {
+        "earningsDate": [
+            "2022-11-14",
+            "2022-11-18"
+        ],
+        "similar": "ILPT"
     },
     "SGML": {
         "earningsDate": [
@@ -910,13 +915,6 @@
         ],
         "similar": "GGB"
     },
-    "SWKS": {
-        "earningsDate": [
-            "2022-11-02",
-            "2022-11-07"
-        ],
-        "similar": "INTC"
-    },
     "TD": {
         "earningsDate": [
             "2022-12-01"
@@ -935,13 +933,6 @@
             "2022-10-28"
         ],
         "similar": "ASML"
-    },
-    "THG": {
-        "earningsDate": [
-            "2022-10-25",
-            "2022-10-31"
-        ],
-        "similar": "STC"
     },
     "THO": {
         "earningsDate": [
