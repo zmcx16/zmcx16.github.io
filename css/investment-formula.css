@@ -248,11 +248,11 @@ legend.sector-industry-block {
 }
 
 .main-investment-formula .th-symbol{
-    width: 90px;
+    width: 85px;
 }
 
 .main-investment-formula .th-price{
-    width: 85px;
+    width: 80px;
 }
 
 .main-investment-formula .th-180d{
@@ -260,21 +260,24 @@ legend.sector-industry-block {
 }
 
 .main-investment-formula .th-avg_cost{
-    width: 85px;
+    width: 80px;
 }
 
 .main-investment-formula .th-profit_now{
-    width: 85px;
+    width: 80px;
 }
 
 .main-investment-formula .th-position_now{
-    width: 85px;
+    width: 80px;
 }
 
 .main-investment-formula .th-position_kelly{
-    width: 85px;
+    width: 80px;
 }
 
+.main-investment-formula .th-target_diff{
+    width: 80px;
+}
 
 .main-investment-formula .td-symbol, .main-investment-formula .td-type-name{
     padding-right: 0px;
