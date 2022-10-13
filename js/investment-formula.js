@@ -262,7 +262,7 @@ var myvar =
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
-'                    <th class="th-180d">180 days</th>' +
+'                    <th class="th-180d">180 Days</th>' +
 '                    <th class="th-avg_cost">Avg Cost</th>' +
 '                    <th class="th-profit_now">Profit</th>' +
 '                    <th class="th-position_now">Position</th>' +
