@@ -267,6 +267,7 @@ var myvar =
 '                    <th class="th-profit_now">Profit</th>' +
 '                    <th class="th-position_now">Position</th>' +
 '                    <th class="th-position_kelly">Position<br>[Kelly bet]</th>' +
+'                    <th class="th-target_diff">Target Diff</th>' +
 '                    <th class="th-mf_score">Multi-Factor Rank</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-tbody">' +
@@ -713,7 +714,7 @@ function buildTable(data){
   data["Factor_Intersectional_v1"].forEach((v, i) => {
     mf_data_dict[v["symbol"]] = {"rank": i+1, "score": v["Score"]};
   });
-  $(".th-mf_score")[0].innerText = "Multi-Factor Rank\n[Total: " + data["Factor_Intersectional_v1"].length + "]";
+  $(".th-mf_score")[0].innerText = "Multi-Factor\n[Total: " + data["Factor_Intersectional_v1"].length + "]";
 
   let output = "";
   data["hold_stock_list"].forEach((symbol) => {
@@ -731,7 +732,12 @@ function buildTable(data){
     let profit_color = data["portfolio"][symbol]["profit_%"] > 0 ? "limegreen;" : "orangered";
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
-    let mf_score = symbol in mf_data_dict ? mf_data_dict[symbol]["rank"] + " (" + mf_data_dict[symbol]["score"].toFixed(0) + ")" : "-&nbsp;";
+    let target_diff = "-";
+    if (symbol in data["stock-info"] && data["stock-info"][symbol]["Target Price"] != "-") {
+      target_diff = ((data["stock-info"][symbol]["Target Price"] - price) * 100 / price).toFixed(1) + "%"
+    }
+
+    let mf_score = symbol in mf_data_dict ? mf_data_dict[symbol]["rank"] : "-&nbsp;";
     output += 
     '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' + 
     '  <td class="td-symbol">' + symbol + '</td>' + 
@@ -741,6 +747,7 @@ function buildTable(data){
     '  <td class="td-profit_now" style="font-weight: bold; color: ' + profit_color + '">' + profit_now + '%</td>' + 
     '  <td class="td-position_now">' + position_now + '%</td>' + 
     '  <td class="td-position_kelly">' + position_kelly + '%</td>' + 
+    '  <td class="td-target_diff">' + target_diff + '</td>' + 
     '  <td class="td-mf_score">' + mf_score + '</td>' + 
     '</tr>';
   });
@@ -846,9 +853,16 @@ $(document).ready(function () {
     }
   });
 
-  // load hold stocks data
-  $.getJSON("zmcx16_investment-formula-trade-data.json", function (json_data) {
-    $("#hold-stocks-tbody")[0].innerHTML = buildTable(json_data);
+  // load hold stocks data & stock-info data
+  Promise.all([
+    fetch("zmcx16_investment-formula-trade-data.json"),
+    fetch("stock-data/stat.json"),
+  ])
+  .then(json_datas => Promise.all(json_datas.map(r => r.json())) )
+  .then(json_datas => {
+    let input_data = json_datas[0]
+    input_data["stock-info"] = json_datas[1]
+    $("#hold-stocks-tbody")[0].innerHTML = buildTable(input_data);
   });
 
 });
