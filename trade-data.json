@@ -43,22 +43,22 @@
          "strike":340
       },
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-10-28",
+         "strike":300
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":280
+      },
+      {
          "symbol":"AX",
          "type":"put",
          "expiry":"2022-10-21",
          "strike":30
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-10-14",
-         "strike":28.5
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2022-10-14",
-         "strike":29
       },
       {
          "symbol":"DHI",
@@ -69,13 +69,13 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2022-10-14",
-         "strike":87
+         "expiry":"2022-10-21",
+         "strike":80
       },
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2022-10-21",
+         "expiry":"2022-10-28",
          "strike":80
       },
       {
@@ -103,10 +103,10 @@
          "strike":95
       },
       {
-         "symbol":"MU",
+         "symbol":"MMM",
          "type":"put",
-         "expiry":"2022-10-14",
-         "strike":47
+         "expiry":"2022-10-21",
+         "strike":104
       },
       {
          "symbol":"MU",
@@ -123,14 +123,20 @@
       {
          "symbol":"MU",
          "type":"put",
+         "expiry":"2022-11-04",
+         "strike":43
+      },
+      {
+         "symbol":"MU",
+         "type":"put",
          "expiry":"2022-11-11",
          "strike":40
       },
       {
-         "symbol":"NFLX",
+         "symbol":"MU",
          "type":"put",
-         "expiry":"2022-10-14",
-         "strike":190
+         "expiry":"2022-11-18",
+         "strike":40
       },
       {
          "symbol":"NKE",
@@ -141,20 +147,14 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2022-10-14",
-         "strike":109
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
          "expiry":"2022-10-21",
          "strike":90
       },
       {
-         "symbol":"X",
+         "symbol":"THO",
          "type":"put",
-         "expiry":"2022-10-14",
-         "strike":14
+         "expiry":"2022-10-21",
+         "strike":65
       },
       {
          "symbol":"X",
