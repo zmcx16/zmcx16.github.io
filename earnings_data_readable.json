@@ -331,6 +331,13 @@
         ],
         "similar": "NKE"
     },
+    "FR": {
+        "earningsDate": [
+            "2022-10-18",
+            "2022-10-24"
+        ],
+        "similar": "ILPT"
+    },
     "FUV": {
         "earningsDate": [
             "2022-11-14",
@@ -416,13 +423,6 @@
         ],
         "similar": "MMM"
     },
-    "HOV": {
-        "earningsDate": [
-            "2022-12-07",
-            "2022-12-12"
-        ],
-        "similar": "CCS"
-    },
     "IEP": {
         "earningsDate": [
             "2022-10-31",
@@ -504,6 +504,13 @@
             "2022-11-28"
         ],
         "similar": "HIMX"
+    },
+    "LEGH": {
+        "earningsDate": [
+            "2022-11-07",
+            "2022-11-11"
+        ],
+        "similar": "CCS"
     },
     "LGIH": {
         "earningsDate": [
@@ -713,13 +720,6 @@
         ],
         "similar": "THO"
     },
-    "PANL": {
-        "earningsDate": [
-            "2022-11-07",
-            "2022-11-11"
-        ],
-        "similar": "EDRY"
-    },
     "PARA": {
         "earningsDate": [
             "2022-11-02",
@@ -784,13 +784,6 @@
             "2022-11-04"
         ],
         "similar": "NKE"
-    },
-    "REXR": {
-        "earningsDate": [
-            "2022-10-18",
-            "2022-10-24"
-        ],
-        "similar": "ILPT"
     },
     "RLI": {
         "earningsDate": [
@@ -874,13 +867,6 @@
         ],
         "similar": "NKE"
     },
-    "STAG": {
-        "earningsDate": [
-            "2022-10-26",
-            "2022-10-31"
-        ],
-        "similar": "ILPT"
-    },
     "STC": {
         "earningsDate": [
             "2022-10-25",
@@ -961,7 +947,7 @@
             "2022-11-02",
             "2022-11-07"
         ],
-        "similar": "TX"
+        "similar": "GGB"
     },
     "TOPS": {
         "earningsDate": [
@@ -1057,7 +1043,7 @@
             "2022-10-26",
             "2022-10-31"
         ],
-        "similar": "GGB"
+        "similar": "SID"
     },
     "ZIM": {
         "earningsDate": [
