@@ -39,12 +39,6 @@
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2022-10-21",
-         "strike":340
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
          "expiry":"2022-10-28",
          "strike":300
       },
@@ -53,12 +47,6 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":280
-      },
-      {
-         "symbol":"AX",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":30
       },
       {
          "symbol":"BAC",
@@ -117,12 +105,6 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2022-10-21",
-         "strike":80
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
          "expiry":"2022-10-28",
          "strike":80
       },
@@ -151,24 +133,6 @@
          "strike":103
       },
       {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":95
-      },
-      {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":104
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":42.5
-      },
-      {
          "symbol":"MU",
          "type":"put",
          "expiry":"2022-10-28",
@@ -191,18 +155,6 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":40
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":75
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":90
       },
       {
          "symbol":"QCOM",
@@ -229,12 +181,6 @@
          "strike":55
       },
       {
-         "symbol":"THO",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":65
-      },
-      {
          "symbol":"WFC",
          "type":"put",
          "expiry":"2022-11-11",
@@ -245,24 +191,6 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":35
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":17
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":17.5
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2022-10-21",
-         "strike":20
       }
    ],
    "news_config":{
