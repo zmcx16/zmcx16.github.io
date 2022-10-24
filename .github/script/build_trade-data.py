@@ -10,6 +10,17 @@ from datetime import date, timedelta, datetime
 from newsapi import NewsApiClient
 
 
+def send_request(url):
+    try:
+        res = requests.get(url)
+        res.raise_for_status()
+    except Exception as ex:
+        print('Generated an exception: {ex}'.format(ex=ex))
+        return -1, ex
+
+    return 0, res.text
+
+
 def send_post_json(url, req_data):
     try:
         headers = {'content-type': 'application/json'}
@@ -43,7 +54,7 @@ if __name__ == "__main__":
     formula_output_readable_path = script_path / '..' / '..' / 'zmcx16_investment-formula-trade-data_readable.json'
 
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
-                   "SEC": {}, "Beneish_Model_v1": {}}
+                   "SEC": {}, "Beneish_Model_v1": {}, "indicator_list": []}
     formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {},
                       "Factor_Intersectional_v1": {}}
 
@@ -52,6 +63,38 @@ if __name__ == "__main__":
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
 
+        # --- get indicator ----
+        for symbol in data["star_Indicator_list"]:
+            print("get {symbol} indicator output: {now}".format(symbol=symbol, now=datetime.now()))
+
+            param = {
+                'code': os.environ.get("MARKET_TOKEN_KEY", ""),
+                'api': 'get-finviz-quote',
+                'symbol': symbol
+            }
+            encoded_args = urlencode(param)
+            query_url = "https://stockminehunterfuncmarket0.azurewebsites.net/api/StockMineHunterFunc" + '?' + encoded_args
+            ret, resp = send_request(query_url)
+            if ret == 0:
+                try:
+                    indicator_output = json.loads(resp)
+                    if indicator_output["ret"] != 0:
+                        print('server err = {err}'.format(err=indicator_output["ret"]))
+                    else:
+                        o = {"symbol": symbol}
+                        remain_key = {"52W Range", "52W High", "52W Low", "Perf Week", "Perf Month", "Perf Quarter",
+                                      "Perf Half Y", "Perf Year", "Perf YTD", "Price", "Change"}
+                        for k in indicator_output["data"]:
+                            if k in remain_key:
+                                o[k] = indicator_output["data"][k]
+
+                        scan_output["indicator_list"].append(o)
+
+                except Exception as ex:
+                    print('Generated an exception: {ex}'.format(ex=ex))
+            else:
+                print('send_request failed')
+        # -------------------
         # screener
         print("get screener output")
         screen_template = data["screen_template"].copy()
@@ -65,6 +108,8 @@ if __name__ == "__main__":
 
             except Exception as ex:
                 print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+        else:
+            print('send_post_json failed')
 
         # norm-minehunter
         formula_output["hold_stock_list"] = scan_output["hold_stock_list"] = data["hold_stock_list"]
@@ -95,6 +140,8 @@ if __name__ == "__main__":
 
             except Exception as ex:
                 print('Generated an exception: {ex}'.format(ex=ex))
+        else:
+            print('send_post_json failed')
 
         # -------------------
         for symbol in scan_list:
@@ -116,6 +163,8 @@ if __name__ == "__main__":
                         break
                     except Exception as ex:
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                else:
+                    print('send_post_json failed')
 
             # --- get SEC -------
             if symbol in data["hold_stock_list"]:
@@ -134,6 +183,8 @@ if __name__ == "__main__":
                             break
                         except Exception as ex:
                             print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                    else:
+                        print('send_post_json failed')
 
                     print('SEC retry {retry_i} failed.'.format(retry_i=retry_i))
 
@@ -178,6 +229,8 @@ if __name__ == "__main__":
 
                     except Exception as ex:
                         print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                else:
+                    print('send_post_json failed')
 
             # -------------------
             # --- get Beneish_Model ---
@@ -195,6 +248,8 @@ if __name__ == "__main__":
 
                 except Exception as ex:
                     print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+            else:
+                print('send_post_json failed')
 
             # -------------------
             # -- load portfolio -
@@ -208,7 +263,8 @@ if __name__ == "__main__":
 
             time.sleep(DELAY_TIME_SEC)
 
-    if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(formula_output["KellyFormula_Range_v1"]) > 0 or len(formula_output["portfolio"]) > 0:
+    if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(scan_output["indicator_list"]) > 0 or \
+            len(formula_output["KellyFormula_Range_v1"]) > 0 or len(formula_output["portfolio"]) > 0:
         with open(stocks_output_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(scan_output, separators=(',', ':')))
         with open(stocks_output_readable_path, 'w', encoding='utf-8') as f:
@@ -220,7 +276,6 @@ if __name__ == "__main__":
             f.write(json.dumps(formula_output, indent=4, sort_keys=True))
 
         print("task completed: {now}".format(now=datetime.now()))
-
     else:
-        print("No scan output data")
+        print("No output data")
 

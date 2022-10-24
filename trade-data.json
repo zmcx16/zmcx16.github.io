@@ -35,6 +35,13 @@
       "TSLA",
       "CRM"
    ],
+   "star_Indicator_list":[
+      "VOO",
+      "VTI",
+      "SPY",
+      "QQQ",
+      "PRF"
+   ],
    "hold_option_list":[
       {
          "symbol":"ASML",
