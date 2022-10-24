@@ -184,7 +184,6 @@ export function PureFieldWithValueCheck(field, headerName, width, valueFixed, hi
   return output
 }
 
-
 export function NameWithLinkField(field, headerName, width, linkKey, hide, align='left', description = null) {
   let output = {
     field: field,
