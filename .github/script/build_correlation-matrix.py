@@ -9,44 +9,6 @@ import numpy as np
 from scipy import stats
 
 
-def getMarketData(config, market_folder_path):
-
-    param = {
-        'code': os.environ.get("MARKET_TOKEN_KEY", ""),
-        'api': 'get-market'
-    }
-    encoded_args = urlencode(param)
-    query_url = "https://stockminehunterfuncmarket0.azurewebsites.net/api/StockMineHunterFunc" + '?' + encoded_args
-    
-    try:
-        for market_item in config["data"]:
-            print('get market: ' + market_item["symbol"])
-            ret, resp = send_post_json(query_url, str({"symbol": market_item["symbol"], "src":market_item["src"], "api":market_item["api"]}))
-            if ret == 0:
-                try:
-                    if resp["ret"] != 0:
-                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
-                    else:
-                        data = resp["data"]
-                        output = {'update_time': str(datetime.now()), 'symbol': data['symbol'],
-                                  'src': data['src'], 'dataUrl': data['dataUrl'], 'data': data['data']}
-
-                        base64_file_name = base64.b64encode(data['id'].encode('ascii')).decode('ascii')
-                        with open(market_folder_path / (base64_file_name + '.json'), 'w', encoding='utf-8') as f:
-                            f.write(json.dumps(output, separators=(',', ':')))
-
-                except Exception as ex:
-                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
-            else:
-                print('send_post_json failed: {ret}'.format(ret=ret))
-                sys.exit(1)
-
-    except Exception as ex:
-        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
-        sys.exit(1)
-
-    print('getMarketData done')
-
 def calc_market_correlation(config, market_folder_path, correlation_config_path):
 
     market_dict = {}
