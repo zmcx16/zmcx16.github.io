@@ -4,15 +4,35 @@ var myvar =
 '    <div class="demo-img">' +
 '        <img src="/img/investment-stocks/trade-kanban_960x435.png" />' +
 '    </div>' +
+'    <div class="star-indicators-groups">' +
+'        <h1> 關注指標 </h1>' +
+'        <div class="star-indicators content-block">' +
+'            <table id="star-indicators-table">' +
+'                <thead>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-price">Price</th>' +
+'                    <th class="th-change">Change</th>' +
+'                    <th class="th-52w">52W Range</th>' +
+'                    <th class="th-52h">52W High</th>' +
+'                    <th class="th-52l">52W Low</th>' +
+'                    <th class="th-perf-month">Perf Month</th>' +
+'                    <th class="th-perf-year">Perf Year</th>' +
+'                    <th class="th-perf-ytd">Perf YTD</th>' +
+'                </thead>' +
+'                <tbody id="star-indicators-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'        </div>' +
+'    </div>' +
 '    <div class="hold-stocks-groups">' +
-'        <h1> 持有清單 </h1>' +
+'        <h1> 持有個股 </h1>' +
 '        <div class="hold-stocks content-block">' +
 '            <table id="hold-stocks-table">' +
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-change">Change</th>' +
-'                    <th class="th-52w">52 weeks</th>' +
+'                    <th class="th-52w">52W Range</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
@@ -47,14 +67,14 @@ var myvar =
 '        </div>' +
 '    </div>' +
 '    <div class="star-stocks-groups">' +
-'        <h1> 關注清單 </h1>' +
+'        <h1> 關注個股 </h1>' +
 '        <div class="star-stocks content-block">' +
 '            <table id="star-stocks-table">' +
 '                <thead>' +
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-change">Change</th>' +
-'                    <th class="th-52w">52 weeks</th>' +
+'                    <th class="th-52w">52W Range</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
@@ -74,7 +94,7 @@ var myvar =
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-change">Change</th>' +
-'                    <th class="th-52w">52 weeks</th>' +
+'                    <th class="th-52w">52W Range</th>' +
 '                    <th class="th-sma20">SMA20</th>' +
 '                    <th class="th-sma50">SMA50</th>' +
 '                    <th class="th-sma200">SMA200</th>' +
@@ -356,6 +376,25 @@ function buildEarningsDateTable(data) {
   return output;
 }
 
+function buildIndicatorTable(data) {
+  var output = "";
+  data.forEach((indicator) => {
+    output += 
+    '<tr class="tr-indicator main" onclick="window.open(\'' + "https://hk.finance.yahoo.com/quote/" + indicator["symbol"] + '\');">' + 
+    '  <td class="td-symbol">' + indicator["symbol"] + '</td>' + 
+    '  <td class="td-price symbol-' + indicator["symbol"] +'">' + indicator["Price"] + '</td>' + 
+    '  <td class="td-change symbol-' + indicator["symbol"] +'">' + getStockChangeColor(indicator["Change"]) + '</td>' + 
+    '  <td class="td-52w">' + indicator["52W Range"] + '</td>' + 
+    '  <td class="td-52h">' + getStockChangeColor(indicator["52W High"]) + '</td>' + 
+    '  <td class="td-52l">' + getStockChangeColor(indicator["52W Low"]) + '</td>' + 
+    '  <td class="td-perf-month">' + getStockChangeColor(indicator["Perf Month"]) + '</td>' + 
+    '  <td class="td-perf-year">' + getStockChangeColor(indicator["Perf Year"]) + '</td>' + 
+    '  <td class="td-perf-ytd">' + getStockChangeColor(indicator["Perf YTD"]) + '</td>' + 
+    '</tr>';
+  });
+  return output;
+}
+
 function preprocessData(json_data, input_key)
 {
   var output = []
@@ -443,6 +482,9 @@ $(document).ready(function () {
   ])
   .then(json_datas => Promise.all(json_datas.map(r => r.json())) )
   .then(json_datas => {
+    
+    $("#star-indicators-tbody")[0].innerHTML = buildIndicatorTable(json_datas[0]["indicator_list"]);
+
     var hold_stocks = preprocessData(json_datas[0], "hold_stock_list");
     var star_stocks = preprocessData(json_datas[0], "star_stock_list");
     var screener_stocks = preprocessData(json_datas[0], "screener_stock_list");

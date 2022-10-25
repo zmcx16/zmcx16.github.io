@@ -57,8 +57,20 @@
     padding-right: 0px;
 }
 
+.main-investment-stocks .th-symbol{
+    width: 90px;
+}
+
+.main-investment-stocks .th-price{
+    width: 90px;
+}
+
+.main-investment-stocks .th-change{
+    width: 90px;
+}
+
 .main-investment-stocks .th-52w{
-    width: 165px;
+    width: 140px;
 }
 
 .main-investment-stocks .th-risk{
@@ -189,12 +201,16 @@
     width: 120px;
 }
 
-.main-investment-stocks .tr-sec.main{
-    height: 36px;
+.main-investment-stocks .tr-indicator.main{
+    height: 52px;
 }
 
 #hold-stocks-sec-table{
     width: 460px;
+}
+
+.main-investment-stocks .tr-sec.main{
+    height: 36px;
 }
 
 #star-stocks-sec-table{
@@ -205,7 +221,7 @@
     width: 460px;
 }
 
-.main-investment-stocks .tr-sec.main:hover{
+.main-investment-stocks .tr-sec.main:hover, .main-investment-stocks .tr-indicator.main:hover{
     background-color: aquamarine;
     cursor: pointer;
 }
