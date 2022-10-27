@@ -176,6 +176,18 @@
          "strike":40
       },
       {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-11-25",
+         "strike":42
+      },
+      {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-12-02",
+         "strike":40
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2022-10-28",
@@ -198,6 +210,12 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":55
+      },
+      {
+         "symbol":"TOL",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":35
       },
       {
          "symbol":"WFC",
