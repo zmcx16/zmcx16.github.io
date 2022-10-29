@@ -46,12 +46,6 @@
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2022-10-28",
-         "strike":300
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
          "expiry":"2022-11-04",
          "strike":400
       },
@@ -72,12 +66,6 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":28
-      },
-      {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":35
       },
       {
          "symbol":"BK",
@@ -116,52 +104,16 @@
          "strike":33
       },
       {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":59
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":80
-      },
-      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2022-11-04",
          "strike":75
       },
       {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":22
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":25
-      },
-      {
-         "symbol":"JPM",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":103
-      },
-      {
          "symbol":"MDC",
          "type":"put",
          "expiry":"2022-11-18",
          "strike":24
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":41
       },
       {
          "symbol":"MU",
@@ -192,18 +144,6 @@
          "type":"put",
          "expiry":"2022-12-02",
          "strike":40
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":95
-      },
-      {
-         "symbol":"SONY",
-         "type":"put",
-         "expiry":"2022-10-28",
-         "strike":59
       },
       {
          "symbol":"SONY",
