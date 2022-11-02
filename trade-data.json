@@ -110,6 +110,12 @@
          "strike":75
       },
       {
+         "symbol":"HZO",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":25
+      },
+      {
          "symbol":"MDC",
          "type":"put",
          "expiry":"2022-11-18",
@@ -146,6 +152,12 @@
          "strike":40
       },
       {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-12-09",
+         "strike":40
+      },
+      {
          "symbol":"SONY",
          "type":"put",
          "expiry":"2022-11-04",
@@ -156,6 +168,12 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":55
+      },
+      {
+         "symbol":"THO",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":65
       },
       {
          "symbol":"TOL",
