@@ -52,6 +52,12 @@
       {
          "symbol":"ASML",
          "type":"put",
+         "expiry":"2022-11-11",
+         "strike":375
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
          "expiry":"2022-11-18",
          "strike":280
       },
