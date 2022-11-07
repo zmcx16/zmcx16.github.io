@@ -44,6 +44,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2022-11-11",
+         "strike":83
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-11-11",
@@ -134,6 +140,12 @@
          "strike":40
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":80
+      },
+      {
          "symbol":"SONY",
          "type":"put",
          "expiry":"2022-11-18",
@@ -180,6 +192,24 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":45
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":17
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":14
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":15
       }
    ],
    "news_config":{
