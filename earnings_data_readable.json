@@ -72,6 +72,13 @@
         ],
         "similar": "INTC"
     },
+    "AVNT": {
+        "earningsDate": [
+            "2023-02-06",
+            "2023-02-10"
+        ],
+        "similar": "EMN"
+    },
     "AXNX": {
         "earningsDate": [
             "2022-10-31"
@@ -108,6 +115,13 @@
             "2022-11-29"
         ],
         "similar": "BAC"
+    },
+    "BSX": {
+        "earningsDate": [
+            "2023-01-31",
+            "2023-02-06"
+        ],
+        "similar": "BIO"
     },
     "BZH": {
         "earningsDate": [
@@ -192,9 +206,16 @@
         ],
         "similar": "ILPT"
     },
+    "CVCO": {
+        "earningsDate": [
+            "2023-02-01",
+            "2023-02-06"
+        ],
+        "similar": "CCS"
+    },
     "DAC": {
         "earningsDate": [
-            "2022-11-07"
+            "2022-11-08"
         ],
         "similar": "-"
     },
@@ -211,12 +232,6 @@
         ],
         "similar": "NKE"
     },
-    "DFH": {
-        "earningsDate": [
-            "2022-11-03"
-        ],
-        "similar": "CCS"
-    },
     "DGICB": {
         "earningsDate": [
             "2020-02-17",
@@ -232,7 +247,8 @@
     },
     "DOOO": {
         "earningsDate": [
-            "2022-11-07"
+            "2022-11-29",
+            "2022-12-05"
         ],
         "similar": "THO"
     },
@@ -413,7 +429,7 @@
     },
     "IFF": {
         "earningsDate": [
-            "2022-11-07"
+            "2022-11-08"
         ],
         "similar": "EMN"
     },
@@ -497,8 +513,8 @@
     },
     "LEDS": {
         "earningsDate": [
-            "2022-11-24",
-            "2022-11-28"
+            "2023-01-10",
+            "2023-01-16"
         ],
         "similar": "HIMX"
     },
@@ -513,12 +529,6 @@
             "2022-11-09"
         ],
         "similar": "VALE"
-    },
-    "LIN": {
-        "earningsDate": [
-            "2022-10-27"
-        ],
-        "similar": "EMN"
     },
     "LIVN": {
         "earningsDate": [
@@ -580,7 +590,8 @@
     },
     "MDU": {
         "earningsDate": [
-            "2022-11-03"
+            "2023-02-07",
+            "2023-02-13"
         ],
         "similar": "MMM"
     },
@@ -682,7 +693,7 @@
             "2023-01-25",
             "2023-01-30"
         ],
-        "similar": "GGB"
+        "similar": "TX"
     },
     "NVDA": {
         "earningsDate": [
@@ -867,7 +878,8 @@
     },
     "STC": {
         "earningsDate": [
-            "2022-10-27"
+            "2023-02-07",
+            "2023-02-13"
         ],
         "similar": "-"
     },
@@ -924,6 +936,12 @@
         ],
         "similar": "CCS"
     },
+    "TMST": {
+        "earningsDate": [
+            "2022-11-04"
+        ],
+        "similar": "TX"
+    },
     "TPH": {
         "earningsDate": [
             "2022-10-27"
@@ -948,6 +966,13 @@
             "2023-01-27"
         ],
         "similar": "INTC"
+    },
+    "USAP": {
+        "earningsDate": [
+            "2023-01-24",
+            "2023-01-30"
+        ],
+        "similar": "GGB"
     },
     "VMI": {
         "earningsDate": [
@@ -988,8 +1013,8 @@
     },
     "WTM": {
         "earningsDate": [
-            "2022-11-07",
-            "2022-11-11"
+            "2023-02-06",
+            "2023-02-10"
         ],
         "similar": "STC"
     },
@@ -1012,13 +1037,6 @@
             "2023-01-30"
         ],
         "similar": "GGB"
-    },
-    "ZBH": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
-        ],
-        "similar": "BIO"
     },
     "ZEUS": {
         "earningsDate": [
