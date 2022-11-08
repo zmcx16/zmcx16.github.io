@@ -68,6 +68,12 @@
          "strike":350
       },
       {
+         "symbol":"AX",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":32.5
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-11-18",
@@ -98,6 +104,12 @@
          "strike":33
       },
       {
+         "symbol":"EWBC",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":60
+      },
+      {
          "symbol":"HZO",
          "type":"put",
          "expiry":"2022-11-18",
@@ -108,6 +120,12 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":24
+      },
+      {
+         "symbol":"MED",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":90
       },
       {
          "symbol":"MU",
