@@ -50,6 +50,12 @@
          "strike":83
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":80
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-11-11",
@@ -65,6 +71,12 @@
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-11-25",
+         "strike":350
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2022-12-16",
          "strike":350
       },
       {
@@ -104,6 +116,12 @@
          "strike":33
       },
       {
+         "symbol":"CSCO",
+         "type":"put",
+         "expiry":"2022-11-25",
+         "strike":39
+      },
+      {
          "symbol":"EWBC",
          "type":"put",
          "expiry":"2022-11-18",
@@ -126,6 +144,12 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":90
+      },
+      {
+         "symbol":"MSFT",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":200
       },
       {
          "symbol":"MU",
@@ -156,6 +180,30 @@
          "type":"put",
          "expiry":"2022-12-09",
          "strike":40
+      },
+      {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":42.5
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":65
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2022-11-25",
+         "strike":65
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":95
       },
       {
          "symbol":"QCOM",
