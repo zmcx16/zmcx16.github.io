@@ -122,6 +122,12 @@
          "strike":39
       },
       {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2022-11-18",
+         "strike":70
+      },
+      {
          "symbol":"EWBC",
          "type":"put",
          "expiry":"2022-11-18",
