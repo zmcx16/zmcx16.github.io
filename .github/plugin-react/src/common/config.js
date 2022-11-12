@@ -103,11 +103,6 @@ const MarketConfig = {
       api: "investing/stock/HIMX"
     },
 	{
-      symbol: "BAC",
-      src: "marketwatch",
-      api: "investing/stock/BAC"
-    },
-	{
       symbol: "C",
       src: "marketwatch",
       api: "investing/stock/C"
@@ -146,16 +141,6 @@ const MarketConfig = {
       symbol: "THO",
       src: "marketwatch",
       api: "investing/stock/THO"
-    },
-    {
-      symbol: "MMM",
-      src: "marketwatch",
-      api: "investing/stock/MMM"
-    },
-    {
-      symbol: "EMN",
-      src: "marketwatch",
-      api: "investing/stock/EMN"
     },
 	{
       symbol: "VALE",
@@ -663,50 +648,6 @@ const ForecastConfig = {
       feature_data: []
     },
   ],
-  BAC: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'BAC',
-        file_path: 'stock/historical-quotes/BAC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'BAC',
-        file_path: 'stock/historical-quotes/BAC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'BAC',
-        file_path: 'stock/historical-quotes/BAC.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
   C: [
     {
       type: 'stock_fbprophet_empty',
@@ -974,94 +915,6 @@ const ForecastConfig = {
       target_data: {
         name: 'THO',
         file_path: 'stock/historical-quotes/THO.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
-  MMM: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'MMM',
-        file_path: 'stock/historical-quotes/MMM.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-  ],
-  EMN: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'EMN',
-        file_path: 'stock/historical-quotes/EMN.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'EMN',
-        file_path: 'stock/historical-quotes/EMN.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'EMN',
-        file_path: 'stock/historical-quotes/EMN.json',
         type: 'stock'
       },
       feature_data: []
