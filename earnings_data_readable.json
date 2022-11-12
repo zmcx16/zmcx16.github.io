@@ -202,12 +202,6 @@
         ],
         "similar": "NKE"
     },
-    "CUBE": {
-        "earningsDate": [
-            "2022-10-28"
-        ],
-        "similar": "ILPT"
-    },
     "CVCO": {
         "earningsDate": [
             "2023-02-01",
@@ -422,13 +416,6 @@
         ],
         "similar": "-"
     },
-    "INSP": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
-        ],
-        "similar": "BIO"
-    },
     "INTC": {
         "earningsDate": [
             "2023-01-24",
@@ -460,13 +447,6 @@
             "2022-11-16"
         ],
         "similar": "ASML"
-    },
-    "L": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
-        ],
-        "similar": "STC"
     },
     "LAC": {
         "earningsDate": [
@@ -735,6 +715,12 @@
         ],
         "similar": "ILPT"
     },
+    "PODD": {
+        "earningsDate": [
+            "2022-11-03"
+        ],
+        "similar": "BIO"
+    },
     "PPG": {
         "earningsDate": [
             "2023-01-18",
@@ -756,8 +742,7 @@
     },
     "PXS": {
         "earningsDate": [
-            "2022-11-14",
-            "2022-11-18"
+            "2022-11-14"
         ],
         "similar": "EDRY"
     },
@@ -805,6 +790,12 @@
             "2022-11-02"
         ],
         "similar": "STC"
+    },
+    "SB": {
+        "earningsDate": [
+            "2022-11-10"
+        ],
+        "similar": "NMM"
     },
     "SBLK": {
         "earningsDate": [
@@ -937,13 +928,20 @@
         "earningsDate": [
             "2022-11-04"
         ],
-        "similar": "TX"
+        "similar": "SID"
     },
     "TPH": {
         "earningsDate": [
             "2022-10-27"
         ],
         "similar": "CCS"
+    },
+    "TRNO": {
+        "earningsDate": [
+            "2023-02-07",
+            "2023-02-13"
+        ],
+        "similar": "ILPT"
     },
     "TSE": {
         "earningsDate": [
@@ -970,6 +968,12 @@
             "2023-01-27"
         ],
         "similar": "INTC"
+    },
+    "UFCS": {
+        "earningsDate": [
+            "2022-11-03"
+        ],
+        "similar": "STC"
     },
     "USAP": {
         "earningsDate": [
@@ -1047,6 +1051,12 @@
             "2023-02-10"
         ],
         "similar": "BIO"
+    },
+    "ZEUS": {
+        "earningsDate": [
+            "2022-11-04"
+        ],
+        "similar": "TX"
     },
     "ZIM": {
         "earningsDate": [
