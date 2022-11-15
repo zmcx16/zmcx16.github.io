@@ -403,7 +403,15 @@ function preprocessData(json_data, input_key)
     return [];
   }
 
+  var symbol_dict = {}
+
   json_data[input_key].forEach((symbol) => {
+
+    if (symbol in symbol_dict) {
+      return;
+    } else {
+      symbol_dict[symbol] = true;
+    }
 
     var base_info = {};
     var scan_list = [];
