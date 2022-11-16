@@ -101,6 +101,18 @@
          "strike":39
       },
       {
+         "symbol":"CSCO",
+         "type":"put",
+         "expiry":"2022-12-09",
+         "strike":39
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-12-09",
+         "strike":65
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2022-11-18",
