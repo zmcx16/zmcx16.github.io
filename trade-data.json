@@ -113,6 +113,12 @@
          "strike":65
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":65
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2022-11-18",
@@ -147,6 +153,12 @@
          "type":"put",
          "expiry":"2022-11-18",
          "strike":90
+      },
+      {
+         "symbol":"MKSI",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":60
       },
       {
          "symbol":"MSFT",
