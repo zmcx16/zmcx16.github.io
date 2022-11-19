@@ -41,6 +41,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":70
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-11-25",
