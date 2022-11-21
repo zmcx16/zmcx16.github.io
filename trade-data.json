@@ -219,6 +219,12 @@
          "type":"put",
          "expiry":"2022-12-02",
          "strike":20
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":15
       }
    ],
    "news_config":{
