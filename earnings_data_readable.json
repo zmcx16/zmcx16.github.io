@@ -55,7 +55,8 @@
     },
     "ARGO": {
         "earningsDate": [
-            "2022-11-08"
+            "2023-02-20",
+            "2023-02-24"
         ],
         "similar": "STC"
     },
@@ -104,6 +105,12 @@
         ],
         "similar": "C"
     },
+    "BOWL": {
+        "earningsDate": [
+            "2022-11-16"
+        ],
+        "similar": "NFLX"
+    },
     "BRKR": {
         "earningsDate": [
             "2023-02-09",
@@ -142,7 +149,7 @@
             "2023-01-09",
             "2023-01-13"
         ],
-        "similar": "GGB"
+        "similar": "TX"
     },
     "CMRE": {
         "earningsDate": [
@@ -156,6 +163,13 @@
             "2023-02-10"
         ],
         "similar": "STC"
+    },
+    "COLD": {
+        "earningsDate": [
+            "2022-11-01",
+            "2022-11-07"
+        ],
+        "similar": "ILPT"
     },
     "CPLP": {
         "earningsDate": [
@@ -242,13 +256,6 @@
         ],
         "similar": "DAC"
     },
-    "EGP": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
-        ],
-        "similar": "ILPT"
-    },
     "ESEA": {
         "earningsDate": [
             "2023-02-13",
@@ -297,28 +304,9 @@
         ],
         "similar": "DAC"
     },
-    "GNUS": {
-        "earningsDate": [
-            "2022-11-15"
-        ],
-        "similar": "NFLX"
-    },
     "GOGL": {
         "earningsDate": [
             "2022-11-16"
-        ],
-        "similar": "ZIM"
-    },
-    "GRBK": {
-        "earningsDate": [
-            "2022-11-03"
-        ],
-        "similar": "CCS"
-    },
-    "GRIN": {
-        "earningsDate": [
-            "2023-02-14",
-            "2023-02-20"
         ],
         "similar": "ZIM"
     },
@@ -406,7 +394,7 @@
             "2023-01-25",
             "2023-01-30"
         ],
-        "similar": "DAC"
+        "similar": "NMM"
     },
     "KLAC": {
         "earningsDate": [
@@ -495,6 +483,13 @@
         ],
         "similar": "THO"
     },
+    "MDC": {
+        "earningsDate": [
+            "2023-01-30",
+            "2023-02-03"
+        ],
+        "similar": "CCS"
+    },
     "MHO": {
         "earningsDate": [
             "2023-01-31",
@@ -521,6 +516,13 @@
         ],
         "similar": "INTC"
     },
+    "MSB": {
+        "earningsDate": [
+            "2022-12-13",
+            "2022-12-19"
+        ],
+        "similar": "GGB"
+    },
     "MT": {
         "earningsDate": [
             "2017-02-21",
@@ -541,11 +543,24 @@
         ],
         "similar": "INTC"
     },
+    "MX": {
+        "earningsDate": [
+            "2023-02-14",
+            "2023-02-20"
+        ],
+        "similar": "HIMX"
+    },
+    "NAT": {
+        "earningsDate": [
+            "2022-11-30"
+        ],
+        "similar": "ZIM"
+    },
     "NETI": {
         "earningsDate": [
             "2022-11-08"
         ],
-        "similar": "EDRY"
+        "similar": "NMM"
     },
     "NEXA": {
         "earningsDate": [
@@ -620,6 +635,12 @@
         ],
         "similar": "NKE"
     },
+    "PANL": {
+        "earningsDate": [
+            "2022-11-10"
+        ],
+        "similar": "EDRY"
+    },
     "PARA": {
         "earningsDate": [
             "2023-02-13",
@@ -629,7 +650,8 @@
     },
     "PEN": {
         "earningsDate": [
-            "2022-11-03"
+            "2023-02-20",
+            "2023-02-24"
         ],
         "similar": "BIO"
     },
@@ -668,7 +690,8 @@
     },
     "PSA": {
         "earningsDate": [
-            "2022-11-02"
+            "2023-02-20",
+            "2023-02-24"
         ],
         "similar": "ILPT"
     },
@@ -722,7 +745,7 @@
         "earningsDate": [
             "2022-11-10"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBLK": {
         "earningsDate": [
@@ -730,6 +753,13 @@
             "2023-02-20"
         ],
         "similar": "DAC"
+    },
+    "SCHN": {
+        "earningsDate": [
+            "2023-01-04",
+            "2023-01-09"
+        ],
+        "similar": "GGB"
     },
     "SELF": {
         "earningsDate": [
@@ -909,13 +939,6 @@
             "2022-11-09"
         ],
         "similar": "NKE"
-    },
-    "X": {
-        "earningsDate": [
-            "2023-01-25",
-            "2023-01-30"
-        ],
-        "similar": "GGB"
     },
     "ZEUS": {
         "earningsDate": [
