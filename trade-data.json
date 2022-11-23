@@ -59,6 +59,12 @@
          "strike":350
       },
       {
+         "symbol":"AX",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":32.5
+      },
+      {
          "symbol":"BK",
          "type":"put",
          "expiry":"2022-11-25",
@@ -183,6 +189,12 @@
          "type":"put",
          "expiry":"2022-12-02",
          "strike":72
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":62.5
       },
       {
          "symbol":"QCOM",
