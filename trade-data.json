@@ -49,12 +49,6 @@
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2022-11-25",
-         "strike":350
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
          "expiry":"2022-12-16",
          "strike":350
       },
@@ -65,34 +59,16 @@
          "strike":32.5
       },
       {
-         "symbol":"BK",
-         "type":"put",
-         "expiry":"2022-11-25",
-         "strike":33
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2022-12-23",
          "strike":41
       },
       {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2022-11-25",
-         "strike":33
-      },
-      {
          "symbol":"CE",
          "type":"put",
          "expiry":"2022-12-16",
          "strike":75
-      },
-      {
-         "symbol":"CSCO",
-         "type":"put",
-         "expiry":"2022-11-25",
-         "strike":39
       },
       {
          "symbol":"CSCO",
@@ -151,12 +127,6 @@
       {
          "symbol":"MU",
          "type":"put",
-         "expiry":"2022-11-25",
-         "strike":42
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
          "expiry":"2022-12-02",
          "strike":40
       },
@@ -177,18 +147,6 @@
          "type":"put",
          "expiry":"2022-12-16",
          "strike":47.5
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2022-11-25",
-         "strike":65
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2022-11-25",
-         "strike":75
       },
       {
          "symbol":"PYPL",
