@@ -83,6 +83,11 @@ const MarketConfig = {
       api: "investing/stock/ASML"
     },
 	{
+      symbol: "DIS",
+      src: "marketwatch",
+      api: "investing/stock/DIS"
+    },
+	{
       symbol: "NFLX",
       src: "marketwatch",
       api: "investing/stock/NFLX"
@@ -511,6 +516,50 @@ const ForecastConfig = {
       target_data: {
         name: 'ASML',
         file_path: 'stock/historical-quotes/ASML.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+  ],
+  DIS: [
+    {
+      type: 'stock_fbprophet_empty',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: [],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DIS',
+        file_path: 'stock/historical-quotes/DIS.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_ohlv',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Open', 'High', 'Low', 'Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DIS',
+        file_path: 'stock/historical-quotes/DIS.json',
+        type: 'stock'
+      },
+      feature_data: []
+    },
+    {
+      type: 'stock_fbprophet_v',
+      algorithm: 'fbprophet',
+      args: {
+        using_regressors: ['Volume'],
+        forecast_periods: 30
+      },
+      target_data: {
+        name: 'DIS',
+        file_path: 'stock/historical-quotes/DIS.json',
         type: 'stock'
       },
       feature_data: []
