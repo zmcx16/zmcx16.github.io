@@ -72,6 +72,18 @@
          "strike":41
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2022-12-30",
+         "strike":40
+      },
+      {
+         "symbol":"CBRE",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":65
+      },
+      {
          "symbol":"CE",
          "type":"put",
          "expiry":"2022-12-16",
