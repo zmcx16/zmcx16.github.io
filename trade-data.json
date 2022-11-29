@@ -17,7 +17,6 @@
       "EDRY",
       "NMM",
       "ZIM",
-      "GGB",
       "SID",
       "TX"
    ],
@@ -761,102 +760,97 @@
    "portfolio":{
       "ASML":{
          "cost_p":569.13,
-         "position_%":3.8523478521263756,
+         "position_%":3.7902914514552593,
          "profit_%":0
       },
       "BIO":{
          "cost_p":522.14,
-         "position_%":5.301420345551805,
+         "position_%":5.216021238898448,
          "profit_%":0
       },
       "C":{
          "cost_p":49.1,
-         "position_%":12.629294928219197,
+         "position_%":12.425853126922185,
          "profit_%":0
       },
       "CCS":{
          "cost_p":45.45,
-         "position_%":2.461148909797674,
+         "position_%":2.4215029461619175,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.49,
-         "position_%":5.969301431717197,
+         "position_%":5.8731436143049285,
          "profit_%":0
       },
       "DIS":{
          "cost_p":98.39,
-         "position_%":2.6639432479097156,
+         "position_%":2.6210305266542475,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.9032335272920836,
-         "profit_%":0
-      },
-      "GGB":{
-         "cost_p":4.57,
-         "position_%":1.3610776204128612,
+         "position_%":0.8886835894825255,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":7.32,
-         "position_%":5.152979763615988,
+         "position_%":5.069971845033401,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.42,
-         "position_%":4.71652519347365,
+         "position_%":4.640548000235491,
          "profit_%":0
       },
       "INTC":{
          "cost_p":39.47,
-         "position_%":9.617974997001404,
+         "position_%":9.463041711387216,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":3.3665484647331443,
+         "position_%":3.312317671350636,
          "profit_%":0
       },
       "NKE":{
          "cost_p":97.21,
-         "position_%":6.5799858504244195,
+         "position_%":6.473990687469748,
          "profit_%":0
       },
       "NMM":{
          "cost_p":30.04,
-         "position_%":2.175693541744903,
+         "position_%":2.140645899281994,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.82,
-         "position_%":4.567610792990843,
+         "position_%":4.494032420434714,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.86,
-         "position_%":8.587216592204953,
+         "position_%":8.448887507202572,
          "profit_%":0
       },
       "THO":{
          "cost_p":79.5,
-         "position_%":3.2287349559226914,
+         "position_%":3.1767241620441,
          "profit_%":0
       },
       "TX":{
-         "cost_p":39.96,
-         "position_%":3.2457924236143585,
+         "cost_p":35.48,
+         "position_%":6.143531457028177,
          "profit_%":0
       },
       "VALE":{
          "cost_p":13.29,
-         "position_%":3.598313422575477,
+         "position_%":3.5403491919132986,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":56.94,
-         "position_%":10.020856138671256,
+         "position_%":9.859432952739136,
          "profit_%":0
       }
    }
