@@ -59,6 +59,18 @@
          "strike":32.5
       },
       {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2022-12-23",
+         "strike":31
+      },
+      {
+         "symbol":"BC",
+         "type":"put",
+         "expiry":"2022-12-16",
+         "strike":60
+      },
+      {
          "symbol":"C",
          "type":"put",
          "expiry":"2022-12-16",
@@ -219,6 +231,18 @@
          "type":"put",
          "expiry":"2022-12-16",
          "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2022-12-30",
+         "strike":38
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-01-06",
+         "strike":38
       },
       {
          "symbol":"X",
