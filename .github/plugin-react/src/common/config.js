@@ -143,9 +143,9 @@ const MarketConfig = {
       api: "investing/stock/ILPT"
     },
     {
-      symbol: "THO",
+      symbol: "AMZN",
       src: "marketwatch",
-      api: "investing/stock/THO"
+      api: "investing/stock/AMZN"
     },
 	{
       symbol: "VALE",
@@ -920,7 +920,7 @@ const ForecastConfig = {
       ]
     },
   ],
-  THO: [
+  AMZN: [
     {
       type: 'stock_fbprophet_empty',
       algorithm: 'fbprophet',
@@ -929,8 +929,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'THO',
-        file_path: 'stock/historical-quotes/THO.json',
+        name: 'AMZN',
+        file_path: 'stock/historical-quotes/AMZN.json',
         type: 'stock'
       },
       feature_data: []
@@ -943,8 +943,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'THO',
-        file_path: 'stock/historical-quotes/THO.json',
+        name: 'AMZN',
+        file_path: 'stock/historical-quotes/AMZN.json',
         type: 'stock'
       },
       feature_data: []
@@ -957,8 +957,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'THO',
-        file_path: 'stock/historical-quotes/THO.json',
+        name: 'AMZN',
+        file_path: 'stock/historical-quotes/AMZN.json',
         type: 'stock'
       },
       feature_data: []
