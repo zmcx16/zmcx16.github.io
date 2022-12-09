@@ -45,6 +45,12 @@
          "strike":70
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2022-12-23",
+         "strike":74
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2022-12-16",
