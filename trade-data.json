@@ -111,22 +111,10 @@
          "strike":75
       },
       {
-         "symbol":"CSCO",
-         "type":"put",
-         "expiry":"2022-12-09",
-         "strike":39
-      },
-      {
          "symbol":"DAC",
          "type":"put",
          "expiry":"2022-12-16",
          "strike":45
-      },
-      {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2022-12-09",
-         "strike":65
       },
       {
          "symbol":"DHI",
@@ -139,12 +127,6 @@
          "type":"put",
          "expiry":"2022-12-23",
          "strike":64
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2022-12-09",
-         "strike":88
       },
       {
          "symbol":"DIS",
@@ -193,12 +175,6 @@
          "type":"put",
          "expiry":"2022-12-16",
          "strike":60
-      },
-      {
-         "symbol":"MU",
-         "type":"put",
-         "expiry":"2022-12-09",
-         "strike":40
       },
       {
          "symbol":"MU",
@@ -259,12 +235,6 @@
          "type":"put",
          "expiry":"2023-01-06",
          "strike":38
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2022-12-09",
-         "strike":17.5
       },
       {
          "symbol":"X",
