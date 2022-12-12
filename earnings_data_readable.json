@@ -68,26 +68,12 @@
         ],
         "similar": "-"
     },
-    "ARGO": {
-        "earningsDate": [
-            "2023-02-20",
-            "2023-02-24"
-        ],
-        "similar": "STC"
-    },
     "AVGO": {
         "earningsDate": [
             "2023-03-01",
             "2023-03-06"
         ],
         "similar": "INTC"
-    },
-    "AXS": {
-        "earningsDate": [
-            "2023-01-24",
-            "2023-01-30"
-        ],
-        "similar": "STC"
     },
     "BABA": {
         "earningsDate": [
@@ -239,13 +225,6 @@
         ],
         "similar": "NKE"
     },
-    "DGICA": {
-        "earningsDate": [
-            "2023-02-15",
-            "2023-02-20"
-        ],
-        "similar": "STC"
-    },
     "DIS": {
         "earningsDate": [
             "2023-02-07",
@@ -315,13 +294,6 @@
         ],
         "similar": "NKE"
     },
-    "FR": {
-        "earningsDate": [
-            "2023-02-07",
-            "2023-02-13"
-        ],
-        "similar": "ILPT"
-    },
     "FTCH": {
         "earningsDate": [
             "2022-11-17"
@@ -347,6 +319,13 @@
         ],
         "similar": "DAC"
     },
+    "GRBK": {
+        "earningsDate": [
+            "2023-02-27",
+            "2023-03-03"
+        ],
+        "similar": "CCS"
+    },
     "GRIN": {
         "earningsDate": [
             "2023-02-14",
@@ -367,18 +346,18 @@
         ],
         "similar": "-"
     },
+    "HMN": {
+        "earningsDate": [
+            "2023-01-30",
+            "2023-02-03"
+        ],
+        "similar": "STC"
+    },
     "HUYA": {
         "earningsDate": [
             "2022-11-15"
         ],
         "similar": "NFLX"
-    },
-    "IBP": {
-        "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
-        ],
-        "similar": "CCS"
     },
     "ILPT": {
         "earningsDate": [
@@ -496,6 +475,13 @@
         ],
         "similar": "DAC"
     },
+    "MCY": {
+        "earningsDate": [
+            "2023-02-13",
+            "2023-02-17"
+        ],
+        "similar": "STC"
+    },
     "MDC": {
         "earningsDate": [
             "2023-01-30",
@@ -530,6 +516,13 @@
             "2023-03-06"
         ],
         "similar": "INTC"
+    },
+    "MSB": {
+        "earningsDate": [
+            "2022-12-13",
+            "2022-12-19"
+        ],
+        "similar": "TX"
     },
     "MT": {
         "earningsDate": [
@@ -656,6 +649,13 @@
         ],
         "similar": "DIS"
     },
+    "PLD": {
+        "earningsDate": [
+            "2023-01-17",
+            "2023-01-23"
+        ],
+        "similar": "ILPT"
+    },
     "PLYM": {
         "earningsDate": [
             "2023-02-21",
@@ -737,7 +737,7 @@
             "2023-01-04",
             "2023-01-09"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "SE": {
         "earningsDate": [
@@ -912,7 +912,7 @@
             "2023-01-24",
             "2023-01-30"
         ],
-        "similar": "TX"
+        "similar": "SID"
     },
     "VRA": {
         "earningsDate": [
