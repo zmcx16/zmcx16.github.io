@@ -169,6 +169,20 @@
         ],
         "similar": "DAC"
     },
+    "CNA": {
+        "earningsDate": [
+            "2023-02-06",
+            "2023-02-10"
+        ],
+        "similar": "STC"
+    },
+    "COLD": {
+        "earningsDate": [
+            "2023-02-22",
+            "2023-02-27"
+        ],
+        "similar": "ILPT"
+    },
     "CPLP": {
         "earningsDate": [
             "2023-01-31",
@@ -189,13 +203,6 @@
             "2023-02-20"
         ],
         "similar": "NKE"
-    },
-    "CUBE": {
-        "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
-        ],
-        "similar": "ILPT"
     },
     "CVCO": {
         "earningsDate": [
@@ -259,12 +266,12 @@
         ],
         "similar": "DAC"
     },
-    "EGP": {
+    "ENTG": {
         "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
+            "2023-01-30",
+            "2023-02-03"
         ],
-        "similar": "ILPT"
+        "similar": "ASML"
     },
     "ESEA": {
         "earningsDate": [
@@ -293,6 +300,13 @@
             "2022-12-19"
         ],
         "similar": "NKE"
+    },
+    "FR": {
+        "earningsDate": [
+            "2023-02-07",
+            "2023-02-13"
+        ],
+        "similar": "ILPT"
     },
     "FTCH": {
         "earningsDate": [
@@ -578,13 +592,6 @@
         ],
         "similar": "DAC"
     },
-    "NSA": {
-        "earningsDate": [
-            "2023-02-20",
-            "2023-02-24"
-        ],
-        "similar": "ILPT"
-    },
     "NU": {
         "earningsDate": [
             "2022-11-14"
@@ -737,7 +744,7 @@
             "2023-01-04",
             "2023-01-09"
         ],
-        "similar": "TX"
+        "similar": "SID"
     },
     "SE": {
         "earningsDate": [
@@ -791,6 +798,13 @@
             "2022-11-10"
         ],
         "similar": "VALE"
+    },
+    "STAG": {
+        "earningsDate": [
+            "2023-02-14",
+            "2023-02-20"
+        ],
+        "similar": "ILPT"
     },
     "STC": {
         "earningsDate": [
@@ -893,12 +907,6 @@
             "2023-01-27"
         ],
         "similar": "INTC"
-    },
-    "UCTT": {
-        "earningsDate": [
-            "2022-10-26"
-        ],
-        "similar": "ASML"
     },
     "UFCS": {
         "earningsDate": [
