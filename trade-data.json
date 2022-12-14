@@ -99,6 +99,12 @@
          "strike":40
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-01-06",
+         "strike":41
+      },
+      {
          "symbol":"CBRE",
          "type":"put",
          "expiry":"2022-12-16",
@@ -219,6 +225,12 @@
          "strike":99
       },
       {
+         "symbol":"VZ",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":34
+      },
+      {
          "symbol":"WAL",
          "type":"put",
          "expiry":"2022-12-16",
@@ -255,6 +267,12 @@
          "strike":15
       },
       {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":19
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2022-12-16",
@@ -265,6 +283,12 @@
          "type":"put",
          "expiry":"2022-12-16",
          "strike":17
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":12.5
       }
    ],
    "news_config":{
