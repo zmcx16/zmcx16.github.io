@@ -142,11 +142,6 @@ const MarketConfig = {
       src: "marketwatch",
       api: "investing/stock/AMZN"
     },
-	{
-      symbol: "VALE",
-      src: "marketwatch",
-      api: "investing/stock/VALE"
-    },
     {
       symbol: "SID",
       src: "marketwatch",
@@ -1012,77 +1007,6 @@ const ForecastConfig = {
       target_data: {
         name: 'SID',
         file_path: 'stock/historical-quotes/SID.json',
-        type: 'stock'
-      },
-      feature_data: [
-        {
-          using_regressors: ["Close"],
-          name: "TIOc1",
-          file_path: "markets/historical-quotes/investing_TIOc1.json",
-          type: "market"
-        },
-        {
-          using_regressors: ["Close"],
-          name: "HRN00",
-          file_path: "markets/historical-quotes/marketwatch_HRN00.json",
-          type: "market"
-        }
-      ]
-    },
-  ],
-  VALE: [
-    {
-      type: 'stock_fbprophet_empty',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_ohlv',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Open', 'High', 'Low', 'Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_v',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: ['Volume'],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
-        type: 'stock'
-      },
-      feature_data: []
-    },
-    {
-      type: 'stock_fbprophet_empty_TIOc1_HRN00',
-      algorithm: 'fbprophet',
-      args: {
-        using_regressors: [],
-        forecast_periods: 30
-      },
-      target_data: {
-        name: 'VALE',
-        file_path: 'stock/historical-quotes/VALE.json',
         type: 'stock'
       },
       feature_data: [
