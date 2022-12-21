@@ -201,6 +201,12 @@
          "strike":55
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":55
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2022-12-30",
