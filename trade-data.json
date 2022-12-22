@@ -92,6 +92,18 @@
          "strike":70
       },
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":460
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":460
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-12-23",
@@ -102,6 +114,12 @@
          "type":"put",
          "expiry":"2023-01-06",
          "strike":28
+      },
+      {
+         "symbol":"BC",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":60
       },
       {
          "symbol":"C",
@@ -158,6 +176,12 @@
          "strike":37.5
       },
       {
+         "symbol":"F",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":10
+      },
+      {
          "symbol":"HAS",
          "type":"put",
          "expiry":"2023-01-20",
@@ -168,6 +192,12 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":25
+      },
+      {
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":23
       },
       {
          "symbol":"JPM",
@@ -236,10 +266,28 @@
          "strike":99
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":90
+      },
+      {
+         "symbol":"VZ",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":34
+      },
+      {
          "symbol":"VZ",
          "type":"put",
          "expiry":"2023-01-20",
          "strike":34
+      },
+      {
+         "symbol":"WAL",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":45
       },
       {
          "symbol":"WFC",
