@@ -86,6 +86,12 @@
          "strike":68
       },
       {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":70
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2022-12-23",
