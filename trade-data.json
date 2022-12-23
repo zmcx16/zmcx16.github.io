@@ -46,12 +46,6 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2022-12-23",
-         "strike":74
-      },
-      {
-         "symbol":"ABNB",
-         "type":"put",
          "expiry":"2022-12-30",
          "strike":72
       },
@@ -106,12 +100,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2022-12-23",
-         "strike":31
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2023-01-06",
          "strike":28
       },
@@ -124,12 +112,6 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2022-12-23",
-         "strike":41
-      },
-      {
-         "symbol":"C",
-         "type":"put",
          "expiry":"2022-12-30",
          "strike":40
       },
@@ -138,18 +120,6 @@
          "type":"put",
          "expiry":"2023-01-06",
          "strike":41
-      },
-      {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":64
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":80
       },
       {
          "symbol":"DIS",
@@ -200,18 +170,6 @@
          "strike":23
       },
       {
-         "symbol":"JPM",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":119
-      },
-      {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":112
-      },
-      {
          "symbol":"MMM",
          "type":"put",
          "expiry":"2022-12-30",
@@ -222,24 +180,6 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":110
-      },
-      {
-         "symbol":"MSFT",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":220
-      },
-      {
-         "symbol":"PNC",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":140
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2022-12-23",
-         "strike":65
       },
       {
          "symbol":"PYPL",
