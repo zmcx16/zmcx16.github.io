@@ -214,6 +214,12 @@
       {
          "symbol":"MMM",
          "type":"put",
+         "expiry":"2022-12-30",
+         "strike":112
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
          "expiry":"2023-01-20",
          "strike":110
       },
