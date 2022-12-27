@@ -123,9 +123,9 @@ const MarketConfig = {
       api: "investing/stock/EDRY"
     },
     {
-      symbol: "CCS",
+      symbol: "PYPL",
       src: "marketwatch",
-      api: "investing/stock/CCS"
+      api: "investing/stock/PYPL"
     },	
 	{
       symbol: "ZIM",
@@ -271,7 +271,7 @@ const ForecastConfig = {
       feature_data: []
     },
   ],
-  CCS: [
+  PYPL: [
     {
       type: 'stock_fbprophet_empty',
       algorithm: 'fbprophet',
@@ -280,8 +280,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'CCS',
-        file_path: 'stock/historical-quotes/CCS.json',
+        name: 'PYPL',
+        file_path: 'stock/historical-quotes/PYPL.json',
         type: 'stock'
       },
       feature_data: []
@@ -294,8 +294,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'CCS',
-        file_path: 'stock/historical-quotes/CCS.json',
+        name: 'PYPL',
+        file_path: 'stock/historical-quotes/PYPL.json',
         type: 'stock'
       },
       feature_data: []
@@ -308,8 +308,8 @@ const ForecastConfig = {
         forecast_periods: 30
       },
       target_data: {
-        name: 'CCS',
-        file_path: 'stock/historical-quotes/CCS.json',
+        name: 'PYPL',
+        file_path: 'stock/historical-quotes/PYPL.json',
         type: 'stock'
       },
       feature_data: []
