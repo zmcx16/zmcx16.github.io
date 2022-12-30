@@ -68,6 +68,12 @@
          "strike":65
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":65
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2023-01-06",
@@ -142,6 +148,12 @@
       {
          "symbol":"DIS",
          "type":"put",
+         "expiry":"2023-01-13",
+         "strike":75
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
          "expiry":"2023-01-20",
          "strike":75
       },
@@ -192,6 +204,12 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":20
+      },
+      {
+         "symbol":"MDC",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":27
       },
       {
          "symbol":"MMM",
@@ -251,6 +269,12 @@
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2023-01-13",
+         "strike":90
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-01-20",
          "strike":90
       },
       {
