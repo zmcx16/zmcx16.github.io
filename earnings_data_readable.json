@@ -12,13 +12,6 @@
         ],
         "similar": "ASML"
     },
-    "AFG": {
-        "earningsDate": [
-            "2023-02-07",
-            "2023-02-13"
-        ],
-        "similar": "STC"
-    },
     "ALGN": {
         "earningsDate": [
             "2023-01-31",
@@ -66,13 +59,6 @@
         ],
         "similar": "-"
     },
-    "AOSL": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
-        ],
-        "similar": "HIMX"
-    },
     "APRN": {
         "earningsDate": [
             "2023-02-08",
@@ -113,13 +99,6 @@
             "2023-02-13"
         ],
         "similar": "-"
-    },
-    "BMO": {
-        "earningsDate": [
-            "2023-02-27",
-            "2023-03-03"
-        ],
-        "similar": "C"
     },
     "BNS": {
         "earningsDate": [
@@ -233,8 +212,7 @@
     },
     "DFS": {
         "earningsDate": [
-            "2023-01-17",
-            "2023-01-23"
+            "2023-01-18"
         ],
         "similar": "PYPL"
     },
@@ -333,6 +311,13 @@
         ],
         "similar": "EDRY"
     },
+    "GMED": {
+        "earningsDate": [
+            "2023-02-15",
+            "2023-02-20"
+        ],
+        "similar": "BIO"
+    },
     "GNK": {
         "earningsDate": [
             "2023-02-22",
@@ -345,13 +330,6 @@
             "2023-02-28"
         ],
         "similar": "ZIM"
-    },
-    "GRIN": {
-        "earningsDate": [
-            "2023-02-14",
-            "2023-02-20"
-        ],
-        "similar": "DAC"
     },
     "GSL": {
         "earningsDate": [
@@ -516,6 +494,13 @@
         ],
         "similar": "DAC"
     },
+    "MCY": {
+        "earningsDate": [
+            "2023-02-13",
+            "2023-02-17"
+        ],
+        "similar": "STC"
+    },
     "MELI": {
         "earningsDate": [
             "2023-02-20",
@@ -617,6 +602,12 @@
         ],
         "similar": "AMZN"
     },
+    "PLD": {
+        "earningsDate": [
+            "2023-01-18"
+        ],
+        "similar": "ILPT"
+    },
     "PLYM": {
         "earningsDate": [
             "2023-02-21",
@@ -630,13 +621,6 @@
             "2023-02-27"
         ],
         "similar": "BIO"
-    },
-    "PSA": {
-        "earningsDate": [
-            "2023-02-20",
-            "2023-02-24"
-        ],
-        "similar": "ILPT"
     },
     "PXS": {
         "earningsDate": [
@@ -665,13 +649,6 @@
         ],
         "similar": "ILPT"
     },
-    "RLI": {
-        "earningsDate": [
-            "2023-01-24",
-            "2023-01-30"
-        ],
-        "similar": "STC"
-    },
     "ROKU": {
         "earningsDate": [
             "2023-02-15",
@@ -686,6 +663,13 @@
         ],
         "similar": "SID"
     },
+    "RY": {
+        "earningsDate": [
+            "2023-02-22",
+            "2023-02-27"
+        ],
+        "similar": "C"
+    },
     "SAFT": {
         "earningsDate": [
             "2023-02-21",
@@ -698,7 +682,7 @@
             "2023-02-14",
             "2023-02-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SCHN": {
         "earningsDate": [
@@ -712,6 +696,13 @@
             "2023-03-03"
         ],
         "similar": "AMZN"
+    },
+    "SHIP": {
+        "earningsDate": [
+            "2023-03-08",
+            "2023-03-13"
+        ],
+        "similar": "ZIM"
     },
     "SHOO": {
         "earningsDate": [
@@ -835,6 +826,13 @@
         ],
         "similar": "INTC"
     },
+    "UFCS": {
+        "earningsDate": [
+            "2023-02-13",
+            "2023-02-17"
+        ],
+        "similar": "STC"
+    },
     "UPST": {
         "earningsDate": [
             "2023-02-13",
@@ -856,13 +854,6 @@
         ],
         "similar": "PYPL"
     },
-    "W": {
-        "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
-        ],
-        "similar": "AMZN"
-    },
     "WBD": {
         "earningsDate": [
             "2023-02-22",
@@ -875,6 +866,13 @@
             "2023-01-13"
         ],
         "similar": "C"
+    },
+    "WISH": {
+        "earningsDate": [
+            "2023-02-27",
+            "2023-03-03"
+        ],
+        "similar": "AMZN"
     },
     "WWW": {
         "earningsDate": [
