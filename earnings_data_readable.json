@@ -59,6 +59,13 @@
         ],
         "similar": "-"
     },
+    "AOSL": {
+        "earningsDate": [
+            "2023-02-06",
+            "2023-02-10"
+        ],
+        "similar": "HIMX"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-03-01",
@@ -68,7 +75,6 @@
     },
     "AXP": {
         "earningsDate": [
-            "2023-01-23",
             "2023-01-27"
         ],
         "similar": "PYPL"
@@ -116,8 +122,7 @@
     },
     "BSX": {
         "earningsDate": [
-            "2023-01-31",
-            "2023-02-06"
+            "2023-02-01"
         ],
         "similar": "BIO"
     },
@@ -141,18 +146,19 @@
         ],
         "similar": "AMZN"
     },
-    "CMC": {
-        "earningsDate": [
-            "2023-01-09"
-        ],
-        "similar": "SID"
-    },
     "CMRE": {
         "earningsDate": [
             "2023-03-07",
             "2023-03-13"
         ],
         "similar": "DAC"
+    },
+    "CNK": {
+        "earningsDate": [
+            "2023-02-23",
+            "2023-02-27"
+        ],
+        "similar": "DIS"
     },
     "CNMD": {
         "earningsDate": [
@@ -187,13 +193,6 @@
             "2023-02-20"
         ],
         "similar": "NKE"
-    },
-    "CUBE": {
-        "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
-        ],
-        "similar": "ILPT"
     },
     "CVNA": {
         "earningsDate": [
@@ -241,7 +240,7 @@
             "2023-02-23",
             "2023-02-27"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "EDRY": {
         "earningsDate": [
@@ -255,6 +254,13 @@
             "2023-03-06"
         ],
         "similar": "DAC"
+    },
+    "EGP": {
+        "earningsDate": [
+            "2023-02-06",
+            "2023-02-10"
+        ],
+        "similar": "ILPT"
     },
     "ENTG": {
         "earningsDate": [
@@ -378,6 +384,13 @@
         ],
         "similar": "-"
     },
+    "IMAX": {
+        "earningsDate": [
+            "2023-02-21",
+            "2023-02-27"
+        ],
+        "similar": "NFLX"
+    },
     "INSP": {
         "earningsDate": [
             "2023-02-06",
@@ -418,6 +431,12 @@
             "2023-01-13"
         ],
         "similar": "C"
+    },
+    "KEX": {
+        "earningsDate": [
+            "2023-01-31"
+        ],
+        "similar": "DAC"
     },
     "KLAC": {
         "earningsDate": [
@@ -493,7 +512,7 @@
             "2023-02-27",
             "2023-03-03"
         ],
-        "similar": "DIS"
+        "similar": "NFLX"
     },
     "MATX": {
         "earningsDate": [
@@ -521,6 +540,12 @@
             "2023-03-06"
         ],
         "similar": "INTC"
+    },
+    "MSB": {
+        "earningsDate": [
+            "2022-12-13"
+        ],
+        "similar": "SID"
     },
     "MT": {
         "earningsDate": [
@@ -563,6 +588,13 @@
         ],
         "similar": "DAC"
     },
+    "NSA": {
+        "earningsDate": [
+            "2023-02-20",
+            "2023-02-24"
+        ],
+        "similar": "ILPT"
+    },
     "NU": {
         "earningsDate": [
             "2022-11-14"
@@ -579,13 +611,6 @@
     "NXPI": {
         "earningsDate": [
             "2023-01-30"
-        ],
-        "similar": "HIMX"
-    },
-    "ON": {
-        "earningsDate": [
-            "2023-02-06",
-            "2023-02-10"
         ],
         "similar": "HIMX"
     },
@@ -664,12 +689,6 @@
         ],
         "similar": "INTC"
     },
-    "REXR": {
-        "earningsDate": [
-            "2023-02-08"
-        ],
-        "similar": "ILPT"
-    },
     "ROKU": {
         "earningsDate": [
             "2023-02-15",
@@ -746,13 +765,6 @@
         ],
         "similar": "HIMX"
     },
-    "SIRI": {
-        "earningsDate": [
-            "2023-01-30",
-            "2023-02-03"
-        ],
-        "similar": "NFLX"
-    },
     "SKX": {
         "earningsDate": [
             "2023-02-01",
@@ -768,8 +780,7 @@
     },
     "STAG": {
         "earningsDate": [
-            "2023-02-14",
-            "2023-02-20"
+            "2023-02-15"
         ],
         "similar": "ILPT"
     },
