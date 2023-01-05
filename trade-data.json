@@ -164,10 +164,22 @@
          "strike":67
       },
       {
+         "symbol":"EWBC",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":55
+      },
+      {
          "symbol":"F",
          "type":"put",
          "expiry":"2023-01-27",
          "strike":10
+      },
+      {
+         "symbol":"GCO",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":35
       },
       {
          "symbol":"HAS",
