@@ -134,6 +134,18 @@
          "strike":41
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":119
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":115
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-01-13",
@@ -250,8 +262,20 @@
       {
          "symbol":"NOW",
          "type":"put",
+         "expiry":"2023-01-13",
+         "strike":320
+      },
+      {
+         "symbol":"NOW",
+         "type":"put",
          "expiry":"2023-01-20",
          "strike":320
+      },
+      {
+         "symbol":"PNC",
+         "type":"put",
+         "expiry":"2023-01-13",
+         "strike":138
       },
       {
          "symbol":"PYPL",
