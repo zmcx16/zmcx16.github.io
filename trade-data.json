@@ -745,6 +745,11 @@
          }
       }
    ],
+   "market_template":{
+      "symbol":"{symbol}",
+      "src":"marketwatch",
+      "api":"investing/stock/{symbol}"
+   },
    "forecast_template":[
       {
          "type":"stock_fbprophet_empty",
