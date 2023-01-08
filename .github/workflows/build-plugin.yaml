@@ -56,6 +56,9 @@ jobs:
     - name: build correlation matrix
       run: |-
         python ./.github/script/build_correlation-matrix.py
+    - name: build template config
+      run: |-
+        python ./.github/script/build_config_from_template.py
     - name: Checkout Norn-Finance-API-Server
       uses: actions/checkout@v2
       with: 
