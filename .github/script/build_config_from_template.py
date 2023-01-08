@@ -27,6 +27,23 @@ def build_template(config, plugin_path):
         with open(forecast_config_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(forecast_config, separators=(',', ':')))
 
+        # generate market_config
+        market_config_path = plugin_path / "market_config.json"
+        with open(market_config_path, 'r', encoding='utf-8') as f:
+            market_config = json.loads(f.read())
+
+        hold_stock_list = config["hold_stock_list"]
+        market_template = config["market_template"]
+        for symbol in hold_stock_list:
+            v = copy.deepcopy(market_template)
+            v["symbol"] = v["symbol"].replace("{symbol}", symbol)
+            v["api"] = v["api"].replace("{symbol}", symbol)
+            market_config["data"].append(v)
+
+        logging.info(market_config)
+        with open(market_config_path, 'w', encoding='utf-8') as f:
+            f.write(json.dumps(market_config, separators=(',', ':')))
+
     except Exception:
         logging.error(traceback.format_exc())
 
