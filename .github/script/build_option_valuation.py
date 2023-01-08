@@ -60,6 +60,7 @@ def get_option_data(public_config, private_config, option_folder_path, log_level
 
         option_config = {
             "hold_stock_list": public_config["hold_stock_list"],
+            "watch_stock_list": public_config["watch_stock_list"],
             "hold_option_list": public_config["hold_option_list"],
             "star_option_list": private_config["star_option_list"]
         }
@@ -74,7 +75,8 @@ def get_option_data(public_config, private_config, option_folder_path, log_level
 
         hold_stock_list = option_config["hold_stock_list"]
         star_options = option_config["star_option_list"]
-        star_list_str = ",".join(hold_stock_list+star_options)
+        watch_stock_list = option_config["watch_stock_list"]
+        star_list_str = ",".join(list(dict.fromkeys(hold_stock_list+star_options+watch_stock_list)))
         os.system("python ./.github/script/Norn-Finance-API-Server/option_cron_job.py -l " + log_level +
                   " -d " + data_source + " -i " + star_list_str + calc_kelly_iv_param)
         shutil.copytree(nfas_output_path, option_star_folder_path, dirs_exist_ok=True)

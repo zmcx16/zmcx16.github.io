@@ -18,6 +18,47 @@
       "SID",
       "TX"
    ],
+   "watch_stock_list":[
+      "ABNB",
+      "ACN",
+      "ADSK",
+      "AMAT",
+      "ANSS",
+      "ASML",
+      "BAC",
+      "BK",
+      "C",
+      "CRM",
+      "CSCO",
+      "DELL",
+      "DHI",
+      "DIS",
+      "GOOG",
+      "HAS",
+      "INTC",
+      "JPM",
+      "MMM",
+      "MSFT",
+      "NFLX",
+      "NKE",
+      "NOW",
+      "PLD",
+      "PYPL",
+      "QCOM",
+      "SBUX",
+      "SMP",
+      "SONY",
+      "STM",
+      "T",
+      "TGT",
+      "TM",
+      "VALE",
+      "WDAY",
+      "WFC",
+      "WGO",
+      "X",
+      "ZTS"
+   ],
    "star_stock_list":[
       "JNJ",
       "GOOG",
@@ -702,6 +743,65 @@
          "args":{
             "query_url":"v=111&f=cap_midover,fa_debteq_u0.5,fa_eps5years_pos,fa_epsqoq_pos,fa_epsyoy_pos,fa_estltgrowth_pos,fa_ltdebteq_u0.5,fa_netmargin_pos,fa_pe_low,fa_peg_low,fa_roa_pos,fa_roe_pos,fa_roi_pos,fa_sales5years_pos,fa_salesqoq_pos,sh_avgvol_o100,ta_beta_u2&ft=4"
          }
+      }
+   ],
+   "forecast_template":[
+      {
+         "type":"stock_fbprophet_empty",
+         "algorithm":"fbprophet",
+         "args":{
+            "using_regressors":[
+               
+            ],
+            "forecast_periods":30
+         },
+         "target_data":{
+            "name":"{symbol}",
+            "file_path":"stock/historical-quotes/{symbol}.json",
+            "type":"stock"
+         },
+         "feature_data":[
+            
+         ]
+      },
+      {
+         "type":"stock_fbprophet_ohlv",
+         "algorithm":"fbprophet",
+         "args":{
+            "using_regressors":[
+               "Open",
+               "High",
+               "Low",
+               "Volume"
+            ],
+            "forecast_periods":30
+         },
+         "target_data":{
+            "name":"{symbol}",
+            "file_path":"stock/historical-quotes/{symbol}.json",
+            "type":"stock"
+         },
+         "feature_data":[
+            
+         ]
+      },
+      {
+         "type":"stock_fbprophet_v",
+         "algorithm":"fbprophet",
+         "args":{
+            "using_regressors":[
+               "Volume"
+            ],
+            "forecast_periods":30
+         },
+         "target_data":{
+            "name":"{symbol}",
+            "file_path":"stock/historical-quotes/{symbol}.json",
+            "type":"stock"
+         },
+         "feature_data":[
+            
+         ]
       }
    ],
    "sec_template":[
