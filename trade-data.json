@@ -2,6 +2,9 @@
    "hold_stock_list":[
       "BIO",
       "ILPT",
+      "ANSS",
+      "ADSK",
+      "ZTS",
       "ASML",
       "DIS",
       "AMZN",
@@ -459,6 +462,9 @@
          "NKE":"NIKE, Inc. (NKE)",
          "EMN":"Eastman Chemical Company",
          "PYPL":"PayPal",
+         "ADSK":"Autodesk, Inc.",
+         "ANSS":"ANSYS, Inc.",
+         "ZTS":"Zoetis Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -913,92 +919,110 @@
       "NKE":"320187",
       "EMN":"915389",
       "PYPL":"1633917",
+      "ADSK":"769397",
+      "ANSS":"1013462",
+      "ZTS":"1555280",
       "STC":"94344"
    },
    "portfolio":{
+      "ADSK":{
+         "cost_p":191.6,
+         "position_%":2.706209115035368,
+         "profit_%":0
+      },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":6.671770956887762,
+         "position_%":6.125693597029431,
+         "profit_%":0
+      },
+      "ANSS":{
+         "cost_p":241.97,
+         "position_%":2.848040272986726,
          "profit_%":0
       },
       "ASML":{
          "cost_p":569.13,
-         "position_%":3.647975755796569,
+         "position_%":3.3493928184587665,
          "profit_%":0
       },
       "BIO":{
          "cost_p":519.15,
-         "position_%":4.991425369305226,
+         "position_%":4.582882509363946,
          "profit_%":0
       },
       "C":{
          "cost_p":48.99,
-         "position_%":11.932501584007184,
+         "position_%":10.955839015162104,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":5.633392954605255,
+         "position_%":5.172305730302462,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":7.010205268742803,
+         "position_%":6.436427420258963,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.8553158063245551,
+         "position_%":0.7853091168891777,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":7.12,
-         "position_%":4.746284834136741,
+         "position_%":4.357806466382631,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":4.422721120832907,
+         "position_%":4.060726099022277,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":10.406855089542475,
+         "position_%":9.55506506430807,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":3.187948661822398,
+         "position_%":2.927018453057565,
          "profit_%":0
       },
       "NKE":{
          "cost_p":97.05,
-         "position_%":3.732392041537684,
+         "position_%":3.4268997209574956,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":2.652094334718585,
+         "position_%":2.4350232329441406,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":4.074031223770139,
+         "position_%":3.740576099331246,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":8.110116782271684,
+         "position_%":7.446312345754938,
          "profit_%":0
       },
       "TX":{
          "cost_p":35.48,
-         "position_%":5.912857651515855,
+         "position_%":5.428896538878361,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":12.012110564182176,
+         "position_%":11.028932084944506,
+         "profit_%":0
+      },
+      "ZTS":{
+         "cost_p":149,
+         "position_%":2.630644298931823,
          "profit_%":0
       }
    }
