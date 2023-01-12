@@ -112,6 +112,12 @@
          "strike":74
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-02-10",
+         "strike":160
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2023-01-13",
@@ -158,6 +164,12 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":45
+      },
+      {
+         "symbol":"BPOP",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":60
       },
       {
          "symbol":"CRM",
@@ -328,10 +340,22 @@
          "strike":90
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":96
+      },
+      {
          "symbol":"SONY",
          "type":"put",
          "expiry":"2023-01-20",
          "strike":65
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":130
       },
       {
          "symbol":"VZ",
@@ -352,6 +376,12 @@
          "strike":45
       },
       {
+         "symbol":"WDAY",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":130
+      },
+      {
          "symbol":"X",
          "type":"put",
          "expiry":"2023-01-20",
@@ -368,6 +398,24 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":12.5
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":14
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":12.5
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2023-01-20",
+         "strike":130
       }
    ],
    "news_config":{
