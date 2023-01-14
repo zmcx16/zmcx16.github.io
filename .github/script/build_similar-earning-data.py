@@ -1,6 +1,7 @@
 import os
 import pathlib
 import json
+import sys
 import time
 import shutil
 import logging
@@ -71,17 +72,27 @@ if __name__ == "__main__":
         data = get_stock_data(symbol)
 
         earningsDate = []
-        for d in data['context']['dispatcher']['stores']['QuoteSummaryStore']['calendarEvents']['earnings']['earningsDate']:
+        stores = data['context']['dispatcher']['stores']
+        if "QuoteSummaryStore" not in stores:
+            logging.warning('may occur encrypted data, skip going')
+            exit(-3)
+
+        for d in stores["QuoteSummaryStore"]['calendarEvents']['earnings']['earningsDate']:
             earningsDate.append(d['fmt'])
 
         if len(earningsDate) > 0:
             output[symbol] = {'earningsDate':  earningsDate, "similar": "-"}
 
-        for similar in data['context']['dispatcher']['stores']['RecommendationStore']['recommendedSimilarSymbols'][symbol]:
+        for similar in stores['RecommendationStore']['recommendedSimilarSymbols'][symbol]:
             logging.info(f'get similar {similar["symbol"]} for {symbol}')
             similar_data = get_stock_data(similar["symbol"])
+            similar_stores = similar_data['context']['dispatcher']['stores']
+            if "QuoteSummaryStore" not in similar_stores:
+                logging.warning('may occur encrypted data, skip going')
+                exit(-3)
+
             earningsDate = []
-            for d in similar_data['context']['dispatcher']['stores']['QuoteSummaryStore']['calendarEvents']['earnings']['earningsDate']:
+            for d in similar_stores['QuoteSummaryStore']['calendarEvents']['earnings']['earningsDate']:
                 earningsDate.append(d['fmt'])
             if len(earningsDate) > 0 and similar["symbol"] not in output:
                 output[similar["symbol"]] = {'earningsDate': earningsDate, "similar": symbol}
