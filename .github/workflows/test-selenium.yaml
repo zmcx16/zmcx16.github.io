@@ -17,10 +17,8 @@ jobs:
         run: sudo apt purge google-chrome-stable
       - name: Remove default Chromium
         run: sudo apt purge chromium-browser
-      - name: check Chromiumb version
-        run: sudo apt-cache policy chromium-browser
       - name: Install Chromium
-        run: sudo apt install -y chromium-browser
+        run: sudo snap install chromium-browser
       - name: Install Python dependencies
         run: python -m pip install -r ./.github/script/requirements-esg_cron_job.txt
       - name: Run the test script
