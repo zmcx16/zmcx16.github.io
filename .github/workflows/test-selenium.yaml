@@ -18,7 +18,7 @@ jobs:
       - name: Remove default Chromium
         run: sudo apt purge chromium-browser
       - name: Install a new Chromium
-        run: sudo apt install -y chromium-browser=108
+        run: sudo apt install -y chromium-browser=108.0.5359.71-0ubuntu0.18.04.5
       - name: Install Python dependencies
         run: python -m pip install -r ./.github/script/requirements-esg_cron_job.txt
       - name: Run the test script
