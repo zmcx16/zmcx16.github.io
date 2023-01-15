@@ -71,7 +71,7 @@ jobs:
         ENCRY_PASS: ${{ secrets.ENCRY_PASS }}
       run: |-
         python -m pip install -r ./.github/script/Norn-Finance-API-Server/requirements.txt
-        python ./.github/script/build_option_valuation.py -l ERROR -d yahoo -c
+        python ./.github/script/build_option_valuation.py -l ERROR -d yahoo -c > /dev/null 2>&1
     - name: Commit and push if page changed
       run: |-
         git config --global user.email "zmcx16-bot@zmcx16.moe"
