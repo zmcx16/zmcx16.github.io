@@ -1,5 +1,8 @@
-requests>=2.22.0
+requests>=2.26.0
 newsapi-python>=0.2.6
 numpy>=1.21.0
 scipy>=1.7.0
 pycryptodome>=3.15.0
+beautifulsoup4>=4.11.1
+webdriver-manager>=3.8.5
+selenium>=4.7.2
