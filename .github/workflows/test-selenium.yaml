@@ -20,7 +20,7 @@ jobs:
       - name: check Chromiumb version
         run: sudo apt-cache policy chromium-browser
       - name: Install Chromium
-        run: sudo apt install -y chromium-browser=108
+        run: sudo apt install -y chromium-browser
       - name: Install Python dependencies
         run: python -m pip install -r ./.github/script/requirements-esg_cron_job.txt
       - name: Run the test script
