@@ -9,11 +9,14 @@ import argparse
 import requests
 import traceback
 import base64
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
 
 
-DELAY_TIME_SEC = 3
+DELAY_TIME_SEC = 10
 RETRY_SEND_REQUEST = 5
-
+RETRY_FAILED_DELAY = 60
 
 def send_request(url, retry):
     for r in range(retry):
@@ -29,7 +32,7 @@ def send_request(url, retry):
         if res.status_code == 200:
             return 0, res.text
         
-        time.sleep(DELAY_TIME_SEC)
+        time.sleep(RETRY_FAILED_DELAY)
 
     return -2, "exceed retry cnt"
 
@@ -55,9 +58,33 @@ def get_stock_data(symbol):
     return root_app_main
 
 
+def get_stock_data_by_browser(symbol, retry):
+    for r in range(retry):
+        try:
+            driver.get("https://hk.finance.yahoo.com/quote/" + symbol + "?p=" + symbol)
+            time.sleep(DELAY_TIME_SEC)
+            root_app_main = driver.execute_script("return App.main")
+            stores = root_app_main['context']['dispatcher']['stores']
+            if "QuoteSummaryStore" not in stores:
+                logging.warning('may occur encrypted data, retry it')
+            else:
+                return root_app_main
+        except Exception as ex:
+            logging.error(traceback.format_exc())
+            logging.info(f'retry = {r}')
+
+        time.sleep(RETRY_FAILED_DELAY)
+
+    return -2, "exceed retry cnt"
+
+
 if __name__ == "__main__":
 
     logging.basicConfig(level=logging.DEBUG)
+
+    options = webdriver.FirefoxOptions()
+    options.headless = True
+    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
 
     root = pathlib.Path(__file__).parent.resolve()
     earnings_data_path = root / '..' / '..' / 'earnings_data.json'
@@ -69,7 +96,7 @@ if __name__ == "__main__":
     output = {}
     for symbol in config["hold_stock_list"]:
         logging.info(f'get {symbol} data')
-        data = get_stock_data(symbol)
+        data = get_stock_data_by_browser(symbol, RETRY_SEND_REQUEST)
 
         earningsDate = []
         stores = data['context']['dispatcher']['stores']
@@ -85,7 +112,7 @@ if __name__ == "__main__":
 
         for similar in stores['RecommendationStore']['recommendedSimilarSymbols'][symbol]:
             logging.info(f'get similar {similar["symbol"]} for {symbol}')
-            similar_data = get_stock_data(similar["symbol"])
+            similar_data = get_stock_data_by_browser(similar["symbol"], RETRY_SEND_REQUEST)
             similar_stores = similar_data['context']['dispatcher']['stores']
             if "QuoteSummaryStore" not in similar_stores:
                 logging.warning('may occur encrypted data, skip going')
@@ -96,7 +123,6 @@ if __name__ == "__main__":
                 earningsDate.append(d['fmt'])
             if len(earningsDate) > 0 and similar["symbol"] not in output:
                 output[similar["symbol"]] = {'earningsDate': earningsDate, "similar": symbol}
-            time.sleep(DELAY_TIME_SEC)
 
     logging.info(f'output = {output}')
     with open(earnings_data_path, 'w', encoding='utf-8') as f:
