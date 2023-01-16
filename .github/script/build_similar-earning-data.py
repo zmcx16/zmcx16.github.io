@@ -75,7 +75,7 @@ def get_stock_data_by_browser(symbol, retry):
 
         time.sleep(RETRY_FAILED_DELAY)
 
-    return -2, "exceed retry cnt"
+    sys.exit(1)
 
 
 if __name__ == "__main__":
