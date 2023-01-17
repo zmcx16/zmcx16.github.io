@@ -13,6 +13,8 @@
       "PYPL",
       "INTC",
       "HIMX",
+      "QCOM",
+      "CRM",
       "STC",
       "C",
       "DAC",
@@ -83,6 +85,18 @@
       "PRF"
    ],
    "hold_option_list":[
+      {
+         "symbol":"AAP",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":135
+      },
+      {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":123
+      },
       {
          "symbol":"ABNB",
          "type":"put",
@@ -162,6 +176,30 @@
          "strike":115
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":130
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-02-10",
+         "strike":126
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":125
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":120
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-01-20",
@@ -178,6 +216,12 @@
          "type":"put",
          "expiry":"2023-01-20",
          "strike":37.5
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":72
       },
       {
          "symbol":"EWBC",
@@ -431,6 +475,7 @@
          "ADSK":"Autodesk, Inc.",
          "ANSS":"ANSYS, Inc.",
          "ZTS":"Zoetis Inc.",
+         "QCOM":"QUALCOMM",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -888,107 +933,123 @@
       "ADSK":"769397",
       "ANSS":"1013462",
       "ZTS":"1555280",
+      "QCOM":"804328",
       "STC":"94344"
    },
    "portfolio":{
       "ADSK":{
          "cost_p":191.6,
-         "position_%":2.706209115035368,
+         "position_%":2.5688155600594986,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":6.125693597029431,
+         "position_%":5.814693676397728,
          "profit_%":0
       },
       "ANSS":{
          "cost_p":241.97,
-         "position_%":2.848040272986726,
+         "position_%":2.703445985854197,
          "profit_%":0
       },
       "ASML":{
          "cost_p":569.13,
-         "position_%":3.3493928184587665,
+         "position_%":1.2717379955607713,
          "profit_%":0
       },
       "BIO":{
          "cost_p":519.15,
-         "position_%":4.582882509363946,
+         "position_%":4.350210718961668,
          "profit_%":0
       },
       "C":{
          "cost_p":48.99,
-         "position_%":10.955839015162104,
+         "position_%":10.399613828544634,
+         "profit_%":0
+      },
+      "CRM":{
+         "cost_p":149.6,
+         "position_%":3.3428567135081853,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":5.172305730302462,
+         "position_%":4.909709071470712,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":6.436427420258963,
+         "position_%":6.109651621707274,
          "profit_%":0
       },
       "EDRY":{
          "cost_p":22.24,
-         "position_%":0.7853091168891777,
+         "position_%":0.7454391708732157,
+         "profit_%":0
+      },
+      "GOOG":{
+         "cost_p":92.81,
+         "position_%":2.592333987138158,
          "profit_%":0
       },
       "HIMX":{
          "cost_p":7.12,
-         "position_%":4.357806466382631,
+         "position_%":4.136561729977509,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":4.060726099022277,
+         "position_%":3.8545640580224734,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":9.55506506430807,
+         "position_%":9.069956818268533,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":2.927018453057565,
+         "position_%":2.7784144636203734,
          "profit_%":0
       },
       "NKE":{
          "cost_p":97.05,
-         "position_%":3.4268997209574956,
+         "position_%":1.6264584427438304,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":2.4350232329441406,
+         "position_%":2.311397716880258,
+         "profit_%":0
+      },
+      "QCOM":{
+         "cost_p":119.75,
+         "position_%":2.6758495417286445,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.740576099331246,
+         "position_%":3.550667993158093,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":7.446312345754938,
+         "position_%":7.068264943963297,
          "profit_%":0
       },
       "TX":{
          "cost_p":35.48,
-         "position_%":5.428896538878361,
+         "position_%":5.153272829339958,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":11.028932084944506,
+         "position_%":10.468995981589039,
          "profit_%":0
       },
       "ZTS":{
          "cost_p":149,
-         "position_%":2.630644298931823,
+         "position_%":2.49708715063195,
          "profit_%":0
       }
    }
