@@ -152,6 +152,24 @@
          "strike":460
       },
       {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":32
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":31
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":31
+      },
+      {
          "symbol":"BC",
          "type":"put",
          "expiry":"2023-01-20",
@@ -198,6 +216,12 @@
          "type":"put",
          "expiry":"2023-02-24",
          "strike":120
+      },
+      {
+         "symbol":"CSCO",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":42.5
       },
       {
          "symbol":"DIS",
@@ -278,6 +302,12 @@
          "strike":27
       },
       {
+         "symbol":"MED",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":100
+      },
+      {
          "symbol":"MMM",
          "type":"put",
          "expiry":"2023-01-20",
@@ -320,6 +350,12 @@
          "strike":96
       },
       {
+         "symbol":"SBNY",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":80
+      },
+      {
          "symbol":"SONY",
          "type":"put",
          "expiry":"2023-01-20",
@@ -349,6 +385,30 @@
          "expiry":"2023-02-03",
          "strike":130
       },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-02-10",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":40
+      },      
       {
          "symbol":"X",
          "type":"put",
