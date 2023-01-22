@@ -83,7 +83,7 @@ def get_stock_data_by_browser(symbol, retry):
 
 if __name__ == "__main__":
 
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
 
     options = webdriver.FirefoxOptions()
     options.headless = True
