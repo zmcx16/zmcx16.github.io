@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
                    "SEC": {}, "Beneish_Model_v1": {}, "indicator_list": []}
-    formula_output = {"hold_stock_list": [], "portfolio": {}, "KellyFormula_Range_v1": {},
+    formula_output = {"hold_stock_list": [], "watch_stock_list": [],"portfolio": {}, "KellyFormula_Range_v1": {},
                       "Factor_Intersectional_v1": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
@@ -113,6 +113,7 @@ if __name__ == "__main__":
 
         # norm-minehunter
         formula_output["hold_stock_list"] = scan_output["hold_stock_list"] = data["hold_stock_list"]
+        formula_output["watch_stock_list"] = data["watch_stock_list"]
         scan_output["star_stock_list"] = data["star_stock_list"]
         scan_list = set(data["hold_stock_list"] + data["star_stock_list"] + scan_output["screener_stock_list"])
 

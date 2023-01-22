@@ -214,3 +214,14 @@ function SetIFrameHeight() {
         }
     }
 }
+
+function getStockChangeColor(val) {
+    let sign = Math.sign(parseFloat(val));
+    if (sign === 1) {
+        return '<span style="color:green;">' + '+' + val + '</span>'
+    } else if (sign == -1) {
+        return '<span style="color:red;">' + val + '</span>'
+    } else {
+        return '<span style="color:black;">' + val + '</span>'
+    }
+}
