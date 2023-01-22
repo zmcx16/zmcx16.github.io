@@ -777,23 +777,30 @@ function buildHoldTable(data){
 
 function buildWatchTable(data) {
 
+  const buildfunc = (stock_list) => {
+    stock_list.forEach((symbol) => {
+      if (!(symbol in data["stock-info"])) {
+        console.log("No " + symbol + " data, skip it.")
+        return
+      }
+      output +=
+        '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
+        '  <td class="td-symbol">' + symbol + '</td>' +
+        '  <td class="td-price">' + data["stock-info"][symbol]["Close"] + '</td>' +
+        '  <td class="th-52w">' + data["stock-info"][symbol]["52W Range"] + '</td>' +
+        '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-month">' + getStockChangeColor((data["stock-info"][symbol]["Perf Month"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-year">' + getStockChangeColor((data["stock-info"][symbol]["Perf Year"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-ytd">' + getStockChangeColor((data["stock-info"][symbol]["Perf YTD"] * 100).toFixed(2) + "%") + '</td>' +
+        '</tr>';
+    });
+  }
+
   let output = "";
-  data["watch_stock_list"].forEach((symbol) => {
-    let price = data["stock-info"][symbol]["Close"]
-
-    output +=
-      '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
-      '  <td class="td-symbol">' + symbol + '</td>' +
-      '  <td class="td-price">' + price + '</td>' +
-      '  <td class="th-52w">' + data["stock-info"][symbol]["52W Range"]  + '</td>' +
-      '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
-      '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
-      '  <td class="td-perf-month">' + getStockChangeColor((data["stock-info"][symbol]["Perf Month"] * 100).toFixed(2) + "%")  + '</td>' +
-      '  <td class="td-perf-year">' + getStockChangeColor((data["stock-info"][symbol]["Perf Year"] * 100).toFixed(2) + "%")  + '</td>' +
-      '  <td class="td-perf-ytd">' + getStockChangeColor((data["stock-info"][symbol]["Perf YTD"] * 100).toFixed(2) + "%")  + '</td>' +
-      '</tr>';
-  });
-
+  buildfunc(data["hold_stock_list"]);
+  output+="<tr style='height: 10px; border: inset;'></tr>"
+  buildfunc(data["watch_stock_list"]);
   return output;
 }
 
