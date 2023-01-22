@@ -263,14 +263,33 @@ var myvar =
 '                    <th class="th-symbol">Symbol</th>' +
 '                    <th class="th-price">Price</th>' +
 '                    <th class="th-180d">180 Days</th>' +
+'                    <th class="th-target_diff">Target Diff</th>' +
 '                    <th class="th-avg_cost">Avg Cost</th>' +
 '                    <th class="th-profit_now">Profit</th>' +
 '                    <th class="th-position_now">Position</th>' +
 '                    <th class="th-position_kelly">Position<br>[Kelly bet]</th>' +
-'                    <th class="th-target_diff">Target Diff</th>' +
 '                    <th class="th-mf_score">Multi-Factor Rank</th>' +
 '                </thead>' +
 '                <tbody id="hold-stocks-tbody">' +
+'                </tbody>' +
+'            </table>' +
+'        </div>' +
+'    </div>' +
+'    <div class="watch-stocks-groups">' +
+'        <h1> 關注清單 </h1>' +
+'        <div class="watch-stocks content-block">' +
+'            <table id="watch-stocks-table">' +
+'                <thead>' +
+'                    <th class="th-symbol">Symbol</th>' +
+'                    <th class="th-price">Price</th>' +
+'                    <th class="th-52w">52W Range</th>' +
+'                    <th class="th-52h">52W High</th>' +
+'                    <th class="th-52l">52W Low</th>' +
+'                    <th class="th-perf-month">Perf Month</th>' +
+'                    <th class="th-perf-year">Perf Year</th>' +
+'                    <th class="th-perf-ytd">Perf YTD</th>' +
+'                </thead>' +
+'                <tbody id="watch-stocks-tbody">' +
 '                </tbody>' +
 '            </table>' +
 '        </div>' +
@@ -695,7 +714,7 @@ function buildFactorIntersectionalTable(data) {
   return output;
 }
 
-function buildTable(data){
+function buildHoldTable(data){
 
   let total_postion_kelly = 0;
   data["hold_stock_list"].forEach((symbol) => {
@@ -743,13 +762,36 @@ function buildTable(data){
     '  <td class="td-symbol">' + symbol + '</td>' + 
     '  <td class="td-price">' + price + '</td>' + 
     '  <td class="td-180d">' + days + '</td>' + 
+    '  <td class="td-target_diff">' + getStockChangeColor(target_diff) + '</td>' +
     '  <td class="td-avg_cost">' + avg_cost + '</td>' + 
     '  <td class="td-profit_now" style="font-weight: bold; color: ' + profit_color + '">' + profit_now + '%</td>' + 
     '  <td class="td-position_now">' + position_now + '%</td>' + 
     '  <td class="td-position_kelly">' + position_kelly + '%</td>' + 
-    '  <td class="td-target_diff">' + target_diff + '</td>' + 
     '  <td class="td-mf_score">' + mf_score + '</td>' + 
     '</tr>';
+  });
+
+  return output;
+}
+
+
+function buildWatchTable(data) {
+
+  let output = "";
+  data["watch_stock_list"].forEach((symbol) => {
+    let price = data["stock-info"][symbol]["Close"]
+
+    output +=
+      '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
+      '  <td class="td-symbol">' + symbol + '</td>' +
+      '  <td class="td-price">' + price + '</td>' +
+      '  <td class="th-52w">' + data["stock-info"][symbol]["52W Range"]  + '</td>' +
+      '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
+      '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
+      '  <td class="td-perf-month">' + getStockChangeColor((data["stock-info"][symbol]["Perf Month"] * 100).toFixed(2) + "%")  + '</td>' +
+      '  <td class="td-perf-year">' + getStockChangeColor((data["stock-info"][symbol]["Perf Year"] * 100).toFixed(2) + "%")  + '</td>' +
+      '  <td class="td-perf-ytd">' + getStockChangeColor((data["stock-info"][symbol]["Perf YTD"] * 100).toFixed(2) + "%")  + '</td>' +
+      '</tr>';
   });
 
   return output;
@@ -862,7 +904,8 @@ $(document).ready(function () {
   .then(json_datas => {
     let input_data = json_datas[0]
     input_data["stock-info"] = json_datas[1]
-    $("#hold-stocks-tbody")[0].innerHTML = buildTable(input_data);
+    $("#hold-stocks-tbody")[0].innerHTML = buildHoldTable(input_data);
+    $("#watch-stocks-tbody")[0].innerHTML = buildWatchTable(input_data);
   });
 
 });
