@@ -127,6 +127,12 @@
          "strike":160
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":160
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2023-01-27",
@@ -175,6 +181,12 @@
          "strike":31
       },
       {
+         "symbol":"CMA",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":62.5
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2023-01-27",
@@ -211,6 +223,12 @@
          "strike":42.5
       },
       {
+         "symbol":"CSCO",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":42
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-01-27",
@@ -227,6 +245,12 @@
          "type":"put",
          "expiry":"2023-01-27",
          "strike":10
+      },
+      {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-01-27",
+         "strike":80
       },
       {
          "symbol":"MED",
@@ -259,10 +283,28 @@
          "strike":80
       },
       {
+         "symbol":"TFC",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":42.5
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":138
+      },
+      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2023-02-17",
          "strike":130
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":135
       },
       {
          "symbol":"WDAY",
