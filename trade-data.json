@@ -181,6 +181,12 @@
          "strike":31
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-02-10",
+         "strike":46
+      },
+      {
          "symbol":"CMA",
          "type":"put",
          "expiry":"2023-02-17",
@@ -253,6 +259,12 @@
          "strike":10
       },
       {
+         "symbol":"GCO",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":35
+      },
+      {
          "symbol":"GOOG",
          "type":"put",
          "expiry":"2023-01-27",
@@ -311,6 +323,12 @@
          "type":"put",
          "expiry":"2023-02-17",
          "strike":135
+      },
+      {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":185
       },
       {
          "symbol":"WDAY",
