@@ -799,7 +799,7 @@ function buildWatchTable(data) {
 
   let output = "";
   buildfunc(data["hold_stock_list"]);
-  output+="<tr style='height: 10px; border: inset;'></tr>"
+  output+="<tr style='height: 10px; border: inset; border-left: 0px; border-right: 0px;'></tr>"
   buildfunc(data["watch_stock_list"]);
   return output;
 }
