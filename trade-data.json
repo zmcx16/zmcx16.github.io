@@ -181,6 +181,12 @@
          "strike":31
       },
       {
+         "symbol":"BPOP",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":60
+      },
+      {
          "symbol":"C",
          "type":"put",
          "expiry":"2023-02-10",
@@ -259,6 +265,12 @@
          "strike":10
       },
       {
+         "symbol":"FAST",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":45
+      },
+      {
          "symbol":"GCO",
          "type":"put",
          "expiry":"2023-02-17",
@@ -274,6 +286,24 @@
          "symbol":"MED",
          "type":"put",
          "expiry":"2023-02-17",
+         "strike":100
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-02-03",
+         "strike":105
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":100
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-02-24",
          "strike":100
       },
       {
@@ -329,6 +359,12 @@
          "type":"put",
          "expiry":"2023-02-03",
          "strike":185
+      },
+      {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":175
       },
       {
          "symbol":"WDAY",
