@@ -83,7 +83,7 @@ if __name__ == "__main__":
                     else:
                         o = {"symbol": symbol}
                         remain_key = {"52W Range", "52W High", "52W Low", "Perf Week", "Perf Month", "Perf Quarter",
-                                      "Perf Half Y", "Perf Year", "Perf YTD", "Price", "Change"}
+                                      "Perf Half Y", "Perf Year", "Perf YTD", "Price", "Change", "Highest Close"}
                         for k in indicator_output["data"]:
                             if k in remain_key:
                                 o[k] = indicator_output["data"][k]
