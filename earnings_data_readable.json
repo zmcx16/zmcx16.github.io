@@ -197,6 +197,13 @@
         ],
         "similar": "C"
     },
+    "CMC": {
+        "earningsDate": [
+            "2023-03-15",
+            "2023-03-20"
+        ],
+        "similar": "TX"
+    },
     "CMRE": {
         "earningsDate": [
             "2023-03-07",
@@ -355,6 +362,12 @@
         ],
         "similar": "ILPT"
     },
+    "FTCH": {
+        "earningsDate": [
+            "2022-11-17"
+        ],
+        "similar": "AMZN"
+    },
     "GNK": {
         "earningsDate": [
             "2023-02-22",
@@ -444,6 +457,12 @@
         ],
         "similar": "ILPT"
     },
+    "INSP": {
+        "earningsDate": [
+            "2023-02-07"
+        ],
+        "similar": "BIO"
+    },
     "INTC": {
         "earningsDate": [
             "2023-04-26",
@@ -463,12 +482,6 @@
             "2023-03-03"
         ],
         "similar": "DIS"
-    },
-    "IRTC": {
-        "earningsDate": [
-            "2023-02-23"
-        ],
-        "similar": "BIO"
     },
     "JD": {
         "earningsDate": [
@@ -858,13 +871,6 @@
         ],
         "similar": "BIO"
     },
-    "STLD": {
-        "earningsDate": [
-            "2023-04-18",
-            "2023-04-24"
-        ],
-        "similar": "TX"
-    },
     "SWKS": {
         "earningsDate": [
             "2023-02-06"
@@ -1038,12 +1044,6 @@
             "2023-04-14"
         ],
         "similar": "BAC"
-    },
-    "WISH": {
-        "earningsDate": [
-            "2023-02-23"
-        ],
-        "similar": "AMZN"
     },
     "WMT": {
         "earningsDate": [
