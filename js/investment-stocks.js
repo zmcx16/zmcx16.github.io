@@ -15,8 +15,8 @@ var myvar =
 '                    <th class="th-52w">52W Range</th>' +
 '                    <th class="th-52h">52W High</th>' +
 '                    <th class="th-52l">52W Low</th>' +
+'                    <th class="th-max-drawdown">Drawdown</th>' +
 '                    <th class="th-perf-month">Perf Month</th>' +
-'                    <th class="th-perf-year">Perf Year</th>' +
 '                    <th class="th-perf-ytd">Perf YTD</th>' +
 '                </thead>' +
 '                <tbody id="star-indicators-tbody">' +
@@ -368,16 +368,23 @@ function buildEarningsDateTable(data) {
 function buildIndicatorTable(data) {
   var output = "";
   data.forEach((indicator) => {
+    let highest_close = indicator["Highest Close"];
+    let price = indicator["Price"];
+    let max_drawdown = ((price - highest_close) * 100 / highest_close).toFixed(2) + "%";
+    if (parseFloat(indicator["52W High"]) < parseFloat(max_drawdown)) {
+      max_drawdown = indicator["52W High"];
+    };
+
     output += 
     '<tr class="tr-indicator main" onclick="window.open(\'' + "https://hk.finance.yahoo.com/quote/" + indicator["symbol"] + '\');">' + 
     '  <td class="td-symbol">' + indicator["symbol"] + '</td>' + 
-    '  <td class="td-price symbol-' + indicator["symbol"] +'">' + indicator["Price"] + '</td>' + 
+    '  <td class="td-price symbol-' + indicator["symbol"] +'">' + price + '</td>' + 
     '  <td class="td-change symbol-' + indicator["symbol"] +'">' + getStockChangeColor(indicator["Change"]) + '</td>' + 
     '  <td class="td-52w">' + indicator["52W Range"] + '</td>' + 
     '  <td class="td-52h">' + getStockChangeColor(indicator["52W High"]) + '</td>' + 
     '  <td class="td-52l">' + getStockChangeColor(indicator["52W Low"]) + '</td>' + 
+    '  <td class="td-max-drawdown">' + getStockChangeColor(max_drawdown) + '</td>' + 
     '  <td class="td-perf-month">' + getStockChangeColor(indicator["Perf Month"]) + '</td>' + 
-    '  <td class="td-perf-year">' + getStockChangeColor(indicator["Perf Year"]) + '</td>' + 
     '  <td class="td-perf-ytd">' + getStockChangeColor(indicator["Perf YTD"]) + '</td>' + 
     '</tr>';
   });
