@@ -120,8 +120,7 @@
     },
     "BJ": {
         "earningsDate": [
-            "2023-03-01",
-            "2023-03-06"
+            "2023-03-09"
         ],
         "similar": "TGT"
     },
@@ -370,8 +369,7 @@
     },
     "GNK": {
         "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
+            "2023-02-22"
         ],
         "similar": "DAC"
     },
@@ -383,8 +381,8 @@
     },
     "GOOG": {
         "earningsDate": [
-            "2023-01-30",
-            "2023-02-03"
+            "2023-04-24",
+            "2023-04-28"
         ],
         "similar": "-"
     },
@@ -483,6 +481,12 @@
         ],
         "similar": "DIS"
     },
+    "IRTC": {
+        "earningsDate": [
+            "2023-02-23"
+        ],
+        "similar": "BIO"
+    },
     "JD": {
         "earningsDate": [
             "2020-08-11",
@@ -522,13 +526,6 @@
             "2023-04-10"
         ],
         "similar": "HIMX"
-    },
-    "LNTH": {
-        "earningsDate": [
-            "2023-02-22",
-            "2023-02-27"
-        ],
-        "similar": "ZTS"
     },
     "LXP": {
         "earningsDate": [
@@ -651,7 +648,7 @@
     },
     "NXPI": {
         "earningsDate": [
-            "2023-01-30"
+            "2023-01-31"
         ],
         "similar": "HIMX"
     },
@@ -725,8 +722,7 @@
     },
     "PSA": {
         "earningsDate": [
-            "2023-02-20",
-            "2023-02-24"
+            "2023-02-22"
         ],
         "similar": "ILPT"
     },
@@ -883,12 +879,6 @@
             "2023-04-21"
         ],
         "similar": "PYPL"
-    },
-    "SYK": {
-        "earningsDate": [
-            "2023-01-31"
-        ],
-        "similar": "BIO"
     },
     "TD": {
         "earningsDate": [
