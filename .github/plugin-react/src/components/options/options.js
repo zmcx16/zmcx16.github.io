@@ -20,7 +20,7 @@ import Cookies from 'universal-cookie'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, COOKIE_KEY_SECRET } from '../../common/def'
+import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, NameWithLinkField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
@@ -31,6 +31,7 @@ import optionsStyle from './options.module.scss'
 
 const cookies = new Cookies()
 const secret = cookies.get(COOKIE_KEY_SECRET)
+const options_filter = cookies.get(COOKIE_KEY_OPTIONS_FILTER)
 
 const FetchNornFinanceAPIServer = ({FetchNornFinanceAPIServerRef}) => {
   const useFetchNornFinanceAPIServer = useFetch("https://" + NornFinanceAPIServerDomain, { cachePolicy: 'no-cache' })
@@ -96,7 +97,7 @@ const SyncData = ({ OptionsRef, ControlPannelRef, SyncDataRef}) => {
         queryDataRef.current.now += 1
         if (queryDataRef.current.apiArgs.length !== 0){
           if (queryDataRef.current.now >= queryDataRef.current.apiArgs.length) {
-            OptionsRef.current.renderTable(queryDataRef.current.data)
+            OptionsRef.current.renderTable(queryDataRef.current.data, OptionsRef.getArg)
             queryDataRef.current.now = 0
             queryDataRef.current.data = []
             setWs(null)
@@ -417,7 +418,7 @@ const Options = () => {
   const exDividendDictRef = useRef({}) 
   const fetchExDividendData = useFetch({ cachePolicy: 'no-cache' })
 
-  const renderTable = (resp) => {
+  const renderTable = (resp, arg_index) => {
     console.log(resp)
     // [{"symbol":"A","stockPrice":149.50999450683594,"EWMA_historicalVolatility":0.2519420533670158,"contracts":[{"expiryDate":"2022-01-21","calls":[{"lastTradeDate":"2022-01-12","strike":155.0,"lastPrice":0.32,"bid":0.35,"ask":0.5,"change":0.049999982,"percentChange":18.51851,"volume":30,"openInterest":721,"impliedVolatility":0.22461712890624996,"valuationData":{"BSM_EWMAHisVol":0.7042894690005248,"MC_EWMAHisVol":0.70279983534146,"BT_EWMAHisVol":0.7046023394736802}}],"puts":[]}]}
     var calls = []
@@ -451,10 +452,10 @@ const Options = () => {
       data["contracts"].forEach((contracts) => {
         let expiry_date = contracts["expiryDate"]
         let extra_data_func = (calls_puts, kind) => {
-          let output = calls_puts.map((cp, index) => {
+          let output = calls_puts.reduce((result, cp) => {
             let v = cp["valuationData"]
             let o = {
-              id: index,
+              id: 0,
               symbol: symbol,
               kind: kind,
               stockPrice: stock_price,
@@ -527,8 +528,35 @@ const Options = () => {
             if (o.strike != -Number.MAX_VALUE && o.stockPrice != -Number.MAX_VALUE) {
               o["distanceRatio"] = Math.abs(o.stockPrice - o.strike) / o.stockPrice
             }
-            return o
-          })
+
+            // filter by options_filter
+            // e.g. {"star_list":{"-1":{"priceStrikeYearRatio":{">":0.05}}}}
+            if (typeof(options_filter) === 'object') {
+              if (Options_Def[arg_index].name in options_filter) {
+                let filter_table = options_filter[Options_Def[arg_index].name]
+                if (kind.toString() in filter_table) {
+                  let filter = filter_table[kind]
+                  for (var key in o) {
+                    if (key in filter) {
+                      for (var op in filter[key]) {
+                        if (op == ">") {
+                          if (o[key] <= filter[key][op]) {
+                            return result
+                          }
+                        } else if (op == "<") {
+                          if (o[key] >= filter[key][op]) {
+                            return result
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            result.push(o)
+            return result
+          }, [])
           return output
         }
         calls = calls.concat(extra_data_func(contracts["calls"], 1))
@@ -550,7 +578,8 @@ const Options = () => {
     setPutsData(puts)
   }
 
-  const refreshData = (local_path) => {
+  const refreshData = (arg_index) => {
+    let local_path = Options_Def[arg_index].local_path
     Promise.all([
       GetDataByFetchObj(ExDividend_Path, fetchExDividendData),
       GetDataByFetchObj(local_path, fetchOptionsData),
@@ -563,7 +592,7 @@ const Options = () => {
         }
         exDividendDictRef.current = Object.assign({}, ...JSON.parse(decryptECB(allResponses[0], secret))['data'].map((x) => ({[x['symbol']]: x})))
         console.log(exDividendDictRef.current)
-        renderTable(JSON.parse(decryptECB(allResponses[1], secret)))
+        renderTable(JSON.parse(decryptECB(allResponses[1], secret)), arg_index)
       } else {
         console.error("refreshData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
@@ -576,6 +605,7 @@ const Options = () => {
 
   const OptionsRef = useRef({
     renderTable: renderTable,
+    getArg: arg,
   })
 
   const [callsData, setCallsData] = useState([])
@@ -586,7 +616,7 @@ const Options = () => {
   useEffect(() => {
     // componentDidMount is here!
     // componentDidUpdate is here!
-    refreshData(Options_Def[0].local_path)
+    refreshData(0)
 
     return () => {
       // componentWillUnmount is here!
@@ -605,7 +635,7 @@ const Options = () => {
               displayEmpty
               onChange={(event) => {
                 setArg(parseInt(event.target.value))
-                refreshData(Options_Def[event.target.value].local_path)
+                refreshData(event.target.value)
               }}
               label={'Options Valuation'}
             >
