@@ -5,6 +5,7 @@ export const NornFinanceAPIServerDomain = "norn-finance.zmcx16.moe"
 export const COOKIE_KEY_API_TOKEN = 'api_token'
 export const COOKIE_KEY_REFRESH_TIME = 'refresh_time'
 export const COOKIE_KEY_SECRET = 'secret'
+export const COOKIE_KEY_OPTIONS_FILTER = 'options_filter'
 
 // const
 export const rollingCorrelationWindowDays = 90
