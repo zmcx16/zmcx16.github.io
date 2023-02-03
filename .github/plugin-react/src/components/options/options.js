@@ -603,15 +603,15 @@ const Options = () => {
     })
   }
 
-  const OptionsRef = useRef({
-    renderTable: renderTable,
-    getArg: arg,
-  })
-
   const [callsData, setCallsData] = useState([])
   const [putsData, setPutsData] = useState([])
   const [hideColState, setHideColState] = useState({})
   const [arg, setArg] = useState(0)
+
+  const OptionsRef = useRef({
+    renderTable: renderTable,
+    getArg: arg,
+  })
 
   useEffect(() => {
     // componentDidMount is here!
