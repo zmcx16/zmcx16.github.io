@@ -539,12 +539,20 @@ const Options = () => {
                   for (var key in o) {
                     if (key in filter) {
                       for (var op in filter[key]) {
-                        if (op == ">") {
-                          if (o[key] <= filter[key][op]) {
+                        if (op === ">") {
+                          if (o[key] > filter[key][op]) {
                             return result
                           }
-                        } else if (op == "<") {
-                          if (o[key] >= filter[key][op]) {
+                        } else if (op === "<") {
+                          if (o[key] < filter[key][op]) {
+                            return result
+                          }
+                        } else if (op === "==") {
+                          if (o[key] === filter[key][op]) {
+                            return result
+                          }
+                        } else if (op === "!=") {
+                          if (o[key] !== filter[key][op]) {
                             return result
                           }
                         }
