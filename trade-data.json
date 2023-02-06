@@ -109,6 +109,24 @@
          "strike":135
       },
       {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":135
+      },
+      {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":135
+      },
+      {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":135
+      },
+      {
          "symbol":"ABNB",
          "type":"put",
          "expiry":"2023-02-10",
@@ -125,6 +143,30 @@
          "type":"put",
          "expiry":"2023-02-17",
          "strike":160
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":87
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":86
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":86
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":83
       },
       {
          "symbol":"BAC",
@@ -183,8 +225,20 @@
       {
          "symbol":"C",
          "type":"put",
+         "expiry":"2023-02-24",
+         "strike":46
+      },
+      {
+         "symbol":"C",
+         "type":"put",
          "expiry":"2023-03-03",
          "strike":46
+      },
+      {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":45
       },
       {
          "symbol":"CMA",
@@ -229,6 +283,12 @@
          "strike":42
       },
       {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":74
+      },
+      {
          "symbol":"FAST",
          "type":"put",
          "expiry":"2023-02-17",
@@ -269,6 +329,18 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":24
+      },
+      {
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2023-03-10",
+         "strike":25
+      },
+      {
+         "symbol":"INTC",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":25
       },
       {
          "symbol":"LHX",
@@ -317,6 +389,12 @@
          "type":"put",
          "expiry":"2023-02-17",
          "strike":80
+      },
+      {
+         "symbol":"SBNY",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":105
       },
       {
          "symbol":"TFC",
@@ -371,6 +449,12 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":41
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":42.5
       },
       {
          "symbol":"ZIM",
