@@ -301,6 +301,18 @@
          "strike":35
       },
       {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":90
+      },
+      {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":89
+      },
+      {
          "symbol":"HZO",
          "type":"put",
          "expiry":"2023-02-17",
@@ -449,6 +461,12 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":41
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-03-10",
+         "strike":43
       },
       {
          "symbol":"WFC",
