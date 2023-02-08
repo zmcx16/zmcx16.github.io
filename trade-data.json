@@ -165,6 +165,12 @@
       {
          "symbol":"AMZN",
          "type":"put",
+         "expiry":"2023-03-10",
+         "strike":84
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
          "expiry":"2023-03-17",
          "strike":83
       },
@@ -311,6 +317,12 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":89
+      },
+      {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-03-10",
+         "strike":92
       },
       {
          "symbol":"HZO",
