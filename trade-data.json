@@ -103,12 +103,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":135
-      },
-      {
          "symbol":"AAPL",
          "type":"put",
          "expiry":"2023-02-17",
@@ -125,18 +119,6 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":135
-      },
-      {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":74
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":160
       },
       {
          "symbol":"ADSK",
@@ -173,12 +155,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":83
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":30
       },
       {
          "symbol":"BAC",
@@ -225,12 +201,6 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2023-02-10",
-         "strike":46
-      },
-      {
-         "symbol":"C",
-         "type":"put",
          "expiry":"2023-02-17",
          "strike":46.5
       },
@@ -263,18 +233,6 @@
          "type":"put",
          "expiry":"2023-02-17",
          "strike":62.5
-      },
-      {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":465
-      },
-      {
-         "symbol":"CRM",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":126
       },
       {
          "symbol":"CRM",
@@ -345,12 +303,6 @@
       {
          "symbol":"INTC",
          "type":"put",
-         "expiry":"2023-02-10",
-         "strike":25.5
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
          "expiry":"2023-02-17",
          "strike":24.5
       },
@@ -411,12 +363,6 @@
       {
          "symbol":"MSFT",
          "type":"put",
-         "expiry":"2023-02-10",
-         "strike":225
-      },
-      {
-         "symbol":"MSFT",
-         "type":"put",
          "expiry":"2023-02-17",
          "strike":215
       },
@@ -453,20 +399,8 @@
       {
          "symbol":"UNP",
          "type":"put",
-         "expiry":"2023-02-10",
-         "strike":190
-      },
-      {
-         "symbol":"UNP",
-         "type":"put",
          "expiry":"2023-02-17",
          "strike":175
-      },
-      {
-         "symbol":"WFC",
-         "type":"put",
-         "expiry":"2023-02-10",
-         "strike":40
       },
       {
          "symbol":"WFC",
