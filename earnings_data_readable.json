@@ -171,12 +171,6 @@
         ],
         "similar": "ANSS"
     },
-    "CM": {
-        "earningsDate": [
-            "2023-02-24"
-        ],
-        "similar": "C"
-    },
     "CMRE": {
         "earningsDate": [
             "2023-05-03",
@@ -447,6 +441,12 @@
         ],
         "similar": "BIO"
     },
+    "ITGR": {
+        "earningsDate": [
+            "2023-02-16"
+        ],
+        "similar": "BIO"
+    },
     "JD": {
         "earningsDate": [
             "2020-08-11",
@@ -473,12 +473,6 @@
             "2023-04-10"
         ],
         "similar": "HIMX"
-    },
-    "LIVN": {
-        "earningsDate": [
-            "2023-02-22"
-        ],
-        "similar": "BIO"
     },
     "LU": {
         "earningsDate": [
@@ -756,7 +750,7 @@
         "earningsDate": [
             "2023-02-16"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "RY": {
         "earningsDate": [
@@ -1010,18 +1004,11 @@
         ],
         "similar": "BAC"
     },
-    "WWE": {
-        "earningsDate": [
-            "2023-05-03",
-            "2023-05-08"
-        ],
-        "similar": "NFLX"
-    },
     "ZEUS": {
         "earningsDate": [
             "2023-02-23"
         ],
-        "similar": "TX"
+        "similar": "SID"
     },
     "ZIM": {
         "earningsDate": [
@@ -1034,7 +1021,7 @@
         "earningsDate": [
             "2023-02-27"
         ],
-        "similar": "NOW"
+        "similar": "CRM"
     },
     "ZTS": {
         "earningsDate": [
