@@ -110,6 +110,18 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AAP",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":138
+      },
+      {
+         "symbol":"AAP",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":140
+      },
+      {
          "symbol":"AAPL",
          "type":"put",
          "expiry":"2023-02-17",
@@ -266,6 +278,12 @@
          "strike":42
       },
       {
+         "symbol":"EBIX",
+         "type":"put",
+         "expiry":"2023-02-17",
+         "strike":15
+      },
+      {
          "symbol":"EW",
          "type":"put",
          "expiry":"2023-02-17",
@@ -374,6 +392,36 @@
          "strike":215
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-02-24",
+         "strike":68
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":68
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-03-10",
+         "strike":65
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":65
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":65
+      },
+      {
          "symbol":"SBNY",
          "type":"put",
          "expiry":"2023-02-17",
@@ -450,6 +498,12 @@
          "type":"put",
          "expiry":"2023-02-24",
          "strike":16
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":17.5
       }
    ],
    "news_config":{
