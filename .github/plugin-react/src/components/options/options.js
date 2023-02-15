@@ -20,7 +20,7 @@ import Cookies from 'universal-cookie'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
+import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, StockData_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, NameWithLinkField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
@@ -206,6 +206,7 @@ const Options = () => {
   const tableColList = {
     Symbol: { hide: false, text: 'Symbol' },
     StockPrice: { hide: false, text: 'Price (Stock)' },
+    StockShortFloat: { hide: false, text: 'Short Float (Stock)' },
     ExpiryDate: { hide: false, text: 'Expiry' },
     Strike: { hide: false, text: 'Strike' },
     LastPrice: { hide: false, text: 'Last Price' },
@@ -281,6 +282,7 @@ const Options = () => {
     return [
       SymbolNameField('symbol', 'Symbol', 115, 'symbol' in hideColState ? hideColState['symbol'] : false),
       OptionPriceField("stockPrice", tableColList.StockPrice.text, 125, 2, "stockPrice" in hideColState ? hideColState["stockPrice"] : tableColList['StockPrice'].hide, "stock"),
+      PercentField("stockShortFloat", tableColList.StockShortFloat.text, 115, "stockShortFloat" in hideColState ? hideColState["stockShortFloat"] : tableColList['StockShortFloat'].hide),
       {
         field: 'expiryDate',
         headerName: tableColList.ExpiryDate.text,
@@ -417,7 +419,9 @@ const Options = () => {
   const fetchOptionsData = useFetch({ cachePolicy: 'no-cache' })
   const exDividendDictRef = useRef({}) 
   const fetchExDividendData = useFetch({ cachePolicy: 'no-cache' })
-
+  const StockDictRef = useRef({}) 
+  const fetchStockData = useFetch({ cachePolicy: 'no-cache' })
+  
   const renderTable = (resp, arg_index) => {
     console.log(resp)
     // [{"symbol":"A","stockPrice":149.50999450683594,"EWMA_historicalVolatility":0.2519420533670158,"contracts":[{"expiryDate":"2022-01-21","calls":[{"lastTradeDate":"2022-01-12","strike":155.0,"lastPrice":0.32,"bid":0.35,"ask":0.5,"change":0.049999982,"percentChange":18.51851,"volume":30,"openInterest":721,"impliedVolatility":0.22461712890624996,"valuationData":{"BSM_EWMAHisVol":0.7042894690005248,"MC_EWMAHisVol":0.70279983534146,"BT_EWMAHisVol":0.7046023394736802}}],"puts":[]}]}
@@ -446,6 +450,11 @@ const Options = () => {
         ex_dividend_link = exDividendDictRef.current[symbol]['link']
       }
 
+      let stock_short_float = '-'
+      if (symbol in StockDictRef.current) {
+        stock_short_float = StockDictRef.current[symbol]['Short Float']
+      }
+
       let today = new Date(new Date().toISOString().split('T')[0]);
 
       let ewma_his_vol = data["EWMA_historicalVolatility"]
@@ -459,6 +468,7 @@ const Options = () => {
               symbol: symbol,
               kind: kind,
               stockPrice: stock_price,
+              stockShortFloat: stock_short_float,
               EWMAHisVol: ewma_his_vol,
               expiryDate: expiry_date,
               lastTradeDate: cp["lastTradeDate"] !== undefined && cp["lastTradeDate"] !== null && cp["lastTradeDate"] !== '-' ? cp["lastTradeDate"] : 0,
@@ -590,17 +600,18 @@ const Options = () => {
     let local_path = Options_Def[arg_index].local_path
     Promise.all([
       GetDataByFetchObj(ExDividend_Path, fetchExDividendData),
+      GetDataByFetchObj(StockData_Path, fetchStockData),
       GetDataByFetchObj(local_path, fetchOptionsData),
     ]).then((allResponses) => {
-      if (allResponses.length === 2 && allResponses[0] !== null && allResponses[1] !== null) {
+      if (allResponses.length === 3 && allResponses[0] !== null && allResponses[1] !== null && allResponses[2] !== null) {
         if (!secret) {
           console.error("Verify Authentication Failed, this page is private use only")
           modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
           return     
         }
         exDividendDictRef.current = Object.assign({}, ...JSON.parse(decryptECB(allResponses[0], secret))['data'].map((x) => ({[x['symbol']]: x})))
-        console.log(exDividendDictRef.current)
-        renderTable(JSON.parse(decryptECB(allResponses[1], secret)), arg_index)
+        StockDictRef.current = allResponses[1]
+        renderTable(JSON.parse(decryptECB(allResponses[2], secret)), arg_index)
       } else {
         console.error("refreshData some data failed")
         modalWindowRef.current.popModalWindow(<div>Get some data failed...</div>)
