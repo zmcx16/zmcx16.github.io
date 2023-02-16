@@ -140,6 +140,12 @@
          "strike":135
       },
       {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":134
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2023-02-17",
@@ -203,6 +209,12 @@
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-03-10",
+         "strike":32
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-03-17",
          "strike":32
       },
       {
@@ -468,6 +480,18 @@
          "type":"put",
          "expiry":"2023-02-24",
          "strike":187.5
+      },
+      {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":185
+      },
+      {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":180
       },
       {
          "symbol":"WFC",
