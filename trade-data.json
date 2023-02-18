@@ -146,6 +146,12 @@
          "strike":134
       },
       {
+         "symbol":"AAPL",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":135
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2023-02-17",
@@ -269,6 +275,18 @@
          "symbol":"COST",
          "type":"put",
          "expiry":"2023-03-03",
+         "strike":450
+      },
+      {
+         "symbol":"COST",
+         "type":"put",
+         "expiry":"2023-03-10",
+         "strike":455
+      },
+      {
+         "symbol":"COST",
+         "type":"put",
+         "expiry":"2023-03-17",
          "strike":450
       },
       {
