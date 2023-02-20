@@ -272,7 +272,7 @@
         "earningsDate": [
             "2023-03-09"
         ],
-        "similar": "NOW"
+        "similar": "ADSK"
     },
     "DSX": {
         "earningsDate": [
@@ -411,18 +411,18 @@
         ],
         "similar": "ADSK"
     },
+    "IART": {
+        "earningsDate": [
+            "2023-02-22"
+        ],
+        "similar": "BIO"
+    },
     "ILPT": {
         "earningsDate": [
             "2023-04-24",
             "2023-04-28"
         ],
         "similar": "-"
-    },
-    "INDT": {
-        "earningsDate": [
-            "2020-10-08"
-        ],
-        "similar": "ILPT"
     },
     "INTC": {
         "earningsDate": [
@@ -442,12 +442,6 @@
             "2023-02-22"
         ],
         "similar": "DIS"
-    },
-    "IRTC": {
-        "earningsDate": [
-            "2023-02-23"
-        ],
-        "similar": "BIO"
     },
     "JD": {
         "earningsDate": [
@@ -503,13 +497,6 @@
             "2023-05-01"
         ],
         "similar": "PYPL"
-    },
-    "MANH": {
-        "earningsDate": [
-            "2023-04-24",
-            "2023-04-28"
-        ],
-        "similar": "ANSS"
     },
     "MANU": {
         "earningsDate": [
@@ -801,13 +788,6 @@
         ],
         "similar": "HIMX"
     },
-    "SIRI": {
-        "earningsDate": [
-            "2023-04-26",
-            "2023-05-01"
-        ],
-        "similar": "DIS"
-    },
     "SNAP": {
         "earningsDate": [
             "2023-04-19",
@@ -833,6 +813,13 @@
             "2023-05-01"
         ],
         "similar": "GOOG"
+    },
+    "STAG": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ILPT"
     },
     "STC": {
         "earningsDate": [
@@ -1018,7 +1005,14 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "NFLX"
+        "similar": "DIS"
+    },
+    "X": {
+        "earningsDate": [
+            "2023-04-26",
+            "2023-05-01"
+        ],
+        "similar": "TX"
     },
     "ZEUS": {
         "earningsDate": [
