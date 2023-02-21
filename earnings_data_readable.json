@@ -649,13 +649,6 @@
         ],
         "similar": "GOOG"
     },
-    "PLMR": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "STC"
-    },
     "PLYM": {
         "earningsDate": [
             "2023-02-23"
@@ -999,6 +992,13 @@
             "2023-02-23"
         ],
         "similar": "AMZN"
+    },
+    "WRB": {
+        "earningsDate": [
+            "2023-04-24",
+            "2023-04-28"
+        ],
+        "similar": "STC"
     },
     "WWE": {
         "earningsDate": [
