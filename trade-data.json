@@ -333,6 +333,30 @@
          "strike":100
       },
       {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-03-03",
+         "strike":10.5
+      },
+      {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":9
+      },
+      {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":9
+      },
+      {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-03-31",
+         "strike":8.5
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2023-02-24",
