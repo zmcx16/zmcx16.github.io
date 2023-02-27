@@ -310,6 +310,12 @@
          "strike":8.5
       },
       {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":38
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2023-03-03",
