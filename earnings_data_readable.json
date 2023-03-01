@@ -1,7 +1,8 @@
 {
     "AAP": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-22",
+            "2023-05-26"
         ],
         "similar": "-"
     },
@@ -33,7 +34,8 @@
     },
     "AMC": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-08",
+            "2023-05-12"
         ],
         "similar": "DIS"
     },
@@ -86,7 +88,8 @@
     },
     "AZO": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-22",
+            "2023-05-26"
         ],
         "similar": "AAP"
     },
@@ -146,7 +149,8 @@
     },
     "BNS": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-23",
+            "2023-05-29"
         ],
         "similar": "BAC"
     },
@@ -157,18 +161,18 @@
         ],
         "similar": "BIO"
     },
+    "BSX": {
+        "earningsDate": [
+            "2023-04-25",
+            "2023-05-01"
+        ],
+        "similar": "BIO"
+    },
     "C": {
         "earningsDate": [
             "2023-04-14"
         ],
         "similar": "-"
-    },
-    "CDAY": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "WDAY"
     },
     "CDNS": {
         "earningsDate": [
@@ -521,7 +525,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-02-28",
+            "2023-03-01",
             "2023-03-03"
         ],
         "similar": "DIS"
@@ -572,6 +576,13 @@
         ],
         "similar": "INTC"
     },
+    "NAT": {
+        "earningsDate": [
+            "2023-05-29",
+            "2023-06-02"
+        ],
+        "similar": "ZIM"
+    },
     "NFLX": {
         "earningsDate": [
             "2023-04-17",
@@ -595,7 +606,8 @@
     },
     "NSA": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-02",
+            "2023-05-08"
         ],
         "similar": "ILPT"
     },
@@ -604,13 +616,6 @@
             "2023-02-14"
         ],
         "similar": "BAC"
-    },
-    "NUVA": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "BIO"
     },
     "NVDA": {
         "earningsDate": [
@@ -652,13 +657,6 @@
             "2023-05-05"
         ],
         "similar": "ANSS"
-    },
-    "PCTY": {
-        "earningsDate": [
-            "2023-05-03",
-            "2023-05-08"
-        ],
-        "similar": "WDAY"
     },
     "PDD": {
         "earningsDate": [
@@ -704,9 +702,16 @@
     },
     "PRA": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-08",
+            "2023-05-12"
         ],
         "similar": "STC"
+    },
+    "PRGO": {
+        "earningsDate": [
+            "2023-02-27"
+        ],
+        "similar": "ZTS"
     },
     "PTC": {
         "earningsDate": [
@@ -788,7 +793,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SCHN": {
         "earningsDate": [
@@ -803,13 +808,6 @@
         ],
         "similar": "AMZN"
     },
-    "SFL": {
-        "earningsDate": [
-            "2023-05-10",
-            "2023-05-15"
-        ],
-        "similar": "DAC"
-    },
     "SHIP": {
         "earningsDate": [
             "2023-03-08",
@@ -822,7 +820,7 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "ADSK"
+        "similar": "CRM"
     },
     "SIGI": {
         "earningsDate": [
@@ -909,7 +907,7 @@
             "2023-05-02",
             "2023-05-08"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "TRNO": {
         "earningsDate": [
@@ -966,13 +964,6 @@
             "2023-05-12"
         ],
         "similar": "ADSK"
-    },
-    "UBER": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "CRM"
     },
     "UFCS": {
         "earningsDate": [
@@ -1031,7 +1022,8 @@
     },
     "WDAY": {
         "earningsDate": [
-            "2023-02-28"
+            "2023-05-24",
+            "2023-05-29"
         ],
         "similar": "-"
     },
@@ -1081,7 +1073,7 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "TX"
+        "similar": "SID"
     },
     "ZIM": {
         "earningsDate": [
@@ -1094,7 +1086,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "WDAY"
+        "similar": "ADSK"
     },
     "ZTS": {
         "earningsDate": [
