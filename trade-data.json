@@ -208,6 +208,12 @@
          "strike":45
       },
       {
+         "symbol":"CCI",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":115
+      },
+      {
          "symbol":"COST",
          "type":"put",
          "expiry":"2023-03-03",
@@ -404,6 +410,24 @@
          "type":"put",
          "expiry":"2023-03-03",
          "strike":17.5
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":15
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":10
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":12.5
       }
    ],
    "news_config":{
