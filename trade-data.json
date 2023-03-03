@@ -334,6 +334,12 @@
          "strike":8.5
       },
       {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":7
+      },
+      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2023-03-17",
@@ -370,10 +376,22 @@
          "strike":17.5
       },
       {
+         "symbol":"RVLV",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":17.5
+      },
+      {
          "symbol":"SBNY",
          "type":"put",
          "expiry":"2023-03-17",
          "strike":105
+      },
+      {
+         "symbol":"SBNY",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":60
       },
       {
          "symbol":"UNP",
