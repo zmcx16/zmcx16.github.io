@@ -126,12 +126,6 @@
       {
          "symbol":"AAPL",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":135
-      },
-      {
-         "symbol":"AAPL",
-         "type":"put",
          "expiry":"2023-03-24",
          "strike":134
       },
@@ -150,12 +144,6 @@
       {
          "symbol":"AMZN",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":86
-      },
-      {
-         "symbol":"AMZN",
-         "type":"put",
          "expiry":"2023-03-10",
          "strike":84
       },
@@ -164,12 +152,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":83
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":32
       },
       {
          "symbol":"BAC",
@@ -198,12 +180,6 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":46
-      },
-      {
-         "symbol":"C",
-         "type":"put",
          "expiry":"2023-03-17",
          "strike":45
       },
@@ -212,12 +188,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":115
-      },
-      {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":450
       },
       {
          "symbol":"COST",
@@ -252,24 +222,12 @@
       {
          "symbol":"GOOG",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":89
-      },
-      {
-         "symbol":"GOOG",
-         "type":"put",
          "expiry":"2023-03-10",
          "strike":92
       },
       {
          "symbol":"INTC",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":24
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
          "expiry":"2023-03-10",
          "strike":25
       },
@@ -282,12 +240,6 @@
       {
          "symbol":"KSS",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":26
-      },
-      {
-         "symbol":"KSS",
-         "type":"put",
          "expiry":"2023-03-10",
          "strike":25
       },
@@ -296,18 +248,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":25
-      },
-      {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":100
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":10.5
       },
       {
          "symbol":"MPW",
@@ -344,12 +284,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":38
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":68
       },
       {
          "symbol":"PYPL",
@@ -396,20 +330,8 @@
       {
          "symbol":"UNP",
          "type":"put",
-         "expiry":"2023-03-03",
-         "strike":185
-      },
-      {
-         "symbol":"UNP",
-         "type":"put",
          "expiry":"2023-03-17",
          "strike":180
-      },
-      {
-         "symbol":"WFC",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":41
       },
       {
          "symbol":"WFC",
@@ -422,12 +344,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":42.5
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2023-03-03",
-         "strike":17.5
       },
       {
          "symbol":"ZIM",
