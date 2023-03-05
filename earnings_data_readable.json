@@ -67,6 +67,13 @@
         ],
         "similar": "-"
     },
+    "ASC": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "DAC"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-05-24",
@@ -114,6 +121,13 @@
             "2023-05-26"
         ],
         "similar": "AAP"
+    },
+    "BHC": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "ZTS"
     },
     "BIDU": {
         "earningsDate": [
@@ -169,13 +183,6 @@
         ],
         "similar": "-"
     },
-    "CDAY": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "ANSS"
-    },
     "CDNS": {
         "earningsDate": [
             "2023-04-24",
@@ -190,12 +197,11 @@
         ],
         "similar": "AAP"
     },
-    "CM": {
+    "CHWY": {
         "earningsDate": [
-            "2023-05-24",
-            "2023-05-29"
+            "2023-03-22"
         ],
-        "similar": "BAC"
+        "similar": "AMZN"
     },
     "CMRE": {
         "earningsDate": [
@@ -265,7 +271,7 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "NOW"
+        "similar": "ADSK"
     },
     "DFS": {
         "earningsDate": [
@@ -291,7 +297,7 @@
         "earningsDate": [
             "2023-03-09"
         ],
-        "similar": "NOW"
+        "similar": "ADSK"
     },
     "DSX": {
         "earningsDate": [
@@ -304,7 +310,7 @@
         "earningsDate": [
             "2023-02-28"
         ],
-        "similar": "ADSK"
+        "similar": "WDAY"
     },
     "EGLE": {
         "earningsDate": [
@@ -361,12 +367,6 @@
             "2023-04-24"
         ],
         "similar": "ILPT"
-    },
-    "FTCH": {
-        "earningsDate": [
-            "2023-02-23"
-        ],
-        "similar": "AMZN"
     },
     "FVRR": {
         "earningsDate": [
@@ -450,13 +450,6 @@
         ],
         "similar": "ANSS"
     },
-    "IART": {
-        "earningsDate": [
-            "2023-04-25",
-            "2023-05-01"
-        ],
-        "similar": "BIO"
-    },
     "ILPT": {
         "earningsDate": [
             "2023-04-24",
@@ -517,6 +510,13 @@
             "2023-04-10"
         ],
         "similar": "HIMX"
+    },
+    "LNTH": {
+        "earningsDate": [
+            "2023-04-27",
+            "2023-05-01"
+        ],
+        "similar": "ZTS"
     },
     "LU": {
         "earningsDate": [
@@ -614,13 +614,6 @@
         ],
         "similar": "ZIM"
     },
-    "NBIX": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "ZTS"
-    },
     "NFLX": {
         "earningsDate": [
             "2023-04-17",
@@ -710,13 +703,6 @@
         ],
         "similar": "BIO"
     },
-    "PETQ": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "ZTS"
-    },
     "PINS": {
         "earningsDate": [
             "2023-04-25",
@@ -779,6 +765,13 @@
         ],
         "similar": "ILPT"
     },
+    "RH": {
+        "earningsDate": [
+            "2023-03-27",
+            "2023-03-31"
+        ],
+        "similar": "AAP"
+    },
     "RLI": {
         "earningsDate": [
             "2023-04-18",
@@ -819,6 +812,13 @@
         ],
         "similar": "STC"
     },
+    "SAN": {
+        "earningsDate": [
+            "2017-01-25",
+            "2017-02-01"
+        ],
+        "similar": "BAC"
+    },
     "SB": {
         "earningsDate": [
             "2023-05-23",
@@ -831,7 +831,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SCHN": {
         "earningsDate": [
@@ -907,7 +907,7 @@
             "2023-05-23",
             "2023-05-29"
         ],
-        "similar": "ADSK"
+        "similar": "NOW"
     },
     "SOFI": {
         "earningsDate": [
@@ -936,6 +936,20 @@
         ],
         "similar": "BIO"
     },
+    "SWKS": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "QCOM"
+    },
+    "SYK": {
+        "earningsDate": [
+            "2023-04-26",
+            "2023-05-01"
+        ],
+        "similar": "BIO"
+    },
     "TD": {
         "earningsDate": [
             "2023-05-25"
@@ -946,7 +960,7 @@
         "earningsDate": [
             "2022-11-03"
         ],
-        "similar": "NOW"
+        "similar": "ANSS"
     },
     "THG": {
         "earningsDate": [
@@ -1105,14 +1119,7 @@
             "2023-05-02",
             "2023-05-08"
         ],
-        "similar": "AMD"
-    },
-    "WSM": {
-        "earningsDate": [
-            "2023-03-14",
-            "2023-03-20"
-        ],
-        "similar": "AAP"
+        "similar": "INTC"
     },
     "WU": {
         "earningsDate": [
@@ -1133,7 +1140,7 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "ZIM": {
         "earningsDate": [
@@ -1146,7 +1153,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "ADSK"
+        "similar": "WDAY"
     },
     "ZTS": {
         "earningsDate": [
