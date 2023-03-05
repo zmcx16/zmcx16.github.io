@@ -310,6 +310,8 @@ var beneish_formula1 = 'M = -4.84+0.920 \\times DSRI+0.528 \\times GMI+0.404 \\t
 var beneish_formula2 = '0.115 \\times DEPI–0.172 \\times SGAI–0.327 \\times LVGI+4.697 \\times TATA';
 var factor_intersectional_formula = 'S = \\sum_{i=1}^n w_i \\times (c - f^*_i)'
 
+var stock_info = {};
+
 function runMathJax(target, jump=true){
   MathJax.Hub.Queue(
     () => { 
@@ -752,8 +754,8 @@ function buildHoldTable(data){
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
     let target_diff = "-";
-    if (symbol in data["stock-info"] && data["stock-info"][symbol]["Target Price"] != "-") {
-      target_diff = ((data["stock-info"][symbol]["Target Price"] - price) * 100 / price).toFixed(1) + "%"
+    if (symbol in stock_info && stock_info[symbol]["Target Price"] != "-") {
+      target_diff = ((stock_info[symbol]["Target Price"] - price) * 100 / price).toFixed(1) + "%"
     }
 
     let mf_score = symbol in mf_data_dict ? mf_data_dict[symbol]["rank"] : "-&nbsp;";
@@ -779,20 +781,20 @@ function buildWatchTable(data) {
 
   const buildfunc = (stock_list) => {
     stock_list.forEach((symbol) => {
-      if (!(symbol in data["stock-info"])) {
+      if (!(symbol in stock_info)) {
         console.log("No " + symbol + " data, skip it.")
         return
       }
       output +=
         '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
         '  <td class="td-symbol">' + symbol + '</td>' +
-        '  <td class="td-price">' + data["stock-info"][symbol]["Close"] + '</td>' +
-        '  <td class="th-52w">' + data["stock-info"][symbol]["52W Range"] + '</td>' +
-        '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-52l">' + getStockChangeColor((data["stock-info"][symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-month">' + getStockChangeColor((data["stock-info"][symbol]["Perf Month"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-year">' + getStockChangeColor((data["stock-info"][symbol]["Perf Year"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-ytd">' + getStockChangeColor((data["stock-info"][symbol]["Perf YTD"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-price">' + stock_info[symbol]["Close"] + '</td>' +
+        '  <td class="th-52w">' + stock_info[symbol]["52W Range"] + '</td>' +
+        '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-month">' + getStockChangeColor((stock_info[symbol]["Perf Month"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-year">' + getStockChangeColor((stock_info[symbol]["Perf Year"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="td-perf-ytd">' + getStockChangeColor((stock_info[symbol]["Perf YTD"] * 100).toFixed(2) + "%") + '</td>' +
         '</tr>';
     });
   }
@@ -902,7 +904,7 @@ $(document).ready(function () {
     }
   });
 
-  // load hold stocks data & stock-info data
+  // load hold stocks data & stock_info data
   Promise.all([
     fetch("zmcx16_investment-formula-trade-data.json"),
     fetch("stock-data/stat.json"),
@@ -910,7 +912,7 @@ $(document).ready(function () {
   .then(json_datas => Promise.all(json_datas.map(r => r.json())) )
   .then(json_datas => {
     let input_data = json_datas[0]
-    input_data["stock-info"] = json_datas[1]
+    stock_info = json_datas[1]
     $("#hold-stocks-tbody")[0].innerHTML = buildHoldTable(input_data);
     $("#watch-stocks-tbody")[0].innerHTML = buildWatchTable(input_data);
   });
