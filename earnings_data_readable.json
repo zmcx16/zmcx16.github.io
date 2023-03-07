@@ -6,6 +6,13 @@
         ],
         "similar": "-"
     },
+    "ADI": {
+        "earningsDate": [
+            "2023-05-16",
+            "2023-05-22"
+        ],
+        "similar": "STM"
+    },
     "ADSK": {
         "earningsDate": [
             "2023-05-24",
@@ -19,6 +26,13 @@
             "2023-06-05"
         ],
         "similar": "WDAY"
+    },
+    "ALGM": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "STM"
     },
     "ALGN": {
         "earningsDate": [
@@ -34,8 +48,7 @@
     },
     "ALLY": {
         "earningsDate": [
-            "2023-04-12",
-            "2023-04-17"
+            "2023-04-19"
         ],
         "similar": "PYPL"
     },
@@ -53,6 +66,13 @@
         ],
         "similar": "-"
     },
+    "AME": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ETN"
+    },
     "AMZN": {
         "earningsDate": [
             "2023-04-26",
@@ -66,6 +86,13 @@
             "2023-05-08"
         ],
         "similar": "-"
+    },
+    "AOS": {
+        "earningsDate": [
+            "2023-04-26",
+            "2023-05-01"
+        ],
+        "similar": "ETN"
     },
     "AVGO": {
         "earningsDate": [
@@ -169,6 +196,12 @@
         ],
         "similar": "-"
     },
+    "CD": {
+        "earningsDate": [
+            "2023-03-15"
+        ],
+        "similar": "GIB"
+    },
     "CDAY": {
         "earningsDate": [
             "2023-05-02",
@@ -196,19 +229,19 @@
         ],
         "similar": "AMZN"
     },
+    "CMI": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ETN"
+    },
     "CMRE": {
         "earningsDate": [
             "2023-05-03",
             "2023-05-08"
         ],
         "similar": "DAC"
-    },
-    "CNMD": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "BIO"
     },
     "COF": {
         "earningsDate": [
@@ -245,12 +278,26 @@
         ],
         "similar": "-"
     },
+    "CTG": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "GIB"
+    },
     "CTLT": {
         "earningsDate": [
             "2023-05-01",
             "2023-05-05"
         ],
         "similar": "ZTS"
+    },
+    "CTSH": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "GIB"
     },
     "DAC": {
         "earningsDate": [
@@ -299,6 +346,13 @@
         ],
         "similar": "ADSK"
     },
+    "DOV": {
+        "earningsDate": [
+            "2023-04-19",
+            "2023-04-24"
+        ],
+        "similar": "ETN"
+    },
     "DSX": {
         "earningsDate": [
             "2023-05-22",
@@ -311,6 +365,13 @@
             "2023-02-28"
         ],
         "similar": "WDAY"
+    },
+    "DXC": {
+        "earningsDate": [
+            "2023-05-23",
+            "2023-05-29"
+        ],
+        "similar": "GIB"
     },
     "EGLE": {
         "earningsDate": [
@@ -333,12 +394,25 @@
         ],
         "similar": "ZTS"
     },
+    "EMR": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "ETN"
+    },
     "ESEA": {
         "earningsDate": [
             "2023-05-22",
             "2023-05-26"
         ],
         "similar": "DAC"
+    },
+    "ETN": {
+        "earningsDate": [
+            "2023-02-08"
+        ],
+        "similar": "-"
     },
     "ETSY": {
         "earningsDate": [
@@ -375,12 +449,38 @@
         ],
         "similar": "GOOG"
     },
+    "G": {
+        "earningsDate": [
+            "2023-05-03",
+            "2023-05-08"
+        ],
+        "similar": "GIB"
+    },
+    "GFS": {
+        "earningsDate": [
+            "2023-02-14"
+        ],
+        "similar": "STM"
+    },
+    "GIB": {
+        "earningsDate": [
+            "2023-04-26"
+        ],
+        "similar": "-"
+    },
     "GNK": {
         "earningsDate": [
             "2023-05-02",
             "2023-05-08"
         ],
         "similar": "DAC"
+    },
+    "GNRC": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "ETN"
     },
     "GOGL": {
         "earningsDate": [
@@ -457,6 +557,13 @@
         ],
         "similar": "BIO"
     },
+    "IBEX": {
+        "earningsDate": [
+            "2023-05-16",
+            "2023-05-22"
+        ],
+        "similar": "GIB"
+    },
     "ILPT": {
         "earningsDate": [
             "2023-04-24",
@@ -490,6 +597,27 @@
             "2023-05-29"
         ],
         "similar": "DIS"
+    },
+    "IR": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "ETN"
+    },
+    "IT": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "GIB"
+    },
+    "ITW": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ETN"
     },
     "JD": {
         "earningsDate": [
@@ -525,10 +653,16 @@
         ],
         "similar": "ZTS"
     },
+    "LSCC": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "STM"
+    },
     "LU": {
         "earningsDate": [
-            "2023-03-07",
-            "2023-03-13"
+            "2023-03-12"
         ],
         "similar": "PYPL"
     },
@@ -555,8 +689,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-05-24",
-            "2023-05-29"
+            "2023-03-13",
+            "2023-03-28"
         ],
         "similar": "DIS"
     },
@@ -565,6 +699,13 @@
             "2023-02-21"
         ],
         "similar": "DAC"
+    },
+    "MCHP": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "STM"
     },
     "MCY": {
         "earningsDate": [
@@ -586,6 +727,13 @@
             "2023-05-01"
         ],
         "similar": "GOOG"
+    },
+    "MPWR": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "STM"
     },
     "MRVL": {
         "earningsDate": [
@@ -620,6 +768,13 @@
             "2023-06-02"
         ],
         "similar": "ZIM"
+    },
+    "NBIX": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "ZTS"
     },
     "NFLX": {
         "earningsDate": [
@@ -666,14 +821,14 @@
         "earningsDate": [
             "2023-05-01"
         ],
-        "similar": "HIMX"
+        "similar": "STM"
     },
     "ON": {
         "earningsDate": [
             "2023-05-01",
             "2023-05-05"
         ],
-        "similar": "INTC"
+        "similar": "STM"
     },
     "ORLY": {
         "earningsDate": [
@@ -710,12 +865,11 @@
         ],
         "similar": "BIO"
     },
-    "PETQ": {
+    "PH": {
         "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
+            "2023-05-04"
         ],
-        "similar": "ZTS"
+        "similar": "ETN"
     },
     "PINS": {
         "earningsDate": [
@@ -730,6 +884,13 @@
             "2023-05-08"
         ],
         "similar": "ILPT"
+    },
+    "PODD": {
+        "earningsDate": [
+            "2023-05-03",
+            "2023-05-08"
+        ],
+        "similar": "BIO"
     },
     "PRA": {
         "earningsDate": [
@@ -779,6 +940,13 @@
         ],
         "similar": "STC"
     },
+    "ROK": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ETN"
+    },
     "ROKU": {
         "earningsDate": [
             "2023-04-26",
@@ -797,7 +965,7 @@
         "earningsDate": [
             "2023-04-27"
         ],
-        "similar": "SID"
+        "similar": "TX"
     },
     "RY": {
         "earningsDate": [
@@ -811,6 +979,13 @@
             "2023-05-08"
         ],
         "similar": "STC"
+    },
+    "SAIC": {
+        "earningsDate": [
+            "2023-03-27",
+            "2023-03-31"
+        ],
+        "similar": "GIB"
     },
     "SAN": {
         "earningsDate": [
@@ -936,6 +1111,20 @@
         ],
         "similar": "BIO"
     },
+    "STLD": {
+        "earningsDate": [
+            "2023-04-18",
+            "2023-04-24"
+        ],
+        "similar": "TX"
+    },
+    "STM": {
+        "earningsDate": [
+            "2016-11-28",
+            "2016-11-29"
+        ],
+        "similar": "-"
+    },
     "SWKS": {
         "earningsDate": [
             "2023-05-01",
@@ -1023,7 +1212,7 @@
             "2023-05-08",
             "2023-05-12"
         ],
-        "similar": "ADSK"
+        "similar": "CRM"
     },
     "UBER": {
         "earningsDate": [
@@ -1112,7 +1301,7 @@
             "2023-05-02",
             "2023-05-08"
         ],
-        "similar": "INTC"
+        "similar": "STM"
     },
     "WSM": {
         "earningsDate": [
