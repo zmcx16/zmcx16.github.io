@@ -94,6 +94,13 @@
         ],
         "similar": "ETN"
     },
+    "ASC": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "DAC"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-05-24",
@@ -141,6 +148,13 @@
             "2023-05-26"
         ],
         "similar": "AAP"
+    },
+    "BHC": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "ZTS"
     },
     "BIDU": {
         "earningsDate": [
@@ -196,12 +210,6 @@
         ],
         "similar": "-"
     },
-    "CD": {
-        "earningsDate": [
-            "2023-03-15"
-        ],
-        "similar": "GIB"
-    },
     "CDAY": {
         "earningsDate": [
             "2023-05-02",
@@ -216,6 +224,13 @@
         ],
         "similar": "ANSS"
     },
+    "CDW": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "GIB"
+    },
     "CHPT": {
         "earningsDate": [
             "2023-05-30",
@@ -228,6 +243,12 @@
             "2023-03-22"
         ],
         "similar": "AMZN"
+    },
+    "CMC": {
+        "earningsDate": [
+            "2023-03-23"
+        ],
+        "similar": "TX"
     },
     "CMI": {
         "earningsDate": [
@@ -277,13 +298,6 @@
             "2023-06-02"
         ],
         "similar": "-"
-    },
-    "CTG": {
-        "earningsDate": [
-            "2023-05-08",
-            "2023-05-12"
-        ],
-        "similar": "GIB"
     },
     "CTLT": {
         "earningsDate": [
@@ -336,7 +350,8 @@
     },
     "DKS": {
         "earningsDate": [
-            "2023-03-07"
+            "2023-05-23",
+            "2023-05-29"
         ],
         "similar": "AAP"
     },
@@ -365,13 +380,6 @@
             "2023-02-28"
         ],
         "similar": "WDAY"
-    },
-    "DXC": {
-        "earningsDate": [
-            "2023-05-23",
-            "2023-05-29"
-        ],
-        "similar": "GIB"
     },
     "EGLE": {
         "earningsDate": [
@@ -428,12 +436,12 @@
         ],
         "similar": "BIO"
     },
-    "EYE": {
+    "EXLS": {
         "earningsDate": [
-            "2023-05-08",
-            "2023-05-12"
+            "2023-04-26",
+            "2023-05-01"
         ],
-        "similar": "AAP"
+        "similar": "GIB"
     },
     "FR": {
         "earningsDate": [
@@ -468,19 +476,19 @@
         ],
         "similar": "-"
     },
+    "GLOB": {
+        "earningsDate": [
+            "2023-05-17",
+            "2023-05-22"
+        ],
+        "similar": "GIB"
+    },
     "GNK": {
         "earningsDate": [
             "2023-05-02",
             "2023-05-08"
         ],
         "similar": "DAC"
-    },
-    "GNRC": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "ETN"
     },
     "GOGL": {
         "earningsDate": [
@@ -645,13 +653,6 @@
             "2023-04-10"
         ],
         "similar": "HIMX"
-    },
-    "LNTH": {
-        "earningsDate": [
-            "2023-04-27",
-            "2023-05-01"
-        ],
-        "similar": "ZTS"
     },
     "LSCC": {
         "earningsDate": [
@@ -837,6 +838,13 @@
         ],
         "similar": "AAP"
     },
+    "OTIS": {
+        "earningsDate": [
+            "2023-04-24",
+            "2023-04-28"
+        ],
+        "similar": "ETN"
+    },
     "PARA": {
         "earningsDate": [
             "2023-05-01",
@@ -933,6 +941,13 @@
         ],
         "similar": "ILPT"
     },
+    "RH": {
+        "earningsDate": [
+            "2023-03-27",
+            "2023-03-31"
+        ],
+        "similar": "AAP"
+    },
     "RLI": {
         "earningsDate": [
             "2023-04-18",
@@ -1006,7 +1021,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SCHN": {
         "earningsDate": [
@@ -1017,7 +1032,8 @@
     },
     "SE": {
         "earningsDate": [
-            "2023-03-07"
+            "2023-05-15",
+            "2023-05-19"
         ],
         "similar": "AMZN"
     },
