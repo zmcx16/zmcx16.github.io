@@ -172,6 +172,18 @@
          "strike":30
       },
       {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":30
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2023-04-14",
+         "strike":30
+      },
+      {
          "symbol":"BALL",
          "type":"put",
          "expiry":"2023-03-17",
@@ -212,6 +224,12 @@
          "type":"put",
          "expiry":"2023-03-24",
          "strike":425
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":90
       },
       {
          "symbol":"EBIX",
@@ -310,6 +328,12 @@
          "strike":65
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":100
+      },
+      {
          "symbol":"RVLV",
          "type":"put",
          "expiry":"2023-03-17",
@@ -364,6 +388,24 @@
          "strike":42.5
       },
       {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-03-24",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-03-31",
+         "strike":40
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":40
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2023-03-24",
@@ -380,6 +422,12 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":12.5
+      },
+      {
+         "symbol":"ZION",
+         "type":"put",
+         "expiry":"2023-03-17",
+         "strike":42.5
       }
    ],
    "news_config":{
