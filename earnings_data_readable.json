@@ -615,7 +615,7 @@
             "2023-05-24",
             "2023-05-29"
         ],
-        "similar": "NFLX"
+        "similar": "DIS"
     },
     "IR": {
         "earningsDate": [
@@ -692,6 +692,12 @@
             "2023-04-10"
         ],
         "similar": "HIMX"
+    },
+    "LENTY": {
+        "earningsDate": [
+            "2023-03-29"
+        ],
+        "similar": "KSS"
     },
     "LNTH": {
         "earningsDate": [
@@ -803,6 +809,13 @@
             "2023-05-29"
         ],
         "similar": "INTC"
+    },
+    "MSB": {
+        "earningsDate": [
+            "2023-04-25",
+            "2023-05-01"
+        ],
+        "similar": "SID"
     },
     "MT": {
         "earningsDate": [
@@ -1430,7 +1443,7 @@
             "2023-05-03",
             "2023-05-08"
         ],
-        "similar": "DIS"
+        "similar": "NFLX"
     },
     "ZBH": {
         "earningsDate": [
