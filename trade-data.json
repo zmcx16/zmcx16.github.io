@@ -16,6 +16,7 @@
       "WFC",
       "BAC",
       "C",
+      "CMA",
       "DAC",
       "ZIM",
       "SID"
@@ -202,12 +203,6 @@
          "type":"put",
          "expiry":"2023-03-17",
          "strike":40
-      },
-      {
-         "symbol":"CMA",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":62.5
       },
       {
          "symbol":"COST",
@@ -531,6 +526,7 @@
          "ETN":"Eaton Corporation plc",
          "KSS":"Kohl's Corporation",
          "MPW":"Medical Properties Trust",
+         "CMA":"Comerica Incorporated",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -998,102 +994,108 @@
       "ETN":"1551182",
       "KSS":"885639",
       "MPW":"1287865",
+      "CMA":"28412",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":133.02,
-         "position_%":9.2567151836596,
+         "position_%":8.995876382781235,
          "profit_%":0
       },
       "AMD":{
          "cost_p":75.95,
-         "position_%":2.6426383934707056,
+         "position_%":2.568173249406987,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":6.036140994065807,
+         "position_%":5.866052604438764,
          "profit_%":0
       },
       "BAC":{
          "cost_p":32.91,
-         "position_%":5.343731461082698,
+         "position_%":5.193154017694865,
          "profit_%":0
       },
       "C":{
          "cost_p":48.99,
-         "position_%":6.250126854761591,
+         "position_%":6.074008700342028,
+         "profit_%":0
+      },
+      "CMA":{
+         "cost_p":62.5,
+         "position_%":2.8178332778220176,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":5.096690873937972,
+         "position_%":4.953074622424429,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":6.342332144329693,
+         "position_%":6.163615798576768,
          "profit_%":0
       },
       "GOOG":{
          "cost_p":91.39,
-         "position_%":7.949661710970632,
+         "position_%":7.725653497804625,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":4.001361622766704,
+         "position_%":3.8886099233943843,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":9.415377870614522,
+         "position_%":9.150068219743657,
          "profit_%":0
       },
       "KSS":{
          "cost_p":25,
-         "position_%":2.8995374078019593,
+         "position_%":2.8178332778220176,
          "profit_%":0
       },
       "MPW":{
          "cost_p":10,
-         "position_%":2.3196299262415674,
+         "position_%":2.254266622257614,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":2.8842278502887653,
+         "position_%":2.8029551181151175,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":2.3994251957042767,
+         "position_%":2.3318133940632757,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.777756836674277,
+         "position_%":2.699484280153493,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.6858919527978506,
+         "position_%":3.582029662767349,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":7.337453382687325,
+         "position_%":7.130696179525285,
          "profit_%":0
       },
       "WFC":{
          "cost_p":43,
-         "position_%":2.4936021707096847,
+         "position_%":2.4233366189269354,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":10.867698167434368,
+         "position_%":10.561464551939148,
          "profit_%":0
       }
    }
