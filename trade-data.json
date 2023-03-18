@@ -17,6 +17,7 @@
       "BAC",
       "C",
       "CMA",
+      "ZION",
       "DAC",
       "ZIM",
       "SID"
@@ -127,18 +128,6 @@
          "strike":135
       },
       {
-         "symbol":"AMZN",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":83
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":32
-      },
-      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-03-24",
@@ -163,18 +152,6 @@
          "strike":30
       },
       {
-         "symbol":"BALL",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":47.5
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":45
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2023-03-24",
@@ -193,24 +170,6 @@
          "strike":44
       },
       {
-         "symbol":"CCI",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":115
-      },
-      {
-         "symbol":"CM",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":40
-      },
-      {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":450
-      },
-      {
          "symbol":"COST",
          "type":"put",
          "expiry":"2023-03-24",
@@ -219,50 +178,8 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2023-03-17",
-         "strike":90
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
          "expiry":"2023-03-24",
          "strike":85
-      },
-      {
-         "symbol":"EBIX",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":10
-      },
-      {
-         "symbol":"EQR",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":57.5
-      },
-      {
-         "symbol":"INTC",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":25
-      },
-      {
-         "symbol":"KSS",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":25
-      },
-      {
-         "symbol":"MED",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":95
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":9
       },
       {
          "symbol":"MPW",
@@ -285,12 +202,6 @@
       {
          "symbol":"PFE",
          "type":"put",
-         "expiry":"2023-03-17",
-         "strike":38
-      },
-      {
-         "symbol":"PFE",
-         "type":"put",
          "expiry":"2023-03-24",
          "strike":37
       },
@@ -309,20 +220,8 @@
       {
          "symbol":"PYPL",
          "type":"put",
-         "expiry":"2023-03-17",
-         "strike":65
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
          "expiry":"2023-03-24",
          "strike":65
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":105
       },
       {
          "symbol":"QCOM",
@@ -333,32 +232,14 @@
       {
          "symbol":"RVLV",
          "type":"put",
-         "expiry":"2023-03-17",
-         "strike":17.5
-      },
-      {
-         "symbol":"RVLV",
-         "type":"put",
          "expiry":"2023-04-21",
          "strike":17.5
-      },
-      {
-         "symbol":"SBNY",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":105
       },
       {
          "symbol":"SBNY",
          "type":"put",
          "expiry":"2023-04-21",
          "strike":60
-      },
-      {
-         "symbol":"UNP",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":180
       },
       {
          "symbol":"VZ",
@@ -371,12 +252,6 @@
          "type":"put",
          "expiry":"2023-03-31",
          "strike":35
-      },
-      {
-         "symbol":"WFC",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":42.5
       },
       {
          "symbol":"WFC",
@@ -413,12 +288,6 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":12.5
-      },
-      {
-         "symbol":"ZION",
-         "type":"put",
-         "expiry":"2023-03-17",
-         "strike":42.5
       }
    ],
    "news_config":{
@@ -527,6 +396,7 @@
          "KSS":"Kohl's Corporation",
          "MPW":"Medical Properties Trust",
          "CMA":"Comerica Incorporated",
+         "ZION":"Zions Bancorporation",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -995,107 +865,113 @@
       "KSS":"885639",
       "MPW":"1287865",
       "CMA":"28412",
+      "ZION":"109380",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":133.02,
-         "position_%":8.995876382781235,
+         "position_%":7.784246877625751,
          "profit_%":0
       },
       "AMD":{
          "cost_p":75.95,
-         "position_%":2.568173249406987,
+         "position_%":2.2222731557497966,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":5.866052604438764,
+         "position_%":5.075970336530279,
          "profit_%":0
       },
       "BAC":{
-         "cost_p":32.91,
-         "position_%":5.193154017694865,
+         "cost_p":32.53,
+         "position_%":6.662723111201925,
          "profit_%":0
       },
       "C":{
-         "cost_p":48.99,
-         "position_%":6.074008700342028,
+         "cost_p":47.5,
+         "position_%":7.412453800174876,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.8178332778220176,
+         "position_%":2.4383071711101563,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.953074622424429,
+         "position_%":4.285958813090589,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":6.163615798576768,
+         "position_%":5.333455573799512,
          "profit_%":0
       },
       "GOOG":{
          "cost_p":91.39,
-         "position_%":7.725653497804625,
+         "position_%":6.685106771032716,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":3.8886099233943843,
+         "position_%":3.364863896132016,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":9.150068219743657,
+         "position_%":7.9176710460289,
          "profit_%":0
       },
       "KSS":{
-         "cost_p":25,
-         "position_%":2.8178332778220176,
+         "cost_p":24.92,
+         "position_%":4.861009176325208,
          "profit_%":0
       },
       "MPW":{
-         "cost_p":10,
-         "position_%":2.254266622257614,
+         "cost_p":9.39,
+         "position_%":4.121226780610386,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":2.8029551181151175,
+         "position_%":2.425432909246695,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":2.3318133940632757,
+         "position_%":2.017747950237076,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.699484280153493,
+         "position_%":2.33589826992353,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.582029662767349,
+         "position_%":3.099576075915231,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":7.130696179525285,
+         "position_%":6.170282594924517,
          "profit_%":0
       },
       "WFC":{
-         "cost_p":43,
-         "position_%":2.4233366189269354,
+         "cost_p":42.65,
+         "position_%":4.159752033913927,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":10.561464551939148,
+         "position_%":9.138970341894554,
+         "profit_%":0
+      },
+      "ZION":{
+         "cost_p":42.5,
+         "position_%":2.48707331453236,
          "profit_%":0
       }
    }
