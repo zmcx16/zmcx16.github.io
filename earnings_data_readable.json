@@ -85,7 +85,7 @@
         "earningsDate": [
             "2023-05-24"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "BNS": {
         "earningsDate": [
@@ -810,6 +810,13 @@
             "2023-05-05"
         ],
         "similar": "STC"
+    },
+    "TMST": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "SID"
     },
     "TRNO": {
         "earningsDate": [
