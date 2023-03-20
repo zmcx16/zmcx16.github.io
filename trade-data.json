@@ -128,6 +128,12 @@
          "strike":135
       },
       {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-03-31",
+         "strike":81
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-03-24",
@@ -149,6 +155,12 @@
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-04-14",
+         "strike":30
+      },
+      {
+         "symbol":"BXP",
+         "type":"put",
+         "expiry":"2023-04-21",
          "strike":30
       },
       {
