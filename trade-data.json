@@ -128,10 +128,22 @@
          "strike":135
       },
       {
+         "symbol":"AMD",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":112
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2023-03-31",
          "strike":81
+      },
+      {
+         "symbol":"AMZN",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":110
       },
       {
          "symbol":"BAC",
@@ -177,6 +189,12 @@
       },
       {
          "symbol":"C",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":49.5
+      },
+      {
+         "symbol":"C",
          "type":"put",
          "expiry":"2023-04-06",
          "strike":44
@@ -192,6 +210,18 @@
          "type":"put",
          "expiry":"2023-03-24",
          "strike":85
+      },
+      {
+         "symbol":"GOOG",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":113
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":26
       },
       {
          "symbol":"MPW",
@@ -210,6 +240,12 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":7
+      },
+      {
+         "symbol":"NFLX",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":345
       },
       {
          "symbol":"PFE",
@@ -234,6 +270,18 @@
          "type":"put",
          "expiry":"2023-03-24",
          "strike":65
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":82
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-03-31",
+         "strike":133
       },
       {
          "symbol":"QCOM",
