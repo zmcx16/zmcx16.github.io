@@ -137,9 +137,13 @@ const ControlPannel = ({ selectArg, SyncDataRef, modalWindowRef, ControlPannelRe
         let trade_data = JSON.parse(decryptECB(allResponses[0], secret))
         console.log(trade_data)
         let apiArgs = []
-        if (argValue==0) {
+        if (Options_Def[argValue].name == "star_all_list") {
           let symbols = trade_data['hold_stock_list'].concat(trade_data['star_option_list'])
           symbols.forEach((symbol) => {
+            apiArgs.push({"symbol": symbol, "specific_contract_args": ""})
+          })
+        } else if (Options_Def[argValue].name == "star_hold_list") {
+          trade_data['hold_stock_list'].forEach((symbol) => {
             apiArgs.push({"symbol": symbol, "specific_contract_args": ""})
           })
         } else {
@@ -421,7 +425,9 @@ const Options = () => {
   const fetchExDividendData = useFetch({ cachePolicy: 'no-cache' })
   const StockDictRef = useRef({}) 
   const fetchStockData = useFetch({ cachePolicy: 'no-cache' })
-  
+  const configRef = useRef({}) 
+  const fetchConfigData = useFetch({ cachePolicy: 'no-cache' })
+
   const renderTable = (resp, arg_index) => {
     console.log(resp)
     // [{"symbol":"A","stockPrice":149.50999450683594,"EWMA_historicalVolatility":0.2519420533670158,"contracts":[{"expiryDate":"2022-01-21","calls":[{"lastTradeDate":"2022-01-12","strike":155.0,"lastPrice":0.32,"bid":0.35,"ask":0.5,"change":0.049999982,"percentChange":18.51851,"volume":30,"openInterest":721,"impliedVolatility":0.22461712890624996,"valuationData":{"BSM_EWMAHisVol":0.7042894690005248,"MC_EWMAHisVol":0.70279983534146,"BT_EWMAHisVol":0.7046023394736802}}],"puts":[]}]}
@@ -462,6 +468,10 @@ const Options = () => {
         let expiry_date = contracts["expiryDate"]
         let extra_data_func = (calls_puts, kind) => {
           let output = calls_puts.reduce((result, cp) => {
+            if (Options_Def[arg_index].name == "star_hold_list") {
+              if (!configRef.current["hold_stock_list"].includes(symbol))
+                return result
+            }
             let v = cp["valuationData"]
             let o = {
               id: 0,
@@ -602,8 +612,9 @@ const Options = () => {
       GetDataByFetchObj(ExDividend_Path, fetchExDividendData),
       GetDataByFetchObj(StockData_Path, fetchStockData),
       GetDataByFetchObj(local_path, fetchOptionsData),
+      GetDataByFetchObj(Option_Config, fetchConfigData),
     ]).then((allResponses) => {
-      if (allResponses.length === 3 && allResponses[0] !== null && allResponses[1] !== null && allResponses[2] !== null) {
+      if (allResponses.length === 4 && allResponses[0] !== null && allResponses[1] !== null && allResponses[2] !== null && allResponses[3] !== null) {
         if (!secret) {
           console.error("Verify Authentication Failed, this page is private use only")
           modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
@@ -611,6 +622,7 @@ const Options = () => {
         }
         exDividendDictRef.current = Object.assign({}, ...JSON.parse(decryptECB(allResponses[0], secret))['data'].map((x) => ({[x['symbol']]: x})))
         StockDictRef.current = allResponses[1]
+        configRef.current = JSON.parse(decryptECB(allResponses[3], secret))
         renderTable(JSON.parse(decryptECB(allResponses[2], secret)), arg_index)
       } else {
         console.error("refreshData some data failed")
@@ -677,7 +689,7 @@ const Options = () => {
           }} initialState={{
             filter: {
               filterModel: {
-                items: Options_Def[arg].name === 'star_list' ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
+                items: (Options_Def[arg].name === 'star_all_list' || Options_Def[arg].name === 'star_hold_list') ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
               },
             },
             sorting: {
@@ -693,7 +705,7 @@ const Options = () => {
           }} initialState={{
             filter: {
               filterModel: {
-                items: Options_Def[arg].name === 'star_list' ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
+                items: (Options_Def[arg].name === 'star_all_list' || Options_Def[arg].name === 'star_hold_list') ? [{ columnField: 'lastPrice', operatorValue: '>', value: 0.1 }] : [],
               },
             },
             sorting: {
