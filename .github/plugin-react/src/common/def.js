@@ -56,13 +56,18 @@ export const ExDividend_Path = "/plugin-react/option-valuation/star/ex_dividend_
 export const StockData_Path = "/stock-data/stat.json"
 export const Options_Def = [
   {
-    name: 'star_list',
-    display_name: 'Option Star List',
-    local_path: '/plugin-react/option-valuation/star/output.json'
+    name: 'star_all_list',
+    display_name: 'Option Star (All) List',
+    local_path: '/plugin-react/option-valuation/star/output.json',
+  },
+  {
+    name: 'star_hold_list',
+    display_name: 'Option Star (Hold) List',
+    local_path: '/plugin-react/option-valuation/star/output.json',
   },
   {
     name: 'hold_list',
     display_name: 'Option Hold List',
-    local_path: '/plugin-react/option-valuation/hold/output.json'
+    local_path: '/plugin-react/option-valuation/hold/output.json',
   },
 ]
