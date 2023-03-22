@@ -338,6 +338,12 @@
          "strike":40
       },
       {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":19
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2023-03-24",
