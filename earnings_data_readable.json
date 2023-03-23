@@ -42,8 +42,7 @@
     },
     "AXP": {
         "earningsDate": [
-            "2023-04-20",
-            "2023-04-24"
+            "2023-04-20"
         ],
         "similar": "PYPL"
     },
@@ -81,18 +80,12 @@
         ],
         "similar": "GOOG"
     },
-    "BMO": {
-        "earningsDate": [
-            "2023-05-24"
-        ],
-        "similar": "WFC"
-    },
     "BNS": {
         "earningsDate": [
             "2023-05-23",
             "2023-05-29"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "C": {
         "earningsDate": [
@@ -100,9 +93,16 @@
         ],
         "similar": "-"
     },
+    "CFG": {
+        "earningsDate": [
+            "2023-04-19"
+        ],
+        "similar": "CMA"
+    },
     "CHWY": {
         "earningsDate": [
-            "2023-03-22"
+            "2023-05-30",
+            "2023-06-05"
         ],
         "similar": "AMZN"
     },
@@ -420,7 +420,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-03-22",
+            "2023-03-23",
             "2023-04-03"
         ],
         "similar": "DIS"
@@ -472,20 +472,6 @@
             "2023-05-01"
         ],
         "similar": "SID"
-    },
-    "MT": {
-        "earningsDate": [
-            "2017-02-21",
-            "2017-02-27"
-        ],
-        "similar": "SID"
-    },
-    "MTCH": {
-        "earningsDate": [
-            "2023-05-01",
-            "2023-05-05"
-        ],
-        "similar": "GOOG"
     },
     "MU": {
         "earningsDate": [
@@ -601,6 +587,13 @@
             "2023-05-12"
         ],
         "similar": "STC"
+    },
+    "PSA": {
+        "earningsDate": [
+            "2023-05-01",
+            "2023-05-05"
+        ],
+        "similar": "ILPT"
     },
     "PYPL": {
         "earningsDate": [
@@ -797,6 +790,20 @@
         ],
         "similar": "STC"
     },
+    "TME": {
+        "earningsDate": [
+            "2023-05-15",
+            "2023-05-19"
+        ],
+        "similar": "GOOG"
+    },
+    "TMST": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "SID"
+    },
     "TRNO": {
         "earningsDate": [
             "2023-05-02",
@@ -862,7 +869,7 @@
         "earningsDate": [
             "2023-04-19"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "V": {
         "earningsDate": [
