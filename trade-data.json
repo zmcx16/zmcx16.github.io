@@ -212,10 +212,22 @@
          "strike":85
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-03-31",
+         "strike":84
+      },
+      {
          "symbol":"GOOG",
          "type":"call",
          "expiry":"2023-03-31",
          "strike":113
+      },
+      {
+         "symbol":"HPQ",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":24
       },
       {
          "symbol":"KSS",
@@ -320,10 +332,10 @@
          "strike":35
       },
       {
-         "symbol":"WFC",
+         "symbol":"VZ",
          "type":"put",
-         "expiry":"2023-03-24",
-         "strike":40
+         "expiry":"2023-04-21",
+         "strike":33
       },
       {
          "symbol":"WFC",
@@ -943,107 +955,109 @@
    "portfolio":{
       "AAP":{
          "cost_p":133.02,
-         "position_%":7.784246877625751,
+         "position_%":7.607087252467286,
          "profit_%":0
       },
       "AMD":{
          "cost_p":75.95,
-         "position_%":2.2222731557497966,
+         "position_%":2.1716970261046846,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":5.075970336530279,
+         "position_%":4.960447664103235,
          "profit_%":0
       },
       "BAC":{
          "cost_p":32.53,
-         "position_%":6.662723111201925,
+         "position_%":6.511087950155335,
          "profit_%":0
       },
       "C":{
          "cost_p":47.5,
-         "position_%":7.412453800174876,
+         "position_%":7.243755715775994,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.4383071711101563,
+         "position_%":2.382814380189472,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.285958813090589,
+         "position_%":4.188415804921846,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":5.333455573799512,
+         "position_%":5.212072862651243,
          "profit_%":0
       },
       "GOOG":{
          "cost_p":91.39,
-         "position_%":6.685106771032716,
+         "position_%":6.532962186165475,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":3.364863896132016,
+         "position_%":3.2882838446614713,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":7.9176710460289,
+         "position_%":7.737474855351254,
          "profit_%":0
       },
       "KSS":{
          "cost_p":24.92,
-         "position_%":4.861009176325208,
+         "position_%":4.750378748345732,
          "profit_%":0
       },
       "MPW":{
          "cost_p":9.39,
-         "position_%":4.121226780610386,
+         "position":4500,
+         "position_%":4.0274328653962455,
+         "profit":0,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":248.68,
-         "position_%":2.425432909246695,
+         "position_%":2.3702331202620717,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":2.017747950237076,
+         "position_%":1.9718265558943915,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.33589826992353,
+         "position_%":2.2827361762215137,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.099576075915231,
+         "position_%":3.0290336400968565,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":6.170282594924517,
+         "position_%":6.02985475793227,
          "profit_%":0
       },
       "WFC":{
-         "cost_p":42.65,
-         "position_%":4.159752033913927,
+         "cost_p":41.58,
+         "position_%":6.340955003409808,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.138970341894554,
+         "position_%":8.930978922100556,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.48707331453236,
+         "position_%":2.4304706677932613,
          "profit_%":0
       }
    }
