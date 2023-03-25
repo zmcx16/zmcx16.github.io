@@ -242,13 +242,6 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2023-06-06",
-            "2023-06-12"
-        ],
-        "similar": "AAP"
-    },
     "GMRE": {
         "earningsDate": [
             "2023-05-02",
@@ -434,7 +427,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-03-24",
+            "2023-03-27",
             "2023-04-03"
         ],
         "similar": "DIS"
@@ -487,13 +480,6 @@
         ],
         "similar": "SID"
     },
-    "MT": {
-        "earningsDate": [
-            "2017-02-21",
-            "2017-02-27"
-        ],
-        "similar": "SID"
-    },
     "MU": {
         "earningsDate": [
             "2023-03-28"
@@ -532,6 +518,12 @@
             "2023-05-24"
         ],
         "similar": "INTC"
+    },
+    "NXPI": {
+        "earningsDate": [
+            "2023-05-01"
+        ],
+        "similar": "QCOM"
     },
     "OHI": {
         "earningsDate": [
@@ -588,6 +580,12 @@
             "2023-05-01"
         ],
         "similar": "GOOG"
+    },
+    "PLD": {
+        "earningsDate": [
+            "2023-04-18"
+        ],
+        "similar": "ILPT"
     },
     "PLYM": {
         "earningsDate": [
@@ -764,13 +762,6 @@
         ],
         "similar": "-"
     },
-    "SWKS": {
-        "earningsDate": [
-            "2023-05-01",
-            "2023-05-05"
-        ],
-        "similar": "QCOM"
-    },
     "SYF": {
         "earningsDate": [
             "2023-04-17",
@@ -803,6 +794,13 @@
             "2023-05-19"
         ],
         "similar": "GOOG"
+    },
+    "TMST": {
+        "earningsDate": [
+            "2023-05-02",
+            "2023-05-08"
+        ],
+        "similar": "SID"
     },
     "TRNO": {
         "earningsDate": [
@@ -925,6 +923,13 @@
             "2023-05-08"
         ],
         "similar": "AMZN"
+    },
+    "WOOF": {
+        "earningsDate": [
+            "2023-05-22",
+            "2023-05-26"
+        ],
+        "similar": "AAP"
     },
     "WSM": {
         "earningsDate": [
