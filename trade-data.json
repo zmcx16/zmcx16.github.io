@@ -110,24 +110,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ACN",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":235
-      },
-      {
-         "symbol":"AAPL",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":134
-      },
-      {
-         "symbol":"AAPL",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":135
-      },
-      {
          "symbol":"AMD",
          "type":"call",
          "expiry":"2023-03-31",
@@ -144,12 +126,6 @@
          "type":"call",
          "expiry":"2023-03-31",
          "strike":110
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":30
       },
       {
          "symbol":"BAC",
@@ -178,12 +154,6 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2023-03-24",
-         "strike":41
-      },
-      {
-         "symbol":"C",
-         "type":"put",
          "expiry":"2023-03-31",
          "strike":41
       },
@@ -198,18 +168,6 @@
          "type":"put",
          "expiry":"2023-04-06",
          "strike":44
-      },
-      {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":425
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":85
       },
       {
          "symbol":"DIS",
@@ -238,12 +196,6 @@
       {
          "symbol":"MPW",
          "type":"put",
-         "expiry":"2023-03-24",
-         "strike":9
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
          "expiry":"2023-03-31",
          "strike":8.5
       },
@@ -262,12 +214,6 @@
       {
          "symbol":"PFE",
          "type":"put",
-         "expiry":"2023-03-24",
-         "strike":37
-      },
-      {
-         "symbol":"PFE",
-         "type":"put",
          "expiry":"2023-03-31",
          "strike":36
       },
@@ -276,12 +222,6 @@
          "type":"put",
          "expiry":"2023-04-14",
          "strike":36
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":65
       },
       {
          "symbol":"PYPL",
@@ -322,12 +262,6 @@
       {
          "symbol":"VZ",
          "type":"put",
-         "expiry":"2023-03-24",
-         "strike":35
-      },
-      {
-         "symbol":"VZ",
-         "type":"put",
          "expiry":"2023-03-31",
          "strike":35
       },
@@ -354,12 +288,6 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":19
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2023-03-24",
-         "strike":15
       },
       {
          "symbol":"ZIM",
