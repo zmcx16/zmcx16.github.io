@@ -91,7 +91,7 @@
             "2023-05-23",
             "2023-05-29"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "C": {
         "earningsDate": [
@@ -131,13 +131,6 @@
             "2023-05-08"
         ],
         "similar": "ILPT"
-    },
-    "CPLP": {
-        "earningsDate": [
-            "2023-05-04",
-            "2023-05-08"
-        ],
-        "similar": "DAC"
     },
     "CPNG": {
         "earningsDate": [
@@ -229,13 +222,6 @@
         ],
         "similar": "AMZN"
     },
-    "EWBC": {
-        "earningsDate": [
-            "2023-04-19",
-            "2023-04-24"
-        ],
-        "similar": "WFC"
-    },
     "FITB": {
         "earningsDate": [
             "2023-04-20"
@@ -261,7 +247,7 @@
             "2023-05-17",
             "2023-05-22"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GOOG": {
         "earningsDate": [
@@ -480,6 +466,13 @@
         ],
         "similar": "SID"
     },
+    "MT": {
+        "earningsDate": [
+            "2017-02-21",
+            "2017-02-27"
+        ],
+        "similar": "SID"
+    },
     "MU": {
         "earningsDate": [
             "2023-03-28"
@@ -580,12 +573,6 @@
             "2023-05-01"
         ],
         "similar": "GOOG"
-    },
-    "PLD": {
-        "earningsDate": [
-            "2023-04-18"
-        ],
-        "similar": "ILPT"
     },
     "PLYM": {
         "earningsDate": [
@@ -794,13 +781,6 @@
             "2023-05-19"
         ],
         "similar": "GOOG"
-    },
-    "TMST": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "SID"
     },
     "TRNO": {
         "earningsDate": [
