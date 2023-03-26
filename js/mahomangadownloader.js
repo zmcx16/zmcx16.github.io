@@ -91,6 +91,7 @@ var myvar =
 '            <ol class=\'environment-list\'>' +
 '                <li><a class="link" target="_blank" href="https://www.microsoft.com/zh-tw/download/details.aspx?id=42642">.Net framework 4.5.2或以上的版本</a></li>' +
 '                <li><a class="link" target="_blank" href="https://docs.microsoft.com/zh-tw/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft Visual C++ 2019可轉散發套件</a></li>' +
+'		<li><a class="link" target="_blank" href="https://support.google.com/chrome/thread/185534985/sunsetting-support-for-windows-7-8-8-1-and-windows-server-2012-and-2012-r2-in-early-2023">Windows 10以上作業系統</a></li>' +
 '            </ol>' +
 '        </div>' +
 '        <div class="founction">' +
