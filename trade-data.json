@@ -260,6 +260,12 @@
          "strike":145
       },
       {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":120
+      },
+      {
          "symbol":"VZ",
          "type":"put",
          "expiry":"2023-03-31",
