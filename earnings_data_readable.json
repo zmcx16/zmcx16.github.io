@@ -80,18 +80,19 @@
         ],
         "similar": "GOOG"
     },
-    "BMO": {
-        "earningsDate": [
-            "2023-05-24"
-        ],
-        "similar": "BAC"
-    },
     "BNS": {
         "earningsDate": [
             "2023-05-23",
             "2023-05-29"
         ],
         "similar": "WFC"
+    },
+    "BOXD": {
+        "earningsDate": [
+            "2023-05-08",
+            "2023-05-12"
+        ],
+        "similar": "AMZN"
     },
     "C": {
         "earningsDate": [
@@ -276,12 +277,6 @@
         ],
         "similar": "DAC"
     },
-    "HBAN": {
-        "earningsDate": [
-            "2023-04-20"
-        ],
-        "similar": "CMA"
-    },
     "HMN": {
         "earningsDate": [
             "2023-05-03",
@@ -413,8 +408,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-03-27",
-            "2023-04-03"
+            "2023-04-03",
+            "2023-04-10"
         ],
         "similar": "DIS"
     },
@@ -473,6 +468,12 @@
         ],
         "similar": "SID"
     },
+    "MTB": {
+        "earningsDate": [
+            "2023-04-17"
+        ],
+        "similar": "CMA"
+    },
     "MU": {
         "earningsDate": [
             "2023-03-28"
@@ -505,6 +506,12 @@
             "2023-05-08"
         ],
         "similar": "ILPT"
+    },
+    "NU": {
+        "earningsDate": [
+            "2023-02-14"
+        ],
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -667,13 +674,6 @@
         ],
         "similar": "DAC"
     },
-    "SBNY": {
-        "earningsDate": [
-            "2023-04-17",
-            "2023-04-21"
-        ],
-        "similar": "ZION"
-    },
     "SBRA": {
         "earningsDate": [
             "2023-05-02",
@@ -737,8 +737,7 @@
     },
     "SPOT": {
         "earningsDate": [
-            "2023-04-25",
-            "2023-05-01"
+            "2023-04-25"
         ],
         "similar": "GOOG"
     },
@@ -896,13 +895,6 @@
             "2023-04-14"
         ],
         "similar": "-"
-    },
-    "WISH": {
-        "earningsDate": [
-            "2023-05-03",
-            "2023-05-08"
-        ],
-        "similar": "AMZN"
     },
     "WOOF": {
         "earningsDate": [
