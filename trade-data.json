@@ -170,6 +170,12 @@
          "strike":44
       },
       {
+         "symbol":"COST",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":460
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-03-31",
@@ -240,6 +246,12 @@
          "type":"put",
          "expiry":"2023-04-06",
          "strike":100
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":108
       },
       {
          "symbol":"RVLV",
