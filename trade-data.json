@@ -236,6 +236,12 @@
          "strike":82
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":62.5
+      },
+      {
          "symbol":"QCOM",
          "type":"call",
          "expiry":"2023-03-31",
@@ -258,12 +264,6 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":17.5
-      },
-      {
-         "symbol":"SBNY",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":60
       },
       {
          "symbol":"TGT",
