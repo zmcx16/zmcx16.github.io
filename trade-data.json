@@ -9,7 +9,6 @@
       "GOOG",
       "PYPL",
       "INTC",
-      "AMD",
       "QCOM",
       "STC",
       "WFC",
@@ -17,6 +16,7 @@
       "C",
       "CMA",
       "ZION",
+      "FRC",
       "DAC",
       "ZIM",
       "SID"
@@ -109,6 +109,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AMD",
+         "type":"put",
+         "expiry":"2023-04-14",
+         "strike":80
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-04-06",
@@ -139,10 +145,22 @@
          "strike":460
       },
       {
+         "symbol":"GOOG",
+         "type":"call",
+         "expiry":"2023-04-14",
+         "strike":112
+      },
+      {
          "symbol":"HPQ",
          "type":"put",
          "expiry":"2023-04-21",
          "strike":24
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-04-14",
+         "strike":26
       },
       {
          "symbol":"MPW",
@@ -151,10 +169,22 @@
          "strike":7
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2023-04-06",
+         "strike":307.5
+      },
+      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2023-04-14",
          "strike":36
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-04-14",
+         "strike":66
       },
       {
          "symbol":"PYPL",
@@ -324,6 +354,7 @@
          "MPW":"Medical Properties Trust",
          "CMA":"Comerica Incorporated",
          "ZION":"Zions Bancorporation",
+         "FRC":"First Republic Bank",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -793,107 +824,108 @@
       "MPW":"1287865",
       "CMA":"28412",
       "ZION":"109380",
+      "FRC":"1132979",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":133.02,
-         "position_%":7.1554631322678555,
-         "profit_%":0
-      },
-      "AMD":{
-         "cost_p":75.95,
-         "position_%":2.042765843090301,
+         "position_%":7.168670613633068,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":4.665951526784798,
+         "position_%":4.674563892847183,
          "profit_%":0
       },
       "BAC":{
          "cost_p":31.8,
-         "position_%":8.267889666437899,
+         "position_%":8.28315045343108,
          "profit_%":0
       },
       "C":{
          "cost_p":47.5,
-         "position_%":6.813702175767516,
+         "position_%":6.826278838221233,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.2413493999235254,
+         "position_%":2.245486459941195,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":3.9397543212095756,
+         "position_%":3.947026279826235,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":4.902638023416722,
+         "position_%":4.911687263016972,
+         "profit_%":0
+      },
+      "FRC":{
+         "cost_p":13.82,
+         "position_%":1.861957372583239,
          "profit_%":0
       },
       "GOOG":{
          "cost_p":91.39,
-         "position_%":6.1451076497703285,
+         "position_%":6.156450227220775,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":3.093062171894465,
+         "position_%":3.0987713147188494,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":7.27810977143167,
+         "position_%":7.29154363272105,
          "profit_%":0
       },
       "KSS":{
          "cost_p":24.92,
-         "position_%":4.46835416368754,
+         "position_%":4.476601806538767,
          "profit_%":0
       },
       "MPW":{
          "cost_p":9,
-         "position_%":7.665414947738457,
+         "position_%":7.6795636929988875,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":1.8547614554247152,
+         "position_%":1.8581849553305374,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.147212725126737,
+         "position_%":2.151176028623665,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":2.8492033571827853,
+         "position_%":2.8544623878772475,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":5.671869137470475,
+         "position_%":5.682338216068791,
          "profit_%":0
       },
       "WFC":{
          "cost_p":41.12,
-         "position_%":8.110457284587271,
+         "position_%":8.125427484484812,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":8.400756858865366,
+         "position_%":8.416262890776395,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.2861763879219956,
+         "position_%":2.290396189140019,
          "profit_%":0
       }
    }
