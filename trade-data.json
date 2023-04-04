@@ -145,6 +145,12 @@
          "strike":460
       },
       {
+         "symbol":"EQR",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":52.5
+      },
+      {
          "symbol":"GOOG",
          "type":"call",
          "expiry":"2023-04-14",
