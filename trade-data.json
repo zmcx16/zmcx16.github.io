@@ -115,6 +115,18 @@
          "strike":80
       },
       {
+         "symbol":"AMZN",
+         "type":"call",
+         "expiry":"2023-04-14",
+         "strike":111
+      },
+      {
+         "symbol":"AVB",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":145
+      },
+      {
          "symbol":"BAC",
          "type":"put",
          "expiry":"2023-04-06",
@@ -145,6 +157,18 @@
          "strike":460
       },
       {
+         "symbol":"DELL",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":36
+      },
+      {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-04-14",
+         "strike":107
+      },
+      {
          "symbol":"EQR",
          "type":"put",
          "expiry":"2023-04-21",
@@ -169,6 +193,12 @@
          "strike":26
       },
       {
+         "symbol":"MED",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":80
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2023-04-21",
@@ -191,6 +221,12 @@
          "type":"put",
          "expiry":"2023-04-14",
          "strike":66
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-04-14",
+         "strike":83
       },
       {
          "symbol":"PYPL",
