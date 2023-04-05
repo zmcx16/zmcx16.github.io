@@ -129,12 +129,6 @@
       {
          "symbol":"BAC",
          "type":"put",
-         "expiry":"2023-04-06",
-         "strike":30
-      },
-      {
-         "symbol":"BAC",
-         "type":"put",
          "expiry":"2023-04-14",
          "strike":30
       },
@@ -257,6 +251,12 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":120
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":17
       },
       {
          "symbol":"VZ",
