@@ -139,6 +139,12 @@
          "strike":30
       },
       {
+         "symbol":"COST",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":445
+      },
+      {
          "symbol":"DELL",
          "type":"put",
          "expiry":"2023-04-21",
