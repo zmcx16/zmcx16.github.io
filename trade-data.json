@@ -133,6 +133,12 @@
          "strike":30
       },
       {
+         "symbol":"BPOP",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":50
+      },
+      {
          "symbol":"BXP",
          "type":"put",
          "expiry":"2023-04-21",
