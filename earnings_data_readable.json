@@ -158,13 +158,6 @@
         ],
         "similar": "AMZN"
     },
-    "CUBE": {
-        "earningsDate": [
-            "2023-04-26",
-            "2023-05-01"
-        ],
-        "similar": "ILPT"
-    },
     "DAC": {
         "earningsDate": [
             "2023-05-15",
@@ -268,6 +261,12 @@
             "2023-06-12"
         ],
         "similar": "AAP"
+    },
+    "FR": {
+        "earningsDate": [
+            "2023-04-19"
+        ],
+        "similar": "ILPT"
     },
     "FRBK": {
         "earningsDate": [
@@ -449,8 +448,7 @@
     },
     "MA": {
         "earningsDate": [
-            "2023-04-26",
-            "2023-05-01"
+            "2023-04-27"
         ],
         "similar": "PYPL"
     },
