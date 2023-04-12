@@ -187,6 +187,12 @@
          "strike":26
       },
       {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":18
+      },
+      {
          "symbol":"MED",
          "type":"put",
          "expiry":"2023-04-21",
@@ -233,6 +239,12 @@
          "type":"call",
          "expiry":"2023-04-14",
          "strike":131
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":110
       },
       {
          "symbol":"RVLV",
