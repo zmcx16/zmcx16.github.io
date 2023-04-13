@@ -172,6 +172,12 @@
         ],
         "similar": "-"
     },
+    "DASH": {
+        "earningsDate": [
+            "2023-05-04"
+        ],
+        "similar": "GOOG"
+    },
     "DDS": {
         "earningsDate": [
             "2023-05-10",
@@ -213,7 +219,8 @@
     },
     "EDR": {
         "earningsDate": [
-            "2023-05-09"
+            "2023-05-10",
+            "2023-05-15"
         ],
         "similar": "DIS"
     },
@@ -255,25 +262,11 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2023-06-06",
-            "2023-06-12"
-        ],
-        "similar": "AAP"
-    },
     "FR": {
         "earningsDate": [
             "2023-04-19"
         ],
         "similar": "ILPT"
-    },
-    "FRBK": {
-        "earningsDate": [
-            "2023-04-24",
-            "2023-04-29"
-        ],
-        "similar": "FRC"
     },
     "FRC": {
         "earningsDate": [
@@ -325,7 +318,8 @@
     },
     "GOOGL": {
         "earningsDate": [
-            "2023-04-25"
+            "2023-04-24",
+            "2023-04-28"
         ],
         "similar": "GOOG"
     },
@@ -434,7 +428,8 @@
     },
     "LTC": {
         "earningsDate": [
-            "2023-04-27"
+            "2023-04-26",
+            "2023-05-01"
         ],
         "similar": "MPW"
     },
@@ -461,7 +456,8 @@
     },
     "MA": {
         "earningsDate": [
-            "2023-04-27"
+            "2023-04-26",
+            "2023-05-01"
         ],
         "similar": "PYPL"
     },
@@ -629,13 +625,6 @@
         ],
         "similar": "GOOG"
     },
-    "PLMR": {
-        "earningsDate": [
-            "2023-05-02",
-            "2023-05-08"
-        ],
-        "similar": "STC"
-    },
     "PLYM": {
         "earningsDate": [
             "2023-05-04"
@@ -656,7 +645,8 @@
     },
     "PYPL": {
         "earningsDate": [
-            "2023-05-08"
+            "2023-04-25",
+            "2023-05-01"
         ],
         "similar": "-"
     },
@@ -677,6 +667,13 @@
             "2023-04-21"
         ],
         "similar": "CMA"
+    },
+    "RH": {
+        "earningsDate": [
+            "2023-05-31",
+            "2023-06-05"
+        ],
+        "similar": "AAP"
     },
     "RLI": {
         "earningsDate": [
@@ -829,7 +826,8 @@
     },
     "TWLO": {
         "earningsDate": [
-            "2023-05-09"
+            "2023-05-02",
+            "2023-05-08"
         ],
         "similar": "GOOG"
     },
