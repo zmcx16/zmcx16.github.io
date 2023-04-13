@@ -211,6 +211,12 @@
          "strike":7
       },
       {
+         "symbol":"OMCL",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":50
+      },
+      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2023-04-14",
