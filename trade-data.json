@@ -163,6 +163,12 @@
          "strike":107
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":90
+      },
+      {
          "symbol":"EQR",
          "type":"put",
          "expiry":"2023-04-21",
@@ -257,6 +263,12 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":17.5
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-04-21",
+         "strike":150
       },
       {
          "symbol":"TM",
