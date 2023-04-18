@@ -152,6 +152,12 @@
       },
       {
          "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-04-28",
+         "strike":107
+      },
+      {
+         "symbol":"DIS",
          "type":"put",
          "expiry":"2023-05-05",
          "strike":90
@@ -205,6 +211,12 @@
          "strike":62.5
       },
       {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-04-21",
+         "strike":82
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2023-04-21",
@@ -215,6 +227,12 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":111
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-04-28",
+         "strike":129
       },
       {
          "symbol":"RVLV",
