@@ -109,6 +109,18 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-04-28",
+         "strike":175
+      },
+      {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2023-04-28",
+         "strike":180
+      },
+      {
          "symbol":"AMZN",
          "type":"call",
          "expiry":"2023-04-21",
@@ -187,6 +199,12 @@
          "strike":28
       },
       {
+         "symbol":"MDT",
+         "type":"put",
+         "expiry":"2023-04-28",
+         "strike":77
+      },
+      {
          "symbol":"MED",
          "type":"put",
          "expiry":"2023-04-21",
@@ -199,10 +217,22 @@
          "strike":7
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":280
+      },
+      {
          "symbol":"OMCL",
          "type":"put",
          "expiry":"2023-04-21",
          "strike":50
+      },
+      {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2023-05-19",
+         "strike":7.5
       },
       {
          "symbol":"PYPL",
@@ -235,6 +265,12 @@
          "strike":129
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-04-28",
+         "strike":108
+      },
+      {
          "symbol":"RVLV",
          "type":"put",
          "expiry":"2023-04-21",
@@ -251,6 +287,18 @@
          "type":"put",
          "expiry":"2023-04-21",
          "strike":120
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2023-05-19",
+         "strike":125
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":12
       },
       {
          "symbol":"VFC",
@@ -866,102 +914,102 @@
    "portfolio":{
       "AAP":{
          "cost_p":133.02,
-         "position_%":6.817223799808754,
+         "position_%":6.93597312584161,
          "profit_%":0
       },
       "AMZN":{
          "cost_p":86.74,
-         "position_%":4.445391613256738,
+         "position_%":4.5228259580176005,
          "profit_%":0
       },
       "BAC":{
          "cost_p":30.92,
-         "position_%":13.997636538583913,
+         "position_%":14.241461584353477,
          "profit_%":0
       },
       "C":{
-         "cost_p":47.42,
-         "position_%":3.2403423303456234,
+         "cost_p":44.73,
+         "position_%":1.5548843678589446,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.1354006289181933,
+         "position_%":2.1725972052578593,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":3.753521809487243,
+         "position_%":3.818904463514054,
          "profit_%":0
       },
       "DIS":{
          "cost_p":91.14,
-         "position_%":4.670889919670499,
+         "position_%":4.752252222892831,
          "profit_%":0
       },
       "FRC":{
          "cost_p":13.82,
-         "position_%":1.770674201498966,
+         "position_%":1.8015176025998165,
          "profit_%":0
       },
       "GOOG":{
          "cost_p":91.39,
-         "position_%":5.85462790430501,
+         "position_%":5.956609757655472,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":2.946852867907107,
+         "position_%":2.9981841432558456,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":6.934072922223157,
+         "position_%":7.05485764491332,
          "profit_%":0
       },
       "KSS":{
          "cost_p":24.92,
-         "position_%":4.2571346938113095,
+         "position_%":4.331289788402068,
          "profit_%":0
       },
       "MPW":{
          "cost_p":9,
-         "position_%":7.30307015090022,
+         "position_%":7.430282441981878,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.96,
-         "position_%":1.7670867284423828,
+         "position_%":1.797867639294983,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.045713802503629,
+         "position_%":2.0813481226370287,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":2.7145212794808073,
+         "position_%":2.7618055673237905,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":5.403759415515223,
+         "position_%":5.497887583737328,
          "profit_%":0
       },
       "WFC":{
          "cost_p":40.81,
-         "position_%":9.760318362608965,
+         "position_%":9.930333498016202,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":8.003652389235702,
+         "position_%":8.143068133082876,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.178108641496557,
+         "position_%":2.216049149363016,
          "profit_%":0
       }
    }
