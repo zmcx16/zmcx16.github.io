@@ -121,42 +121,6 @@
          "strike":180
       },
       {
-         "symbol":"AMZN",
-         "type":"call",
-         "expiry":"2023-04-21",
-         "strike":109
-      },
-      {
-         "symbol":"AVB",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":145
-      },
-      {
-         "symbol":"BPOP",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":50
-      },
-      {
-         "symbol":"BXP",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":30
-      },
-      {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":445
-      },
-      {
-         "symbol":"DELL",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":36
-      },
-      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-04-28",
@@ -173,18 +137,6 @@
          "type":"put",
          "expiry":"2023-05-05",
          "strike":90
-      },
-      {
-         "symbol":"EQR",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":52.5
-      },
-      {
-         "symbol":"HPQ",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":24
       },
       {
          "symbol":"KSS",
@@ -205,28 +157,10 @@
          "strike":77
       },
       {
-         "symbol":"MED",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":80
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":7
-      },
-      {
          "symbol":"NFLX",
          "type":"put",
          "expiry":"2023-05-05",
          "strike":280
-      },
-      {
-         "symbol":"OMCL",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":50
       },
       {
          "symbol":"PAGS",
@@ -237,26 +171,8 @@
       {
          "symbol":"PYPL",
          "type":"put",
-         "expiry":"2023-04-21",
-         "strike":62.5
-      },
-      {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2023-04-21",
-         "strike":82
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":110
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":111
+         "expiry":"2023-04-28",
+         "strike":68
       },
       {
          "symbol":"QCOM",
@@ -269,24 +185,6 @@
          "type":"put",
          "expiry":"2023-04-28",
          "strike":108
-      },
-      {
-         "symbol":"RVLV",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":17.5
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":150
-      },
-      {
-         "symbol":"TM",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":120
       },
       {
          "symbol":"TM",
@@ -305,30 +203,6 @@
          "type":"put",
          "expiry":"2023-05-05",
          "strike":17
-      },
-      {
-         "symbol":"VZ",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":33
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":19
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":10
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2023-04-21",
-         "strike":12.5
       }
    ],
    "news_config":{
