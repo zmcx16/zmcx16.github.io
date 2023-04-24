@@ -368,6 +368,12 @@
         ],
         "similar": "KSS"
     },
+    "KEX": {
+        "earningsDate": [
+            "2023-04-27"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2023-07-20"
@@ -387,6 +393,12 @@
             "2023-05-22"
         ],
         "similar": "-"
+    },
+    "LC": {
+        "earningsDate": [
+            "2023-04-26"
+        ],
+        "similar": "PYPL"
     },
     "LENTY": {
         "earningsDate": [
@@ -681,7 +693,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBNY": {
         "earningsDate": [
@@ -890,12 +902,6 @@
             "2023-05-29"
         ],
         "similar": "AAP"
-    },
-    "WU": {
-        "earningsDate": [
-            "2023-05-02"
-        ],
-        "similar": "PYPL"
     },
     "WWE": {
         "earningsDate": [
