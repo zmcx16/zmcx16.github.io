@@ -257,7 +257,8 @@
     },
     "FRC": {
         "earningsDate": [
-            "2023-04-24"
+            "2023-07-12",
+            "2023-07-17"
         ],
         "similar": "-"
     },
@@ -393,12 +394,6 @@
             "2023-05-22"
         ],
         "similar": "-"
-    },
-    "LC": {
-        "earningsDate": [
-            "2023-04-26"
-        ],
-        "similar": "PYPL"
     },
     "LENTY": {
         "earningsDate": [
@@ -902,6 +897,12 @@
             "2023-05-29"
         ],
         "similar": "AAP"
+    },
+    "WU": {
+        "earningsDate": [
+            "2023-05-02"
+        ],
+        "similar": "PYPL"
     },
     "WWE": {
         "earningsDate": [
