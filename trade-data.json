@@ -121,6 +121,12 @@
          "strike":180
       },
       {
+         "symbol":"APPS",
+         "type":"put",
+         "expiry":"2023-05-19",
+         "strike":10
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-04-28",
