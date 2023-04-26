@@ -109,6 +109,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2023-05-12",
+         "strike":325
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2023-04-28",
@@ -125,6 +131,12 @@
          "type":"put",
          "expiry":"2023-05-19",
          "strike":10
+      },
+      {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-05-12",
+         "strike":41
       },
       {
          "symbol":"DIS",
@@ -161,6 +173,12 @@
          "type":"put",
          "expiry":"2023-04-28",
          "strike":77
+      },
+      {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":95
       },
       {
          "symbol":"NFLX",
