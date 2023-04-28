@@ -109,22 +109,16 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2023-05-05",
+         "strike":102
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2023-05-12",
          "strike":325
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2023-04-28",
-         "strike":175
-      },
-      {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2023-04-28",
-         "strike":180
       },
       {
          "symbol":"APPS",
@@ -141,20 +135,14 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2023-04-28",
+         "expiry":"2023-05-05",
          "strike":90
       },
       {
          "symbol":"DIS",
          "type":"call",
-         "expiry":"2023-04-28",
-         "strike":107
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
          "expiry":"2023-05-05",
-         "strike":90
+         "strike":106
       },
       {
          "symbol":"KSS",
@@ -167,12 +155,6 @@
          "type":"call",
          "expiry":"2023-05-12",
          "strike":28
-      },
-      {
-         "symbol":"MDT",
-         "type":"put",
-         "expiry":"2023-04-28",
-         "strike":77
       },
       {
          "symbol":"MMM",
@@ -193,22 +175,10 @@
          "strike":7.5
       },
       {
-         "symbol":"PYPL",
+         "symbol":"TGT",
          "type":"put",
-         "expiry":"2023-04-28",
-         "strike":68
-      },
-      {
-         "symbol":"QCOM",
-         "type":"call",
-         "expiry":"2023-04-28",
-         "strike":129
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-04-28",
-         "strike":108
+         "expiry":"2023-05-05",
+         "strike":143
       },
       {
          "symbol":"TM",
