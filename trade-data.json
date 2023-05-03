@@ -238,6 +238,12 @@
          "type":"put",
          "expiry":"2023-05-05",
          "strike":17
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2023-05-12",
+         "strike":19.5
       }
    ],
    "news_config":{
