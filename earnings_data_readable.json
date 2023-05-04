@@ -111,6 +111,13 @@
         ],
         "similar": "CMA"
     },
+    "CHWY": {
+        "earningsDate": [
+            "2023-05-30",
+            "2023-06-05"
+        ],
+        "similar": "AMZN"
+    },
     "CMA": {
         "earningsDate": [
             "2023-07-20"
@@ -126,8 +133,8 @@
     },
     "CMRE": {
         "earningsDate": [
-            "2023-05-03",
-            "2023-05-08"
+            "2023-07-26",
+            "2023-07-31"
         ],
         "similar": "DAC"
     },
@@ -225,7 +232,8 @@
     },
     "ETSY": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-07-25",
+            "2023-07-31"
         ],
         "similar": "AMZN"
     },
@@ -269,13 +277,13 @@
     },
     "GMRE": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-05-04"
         ],
         "similar": "MPW"
     },
     "GNK": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-05-04"
         ],
         "similar": "DAC"
     },
@@ -284,7 +292,7 @@
             "2023-05-17",
             "2023-05-22"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GOOG": {
         "earningsDate": [
@@ -322,14 +330,14 @@
     },
     "HMN": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-08-02",
+            "2023-08-07"
         ],
         "similar": "STC"
     },
     "HR": {
         "earningsDate": [
-            "2023-05-03",
-            "2023-05-08"
+            "2023-05-09"
         ],
         "similar": "MPW"
     },
@@ -357,13 +365,6 @@
         "earningsDate": [
             "2020-08-11",
             "2020-08-17"
-        ],
-        "similar": "AMZN"
-    },
-    "JMIA": {
-        "earningsDate": [
-            "2023-05-15",
-            "2023-05-19"
         ],
         "similar": "AMZN"
     },
@@ -427,7 +428,8 @@
     },
     "LXP": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-08-02",
+            "2023-08-07"
         ],
         "similar": "ILPT"
     },
@@ -467,7 +469,8 @@
     },
     "MELI": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-08-01",
+            "2023-08-07"
         ],
         "similar": "AMZN"
     },
@@ -487,8 +490,7 @@
     },
     "MRVL": {
         "earningsDate": [
-            "2023-05-24",
-            "2023-05-29"
+            "2023-05-25"
         ],
         "similar": "QCOM"
     },
@@ -499,12 +501,12 @@
         ],
         "similar": "SID"
     },
-    "MTB": {
+    "MTCH": {
         "earningsDate": [
-            "2023-07-18",
-            "2023-07-24"
+            "2023-07-31",
+            "2023-08-04"
         ],
-        "similar": "CMA"
+        "similar": "GOOG"
     },
     "MU": {
         "earningsDate": [
@@ -567,7 +569,8 @@
     },
     "OHI": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-07-31",
+            "2023-08-04"
         ],
         "similar": "MPW"
     },
@@ -590,7 +593,7 @@
             "2023-07-18",
             "2023-07-24"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PARA": {
         "earningsDate": [
@@ -621,7 +624,7 @@
     },
     "PLMR": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-05-04"
         ],
         "similar": "STC"
     },
@@ -651,7 +654,8 @@
     },
     "QCOM": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-07-25",
+            "2023-07-31"
         ],
         "similar": "-"
     },
@@ -661,12 +665,6 @@
             "2023-07-24"
         ],
         "similar": "ILPT"
-    },
-    "RF": {
-        "earningsDate": [
-            "2023-07-21"
-        ],
-        "similar": "CMA"
     },
     "ROKU": {
         "earningsDate": [
@@ -690,10 +688,9 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-05-22",
-            "2023-05-26"
+            "2023-05-16"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBNY": {
         "earningsDate": [
@@ -704,7 +701,7 @@
     },
     "SBRA": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-05-04"
         ],
         "similar": "MPW"
     },
@@ -730,7 +727,7 @@
     },
     "SIGI": {
         "earningsDate": [
-            "2023-05-03"
+            "2023-05-04"
         ],
         "similar": "STC"
     },
@@ -843,7 +840,7 @@
         "earningsDate": [
             "2023-07-19"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "V": {
         "earningsDate": [
@@ -851,6 +848,13 @@
             "2023-07-28"
         ],
         "similar": "PYPL"
+    },
+    "VLY": {
+        "earningsDate": [
+            "2023-07-26",
+            "2023-07-31"
+        ],
+        "similar": "ZION"
     },
     "VTR": {
         "earningsDate": [
