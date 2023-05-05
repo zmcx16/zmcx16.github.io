@@ -71,7 +71,7 @@ var myvar =
 '                <li><a class="link" target="_blank" href="https://e-hentai.org/">https://e-hentai.org/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://exhentai.org/">https://exhentai.org/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://nhentai.net/">https://nhentai.net/</a></li>' +
-'				<li><a class="link" target="_blank" href="https://www.wnacg.org/">https://www.wnacg.org/</a></li>' +
+'				<li><a class="link" target="_blank" href="https://www.wnacg.com/">https://www.wnacg.com/</a></li>' +
 '				<li><a class="link" target="_blank" href="https://hitomi.la/">https://hitomi.la/</a></li>' +
 '                <li><a class="link line-through" target="_blank" href="https://hentai-comic.com/">https://hentai-comic.com/</a></li>' +
 '                <li><a class="link" target="_blank" href="https://manhua.dmzj.com/">https://manhua.dmzj.com/</a></li>' +
