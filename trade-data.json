@@ -240,6 +240,12 @@
          "strike":17
       },
       {
+         "symbol":"VZ",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":34
+      },
+      {
          "symbol":"X",
          "type":"put",
          "expiry":"2023-05-12",
