@@ -147,9 +147,15 @@ const ControlPannel = ({ selectArg, SyncDataRef, modalWindowRef, ControlPannelRe
             apiArgs.push({"symbol": symbol, "specific_contract_args": ""})
           })
         } else {
+          let hold_option_symbol_list = []
           trade_data['hold_option_list'].forEach((data) => {
             apiArgs.push({"symbol": data.symbol, "specific_contract_args": data.type + "_" + data.expiry + "_" + data.strike})
+            // only add symbol if not exist
+            if (!hold_option_symbol_list.includes(data.symbol)) {
+              hold_option_symbol_list.push(data.symbol)
+            }
           })
+          console.log(hold_option_symbol_list)
         }
         SyncDataRef.current.syncData(apiArgs)
       } else {
