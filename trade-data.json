@@ -120,6 +120,12 @@
          "strike":325
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-05-19",
+         "strike":175
+      },
+      {
          "symbol":"AIZ",
          "type":"put",
          "expiry":"2023-05-19",
@@ -130,6 +136,12 @@
          "type":"put",
          "expiry":"2023-05-19",
          "strike":155
+      },
+      {
+         "symbol":"AMED",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":65
       },
       {
          "symbol":"AMZN",
@@ -204,6 +216,12 @@
          "strike":12.5
       },
       {
+         "symbol":"LTHM",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":17.5
+      },
+      {
          "symbol":"MMM",
          "type":"put",
          "expiry":"2023-05-19",
@@ -238,6 +256,12 @@
          "type":"put",
          "expiry":"2023-05-12",
          "strike":36.5
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":55
       },
       {
          "symbol":"QCOM",
