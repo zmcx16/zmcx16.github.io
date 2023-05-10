@@ -168,6 +168,12 @@
          "strike":41
       },
       {
+         "symbol":"C",
+         "type":"call",
+         "expiry":"2023-05-19",
+         "strike":49.5
+      },
+      {
          "symbol":"CPT",
          "type":"put",
          "expiry":"2023-05-19",
