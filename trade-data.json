@@ -204,6 +204,12 @@
          "strike":113
       },
       {
+         "symbol":"JLL",
+         "type":"put",
+         "expiry":"2023-05-19",
+         "strike":125
+      },
+      {
          "symbol":"KSS",
          "type":"call",
          "expiry":"2023-05-12",
