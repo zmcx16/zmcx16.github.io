@@ -114,6 +114,12 @@
         ],
         "similar": "-"
     },
+    "CFG": {
+        "earningsDate": [
+            "2023-07-19"
+        ],
+        "similar": "CMA"
+    },
     "CHWY": {
         "earningsDate": [
             "2023-05-31"
@@ -131,6 +137,13 @@
             "2023-05-15"
         ],
         "similar": "DAC"
+    },
+    "CNA": {
+        "earningsDate": [
+            "2023-07-31",
+            "2023-08-04"
+        ],
+        "similar": "STC"
     },
     "CNK": {
         "earningsDate": [
@@ -212,7 +225,7 @@
             "2023-05-22",
             "2023-05-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "EGLE": {
         "earningsDate": [
@@ -241,13 +254,6 @@
         ],
         "similar": "AMZN"
     },
-    "EWBC": {
-        "earningsDate": [
-            "2023-07-19",
-            "2023-07-24"
-        ],
-        "similar": "WFC"
-    },
     "FHN": {
         "earningsDate": [
             "2023-07-17",
@@ -274,13 +280,6 @@
             "2023-07-24"
         ],
         "similar": "ILPT"
-    },
-    "FRC": {
-        "earningsDate": [
-            "2023-07-12",
-            "2023-07-17"
-        ],
-        "similar": "ZION"
     },
     "FVRR": {
         "earningsDate": [
@@ -403,6 +402,13 @@
         ],
         "similar": "KSS"
     },
+    "KEX": {
+        "earningsDate": [
+            "2023-07-26",
+            "2023-07-31"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2023-07-20"
@@ -468,6 +474,13 @@
             "2023-07-31"
         ],
         "similar": "PYPL"
+    },
+    "MANU": {
+        "earningsDate": [
+            "2023-05-24",
+            "2023-05-29"
+        ],
+        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -546,8 +559,8 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-07-20",
-            "2023-07-24"
+            "2023-05-15",
+            "2023-05-16"
         ],
         "similar": "DAC"
     },
@@ -596,7 +609,7 @@
             "2023-07-18",
             "2023-07-24"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "PARA": {
         "earningsDate": [
@@ -667,13 +680,6 @@
         ],
         "similar": "ILPT"
     },
-    "RLI": {
-        "earningsDate": [
-            "2023-07-18",
-            "2023-07-24"
-        ],
-        "similar": "STC"
-    },
     "ROKU": {
         "earningsDate": [
             "2023-07-26",
@@ -685,7 +691,7 @@
         "earningsDate": [
             "2023-05-25"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "SB": {
         "earningsDate": [
