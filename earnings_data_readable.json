@@ -261,13 +261,6 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2023-06-06",
-            "2023-06-12"
-        ],
-        "similar": "AAP"
-    },
     "FR": {
         "earningsDate": [
             "2023-07-18",
@@ -482,6 +475,13 @@
         ],
         "similar": "DAC"
     },
+    "MCB": {
+        "earningsDate": [
+            "2023-07-19",
+            "2023-07-24"
+        ],
+        "similar": "ZION"
+    },
     "MCY": {
         "earningsDate": [
             "2023-07-31",
@@ -530,12 +530,26 @@
         ],
         "similar": "SID"
     },
+    "MTB": {
+        "earningsDate": [
+            "2023-07-18",
+            "2023-07-24"
+        ],
+        "similar": "CMA"
+    },
     "MU": {
         "earningsDate": [
             "2023-06-28",
             "2023-07-03"
         ],
         "similar": "INTC"
+    },
+    "MUSA": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "AAP"
     },
     "NFLX": {
         "earningsDate": [
@@ -846,7 +860,7 @@
         "earningsDate": [
             "2023-07-19"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "V": {
         "earningsDate": [
