@@ -192,10 +192,28 @@
          "strike":95
       },
       {
+         "symbol":"CSCO",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":43.5
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":80
+      },
+      {
          "symbol":"ESS",
          "type":"put",
          "expiry":"2023-05-19",
          "strike":190
+      },
+      {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":110
       },
       {
          "symbol":"JLL",
