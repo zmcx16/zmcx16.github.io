@@ -175,13 +175,6 @@
         ],
         "similar": "-"
     },
-    "DASH": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "GOOG"
-    },
     "DDS": {
         "earningsDate": [
             "2023-08-09",
@@ -471,12 +464,6 @@
         ],
         "similar": "DIS"
     },
-    "MATX": {
-        "earningsDate": [
-            "2023-05-04"
-        ],
-        "similar": "DAC"
-    },
     "MCB": {
         "earningsDate": [
             "2023-07-19",
@@ -532,12 +519,32 @@
         ],
         "similar": "SID"
     },
+    "MTB": {
+        "earningsDate": [
+            "2023-07-18",
+            "2023-07-24"
+        ],
+        "similar": "CMA"
+    },
+    "MTCH": {
+        "earningsDate": [
+            "2023-07-31",
+            "2023-08-04"
+        ],
+        "similar": "GOOG"
+    },
     "MU": {
         "earningsDate": [
             "2023-06-28",
             "2023-07-03"
         ],
         "similar": "INTC"
+    },
+    "NAT": {
+        "earningsDate": [
+            "2023-05-22"
+        ],
+        "similar": "ZIM"
     },
     "NFLX": {
         "earningsDate": [
@@ -555,8 +562,8 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-07-20",
-            "2023-07-24"
+            "2023-05-22",
+            "2023-05-23"
         ],
         "similar": "DAC"
     },
@@ -584,6 +591,13 @@
             "2023-07-24"
         ],
         "similar": "QCOM"
+    },
+    "NYCB": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "ZION"
     },
     "OHI": {
         "earningsDate": [
@@ -675,12 +689,6 @@
         ],
         "similar": "ILPT"
     },
-    "RF": {
-        "earningsDate": [
-            "2023-07-21"
-        ],
-        "similar": "CMA"
-    },
     "RLI": {
         "earningsDate": [
             "2023-07-18",
@@ -710,7 +718,8 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-05-17"
+            "2023-08-02",
+            "2023-08-07"
         ],
         "similar": "DAC"
     },
@@ -742,26 +751,12 @@
         ],
         "similar": "ILPT"
     },
-    "SHIP": {
-        "earningsDate": [
-            "2023-05-29",
-            "2023-06-02"
-        ],
-        "similar": "ZIM"
-    },
     "SIGI": {
         "earningsDate": [
             "2023-08-01",
             "2023-08-07"
         ],
         "similar": "STC"
-    },
-    "SIRI": {
-        "earningsDate": [
-            "2023-07-26",
-            "2023-07-31"
-        ],
-        "similar": "DIS"
     },
     "SNAP": {
         "earningsDate": [
