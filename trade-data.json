@@ -108,6 +108,12 @@
          "strike":100
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":95
+      }, 
+      {
          "symbol":"ACN",
          "type":"put",
          "expiry":"2023-05-19",
@@ -150,6 +156,12 @@
          "strike":102
       },
       {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":105
+      },
+      {
          "symbol":"APPS",
          "type":"put",
          "expiry":"2023-05-19",
@@ -184,6 +196,12 @@
          "type":"put",
          "expiry":"2023-05-19",
          "strike":475
+      },
+      {
+         "symbol":"CWH",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":19
       },
       {
          "symbol":"CPT",
@@ -276,6 +294,12 @@
          "strike":90
       },
       {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":146
+      },
+      {
          "symbol":"TM",
          "type":"put",
          "expiry":"2023-05-19",
@@ -285,6 +309,12 @@
          "symbol":"UNP",
          "type":"put",
          "expiry":"2023-05-19",
+         "strike":185
+      },
+      {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-05-26",
          "strike":185
       },
       {
