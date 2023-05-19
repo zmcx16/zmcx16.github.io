@@ -212,8 +212,14 @@
       {
          "symbol":"CWH",
          "type":"put",
-         "expiry":"2023-05-26",
+         "expiry":"2023-06-16",
          "strike":19
+      },
+      {
+         "symbol":"CWH",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":20
       },
       {
          "symbol":"CPT",
