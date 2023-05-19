@@ -162,6 +162,12 @@
          "strike":105
       },
       {
+         "symbol":"AMZN",
+         "type":"call",
+         "expiry":"2023-05-26",
+         "strike":125
+      },
+      {
          "symbol":"APPS",
          "type":"put",
          "expiry":"2023-05-19",
@@ -191,6 +197,12 @@
          "expiry":"2023-06-02",
          "strike":38
       },
+      {
+         "symbol":"C",
+         "type":"call",
+         "expiry":"2023-06-02",
+         "strike":49
+      }, 
       {
          "symbol":"COST",
          "type":"put",
