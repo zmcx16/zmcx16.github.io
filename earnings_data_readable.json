@@ -103,12 +103,6 @@
         ],
         "similar": "-"
     },
-    "CFG": {
-        "earningsDate": [
-            "2023-07-19"
-        ],
-        "similar": "CMA"
-    },
     "CHWY": {
         "earningsDate": [
             "2023-05-31"
@@ -148,13 +142,6 @@
             "2023-05-08"
         ],
         "similar": "ILPT"
-    },
-    "CPNG": {
-        "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
-        ],
-        "similar": "AMZN"
     },
     "DAC": {
         "earningsDate": [
@@ -199,7 +186,6 @@
     },
     "DSX": {
         "earningsDate": [
-            "2023-05-22",
             "2023-05-26"
         ],
         "similar": "ZIM"
@@ -258,6 +244,12 @@
         ],
         "similar": "ILPT"
     },
+    "FTCH": {
+        "earningsDate": [
+            "2023-05-18"
+        ],
+        "similar": "AMZN"
+    },
     "FVRR": {
         "earningsDate": [
             "2023-08-02",
@@ -312,6 +304,13 @@
             "2023-07-31"
         ],
         "similar": "AAP"
+    },
+    "GRIN": {
+        "earningsDate": [
+            "2023-08-15",
+            "2023-08-21"
+        ],
+        "similar": "ZIM"
     },
     "GSIT": {
         "earningsDate": [
@@ -548,7 +547,6 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-05-22",
             "2023-05-23"
         ],
         "similar": "DAC"
@@ -611,7 +609,7 @@
             "2023-07-18",
             "2023-07-24"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PARA": {
         "earningsDate": [
@@ -702,13 +700,6 @@
         ],
         "similar": "WFC"
     },
-    "SB": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "DAC"
-    },
     "SBLK": {
         "earningsDate": [
             "2023-08-02",
@@ -743,6 +734,13 @@
             "2023-08-14"
         ],
         "similar": "ILPT"
+    },
+    "SFL": {
+        "earningsDate": [
+            "2023-08-15",
+            "2023-08-21"
+        ],
+        "similar": "DAC"
     },
     "SIGI": {
         "earningsDate": [
