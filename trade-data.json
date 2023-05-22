@@ -199,6 +199,12 @@
          "strike":17.5
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2023-05-26",
+         "strike":105
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2023-06-16",
@@ -233,6 +239,12 @@
          "type":"put",
          "expiry":"2023-05-26",
          "strike":34
+      },
+      {
+         "symbol":"WFC",
+         "type":"call",
+         "expiry":"2023-06-09",
+         "strike":44
       },
       {
          "symbol":"X",
