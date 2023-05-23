@@ -150,6 +150,13 @@
         ],
         "similar": "VFC"
     },
+    "CPNG": {
+        "earningsDate": [
+            "2023-08-08",
+            "2023-08-14"
+        ],
+        "similar": "AMZN"
+    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -459,7 +466,7 @@
     },
     "LU": {
         "earningsDate": [
-            "2023-05-22"
+            "2023-05-23"
         ],
         "similar": "PYPL"
     },
@@ -647,8 +654,7 @@
     },
     "PDD": {
         "earningsDate": [
-            "2023-05-25",
-            "2023-05-29"
+            "2023-05-26"
         ],
         "similar": "AMZN"
     },
@@ -964,13 +970,6 @@
         ],
         "similar": "-"
     },
-    "WISH": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AMZN"
-    },
     "WSM": {
         "earningsDate": [
             "2023-05-23"
@@ -993,7 +992,8 @@
     },
     "ZIM": {
         "earningsDate": [
-            "2023-05-22"
+            "2023-08-14",
+            "2023-08-18"
         ],
         "similar": "-"
     },
