@@ -199,10 +199,22 @@
          "strike":17.5
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":315
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2023-05-26",
          "strike":105
+      },
+      {
+         "symbol":"OSK",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":65
       },
       {
          "symbol":"PYPL",
