@@ -187,6 +187,12 @@
          "strike":110
       },
       {
+         "symbol":"HOG",
+         "type":"put",
+         "expiry":"2023-06-02",
+         "strike":30
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2023-06-16",
@@ -239,6 +245,12 @@
          "type":"put",
          "expiry":"2023-05-26",
          "strike":146
+      },
+      {
+         "symbol":"TRMB",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":40
       },
       {
          "symbol":"UNP",
