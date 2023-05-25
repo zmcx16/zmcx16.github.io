@@ -84,9 +84,16 @@
         ],
         "similar": "GOOG"
     },
-    "BNS": {
+    "BMO": {
         "earningsDate": [
             "2023-05-24"
+        ],
+        "similar": "BAC"
+    },
+    "BNS": {
+        "earningsDate": [
+            "2023-08-21",
+            "2023-08-25"
         ],
         "similar": "WFC"
     },
@@ -150,13 +157,6 @@
         ],
         "similar": "-"
     },
-    "DASH": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "GOOG"
-    },
     "DDS": {
         "earningsDate": [
             "2023-08-09",
@@ -196,7 +196,7 @@
         "earningsDate": [
             "2023-05-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "EGLE": {
         "earningsDate": [
@@ -278,12 +278,6 @@
         ],
         "similar": "STC"
     },
-    "GLBE": {
-        "earningsDate": [
-            "2023-05-22"
-        ],
-        "similar": "AMZN"
-    },
     "GMRE": {
         "earningsDate": [
             "2023-08-01",
@@ -332,13 +326,6 @@
             "2023-07-31"
         ],
         "similar": "AAP"
-    },
-    "GRIN": {
-        "earningsDate": [
-            "2023-08-15",
-            "2023-08-21"
-        ],
-        "similar": "ZIM"
     },
     "GSL": {
         "earningsDate": [
@@ -407,6 +394,13 @@
         ],
         "similar": "AMZN"
     },
+    "JMIA": {
+        "earningsDate": [
+            "2023-08-08",
+            "2023-08-14"
+        ],
+        "similar": "AMZN"
+    },
     "JPM": {
         "earningsDate": [
             "2023-07-14"
@@ -434,7 +428,8 @@
     },
     "KSS": {
         "earningsDate": [
-            "2023-05-24"
+            "2023-08-16",
+            "2023-08-21"
         ],
         "similar": "-"
     },
@@ -508,8 +503,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-05-24",
-            "2023-05-29"
+            "2023-05-31",
+            "2023-06-05"
         ],
         "similar": "DIS"
     },
@@ -616,7 +611,8 @@
     },
     "NVDA": {
         "earningsDate": [
-            "2023-05-24"
+            "2023-08-22",
+            "2023-08-28"
         ],
         "similar": "INTC"
     },
@@ -766,13 +762,6 @@
             "2023-05-25"
         ],
         "similar": "WFC"
-    },
-    "SB": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "DAC"
     },
     "SBLK": {
         "earningsDate": [
@@ -999,6 +988,13 @@
             "2023-08-18"
         ],
         "similar": "DIS"
+    },
+    "YELP": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "GOOG"
     },
     "ZEUS": {
         "earningsDate": [
