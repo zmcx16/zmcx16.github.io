@@ -257,8 +257,8 @@
       {
          "symbol":"UNP",
          "type":"put",
-         "expiry":"2023-05-26",
-         "strike":185
+         "expiry":"2023-06-02",
+         "strike":175
       },
       {
          "symbol":"VALE",
