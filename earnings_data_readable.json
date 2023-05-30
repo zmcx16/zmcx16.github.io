@@ -109,7 +109,7 @@
     },
     "BMO": {
         "earningsDate": [
-            "2023-05-24"
+            "2023-08-29"
         ],
         "similar": "WFC"
     },
@@ -415,6 +415,13 @@
             "2023-08-07"
         ],
         "similar": "STC"
+    },
+    "HMST": {
+        "earningsDate": [
+            "2023-07-24",
+            "2023-07-28"
+        ],
+        "similar": "ZION"
     },
     "HR": {
         "earningsDate": [
