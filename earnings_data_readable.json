@@ -192,6 +192,13 @@
         ],
         "similar": "TGT"
     },
+    "CPNG": {
+        "earningsDate": [
+            "2023-08-08",
+            "2023-08-14"
+        ],
+        "similar": "AMZN"
+    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -314,12 +321,6 @@
         ],
         "similar": "ILPT"
     },
-    "FTCH": {
-        "earningsDate": [
-            "2023-05-18"
-        ],
-        "similar": "AMZN"
-    },
     "FVRR": {
         "earningsDate": [
             "2023-08-02",
@@ -333,12 +334,6 @@
             "2023-08-11"
         ],
         "similar": "STC"
-    },
-    "GLBE": {
-        "earningsDate": [
-            "2023-05-22"
-        ],
-        "similar": "AMZN"
     },
     "GMRE": {
         "earningsDate": [
@@ -482,13 +477,6 @@
             "2023-05-31"
         ],
         "similar": "KSS"
-    },
-    "KEX": {
-        "earningsDate": [
-            "2023-07-26",
-            "2023-07-31"
-        ],
-        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -849,6 +837,13 @@
         ],
         "similar": "WFC"
     },
+    "SB": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "DAC"
+    },
     "SBLK": {
         "earningsDate": [
             "2023-08-02",
@@ -1021,12 +1016,6 @@
         ],
         "similar": "PYPL"
     },
-    "USB": {
-        "earningsDate": [
-            "2023-07-19"
-        ],
-        "similar": "ZION"
-    },
     "V": {
         "earningsDate": [
             "2023-07-24",
@@ -1047,6 +1036,13 @@
             "2023-08-07"
         ],
         "similar": "MPW"
+    },
+    "W": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "AMZN"
     },
     "WAL": {
         "earningsDate": [
