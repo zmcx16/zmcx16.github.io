@@ -129,6 +129,12 @@
          "strike":65
       },
       {
+         "symbol":"AMZN",
+         "type":"call",
+         "expiry":"2023-06-09",
+         "strike":134
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2023-06-09",
@@ -175,6 +181,12 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":20
+      },
+      {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-06-09",
+         "strike":96
       },
       {
          "symbol":"DIS",
@@ -226,15 +238,33 @@
       },
       {
          "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-06-16",
+         "strike":72.5
+      },
+      {
+         "symbol":"PYPL",
          "type":"put",
          "expiry":"2023-06-16",
          "strike":55
       },
       {
          "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-06-09",
+         "strike":127
+      },
+      {
+         "symbol":"QCOM",
          "type":"put",
          "expiry":"2023-06-23",
          "strike":90
+      },
+      {
+         "symbol":"TGT",
+         "type":"call",
+         "expiry":"2023-06-09",
+         "strike":145
       },
       {
          "symbol":"TM",
