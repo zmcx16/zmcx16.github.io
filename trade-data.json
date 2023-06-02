@@ -219,6 +219,12 @@
          "strike":90
       },
       {
+         "symbol":"MPW",
+         "type":"call",
+         "expiry":"2023-07-21",
+         "strike":10
+      },
+      {
          "symbol":"NFLX",
          "type":"put",
          "expiry":"2023-06-16",
@@ -289,6 +295,12 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":12
+      },
+      {
+         "symbol":"VFC",
+         "type":"call",
+         "expiry":"2023-06-23",
+         "strike":20
       },
       {
          "symbol":"WFC",
