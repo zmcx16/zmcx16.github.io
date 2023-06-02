@@ -50,7 +50,8 @@
     },
     "AVGO": {
         "earningsDate": [
-            "2023-06-01"
+            "2023-08-30",
+            "2023-09-04"
         ],
         "similar": "INTC"
     },
@@ -86,13 +87,6 @@
             "2023-09-01"
         ],
         "similar": "AAP"
-    },
-    "BIDU": {
-        "earningsDate": [
-            "2023-08-28",
-            "2023-09-01"
-        ],
-        "similar": "GOOG"
     },
     "BIG": {
         "earningsDate": [
@@ -224,7 +218,8 @@
     },
     "DG": {
         "earningsDate": [
-            "2023-06-01"
+            "2023-08-23",
+            "2023-08-28"
         ],
         "similar": "TGT"
     },
@@ -312,7 +307,8 @@
     },
     "FIVE": {
         "earningsDate": [
-            "2023-06-01"
+            "2023-08-29",
+            "2023-09-04"
         ],
         "similar": "AAP"
     },
@@ -322,13 +318,6 @@
             "2023-07-24"
         ],
         "similar": "ILPT"
-    },
-    "FVRR": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "GOOG"
     },
     "GBLI": {
         "earningsDate": [
@@ -357,20 +346,6 @@
             "2023-08-28"
         ],
         "similar": "DAC"
-    },
-    "GOOG": {
-        "earningsDate": [
-            "2023-07-24",
-            "2023-07-28"
-        ],
-        "similar": "-"
-    },
-    "GOOGL": {
-        "earningsDate": [
-            "2023-07-24",
-            "2023-07-28"
-        ],
-        "similar": "GOOG"
     },
     "GOOS": {
         "earningsDate": [
@@ -552,7 +527,8 @@
     },
     "M": {
         "earningsDate": [
-            "2023-06-01"
+            "2023-08-21",
+            "2023-08-25"
         ],
         "similar": "KSS"
     },
@@ -590,13 +566,6 @@
         ],
         "similar": "AMZN"
     },
-    "META": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "GOOG"
-    },
     "MPW": {
         "earningsDate": [
             "2023-08-01",
@@ -627,8 +596,7 @@
     },
     "MU": {
         "earningsDate": [
-            "2023-06-28",
-            "2023-07-03"
+            "2023-06-28"
         ],
         "similar": "INTC"
     },
@@ -740,13 +708,6 @@
         ],
         "similar": "MPW"
     },
-    "PINS": {
-        "earningsDate": [
-            "2023-07-31",
-            "2023-08-04"
-        ],
-        "similar": "GOOG"
-    },
     "PLYM": {
         "earningsDate": [
             "2023-08-01",
@@ -776,7 +737,8 @@
     },
     "PVH": {
         "earningsDate": [
-            "2023-06-01"
+            "2023-08-28",
+            "2023-09-01"
         ],
         "similar": "VFC"
     },
@@ -896,26 +858,12 @@
         ],
         "similar": "DIS"
     },
-    "SNAP": {
-        "earningsDate": [
-            "2023-07-19",
-            "2023-07-24"
-        ],
-        "similar": "GOOG"
-    },
     "SOFI": {
         "earningsDate": [
             "2023-07-31",
             "2023-08-04"
         ],
         "similar": "PYPL"
-    },
-    "SPOT": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "GOOG"
     },
     "STC": {
         "earningsDate": [
@@ -969,13 +917,6 @@
             "2023-05-31"
         ],
         "similar": "TGT"
-    },
-    "TWLO": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "GOOG"
     },
     "TX": {
         "earningsDate": [
@@ -1086,13 +1027,6 @@
             "2023-08-28"
         ],
         "similar": "AAP"
-    },
-    "YELP": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "GOOG"
     },
     "ZEUS": {
         "earningsDate": [
