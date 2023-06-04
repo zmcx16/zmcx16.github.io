@@ -46,7 +46,7 @@ def get_stock_info():
         'api': 'get-stock-info-from-db'
     }
     encoded_args = urlencode(param)
-    query_url = "https://" + afscreener_url + '?' + encoded_args
+    query_url = afscreener_url + '?' + encoded_args
 
     try:
         ret, content = send_request(query_url)

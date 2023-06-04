@@ -30,6 +30,8 @@ jobs:
       env:
         NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         MARKET_TOKEN_KEY: ${{ secrets.MARKET_TOKEN_KEY }}
+        AF_URL: ${{ secrets.AF_URL }}
+        AF_TOKEN: ${{ secrets.AF_TOKEN }}
       run: |-
         python ./.github/script/build_trade-data.py
     - name: Commit and push if data changed
