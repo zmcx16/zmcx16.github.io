@@ -1,14 +1,20 @@
 import os
+import sys
 import time
 import random
 import datetime
 import pathlib
 import json
+import traceback
 import requests
 from urllib.parse import urlencode
 from datetime import date, timedelta, datetime
 from newsapi import NewsApiClient
 
+
+afscreener_url = os.environ.get(
+    "AF_URL", "")
+afscreener_token = os.environ.get("AF_TOKEN", "")
 
 def send_request(url):
     try:
@@ -33,6 +39,31 @@ def send_post_json(url, req_data):
     return 0, res.json()
 
 
+def get_stock_info():
+
+    param = {
+        'code': afscreener_token,
+        'api': 'get-stock-info-from-db'
+    }
+    encoded_args = urlencode(param)
+    query_url = afscreener_url + '?' + encoded_args
+
+    try:
+        ret, content = send_request(query_url)
+        if ret == 0:
+            resp = json.loads(content)
+            if resp["ret"] == 0:
+                return resp["data"]
+            else:
+                print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+        else:
+            print('send_request failed: {ret}'.format(ret=ret))
+
+    except Exception:
+        print('Generated an exception: {ex}, try next target.'.format(ex=traceback.format_exc()))
+
+    sys.exit(1)
+
 if __name__ == "__main__":
     MAX_SCREENER_STOCKS = 10
     DELAY_TIME_SEC = 300
@@ -56,10 +87,11 @@ if __name__ == "__main__":
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
                    "SEC": {}, "Beneish_Model_v1": {}, "indicator_list": []}
     formula_output = {"hold_stock_list": [], "watch_stock_list": [],"portfolio": {}, "KellyFormula_Range_v1": {},
-                      "Factor_Intersectional_v1": {}}
+                      "Factor_Intersectional_v1": {}, "stock_info": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
+    stock_info = get_stock_info()
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
 
@@ -261,7 +293,10 @@ if __name__ == "__main__":
                         formula_output["portfolio"][symbol]["profit_%"] = (price - data["portfolio"][symbol]["cost_p"]) / data["portfolio"][symbol]["cost_p"] * 100
                         break
             # ------------------
-
+            # -- stock info ----
+            if symbol in data["hold_stock_list"]:
+                formula_output["stock_info"][symbol] = stock_info[symbol]
+            # ------------------
             time.sleep(DELAY_TIME_SEC)
 
     if len(scan_output["data"]) > 0 or len(scan_output["news"]) > 0 or len(scan_output["indicator_list"]) > 0 or \
