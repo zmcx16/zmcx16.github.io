@@ -274,6 +274,30 @@ var myvar =
 '                </tbody>' +
 '            </table>' +
 '        </div>' +
+'        <div class="hold-stocks-charts-title">' +
+'            <div class="charts-title">' +
+'                <input type="checkbox" id="hold-stocks-charts-filter" class="factor-checkbox">' +
+'                <label for="hold-stocks-charts-filter">資產配置圖表</label>' +
+'            </div>' +
+'        </div>' +
+'        <div class="hold-stocks-charts-content" id="hold-stocks-charts-content" style="display:none;">' +
+'            <div class="chart-block-0">' +
+'                <div class="chart-title">Original Hold Stocks Portfolio</div>' +
+'                <canvas id="hold-org-stocks-charts"></canvas>' +
+'            </div>' +
+'            <div class="chart-block-1">' +
+'                <div class="chart-title">Current Hold Stocks Portfolio</div>' +
+'                <canvas id="hold-curr-stocks-charts"></canvas>' +
+'            </div>' +
+'            <div class="chart-block-2">' +
+'                <div class="chart-title">Current Hold Sectors Portfolio</div>' +
+'                <canvas id="hold-curr-sectors-charts"></canvas>' +
+'            </div>' +
+'            <div class="chart-block-3">' +
+'                <div class="chart-title">Current Hold Industries Portfolio</div>' +
+'                <canvas id="hold-curr-industries-charts"></canvas>' +
+'            </div>' +
+'        </div>' +
 '    </div>' +
 '    <div class="watch-stocks-groups">' +
 '        <h1> 關注清單 </h1>' +
@@ -806,6 +830,95 @@ function buildWatchTable(data) {
   return output;
 }
 
+function renderChart(id, data) {
+  var ctx = document.getElementById(id).getContext('2d');
+  var charts = new Chart(ctx, {
+    type: 'outlabeledPie',
+    data: {
+        labels: data.labels,
+        datasets: [
+          {
+            data: data.data,
+            backgroundColor: palette('tol-rainbow', data.data.length).map(function(hex) {
+              return '#' + hex;
+            }),
+            borderColor: "#fff"
+          }
+        ],
+    },
+    options: {
+      zoomOutPercentage: 60,
+      plugins: {
+        outlabels: {
+          text: '%l %p.1',
+          color: 'white',
+          stretch: 45,
+          font: {
+              resizable: true,
+              minSize: 12,
+              maxSize: 18
+          },
+          borderWidth: 1,
+        }
+      }
+    }
+  });
+}
+
+function buildCharts(portfolio, cis) {
+
+  let orgCompsPortfolio = {data: [], labels: [] }
+  let currCompsPortfolio = {data: [], labels: [] }
+  let currSectorsPortfolio = {data: [], labels: [] }
+  let currIndustriesPortfolio = {data: [], labels: [] }
+
+  let orgCompsPortfolioMap = {};
+  let currCompsPortfolioMap = {};
+  let currSectorsPortfolioMap = {};
+  let currIndustriesPortfolioMap = {};
+  Object.keys(portfolio).forEach((symbol) => {
+    orgCompsPortfolioMap[symbol] = portfolio[symbol]["position_%"]
+    currCompsPortfolioMap[symbol] = portfolio[symbol]["position_%"] * (1 + portfolio[symbol]["profit_%"] / 100.0)
+
+    let sector = cis[symbol][2];
+    let industry = cis[symbol][1];
+    if (sector in currSectorsPortfolioMap) {
+      currSectorsPortfolioMap[sector] += currCompsPortfolioMap[symbol];
+    } else {
+      currSectorsPortfolioMap[sector] = currCompsPortfolioMap[symbol];
+    }
+    if (industry in currIndustriesPortfolioMap) {
+      currIndustriesPortfolioMap[industry] += currCompsPortfolioMap[symbol];
+    } else {
+      currIndustriesPortfolioMap[industry] = currCompsPortfolioMap[symbol];
+    }
+  });
+
+  Object.keys(orgCompsPortfolioMap).forEach((symbol) => {
+    orgCompsPortfolio["data"].push(parseInt(orgCompsPortfolioMap[symbol]* 1000) / 1000.0);
+    orgCompsPortfolio["labels"].push(cis[symbol][0]);
+
+    currCompsPortfolio["data"].push(parseInt(currCompsPortfolioMap[symbol]* 1000) / 1000.0);
+    currCompsPortfolio["labels"].push(cis[symbol][0]);
+  });
+
+  Object.keys(currSectorsPortfolioMap).forEach((sector) => {
+    currSectorsPortfolio["data"].push(parseInt(currSectorsPortfolioMap[sector]* 1000) / 1000.0);
+    currSectorsPortfolio["labels"].push(sector);
+  });
+
+  Object.keys(currIndustriesPortfolioMap).forEach((industry) => {
+    currIndustriesPortfolio["data"].push(parseInt(currIndustriesPortfolioMap[industry]* 1000) / 1000.0);
+    currIndustriesPortfolio["labels"].push(industry);
+  });
+
+
+  renderChart("hold-org-stocks-charts", orgCompsPortfolio);
+  renderChart("hold-curr-stocks-charts", currCompsPortfolio);
+  renderChart("hold-curr-sectors-charts", currSectorsPortfolio);
+  renderChart("hold-curr-industries-charts", currIndustriesPortfolio);
+}
+
 $(document).ready(function () {
 
   // disable cache
@@ -915,6 +1028,16 @@ $(document).ready(function () {
     stock_info = json_datas[1]
     $("#hold-stocks-tbody")[0].innerHTML = buildHoldTable(input_data);
     $("#watch-stocks-tbody")[0].innerHTML = buildWatchTable(input_data);
+    buildCharts(input_data["portfolio"], input_data["stock_info"])
+  });
+
+
+  $("#hold-stocks-charts-filter").click(function (e) {
+    if ($("#hold-stocks-charts-filter")[0].checked) {
+      $("#hold-stocks-charts-content").show();
+    } else {
+      $("#hold-stocks-charts-content").hide();
+    }
   });
 
 });

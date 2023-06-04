@@ -210,7 +210,7 @@ legend.sector-industry-block {
     width: 100%;
     table-layout: fixed;
     border: 1px solid silver;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .main-investment-formula th {
@@ -296,4 +296,37 @@ legend.sector-industry-block {
 
 .main-investment-formula .link{
     padding-right: 30px;
+}
+
+.main-investment-formula .hold-stocks-charts-title{
+    display: inline-flex;
+    font-size: 20px;
+    padding: 0px 0 20px 0;
+}
+
+.main-investment-formula .hold-stocks-charts-content{
+    width: 100%;
+}
+
+.main-investment-formula .chart-block-0 {
+    margin: 0 0 70px 0;
+}
+
+.main-investment-formula .chart-block-1 {
+    margin: 0 0 40px 0;
+}
+
+.main-investment-formula .chart-block-2 {
+    margin: 0 0 5px 0;
+}
+
+.main-investment-formula .chart-block-3 {
+    margin: 0 0 5px 0;
+}
+
+.main-investment-formula .chart-title{
+    font-size: 24px;
+    padding: 0px 0 15px 0;
+    text-align: center;
+    font-family: monospace;
 }
