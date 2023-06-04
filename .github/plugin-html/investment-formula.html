@@ -273,6 +273,30 @@
                 </tbody>
             </table>
         </div>
+        <div class="hold-stocks-charts-title">
+            <div class="charts-title">
+                <input type="checkbox" id="hold-stocks-charts-filter" class="factor-checkbox">
+                <label for="hold-stocks-charts-filter">資產配置圖表</label>
+            </div>
+        </div>
+        <div class="hold-stocks-charts-content" id="hold-stocks-charts-content" style="display:none;">
+            <div class="chart-block-0">
+                <div class="chart-title">Original Hold Stocks Portfolio</div>
+                <canvas id="hold-org-stocks-charts"></canvas>
+            </div>
+            <div class="chart-block-1">
+                <div class="chart-title">Current Hold Stocks Portfolio</div>
+                <canvas id="hold-curr-stocks-charts"></canvas>
+            </div>
+            <div class="chart-block-2">
+                <div class="chart-title">Current Hold Sectors Portfolio</div>
+                <canvas id="hold-curr-sectors-charts"></canvas>
+            </div>
+            <div class="chart-block-3">
+                <div class="chart-title">Current Hold Industries Portfolio</div>
+                <canvas id="hold-curr-industries-charts"></canvas>
+            </div>
+        </div>
     </div>
     <div class="watch-stocks-groups">
         <h1> 關注清單 </h1>
