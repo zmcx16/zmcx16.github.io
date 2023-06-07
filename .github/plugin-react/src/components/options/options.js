@@ -22,7 +22,7 @@ import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
 import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, StockData_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
-import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, NameWithLinkField } from '../../common/reactUtils'
+import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, ShortFloatLinkWithShowChartField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
 import MonteCarloChart from '../monteCarloChart'
 
@@ -292,7 +292,7 @@ const Options = () => {
     return [
       SymbolNameField('symbol', 'Symbol', 115, 'symbol' in hideColState ? hideColState['symbol'] : false),
       OptionPriceField("stockPrice", tableColList.StockPrice.text, 125, 2, "stockPrice" in hideColState ? hideColState["stockPrice"] : tableColList['StockPrice'].hide, "stock"),
-      PercentField("stockShortFloat", tableColList.StockShortFloat.text, 115, "stockShortFloat" in hideColState ? hideColState["stockShortFloat"] : tableColList['StockShortFloat'].hide),
+      ShortFloatLinkWithShowChartField("stockShortFloat", tableColList.StockShortFloat.text, 115, "stockShortFloat" in hideColState ? hideColState["stockShortFloat"] : tableColList['StockShortFloat'].hide),
       {
         field: 'expiryDate',
         headerName: tableColList.ExpiryDate.text,
