@@ -205,6 +205,27 @@ export function NameWithLinkField(field, headerName, width, linkKey, hide, align
   return output
 }
 
+export function ShortFloatLinkWithShowChartField(field, headerName, width, hide, description = null) {
+  let output = {
+    field: field,
+    headerName: headerName,
+    width: width,
+    type: 'number',
+    renderCell: (params) => (
+      params.value === "-" || params.value === -Number.MAX_VALUE || params.value === Number.MAX_VALUE || params.value === null || params.value === undefined || params.value === "Infinity" || params.value === 'NaN'  ?
+      <span>-</span> :      
+      <Link href={"https://norn-stockscreener.zmcx16.moe/short-stocks-summary/?symbol=" + params.row["symbol"] + "&showChart=true"} target="_blank" rel="noreferrer noopener">
+        <span>{(params.value * 100).toFixed(2) + "%"}</span>
+      </Link>
+    ),
+    hide: hide
+  }
+  
+  if (description != null) {
+    output['description'] = description
+  }
+  return output
+}
 
 export const GetDataByFetchObj = async (url, fetchObj) => {
   const resp_data = await fetchObj.get(url)
