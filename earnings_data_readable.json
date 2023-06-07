@@ -41,6 +41,13 @@
         ],
         "similar": "STC"
     },
+    "ASO": {
+        "earningsDate": [
+            "2023-09-05",
+            "2023-09-11"
+        ],
+        "similar": "AAP"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-08-30",
@@ -222,6 +229,12 @@
             "2023-08-14"
         ],
         "similar": "-"
+    },
+    "DLMAF": {
+        "earningsDate": [
+            "2023-06-07"
+        ],
+        "similar": "TGT"
     },
     "DLTR": {
         "earningsDate": [
@@ -617,7 +630,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -739,12 +752,6 @@
             "2023-07-24"
         ],
         "similar": "ILPT"
-    },
-    "RH": {
-        "earningsDate": [
-            "2023-05-25"
-        ],
-        "similar": "AAP"
     },
     "RL": {
         "earningsDate": [
@@ -882,13 +889,6 @@
         ],
         "similar": "ILPT"
     },
-    "TUEMQ": {
-        "earningsDate": [
-            "2023-05-30",
-            "2023-05-31"
-        ],
-        "similar": "TGT"
-    },
     "TX": {
         "earningsDate": [
             "2023-07-31",
@@ -930,6 +930,12 @@
             "2023-08-11"
         ],
         "similar": "PYPL"
+    },
+    "USB": {
+        "earningsDate": [
+            "2023-07-19"
+        ],
+        "similar": "ZION"
     },
     "V": {
         "earningsDate": [
