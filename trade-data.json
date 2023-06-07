@@ -154,15 +154,9 @@
       },
       {
          "symbol":"C",
-         "type":"put",
-         "expiry":"2023-06-02",
-         "strike":38
-      },
-      {
-         "symbol":"C",
          "type":"call",
-         "expiry":"2023-06-02",
-         "strike":49
+         "expiry":"2023-06-16",
+         "strike":49.5
       },
       {
          "symbol":"COST",
@@ -193,12 +187,6 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":80
-      },
-      {
-         "symbol":"HOG",
-         "type":"put",
-         "expiry":"2023-06-02",
-         "strike":30
       },
       {
          "symbol":"KSS",
@@ -235,6 +223,12 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":65
+      },
+      {
+         "symbol":"PAYC",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":260
       },
       {
          "symbol":"PFE",
@@ -283,12 +277,6 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":40
-      },
-      {
-         "symbol":"UNP",
-         "type":"put",
-         "expiry":"2023-06-02",
-         "strike":175
       },
       {
          "symbol":"VALE",
