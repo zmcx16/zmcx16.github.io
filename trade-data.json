@@ -279,6 +279,12 @@
          "strike":40
       },
       {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":185
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2023-06-16",
