@@ -105,39 +105,21 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2023-06-09",
-         "strike":90
-      },
-      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2023-06-16",
          "strike":170
       },
       {
-         "symbol":"ALB",
+         "symbol":"AMZN",
          "type":"put",
-         "expiry":"2023-06-09",
-         "strike":160
+         "expiry":"2023-06-16",
+         "strike":112
       },
       {
          "symbol":"AMED",
          "type":"put",
          "expiry":"2023-06-16",
-         "strike":65
-      },
-      {
-         "symbol":"AMZN",
-         "type":"call",
-         "expiry":"2023-06-09",
-         "strike":134
-      },
-      {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2023-06-09",
          "strike":65
       },
       {
@@ -159,12 +141,6 @@
          "strike":49.5
       },
       {
-         "symbol":"COST",
-         "type":"put",
-         "expiry":"2023-06-09",
-         "strike":470
-      },
-      {
          "symbol":"CWH",
          "type":"put",
          "expiry":"2023-06-16",
@@ -175,12 +151,6 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":20
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2023-06-09",
-         "strike":96
       },
       {
          "symbol":"DIS",
@@ -225,6 +195,12 @@
          "strike":10
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2023-06-16",
+         "strike":100
+      },
+      {
          "symbol":"NFLX",
          "type":"put",
          "expiry":"2023-06-16",
@@ -243,12 +219,6 @@
          "strike":260
       },
       {
-         "symbol":"PFE",
-         "type":"put",
-         "expiry":"2023-06-09",
-         "strike":16
-      },
-      {
          "symbol":"PYPL",
          "type":"call",
          "expiry":"2023-06-16",
@@ -262,21 +232,9 @@
       },
       {
          "symbol":"QCOM",
-         "type":"call",
-         "expiry":"2023-06-09",
-         "strike":127
-      },
-      {
-         "symbol":"QCOM",
          "type":"put",
          "expiry":"2023-06-23",
          "strike":90
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2023-06-09",
-         "strike":145
       },
       {
          "symbol":"TGT",
@@ -313,12 +271,6 @@
          "type":"call",
          "expiry":"2023-06-23",
          "strike":20
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-06-09",
-         "strike":44
       },
       {
          "symbol":"X",
