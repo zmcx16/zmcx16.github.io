@@ -81,13 +81,6 @@
         ],
         "similar": "-"
     },
-    "BBBYQ": {
-        "earningsDate": [
-            "2023-06-27",
-            "2023-07-03"
-        ],
-        "similar": "AAP"
-    },
     "BIG": {
         "earningsDate": [
             "2023-08-28",
@@ -120,6 +113,13 @@
             "2023-07-14"
         ],
         "similar": "-"
+    },
+    "CASY": {
+        "earningsDate": [
+            "2023-09-05",
+            "2023-09-11"
+        ],
+        "similar": "AAP"
     },
     "CFG": {
         "earningsDate": [
@@ -188,13 +188,6 @@
         ],
         "similar": "AMZN"
     },
-    "CTRE": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "MPW"
-    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -223,12 +216,26 @@
         ],
         "similar": "TGT"
     },
+    "DHC": {
+        "earningsDate": [
+            "2023-08-01",
+            "2023-08-07"
+        ],
+        "similar": "MPW"
+    },
     "DIS": {
         "earningsDate": [
             "2023-08-08",
             "2023-08-14"
         ],
         "similar": "-"
+    },
+    "DLMAF": {
+        "earningsDate": [
+            "2023-09-07",
+            "2023-09-11"
+        ],
+        "similar": "TGT"
     },
     "DLTR": {
         "earningsDate": [
@@ -548,7 +555,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-06-08",
+            "2023-06-09",
             "2023-06-12"
         ],
         "similar": "DIS"
@@ -593,6 +600,13 @@
             "2017-02-27"
         ],
         "similar": "SID"
+    },
+    "MTB": {
+        "earningsDate": [
+            "2023-07-18",
+            "2023-07-24"
+        ],
+        "similar": "ZION"
     },
     "MU": {
         "earningsDate": [
@@ -884,13 +898,6 @@
             "2023-08-07"
         ],
         "similar": "ILPT"
-    },
-    "TUEMQ": {
-        "earningsDate": [
-            "2023-05-30",
-            "2023-05-31"
-        ],
-        "similar": "TGT"
     },
     "TX": {
         "earningsDate": [
