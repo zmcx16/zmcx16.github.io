@@ -99,7 +99,7 @@
         "earningsDate": [
             "2023-08-29"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "BNS": {
         "earningsDate": [
@@ -146,6 +146,12 @@
             "2023-07-21"
         ],
         "similar": "-"
+    },
+    "CMC": {
+        "earningsDate": [
+            "2023-06-22"
+        ],
+        "similar": "SID"
     },
     "CMRE": {
         "earningsDate": [
@@ -417,12 +423,6 @@
         ],
         "similar": "MPW"
     },
-    "HUDI": {
-        "earningsDate": [
-            "2022-02-02"
-        ],
-        "similar": "SID"
-    },
     "ILPT": {
         "earningsDate": [
             "2023-07-24",
@@ -555,8 +555,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-06-09",
-            "2023-06-12"
+            "2023-06-16",
+            "2023-06-19"
         ],
         "similar": "DIS"
     },
@@ -601,13 +601,6 @@
         ],
         "similar": "SID"
     },
-    "MTB": {
-        "earningsDate": [
-            "2023-07-18",
-            "2023-07-24"
-        ],
-        "similar": "ZION"
-    },
     "MU": {
         "earningsDate": [
             "2023-06-28"
@@ -639,7 +632,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "NVDA": {
         "earningsDate": [
