@@ -34,6 +34,13 @@
         ],
         "similar": "-"
     },
+    "APRN": {
+        "earningsDate": [
+            "2023-08-07",
+            "2023-08-11"
+        ],
+        "similar": "AMZN"
+    },
     "ARGO": {
         "earningsDate": [
             "2023-08-07",
@@ -99,7 +106,7 @@
         "earningsDate": [
             "2023-08-29"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "BNS": {
         "earningsDate": [
@@ -312,13 +319,6 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2023-08-29",
-            "2023-09-04"
-        ],
-        "similar": "AAP"
-    },
     "FR": {
         "earningsDate": [
             "2023-07-18",
@@ -381,13 +381,6 @@
             "2023-07-31"
         ],
         "similar": "AAP"
-    },
-    "GRIN": {
-        "earningsDate": [
-            "2023-08-15",
-            "2023-08-21"
-        ],
-        "similar": "ZIM"
     },
     "GSL": {
         "earningsDate": [
@@ -454,13 +447,6 @@
         "earningsDate": [
             "2020-08-11",
             "2020-08-17"
-        ],
-        "similar": "AMZN"
-    },
-    "JMIA": {
-        "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
         ],
         "similar": "AMZN"
     },
@@ -632,7 +618,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -644,7 +630,7 @@
         "earningsDate": [
             "2023-07-24"
         ],
-        "similar": "QCOM"
+        "similar": "INTC"
     },
     "OHI": {
         "earningsDate": [
@@ -839,12 +825,26 @@
         ],
         "similar": "ILPT"
     },
+    "SFL": {
+        "earningsDate": [
+            "2023-08-15",
+            "2023-08-21"
+        ],
+        "similar": "ZIM"
+    },
     "SIGI": {
         "earningsDate": [
             "2023-08-01",
             "2023-08-07"
         ],
         "similar": "STC"
+    },
+    "SIRI": {
+        "earningsDate": [
+            "2023-07-26",
+            "2023-07-31"
+        ],
+        "similar": "DIS"
     },
     "SOFI": {
         "earningsDate": [
@@ -1000,6 +1000,13 @@
             "2023-08-17"
         ],
         "similar": "TGT"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
+        ],
+        "similar": "AAP"
     },
     "ZEUS": {
         "earningsDate": [
