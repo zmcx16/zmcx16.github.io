@@ -106,7 +106,7 @@
         "earningsDate": [
             "2023-08-29"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "BNS": {
         "earningsDate": [
@@ -153,12 +153,6 @@
             "2023-07-21"
         ],
         "similar": "-"
-    },
-    "CMC": {
-        "earningsDate": [
-            "2023-06-22"
-        ],
-        "similar": "SID"
     },
     "CMRE": {
         "earningsDate": [
@@ -618,7 +612,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "NVDA": {
         "earningsDate": [
@@ -770,6 +764,12 @@
         ],
         "similar": "DIS"
     },
+    "RS": {
+        "earningsDate": [
+            "2023-07-27"
+        ],
+        "similar": "SID"
+    },
     "RY": {
         "earningsDate": [
             "2023-08-24"
@@ -806,8 +806,7 @@
     },
     "SCHN": {
         "earningsDate": [
-            "2023-06-27",
-            "2023-07-03"
+            "2023-06-27"
         ],
         "similar": "SID"
     },
