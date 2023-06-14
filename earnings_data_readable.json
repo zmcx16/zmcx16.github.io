@@ -188,13 +188,6 @@
         ],
         "similar": "TGT"
     },
-    "CPNG": {
-        "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
-        ],
-        "similar": "AMZN"
-    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -236,6 +229,13 @@
             "2023-08-14"
         ],
         "similar": "-"
+    },
+    "DKS": {
+        "earningsDate": [
+            "2023-08-21",
+            "2023-08-25"
+        ],
+        "similar": "AAP"
     },
     "DLMAF": {
         "earningsDate": [
@@ -320,6 +320,12 @@
         ],
         "similar": "ILPT"
     },
+    "FTCH": {
+        "earningsDate": [
+            "2023-05-18"
+        ],
+        "similar": "AMZN"
+    },
     "GBLI": {
         "earningsDate": [
             "2023-08-07",
@@ -333,13 +339,6 @@
             "2023-09-11"
         ],
         "similar": "VFC"
-    },
-    "GME": {
-        "earningsDate": [
-            "2023-09-05",
-            "2023-09-11"
-        ],
-        "similar": "AAP"
     },
     "GMRE": {
         "earningsDate": [
@@ -764,12 +763,6 @@
         ],
         "similar": "DIS"
     },
-    "RS": {
-        "earningsDate": [
-            "2023-07-27"
-        ],
-        "similar": "SID"
-    },
     "RY": {
         "earningsDate": [
             "2023-08-24"
@@ -932,6 +925,13 @@
             "2023-08-11"
         ],
         "similar": "PYPL"
+    },
+    "USAP": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "SID"
     },
     "USB": {
         "earningsDate": [
