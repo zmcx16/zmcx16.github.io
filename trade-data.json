@@ -111,6 +111,18 @@
          "strike":170
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-06-23",
+         "strike":197.5
+      },
+      {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2023-06-23",
+         "strike":202.5
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2023-06-16",
@@ -121,6 +133,12 @@
          "type":"call",
          "expiry":"2023-06-16",
          "strike":135
+      },
+      {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2023-06-30",
+         "strike":113
       },
       {
          "symbol":"AMED",
@@ -181,6 +199,12 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":100
+      },
+      {
+         "symbol":"IIPR",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":60
       },
       {
          "symbol":"KSS",
@@ -265,6 +289,12 @@
          "type":"put",
          "expiry":"2023-06-16",
          "strike":120
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-06-23",
+         "strike":118
       },
       {
          "symbol":"TM",
