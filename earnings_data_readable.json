@@ -153,12 +153,6 @@
         ],
         "similar": "-"
     },
-    "CMC": {
-        "earningsDate": [
-            "2023-06-22"
-        ],
-        "similar": "SID"
-    },
     "CMRE": {
         "earningsDate": [
             "2023-07-26",
@@ -258,8 +252,7 @@
     },
     "DOC": {
         "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
+            "2023-08-03"
         ],
         "similar": "MPW"
     },
@@ -338,13 +331,6 @@
             "2023-09-11"
         ],
         "similar": "VFC"
-    },
-    "GME": {
-        "earningsDate": [
-            "2023-09-05",
-            "2023-09-11"
-        ],
-        "similar": "AAP"
     },
     "GMRE": {
         "earningsDate": [
@@ -511,12 +497,26 @@
         ],
         "similar": "MPW"
     },
+    "LU": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "PYPL"
+    },
     "LXP": {
         "earningsDate": [
             "2023-08-02",
             "2023-08-07"
         ],
         "similar": "ILPT"
+    },
+    "LYV": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -586,6 +586,13 @@
             "2023-06-28"
         ],
         "similar": "INTC"
+    },
+    "NAT": {
+        "earningsDate": [
+            "2023-08-28",
+            "2023-09-01"
+        ],
+        "similar": "ZIM"
     },
     "NFLX": {
         "earningsDate": [
@@ -770,6 +777,12 @@
         ],
         "similar": "DIS"
     },
+    "RS": {
+        "earningsDate": [
+            "2023-07-27"
+        ],
+        "similar": "SID"
+    },
     "RY": {
         "earningsDate": [
             "2023-08-24"
@@ -824,26 +837,12 @@
         ],
         "similar": "ILPT"
     },
-    "SFL": {
-        "earningsDate": [
-            "2023-08-15",
-            "2023-08-21"
-        ],
-        "similar": "ZIM"
-    },
     "SIGI": {
         "earningsDate": [
             "2023-08-01",
             "2023-08-07"
         ],
         "similar": "STC"
-    },
-    "SIRI": {
-        "earningsDate": [
-            "2023-07-26",
-            "2023-07-31"
-        ],
-        "similar": "DIS"
     },
     "SOFI": {
         "earningsDate": [
@@ -890,6 +889,13 @@
             "2023-08-07"
         ],
         "similar": "ILPT"
+    },
+    "TSCO": {
+        "earningsDate": [
+            "2023-07-19",
+            "2023-07-24"
+        ],
+        "similar": "AAP"
     },
     "TX": {
         "earningsDate": [
@@ -1006,13 +1012,6 @@
             "2023-08-28"
         ],
         "similar": "AAP"
-    },
-    "WU": {
-        "earningsDate": [
-            "2023-08-01",
-            "2023-08-07"
-        ],
-        "similar": "PYPL"
     },
     "ZEUS": {
         "earningsDate": [
