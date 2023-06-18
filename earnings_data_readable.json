@@ -33,13 +33,6 @@
         ],
         "similar": "-"
     },
-    "APRN": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AMZN"
-    },
     "ARGO": {
         "earningsDate": [
             "2023-08-07",
@@ -107,12 +100,6 @@
             "2023-08-21"
         ],
         "similar": "TGT"
-    },
-    "BMO": {
-        "earningsDate": [
-            "2023-08-29"
-        ],
-        "similar": "C"
     },
     "BNS": {
         "earningsDate": [
@@ -999,6 +986,13 @@
             "2023-07-14"
         ],
         "similar": "-"
+    },
+    "WISH": {
+        "earningsDate": [
+            "2023-08-07",
+            "2023-08-11"
+        ],
+        "similar": "AMZN"
     },
     "WMT": {
         "earningsDate": [
