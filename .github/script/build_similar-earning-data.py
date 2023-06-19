@@ -101,6 +101,7 @@ if __name__ == "__main__":
         logging.info(f'get {symbol} data')
         data = get_stock_data_by_browser(symbol, RETRY_SEND_REQUEST)
         if data is None:
+            logging.warning('no data on ' + symbol)
             continue
 
         earningsDate = []
@@ -108,6 +109,10 @@ if __name__ == "__main__":
         if "QuoteSummaryStore" not in stores:
             logging.warning('may occur encrypted data, skip going')
             exit(-3)
+
+        if 'calendarEvents' not in stores["QuoteSummaryStore"] or 'earnings' not in stores["QuoteSummaryStore"]['calendarEvents'] or 'earningsDate' not in stores["QuoteSummaryStore"]['calendarEvents']['earnings']:
+            logging.warning('no earnings data on ' + symbol)
+            continue
 
         for d in stores["QuoteSummaryStore"]['calendarEvents']['earnings']['earningsDate']:
             earningsDate.append(d['fmt'])
