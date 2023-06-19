@@ -131,6 +131,10 @@ if __name__ == "__main__":
                 exit(-3)
 
             earningsDate = []
+            
+            if 'calendarEvents' not in similar_stores["QuoteSummaryStore"] or 'earnings' not in similar_stores["QuoteSummaryStore"]['calendarEvents'] or 'earningsDate' not in similar_stores["QuoteSummaryStore"]['calendarEvents']['earnings']:
+                logging.warning('no earnings data on ' + similar["symbol"])
+                continue
             for d in similar_stores['QuoteSummaryStore']['calendarEvents']['earnings']['earningsDate']:
                 earningsDate.append(d['fmt'])
             if len(earningsDate) > 0 and similar["symbol"] not in output:
