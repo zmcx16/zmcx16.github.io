@@ -157,6 +157,12 @@
          "strike":35
       },
       {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":32
+      },
+      {
          "symbol":"IIPR",
          "type":"put",
          "expiry":"2023-07-21",
@@ -181,6 +187,18 @@
          "strike":10
       },
       {
+         "symbol":"MXL",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":25
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":340
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2023-06-23",
@@ -191,6 +209,12 @@
          "type":"put",
          "expiry":"2023-06-23",
          "strike":118
+      },
+      {
+         "symbol":"TRMB",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":45
       },
       {
          "symbol":"VFC",
