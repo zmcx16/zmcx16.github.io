@@ -154,8 +154,7 @@
     },
     "COF": {
         "earningsDate": [
-            "2023-07-19",
-            "2023-07-24"
+            "2023-07-20"
         ],
         "similar": "PYPL"
     },
@@ -321,7 +320,7 @@
             "2023-08-23",
             "2023-08-28"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GOOS": {
         "earningsDate": [
@@ -500,10 +499,15 @@
         ],
         "similar": "PYPL"
     },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-08-04"
+        ],
+        "similar": "ZIM"
+    },
     "MANU": {
         "earningsDate": [
-            "2023-06-26",
-            "2023-07-11"
+            "2023-06-27"
         ],
         "similar": "DIS"
     },
@@ -547,13 +551,6 @@
             "2023-06-28"
         ],
         "similar": "INTC"
-    },
-    "NAT": {
-        "earningsDate": [
-            "2023-08-28",
-            "2023-09-01"
-        ],
-        "similar": "ZIM"
     },
     "NFLX": {
         "earningsDate": [
@@ -633,7 +630,7 @@
             "2023-07-18",
             "2023-07-24"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PARA": {
         "earningsDate": [
@@ -702,12 +699,6 @@
         ],
         "similar": "ILPT"
     },
-    "RF": {
-        "earningsDate": [
-            "2023-07-21"
-        ],
-        "similar": "CMA"
-    },
     "RH": {
         "earningsDate": [
             "2023-09-06",
@@ -760,6 +751,13 @@
             "2023-08-07"
         ],
         "similar": "STC"
+    },
+    "SB": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "DAC"
     },
     "SBLK": {
         "earningsDate": [
@@ -939,8 +937,7 @@
     },
     "WBD": {
         "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
+            "2023-08-03"
         ],
         "similar": "DIS"
     },
