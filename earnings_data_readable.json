@@ -33,13 +33,6 @@
         ],
         "similar": "STC"
     },
-    "ASC": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "DAC"
-    },
     "AVGO": {
         "earningsDate": [
             "2023-08-30",
@@ -87,12 +80,6 @@
         ],
         "similar": "TGT"
     },
-    "BMO": {
-        "earningsDate": [
-            "2023-08-29"
-        ],
-        "similar": "WFC"
-    },
     "BMO.TO": {
         "earningsDate": [
             "2023-08-29"
@@ -125,12 +112,26 @@
         ],
         "similar": "CMA"
     },
+    "CGX.TO": {
+        "earningsDate": [
+            "2023-08-09",
+            "2023-08-14"
+        ],
+        "similar": "DIS"
+    },
     "CHPT": {
         "earningsDate": [
             "2023-08-07",
             "2023-08-11"
         ],
         "similar": "AAP"
+    },
+    "CM": {
+        "earningsDate": [
+            "2023-08-23",
+            "2023-08-28"
+        ],
+        "similar": "WFC"
     },
     "CM.TO": {
         "earningsDate": [
@@ -178,6 +179,12 @@
         ],
         "similar": "TGT"
     },
+    "CSNA3.SA": {
+        "earningsDate": [
+            "2023-08-02"
+        ],
+        "similar": "SID"
+    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -191,6 +198,13 @@
             "2023-08-14"
         ],
         "similar": "KSS"
+    },
+    "DFS": {
+        "earningsDate": [
+            "2023-07-18",
+            "2023-07-24"
+        ],
+        "similar": "PYPL"
     },
     "DG": {
         "earningsDate": [
@@ -274,6 +288,13 @@
         ],
         "similar": "CMA"
     },
+    "FIGS": {
+        "earningsDate": [
+            "2023-08-05",
+            "2023-08-09"
+        ],
+        "similar": "VFC"
+    },
     "FITB": {
         "earningsDate": [
             "2023-07-20"
@@ -294,13 +315,6 @@
         ],
         "similar": "STC"
     },
-    "GIII": {
-        "earningsDate": [
-            "2023-09-05",
-            "2023-09-11"
-        ],
-        "similar": "VFC"
-    },
     "GMRE": {
         "earningsDate": [
             "2023-08-01",
@@ -320,7 +334,7 @@
             "2023-08-23",
             "2023-08-28"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GOOS": {
         "earningsDate": [
@@ -451,13 +465,6 @@
         ],
         "similar": "VFC"
     },
-    "LC": {
-        "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
-        ],
-        "similar": "PYPL"
-    },
     "LEVI": {
         "earningsDate": [
             "2023-07-06"
@@ -478,13 +485,6 @@
         ],
         "similar": "ILPT"
     },
-    "LYV": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "DIS"
-    },
     "M": {
         "earningsDate": [
             "2023-08-21",
@@ -498,12 +498,6 @@
             "2023-07-31"
         ],
         "similar": "PYPL"
-    },
-    "MAERSK-B.CO": {
-        "earningsDate": [
-            "2023-08-04"
-        ],
-        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -630,7 +624,7 @@
             "2023-07-18",
             "2023-07-24"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "PARA": {
         "earningsDate": [
@@ -726,12 +720,6 @@
             "2023-07-31"
         ],
         "similar": "DIS"
-    },
-    "RS": {
-        "earningsDate": [
-            "2023-07-27"
-        ],
-        "similar": "SID"
     },
     "RY": {
         "earningsDate": [
@@ -905,7 +893,7 @@
         "earningsDate": [
             "2023-07-19"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "V": {
         "earningsDate": [
