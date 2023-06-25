@@ -129,20 +129,14 @@
       {
          "symbol":"ADSK",
          "type":"put",
-         "expiry":"2023-06-23",
-         "strike":197.5
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
          "expiry":"2023-07-28",
          "strike":185
       },
       {
          "symbol":"ALB",
          "type":"put",
-         "expiry":"2023-06-23",
-         "strike":202.5
+         "expiry":"2023-06-30",
+         "strike":195
       },
       {
          "symbol":"AMT",
@@ -223,12 +217,6 @@
          "strike":30
       },
       {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2023-06-23",
-         "strike":90
-      },
-      {
          "symbol":"MPW",
          "type":"call",
          "expiry":"2023-07-21",
@@ -255,8 +243,8 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2023-06-23",
-         "strike":90
+         "expiry":"2023-06-30",
+         "strike":107
       },
       {
          "symbol":"QCOM",
@@ -267,14 +255,14 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2023-06-23",
-         "strike":118
+         "expiry":"2023-06-30",
+         "strike":122
       },
       {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2023-06-30",
-         "strike":122
+         "strike":124
       },
       {
          "symbol":"TGT",
@@ -295,28 +283,10 @@
          "strike":192.5
       },
       {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2023-06-23",
-         "strike":20
-      },
-      {
          "symbol":"VZ",
          "type":"put",
          "expiry":"2023-07-07",
          "strike":32
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-06-23",
-         "strike":44.5
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2023-06-23",
-         "strike":16
       },
       {
          "symbol":"X",
