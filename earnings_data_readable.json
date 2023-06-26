@@ -80,11 +80,11 @@
         ],
         "similar": "TGT"
     },
-    "BMO.TO": {
+    "BMO": {
         "earningsDate": [
             "2023-08-29"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "BNS": {
         "earningsDate": [
@@ -179,12 +179,6 @@
         ],
         "similar": "TGT"
     },
-    "CSNA3.SA": {
-        "earningsDate": [
-            "2023-08-02"
-        ],
-        "similar": "SID"
-    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -274,13 +268,6 @@
             "2023-08-14"
         ],
         "similar": "DAC"
-    },
-    "EVGO": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AAP"
     },
     "FHN": {
         "earningsDate": [
@@ -499,6 +486,12 @@
         ],
         "similar": "PYPL"
     },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-08-04"
+        ],
+        "similar": "ZIM"
+    },
     "MANU": {
         "earningsDate": [
             "2023-06-27"
@@ -570,7 +563,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -589,7 +582,7 @@
         "earningsDate": [
             "2023-07-24"
         ],
-        "similar": "INTC"
+        "similar": "QCOM"
     },
     "OHI": {
         "earningsDate": [
@@ -720,6 +713,12 @@
             "2023-07-31"
         ],
         "similar": "DIS"
+    },
+    "RS": {
+        "earningsDate": [
+            "2023-07-27"
+        ],
+        "similar": "SID"
     },
     "RY": {
         "earningsDate": [
@@ -949,6 +948,13 @@
         "similar": "TGT"
     },
     "WOOF": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
         "earningsDate": [
             "2023-08-22",
             "2023-08-28"
