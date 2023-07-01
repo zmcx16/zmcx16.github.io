@@ -133,22 +133,10 @@
          "strike":185
       },
       {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":195
-      },
-      {
          "symbol":"AMT",
          "type":"put",
          "expiry":"2023-07-21",
          "strike":170
-      },
-      {
-         "symbol":"AMZN",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":113
       },
       {
          "symbol":"BXMT",
@@ -163,40 +151,10 @@
          "strike":35
       },
       {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":41
-      },
-      {
-         "symbol":"C",
-         "type":"call",
-         "expiry":"2023-06-30",
-         "strike":50
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2023-06-30",
-         "strike":95
-      },
-      {
          "symbol":"GM",
          "type":"put",
          "expiry":"2023-07-21",
          "strike":32
-      },
-      {
-         "symbol":"GOOG",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":115
-      },
-      {
-         "symbol":"HOG",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":28
       },
       {
          "symbol":"HOG",
@@ -241,42 +199,6 @@
          "strike":340
       },
       {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2023-06-30",
-         "strike":76
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":107
-      },
-      {
-         "symbol":"QCOM",
-         "type":"call",
-         "expiry":"2023-06-30",
-         "strike":127
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":122
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2023-06-30",
-         "strike":124
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2023-06-30",
-         "strike":145
-      },
-      {
          "symbol":"TRMB",
          "type":"put",
          "expiry":"2023-07-21",
@@ -285,8 +207,8 @@
       {
          "symbol":"UNP",
          "type":"put",
-         "expiry":"2023-06-30",
-         "strike":192.5
+         "expiry":"2023-07-14",
+         "strike":195
       },
       {
          "symbol":"VZ",
