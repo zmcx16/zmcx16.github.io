@@ -33,13 +33,6 @@
         ],
         "similar": "STC"
     },
-    "ASO": {
-        "earningsDate": [
-            "2023-09-05",
-            "2023-09-11"
-        ],
-        "similar": "AAP"
-    },
     "AVGO": {
         "earningsDate": [
             "2023-08-30",
@@ -99,7 +92,7 @@
             "2023-08-21",
             "2023-08-25"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "C": {
         "earningsDate": [
@@ -220,13 +213,6 @@
         ],
         "similar": "TGT"
     },
-    "DMART.NS": {
-        "earningsDate": [
-            "2023-07-07",
-            "2023-07-11"
-        ],
-        "similar": "TGT"
-    },
     "DOC": {
         "earningsDate": [
             "2023-08-03"
@@ -256,8 +242,7 @@
     },
     "EGP": {
         "earningsDate": [
-            "2023-07-24",
-            "2023-07-28"
+            "2023-07-25"
         ],
         "similar": "ILPT"
     },
@@ -327,7 +312,7 @@
             "2023-08-23",
             "2023-08-28"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GOOS": {
         "earningsDate": [
@@ -375,13 +360,6 @@
             "2023-08-07"
         ],
         "similar": "STC"
-    },
-    "HR": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "MPW"
     },
     "ILPT": {
         "earningsDate": [
@@ -482,6 +460,12 @@
             "2023-07-31"
         ],
         "similar": "PYPL"
+    },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-08-04"
+        ],
+        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -632,6 +616,13 @@
         ],
         "similar": "DIS"
     },
+    "PEAK": {
+        "earningsDate": [
+            "2023-07-31",
+            "2023-08-04"
+        ],
+        "similar": "MPW"
+    },
     "PLYM": {
         "earningsDate": [
             "2023-08-01",
@@ -737,6 +728,13 @@
         ],
         "similar": "STC"
     },
+    "SB": {
+        "earningsDate": [
+            "2023-07-25",
+            "2023-07-31"
+        ],
+        "similar": "DAC"
+    },
     "SBLK": {
         "earningsDate": [
             "2023-08-02",
@@ -801,7 +799,7 @@
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "TFC": {
         "earningsDate": [
@@ -877,12 +875,6 @@
             "2023-08-11"
         ],
         "similar": "PYPL"
-    },
-    "USB": {
-        "earningsDate": [
-            "2023-07-19"
-        ],
-        "similar": "ZION"
     },
     "V": {
         "earningsDate": [
