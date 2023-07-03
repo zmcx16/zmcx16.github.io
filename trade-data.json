@@ -151,6 +151,12 @@
          "strike":35
       },
       {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-07-28",
+         "strike":97
+      },
+      {
          "symbol":"GM",
          "type":"put",
          "expiry":"2023-07-21",
@@ -181,6 +187,12 @@
          "strike":30
       },
       {
+         "symbol":"MED",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":75
+      },
+      {
          "symbol":"MPW",
          "type":"call",
          "expiry":"2023-07-21",
@@ -197,6 +209,12 @@
          "type":"put",
          "expiry":"2023-07-21",
          "strike":340
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-07-14",
+         "strike":74
       },
       {
          "symbol":"TRMB",
