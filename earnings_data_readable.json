@@ -92,7 +92,7 @@
             "2023-08-21",
             "2023-08-25"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "C": {
         "earningsDate": [
@@ -105,6 +105,13 @@
             "2023-07-19"
         ],
         "similar": "CMA"
+    },
+    "CGX.TO": {
+        "earningsDate": [
+            "2023-08-09",
+            "2023-08-14"
+        ],
+        "similar": "DIS"
     },
     "CHCT": {
         "earningsDate": [
@@ -125,7 +132,7 @@
             "2023-08-23",
             "2023-08-28"
         ],
-        "similar": "C"
+        "similar": "BAC"
     },
     "CMA": {
         "earningsDate": [
@@ -172,13 +179,6 @@
         ],
         "similar": "SID"
     },
-    "CUBE": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "ILPT"
-    },
     "DAC": {
         "earningsDate": [
             "2023-07-31",
@@ -208,8 +208,7 @@
     },
     "DIS": {
         "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
+            "2023-08-09"
         ],
         "similar": "-"
     },
@@ -308,17 +307,9 @@
     },
     "GNK": {
         "earningsDate": [
-            "2023-08-01",
-            "2023-08-07"
+            "2023-08-04"
         ],
         "similar": "DAC"
-    },
-    "GNUS": {
-        "earningsDate": [
-            "2023-08-15",
-            "2023-08-21"
-        ],
-        "similar": "DIS"
     },
     "GOGL": {
         "earningsDate": [
@@ -388,8 +379,7 @@
     },
     "INTC": {
         "earningsDate": [
-            "2023-07-26",
-            "2023-07-31"
+            "2023-07-26"
         ],
         "similar": "-"
     },
@@ -655,6 +645,13 @@
         ],
         "similar": "STC"
     },
+    "PRV-UN.TO": {
+        "earningsDate": [
+            "2023-08-08",
+            "2023-08-14"
+        ],
+        "similar": "ILPT"
+    },
     "PSMT": {
         "earningsDate": [
             "2023-07-10"
@@ -770,8 +767,7 @@
     },
     "SOFI": {
         "earningsDate": [
-            "2023-07-31",
-            "2023-08-04"
+            "2023-07-31"
         ],
         "similar": "PYPL"
     },
@@ -792,7 +788,7 @@
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "TFC": {
         "earningsDate": [
@@ -921,6 +917,13 @@
         "similar": "TGT"
     },
     "WOOF": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
         "earningsDate": [
             "2023-08-22",
             "2023-08-28"
