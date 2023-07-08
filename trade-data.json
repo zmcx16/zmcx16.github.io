@@ -127,6 +127,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"A",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":110
+      },
+      {
          "symbol":"ABNB",
          "type":"put",
          "expiry":"2023-07-14",
@@ -155,6 +161,12 @@
          "type":"put",
          "expiry":"2023-07-21",
          "strike":35
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":82
       },
       {
          "symbol":"DIS",
@@ -255,8 +267,8 @@
       {
          "symbol":"VZ",
          "type":"put",
-         "expiry":"2023-07-07",
-         "strike":32
+         "expiry":"2023-07-21",
+         "strike":35
       },
       {
          "symbol":"X",
