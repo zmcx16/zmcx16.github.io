@@ -80,6 +80,12 @@
         ],
         "similar": "TGT"
     },
+    "BMO.TO": {
+        "earningsDate": [
+            "2023-08-29"
+        ],
+        "similar": "WFC"
+    },
     "BNS": {
         "earningsDate": [
             "2023-08-21",
@@ -139,12 +145,6 @@
             "2023-07-21"
         ],
         "similar": "-"
-    },
-    "CMC": {
-        "earningsDate": [
-            "2023-06-22"
-        ],
-        "similar": "SID"
     },
     "CMRE": {
         "earningsDate": [
@@ -217,6 +217,13 @@
             "2023-08-09"
         ],
         "similar": "-"
+    },
+    "DKS": {
+        "earningsDate": [
+            "2023-08-21",
+            "2023-08-25"
+        ],
+        "similar": "AAP"
     },
     "DLTR": {
         "earningsDate": [
@@ -377,7 +384,7 @@
     },
     "INTC": {
         "earningsDate": [
-            "2023-07-26"
+            "2023-07-27"
         ],
         "similar": "-"
     },
@@ -462,12 +469,6 @@
             "2023-07-31"
         ],
         "similar": "PYPL"
-    },
-    "MAERSK-B.CO": {
-        "earningsDate": [
-            "2023-08-04"
-        ],
-        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -570,12 +571,6 @@
         ],
         "similar": "MPW"
     },
-    "NXPI": {
-        "earningsDate": [
-            "2023-07-24"
-        ],
-        "similar": "QCOM"
-    },
     "OHI": {
         "earningsDate": [
             "2023-07-31",
@@ -642,6 +637,13 @@
         ],
         "similar": "STC"
     },
+    "PRV-UN.TO": {
+        "earningsDate": [
+            "2023-08-08",
+            "2023-08-14"
+        ],
+        "similar": "ILPT"
+    },
     "PSMT": {
         "earningsDate": [
             "2023-07-10"
@@ -666,12 +668,6 @@
             "2023-08-02"
         ],
         "similar": "-"
-    },
-    "REXR": {
-        "earningsDate": [
-            "2023-07-19"
-        ],
-        "similar": "ILPT"
     },
     "RF": {
         "earningsDate": [
@@ -785,6 +781,13 @@
         ],
         "similar": "-"
     },
+    "SWKS": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "QCOM"
+    },
     "TD": {
         "earningsDate": [
             "2023-08-24"
@@ -795,7 +798,7 @@
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "TGT": {
         "earningsDate": [
@@ -931,12 +934,12 @@
         ],
         "similar": "AAP"
     },
-    "WSM": {
+    "ZEUS": {
         "earningsDate": [
-            "2023-08-22",
-            "2023-08-28"
+            "2023-08-02",
+            "2023-08-07"
         ],
-        "similar": "AAP"
+        "similar": "SID"
     },
     "ZIM": {
         "earningsDate": [
