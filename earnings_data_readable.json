@@ -388,13 +388,6 @@
         ],
         "similar": "-"
     },
-    "IQ": {
-        "earningsDate": [
-            "2023-08-28",
-            "2023-09-01"
-        ],
-        "similar": "DIS"
-    },
     "JPM": {
         "earningsDate": [
             "2023-07-14"
@@ -455,6 +448,13 @@
             "2023-08-07"
         ],
         "similar": "ILPT"
+    },
+    "LYV": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -571,6 +571,12 @@
         ],
         "similar": "MPW"
     },
+    "NXPI": {
+        "earningsDate": [
+            "2023-07-24"
+        ],
+        "similar": "QCOM"
+    },
     "OHI": {
         "earningsDate": [
             "2023-07-31",
@@ -637,13 +643,6 @@
         ],
         "similar": "STC"
     },
-    "PRV-UN.TO": {
-        "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
-        ],
-        "similar": "ILPT"
-    },
     "PSMT": {
         "earningsDate": [
             "2023-07-10"
@@ -668,6 +667,12 @@
             "2023-08-02"
         ],
         "similar": "-"
+    },
+    "REXR": {
+        "earningsDate": [
+            "2023-07-19"
+        ],
+        "similar": "ILPT"
     },
     "RF": {
         "earningsDate": [
@@ -780,13 +785,6 @@
             "2023-07-31"
         ],
         "similar": "-"
-    },
-    "SWKS": {
-        "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
-        ],
-        "similar": "QCOM"
     },
     "TD": {
         "earningsDate": [
