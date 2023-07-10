@@ -247,6 +247,12 @@
          "strike":76
       },
       {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-07-21",
+         "strike":126
+      },
+      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2023-07-14",
