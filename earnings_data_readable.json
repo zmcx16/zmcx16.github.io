@@ -118,7 +118,7 @@
             "2023-08-23",
             "2023-08-28"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "CMA": {
         "earningsDate": [
@@ -398,6 +398,12 @@
         ],
         "similar": "VFC"
     },
+    "LESL": {
+        "earningsDate": [
+            "2023-08-02"
+        ],
+        "similar": "AAP"
+    },
     "LEVI": {
         "earningsDate": [
             "2023-10-04",
@@ -548,12 +554,6 @@
         ],
         "similar": "TGT"
     },
-    "OLPX": {
-        "earningsDate": [
-            "2023-05-09"
-        ],
-        "similar": "AAP"
-    },
     "ON": {
         "earningsDate": [
             "2023-07-31"
@@ -679,17 +679,11 @@
         ],
         "similar": "DIS"
     },
-    "RY": {
-        "earningsDate": [
-            "2023-08-24"
-        ],
-        "similar": "WFC"
-    },
     "RY.TO": {
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "SAFT": {
         "earningsDate": [
@@ -767,7 +761,7 @@
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "TGT": {
         "earningsDate": [
@@ -863,6 +857,12 @@
             "2023-07-18"
         ],
         "similar": "CMA"
+    },
+    "WALMEX.MX": {
+        "earningsDate": [
+            "2023-07-27"
+        ],
+        "similar": "TGT"
     },
     "WBD": {
         "earningsDate": [
