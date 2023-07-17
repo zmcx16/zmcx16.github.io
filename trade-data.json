@@ -157,6 +157,18 @@
          "strike":35
       },
       {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-08-04",
+         "strike":42
+      },
+      {
+         "symbol":"C",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":47.5
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-07-21",
@@ -229,6 +241,12 @@
          "strike":290
       },
       {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-07-21",
+         "strike":79
+      },
+      {
          "symbol":"SSTK",
          "type":"put",
          "expiry":"2023-07-21",
@@ -247,10 +265,22 @@
          "strike":45
       },
       {
+         "symbol":"UNP",
+         "type":"put",
+         "expiry":"2023-07-21",
+         "strike":197.5
+      },
+      {
          "symbol":"VZ",
          "type":"put",
          "expiry":"2023-07-21",
          "strike":35
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-08-04",
+         "strike":47
       },
       {
          "symbol":"X",
