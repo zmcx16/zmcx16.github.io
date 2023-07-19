@@ -55,14 +55,13 @@
     },
     "BAC": {
         "earningsDate": [
-            "2023-07-18"
+            "2023-10-17"
         ],
         "similar": "-"
     },
     "BBY": {
         "earningsDate": [
-            "2023-08-28",
-            "2023-09-01"
+            "2023-08-29"
         ],
         "similar": "AAP"
     },
@@ -106,12 +105,24 @@
         ],
         "similar": "CMA"
     },
+    "CGX.TO": {
+        "earningsDate": [
+            "2023-08-10"
+        ],
+        "similar": "DIS"
+    },
     "CHPT": {
         "earningsDate": [
             "2023-08-07",
             "2023-08-11"
         ],
         "similar": "AAP"
+    },
+    "CJR-B.TO": {
+        "earningsDate": [
+            "2023-06-29"
+        ],
+        "similar": "DIS"
     },
     "CM.TO": {
         "earningsDate": [
@@ -253,6 +264,13 @@
             "2023-07-20"
         ],
         "similar": "CMA"
+    },
+    "GASS": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
+        ],
+        "similar": "DAC"
     },
     "GBLI": {
         "earningsDate": [
@@ -415,12 +433,6 @@
             "2023-08-02"
         ],
         "similar": "ILPT"
-    },
-    "LYV": {
-        "earningsDate": [
-            "2023-07-27"
-        ],
-        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -585,7 +597,8 @@
     },
     "PLD": {
         "earningsDate": [
-            "2023-07-18"
+            "2023-10-17",
+            "2023-10-23"
         ],
         "similar": "ILPT"
     },
@@ -597,7 +610,7 @@
     },
     "PNC": {
         "earningsDate": [
-            "2023-07-18"
+            "2023-10-13"
         ],
         "similar": "CMA"
     },
@@ -692,10 +705,9 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-08-02",
-            "2023-08-07"
+            "2023-08-03"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -744,8 +756,7 @@
     },
     "STC": {
         "earningsDate": [
-            "2023-07-25",
-            "2023-07-31"
+            "2023-07-26"
         ],
         "similar": "-"
     },
@@ -846,7 +857,7 @@
     },
     "WAL": {
         "earningsDate": [
-            "2023-07-18"
+            "2023-07-19"
         ],
         "similar": "CMA"
     },
@@ -883,8 +894,7 @@
     },
     "WOOF": {
         "earningsDate": [
-            "2023-08-22",
-            "2023-08-28"
+            "2023-08-24"
         ],
         "similar": "AAP"
     },
