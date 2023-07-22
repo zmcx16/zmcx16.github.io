@@ -42,7 +42,8 @@
     },
     "AXP": {
         "earningsDate": [
-            "2023-07-21"
+            "2023-10-19",
+            "2023-10-23"
         ],
         "similar": "PYPL"
     },
@@ -79,6 +80,12 @@
         ],
         "similar": "TGT"
     },
+    "BMO.TO": {
+        "earningsDate": [
+            "2023-08-29"
+        ],
+        "similar": "BAC"
+    },
     "BNS": {
         "earningsDate": [
             "2023-08-21",
@@ -105,26 +112,6 @@
         ],
         "similar": "CMA"
     },
-    "CGX.TO": {
-        "earningsDate": [
-            "2023-08-10"
-        ],
-        "similar": "DIS"
-    },
-    "CHPT": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AAP"
-    },
-    "CJR-B.TO": {
-        "earningsDate": [
-            "2023-10-19",
-            "2023-10-23"
-        ],
-        "similar": "DIS"
-    },
     "CM.TO": {
         "earningsDate": [
             "2023-08-23",
@@ -134,7 +121,7 @@
     },
     "CMA": {
         "earningsDate": [
-            "2023-07-21"
+            "2023-10-20"
         ],
         "similar": "-"
     },
@@ -168,6 +155,13 @@
             "2023-08-02"
         ],
         "similar": "SID"
+    },
+    "CTRE": {
+        "earningsDate": [
+            "2023-08-02",
+            "2023-08-07"
+        ],
+        "similar": "MPW"
     },
     "DAC": {
         "earningsDate": [
@@ -251,7 +245,7 @@
             "2023-10-16",
             "2023-10-20"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "FIGS": {
         "earningsDate": [
@@ -264,6 +258,13 @@
             "2023-10-19"
         ],
         "similar": "CMA"
+    },
+    "FR": {
+        "earningsDate": [
+            "2023-10-17",
+            "2023-10-23"
+        ],
+        "similar": "ILPT"
     },
     "GASS": {
         "earningsDate": [
@@ -312,8 +313,7 @@
     },
     "GSL": {
         "earningsDate": [
-            "2023-08-02",
-            "2023-08-06"
+            "2023-08-03"
         ],
         "similar": "DAC"
     },
@@ -326,7 +326,7 @@
     },
     "HBAN": {
         "earningsDate": [
-            "2023-07-21"
+            "2023-10-20"
         ],
         "similar": "CMA"
     },
@@ -432,6 +432,12 @@
         ],
         "similar": "ILPT"
     },
+    "LYV": {
+        "earningsDate": [
+            "2023-07-27"
+        ],
+        "similar": "DIS"
+    },
     "M": {
         "earningsDate": [
             "2023-08-21",
@@ -447,8 +453,7 @@
     },
     "MATX": {
         "earningsDate": [
-            "2023-07-31",
-            "2023-08-04"
+            "2023-08-01"
         ],
         "similar": "DAC"
     },
@@ -580,7 +585,7 @@
         "earningsDate": [
             "2023-07-25"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "PARA": {
         "earningsDate": [
@@ -594,13 +599,6 @@
             "2023-08-04"
         ],
         "similar": "MPW"
-    },
-    "PLD": {
-        "earningsDate": [
-            "2023-10-17",
-            "2023-10-23"
-        ],
-        "similar": "ILPT"
     },
     "PLYM": {
         "earningsDate": [
@@ -662,7 +660,7 @@
     },
     "RF": {
         "earningsDate": [
-            "2023-07-21"
+            "2023-10-20"
         ],
         "similar": "CMA"
     },
@@ -773,6 +771,12 @@
         ],
         "similar": "WFC"
     },
+    "TFC": {
+        "earningsDate": [
+            "2023-10-19"
+        ],
+        "similar": "ZION"
+    },
     "TGT": {
         "earningsDate": [
             "2023-08-16"
@@ -836,6 +840,12 @@
         ],
         "similar": "PYPL"
     },
+    "USB": {
+        "earningsDate": [
+            "2023-10-18"
+        ],
+        "similar": "ZION"
+    },
     "V": {
         "earningsDate": [
             "2023-07-25"
@@ -848,24 +858,12 @@
         ],
         "similar": "-"
     },
-    "VTR": {
-        "earningsDate": [
-            "2023-08-03"
-        ],
-        "similar": "MPW"
-    },
     "WAL": {
         "earningsDate": [
             "2023-10-18",
             "2023-10-23"
         ],
         "similar": "CMA"
-    },
-    "WALMEX.MX": {
-        "earningsDate": [
-            "2023-07-27"
-        ],
-        "similar": "TGT"
     },
     "WBD": {
         "earningsDate": [
@@ -895,6 +893,13 @@
     "WOOF": {
         "earningsDate": [
             "2023-08-24"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
         ],
         "similar": "AAP"
     },
