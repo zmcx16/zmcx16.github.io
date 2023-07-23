@@ -257,6 +257,7 @@
          "CMA":"Comerica Incorporated",
          "ZION":"Zions Bancorporation",
          "VFC":"V.F. Corporation",
+         "VZ":"Verizon Communications Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -727,6 +728,7 @@
       "CMA":"28412",
       "ZION":"109380",
       "VFC":"103379",
+	  "VZ":"732712",
       "STC":"94344"
    },
    "portfolio":{
