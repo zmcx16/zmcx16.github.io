@@ -123,10 +123,22 @@
          "strike":185
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-07-28",
+         "strike":195
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2023-07-28",
          "strike":215
+      },
+      {
+         "symbol":"BAC",
+         "type":"call",
+         "expiry":"2023-08-11",
+         "strike":34
       },
       {
          "symbol":"C",
@@ -139,6 +151,24 @@
          "type":"call",
          "expiry":"2023-07-28",
          "strike":97
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2023-08-04",
+         "strike":81
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-07-28",
+         "strike":80
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-07-28",
+         "strike":136
       },
       {
          "symbol":"TGT",
