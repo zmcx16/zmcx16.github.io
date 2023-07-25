@@ -184,7 +184,7 @@
       },
       {
          "symbol":"WFC",
-         "type":"put",
+         "type":"call",
          "expiry":"2023-08-04",
          "strike":47
       }
