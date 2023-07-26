@@ -159,6 +159,18 @@
          "strike":81
       },
       {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-08-04",
+         "strike":29
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2023-08-04",
+         "strike":101
+      },
+      {
          "symbol":"PYPL",
          "type":"call",
          "expiry":"2023-07-28",
@@ -181,6 +193,12 @@
          "type":"call",
          "expiry":"2023-07-28",
          "strike":20.5
+      },
+      {
+         "symbol":"VZ",
+         "type":"call",
+         "expiry":"2023-08-04",
+         "strike":35.5
       },
       {
          "symbol":"WFC",
