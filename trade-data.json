@@ -147,6 +147,12 @@
          "strike":42
       },
       {
+         "symbol":"C",
+         "type":"call",
+         "expiry":"2023-08-04",
+         "strike":49.5
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2023-07-28",
