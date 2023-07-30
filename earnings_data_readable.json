@@ -25,6 +25,12 @@
         ],
         "similar": "INTC"
     },
+    "ARGO": {
+        "earningsDate": [
+            "2023-08-07"
+        ],
+        "similar": "STC"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-08-30",
@@ -57,19 +63,13 @@
             "2023-10-18",
             "2023-10-23"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "BBY": {
         "earningsDate": [
             "2023-08-29"
         ],
         "similar": "AAP"
-    },
-    "BCE": {
-        "earningsDate": [
-            "2023-08-03"
-        ],
-        "similar": "VZ"
     },
     "BCE.TO": {
         "earningsDate": [
@@ -122,6 +122,13 @@
             "2023-10-18"
         ],
         "similar": "CMA"
+    },
+    "CHTR": {
+        "earningsDate": [
+            "2023-10-26",
+            "2023-10-30"
+        ],
+        "similar": "VZ"
     },
     "CM.TO": {
         "earningsDate": [
@@ -254,6 +261,13 @@
         ],
         "similar": "DAC"
     },
+    "FHN": {
+        "earningsDate": [
+            "2023-10-16",
+            "2023-10-20"
+        ],
+        "similar": "CMA"
+    },
     "FIGS": {
         "earningsDate": [
             "2023-08-03"
@@ -273,13 +287,6 @@
         ],
         "similar": "ILPT"
     },
-    "GASS": {
-        "earningsDate": [
-            "2023-08-22",
-            "2023-08-28"
-        ],
-        "similar": "DAC"
-    },
     "GBLI": {
         "earningsDate": [
             "2023-08-08"
@@ -290,7 +297,7 @@
         "earningsDate": [
             "2023-08-04"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GOGL": {
         "earningsDate": [
@@ -329,12 +336,6 @@
             "2023-08-10"
         ],
         "similar": "VFC"
-    },
-    "HCI": {
-        "earningsDate": [
-            "2023-08-08"
-        ],
-        "similar": "STC"
     },
     "HMN": {
         "earningsDate": [
@@ -477,7 +478,7 @@
         "earningsDate": [
             "2023-08-01"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "MCY": {
         "earningsDate": [
@@ -497,6 +498,13 @@
             "2017-02-27"
         ],
         "similar": "SID"
+    },
+    "MTB": {
+        "earningsDate": [
+            "2023-10-17",
+            "2023-10-23"
+        ],
+        "similar": "CMA"
     },
     "MU": {
         "earningsDate": [
@@ -708,7 +716,7 @@
         "earningsDate": [
             "2023-08-03"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SCHN": {
         "earningsDate": [
@@ -791,7 +799,7 @@
         "earningsDate": [
             "2023-10-19"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
