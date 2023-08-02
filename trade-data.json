@@ -153,10 +153,22 @@
          "strike":29
       },
       {
+         "symbol":"MA",
+         "type":"put",
+         "expiry":"2023-08-11",
+         "strike":377.5
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2023-08-04",
          "strike":101
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-08-11",
+         "strike":124
       },
       {
          "symbol":"TGT",
