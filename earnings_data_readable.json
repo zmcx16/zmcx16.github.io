@@ -8,7 +8,7 @@
     },
     "ALB": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-08-03"
         ],
         "similar": "-"
     },
@@ -75,13 +75,19 @@
             "2023-10-18",
             "2023-10-23"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "BBY": {
         "earningsDate": [
             "2023-08-29"
         ],
         "similar": "AAP"
+    },
+    "BCE": {
+        "earningsDate": [
+            "2023-08-03"
+        ],
+        "similar": "VZ"
     },
     "BCE.TO": {
         "earningsDate": [
@@ -101,12 +107,6 @@
             "2023-08-22"
         ],
         "similar": "TGT"
-    },
-    "BMO.TO": {
-        "earningsDate": [
-            "2023-08-29"
-        ],
-        "similar": "BAC"
     },
     "BNS": {
         "earningsDate": [
@@ -133,13 +133,6 @@
             "2023-10-18"
         ],
         "similar": "CMA"
-    },
-    "CHPT": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AAP"
     },
     "CHTR": {
         "earningsDate": [
@@ -197,7 +190,7 @@
     },
     "CSNA3.SA": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-08-03"
         ],
         "similar": "SID"
     },
@@ -378,7 +371,8 @@
     },
     "HMN": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-01",
+            "2023-11-06"
         ],
         "similar": "STC"
     },
@@ -411,17 +405,9 @@
     },
     "IQ": {
         "earningsDate": [
-            "2023-08-28",
-            "2023-09-01"
+            "2023-08-22"
         ],
         "similar": "DIS"
-    },
-    "IRDM": {
-        "earningsDate": [
-            "2023-10-18",
-            "2023-10-23"
-        ],
-        "similar": "VZ"
     },
     "JPM": {
         "earningsDate": [
@@ -495,7 +481,8 @@
     },
     "LXP": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-01",
+            "2023-11-06"
         ],
         "similar": "ILPT"
     },
@@ -544,7 +531,7 @@
         "earningsDate": [
             "2023-08-24"
         ],
-        "similar": "QCOM"
+        "similar": "INTC"
     },
     "MT": {
         "earningsDate": [
@@ -558,7 +545,7 @@
             "2023-10-17",
             "2023-10-23"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "MU": {
         "earningsDate": [
@@ -583,8 +570,8 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-08-02",
-            "2023-08-03"
+            "2023-08-08",
+            "2023-08-09"
         ],
         "similar": "DAC"
     },
@@ -610,7 +597,7 @@
         "earningsDate": [
             "2023-07-25"
         ],
-        "similar": "INTC"
+        "similar": "QCOM"
     },
     "NXR-UN.TO": {
         "earningsDate": [
@@ -706,13 +693,15 @@
     },
     "PYPL": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-01",
+            "2023-11-06"
         ],
         "similar": "-"
     },
     "QCOM": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-10-31",
+            "2023-11-06"
         ],
         "similar": "-"
     },
@@ -812,7 +801,7 @@
     },
     "SIGI": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-08-03"
         ],
         "similar": "STC"
     },
@@ -910,7 +899,8 @@
     },
     "TX": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-01",
+            "2023-11-06"
         ],
         "similar": "SID"
     },
@@ -1001,6 +991,13 @@
     "WOOF": {
         "earningsDate": [
             "2023-08-24"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2023-08-22",
+            "2023-08-28"
         ],
         "similar": "AAP"
     },
