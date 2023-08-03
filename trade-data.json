@@ -123,6 +123,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AMT",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":175
+      },
+      {
          "symbol":"BAC",
          "type":"call",
          "expiry":"2023-08-11",
@@ -145,6 +151,12 @@
          "type":"put",
          "expiry":"2023-08-04",
          "strike":81
+      },
+      {
+         "symbol":"INTC",
+         "type":"call",
+         "expiry":"2023-08-25",
+         "strike":39
       },
       {
          "symbol":"KSS",
