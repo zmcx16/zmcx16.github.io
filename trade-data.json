@@ -123,6 +123,24 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABR",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":12.5
+      },
+      {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-08-11",
+         "strike":190
+      },
+      {
+         "symbol":"ALB",
+         "type":"call",
+         "expiry":"2023-08-11",
+         "strike":227.5
+      },
+      {
          "symbol":"AMT",
          "type":"put",
          "expiry":"2023-08-18",
@@ -135,34 +153,22 @@
          "strike":34
       },
       {
-         "symbol":"C",
+         "symbol":"CVS",
          "type":"put",
-         "expiry":"2023-08-04",
-         "strike":42
+         "expiry":"2023-08-11",
+         "strike":70
       },
       {
-         "symbol":"C",
-         "type":"call",
-         "expiry":"2023-08-04",
-         "strike":49.5
-      },
-      {
-         "symbol":"DIS",
+         "symbol":"IIPR",
          "type":"put",
-         "expiry":"2023-08-04",
-         "strike":81
+         "expiry":"2023-08-18",
+         "strike":70
       },
       {
          "symbol":"INTC",
          "type":"call",
          "expiry":"2023-08-25",
          "strike":39
-      },
-      {
-         "symbol":"KSS",
-         "type":"call",
-         "expiry":"2023-08-04",
-         "strike":29
       },
       {
          "symbol":"MA",
@@ -189,22 +195,16 @@
          "strike":146
       },
       {
+         "symbol":"VFC",
+         "type":"call",
+         "expiry":"2023-08-11",
+         "strike":20.5
+      },
+      {
          "symbol":"ZION",
          "type":"call",
          "expiry":"2023-08-18",
          "strike":42.5
-      },
-      {
-         "symbol":"VZ",
-         "type":"call",
-         "expiry":"2023-08-04",
-         "strike":35.5
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-08-04",
-         "strike":47
       }
    ],
    "news_config":{
