@@ -51,13 +51,6 @@
         ],
         "similar": "INTC"
     },
-    "AVTR": {
-        "earningsDate": [
-            "2023-10-26",
-            "2023-10-30"
-        ],
-        "similar": "ALB"
-    },
     "AXP": {
         "earningsDate": [
             "2023-10-19",
@@ -139,20 +132,6 @@
         ],
         "similar": "CMA"
     },
-    "CHPT": {
-        "earningsDate": [
-            "2023-08-07",
-            "2023-08-11"
-        ],
-        "similar": "AAP"
-    },
-    "CHTR": {
-        "earningsDate": [
-            "2023-10-26",
-            "2023-10-30"
-        ],
-        "similar": "VZ"
-    },
     "CM.TO": {
         "earningsDate": [
             "2023-08-31"
@@ -185,6 +164,12 @@
             "2023-10-30"
         ],
         "similar": "PYPL"
+    },
+    "COLD": {
+        "earningsDate": [
+            "2023-05-08"
+        ],
+        "similar": "ILPT"
     },
     "COLM": {
         "earningsDate": [
@@ -242,6 +227,12 @@
             "2023-08-17"
         ],
         "similar": "VZ"
+    },
+    "DKS": {
+        "earningsDate": [
+            "2023-08-22"
+        ],
+        "similar": "AAP"
     },
     "DLTR": {
         "earningsDate": [
@@ -316,6 +307,13 @@
         ],
         "similar": "ILPT"
     },
+    "FWONA": {
+        "earningsDate": [
+            "2023-11-02",
+            "2023-11-06"
+        ],
+        "similar": "DIS"
+    },
     "GBLI": {
         "earningsDate": [
             "2023-08-08"
@@ -379,6 +377,12 @@
             "2023-11-06"
         ],
         "similar": "STC"
+    },
+    "IFF": {
+        "earningsDate": [
+            "2023-08-07"
+        ],
+        "similar": "ALB"
     },
     "ILPT": {
         "earningsDate": [
@@ -481,13 +485,6 @@
         ],
         "similar": "PYPL"
     },
-    "MANU": {
-        "earningsDate": [
-            "2023-09-20",
-            "2023-09-25"
-        ],
-        "similar": "DIS"
-    },
     "MATX": {
         "earningsDate": [
             "2023-10-31",
@@ -561,11 +558,11 @@
         ],
         "similar": "INTC"
     },
-    "NXR-UN.TO": {
+    "NXPI": {
         "earningsDate": [
-            "2023-08-14"
+            "2023-07-25"
         ],
-        "similar": "ILPT"
+        "similar": "INTC"
     },
     "OLLI": {
         "earningsDate": [
@@ -694,13 +691,6 @@
             "2023-10-23"
         ],
         "similar": "STC"
-    },
-    "RMBS": {
-        "earningsDate": [
-            "2023-10-30",
-            "2023-11-03"
-        ],
-        "similar": "INTC"
     },
     "ROKU": {
         "earningsDate": [
@@ -894,6 +884,13 @@
             "2023-10-18"
         ],
         "similar": "ZION"
+    },
+    "USM": {
+        "earningsDate": [
+            "2023-11-01",
+            "2023-11-06"
+        ],
+        "similar": "VZ"
     },
     "V": {
         "earningsDate": [
