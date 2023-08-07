@@ -132,6 +132,13 @@
         ],
         "similar": "CMA"
     },
+    "CHPT": {
+        "earningsDate": [
+            "2023-08-07",
+            "2023-08-11"
+        ],
+        "similar": "AAP"
+    },
     "CM.TO": {
         "earningsDate": [
             "2023-08-31"
@@ -198,7 +205,8 @@
     },
     "DD": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "ALB"
     },
@@ -560,7 +568,7 @@
     },
     "NXPI": {
         "earningsDate": [
-            "2023-07-25"
+            "2023-11-06"
         ],
         "similar": "INTC"
     },
@@ -947,13 +955,6 @@
     "WOOF": {
         "earningsDate": [
             "2023-08-24"
-        ],
-        "similar": "AAP"
-    },
-    "WSM": {
-        "earningsDate": [
-            "2023-08-22",
-            "2023-08-28"
         ],
         "similar": "AAP"
     },
