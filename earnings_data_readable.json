@@ -21,7 +21,8 @@
     },
     "AMC": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "DIS"
     },
@@ -166,12 +167,6 @@
         ],
         "similar": "PYPL"
     },
-    "COLD": {
-        "earningsDate": [
-            "2023-05-08"
-        ],
-        "similar": "ILPT"
-    },
     "COLM": {
         "earningsDate": [
             "2023-10-25",
@@ -187,7 +182,7 @@
     },
     "CSNA3.SA": {
         "earningsDate": [
-            "2023-08-03"
+            "2023-11-08"
         ],
         "similar": "SID"
     },
@@ -326,7 +321,8 @@
     },
     "GBLI": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "STC"
     },
@@ -391,7 +387,8 @@
     },
     "IFF": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "ALB"
     },
@@ -408,12 +405,6 @@
             "2023-10-30"
         ],
         "similar": "-"
-    },
-    "IQ": {
-        "earningsDate": [
-            "2023-08-22"
-        ],
-        "similar": "DIS"
     },
     "JPM": {
         "earningsDate": [
@@ -440,13 +431,6 @@
             "2023-11-06"
         ],
         "similar": "VFC"
-    },
-    "LC": {
-        "earningsDate": [
-            "2023-10-24",
-            "2023-10-30"
-        ],
-        "similar": "PYPL"
     },
     "LEVI": {
         "earningsDate": [
@@ -496,6 +480,13 @@
             "2023-10-30"
         ],
         "similar": "PYPL"
+    },
+    "MANU": {
+        "earningsDate": [
+            "2023-09-20",
+            "2023-09-25"
+        ],
+        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -547,14 +538,15 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-08-08",
-            "2023-08-09"
+            "2023-08-10",
+            "2023-08-11"
         ],
         "similar": "DAC"
     },
     "NSA": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-10-31",
+            "2023-11-06"
         ],
         "similar": "ILPT"
     },
@@ -633,7 +625,7 @@
     },
     "PRA": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-08-09"
         ],
         "similar": "STC"
     },
@@ -734,7 +726,7 @@
         "earningsDate": [
             "2023-08-04"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SCHN": {
         "earningsDate": [
@@ -745,17 +737,10 @@
     },
     "SELF": {
         "earningsDate": [
-            "2023-08-08",
-            "2023-08-14"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "ILPT"
-    },
-    "SFL": {
-        "earningsDate": [
-            "2023-08-15",
-            "2023-08-21"
-        ],
-        "similar": "DAC"
     },
     "SHW": {
         "earningsDate": [
@@ -791,6 +776,13 @@
             "2023-10-30"
         ],
         "similar": "-"
+    },
+    "SWKS": {
+        "earningsDate": [
+            "2023-11-01",
+            "2023-11-06"
+        ],
+        "similar": "QCOM"
     },
     "T": {
         "earningsDate": [
@@ -874,7 +866,8 @@
     },
     "UAA": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-11-01",
+            "2023-11-06"
         ],
         "similar": "VFC"
     },
@@ -887,7 +880,8 @@
     },
     "UPST": {
         "earningsDate": [
-            "2023-08-08"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "PYPL"
     },
