@@ -195,6 +195,18 @@
          "strike":377.5
       },
       {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":95
+      },
+      {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":8
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2023-08-18",
@@ -229,6 +241,12 @@
          "type":"call",
          "expiry":"2023-08-11",
          "strike":146
+      },
+      {
+         "symbol":"TRMB",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":50
       },
       {
          "symbol":"VFC",
