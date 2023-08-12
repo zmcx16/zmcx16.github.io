@@ -129,22 +129,16 @@
          "strike":60
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":123
+      },
+      {
          "symbol":"ABR",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":12.5
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2023-08-11",
-         "strike":190
-      },
-      {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2023-08-11",
-         "strike":180
       },
       {
          "symbol":"ALB",
@@ -153,22 +147,10 @@
          "strike":160
       },
       {
-         "symbol":"ALB",
-         "type":"call",
-         "expiry":"2023-08-11",
-         "strike":227.5
-      },
-      {
          "symbol":"AMT",
          "type":"put",
          "expiry":"2023-08-18",
          "strike":175
-      },
-      {
-         "symbol":"BAC",
-         "type":"call",
-         "expiry":"2023-08-11",
-         "strike":34
       },
       {
          "symbol":"C",
@@ -183,10 +165,10 @@
          "strike":48.5
       },
       {
-         "symbol":"CVS",
+         "symbol":"DIS",
          "type":"put",
-         "expiry":"2023-08-11",
-         "strike":70
+         "expiry":"2023-08-18",
+         "strike":86
       },
       {
          "symbol":"IIPR",
@@ -203,8 +185,8 @@
       {
          "symbol":"MA",
          "type":"put",
-         "expiry":"2023-08-11",
-         "strike":377.5
+         "expiry":"2023-08-18",
+         "strike":375
       },
       {
          "symbol":"MMM",
@@ -231,30 +213,6 @@
          "strike":72
       },
       {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-08-11",
-         "strike":112
-      },
-      {
-         "symbol":"QCOM",
-         "type":"call",
-         "expiry":"2023-08-11",
-         "strike":130
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2023-08-11",
-         "strike":124
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2023-08-11",
-         "strike":146
-      },
-      {
          "symbol":"TRMB",
          "type":"put",
          "expiry":"2023-08-18",
@@ -265,12 +223,6 @@
          "type":"put",
          "expiry":"2023-09-15",
          "strike":15
-      },
-      {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2023-08-11",
-         "strike":20.5
       },
       {
          "symbol":"WFC",
