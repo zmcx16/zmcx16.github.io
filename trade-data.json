@@ -200,10 +200,22 @@
          "strike":48.5
       },
       {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":155
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2023-08-18",
          "strike":86
+      },
+      {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-08-25",
+         "strike":97
       },
       {
          "symbol":"IIPR",
@@ -242,10 +254,28 @@
          "strike":100
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2023-08-18",
+         "strike":177.5
+      },
+      {
          "symbol":"PYPL",
          "type":"call",
          "expiry":"2023-08-18",
          "strike":72
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2023-08-25",
+         "strike":56
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-09-01",
+         "strike":100
       },
       {
          "symbol":"TRMB",
@@ -254,10 +284,22 @@
          "strike":50
       },
       {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2023-08-25",
+         "strike":12.5
+      },
+      {
          "symbol":"VFC",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":15
+      },
+      {
+         "symbol":"WDAY",
+         "type":"put",
+         "expiry":"2023-08-25",
+         "strike":190
       },
       {
          "symbol":"WFC",
