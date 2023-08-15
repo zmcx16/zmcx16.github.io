@@ -126,7 +126,7 @@
         "earningsDate": [
             "2023-08-29"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "C": {
         "earningsDate": [
@@ -247,8 +247,7 @@
     },
     "DOL.TO": {
         "earningsDate": [
-            "2023-09-07",
-            "2023-09-11"
+            "2023-09-13"
         ],
         "similar": "TGT"
     },
@@ -513,8 +512,8 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-08-14",
-            "2023-08-15"
+            "2023-11-06",
+            "2023-11-10"
         ],
         "similar": "DAC"
     },
@@ -529,7 +528,7 @@
         "earningsDate": [
             "2023-08-15"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -675,7 +674,8 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-08-04"
+            "2023-11-14",
+            "2023-11-20"
         ],
         "similar": "DAC"
     },
