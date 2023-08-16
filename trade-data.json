@@ -218,6 +218,12 @@
          "strike":97
       },
       {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":28
+      }, 
+      {
          "symbol":"IIPR",
          "type":"put",
          "expiry":"2023-08-18",
@@ -228,6 +234,12 @@
          "type":"call",
          "expiry":"2023-08-25",
          "strike":39
+      },
+      {
+         "symbol":"LTHM",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":18
       },
       {
          "symbol":"MA",
