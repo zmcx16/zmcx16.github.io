@@ -79,6 +79,12 @@
         ],
         "similar": "ILPT"
     },
+    "BBWI": {
+        "earningsDate": [
+            "2023-08-23"
+        ],
+        "similar": "AAP"
+    },
     "BBY": {
         "earningsDate": [
             "2023-08-29"
@@ -146,11 +152,12 @@
         ],
         "similar": "DIS"
     },
-    "CHPT": {
+    "CHTR": {
         "earningsDate": [
-            "2023-09-06"
+            "2023-10-26",
+            "2023-10-30"
         ],
-        "similar": "AAP"
+        "similar": "VZ"
     },
     "CM.TO": {
         "earningsDate": [
@@ -697,6 +704,12 @@
         ],
         "similar": "ILPT"
     },
+    "SFL": {
+        "earningsDate": [
+            "2023-08-17"
+        ],
+        "similar": "ZIM"
+    },
     "SHW": {
         "earningsDate": [
             "2023-10-23",
@@ -766,7 +779,8 @@
     },
     "TGT": {
         "earningsDate": [
-            "2023-08-16"
+            "2023-11-14",
+            "2023-11-20"
         ],
         "similar": "-"
     },
@@ -825,13 +839,6 @@
         ],
         "similar": "PYPL"
     },
-    "USM": {
-        "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
-        ],
-        "similar": "VZ"
-    },
     "V": {
         "earningsDate": [
             "2023-10-23",
@@ -852,12 +859,6 @@
         ],
         "similar": "CMA"
     },
-    "WALMEX.MX": {
-        "earningsDate": [
-            "2023-10-25"
-        ],
-        "similar": "TGT"
-    },
     "WBD": {
         "earningsDate": [
             "2023-11-01",
@@ -877,10 +878,15 @@
         ],
         "similar": "TGT"
     },
+    "WMT.MX": {
+        "earningsDate": [
+            "2023-08-17"
+        ],
+        "similar": "TGT"
+    },
     "WSM": {
         "earningsDate": [
-            "2023-08-22",
-            "2023-08-28"
+            "2023-08-23"
         ],
         "similar": "AAP"
     },
@@ -893,7 +899,8 @@
     },
     "ZIM": {
         "earningsDate": [
-            "2023-08-16"
+            "2023-11-13",
+            "2023-11-17"
         ],
         "similar": "-"
     },
