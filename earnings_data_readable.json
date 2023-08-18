@@ -310,7 +310,7 @@
             "2023-10-16",
             "2023-10-20"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "FITB": {
         "earningsDate": [
@@ -419,6 +419,13 @@
         ],
         "similar": "WFC"
     },
+    "KEX": {
+        "earningsDate": [
+            "2023-10-23",
+            "2023-10-27"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2023-10-19"
@@ -524,8 +531,8 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-08-17",
-            "2023-08-18"
+            "2023-08-21",
+            "2023-08-22"
         ],
         "similar": "DAC"
     },
@@ -552,12 +559,11 @@
         "earningsDate": [
             "2023-11-06"
         ],
-        "similar": "INTC"
+        "similar": "QCOM"
     },
     "OLLI": {
         "earningsDate": [
-            "2023-08-30",
-            "2023-09-04"
+            "2023-08-31"
         ],
         "similar": "TGT"
     },
@@ -580,7 +586,7 @@
             "2023-10-17",
             "2023-10-23"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PARA": {
         "earningsDate": [
@@ -637,12 +643,6 @@
         ],
         "similar": "ILPT"
     },
-    "RF": {
-        "earningsDate": [
-            "2023-10-20"
-        ],
-        "similar": "CMA"
-    },
     "RH": {
         "earningsDate": [
             "2023-09-06",
@@ -688,7 +688,7 @@
             "2023-11-14",
             "2023-11-20"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SCHN": {
         "earningsDate": [
@@ -779,8 +779,7 @@
     },
     "TGT": {
         "earningsDate": [
-            "2023-11-14",
-            "2023-11-20"
+            "2023-11-15"
         ],
         "similar": "-"
     },
@@ -812,6 +811,12 @@
         ],
         "similar": "AAP"
     },
+    "TSEM": {
+        "earningsDate": [
+            "2023-09-05"
+        ],
+        "similar": "INTC"
+    },
     "TX": {
         "earningsDate": [
             "2023-11-01",
@@ -838,6 +843,12 @@
             "2023-11-10"
         ],
         "similar": "PYPL"
+    },
+    "USB": {
+        "earningsDate": [
+            "2023-10-18"
+        ],
+        "similar": "CMA"
     },
     "V": {
         "earningsDate": [
@@ -874,13 +885,13 @@
     },
     "WMT": {
         "earningsDate": [
-            "2023-08-17"
+            "2023-11-16"
         ],
         "similar": "TGT"
     },
     "WMT.MX": {
         "earningsDate": [
-            "2023-08-17"
+            "2023-11-16"
         ],
         "similar": "TGT"
     },
