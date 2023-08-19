@@ -110,6 +110,7 @@ if __name__ == "__main__":
             if ret == 0:
                 try:
                     indicator_output = json.loads(resp)
+                    print(indicator_output)
                     if indicator_output["ret"] != 0:
                         print('server err = {err}'.format(err=indicator_output["ret"]))
                     else:
