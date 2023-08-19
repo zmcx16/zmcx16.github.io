@@ -2,6 +2,7 @@
    "hold_stock_list":[
       "TGT",
       "VZ",
+      "MPW",
       "ILPT",
       "AAP",
       "DIS",
@@ -28,23 +29,23 @@
       "ADSK",
       "ALB",
       "AMEH",
-	  "AMSWA",
+      "AMSWA",
       "AMT",
       "ANSS",
       "APD",
       "ASML",
-	  "AVD",
+      "AVD",
       "AZO",
       "BAC",
       "BBWI",
       "BIO",
       "BK",
       "C",
-	  "CCI",
+      "CCI",
       "CCK",
-	  "CF",
+      "CF",
       "CI",
-	  "CNC",
+      "CNC",
       "CNI",
       "CPRX",
       "CRM",
@@ -61,18 +62,18 @@
       "EPAM",
       "EQNR",
       "EW",
-	  "EXR",
+      "EXR",
       "F",
       "FFIV",
-	  "FMC",
-	  "GIS",
+      "FMC",
+      "GIS",
       "GLOB",
       "GM",
-	  "GNRC",
+      "GNRC",
       "GOOG",
       "GSK",
       "HAS",
-	  "HASI",
+      "HASI",
       "HIMX",
       "HR",
       "IIIN",
@@ -83,14 +84,14 @@
       "JPM",
       "KEYS",
       "KSS",
-	  "LEG",
+      "LEG",
       "LQDT",
       "LTHM",
-	  "LXU",
+      "LXU",
       "M",
       "MA",
       "MCK",
-	  "MEI",
+      "MEI",
       "MMM",
       "MORN",
       "MPW",
@@ -98,25 +99,25 @@
       "MU",
       "NDAQ",
       "NFLX",
-	  "NGVT",
+      "NGVT",
       "NKE",
       "NOW",
       "NTRS",
       "ORLY",
-	  "PAGS",
+      "PAGS",
       "PEP",
-	  "PFE",
-	  "PRFT",
+      "PFE",
+      "PRFT",
       "PYPL",
       "QCOM",
-	  "ROG",
+      "ROG",
       "SBAC",
       "SBUX",
-	  "SEE",
-	  "SHYF",
+      "SEE",
+      "SHYF",
       "SMP",
       "SONY",
-	  "SPTN",
+      "SPTN",
       "SQM",
       "SSL",
       "SSTK",
@@ -131,7 +132,7 @@
       "TX",
       "VALE",
       "VFC",
-	  "VMI",
+      "VMI",
       "WDAY",
       "WFC",
       "WNS",
@@ -158,18 +159,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":60
-      },
-      {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":123
-      },
-      {
          "symbol":"ABR",
          "type":"put",
          "expiry":"2023-09-15",
@@ -182,34 +171,10 @@
          "strike":160
       },
       {
-         "symbol":"AMT",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":175
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2023-09-01",
          "strike":40
-      },
-      {
-         "symbol":"C",
-         "type":"call",
-         "expiry":"2023-08-18",
-         "strike":48.5
-      },
-      {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":155
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":86
       },
       {
          "symbol":"DIS",
@@ -222,12 +187,6 @@
          "type":"put",
          "expiry":"2023-09-15",
          "strike":28
-      }, 
-      {
-         "symbol":"IIPR",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":70
       },
       {
          "symbol":"INTC",
@@ -242,42 +201,6 @@
          "strike":18
       },
       {
-         "symbol":"MA",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":375
-      },
-      {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":95
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":8
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":100
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":177.5
-      },
-      {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2023-08-18",
-         "strike":72
-      },
-      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2023-08-25",
@@ -288,12 +211,6 @@
          "type":"put",
          "expiry":"2023-09-01",
          "strike":100
-      },
-      {
-         "symbol":"TRMB",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":50
       },
       {
          "symbol":"VALE",
@@ -314,28 +231,10 @@
          "strike":190
       },
       {
-         "symbol":"WFC",
-         "type":"put",
-         "expiry":"2023-08-18",
-         "strike":42.5
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-08-18",
-         "strike":47.5
-      },
-      {
          "symbol":"X",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":20
-      },
-      {
-         "symbol":"ZION",
-         "type":"call",
-         "expiry":"2023-08-18",
-         "strike":42.5
       }
    ],
    "news_config":{
@@ -925,92 +824,97 @@
    "portfolio":{
       "AAP":{
          "cost_p":111.65,
-         "position_%":10.809871692949514,
+         "position_%":10.26016725037524,
          "profit_%":0
       },
       "ALB":{
          "cost_p":215,
-         "position_%":2.312904825580082,
+         "position_%":2.195288808111337,
          "profit_%":0
       },
       "BAC":{
          "cost_p":30.92,
-         "position_%":17.629283311477277,
+         "position_%":16.73279761479318,
          "profit_%":0
       },
       "C":{
          "cost_p":44.73,
-         "position_%":1.9247671227571546,
+         "position_%":1.8268887141733974,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.689424215790793,
+         "position_%":2.552661404780624,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.727362309548424,
+         "position_%":4.48696611086719,
          "profit_%":0
       },
       "DIS":{
-         "cost_p":91.14,
-         "position_%":5.882738952652149,
+         "cost_p":89.43,
+         "position_%":8.218242339463124,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":3.711405417791294,
+         "position_%":3.5226727385972616,
          "profit_%":0
       },
       "INTC":{
          "cost_p":36.9,
-         "position_%":8.733098313515862,
+         "position_%":8.289002113603642,
+         "profit_%":0
+      },
+      "MPW":{
+         "cost_p":8,
+         "position_%":2.4505549485893994,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.411086021771427,
+         "position_%":4.186773129664989,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":119.75,
-         "position_%":2.5764683987275796,
+         "position_%":2.4454496257798377,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.418796063113256,
+         "position_%":3.244943177757129,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":6.8057493435115495,
+         "position_%":6.459662844481656,
          "profit_%":0
       },
       "TGT":{
          "cost_p":146,
-         "position_%":3.141247484043646,
+         "position_%":2.9815085207837693,
          "profit_%":0
       },
       "VZ":{
          "cost_p":35,
-         "position_%":2.259116341264266,
+         "position_%":2.1442355800157245,
          "profit_%":0
       },
       "WFC":{
          "cost_p":40.79,
-         "position_%":6.143290370677961,
+         "position_%":5.830891287256093,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":10.080177114721154,
+         "position_%":9.567579158030162,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.743212700106609,
+         "position_%":2.603714632876237,
          "profit_%":0
       }
    }
