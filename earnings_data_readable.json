@@ -325,12 +325,6 @@
         ],
         "similar": "ILPT"
     },
-    "GASS": {
-        "earningsDate": [
-            "2023-08-18"
-        ],
-        "similar": "DAC"
-    },
     "GBLI": {
         "earningsDate": [
             "2023-11-06",
@@ -407,12 +401,6 @@
         ],
         "similar": "-"
     },
-    "IQ": {
-        "earningsDate": [
-            "2023-08-22"
-        ],
-        "similar": "DIS"
-    },
     "JPM": {
         "earningsDate": [
             "2023-10-13"
@@ -460,12 +448,12 @@
         ],
         "similar": "ILPT"
     },
-    "LYB": {
+    "LYV": {
         "earningsDate": [
-            "2023-10-26",
-            "2023-10-30"
+            "2023-11-01",
+            "2023-11-06"
         ],
-        "similar": "ALB"
+        "similar": "DIS"
     },
     "MA": {
         "earningsDate": [
@@ -572,7 +560,7 @@
             "2023-10-30",
             "2023-11-03"
         ],
-        "similar": "INTC"
+        "similar": "QCOM"
     },
     "ORLY": {
         "earningsDate": [
@@ -607,6 +595,13 @@
             "2023-10-13"
         ],
         "similar": "CMA"
+    },
+    "PPG": {
+        "earningsDate": [
+            "2023-10-17",
+            "2023-10-23"
+        ],
+        "similar": "ALB"
     },
     "PRA": {
         "earningsDate": [
@@ -688,7 +683,7 @@
             "2023-11-14",
             "2023-11-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SCHN": {
         "earningsDate": [
@@ -775,7 +770,7 @@
         "earningsDate": [
             "2023-10-19"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -844,12 +839,6 @@
         ],
         "similar": "PYPL"
     },
-    "USB": {
-        "earningsDate": [
-            "2023-10-18"
-        ],
-        "similar": "CMA"
-    },
     "V": {
         "earningsDate": [
             "2023-10-23",
@@ -894,6 +883,13 @@
             "2023-11-16"
         ],
         "similar": "TGT"
+    },
+    "WOLF": {
+        "earningsDate": [
+            "2023-10-24",
+            "2023-10-30"
+        ],
+        "similar": "INTC"
     },
     "WSM": {
         "earningsDate": [
