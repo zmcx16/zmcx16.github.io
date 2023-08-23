@@ -195,6 +195,12 @@
          "strike":28
       },
       {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2023-09-01",
+         "strike":117
+      },
+      {
          "symbol":"INTC",
          "type":"call",
          "expiry":"2023-08-25",
@@ -241,6 +247,12 @@
          "type":"put",
          "expiry":"2023-09-01",
          "strike":88
+      },
+      {
+         "symbol":"SQM",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":55
       },
       {
          "symbol":"TGT",
