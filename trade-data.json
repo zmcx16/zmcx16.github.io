@@ -183,6 +183,12 @@
          "strike":40
       },
       {
+         "symbol":"C",
+         "type":"call",
+         "expiry":"2023-09-29",
+         "strike":45
+      },
+      {
          "symbol":"CNI",
          "type":"put",
          "expiry":"2023-09-15",
