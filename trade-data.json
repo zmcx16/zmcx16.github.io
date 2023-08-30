@@ -213,6 +213,12 @@
          "strike":117
       },
       {
+         "symbol":"INTC",
+         "type":"call",
+         "expiry":"2023-09-22",
+         "strike":38
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2023-09-22",
@@ -229,6 +235,12 @@
          "type":"put",
          "expiry":"2023-09-08",
          "strike":5
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2023-09-08",
+         "strike":95
       },
       {
          "symbol":"PEP",
@@ -253,6 +265,12 @@
          "type":"put",
          "expiry":"2023-09-15",
          "strike":55
+      },
+      {
+         "symbol":"TGT",
+         "type":"call",
+         "expiry":"2023-09-15",
+         "strike":135
       },
       {
          "symbol":"VFC",
