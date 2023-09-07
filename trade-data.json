@@ -159,10 +159,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
+         "symbol":"A",
          "type":"put",
-         "expiry":"2023-09-01",
-         "strike":60
+         "expiry":"2023-09-15",
+         "strike":110
       },
       {
          "symbol":"ABR",
@@ -191,8 +191,8 @@
       {
          "symbol":"C",
          "type":"put",
-         "expiry":"2023-09-01",
-         "strike":40
+         "expiry":"2023-09-15",
+         "strike":39.5
       },
       {
          "symbol":"C",
@@ -213,16 +213,16 @@
          "strike":75
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":240
+      },
+      {
          "symbol":"GM",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":28
-      },
-      {
-         "symbol":"GOOG",
-         "type":"put",
-         "expiry":"2023-09-01",
-         "strike":117
       },
       {
          "symbol":"INTC",
@@ -243,6 +243,12 @@
          "strike":18
       },
       {
+         "symbol":"MMM",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":99
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2023-09-08",
@@ -255,28 +261,10 @@
          "strike":95
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2023-09-01",
-         "strike":170
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2023-09-01",
-         "strike":100
-      },
-      {
          "symbol":"SBAC",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":200
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2023-09-01",
-         "strike":88
       },
       {
          "symbol":"SQM",
@@ -303,16 +291,16 @@
          "strike":15
       },
       {
+         "symbol":"VZ",
+         "type":"put",
+         "expiry":"2023-10-06",
+         "strike":31
+      },
+      {
          "symbol":"WFC",
          "type":"put",
          "expiry":"2023-09-15",
          "strike":37.5
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-09-01",
-         "strike":45
       },
       {
          "symbol":"X",
