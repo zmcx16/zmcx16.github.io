@@ -69,3 +69,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 /.github/plugin-react/node_modules
+
+# custom
+.bak
