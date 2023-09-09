@@ -184,9 +184,21 @@
       },
       {
          "symbol":"ALB",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":170
+      },
+      {
+         "symbol":"ALB",
          "type":"call",
          "expiry":"2023-09-15",
          "strike":220
+      },
+      {
+         "symbol":"AMT",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":170
       },
       {
          "symbol":"C",
@@ -271,6 +283,12 @@
          "type":"put",
          "expiry":"2023-09-15",
          "strike":55
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2023-09-15",
+         "strike":90
       },
       {
          "symbol":"TGT",
