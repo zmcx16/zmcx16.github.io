@@ -150,6 +150,13 @@
         ],
         "similar": "CMA"
     },
+    "CGX.TO": {
+        "earningsDate": [
+            "2023-11-08",
+            "2023-11-13"
+        ],
+        "similar": "DIS"
+    },
     "CHTR": {
         "earningsDate": [
             "2023-10-26",
@@ -320,6 +327,13 @@
         ],
         "similar": "CMA"
     },
+    "FIVE": {
+        "earningsDate": [
+            "2023-11-28",
+            "2023-12-04"
+        ],
+        "similar": "AAP"
+    },
     "FR": {
         "earningsDate": [
             "2023-10-17",
@@ -462,13 +476,6 @@
         ],
         "similar": "ALB"
     },
-    "LYV": {
-        "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
-        ],
-        "similar": "DIS"
-    },
     "MA": {
         "earningsDate": [
             "2023-10-25",
@@ -509,12 +516,6 @@
             "2023-12-05"
         ],
         "similar": "INTC"
-    },
-    "MTB": {
-        "earningsDate": [
-            "2023-10-18"
-        ],
-        "similar": "CMA"
     },
     "MU": {
         "earningsDate": [
@@ -575,6 +576,13 @@
             "2023-11-17"
         ],
         "similar": "MPW"
+    },
+    "NYCB": {
+        "earningsDate": [
+            "2023-10-24",
+            "2023-10-30"
+        ],
+        "similar": "ZION"
     },
     "OHI": {
         "earningsDate": [
@@ -686,6 +694,12 @@
         ],
         "similar": "ILPT"
     },
+    "RF": {
+        "earningsDate": [
+            "2023-10-20"
+        ],
+        "similar": "CMA"
+    },
     "RH": {
         "earningsDate": [
             "2023-12-06",
@@ -723,6 +737,13 @@
             "2023-11-30"
         ],
         "similar": "BAC"
+    },
+    "SAFT": {
+        "earningsDate": [
+            "2023-10-31",
+            "2023-11-06"
+        ],
+        "similar": "STC"
     },
     "SBLK": {
         "earningsDate": [
@@ -859,13 +880,6 @@
             "2023-11-06"
         ],
         "similar": "ILPT"
-    },
-    "TSCO": {
-        "earningsDate": [
-            "2023-10-18",
-            "2023-10-23"
-        ],
-        "similar": "AAP"
     },
     "TSEM": {
         "earningsDate": [
