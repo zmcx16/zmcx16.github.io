@@ -255,6 +255,12 @@
          "strike":99
       },
       {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2023-10-20",
+         "strike":5
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2023-09-15",
