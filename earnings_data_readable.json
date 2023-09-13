@@ -150,13 +150,6 @@
         ],
         "similar": "CMA"
     },
-    "CGX.TO": {
-        "earningsDate": [
-            "2023-11-08",
-            "2023-11-13"
-        ],
-        "similar": "DIS"
-    },
     "CHTR": {
         "earningsDate": [
             "2023-10-26",
@@ -327,13 +320,6 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2023-11-28",
-            "2023-12-04"
-        ],
-        "similar": "AAP"
-    },
     "FR": {
         "earningsDate": [
             "2023-10-17",
@@ -476,6 +462,13 @@
         ],
         "similar": "ALB"
     },
+    "LYV": {
+        "earningsDate": [
+            "2023-11-01",
+            "2023-11-06"
+        ],
+        "similar": "DIS"
+    },
     "MA": {
         "earningsDate": [
             "2023-10-25",
@@ -537,13 +530,6 @@
         ],
         "similar": "DIS"
     },
-    "NHI": {
-        "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
-        ],
-        "similar": "MPW"
-    },
     "NMM": {
         "earningsDate": [
             "2023-11-06",
@@ -577,13 +563,6 @@
         ],
         "similar": "MPW"
     },
-    "NYCB": {
-        "earningsDate": [
-            "2023-10-24",
-            "2023-10-30"
-        ],
-        "similar": "ZION"
-    },
     "OHI": {
         "earningsDate": [
             "2023-10-31",
@@ -603,7 +582,7 @@
             "2023-10-30",
             "2023-11-03"
         ],
-        "similar": "QCOM"
+        "similar": "INTC"
     },
     "ORLY": {
         "earningsDate": [
@@ -625,6 +604,13 @@
             "2023-11-06"
         ],
         "similar": "DIS"
+    },
+    "PEAK": {
+        "earningsDate": [
+            "2023-10-30",
+            "2023-11-03"
+        ],
+        "similar": "MPW"
     },
     "PLAY": {
         "earningsDate": [
@@ -881,12 +867,12 @@
         ],
         "similar": "ILPT"
     },
-    "TSEM": {
+    "TSCO": {
         "earningsDate": [
-            "2023-11-13",
-            "2023-11-17"
+            "2023-10-18",
+            "2023-10-23"
         ],
-        "similar": "INTC"
+        "similar": "AAP"
     },
     "TX": {
         "earningsDate": [
@@ -928,6 +914,13 @@
             "2023-10-27"
         ],
         "similar": "PYPL"
+    },
+    "VLY": {
+        "earningsDate": [
+            "2023-10-25",
+            "2023-10-30"
+        ],
+        "similar": "ZION"
     },
     "VTR": {
         "earningsDate": [
