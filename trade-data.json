@@ -189,6 +189,12 @@
          "strike":220
       },
       {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2023-09-22",
+         "strike":167.5
+      },
+      {
          "symbol":"AMT",
          "type":"put",
          "expiry":"2023-09-15",
@@ -313,6 +319,12 @@
          "type":"put",
          "expiry":"2023-09-15",
          "strike":37.5
+      },
+      {
+         "symbol":"WFC",
+         "type":"call",
+         "expiry":"2023-10-13",
+         "strike":46
       },
       {
          "symbol":"X",
