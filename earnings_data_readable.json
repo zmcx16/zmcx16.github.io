@@ -272,6 +272,13 @@
         ],
         "similar": "AAP"
     },
+    "DLMAF": {
+        "earningsDate": [
+            "2023-12-05",
+            "2023-12-11"
+        ],
+        "similar": "TGT"
+    },
     "DLTR": {
         "earningsDate": [
             "2023-11-20",
@@ -712,6 +719,12 @@
         ],
         "similar": "DIS"
     },
+    "RS": {
+        "earningsDate": [
+            "2023-10-26"
+        ],
+        "similar": "SID"
+    },
     "RY": {
         "earningsDate": [
             "2023-11-30"
@@ -785,13 +798,6 @@
             "2023-10-30"
         ],
         "similar": "-"
-    },
-    "STLD": {
-        "earningsDate": [
-            "2023-10-17",
-            "2023-10-23"
-        ],
-        "similar": "SID"
     },
     "SWKS": {
         "earningsDate": [
@@ -900,6 +906,12 @@
             "2023-11-10"
         ],
         "similar": "PYPL"
+    },
+    "USB": {
+        "earningsDate": [
+            "2023-10-18"
+        ],
+        "similar": "ZION"
     },
     "USIM5.SA": {
         "earningsDate": [
