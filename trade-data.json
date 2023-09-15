@@ -159,34 +159,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"A",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":110
-      },
-      {
          "symbol":"AAP",
          "type":"put",
          "expiry":"2023-10-06",
          "strike":55
       },
       {
-         "symbol":"ABR",
+         "symbol":"ADSK",
          "type":"put",
-         "expiry":"2023-09-15",
-         "strike":12.5
-      },
-      {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":170
-      },
-      {
-         "symbol":"ALB",
-         "type":"call",
-         "expiry":"2023-09-15",
-         "strike":220
+         "expiry":"2023-09-22",
+         "strike":202.5
       },
       {
          "symbol":"ALB",
@@ -195,46 +177,10 @@
          "strike":167.5
       },
       {
-         "symbol":"AMT",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":170
-      },
-      {
-         "symbol":"C",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":39.5
-      },
-      {
          "symbol":"C",
          "type":"call",
          "expiry":"2023-09-29",
          "strike":45
-      },
-      {
-         "symbol":"CNI",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":105
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":75
-      },
-      {
-         "symbol":"EPAM",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":240
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":28
       },
       {
          "symbol":"INTC",
@@ -249,64 +195,16 @@
          "strike":21
       },
       {
-         "symbol":"LTHM",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":18
-      },
-      {
-         "symbol":"MMM",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":99
-      },
-      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2023-10-20",
          "strike":5
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":92
-      },
-      {
-         "symbol":"SBAC",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":200
-      },
-      {
-         "symbol":"SQM",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":55
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":90
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2023-09-15",
-         "strike":135
-      },
-      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2023-09-22",
          "strike":116
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":15
       },
       {
          "symbol":"VZ",
@@ -316,27 +214,9 @@
       },
       {
          "symbol":"WFC",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":37.5
-      },
-      {
-         "symbol":"WFC",
          "type":"call",
          "expiry":"2023-10-13",
          "strike":46
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2023-09-15",
-         "strike":20
-      },
-      {
-         "symbol":"ZION",
-         "type":"call",
-         "expiry":"2023-09-15",
-         "strike":42.5
       }
    ],
    "news_config":{
