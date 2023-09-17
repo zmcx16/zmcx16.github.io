@@ -447,13 +447,6 @@
         ],
         "similar": "CMA"
     },
-    "KMPR": {
-        "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
-        ],
-        "similar": "STC"
-    },
     "LTC": {
         "earningsDate": [
             "2023-10-25",
@@ -501,13 +494,6 @@
             "2023-11-03"
         ],
         "similar": "ZIM"
-    },
-    "MANU": {
-        "earningsDate": [
-            "2023-09-20",
-            "2023-09-25"
-        ],
-        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -724,6 +710,12 @@
         ],
         "similar": "DIS"
     },
+    "RS": {
+        "earningsDate": [
+            "2023-10-26"
+        ],
+        "similar": "SID"
+    },
     "RY": {
         "earningsDate": [
             "2023-11-30"
@@ -784,6 +776,13 @@
         ],
         "similar": "STC"
     },
+    "SIRI": {
+        "earningsDate": [
+            "2023-10-30",
+            "2023-11-03"
+        ],
+        "similar": "DIS"
+    },
     "SOFI": {
         "earningsDate": [
             "2023-10-30",
@@ -797,20 +796,6 @@
             "2023-10-30"
         ],
         "similar": "-"
-    },
-    "STLD": {
-        "earningsDate": [
-            "2023-10-17",
-            "2023-10-23"
-        ],
-        "similar": "SID"
-    },
-    "SWKS": {
-        "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
-        ],
-        "similar": "QCOM"
     },
     "T": {
         "earningsDate": [
