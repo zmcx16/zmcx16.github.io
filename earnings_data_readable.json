@@ -216,6 +216,13 @@
         ],
         "similar": "TGT"
     },
+    "CPLP": {
+        "earningsDate": [
+            "2023-11-07",
+            "2023-11-13"
+        ],
+        "similar": "DAC"
+    },
     "CSNA3.SA": {
         "earningsDate": [
             "2023-11-08"
@@ -489,12 +496,6 @@
         ],
         "similar": "PYPL"
     },
-    "MAERSK-B.CO": {
-        "earningsDate": [
-            "2023-11-03"
-        ],
-        "similar": "ZIM"
-    },
     "MATX": {
         "earningsDate": [
             "2023-10-31",
@@ -710,12 +711,6 @@
         ],
         "similar": "DIS"
     },
-    "RS": {
-        "earningsDate": [
-            "2023-10-26"
-        ],
-        "similar": "SID"
-    },
     "RY": {
         "earningsDate": [
             "2023-11-30"
@@ -760,7 +755,7 @@
         "earningsDate": [
             "2023-08-17"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SHW": {
         "earningsDate": [
@@ -796,6 +791,13 @@
             "2023-10-30"
         ],
         "similar": "-"
+    },
+    "STLD": {
+        "earningsDate": [
+            "2023-10-17",
+            "2023-10-23"
+        ],
+        "similar": "SID"
     },
     "T": {
         "earningsDate": [
