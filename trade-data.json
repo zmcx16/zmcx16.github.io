@@ -189,6 +189,12 @@
          "strike":40
       },
       {
+         "symbol":"DAVA",
+         "type":"put",
+         "expiry":"2023-10-20",
+         "strike":45
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2023-09-22",
@@ -235,6 +241,12 @@
          "type":"put",
          "expiry":"2023-10-06",
          "strike":31
+      },
+      {
+         "symbol":"WFC",
+         "type":"put",
+         "expiry":"2023-10-06",
+         "strike":40
       },
       {
          "symbol":"WFC",
