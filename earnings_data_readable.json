@@ -367,7 +367,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GPC": {
         "earningsDate": [
@@ -568,7 +568,7 @@
         "earningsDate": [
             "2023-11-14"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -588,13 +588,6 @@
             "2023-11-06"
         ],
         "similar": "QCOM"
-    },
-    "NXST": {
-        "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
-        ],
-        "similar": "DIS"
     },
     "OHI": {
         "earningsDate": [
@@ -754,7 +747,7 @@
             "2023-11-14",
             "2023-11-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -836,7 +829,7 @@
             "2023-11-29",
             "2023-12-04"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "TFC": {
         "earningsDate": [
