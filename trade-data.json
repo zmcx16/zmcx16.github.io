@@ -161,6 +161,12 @@
          "strike":55
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2023-10-06",
+         "strike":185
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2023-10-20",
@@ -201,6 +207,12 @@
          "type":"put",
          "expiry":"2023-09-29",
          "strike":79
+      },
+      {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2023-10-20",
+         "strike":60
       },
       {
          "symbol":"GM",
