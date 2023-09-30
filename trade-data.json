@@ -173,18 +173,6 @@
          "strike":140
       },
       {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2023-09-29",
-         "strike":66
-      },
-      {
-         "symbol":"C",
-         "type":"call",
-         "expiry":"2023-09-29",
-         "strike":45
-      },
-      {
          "symbol":"C",
          "type":"put",
          "expiry":"2023-10-06",
@@ -195,18 +183,6 @@
          "type":"put",
          "expiry":"2023-10-20",
          "strike":45
-      },
-      {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2023-09-29",
-         "strike":350
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2023-09-29",
-         "strike":79
       },
       {
          "symbol":"GIS",
