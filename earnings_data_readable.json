@@ -118,12 +118,6 @@
         ],
         "similar": "TGT"
     },
-    "BMO.TO": {
-        "earningsDate": [
-            "2023-12-01"
-        ],
-        "similar": "BAC"
-    },
     "BNS": {
         "earningsDate": [
             "2023-11-28"
@@ -155,12 +149,6 @@
         ],
         "similar": "DIS"
     },
-    "CHTR": {
-        "earningsDate": [
-            "2023-10-27"
-        ],
-        "similar": "VZ"
-    },
     "CM.TO": {
         "earningsDate": [
             "2023-11-29",
@@ -179,6 +167,13 @@
             "2023-10-26"
         ],
         "similar": "VZ"
+    },
+    "CMIN3.SA": {
+        "earningsDate": [
+            "2023-11-02",
+            "2023-11-04"
+        ],
+        "similar": "SID"
     },
     "CMRE": {
         "earningsDate": [
@@ -274,13 +269,6 @@
         ],
         "similar": "AAP"
     },
-    "DLMAF": {
-        "earningsDate": [
-            "2023-12-05",
-            "2023-12-11"
-        ],
-        "similar": "TGT"
-    },
     "DLTR": {
         "earningsDate": [
             "2023-11-20",
@@ -333,12 +321,6 @@
             "2023-11-17"
         ],
         "similar": "DAC"
-    },
-    "FHN": {
-        "earningsDate": [
-            "2023-10-18"
-        ],
-        "similar": "ZION"
     },
     "FITB": {
         "earningsDate": [
@@ -404,12 +386,6 @@
             "2023-08-08"
         ],
         "similar": "STC"
-    },
-    "HLAG.DE": {
-        "earningsDate": [
-            "2023-11-09"
-        ],
-        "similar": "ZIM"
     },
     "HMN": {
         "earningsDate": [
@@ -653,12 +629,6 @@
         ],
         "similar": "MPW"
     },
-    "NXPI": {
-        "earningsDate": [
-            "2023-11-06"
-        ],
-        "similar": "QCOM"
-    },
     "OHI": {
         "earningsDate": [
             "2023-10-31",
@@ -778,12 +748,6 @@
         ],
         "similar": "ILPT"
     },
-    "RF": {
-        "earningsDate": [
-            "2023-10-20"
-        ],
-        "similar": "ZION"
-    },
     "RH": {
         "earningsDate": [
             "2023-12-06",
@@ -820,7 +784,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "SAFT": {
         "earningsDate": [
@@ -975,6 +939,13 @@
             "2023-10-23"
         ],
         "similar": "AAP"
+    },
+    "TU": {
+        "earningsDate": [
+            "2023-11-02",
+            "2023-11-06"
+        ],
+        "similar": "VZ"
     },
     "TX": {
         "earningsDate": [
