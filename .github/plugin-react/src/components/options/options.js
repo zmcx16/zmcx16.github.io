@@ -20,7 +20,7 @@ import Cookies from 'universal-cookie'
 
 import DefaultDataGridTable from '../defaultDataGridTable'
 import LinearProgressWithLabel from '../linearProgressWithLabel'
-import { NornFinanceAPIServerDomain, Options_Def, Option_Config, ExDividend_Path, StockData_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
+import { NornFinanceAPIServerDomain, Options_Def, Option_Config, OptionPCR_Stat, ExDividend_Path, StockData_Path, COOKIE_KEY_SECRET, COOKIE_KEY_OPTIONS_FILTER } from '../../common/def'
 import { getRedLevel, getBlueLevel, workdayCount, decryptECB } from '../../common/utils'
 import { useInterval, GetDataByFetchObj, SymbolNameField, PureFieldWithValueCheck, PercentField, ColorPercentField, ColorPosGreenNegRedField, ShortFloatLinkWithShowChartField } from '../../common/reactUtils'
 import ModalWindow from '../modalWindow'
@@ -235,6 +235,8 @@ const Options = () => {
     EarningDate: { hide: false, text: 'Earning Date' },
     ExDividendDate: { hide: false, text: 'Ex-Dividend Date' }, 
     ExerciseProbability: { hide: false, text: 'Exercise Probability' }, 
+    PCR_OpenInterest_Latest: { hide: false, text: 'PCR (OI)' },
+    PCR_Volume_Latest: { hide: false, text: 'PCR (Vol)' },
     Delta: { hide: false, text: 'δ (Delta)' },
     Gamma: { hide: false, text: 'γ (Gamma)' },
     Rho: { hide: false, text: 'ρ (Rho)' },
@@ -285,6 +287,28 @@ const Options = () => {
       },
       hide: hide
     }    
+    return output
+  }
+
+  function PCRField(field, headerName, width, valueFixed, hide, description = null){
+    let output = {
+      field: field,
+      headerName: headerName,
+      width: width,
+      type: 'number',
+      renderCell: (params) => (
+        params.value === "-" || params.value === -Number.MAX_VALUE || params.value === Number.MAX_VALUE || params.value === null || params.value === undefined || params.value === "Infinity" || params.value === 'NaN' ?
+          <span>-</span> :
+          <Link href={"https://norn-stockscreener.zmcx16.moe/options-pcr/?symbol=" + params.row['symbol']} target="_blank" rel="noreferrer noopener">
+            <span style={{ fontWeight: 500, color: parseFloat(params.value) <= 0.7 ? 'green' : parseFloat(params.value) >= 1 ? 'red' : '' }}>{params.value.toFixed(valueFixed)}</span>
+          </Link>
+      ),
+      hide: hide
+    }
+    
+    if (description != null) {
+      output['description'] = description
+    }
     return output
   }
 
@@ -352,6 +376,8 @@ const Options = () => {
         hide: 'exDividendDate' in hideColState ? hideColState['exDividendDate'] : tableColList['ExDividendDate'].hide
       },
       PercentField("exerciseProbability", tableColList.ExerciseProbability.text, 90, "exerciseProbability" in hideColState ? hideColState["exerciseProbability"] : tableColList['ExerciseProbability'].hide),
+      PCRField("PCR_OpenInterest_Latest", tableColList.PCR_OpenInterest_Latest.text, 110, 2, "PCR_OpenInterest_Latest" in hideColState ? hideColState["PCR_OpenInterest_Latest"] : tableColList['PCR_OpenInterest_Latest'].hide, "Put-Call Ratio (Open Interest)"),
+      PCRField("PCR_Volume_Latest", tableColList.PCR_Volume_Latest.text, 110, 2, "PCR_Volume_Latest" in hideColState ? hideColState["PCR_Volume_Latest"] : tableColList['PCR_Volume_Latest'].hide, "Put-Call Ratio (Volume)"),
       PureFieldWithValueCheck("delta", tableColList.Delta.text, 90, 2, "delta" in hideColState ? hideColState["delta"] : tableColList['Delta'].hide),
       PureFieldWithValueCheck("gamma", tableColList.Gamma.text, 90, 2, "gamma" in hideColState ? hideColState["gamma"] : tableColList['Gamma'].hide),
       PureFieldWithValueCheck("rho", tableColList.Rho.text, 90, 2, "rho" in hideColState ? hideColState["rho"] : tableColList['Rho'].hide),
@@ -433,6 +459,8 @@ const Options = () => {
   const fetchStockData = useFetch({ cachePolicy: 'no-cache' })
   const configRef = useRef({}) 
   const fetchConfigData = useFetch({ cachePolicy: 'no-cache' })
+  const fetchOptionPCR = useFetch({ cachePolicy: 'no-cache' })
+  const OptionPCRRef = useRef({}) 
 
   const renderTable = (resp, arg_index) => {
     console.log(resp)
@@ -441,6 +469,8 @@ const Options = () => {
     var puts = []
     resp.forEach((data) => {
       let symbol = data["symbol"]
+      let PCR_OpenInterest_Latest = symbol in OptionPCRRef.current ? OptionPCRRef.current[symbol]['PCR_OpenInterest_Latest'] : '-'
+      let PCR_Volume_Latest = symbol in OptionPCRRef.current ? OptionPCRRef.current[symbol]['PCR_Volume_Latest'] : '-'
       let stock_price = data["stockPrice"]
       let stock_extra_info = data["stockExtraInfo"]
       let earningDate = 'No Data'
@@ -517,6 +547,8 @@ const Options = () => {
               exDividendLink: ex_dividend_link,
               exDividendDateColor:ex_dividend_date != '' && new Date(expiry_date).getTime() >= new Date(ex_dividend_date).getTime() && new Date(ex_dividend_date).getTime() >= today.getTime() ? 'red':'',
               exerciseProbability: v["exerciseProbability"] !== undefined && v["exerciseProbability"] !== null ? v["exerciseProbability"] : -Number.MAX_VALUE,
+              PCR_OpenInterest_Latest: PCR_OpenInterest_Latest !== '-' ? PCR_OpenInterest_Latest : -Number.MAX_VALUE,
+              PCR_Volume_Latest: PCR_Volume_Latest !== '-' ? PCR_Volume_Latest : -Number.MAX_VALUE,
             }
             let cnt = 0
             let sum = 0
@@ -619,8 +651,9 @@ const Options = () => {
       GetDataByFetchObj(StockData_Path, fetchStockData),
       GetDataByFetchObj(local_path, fetchOptionsData),
       GetDataByFetchObj(Option_Config, fetchConfigData),
+      GetDataByFetchObj(OptionPCR_Stat, fetchOptionPCR),
     ]).then((allResponses) => {
-      if (allResponses.length === 4 && allResponses[0] !== null && allResponses[1] !== null && allResponses[2] !== null && allResponses[3] !== null) {
+      if (allResponses.length === 5 && allResponses[0] !== null && allResponses[1] !== null && allResponses[2] !== null && allResponses[3] !== null && allResponses[4] !== null) {
         if (!secret) {
           console.error("Verify Authentication Failed, this page is private use only")
           modalWindowRef.current.popModalWindow(<div>Verify Authentication Failed, this page is private use only</div>)   
@@ -629,6 +662,7 @@ const Options = () => {
         exDividendDictRef.current = Object.assign({}, ...JSON.parse(decryptECB(allResponses[0], secret))['data'].map((x) => ({[x['symbol']]: x})))
         StockDictRef.current = allResponses[1]
         configRef.current = JSON.parse(decryptECB(allResponses[3], secret))
+        OptionPCRRef.current = allResponses[4]["data"]
         renderTable(JSON.parse(decryptECB(allResponses[2], secret)), arg_index)
       } else {
         console.error("refreshData some data failed")
