@@ -43,6 +43,9 @@ jobs:
     - name: remove node_modules
       run: |-
         rm -rf ./.github/plugin-react/node_modules
+    - name: download option-pcr data
+      run: |-
+        curl https://raw.githubusercontent.com/zmcx16/Norn-StockScreener/gh-pages/norn-data/options/pcr/stat.json --output ./plugin-react/option-pcr.json
     - name: build template config
       run: |-
         python ./.github/script/build_config_from_template.py
