@@ -52,6 +52,7 @@ export const DAF_Def = [
 
 // option
 export const Option_Config = "/plugin-react/option-valuation/config.json"
+export const OptionPCR_Stat = "/plugin-react/option-pcr.json"
 export const ExDividend_Path = "/plugin-react/option-valuation/star/ex_dividend_date_list.json"
 export const StockData_Path = "/stock-data/stat.json"
 export const Options_Def = [
