@@ -315,6 +315,13 @@
         ],
         "similar": "ILPT"
     },
+    "EMN": {
+        "earningsDate": [
+            "2023-10-25",
+            "2023-10-30"
+        ],
+        "similar": "ALB"
+    },
     "ESEA": {
         "earningsDate": [
             "2023-11-13",
@@ -560,7 +567,7 @@
         "earningsDate": [
             "2023-10-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "MU": {
         "earningsDate": [
@@ -704,12 +711,6 @@
         ],
         "similar": "CMA"
     },
-    "PPG": {
-        "earningsDate": [
-            "2023-10-18"
-        ],
-        "similar": "ALB"
-    },
     "PRA": {
         "earningsDate": [
             "2023-11-06",
@@ -747,6 +748,12 @@
             "2023-10-18"
         ],
         "similar": "ILPT"
+    },
+    "RF": {
+        "earningsDate": [
+            "2023-10-20"
+        ],
+        "similar": "CMA"
     },
     "RH": {
         "earningsDate": [
