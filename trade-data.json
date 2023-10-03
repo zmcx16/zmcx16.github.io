@@ -197,16 +197,52 @@
          "strike":29
       },
       {
+         "symbol":"INTC",
+         "type":"call",
+         "expiry":"2023-10-20",
+         "strike":40
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-10-27",
+         "strike":25
+      },
+      {
+         "symbol":"MA",
+         "type":"put",
+         "expiry":"2023-10-06",
+         "strike":372.5
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2023-10-20",
          "strike":5
       },
       {
+         "symbol":"NKE",
+         "type":"call",
+         "expiry":"2023-10-06",
+         "strike":101
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2023-10-06",
+         "strike":162.5
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2023-10-06",
          "strike":87
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2023-10-13",
+         "strike":100
       },
       {
          "symbol":"VZ",
