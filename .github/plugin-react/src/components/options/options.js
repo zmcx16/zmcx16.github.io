@@ -315,8 +315,8 @@ const Options = () => {
   const genTableColTemplate = () => {
     return [
       SymbolNameField('symbol', 'Symbol', 115, 'symbol' in hideColState ? hideColState['symbol'] : false),
-      OptionPriceField("stockPrice", tableColList.StockPrice.text, 125, 2, "stockPrice" in hideColState ? hideColState["stockPrice"] : tableColList['StockPrice'].hide, "stock"),
-      ShortFloatLinkWithShowChartField("stockShortFloat", tableColList.StockShortFloat.text, 115, "stockShortFloat" in hideColState ? hideColState["stockShortFloat"] : tableColList['StockShortFloat'].hide),
+      OptionPriceField("stockPrice", tableColList.StockPrice.text, 110, 2, "stockPrice" in hideColState ? hideColState["stockPrice"] : tableColList['StockPrice'].hide, "stock"),
+      ShortFloatLinkWithShowChartField("stockShortFloat", tableColList.StockShortFloat.text, 110, "stockShortFloat" in hideColState ? hideColState["stockShortFloat"] : tableColList['StockShortFloat'].hide),
       {
         field: 'expiryDate',
         headerName: tableColList.ExpiryDate.text,
@@ -328,12 +328,12 @@ const Options = () => {
         hide: 'expiryDate' in hideColState ? hideColState['expiryDate'] : tableColList['ExpiryDate'].hide
       },
       PureFieldWithValueCheck("strike", tableColList.Strike.text, 110, 2, "strike" in hideColState ? hideColState["strike"] : tableColList['Strike'].hide),
-      OptionPriceField("lastPrice", tableColList.LastPrice.text, 140, 2, "lastPrice" in hideColState ? hideColState["lastPrice"] : tableColList['LastPrice'].hide, "option"),
-      PureFieldWithValueCheck("avgEWMA", tableColList.AvgEWMA.text, 150, 2, "avgEWMA" in hideColState ? hideColState["avgEWMA"] : tableColList['AvgEWMA'].hide),
+      OptionPriceField("lastPrice", tableColList.LastPrice.text, 110, 2, "lastPrice" in hideColState ? hideColState["lastPrice"] : tableColList['LastPrice'].hide, "option"),
+      PureFieldWithValueCheck("avgEWMA", tableColList.AvgEWMA.text, 110, 2, "avgEWMA" in hideColState ? hideColState["avgEWMA"] : tableColList['AvgEWMA'].hide),
       {
         field: "priceBias",
         headerName: tableColList.PriceBias.text,
-        width: 120,
+        width: 110,
         type: 'number',
         description: tableColList.PriceBias.description,
         renderCell: (params) => (
