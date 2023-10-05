@@ -118,6 +118,18 @@
         ],
         "similar": "TGT"
     },
+    "BMO": {
+        "earningsDate": [
+            "2023-12-01"
+        ],
+        "similar": "WFC"
+    },
+    "BMO.TO": {
+        "earningsDate": [
+            "2023-12-01"
+        ],
+        "similar": "BAC"
+    },
     "BNS": {
         "earningsDate": [
             "2023-11-28"
@@ -148,13 +160,6 @@
             "2023-11-13"
         ],
         "similar": "DIS"
-    },
-    "CM": {
-        "earningsDate": [
-            "2023-11-29",
-            "2023-12-04"
-        ],
-        "similar": "WFC"
     },
     "CM.TO": {
         "earningsDate": [
@@ -257,8 +262,7 @@
     },
     "DIS": {
         "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
+            "2023-11-08"
         ],
         "similar": "-"
     },
@@ -356,8 +360,7 @@
     },
     "FR": {
         "earningsDate": [
-            "2023-10-17",
-            "2023-10-23"
+            "2023-10-18"
         ],
         "similar": "ILPT"
     },
@@ -399,6 +402,12 @@
             "2023-10-20"
         ],
         "similar": "CMA"
+    },
+    "HGTY": {
+        "earningsDate": [
+            "2023-08-08"
+        ],
+        "similar": "STC"
     },
     "HMN": {
         "earningsDate": [
@@ -522,7 +531,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-10-04",
+            "2023-10-05",
             "2023-10-17"
         ],
         "similar": "DIS"
@@ -627,10 +636,15 @@
         ],
         "similar": "MPW"
     },
+    "NXPI": {
+        "earningsDate": [
+            "2023-11-06"
+        ],
+        "similar": "QCOM"
+    },
     "OHI": {
         "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
+            "2023-11-02"
         ],
         "similar": "MPW"
     },
@@ -731,13 +745,6 @@
             "2023-11-01"
         ],
         "similar": "-"
-    },
-    "RCI-B.TO": {
-        "earningsDate": [
-            "2023-11-07",
-            "2023-11-13"
-        ],
-        "similar": "VZ"
     },
     "REXR": {
         "earningsDate": [
@@ -940,6 +947,13 @@
         ],
         "similar": "AAP"
     },
+    "TU": {
+        "earningsDate": [
+            "2023-11-02",
+            "2023-11-06"
+        ],
+        "similar": "VZ"
+    },
     "TX": {
         "earningsDate": [
             "2023-11-01",
@@ -1051,13 +1065,6 @@
             "2023-11-20"
         ],
         "similar": "AAP"
-    },
-    "WTM": {
-        "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
-        ],
-        "similar": "STC"
     },
     "WWW": {
         "earningsDate": [
