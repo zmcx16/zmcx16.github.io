@@ -59,6 +59,13 @@
         ],
         "similar": "DAC"
     },
+    "ASO": {
+        "earningsDate": [
+            "2023-12-05",
+            "2023-12-11"
+        ],
+        "similar": "AAP"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-12-06",
@@ -396,6 +403,12 @@
         ],
         "similar": "ILPT"
     },
+    "FWONA": {
+        "earningsDate": [
+            "2023-11-03"
+        ],
+        "similar": "DIS"
+    },
     "GMRE": {
         "earningsDate": [
             "2023-10-31",
@@ -571,13 +584,6 @@
             "2023-11-20"
         ],
         "similar": "KSS"
-    },
-    "MANU": {
-        "earningsDate": [
-            "2023-10-09",
-            "2023-10-17"
-        ],
-        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -811,12 +817,6 @@
         ],
         "similar": "ILPT"
     },
-    "RF": {
-        "earningsDate": [
-            "2023-10-20"
-        ],
-        "similar": "CMA"
-    },
     "RH": {
         "earningsDate": [
             "2023-12-06",
@@ -1044,6 +1044,12 @@
         ],
         "similar": "PYPL"
     },
+    "USB": {
+        "earningsDate": [
+            "2023-10-18"
+        ],
+        "similar": "CMA"
+    },
     "USIM5.SA": {
         "earningsDate": [
             "2023-10-27"
@@ -1106,13 +1112,6 @@
         "earningsDate": [
             "2023-11-28",
             "2023-12-04"
-        ],
-        "similar": "AAP"
-    },
-    "WSM": {
-        "earningsDate": [
-            "2023-11-15",
-            "2023-11-20"
         ],
         "similar": "AAP"
     },
