@@ -47,24 +47,9 @@
     },
     "APD": {
         "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
+            "2023-11-07"
         ],
         "similar": "ALB"
-    },
-    "ASC": {
-        "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
-        ],
-        "similar": "DAC"
-    },
-    "ASO": {
-        "earningsDate": [
-            "2023-12-05",
-            "2023-12-11"
-        ],
-        "similar": "AAP"
     },
     "AVGO": {
         "earningsDate": [
@@ -532,8 +517,7 @@
     },
     "LTHM": {
         "earningsDate": [
-            "2023-10-30",
-            "2023-11-03"
+            "2023-10-31"
         ],
         "similar": "ALB"
     },
@@ -668,8 +652,7 @@
     },
     "NSA": {
         "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
+            "2023-11-01"
         ],
         "similar": "ILPT"
     },
@@ -732,7 +715,7 @@
     },
     "OTLY": {
         "earningsDate": [
-            "2023-07-27"
+            "2023-11-09"
         ],
         "similar": "PEP"
     },
@@ -782,8 +765,7 @@
     },
     "PRA": {
         "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
+            "2023-11-08"
         ],
         "similar": "STC"
     },
@@ -816,6 +798,12 @@
             "2023-10-18"
         ],
         "similar": "ILPT"
+    },
+    "RF": {
+        "earningsDate": [
+            "2023-10-20"
+        ],
+        "similar": "CMA"
     },
     "RH": {
         "earningsDate": [
@@ -874,7 +862,7 @@
             "2023-11-14",
             "2023-11-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -974,12 +962,6 @@
         ],
         "similar": "BAC"
     },
-    "TFC": {
-        "earningsDate": [
-            "2023-10-19"
-        ],
-        "similar": "ZION"
-    },
     "TGT": {
         "earningsDate": [
             "2023-11-15"
@@ -1044,12 +1026,6 @@
         ],
         "similar": "PYPL"
     },
-    "USB": {
-        "earningsDate": [
-            "2023-10-18"
-        ],
-        "similar": "CMA"
-    },
     "USIM5.SA": {
         "earningsDate": [
             "2023-10-27"
@@ -1112,6 +1088,13 @@
         "earningsDate": [
             "2023-11-28",
             "2023-12-04"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2023-11-15",
+            "2023-11-20"
         ],
         "similar": "AAP"
     },
