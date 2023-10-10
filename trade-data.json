@@ -168,6 +168,12 @@
          "strike":45
       },
       {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-10-20",
+         "strike":93
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2023-10-20",
@@ -196,6 +202,18 @@
          "type":"put",
          "expiry":"2023-10-20",
          "strike":5
+      },
+      {
+         "symbol":"NKE",
+         "type":"call",
+         "expiry":"2023-10-20",
+         "strike":102
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-10-27",
+         "strike":120
       },
       {
          "symbol":"TGT",
