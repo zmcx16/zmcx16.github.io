@@ -1,11 +1,4 @@
 {
-    "9904.TW": {
-        "earningsDate": [
-            "2023-11-09",
-            "2023-11-13"
-        ],
-        "similar": "NKE"
-    },
     "AAP": {
         "earningsDate": [
             "2023-11-13",
@@ -85,8 +78,7 @@
     },
     "BBY": {
         "earningsDate": [
-            "2023-11-20",
-            "2023-11-24"
+            "2023-11-21"
         ],
         "similar": "AAP"
     },
@@ -164,6 +156,12 @@
             "2023-10-18"
         ],
         "similar": "CMA"
+    },
+    "CGX.TO": {
+        "earningsDate": [
+            "2023-11-09"
+        ],
+        "similar": "DIS"
     },
     "CHTR": {
         "earningsDate": [
@@ -388,12 +386,6 @@
         ],
         "similar": "ILPT"
     },
-    "FWONA": {
-        "earningsDate": [
-            "2023-11-03"
-        ],
-        "similar": "DIS"
-    },
     "GMRE": {
         "earningsDate": [
             "2023-10-31",
@@ -529,8 +521,7 @@
     },
     "LXP": {
         "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
+            "2023-10-31"
         ],
         "similar": "ILPT"
     },
@@ -557,8 +548,7 @@
     },
     "MA": {
         "earningsDate": [
-            "2023-10-25",
-            "2023-10-30"
+            "2023-10-26"
         ],
         "similar": "PYPL"
     },
@@ -568,6 +558,13 @@
             "2023-11-20"
         ],
         "similar": "KSS"
+    },
+    "MANU": {
+        "earningsDate": [
+            "2023-10-11",
+            "2023-10-17"
+        ],
+        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -660,7 +657,7 @@
         "earningsDate": [
             "2023-11-14"
         ],
-        "similar": "WFC"
+        "similar": "C"
     },
     "NVDA": {
         "earningsDate": [
@@ -740,7 +737,8 @@
     },
     "PEP": {
         "earningsDate": [
-            "2023-10-10"
+            "2023-12-07",
+            "2023-12-11"
         ],
         "similar": "-"
     },
@@ -798,12 +796,6 @@
             "2023-10-18"
         ],
         "similar": "ILPT"
-    },
-    "RF": {
-        "earningsDate": [
-            "2023-10-20"
-        ],
-        "similar": "CMA"
     },
     "RH": {
         "earningsDate": [
@@ -960,7 +952,13 @@
             "2023-11-29",
             "2023-12-04"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
+    },
+    "TFC": {
+        "earningsDate": [
+            "2023-10-19"
+        ],
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -1034,8 +1032,7 @@
     },
     "V": {
         "earningsDate": [
-            "2023-10-23",
-            "2023-10-27"
+            "2023-10-24"
         ],
         "similar": "PYPL"
     },
@@ -1097,6 +1094,13 @@
             "2023-11-20"
         ],
         "similar": "AAP"
+    },
+    "WWW": {
+        "earningsDate": [
+            "2023-11-07",
+            "2023-11-13"
+        ],
+        "similar": "NKE"
     },
     "ZIM": {
         "earningsDate": [
