@@ -44,6 +44,13 @@
         ],
         "similar": "ALB"
     },
+    "ASC": {
+        "earningsDate": [
+            "2023-10-31",
+            "2023-11-06"
+        ],
+        "similar": "DAC"
+    },
     "AVGO": {
         "earningsDate": [
             "2023-12-06",
@@ -190,8 +197,7 @@
     },
     "CMIN3.SA": {
         "earningsDate": [
-            "2023-11-02",
-            "2023-11-04"
+            "2023-11-13"
         ],
         "similar": "SID"
     },
@@ -237,7 +243,7 @@
     },
     "CSNA3.SA": {
         "earningsDate": [
-            "2023-11-08"
+            "2023-11-13"
         ],
         "similar": "SID"
     },
@@ -432,8 +438,7 @@
     },
     "HMN": {
         "earningsDate": [
-            "2023-11-01",
-            "2023-11-06"
+            "2023-11-02"
         ],
         "similar": "STC"
     },
@@ -561,7 +566,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-10-11",
+            "2023-10-12",
             "2023-10-17"
         ],
         "similar": "DIS"
@@ -657,7 +662,7 @@
         "earningsDate": [
             "2023-11-14"
         ],
-        "similar": "C"
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -797,6 +802,12 @@
         ],
         "similar": "ILPT"
     },
+    "RF": {
+        "earningsDate": [
+            "2023-10-20"
+        ],
+        "similar": "CMA"
+    },
     "RH": {
         "earningsDate": [
             "2023-12-06",
@@ -851,10 +862,9 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-11-14",
-            "2023-11-20"
+            "2023-11-13"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -953,12 +963,6 @@
             "2023-12-04"
         ],
         "similar": "WFC"
-    },
-    "TFC": {
-        "earningsDate": [
-            "2023-10-19"
-        ],
-        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -1094,13 +1098,6 @@
             "2023-11-20"
         ],
         "similar": "AAP"
-    },
-    "WWW": {
-        "earningsDate": [
-            "2023-11-07",
-            "2023-11-13"
-        ],
-        "similar": "NKE"
     },
     "ZIM": {
         "earningsDate": [
