@@ -128,7 +128,7 @@
     },
     "C": {
         "earningsDate": [
-            "2023-10-13"
+            "2024-01-12"
         ],
         "similar": "-"
     },
@@ -220,6 +220,13 @@
             "2023-12-14"
         ],
         "similar": "TGT"
+    },
+    "CPLP": {
+        "earningsDate": [
+            "2023-11-07",
+            "2023-11-13"
+        ],
+        "similar": "DAC"
     },
     "CROX": {
         "earningsDate": [
@@ -464,7 +471,7 @@
     },
     "JPM": {
         "earningsDate": [
-            "2023-10-13"
+            "2024-01-12"
         ],
         "similar": "WFC"
     },
@@ -526,8 +533,7 @@
     },
     "LYB": {
         "earningsDate": [
-            "2023-10-26",
-            "2023-10-30"
+            "2023-10-27"
         ],
         "similar": "ALB"
     },
@@ -560,7 +566,7 @@
     },
     "MANU": {
         "earningsDate": [
-            "2023-10-13",
+            "2023-10-16",
             "2023-10-17"
         ],
         "similar": "DIS"
@@ -670,12 +676,6 @@
             "2023-11-17"
         ],
         "similar": "MPW"
-    },
-    "NXPI": {
-        "earningsDate": [
-            "2023-11-06"
-        ],
-        "similar": "QCOM"
     },
     "OHI": {
         "earningsDate": [
@@ -856,7 +856,7 @@
         "earningsDate": [
             "2023-11-13"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -928,6 +928,13 @@
             "2023-10-30"
         ],
         "similar": "-"
+    },
+    "SWKS": {
+        "earningsDate": [
+            "2023-11-01",
+            "2023-11-06"
+        ],
+        "similar": "QCOM"
     },
     "T": {
         "earningsDate": [
@@ -1052,8 +1059,7 @@
     },
     "WAL": {
         "earningsDate": [
-            "2023-10-18",
-            "2023-10-23"
+            "2023-10-19"
         ],
         "similar": "CMA"
     },
@@ -1072,7 +1078,7 @@
     },
     "WFC": {
         "earningsDate": [
-            "2023-10-13"
+            "2024-01-12"
         ],
         "similar": "-"
     },
