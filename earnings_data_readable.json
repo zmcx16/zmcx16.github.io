@@ -6,12 +6,6 @@
         ],
         "similar": "-"
     },
-    "ADS.DE": {
-        "earningsDate": [
-            "2023-11-08"
-        ],
-        "similar": "NKE"
-    },
     "ALB": {
         "earningsDate": [
             "2023-11-01"
@@ -231,12 +225,6 @@
         ],
         "similar": "TGT"
     },
-    "CROX": {
-        "earningsDate": [
-            "2023-11-02"
-        ],
-        "similar": "NKE"
-    },
     "CSNA3.SA": {
         "earningsDate": [
             "2023-11-13"
@@ -262,12 +250,6 @@
             "2023-11-13"
         ],
         "similar": "KSS"
-    },
-    "DECK": {
-        "earningsDate": [
-            "2023-10-26"
-        ],
-        "similar": "NKE"
     },
     "DFS": {
         "earningsDate": [
@@ -330,12 +312,6 @@
         ],
         "similar": "ZIM"
     },
-    "ECL": {
-        "earningsDate": [
-            "2023-10-31"
-        ],
-        "similar": "ALB"
-    },
     "EGLE": {
         "earningsDate": [
             "2023-11-02"
@@ -374,13 +350,6 @@
             "2023-12-11"
         ],
         "similar": "PEP"
-    },
-    "FORD": {
-        "earningsDate": [
-            "2023-12-14",
-            "2023-12-18"
-        ],
-        "similar": "NKE"
     },
     "FR": {
         "earningsDate": [
@@ -527,6 +496,12 @@
         ],
         "similar": "ILPT"
     },
+    "LYB": {
+        "earningsDate": [
+            "2023-10-27"
+        ],
+        "similar": "ALB"
+    },
     "M": {
         "earningsDate": [
             "2023-11-15",
@@ -620,13 +595,6 @@
         ],
         "similar": "DIS"
     },
-    "NKE": {
-        "earningsDate": [
-            "2023-12-18",
-            "2023-12-22"
-        ],
-        "similar": "-"
-    },
     "NMM": {
         "earningsDate": [
             "2023-11-06",
@@ -677,12 +645,6 @@
             "2023-12-11"
         ],
         "similar": "TGT"
-    },
-    "ONON": {
-        "earningsDate": [
-            "2023-08-15"
-        ],
-        "similar": "NKE"
     },
     "ORLY": {
         "earningsDate": [
@@ -760,12 +722,6 @@
         ],
         "similar": "TGT"
     },
-    "PUM.DE": {
-        "earningsDate": [
-            "2023-10-24"
-        ],
-        "similar": "NKE"
-    },
     "PYPL": {
         "earningsDate": [
             "2023-11-01"
@@ -825,7 +781,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "SAFT": {
         "earningsDate": [
@@ -877,12 +833,6 @@
             "2023-10-31"
         ],
         "similar": "DIS"
-    },
-    "SKX": {
-        "earningsDate": [
-            "2023-10-26"
-        ],
-        "similar": "NKE"
     },
     "SOFI": {
         "earningsDate": [
@@ -1009,12 +959,6 @@
             "2023-11-07"
         ],
         "similar": "PYPL"
-    },
-    "USB": {
-        "earningsDate": [
-            "2024-01-17"
-        ],
-        "similar": "ZION"
     },
     "USIM5.SA": {
         "earningsDate": [
