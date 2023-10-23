@@ -125,7 +125,7 @@
         "earningsDate": [
             "2023-11-28"
         ],
-        "similar": "WFC"
+        "similar": "BAC"
     },
     "C": {
         "earningsDate": [
@@ -168,7 +168,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "BAC"
+        "similar": "WFC"
     },
     "CMA": {
         "earningsDate": [
@@ -312,6 +312,12 @@
         ],
         "similar": "ZIM"
     },
+    "ECL": {
+        "earningsDate": [
+            "2023-10-31"
+        ],
+        "similar": "ALB"
+    },
     "EGLE": {
         "earningsDate": [
             "2023-11-02"
@@ -336,7 +342,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "FITB": {
         "earningsDate": [
@@ -495,12 +501,6 @@
             "2023-10-31"
         ],
         "similar": "ILPT"
-    },
-    "LYB": {
-        "earningsDate": [
-            "2023-10-27"
-        ],
-        "similar": "ALB"
     },
     "M": {
         "earningsDate": [
@@ -884,7 +884,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -986,7 +986,8 @@
     },
     "WAL": {
         "earningsDate": [
-            "2023-10-20"
+            "2024-01-22",
+            "2024-01-26"
         ],
         "similar": "CMA"
     },
@@ -1038,7 +1039,8 @@
     },
     "ZION": {
         "earningsDate": [
-            "2023-10-18"
+            "2024-01-22",
+            "2024-01-26"
         ],
         "similar": "-"
     }
