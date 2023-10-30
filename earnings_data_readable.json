@@ -36,12 +36,6 @@
         ],
         "similar": "ALB"
     },
-    "ASC": {
-        "earningsDate": [
-            "2023-11-07"
-        ],
-        "similar": "DAC"
-    },
     "AVGO": {
         "earningsDate": [
             "2023-12-06",
@@ -318,7 +312,7 @@
             "2023-11-15",
             "2023-11-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -415,13 +409,6 @@
         ],
         "similar": "AAP"
     },
-    "GRIN": {
-        "earningsDate": [
-            "2023-11-14",
-            "2023-11-20"
-        ],
-        "similar": "ZIM"
-    },
     "HBAN": {
         "earningsDate": [
             "2024-01-18",
@@ -481,7 +468,8 @@
     },
     "KEX": {
         "earningsDate": [
-            "2023-10-26"
+            "2024-01-29",
+            "2024-02-02"
         ],
         "similar": "DAC"
     },
@@ -565,6 +553,12 @@
             "2023-11-16"
         ],
         "similar": "KSS"
+    },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-11-03"
+        ],
+        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -655,12 +649,6 @@
             "2023-11-08"
         ],
         "similar": "MPW"
-    },
-    "NXPI": {
-        "earningsDate": [
-            "2023-11-06"
-        ],
-        "similar": "QCOM"
     },
     "OHI": {
         "earningsDate": [
@@ -1010,6 +998,12 @@
             "2024-01-26"
         ],
         "similar": "CMA"
+    },
+    "WALMEX.MX": {
+        "earningsDate": [
+            "2023-10-25"
+        ],
+        "similar": "TGT"
     },
     "WBD": {
         "earningsDate": [
