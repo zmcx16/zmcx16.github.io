@@ -155,70 +155,22 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2023-10-20",
-         "strike":140
-      },
-      {
-         "symbol":"DAVA",
-         "type":"put",
-         "expiry":"2023-10-20",
-         "strike":45
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2023-10-20",
-         "strike":93
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2023-10-20",
-         "strike":60
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2023-10-20",
-         "strike":29
-      },
-      {
-         "symbol":"INTC",
-         "type":"call",
-         "expiry":"2023-10-20",
-         "strike":40
-      },
-      {
          "symbol":"KSS",
          "type":"call",
-         "expiry":"2023-10-27",
+         "expiry":"2023-11-10",
          "strike":25
       },
       {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2023-10-20",
-         "strike":5
-      },
-      {
-         "symbol":"NKE",
+         "symbol":"VZ",
          "type":"call",
-         "expiry":"2023-10-20",
-         "strike":102
-      },
-      {
-         "symbol":"QCOM",
-         "type":"call",
-         "expiry":"2023-10-27",
-         "strike":120
+         "expiry":"2023-11-17",
+         "strike":35.5
       },
       {
          "symbol":"WFC",
          "type":"call",
-         "expiry":"2023-10-27",
-         "strike":44
+         "expiry":"2023-11-17",
+         "strike":42
       }
    ],
    "news_config":{
