@@ -161,6 +161,12 @@
          "strike":25
       },
       {
+         "symbol":"INTC",
+         "type":"call",
+         "expiry":"2023-11-17",
+         "strike":39.5
+      },
+      {
          "symbol":"VZ",
          "type":"call",
          "expiry":"2023-11-17",
