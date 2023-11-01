@@ -26,7 +26,8 @@
     },
     "AMD": {
         "earningsDate": [
-            "2023-10-31"
+            "2024-01-29",
+            "2024-02-02"
         ],
         "similar": "INTC"
     },
@@ -35,6 +36,12 @@
             "2023-11-07"
         ],
         "similar": "ALB"
+    },
+    "ASC": {
+        "earningsDate": [
+            "2023-11-07"
+        ],
+        "similar": "ZIM"
     },
     "AVGO": {
         "earningsDate": [
@@ -159,7 +166,7 @@
     },
     "CHCT": {
         "earningsDate": [
-            "2023-10-31"
+            "2023-11-01"
         ],
         "similar": "MPW"
     },
@@ -527,12 +534,6 @@
         ],
         "similar": "ALB"
     },
-    "LYV": {
-        "earningsDate": [
-            "2023-11-02"
-        ],
-        "similar": "DIS"
-    },
     "M": {
         "earningsDate": [
             "2023-11-16"
@@ -551,12 +552,6 @@
             "2023-11-16"
         ],
         "similar": "KSS"
-    },
-    "MAERSK-B.CO": {
-        "earningsDate": [
-            "2023-11-03"
-        ],
-        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -589,13 +584,6 @@
         ],
         "similar": "-"
     },
-    "MRVL": {
-        "earningsDate": [
-            "2023-11-29",
-            "2023-12-05"
-        ],
-        "similar": "INTC"
-    },
     "MTB": {
         "earningsDate": [
             "2024-01-18"
@@ -625,8 +613,7 @@
     },
     "NMM": {
         "earningsDate": [
-            "2023-11-06",
-            "2023-11-10"
+            "2023-11-02"
         ],
         "similar": "DAC"
     },
@@ -647,6 +634,12 @@
             "2023-11-08"
         ],
         "similar": "MPW"
+    },
+    "NXPI": {
+        "earningsDate": [
+            "2023-11-06"
+        ],
+        "similar": "INTC"
     },
     "OHI": {
         "earningsDate": [
@@ -732,7 +725,8 @@
     },
     "PSMT": {
         "earningsDate": [
-            "2023-10-31"
+            "2024-01-08",
+            "2024-01-12"
         ],
         "similar": "TGT"
     },
@@ -843,6 +837,13 @@
         ],
         "similar": "STC"
     },
+    "SIRI": {
+        "earningsDate": [
+            "2024-01-31",
+            "2024-02-05"
+        ],
+        "similar": "DIS"
+    },
     "SOFI": {
         "earningsDate": [
             "2024-01-29",
@@ -910,8 +911,8 @@
     },
     "TKO": {
         "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
+            "2024-01-31",
+            "2024-02-05"
         ],
         "similar": "DIS"
     },
@@ -930,7 +931,7 @@
     },
     "TRNO": {
         "earningsDate": [
-            "2023-10-31",
+            "2023-11-01",
             "2023-11-04"
         ],
         "similar": "ILPT"
@@ -944,7 +945,7 @@
     },
     "TX": {
         "earningsDate": [
-            "2023-10-31"
+            "2023-11-01"
         ],
         "similar": "SID"
     },
