@@ -7,7 +7,7 @@
     },
     "ALB": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "-"
     },
@@ -121,12 +121,6 @@
         ],
         "similar": "WFC"
     },
-    "BMO.TO": {
-        "earningsDate": [
-            "2023-12-01"
-        ],
-        "similar": "BAC"
-    },
     "BNS": {
         "earningsDate": [
             "2023-11-28"
@@ -147,14 +141,13 @@
     },
     "CCEP": {
         "earningsDate": [
-            "2023-08-02"
+            "2023-11-01"
         ],
         "similar": "PEP"
     },
     "CELH": {
         "earningsDate": [
-            "2023-11-07",
-            "2023-11-13"
+            "2023-11-07"
         ],
         "similar": "PEP"
     },
@@ -281,7 +274,6 @@
     },
     "DISH": {
         "earningsDate": [
-            "2023-10-31",
             "2023-11-06"
         ],
         "similar": "VZ"
@@ -317,7 +309,7 @@
             "2023-11-15",
             "2023-11-20"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "ECL": {
         "earningsDate": [
@@ -352,8 +344,7 @@
     },
     "ESEA": {
         "earningsDate": [
-            "2023-11-13",
-            "2023-11-17"
+            "2023-11-09"
         ],
         "similar": "DAC"
     },
@@ -383,12 +374,12 @@
         ],
         "similar": "ILPT"
     },
-    "FRD": {
+    "GASS": {
         "earningsDate": [
-            "2023-11-30",
-            "2023-12-04"
+            "2023-11-20",
+            "2023-11-24"
         ],
-        "similar": "SID"
+        "similar": "DAC"
     },
     "GMRE": {
         "earningsDate": [
@@ -460,8 +451,7 @@
     },
     "JWN": {
         "earningsDate": [
-            "2023-11-20",
-            "2023-11-24"
+            "2023-11-21"
         ],
         "similar": "KSS"
     },
@@ -530,7 +520,8 @@
     },
     "LYB": {
         "earningsDate": [
-            "2023-10-27"
+            "2024-02-01",
+            "2024-02-05"
         ],
         "similar": "ALB"
     },
@@ -552,6 +543,12 @@
             "2023-11-16"
         ],
         "similar": "KSS"
+    },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-11-03"
+        ],
+        "similar": "ZIM"
     },
     "MANU": {
         "earningsDate": [
@@ -619,7 +616,7 @@
     },
     "NSA": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "ILPT"
     },
@@ -639,7 +636,7 @@
         "earningsDate": [
             "2023-11-06"
         ],
-        "similar": "INTC"
+        "similar": "QCOM"
     },
     "OHI": {
         "earningsDate": [
@@ -701,7 +698,7 @@
     },
     "PLMR": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "STC"
     },
@@ -738,9 +735,17 @@
     },
     "QCOM": {
         "earningsDate": [
-            "2023-11-01"
+            "2024-01-31",
+            "2024-02-05"
         ],
         "similar": "-"
+    },
+    "RDUS": {
+        "earningsDate": [
+            "2024-01-03",
+            "2024-01-08"
+        ],
+        "similar": "SID"
     },
     "REXR": {
         "earningsDate": [
@@ -794,8 +799,7 @@
     },
     "SAFT": {
         "earningsDate": [
-            "2023-10-31",
-            "2023-11-06"
+            "2023-11-01"
         ],
         "similar": "STC"
     },
@@ -833,7 +837,7 @@
     },
     "SIGI": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "STC"
     },
@@ -905,7 +909,7 @@
     },
     "THG": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "STC"
     },
@@ -931,8 +935,7 @@
     },
     "TRNO": {
         "earningsDate": [
-            "2023-11-01",
-            "2023-11-04"
+            "2023-11-01"
         ],
         "similar": "ILPT"
     },
@@ -958,7 +961,7 @@
     },
     "UFCS": {
         "earningsDate": [
-            "2023-11-01"
+            "2023-11-02"
         ],
         "similar": "STC"
     },
@@ -1030,6 +1033,13 @@
             "2023-11-16"
         ],
         "similar": "TGT"
+    },
+    "WOLF": {
+        "earningsDate": [
+            "2024-01-23",
+            "2024-01-29"
+        ],
+        "similar": "INTC"
     },
     "WOOF": {
         "earningsDate": [
