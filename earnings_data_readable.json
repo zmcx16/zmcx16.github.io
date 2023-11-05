@@ -120,12 +120,6 @@
         ],
         "similar": "WFC"
     },
-    "BMO.TO": {
-        "earningsDate": [
-            "2023-12-01"
-        ],
-        "similar": "BAC"
-    },
     "BNS": {
         "earningsDate": [
             "2023-11-28"
@@ -175,12 +169,11 @@
         ],
         "similar": "VZ"
     },
-    "CJR-B.TO": {
+    "CM": {
         "earningsDate": [
-            "2024-01-11",
-            "2024-01-15"
+            "2023-11-30"
         ],
-        "similar": "DIS"
+        "similar": "WFC"
     },
     "CM.TO": {
         "earningsDate": [
@@ -212,6 +205,12 @@
             "2023-11-01"
         ],
         "similar": "DAC"
+    },
+    "CNK": {
+        "earningsDate": [
+            "2023-11-03"
+        ],
+        "similar": "DIS"
     },
     "COCO": {
         "earningsDate": [
@@ -322,12 +321,6 @@
         ],
         "similar": "ALB"
     },
-    "EDR": {
-        "earningsDate": [
-            "2023-11-08"
-        ],
-        "similar": "DIS"
-    },
     "EGLE": {
         "earningsDate": [
             "2023-11-03"
@@ -358,7 +351,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -402,7 +395,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GPC": {
         "earningsDate": [
@@ -471,6 +464,13 @@
             "2023-10-26"
         ],
         "similar": "PEP"
+    },
+    "KEX": {
+        "earningsDate": [
+            "2024-01-29",
+            "2024-02-02"
+        ],
+        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -554,6 +554,12 @@
         ],
         "similar": "KSS"
     },
+    "MAERSK-B.CO": {
+        "earningsDate": [
+            "2023-11-03"
+        ],
+        "similar": "ZIM"
+    },
     "MATX": {
         "earningsDate": [
             "2023-10-30"
@@ -582,7 +588,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "MU": {
         "earningsDate": [
@@ -616,6 +622,12 @@
             "2023-11-02"
         ],
         "similar": "ILPT"
+    },
+    "NU": {
+        "earningsDate": [
+            "2023-11-14"
+        ],
+        "similar": "BAC"
     },
     "NVDA": {
         "earningsDate": [
@@ -666,7 +678,7 @@
             "2024-01-24",
             "2024-01-29"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "PARA": {
         "earningsDate": [
@@ -849,6 +861,12 @@
         ],
         "similar": "KSS"
     },
+    "SPHR": {
+        "earningsDate": [
+            "2023-11-08"
+        ],
+        "similar": "DIS"
+    },
     "STC": {
         "earningsDate": [
             "2023-10-26"
@@ -886,7 +904,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
@@ -989,6 +1007,12 @@
             "2024-01-26"
         ],
         "similar": "CMA"
+    },
+    "WALMEX.MX": {
+        "earningsDate": [
+            "2023-10-25"
+        ],
+        "similar": "TGT"
     },
     "WBD": {
         "earningsDate": [
