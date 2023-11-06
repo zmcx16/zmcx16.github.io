@@ -245,7 +245,8 @@
     },
     "DD": {
         "earningsDate": [
-            "2023-11-01"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "ALB"
     },
@@ -329,7 +330,8 @@
     },
     "EGP": {
         "earningsDate": [
-            "2023-10-25"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "ILPT"
     },
@@ -395,7 +397,7 @@
         "earningsDate": [
             "2023-11-30"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GPC": {
         "earningsDate": [
@@ -418,7 +420,8 @@
     },
     "HMN": {
         "earningsDate": [
-            "2023-11-03"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "STC"
     },
@@ -465,13 +468,6 @@
         ],
         "similar": "PEP"
     },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
-    },
     "KEY": {
         "earningsDate": [
             "2024-01-18"
@@ -512,7 +508,8 @@
     },
     "LUMN": {
         "earningsDate": [
-            "2023-10-31"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "VZ"
     },
@@ -588,7 +585,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "MU": {
         "earningsDate": [
@@ -657,7 +654,8 @@
     },
     "ON": {
         "earningsDate": [
-            "2023-10-30"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "INTC"
     },
@@ -678,7 +676,7 @@
             "2024-01-24",
             "2024-01-29"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PARA": {
         "earningsDate": [
@@ -688,8 +686,8 @@
     },
     "PEAK": {
         "earningsDate": [
-            "2023-10-30",
-            "2023-11-03"
+            "2024-02-05",
+            "2024-02-09"
         ],
         "similar": "MPW"
     },
@@ -860,12 +858,6 @@
             "2023-11-13"
         ],
         "similar": "KSS"
-    },
-    "SPHR": {
-        "earningsDate": [
-            "2023-11-08"
-        ],
-        "similar": "DIS"
     },
     "STC": {
         "earningsDate": [
