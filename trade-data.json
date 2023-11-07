@@ -155,16 +155,34 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"KSS",
+         "symbol":"BAC",
          "type":"call",
-         "expiry":"2023-11-10",
-         "strike":25
+         "expiry":"2023-12-15",
+         "strike":31
+      },
+      {
+         "symbol":"C",
+         "type":"call",
+         "expiry":"2023-12-08",
+         "strike":46
       },
       {
          "symbol":"INTC",
          "type":"call",
          "expiry":"2023-11-17",
          "strike":39.5
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-11-10",
+         "strike":25
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2023-11-10",
+         "strike":124
       },
       {
          "symbol":"VZ",
@@ -177,6 +195,12 @@
          "type":"call",
          "expiry":"2023-11-17",
          "strike":42
+      },
+      {
+         "symbol":"ZION",
+         "type":"call",
+         "expiry":"2024-01-19",
+         "strike":42.5
       }
    ],
    "news_config":{
