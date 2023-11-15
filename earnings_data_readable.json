@@ -19,6 +19,12 @@
         ],
         "similar": "PYPL"
     },
+    "ALTO": {
+        "earningsDate": [
+            "2023-11-06"
+        ],
+        "similar": "ALB"
+    },
     "AMC": {
         "earningsDate": [
             "2023-11-08"
@@ -167,7 +173,7 @@
     },
     "CHPT": {
         "earningsDate": [
-            "2023-11-13",
+            "2023-11-14",
             "2023-11-17"
         ],
         "similar": "AAP"
@@ -244,7 +250,8 @@
     },
     "DAC": {
         "earningsDate": [
-            "2023-11-14"
+            "2024-02-12",
+            "2024-02-16"
         ],
         "similar": "-"
     },
@@ -393,9 +400,9 @@
     },
     "GOGL": {
         "earningsDate": [
-            "2023-11-30"
+            "2023-11-21"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GPC": {
         "earningsDate": [
@@ -469,13 +476,6 @@
         ],
         "similar": "PEP"
     },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
-    },
     "KEY": {
         "earningsDate": [
             "2024-01-18"
@@ -504,7 +504,8 @@
     },
     "LTC": {
         "earningsDate": [
-            "2023-10-27"
+            "2024-02-14",
+            "2024-02-19"
         ],
         "similar": "MPW"
     },
@@ -524,7 +525,8 @@
     },
     "LXP": {
         "earningsDate": [
-            "2023-10-31"
+            "2024-02-14",
+            "2024-02-19"
         ],
         "similar": "ILPT"
     },
@@ -590,6 +592,12 @@
         ],
         "similar": "-"
     },
+    "MRVL": {
+        "earningsDate": [
+            "2023-11-30"
+        ],
+        "similar": "INTC"
+    },
     "MTB": {
         "earningsDate": [
             "2024-01-18"
@@ -629,12 +637,6 @@
         ],
         "similar": "ILPT"
     },
-    "NU": {
-        "earningsDate": [
-            "2023-11-14"
-        ],
-        "similar": "BAC"
-    },
     "NVDA": {
         "earningsDate": [
             "2023-11-21"
@@ -646,13 +648,6 @@
             "2023-11-08"
         ],
         "similar": "MPW"
-    },
-    "NXPI": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "INTC"
     },
     "OHI": {
         "earningsDate": [
@@ -697,7 +692,8 @@
     },
     "PARA": {
         "earningsDate": [
-            "2023-11-02"
+            "2024-02-14",
+            "2024-02-19"
         ],
         "similar": "DIS"
     },
@@ -733,13 +729,6 @@
             "2024-01-16"
         ],
         "similar": "CMA"
-    },
-    "PPG": {
-        "earningsDate": [
-            "2024-01-17",
-            "2024-01-22"
-        ],
-        "similar": "ALB"
     },
     "PRA": {
         "earningsDate": [
@@ -804,7 +793,8 @@
     },
     "RS": {
         "earningsDate": [
-            "2023-10-26"
+            "2024-02-14",
+            "2024-02-19"
         ],
         "similar": "SID"
     },
@@ -828,7 +818,8 @@
     },
     "SBLK": {
         "earningsDate": [
-            "2023-11-14"
+            "2024-02-14",
+            "2024-02-19"
         ],
         "similar": "DAC"
     },
@@ -840,7 +831,7 @@
     },
     "SELF": {
         "earningsDate": [
-            "2023-11-13",
+            "2023-11-14",
             "2023-11-21"
         ],
         "similar": "ILPT"
@@ -1058,7 +1049,7 @@
     },
     "WALMEX.MX": {
         "earningsDate": [
-            "2023-10-25"
+            "2024-02-14"
         ],
         "similar": "TGT"
     },
