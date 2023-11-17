@@ -178,6 +178,18 @@
          "strike":39.5
       },
       {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-11-24",
+         "strike":30
+      },
+      {
+         "symbol":"PEP",
+         "type":"call",
+         "expiry":"2023-11-17",
+         "strike":172.5
+      },
+      {
          "symbol":"VZ",
          "type":"call",
          "expiry":"2023-11-17",
