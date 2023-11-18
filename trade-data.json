@@ -3,15 +3,12 @@
       "PEP",
       "KSS",
       "TGT",
-      "VZ",
       "MPW",
       "ILPT",
       "AAP",
       "DIS",
       "PYPL",
-      "INTC",
       "STC",
-      "WFC",
       "BAC",
       "C",
       "CMA",
@@ -166,40 +163,10 @@
          "strike":46
       },
       {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2023-11-17",
-         "strike":95
-      },
-      {
-         "symbol":"INTC",
-         "type":"call",
-         "expiry":"2023-11-17",
-         "strike":39.5
-      },
-      {
          "symbol":"KSS",
          "type":"call",
          "expiry":"2023-11-24",
          "strike":30
-      },
-      {
-         "symbol":"PEP",
-         "type":"call",
-         "expiry":"2023-11-17",
-         "strike":172.5
-      },
-      {
-         "symbol":"VZ",
-         "type":"call",
-         "expiry":"2023-11-17",
-         "strike":35.5
-      },
-      {
-         "symbol":"WFC",
-         "type":"call",
-         "expiry":"2023-11-17",
-         "strike":42
       },
       {
          "symbol":"ZION",
@@ -797,102 +764,87 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.42,
-         "position_%":10.637238646384205,
+         "position_%":12.842941188866133,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.75,
-         "position_%":5.776229692812625,
+         "position_%":6.973969533285904,
          "profit_%":0
       },
       "BAC":{
          "cost_p":30.92,
-         "position_%":13.61993405955916,
+         "position_%":16.444118435061306,
          "profit_%":0
       },
       "C":{
          "cost_p":44.73,
-         "position_%":1.4870259232201941,
+         "position_%":1.7953706890582934,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.0777804650405125,
+         "position_%":2.508622134275505,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":3.652239390229611,
+         "position_%":4.409555642744111,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.43,
-         "position_%":6.689372651588629,
+         "position_%":8.076458788857302,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":2.867337041755907,
-         "profit_%":0
-      },
-      "INTC":{
-         "cost_p":36.9,
-         "position_%":6.746968726079553,
+         "position_%":3.4618985453001967,
          "profit_%":0
       },
       "KSS":{
          "cost_p":21,
-         "position_%":2.0944027087608363,
+         "position_%":2.528691111349709,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.24,
-         "position_%":3.6302980285187836,
+         "position_%":4.383064593006162,
          "profit_%":0
       },
       "PEP":{
          "cost_p":162.5,
-         "position_%":2.701114604552666,
+         "position_%":3.2612087745581566,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":3.4078924075408468,
+         "position_%":4.114541679753312,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":2.6412745271594993,
+         "position_%":3.1889604570910217,
          "profit_%":0
       },
       "STC":{
          "cost_p":52.72,
-         "position_%":5.257948133612919,
+         "position_%":6.348218828112222,
          "profit_%":0
       },
       "TGT":{
          "cost_p":127.91,
-         "position_%":6.378453582799967,
-         "profit_%":0
-      },
-      "VZ":{
-         "cost_p":32.66,
-         "position_%":3.8001773593404953,
-         "profit_%":0
-      },
-      "WFC":{
-         "cost_p":39.87,
-         "position_%":6.627288571293219,
+         "position_%":7.701068572684316,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":7.787687405409044,
+         "position_%":9.402516449035335,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.119336074341323,
+         "position_%":2.558794576961015,
          "profit_%":0
       }
    }
