@@ -414,12 +414,6 @@
         ],
         "similar": "DAC"
     },
-    "GPC": {
-        "earningsDate": [
-            "2023-10-19"
-        ],
-        "similar": "AAP"
-    },
     "GSY.TO": {
         "earningsDate": [
             "2024-02-13",
@@ -960,6 +954,13 @@
         ],
         "similar": "ILPT"
     },
+    "TSCO": {
+        "earningsDate": [
+            "2024-01-24",
+            "2024-01-29"
+        ],
+        "similar": "AAP"
+    },
     "TX": {
         "earningsDate": [
             "2024-02-12",
@@ -993,13 +994,6 @@
             "2024-02-16"
         ],
         "similar": "PYPL"
-    },
-    "USAP": {
-        "earningsDate": [
-            "2024-01-22",
-            "2024-01-26"
-        ],
-        "similar": "SID"
     },
     "USIM5.SA": {
         "earningsDate": [
