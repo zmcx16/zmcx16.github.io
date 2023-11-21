@@ -173,10 +173,34 @@
          "strike":46
       },
       {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2023-12-15",
+         "strike":62.5
+      },
+      {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2023-12-01",
+         "strike":102
+      },
+      {
          "symbol":"KSS",
          "type":"call",
          "expiry":"2023-11-24",
          "strike":30
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2023-12-08",
+         "strike":116
+      },
+      {
+         "symbol":"X",
+         "type":"put",
+         "expiry":"2023-12-15",
+         "strike":24
       },
       {
          "symbol":"ZION",
