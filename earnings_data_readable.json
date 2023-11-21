@@ -106,16 +106,9 @@
         ],
         "similar": "-"
     },
-    "CC": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "ALB"
-    },
     "CCEP": {
         "earningsDate": [
-            "2023-11-01"
+            "2024-02-20"
         ],
         "similar": "PEP"
     },
@@ -184,7 +177,8 @@
     },
     "COKE": {
         "earningsDate": [
-            "2023-11-01"
+            "2024-02-20",
+            "2024-02-26"
         ],
         "similar": "PEP"
     },
@@ -263,7 +257,8 @@
     },
     "DOC": {
         "earningsDate": [
-            "2023-11-03"
+            "2024-02-20",
+            "2024-02-26"
         ],
         "similar": "MPW"
     },
@@ -275,7 +270,8 @@
     },
     "DSX": {
         "earningsDate": [
-            "2023-11-15"
+            "2024-02-20",
+            "2024-02-26"
         ],
         "similar": "ZIM"
     },
@@ -298,6 +294,13 @@
             "2024-02-09"
         ],
         "similar": "ILPT"
+    },
+    "EMN": {
+        "earningsDate": [
+            "2024-01-24",
+            "2024-01-29"
+        ],
+        "similar": "ALB"
     },
     "ESEA": {
         "earningsDate": [
@@ -325,13 +328,6 @@
         ],
         "similar": "CMA"
     },
-    "FIZZ": {
-        "earningsDate": [
-            "2023-12-06",
-            "2023-12-11"
-        ],
-        "similar": "PEP"
-    },
     "FR": {
         "earningsDate": [
             "2024-02-06",
@@ -354,7 +350,8 @@
     },
     "GNK": {
         "earningsDate": [
-            "2023-11-09"
+            "2024-02-20",
+            "2024-02-26"
         ],
         "similar": "DAC"
     },
@@ -404,6 +401,12 @@
             "2024-02-16"
         ],
         "similar": "-"
+    },
+    "IQ": {
+        "earningsDate": [
+            "2023-11-21"
+        ],
+        "similar": "DIS"
     },
     "JPM": {
         "earningsDate": [
@@ -475,12 +478,6 @@
             "2024-02-05"
         ],
         "similar": "ALB"
-    },
-    "LYV": {
-        "earningsDate": [
-            "2023-11-02"
-        ],
-        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -714,7 +711,8 @@
     },
     "SAFT": {
         "earningsDate": [
-            "2023-11-01"
+            "2024-02-20",
+            "2024-02-26"
         ],
         "similar": "STC"
     },
