@@ -185,6 +185,12 @@
          "strike":102
       },
       {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2023-12-22",
+         "strike":24
+      },
+      {
          "symbol":"KSS",
          "type":"call",
          "expiry":"2023-11-24",
@@ -195,6 +201,12 @@
          "type":"put",
          "expiry":"2023-12-08",
          "strike":116
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2024-01-19",
+         "strike":13
       },
       {
          "symbol":"X",
