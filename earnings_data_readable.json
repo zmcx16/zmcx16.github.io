@@ -32,6 +32,13 @@
         ],
         "similar": "ALB"
     },
+    "ASTL": {
+        "earningsDate": [
+            "2024-02-14",
+            "2024-02-18"
+        ],
+        "similar": "SID"
+    },
     "AXP": {
         "earningsDate": [
             "2024-01-25",
@@ -189,6 +196,13 @@
         ],
         "similar": "TGT"
     },
+    "CPLP": {
+        "earningsDate": [
+            "2024-02-01",
+            "2024-02-05"
+        ],
+        "similar": "DAC"
+    },
     "DAC": {
         "earningsDate": [
             "2024-02-12",
@@ -288,13 +302,6 @@
             "2024-02-19"
         ],
         "similar": "DAC"
-    },
-    "FHN": {
-        "earningsDate": [
-            "2024-01-16",
-            "2024-01-22"
-        ],
-        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -410,13 +417,6 @@
         ],
         "similar": "PEP"
     },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
-    },
     "KEY": {
         "earningsDate": [
             "2024-01-18"
@@ -496,12 +496,6 @@
         ],
         "similar": "KSS"
     },
-    "MAERSK-B.CO": {
-        "earningsDate": [
-            "2024-02-08"
-        ],
-        "similar": "ZIM"
-    },
     "MANU": {
         "earningsDate": [
             "2023-12-06",
@@ -567,17 +561,17 @@
         ],
         "similar": "DAC"
     },
-    "NSA": {
-        "earningsDate": [
-            "2023-11-02"
-        ],
-        "similar": "ILPT"
-    },
     "NWH-UN.TO": {
         "earningsDate": [
             "2023-11-08"
         ],
         "similar": "MPW"
+    },
+    "NXR-UN.TO": {
+        "earningsDate": [
+            "2023-11-15"
+        ],
+        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
@@ -902,7 +896,7 @@
             "2024-01-22",
             "2024-01-26"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "WBD": {
         "earningsDate": [
