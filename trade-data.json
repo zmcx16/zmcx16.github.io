@@ -192,9 +192,9 @@
       },
       {
          "symbol":"KSS",
-         "type":"call",
-         "expiry":"2023-11-24",
-         "strike":30
+         "type":"put",
+         "expiry":"2023-12-08",
+         "strike":19.5
       },
       {
          "symbol":"QCOM",
