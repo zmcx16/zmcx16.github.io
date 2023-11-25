@@ -32,12 +32,12 @@
         ],
         "similar": "ALB"
     },
-    "ASTL": {
+    "ASC": {
         "earningsDate": [
-            "2024-02-14",
-            "2024-02-18"
+            "2024-02-12",
+            "2024-02-16"
         ],
-        "similar": "SID"
+        "similar": "DAC"
     },
     "AXP": {
         "earningsDate": [
@@ -131,6 +131,13 @@
             "2024-01-17"
         ],
         "similar": "CMA"
+    },
+    "CGX.TO": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-09"
+        ],
+        "similar": "DIS"
     },
     "CHPT": {
         "earningsDate": [
@@ -350,6 +357,20 @@
         ],
         "similar": "ZIM"
     },
+    "GPC": {
+        "earningsDate": [
+            "2024-02-21",
+            "2024-02-26"
+        ],
+        "similar": "AAP"
+    },
+    "GRIN": {
+        "earningsDate": [
+            "2023-11-30",
+            "2023-12-04"
+        ],
+        "similar": "ZIM"
+    },
     "GSY.TO": {
         "earningsDate": [
             "2024-02-13",
@@ -561,17 +582,17 @@
         ],
         "similar": "DAC"
     },
+    "NSA": {
+        "earningsDate": [
+            "2023-11-02"
+        ],
+        "similar": "ILPT"
+    },
     "NWH-UN.TO": {
         "earningsDate": [
             "2023-11-08"
         ],
         "similar": "MPW"
-    },
-    "NXR-UN.TO": {
-        "earningsDate": [
-            "2023-11-15"
-        ],
-        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
@@ -687,13 +708,6 @@
         ],
         "similar": "CMA"
     },
-    "RH": {
-        "earningsDate": [
-            "2023-12-06",
-            "2023-12-11"
-        ],
-        "similar": "AAP"
-    },
     "RLI": {
         "earningsDate": [
             "2024-01-23",
@@ -733,7 +747,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -923,6 +937,13 @@
             "2023-11-16"
         ],
         "similar": "AAP"
+    },
+    "WTM": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-09"
+        ],
+        "similar": "STC"
     },
     "ZIM": {
         "earningsDate": [
