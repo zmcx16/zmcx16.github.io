@@ -32,13 +32,6 @@
         ],
         "similar": "ALB"
     },
-    "ASC": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "DAC"
-    },
     "AXP": {
         "earningsDate": [
             "2024-01-25",
@@ -138,12 +131,6 @@
             "2024-02-09"
         ],
         "similar": "DIS"
-    },
-    "CHPT": {
-        "earningsDate": [
-            "2023-12-06"
-        ],
-        "similar": "AAP"
     },
     "CM.TO": {
         "earningsDate": [
@@ -364,13 +351,6 @@
         ],
         "similar": "AAP"
     },
-    "GRIN": {
-        "earningsDate": [
-            "2023-11-30",
-            "2023-12-04"
-        ],
-        "similar": "ZIM"
-    },
     "GSY.TO": {
         "earningsDate": [
             "2024-02-13",
@@ -437,6 +417,13 @@
             "2024-02-26"
         ],
         "similar": "PEP"
+    },
+    "KEX": {
+        "earningsDate": [
+            "2024-01-29",
+            "2024-02-02"
+        ],
+        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -582,17 +569,17 @@
         ],
         "similar": "DAC"
     },
-    "NSA": {
-        "earningsDate": [
-            "2023-11-02"
-        ],
-        "similar": "ILPT"
-    },
     "NWH-UN.TO": {
         "earningsDate": [
             "2023-11-08"
         ],
         "similar": "MPW"
+    },
+    "NXR-UN.TO": {
+        "earningsDate": [
+            "2023-11-15"
+        ],
+        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
@@ -707,6 +694,13 @@
             "2024-01-19"
         ],
         "similar": "CMA"
+    },
+    "RH": {
+        "earningsDate": [
+            "2023-12-06",
+            "2023-12-11"
+        ],
+        "similar": "AAP"
     },
     "RLI": {
         "earningsDate": [
@@ -883,6 +877,13 @@
             "2024-02-16"
         ],
         "similar": "PYPL"
+    },
+    "USAP": {
+        "earningsDate": [
+            "2024-01-22",
+            "2024-01-26"
+        ],
+        "similar": "SID"
     },
     "USIM5.SA": {
         "earningsDate": [
