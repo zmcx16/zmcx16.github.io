@@ -1,7 +1,8 @@
 {
     "AAP": {
         "earningsDate": [
-            "2023-11-15"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "-"
     },
@@ -21,7 +22,8 @@
     },
     "AMC": {
         "earningsDate": [
-            "2023-11-08"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "DIS"
     },
@@ -132,6 +134,12 @@
         ],
         "similar": "DIS"
     },
+    "CHPT": {
+        "earningsDate": [
+            "2023-12-06"
+        ],
+        "similar": "AAP"
+    },
     "CM.TO": {
         "earningsDate": [
             "2023-11-30"
@@ -190,12 +198,12 @@
         ],
         "similar": "TGT"
     },
-    "CPLP": {
+    "CUBE": {
         "earningsDate": [
-            "2024-02-01",
-            "2024-02-05"
+            "2024-02-21",
+            "2024-02-26"
         ],
-        "similar": "DAC"
+        "similar": "ILPT"
     },
     "DAC": {
         "earningsDate": [
@@ -326,7 +334,8 @@
     },
     "GMRE": {
         "earningsDate": [
-            "2023-11-07"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "MPW"
     },
@@ -374,7 +383,8 @@
     },
     "HR": {
         "earningsDate": [
-            "2023-11-03"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "MPW"
     },
@@ -504,13 +514,6 @@
         ],
         "similar": "KSS"
     },
-    "MANU": {
-        "earningsDate": [
-            "2023-12-06",
-            "2023-12-11"
-        ],
-        "similar": "DIS"
-    },
     "MATX": {
         "earningsDate": [
             "2024-02-19",
@@ -526,13 +529,15 @@
     },
     "MNSO": {
         "earningsDate": [
-            "2023-11-21"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "AAP"
     },
     "MNST": {
         "earningsDate": [
-            "2023-11-02"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "PEP"
     },
@@ -574,12 +579,6 @@
             "2023-11-08"
         ],
         "similar": "MPW"
-    },
-    "NXR-UN.TO": {
-        "earningsDate": [
-            "2023-11-15"
-        ],
-        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
@@ -664,7 +663,8 @@
     },
     "PRA": {
         "earningsDate": [
-            "2023-11-09"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "STC"
     },
@@ -741,7 +741,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -826,7 +826,8 @@
     },
     "TGT": {
         "earningsDate": [
-            "2023-11-15"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "-"
     },
@@ -932,12 +933,6 @@
             "2024-02-23"
         ],
         "similar": "TGT"
-    },
-    "WSM": {
-        "earningsDate": [
-            "2023-11-16"
-        ],
-        "similar": "AAP"
     },
     "WTM": {
         "earningsDate": [
