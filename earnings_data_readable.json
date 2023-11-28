@@ -198,12 +198,12 @@
         ],
         "similar": "TGT"
     },
-    "CUBE": {
+    "CPLP": {
         "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
+            "2024-02-01",
+            "2024-02-05"
         ],
-        "similar": "ILPT"
+        "similar": "DAC"
     },
     "DAC": {
         "earningsDate": [
@@ -428,13 +428,6 @@
         ],
         "similar": "PEP"
     },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
-    },
     "KEY": {
         "earningsDate": [
             "2024-01-18"
@@ -579,6 +572,12 @@
             "2023-11-08"
         ],
         "similar": "MPW"
+    },
+    "NXR-UN.TO": {
+        "earningsDate": [
+            "2023-11-15"
+        ],
+        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
