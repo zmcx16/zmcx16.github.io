@@ -34,6 +34,19 @@
         ],
         "similar": "ALB"
     },
+    "ASC": {
+        "earningsDate": [
+            "2024-02-12",
+            "2024-02-16"
+        ],
+        "similar": "DAC"
+    },
+    "ASO": {
+        "earningsDate": [
+            "2023-11-30"
+        ],
+        "similar": "AAP"
+    },
     "AXP": {
         "earningsDate": [
             "2024-01-25",
@@ -93,13 +106,15 @@
     },
     "BNS": {
         "earningsDate": [
-            "2023-11-28"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "BAC"
     },
     "BNS.TO": {
         "earningsDate": [
-            "2023-11-28"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "BAC"
     },
@@ -117,7 +132,8 @@
     },
     "CELH": {
         "earningsDate": [
-            "2023-11-07"
+            "2024-02-28",
+            "2024-03-04"
         ],
         "similar": "PEP"
     },
@@ -133,12 +149,6 @@
             "2024-02-09"
         ],
         "similar": "DIS"
-    },
-    "CHPT": {
-        "earningsDate": [
-            "2023-12-06"
-        ],
-        "similar": "AAP"
     },
     "CM.TO": {
         "earningsDate": [
@@ -197,13 +207,6 @@
             "2023-12-14"
         ],
         "similar": "TGT"
-    },
-    "CPLP": {
-        "earningsDate": [
-            "2024-02-01",
-            "2024-02-05"
-        ],
-        "similar": "DAC"
     },
     "DAC": {
         "earningsDate": [
@@ -325,13 +328,6 @@
         ],
         "similar": "SID"
     },
-    "GASS": {
-        "earningsDate": [
-            "2024-02-19",
-            "2024-02-23"
-        ],
-        "similar": "DAC"
-    },
     "GMRE": {
         "earningsDate": [
             "2024-02-26",
@@ -428,6 +424,13 @@
         ],
         "similar": "PEP"
     },
+    "KEX": {
+        "earningsDate": [
+            "2024-01-29",
+            "2024-02-02"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2024-01-18"
@@ -443,7 +446,8 @@
     },
     "KSS": {
         "earningsDate": [
-            "2023-11-21"
+            "2024-02-28",
+            "2024-03-04"
         ],
         "similar": "-"
     },
@@ -653,13 +657,6 @@
         ],
         "similar": "CMA"
     },
-    "PPG": {
-        "earningsDate": [
-            "2024-01-17",
-            "2024-01-22"
-        ],
-        "similar": "ALB"
-    },
     "PRA": {
         "earningsDate": [
             "2024-02-26",
@@ -693,13 +690,6 @@
             "2024-01-19"
         ],
         "similar": "CMA"
-    },
-    "RH": {
-        "earningsDate": [
-            "2023-12-06",
-            "2023-12-11"
-        ],
-        "similar": "AAP"
     },
     "RLI": {
         "earningsDate": [
@@ -850,6 +840,13 @@
             "2024-02-12"
         ],
         "similar": "ILPT"
+    },
+    "TSCO": {
+        "earningsDate": [
+            "2024-01-24",
+            "2024-01-29"
+        ],
+        "similar": "AAP"
     },
     "TX": {
         "earningsDate": [
