@@ -34,19 +34,6 @@
         ],
         "similar": "ALB"
     },
-    "ASC": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "DAC"
-    },
-    "ASO": {
-        "earningsDate": [
-            "2023-11-30"
-        ],
-        "similar": "AAP"
-    },
     "AXP": {
         "earningsDate": [
             "2024-01-25",
@@ -257,7 +244,8 @@
     },
     "DLTR": {
         "earningsDate": [
-            "2023-11-29"
+            "2024-02-28",
+            "2024-03-04"
         ],
         "similar": "TGT"
     },
@@ -279,7 +267,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -307,6 +295,13 @@
             "2024-02-19"
         ],
         "similar": "DAC"
+    },
+    "FHN": {
+        "earningsDate": [
+            "2024-01-16",
+            "2024-01-22"
+        ],
+        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -347,7 +342,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GPC": {
         "earningsDate": [
@@ -451,6 +446,13 @@
         ],
         "similar": "-"
     },
+    "LESL": {
+        "earningsDate": [
+            "2024-01-31",
+            "2024-02-05"
+        ],
+        "similar": "AAP"
+    },
     "LTC": {
         "earningsDate": [
             "2024-02-14",
@@ -511,6 +513,13 @@
         ],
         "similar": "KSS"
     },
+    "MANU": {
+        "earningsDate": [
+            "2023-12-06",
+            "2023-12-11"
+        ],
+        "similar": "DIS"
+    },
     "MATX": {
         "earningsDate": [
             "2024-02-19",
@@ -523,13 +532,6 @@
             "2023-11-08"
         ],
         "similar": "KSS"
-    },
-    "MNSO": {
-        "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
-        ],
-        "similar": "AAP"
     },
     "MNST": {
         "earningsDate": [
@@ -553,7 +555,8 @@
     },
     "NAT": {
         "earningsDate": [
-            "2023-11-29"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "ZIM"
     },
@@ -712,6 +715,12 @@
         ],
         "similar": "SID"
     },
+    "RY": {
+        "earningsDate": [
+            "2023-11-30"
+        ],
+        "similar": "C"
+    },
     "RY.TO": {
         "earningsDate": [
             "2023-11-30"
@@ -744,13 +753,6 @@
             "2023-11-13"
         ],
         "similar": "ILPT"
-    },
-    "SFL": {
-        "earningsDate": [
-            "2024-02-13",
-            "2024-02-19"
-        ],
-        "similar": "DAC"
     },
     "SHW": {
         "earningsDate": [
@@ -795,23 +797,15 @@
     },
     "TD": {
         "earningsDate": [
-            "2023-11-29",
-            "2023-12-04"
+            "2023-11-30"
         ],
         "similar": "BAC"
     },
     "TD.TO": {
         "earningsDate": [
-            "2023-11-29",
-            "2023-12-04"
+            "2023-11-30"
         ],
         "similar": "BAC"
-    },
-    "TFC": {
-        "earningsDate": [
-            "2024-01-18"
-        ],
-        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -875,13 +869,6 @@
         ],
         "similar": "PYPL"
     },
-    "USAP": {
-        "earningsDate": [
-            "2024-01-22",
-            "2024-01-26"
-        ],
-        "similar": "SID"
-    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-02-08",
@@ -929,6 +916,12 @@
             "2024-02-23"
         ],
         "similar": "TGT"
+    },
+    "WOOF": {
+        "earningsDate": [
+            "2023-11-29"
+        ],
+        "similar": "AAP"
     },
     "WTM": {
         "earningsDate": [
