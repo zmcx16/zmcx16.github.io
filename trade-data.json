@@ -203,6 +203,12 @@
          "strike":19.5
       },
       {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2023-12-15",
+         "strike":19
+      },
+      {
          "symbol":"LNTH",
          "type":"put",
          "expiry":"2023-12-15",
@@ -213,6 +219,12 @@
          "type":"put",
          "expiry":"2023-12-08",
          "strike":116
+      },
+      {
+         "symbol":"SONY",
+         "type":"put",
+         "expiry":"2023-12-08",
+         "strike":78
       },
       {
          "symbol":"VALE",
