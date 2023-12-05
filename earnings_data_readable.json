@@ -307,6 +307,13 @@
         ],
         "similar": "ILPT"
     },
+    "FHN": {
+        "earningsDate": [
+            "2024-01-16",
+            "2024-01-22"
+        ],
+        "similar": "CMA"
+    },
     "FITB": {
         "earningsDate": [
             "2024-01-19"
@@ -395,13 +402,6 @@
             "2024-03-01"
         ],
         "similar": "MPW"
-    },
-    "IFF": {
-        "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
-        ],
-        "similar": "ALB"
     },
     "ILPT": {
         "earningsDate": [
@@ -557,7 +557,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "NAT": {
         "earningsDate": [
@@ -714,12 +714,12 @@
         ],
         "similar": "DIS"
     },
-    "RS": {
+    "RPM": {
         "earningsDate": [
-            "2024-02-14",
-            "2024-02-19"
+            "2024-01-03",
+            "2024-01-08"
         ],
-        "similar": "SID"
+        "similar": "ALB"
     },
     "RY": {
         "earningsDate": [
