@@ -56,7 +56,8 @@
     },
     "AZO": {
         "earningsDate": [
-            "2023-12-05"
+            "2024-02-26",
+            "2024-03-01"
         ],
         "similar": "AAP"
     },
@@ -118,13 +119,6 @@
             "2024-01-12"
         ],
         "similar": "-"
-    },
-    "CC": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "ALB"
     },
     "CELH": {
         "earningsDate": [
@@ -255,7 +249,8 @@
     },
     "DKS": {
         "earningsDate": [
-            "2023-11-21"
+            "2024-03-05",
+            "2024-03-11"
         ],
         "similar": "AAP"
     },
@@ -307,12 +302,12 @@
         ],
         "similar": "ILPT"
     },
-    "FHN": {
+    "EMN": {
         "earningsDate": [
-            "2024-01-16",
-            "2024-01-22"
+            "2024-01-24",
+            "2024-01-29"
         ],
-        "similar": "CMA"
+        "similar": "ALB"
     },
     "FITB": {
         "earningsDate": [
@@ -374,13 +369,6 @@
             "2024-02-26"
         ],
         "similar": "AAP"
-    },
-    "GSY.TO": {
-        "earningsDate": [
-            "2024-02-13",
-            "2024-02-19"
-        ],
-        "similar": "PYPL"
     },
     "HBAN": {
         "earningsDate": [
@@ -463,6 +451,13 @@
             "2024-03-04"
         ],
         "similar": "-"
+    },
+    "LC": {
+        "earningsDate": [
+            "2024-01-23",
+            "2024-01-29"
+        ],
+        "similar": "PYPL"
     },
     "LESL": {
         "earningsDate": [
@@ -557,7 +552,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "NAT": {
         "earningsDate": [
@@ -646,6 +641,12 @@
         ],
         "similar": "-"
     },
+    "PLAY": {
+        "earningsDate": [
+            "2023-12-05"
+        ],
+        "similar": "DIS"
+    },
     "PLMR": {
         "earningsDate": [
             "2024-02-13",
@@ -720,6 +721,13 @@
             "2024-01-08"
         ],
         "similar": "ALB"
+    },
+    "RS": {
+        "earningsDate": [
+            "2024-02-14",
+            "2024-02-19"
+        ],
+        "similar": "SID"
     },
     "RY": {
         "earningsDate": [
@@ -841,13 +849,6 @@
             "2024-02-05"
         ],
         "similar": "STC"
-    },
-    "TKO": {
-        "earningsDate": [
-            "2024-01-31",
-            "2024-02-05"
-        ],
-        "similar": "DIS"
     },
     "TMST": {
         "earningsDate": [
