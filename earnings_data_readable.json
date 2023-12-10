@@ -95,12 +95,6 @@
         ],
         "similar": "TGT"
     },
-    "BMO": {
-        "earningsDate": [
-            "2024-02-27"
-        ],
-        "similar": "C"
-    },
     "BMO.TO": {
         "earningsDate": [
             "2024-02-27"
@@ -126,13 +120,6 @@
             "2024-01-12"
         ],
         "similar": "-"
-    },
-    "CC": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "ALB"
     },
     "CELH": {
         "earningsDate": [
@@ -297,13 +284,6 @@
         ],
         "similar": "DAC"
     },
-    "ECL": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "ALB"
-    },
     "EGLE": {
         "earningsDate": [
             "2024-02-29",
@@ -317,6 +297,20 @@
             "2024-02-09"
         ],
         "similar": "ILPT"
+    },
+    "EMN": {
+        "earningsDate": [
+            "2024-01-24",
+            "2024-01-29"
+        ],
+        "similar": "ALB"
+    },
+    "ESEA": {
+        "earningsDate": [
+            "2024-02-13",
+            "2024-02-19"
+        ],
+        "similar": "DAC"
     },
     "FHN": {
         "earningsDate": [
@@ -414,6 +408,13 @@
         ],
         "similar": "MPW"
     },
+    "IFF": {
+        "earningsDate": [
+            "2024-02-06",
+            "2024-02-12"
+        ],
+        "similar": "ALB"
+    },
     "ILPT": {
         "earningsDate": [
             "2024-02-12",
@@ -501,13 +502,6 @@
             "2024-02-05"
         ],
         "similar": "ALB"
-    },
-    "LYV": {
-        "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
-        ],
-        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -632,7 +626,7 @@
     },
     "PEP": {
         "earningsDate": [
-            "2023-12-08",
+            "2023-12-11",
             "2023-12-12"
         ],
         "similar": "-"
@@ -723,6 +717,13 @@
         ],
         "similar": "ALB"
     },
+    "RS": {
+        "earningsDate": [
+            "2024-02-14",
+            "2024-02-19"
+        ],
+        "similar": "SID"
+    },
     "RY.TO": {
         "earningsDate": [
             "2024-02-28",
@@ -742,7 +743,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
