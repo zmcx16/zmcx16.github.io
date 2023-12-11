@@ -284,6 +284,13 @@
         ],
         "similar": "DAC"
     },
+    "ECL": {
+        "earningsDate": [
+            "2024-02-12",
+            "2024-02-16"
+        ],
+        "similar": "ALB"
+    },
     "EGLE": {
         "earningsDate": [
             "2024-02-29",
@@ -324,12 +331,6 @@
             "2024-01-19"
         ],
         "similar": "CMA"
-    },
-    "FIVE": {
-        "earningsDate": [
-            "2023-11-29"
-        ],
-        "similar": "AAP"
     },
     "FIZZ": {
         "earningsDate": [
@@ -711,12 +712,6 @@
         ],
         "similar": "DIS"
     },
-    "RPM": {
-        "earningsDate": [
-            "2024-01-04"
-        ],
-        "similar": "ALB"
-    },
     "RS": {
         "earningsDate": [
             "2024-02-14",
@@ -851,6 +846,13 @@
             "2024-02-12"
         ],
         "similar": "ILPT"
+    },
+    "TSCO": {
+        "earningsDate": [
+            "2024-01-24",
+            "2024-01-29"
+        ],
+        "similar": "AAP"
     },
     "TX": {
         "earningsDate": [
