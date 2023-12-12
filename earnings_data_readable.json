@@ -41,12 +41,6 @@
         ],
         "similar": "DAC"
     },
-    "ASO": {
-        "earningsDate": [
-            "2023-11-30"
-        ],
-        "similar": "AAP"
-    },
     "AXP": {
         "earningsDate": [
             "2024-01-25",
@@ -73,6 +67,13 @@
             "2024-01-29"
         ],
         "similar": "ILPT"
+    },
+    "BBWI": {
+        "earningsDate": [
+            "2024-02-21",
+            "2024-02-26"
+        ],
+        "similar": "AAP"
     },
     "BBY": {
         "earningsDate": [
@@ -119,7 +120,7 @@
         "earningsDate": [
             "2024-01-12"
         ],
-        "similar": "-"
+        "similar": "BAC"
     },
     "CELH": {
         "earningsDate": [
@@ -324,7 +325,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -350,6 +351,13 @@
         "earningsDate": [
             "2024-02-07",
             "2024-02-12"
+        ],
+        "similar": "SID"
+    },
+    "GGBR4.SA": {
+        "earningsDate": [
+            "2024-02-28",
+            "2024-03-04"
         ],
         "similar": "SID"
     },
@@ -486,7 +494,8 @@
     },
     "LU": {
         "earningsDate": [
-            "2023-11-14"
+            "2024-03-11",
+            "2024-03-15"
         ],
         "similar": "PYPL"
     },
@@ -556,7 +565,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "NAT": {
         "earningsDate": [
@@ -952,7 +961,8 @@
     },
     "ZIM": {
         "earningsDate": [
-            "2023-11-15"
+            "2024-03-11",
+            "2024-03-15"
         ],
         "similar": "-"
     },
