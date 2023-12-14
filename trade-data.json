@@ -202,6 +202,12 @@
          "strike":19
       },
       {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2023-12-22",
+         "strike":30
+      },
+      {
          "symbol":"LNTH",
          "type":"put",
          "expiry":"2023-12-15",
