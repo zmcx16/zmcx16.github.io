@@ -68,6 +68,13 @@
         ],
         "similar": "ILPT"
     },
+    "BBWI": {
+        "earningsDate": [
+            "2024-02-21",
+            "2024-02-26"
+        ],
+        "similar": "AAP"
+    },
     "BBY": {
         "earningsDate": [
             "2024-02-29",
@@ -127,6 +134,13 @@
             "2024-01-17"
         ],
         "similar": "CMA"
+    },
+    "CGX.TO": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-09"
+        ],
+        "similar": "DIS"
     },
     "CM.TO": {
         "earningsDate": [
@@ -318,12 +332,6 @@
             "2024-01-19"
         ],
         "similar": "CMA"
-    },
-    "FIVE": {
-        "earningsDate": [
-            "2023-11-29"
-        ],
-        "similar": "AAP"
     },
     "FIZZ": {
         "earningsDate": [
@@ -787,13 +795,6 @@
             "2023-11-16"
         ],
         "similar": "KSS"
-    },
-    "SPHR": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "DIS"
     },
     "STC": {
         "earningsDate": [
