@@ -1,5 +1,7 @@
 {
    "hold_stock_list":[
+      "GIS",
+      "SEE",
       "PEP",
       "KSS",
       "TGT",
@@ -160,30 +162,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"BAC",
-         "type":"call",
-         "expiry":"2023-12-15",
-         "strike":31
-      },
-      {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2023-12-15",
-         "strike":62.5
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2023-12-15",
-         "strike":62.5
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2023-12-15",
-         "strike":97
-      },
-      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2023-12-22",
@@ -197,33 +175,15 @@
       },
       {
          "symbol":"KSS",
-         "type":"put",
-         "expiry":"2023-12-15",
-         "strike":19
-      },
-      {
-         "symbol":"KSS",
          "type":"call",
          "expiry":"2023-12-22",
          "strike":30
-      },
-      {
-         "symbol":"LNTH",
-         "type":"put",
-         "expiry":"2023-12-15",
-         "strike":60
       },
       {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2024-01-19",
          "strike":13
-      },
-      {
-         "symbol":"X",
-         "type":"put",
-         "expiry":"2023-12-15",
-         "strike":24
       },
       {
          "symbol":"ZION",
@@ -343,6 +303,8 @@
          "VZ":"Verizon Communications Inc.",
          "ALB":"Albemarle Corporation",
          "PEP":"PepsiCo, Inc.",
+         "GIS":"General Mills",
+         "SEE":"Sealed Air Corporation",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -816,87 +778,99 @@
       "VZ":"732712",
       "ALB":"915913",
       "PEP":"77476",
+      "GIS":"40704",
+      "SEE":"1012100",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.42,
-         "position_%":13.077735010028906,
+         "position_%":14.000474748104564,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.75,
-         "position_%":7.10146719377605,
+         "position_%":7.602533010854668,
          "profit_%":0
       },
       "BAC":{
-         "cost_p":30.92,
-         "position_%":16.74474874600351,
+         "cost_p":30.89,
+         "position_%":8.785465269550816,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.5,
-         "position_%":2.5544846020777157,
+         "position_%":2.734724104623981,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.490170854148126,
+         "position_%":4.806988642143849,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.43,
-         "position_%":8.224112086697163,
+         "position_%":8.804389560354814,
+         "profit_%":0
+      },
+      "GIS":{
+         "cost_p":65.58,
+         "position_%":2.8694913084998506,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.25,
-         "position_%":3.5251887508672475,
+         "position_%":3.773919264381094,
          "profit_%":0
       },
       "KSS":{
          "cost_p":21,
-         "position_%":2.574920478894337,
+         "position_%":2.756601897460973,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.24,
-         "position_%":4.463195496750185,
+         "position_%":4.778109955599019,
          "profit_%":0
       },
       "PEP":{
          "cost_p":162.5,
-         "position_%":3.3208299827010306,
+         "position_%":3.555141336011175,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.189763464943786,
+         "position_%":4.4853850874400685,
+         "profit_%":0
+      },
+      "SEE":{
+         "cost_p":36.28,
+         "position_%":2.778042134441225,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.247260826161192,
+         "position_%":3.4763812817980044,
          "profit_%":0
       },
       "STC":{
-         "cost_p":52.72,
-         "position_%":6.464276554633784,
+         "cost_p":51.16,
+         "position_%":3.3578036446215083,
          "profit_%":0
       },
       "TGT":{
          "cost_p":127.91,
-         "position_%":7.841859010842255,
+         "position_%":8.39516544533888,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.574412647355445,
+         "position_%":10.249964722059051,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.5,
-         "position_%":2.60557429411927,
+         "position_%":2.7894185867164607,
          "profit_%":0
       }
    }
