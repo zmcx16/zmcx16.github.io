@@ -27,13 +27,6 @@
         ],
         "similar": "DIS"
     },
-    "AMCR": {
-        "earningsDate": [
-            "2024-02-05",
-            "2024-02-10"
-        ],
-        "similar": "SEE"
-    },
     "APD": {
         "earningsDate": [
             "2024-01-31",
@@ -337,7 +330,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "ECL": {
         "earningsDate": [
@@ -455,6 +448,13 @@
             "2024-01-22"
         ],
         "similar": "CMA"
+    },
+    "HLAG.DE": {
+        "earningsDate": [
+            "2024-02-29",
+            "2024-03-04"
+        ],
+        "similar": "ZIM"
     },
     "HMN": {
         "earningsDate": [
@@ -867,7 +867,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -917,6 +917,13 @@
         ],
         "similar": "GIS"
     },
+    "SLGN": {
+        "earningsDate": [
+            "2024-01-22",
+            "2024-01-26"
+        ],
+        "similar": "SEE"
+    },
     "SOFI": {
         "earningsDate": [
             "2024-01-29",
@@ -937,6 +944,13 @@
             "2024-03-18"
         ],
         "similar": "KSS"
+    },
+    "SPHR": {
+        "earningsDate": [
+            "2024-02-07",
+            "2024-02-12"
+        ],
+        "similar": "DIS"
     },
     "STC": {
         "earningsDate": [
