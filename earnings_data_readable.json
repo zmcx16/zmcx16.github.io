@@ -380,13 +380,6 @@
         ],
         "similar": "CMA"
     },
-    "FIZZ": {
-        "earningsDate": [
-            "2024-03-07",
-            "2024-03-11"
-        ],
-        "similar": "PEP"
-    },
     "FR": {
         "earningsDate": [
             "2024-02-06",
@@ -434,6 +427,13 @@
             "2024-02-26"
         ],
         "similar": "AAP"
+    },
+    "GPK": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-09"
+        ],
+        "similar": "SEE"
     },
     "GSY.TO": {
         "earningsDate": [
@@ -490,13 +490,6 @@
             "2024-02-16"
         ],
         "similar": "-"
-    },
-    "IP": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "SEE"
     },
     "JPM": {
         "earningsDate": [
@@ -940,8 +933,7 @@
     },
     "SON.LS": {
         "earningsDate": [
-            "2024-03-14",
-            "2024-03-18"
+            "2024-03-14"
         ],
         "similar": "KSS"
     },
@@ -1107,6 +1099,13 @@
             "2024-02-05"
         ],
         "similar": "SEE"
+    },
+    "WTER": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "PEP"
     },
     "WTM": {
         "earningsDate": [
