@@ -166,6 +166,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"BAC",
+         "type":"call",
+         "expiry":"2024-01-05",
+         "strike":36
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2023-12-22",
@@ -182,6 +188,12 @@
          "type":"call",
          "expiry":"2023-12-22",
          "strike":30
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2023-12-29",
+         "strike":70
       },
       {
          "symbol":"VALE",
