@@ -15,8 +15,7 @@
     },
     "ALLY": {
         "earningsDate": [
-            "2024-01-18",
-            "2024-01-22"
+            "2024-01-19"
         ],
         "similar": "PYPL"
     },
@@ -26,6 +25,13 @@
             "2024-03-01"
         ],
         "similar": "DIS"
+    },
+    "AMCR": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-10"
+        ],
+        "similar": "SEE"
     },
     "APD": {
         "earningsDate": [
@@ -330,7 +336,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -428,13 +434,6 @@
         ],
         "similar": "AAP"
     },
-    "GPK": {
-        "earningsDate": [
-            "2024-02-05",
-            "2024-02-09"
-        ],
-        "similar": "SEE"
-    },
     "GSY.TO": {
         "earningsDate": [
             "2024-02-13",
@@ -517,13 +516,6 @@
             "2024-02-26"
         ],
         "similar": "PEP"
-    },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -735,15 +727,14 @@
     },
     "PEP": {
         "earningsDate": [
-            "2023-12-18",
+            "2023-12-19",
             "2023-12-24"
         ],
         "similar": "-"
     },
     "PKG": {
         "earningsDate": [
-            "2024-01-23",
-            "2024-01-29"
+            "2024-01-24"
         ],
         "similar": "SEE"
     },
