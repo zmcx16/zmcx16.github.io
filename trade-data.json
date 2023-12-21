@@ -184,6 +184,12 @@
          "strike":99
       },
       {
+         "symbol":"EXTR",
+         "type":"put",
+         "expiry":"2024-01-19",
+         "strike":15
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2023-12-22",
