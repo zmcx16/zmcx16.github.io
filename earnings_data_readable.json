@@ -121,13 +121,6 @@
         ],
         "similar": "BAC"
     },
-    "BNS": {
-        "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
-        ],
-        "similar": "BAC"
-    },
     "BNS.TO": {
         "earningsDate": [
             "2024-02-26",
@@ -146,19 +139,6 @@
             "2024-01-04"
         ],
         "similar": "GIS"
-    },
-    "CASY": {
-        "earningsDate": [
-            "2024-03-05",
-            "2024-03-11"
-        ],
-        "similar": "AAP"
-    },
-    "CCEP": {
-        "earningsDate": [
-            "2024-02-20"
-        ],
-        "similar": "PEP"
     },
     "CCK": {
         "earningsDate": [
@@ -336,7 +316,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "ECL": {
         "earningsDate": [
@@ -358,13 +338,6 @@
             "2024-02-09"
         ],
         "similar": "ILPT"
-    },
-    "EMN": {
-        "earningsDate": [
-            "2024-01-24",
-            "2024-01-29"
-        ],
-        "similar": "ALB"
     },
     "ESEA": {
         "earningsDate": [
@@ -516,6 +489,13 @@
             "2024-02-26"
         ],
         "similar": "PEP"
+    },
+    "KEX": {
+        "earningsDate": [
+            "2024-01-29",
+            "2024-02-02"
+        ],
+        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -694,7 +674,8 @@
     },
     "OLLI": {
         "earningsDate": [
-            "2023-12-06"
+            "2024-03-20",
+            "2024-03-25"
         ],
         "similar": "TGT"
     },
@@ -727,8 +708,7 @@
     },
     "PEP": {
         "earningsDate": [
-            "2023-12-19",
-            "2023-12-24"
+            "2024-02-09"
         ],
         "similar": "-"
     },
@@ -763,6 +743,12 @@
             "2024-01-16"
         ],
         "similar": "CMA"
+    },
+    "PPG": {
+        "earningsDate": [
+            "2024-01-18"
+        ],
+        "similar": "ALB"
     },
     "PRA": {
         "earningsDate": [
@@ -846,6 +832,13 @@
         ],
         "similar": "STC"
     },
+    "SBGI": {
+        "earningsDate": [
+            "2024-02-20",
+            "2024-02-26"
+        ],
+        "similar": "DIS"
+    },
     "SBLK": {
         "earningsDate": [
             "2024-02-14",
@@ -927,13 +920,6 @@
             "2024-03-14"
         ],
         "similar": "KSS"
-    },
-    "SPHR": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "DIS"
     },
     "STC": {
         "earningsDate": [
@@ -1080,7 +1066,8 @@
     },
     "WOOF": {
         "earningsDate": [
-            "2023-11-29"
+            "2024-03-20",
+            "2024-03-25"
         ],
         "similar": "AAP"
     },
@@ -1090,6 +1077,13 @@
             "2024-02-05"
         ],
         "similar": "SEE"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2024-03-14",
+            "2024-03-18"
+        ],
+        "similar": "AAP"
     },
     "WTER": {
         "earningsDate": [
