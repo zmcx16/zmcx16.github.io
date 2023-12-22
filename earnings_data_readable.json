@@ -375,7 +375,8 @@
     },
     "GIS": {
         "earningsDate": [
-            "2023-12-20"
+            "2024-03-21",
+            "2024-03-25"
         ],
         "similar": "-"
     },
@@ -420,6 +421,13 @@
             "2024-01-22"
         ],
         "similar": "CMA"
+    },
+    "HGTY": {
+        "earningsDate": [
+            "2024-03-12",
+            "2024-03-18"
+        ],
+        "similar": "STC"
     },
     "HLAG.DE": {
         "earningsDate": [
@@ -744,12 +752,6 @@
         ],
         "similar": "CMA"
     },
-    "PPG": {
-        "earningsDate": [
-            "2024-01-18"
-        ],
-        "similar": "ALB"
-    },
     "PRA": {
         "earningsDate": [
             "2024-02-26",
@@ -796,13 +798,6 @@
             "2023-12-07"
         ],
         "similar": "AAP"
-    },
-    "RLI": {
-        "earningsDate": [
-            "2024-01-23",
-            "2024-01-29"
-        ],
-        "similar": "STC"
     },
     "ROKU": {
         "earningsDate": [
@@ -1087,8 +1082,8 @@
     },
     "WTER": {
         "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
+            "2023-12-22",
+            "2024-01-01"
         ],
         "similar": "PEP"
     },
