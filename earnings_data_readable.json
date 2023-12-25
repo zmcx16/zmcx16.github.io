@@ -115,18 +115,19 @@
         ],
         "similar": "TGT"
     },
-    "BMO.TO": {
-        "earningsDate": [
-            "2024-02-27"
-        ],
-        "similar": "BAC"
-    },
     "BNS.TO": {
         "earningsDate": [
             "2024-02-26",
             "2024-03-01"
         ],
         "similar": "BAC"
+    },
+    "BYND": {
+        "earningsDate": [
+            "2024-02-21",
+            "2024-02-26"
+        ],
+        "similar": "GIS"
     },
     "C": {
         "earningsDate": [
@@ -139,12 +140,6 @@
             "2024-01-04"
         ],
         "similar": "GIS"
-    },
-    "CCEP": {
-        "earningsDate": [
-            "2024-02-20"
-        ],
-        "similar": "PEP"
     },
     "CCK": {
         "earningsDate": [
@@ -477,13 +472,6 @@
         ],
         "similar": "-"
     },
-    "IQ": {
-        "earningsDate": [
-            "2024-02-20",
-            "2024-02-26"
-        ],
-        "similar": "DIS"
-    },
     "JPM": {
         "earningsDate": [
             "2024-01-12"
@@ -510,13 +498,6 @@
             "2024-02-26"
         ],
         "similar": "PEP"
-    },
-    "KEX": {
-        "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
-        ],
-        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -545,6 +526,13 @@
         ],
         "similar": "-"
     },
+    "LC": {
+        "earningsDate": [
+            "2024-01-23",
+            "2024-01-29"
+        ],
+        "similar": "PYPL"
+    },
     "LTC": {
         "earningsDate": [
             "2024-02-14",
@@ -558,13 +546,6 @@
             "2024-02-16"
         ],
         "similar": "ALB"
-    },
-    "LU": {
-        "earningsDate": [
-            "2024-03-11",
-            "2024-03-15"
-        ],
-        "similar": "PYPL"
     },
     "LXP": {
         "earningsDate": [
@@ -814,6 +795,13 @@
         ],
         "similar": "SID"
     },
+    "RY": {
+        "earningsDate": [
+            "2024-02-28",
+            "2024-03-04"
+        ],
+        "similar": "BAC"
+    },
     "RY.TO": {
         "earningsDate": [
             "2024-02-28",
@@ -861,6 +849,13 @@
             "2023-11-13"
         ],
         "similar": "ILPT"
+    },
+    "SFL": {
+        "earningsDate": [
+            "2024-02-13",
+            "2024-02-19"
+        ],
+        "similar": "DAC"
     },
     "SHW": {
         "earningsDate": [
