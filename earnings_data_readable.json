@@ -40,13 +40,6 @@
         ],
         "similar": "ALB"
     },
-    "ASC": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "DAC"
-    },
     "AVY": {
         "earningsDate": [
             "2024-01-31",
@@ -121,13 +114,6 @@
             "2024-03-01"
         ],
         "similar": "BAC"
-    },
-    "BYND": {
-        "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
-        ],
-        "similar": "GIS"
     },
     "C": {
         "earningsDate": [
@@ -285,6 +271,13 @@
         ],
         "similar": "TGT"
     },
+    "DHC": {
+        "earningsDate": [
+            "2024-02-28",
+            "2024-03-04"
+        ],
+        "similar": "MPW"
+    },
     "DIS": {
         "earningsDate": [
             "2024-02-06",
@@ -324,7 +317,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -359,7 +352,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -595,6 +588,13 @@
         ],
         "similar": "ZIM"
     },
+    "MANU": {
+        "earningsDate": [
+            "2023-12-08",
+            "2023-12-11"
+        ],
+        "similar": "DIS"
+    },
     "MATX": {
         "earningsDate": [
             "2024-02-19",
@@ -816,13 +816,6 @@
         ],
         "similar": "STC"
     },
-    "SBGI": {
-        "earningsDate": [
-            "2024-02-20",
-            "2024-02-26"
-        ],
-        "similar": "DIS"
-    },
     "SBLK": {
         "earningsDate": [
             "2024-02-14",
@@ -846,7 +839,8 @@
     },
     "SELF": {
         "earningsDate": [
-            "2023-11-13"
+            "2024-03-25",
+            "2024-03-29"
         ],
         "similar": "ILPT"
     },
@@ -1007,12 +1001,6 @@
         ],
         "similar": "SID"
     },
-    "USB": {
-        "earningsDate": [
-            "2024-01-17"
-        ],
-        "similar": "CMA"
-    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-02-08",
@@ -1026,13 +1014,6 @@
             "2024-01-29"
         ],
         "similar": "PYPL"
-    },
-    "VTR": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "MPW"
     },
     "WAL": {
         "earningsDate": [
