@@ -166,6 +166,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-01-19",
+         "strike":120
+      },
+      {
          "symbol":"BAC",
          "type":"call",
          "expiry":"2024-01-05",
@@ -206,6 +212,12 @@
          "type":"call",
          "expiry":"2023-12-22",
          "strike":30
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-01-05",
+         "strike":100
       },
       {
          "symbol":"PYPL",
