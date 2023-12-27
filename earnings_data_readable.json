@@ -26,13 +26,6 @@
         ],
         "similar": "DIS"
     },
-    "AMCR": {
-        "earningsDate": [
-            "2024-02-05",
-            "2024-02-10"
-        ],
-        "similar": "SEE"
-    },
     "APD": {
         "earningsDate": [
             "2024-01-31",
@@ -127,6 +120,12 @@
         ],
         "similar": "GIS"
     },
+    "CCEP": {
+        "earningsDate": [
+            "2024-02-20"
+        ],
+        "similar": "PEP"
+    },
     "CCK": {
         "earningsDate": [
             "2024-02-05",
@@ -153,13 +152,6 @@
             "2024-02-09"
         ],
         "similar": "DIS"
-    },
-    "CHPT": {
-        "earningsDate": [
-            "2024-02-29",
-            "2024-03-04"
-        ],
-        "similar": "AAP"
     },
     "CM.TO": {
         "earningsDate": [
@@ -359,6 +351,13 @@
             "2024-01-19"
         ],
         "similar": "CMA"
+    },
+    "FIVE": {
+        "earningsDate": [
+            "2024-03-13",
+            "2024-03-18"
+        ],
+        "similar": "AAP"
     },
     "FR": {
         "earningsDate": [
@@ -668,6 +667,13 @@
         ],
         "similar": "MPW"
     },
+    "OI": {
+        "earningsDate": [
+            "2024-01-29",
+            "2024-02-02"
+        ],
+        "similar": "SEE"
+    },
     "OLLI": {
         "earningsDate": [
             "2024-03-20",
@@ -733,6 +739,12 @@
             "2024-01-16"
         ],
         "similar": "CMA"
+    },
+    "PPG": {
+        "earningsDate": [
+            "2024-01-18"
+        ],
+        "similar": "ALB"
     },
     "PRA": {
         "earningsDate": [
@@ -925,12 +937,6 @@
         ],
         "similar": "BAC"
     },
-    "TFC": {
-        "earningsDate": [
-            "2024-01-18"
-        ],
-        "similar": "ZION"
-    },
     "TGT": {
         "earningsDate": [
             "2024-02-26",
@@ -1055,13 +1061,6 @@
             "2024-02-05"
         ],
         "similar": "SEE"
-    },
-    "WTER": {
-        "earningsDate": [
-            "2023-12-26",
-            "2024-01-01"
-        ],
-        "similar": "PEP"
     },
     "WTM": {
         "earningsDate": [
