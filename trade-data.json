@@ -220,6 +220,12 @@
          "strike":100
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-01-05",
+         "strike":101
+      },
+      {
          "symbol":"PYPL",
          "type":"call",
          "expiry":"2023-12-29",
