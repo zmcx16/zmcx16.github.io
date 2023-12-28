@@ -101,6 +101,13 @@
         ],
         "similar": "TGT"
     },
+    "BNS": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "BAC"
+    },
     "BNS.TO": {
         "earningsDate": [
             "2024-02-26",
@@ -300,7 +307,8 @@
     },
     "DOL.TO": {
         "earningsDate": [
-            "2023-12-13"
+            "2024-03-27",
+            "2024-04-01"
         ],
         "similar": "TGT"
     },
@@ -632,7 +640,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "NAT": {
         "earningsDate": [
@@ -789,7 +797,8 @@
     },
     "RH": {
         "earningsDate": [
-            "2023-12-07"
+            "2024-03-27",
+            "2024-04-01"
         ],
         "similar": "AAP"
     },
@@ -936,6 +945,12 @@
             "2024-02-29"
         ],
         "similar": "BAC"
+    },
+    "TFC": {
+        "earningsDate": [
+            "2024-01-18"
+        ],
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
