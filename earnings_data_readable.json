@@ -61,8 +61,7 @@
     },
     "BALL": {
         "earningsDate": [
-            "2024-01-31",
-            "2024-02-05"
+            "2024-02-01"
         ],
         "similar": "SEE"
     },
@@ -133,13 +132,6 @@
             "2024-01-04"
         ],
         "similar": "GIS"
-    },
-    "CC": {
-        "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
-        ],
-        "similar": "ALB"
     },
     "CCK": {
         "earningsDate": [
@@ -506,6 +498,13 @@
         ],
         "similar": "-"
     },
+    "IQ": {
+        "earningsDate": [
+            "2024-02-20",
+            "2024-02-26"
+        ],
+        "similar": "DIS"
+    },
     "JPM": {
         "earningsDate": [
             "2024-01-12"
@@ -560,13 +559,6 @@
         ],
         "similar": "VFC"
     },
-    "LC": {
-        "earningsDate": [
-            "2024-01-23",
-            "2024-01-29"
-        ],
-        "similar": "PYPL"
-    },
     "LEVI": {
         "earningsDate": [
             "2024-01-23",
@@ -587,6 +579,13 @@
             "2024-02-16"
         ],
         "similar": "ALB"
+    },
+    "LU": {
+        "earningsDate": [
+            "2024-03-11",
+            "2024-03-15"
+        ],
+        "similar": "PYPL"
     },
     "LW": {
         "earningsDate": [
@@ -704,7 +703,8 @@
     },
     "NWH-UN.TO": {
         "earningsDate": [
-            "2023-11-08"
+            "2024-03-29",
+            "2024-04-02"
         ],
         "similar": "MPW"
     },
@@ -933,6 +933,13 @@
             "2024-01-26"
         ],
         "similar": "SEE"
+    },
+    "SNES": {
+        "earningsDate": [
+            "2024-03-14",
+            "2024-03-18"
+        ],
+        "similar": "ALB"
     },
     "SOFI": {
         "earningsDate": [
