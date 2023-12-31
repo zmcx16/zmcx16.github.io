@@ -227,6 +227,13 @@
         ],
         "similar": "TGT"
     },
+    "COTY": {
+        "earningsDate": [
+            "2024-02-06",
+            "2024-02-12"
+        ],
+        "similar": "EL"
+    },
     "CPB": {
         "earningsDate": [
             "2024-03-06",
@@ -580,13 +587,6 @@
         ],
         "similar": "ALB"
     },
-    "LU": {
-        "earningsDate": [
-            "2024-03-11",
-            "2024-03-15"
-        ],
-        "similar": "PYPL"
-    },
     "LW": {
         "earningsDate": [
             "2024-01-04"
@@ -679,7 +679,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "NAT": {
         "earningsDate": [
@@ -707,13 +707,6 @@
             "2024-04-02"
         ],
         "similar": "MPW"
-    },
-    "NWL": {
-        "earningsDate": [
-            "2024-02-08",
-            "2024-02-12"
-        ],
-        "similar": "EL"
     },
     "OHI": {
         "earningsDate": [
@@ -908,8 +901,7 @@
     },
     "SHW": {
         "earningsDate": [
-            "2024-01-24",
-            "2024-01-29"
+            "2024-01-25"
         ],
         "similar": "ALB"
     },
@@ -940,6 +932,12 @@
             "2024-03-18"
         ],
         "similar": "ALB"
+    },
+    "SNTG": {
+        "earningsDate": [
+            "2023-12-22"
+        ],
+        "similar": "PYPL"
     },
     "SOFI": {
         "earningsDate": [
@@ -977,7 +975,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
