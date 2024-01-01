@@ -227,13 +227,6 @@
         ],
         "similar": "TGT"
     },
-    "COTY": {
-        "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
-        ],
-        "similar": "EL"
-    },
     "CPB": {
         "earningsDate": [
             "2024-03-06",
@@ -587,12 +580,6 @@
         ],
         "similar": "ALB"
     },
-    "LW": {
-        "earningsDate": [
-            "2024-01-04"
-        ],
-        "similar": "GIS"
-    },
     "LXP": {
         "earningsDate": [
             "2024-02-14",
@@ -708,6 +695,13 @@
         ],
         "similar": "MPW"
     },
+    "NWL": {
+        "earningsDate": [
+            "2024-02-08",
+            "2024-02-12"
+        ],
+        "similar": "EL"
+    },
     "OHI": {
         "earningsDate": [
             "2024-01-31",
@@ -741,6 +735,13 @@
             "2024-02-12"
         ],
         "similar": "AAP"
+    },
+    "PACK": {
+        "earningsDate": [
+            "2024-03-13",
+            "2024-03-18"
+        ],
+        "similar": "SEE"
     },
     "PARA": {
         "earningsDate": [
@@ -1094,13 +1095,6 @@
             "2024-03-25"
         ],
         "similar": "AAP"
-    },
-    "WRK": {
-        "earningsDate": [
-            "2024-01-30",
-            "2024-02-05"
-        ],
-        "similar": "SEE"
     },
     "ZIM": {
         "earningsDate": [
