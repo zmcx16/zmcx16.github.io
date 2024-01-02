@@ -227,6 +227,13 @@
         ],
         "similar": "TGT"
     },
+    "COTY": {
+        "earningsDate": [
+            "2024-02-06",
+            "2024-02-12"
+        ],
+        "similar": "EL"
+    },
     "CPB": {
         "earningsDate": [
             "2024-03-06",
@@ -371,7 +378,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "FIGS": {
         "earningsDate": [
@@ -695,13 +702,6 @@
         ],
         "similar": "MPW"
     },
-    "NWL": {
-        "earningsDate": [
-            "2024-02-08",
-            "2024-02-12"
-        ],
-        "similar": "EL"
-    },
     "OHI": {
         "earningsDate": [
             "2024-01-31",
@@ -976,7 +976,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
