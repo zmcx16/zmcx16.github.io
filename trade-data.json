@@ -179,40 +179,16 @@
          "strike":36
       },
       {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2023-12-29",
-         "strike":119
-      },
-      {
          "symbol":"DIS",
          "type":"call",
-         "expiry":"2023-12-29",
-         "strike":99
+         "expiry":"2024-01-12",
+         "strike":97
       },
       {
          "symbol":"EXTR",
          "type":"put",
          "expiry":"2024-01-19",
          "strike":15
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2023-12-22",
-         "strike":62.5
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2023-12-22",
-         "strike":24
-      },
-      {
-         "symbol":"KSS",
-         "type":"call",
-         "expiry":"2023-12-22",
-         "strike":30
       },
       {
          "symbol":"NKE",
@@ -231,12 +207,6 @@
          "type":"put",
          "expiry":"2024-02-16",
          "strike":10
-      },
-      {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2023-12-29",
-         "strike":70
       },
       {
          "symbol":"VALE",
