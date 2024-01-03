@@ -107,6 +107,12 @@
         ],
         "similar": "TGT"
     },
+    "BMO.TO": {
+        "earningsDate": [
+            "2024-02-27"
+        ],
+        "similar": "BAC"
+    },
     "BNS": {
         "earningsDate": [
             "2024-02-26",
@@ -378,7 +384,7 @@
             "2024-01-16",
             "2024-01-22"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "FIGS": {
         "earningsDate": [
@@ -731,8 +737,7 @@
     },
     "ORLY": {
         "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
+            "2024-02-07"
         ],
         "similar": "AAP"
     },
@@ -850,13 +855,6 @@
             "2024-02-19"
         ],
         "similar": "SID"
-    },
-    "RY": {
-        "earningsDate": [
-            "2024-02-28",
-            "2024-03-04"
-        ],
-        "similar": "BAC"
     },
     "RY.TO": {
         "earningsDate": [
@@ -976,7 +974,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
