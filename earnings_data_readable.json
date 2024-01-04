@@ -86,13 +86,6 @@
         ],
         "similar": "SEE"
     },
-    "BGS": {
-        "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
-        ],
-        "similar": "GIS"
-    },
     "BIG": {
         "earningsDate": [
             "2024-02-29",
@@ -288,13 +281,6 @@
             "2024-03-18"
         ],
         "similar": "TGT"
-    },
-    "DHC": {
-        "earningsDate": [
-            "2024-02-28",
-            "2024-03-04"
-        ],
-        "similar": "MPW"
     },
     "DIS": {
         "earningsDate": [
@@ -593,6 +579,12 @@
         ],
         "similar": "ALB"
     },
+    "LW": {
+        "earningsDate": [
+            "2024-01-04"
+        ],
+        "similar": "GIS"
+    },
     "LXP": {
         "earningsDate": [
             "2024-02-14",
@@ -643,8 +635,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2024-03-28",
-            "2024-04-01"
+            "2024-01-10",
+            "2024-01-13"
         ],
         "similar": "DIS"
     },
@@ -657,8 +649,7 @@
     },
     "MKC": {
         "earningsDate": [
-            "2024-01-24",
-            "2024-01-29"
+            "2024-01-25"
         ],
         "similar": "GIS"
     },
@@ -810,8 +801,7 @@
     },
     "REXR": {
         "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
+            "2024-02-06"
         ],
         "similar": "ILPT"
     },
@@ -1059,6 +1049,13 @@
             "2024-02-09"
         ],
         "similar": "-"
+    },
+    "VTR": {
+        "earningsDate": [
+            "2024-02-07",
+            "2024-02-12"
+        ],
+        "similar": "MPW"
     },
     "WAL": {
         "earningsDate": [
