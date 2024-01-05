@@ -179,6 +179,12 @@
          "strike":36
       },
       {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-01-12",
+         "strike":370
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2024-01-12",
