@@ -85,6 +85,13 @@
         ],
         "similar": "SEE"
     },
+    "BGS": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "GIS"
+    },
     "BIG": {
         "earningsDate": [
             "2024-02-29",
@@ -450,8 +457,7 @@
     },
     "HBAN": {
         "earningsDate": [
-            "2024-01-18",
-            "2024-01-22"
+            "2024-01-19"
         ],
         "similar": "CMA"
     },
@@ -838,6 +844,13 @@
         ],
         "similar": "DIS"
     },
+    "RPM": {
+        "earningsDate": [
+            "2024-04-04",
+            "2024-04-08"
+        ],
+        "similar": "ALB"
+    },
     "RS": {
         "earningsDate": [
             "2024-02-14",
@@ -913,13 +926,6 @@
             "2024-01-26"
         ],
         "similar": "SEE"
-    },
-    "SNES": {
-        "earningsDate": [
-            "2024-03-14",
-            "2024-03-18"
-        ],
-        "similar": "ALB"
     },
     "SNTG": {
         "earningsDate": [
