@@ -85,13 +85,6 @@
         ],
         "similar": "SEE"
     },
-    "BGS": {
-        "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
-        ],
-        "similar": "GIS"
-    },
     "BIG": {
         "earningsDate": [
             "2024-02-29",
@@ -503,13 +496,6 @@
         ],
         "similar": "-"
     },
-    "IQ": {
-        "earningsDate": [
-            "2024-02-20",
-            "2024-02-26"
-        ],
-        "similar": "DIS"
-    },
     "JPM": {
         "earningsDate": [
             "2024-01-12"
@@ -671,6 +657,13 @@
             "2024-02-26"
         ],
         "similar": "-"
+    },
+    "MSGS": {
+        "earningsDate": [
+            "2024-02-05",
+            "2024-02-09"
+        ],
+        "similar": "DIS"
     },
     "MTB": {
         "earningsDate": [
