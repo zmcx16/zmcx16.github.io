@@ -191,6 +191,12 @@
          "strike":97
       },
       {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2024-01-19",
+         "strike":67.5
+      },
+      {
          "symbol":"EXTR",
          "type":"put",
          "expiry":"2024-01-19",
@@ -213,6 +219,12 @@
          "type":"put",
          "expiry":"2024-02-16",
          "strike":10
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-01-12",
+         "strike":162.5
       },
       {
          "symbol":"VALE",
