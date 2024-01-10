@@ -79,6 +79,13 @@
         ],
         "similar": "SEE"
     },
+    "BGS": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "GIS"
+    },
     "BIG": {
         "earningsDate": [
             "2024-02-29",
@@ -245,13 +252,6 @@
             "2024-02-12"
         ],
         "similar": "MPW"
-    },
-    "CUBE": {
-        "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
-        ],
-        "similar": "ILPT"
     },
     "DAC": {
         "earningsDate": [
@@ -501,6 +501,13 @@
         ],
         "similar": "-"
     },
+    "IQ": {
+        "earningsDate": [
+            "2024-02-20",
+            "2024-02-26"
+        ],
+        "similar": "DIS"
+    },
     "JPM": {
         "earningsDate": [
             "2024-01-12"
@@ -662,13 +669,6 @@
         ],
         "similar": "-"
     },
-    "MSGS": {
-        "earningsDate": [
-            "2024-02-05",
-            "2024-02-09"
-        ],
-        "similar": "DIS"
-    },
     "MTB": {
         "earningsDate": [
             "2024-01-18"
@@ -780,9 +780,16 @@
         ],
         "similar": "CMA"
     },
+    "PRV-UN.TO": {
+        "earningsDate": [
+            "2024-03-20",
+            "2024-03-25"
+        ],
+        "similar": "ILPT"
+    },
     "PSMT": {
         "earningsDate": [
-            "2024-01-09"
+            "2024-01-10"
         ],
         "similar": "TGT"
     },
@@ -976,8 +983,7 @@
     },
     "TSCO": {
         "earningsDate": [
-            "2024-01-24",
-            "2024-01-29"
+            "2024-02-01"
         ],
         "similar": "AAP"
     },
