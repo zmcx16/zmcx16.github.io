@@ -39,13 +39,6 @@
         ],
         "similar": "ALB"
     },
-    "ASC": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "DAC"
-    },
     "AVY": {
         "earningsDate": [
             "2024-01-31"
@@ -251,13 +244,6 @@
         ],
         "similar": "MPW"
     },
-    "CUBE": {
-        "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
-        ],
-        "similar": "ILPT"
-    },
     "DAC": {
         "earningsDate": [
             "2024-02-12",
@@ -333,7 +319,7 @@
             "2024-02-20",
             "2024-02-26"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -381,13 +367,6 @@
             "2024-01-22"
         ],
         "similar": "CMA"
-    },
-    "FIGS": {
-        "earningsDate": [
-            "2024-03-01",
-            "2024-03-05"
-        ],
-        "similar": "VFC"
     },
     "FITB": {
         "earningsDate": [
@@ -451,6 +430,13 @@
         ],
         "similar": "VFC"
     },
+    "GOOS.TO": {
+        "earningsDate": [
+            "2024-01-31",
+            "2024-02-05"
+        ],
+        "similar": "VFC"
+    },
     "GPC": {
         "earningsDate": [
             "2024-02-21",
@@ -497,6 +483,13 @@
             "2024-03-04"
         ],
         "similar": "GIS"
+    },
+    "IFF": {
+        "earningsDate": [
+            "2024-02-06",
+            "2024-02-12"
+        ],
+        "similar": "ALB"
     },
     "ILPT": {
         "earningsDate": [
@@ -669,7 +662,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "NAT": {
         "earningsDate": [
@@ -697,6 +690,12 @@
             "2024-04-02"
         ],
         "similar": "MPW"
+    },
+    "NWL": {
+        "earningsDate": [
+            "2024-02-09"
+        ],
+        "similar": "EL"
     },
     "OHI": {
         "earningsDate": [
@@ -774,6 +773,13 @@
             "2024-01-16"
         ],
         "similar": "CMA"
+    },
+    "PRV-UN.TO": {
+        "earningsDate": [
+            "2024-03-20",
+            "2024-03-25"
+        ],
+        "similar": "ILPT"
     },
     "PSMT": {
         "earningsDate": [
@@ -943,7 +949,7 @@
         "earningsDate": [
             "2024-01-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
