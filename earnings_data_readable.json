@@ -157,6 +157,13 @@
         ],
         "similar": "MPW"
     },
+    "CJR-B.TO": {
+        "earningsDate": [
+            "2024-04-11",
+            "2024-04-15"
+        ],
+        "similar": "DIS"
+    },
     "CL": {
         "earningsDate": [
             "2024-01-26"
@@ -243,6 +250,13 @@
             "2024-02-12"
         ],
         "similar": "MPW"
+    },
+    "CUBE": {
+        "earningsDate": [
+            "2024-02-21",
+            "2024-02-26"
+        ],
+        "similar": "ILPT"
     },
     "DAC": {
         "earningsDate": [
@@ -444,6 +458,12 @@
         ],
         "similar": "AAP"
     },
+    "GPK": {
+        "earningsDate": [
+            "2024-02-20"
+        ],
+        "similar": "SEE"
+    },
     "GSY.TO": {
         "earningsDate": [
             "2024-02-13",
@@ -497,13 +517,6 @@
             "2024-02-16"
         ],
         "similar": "-"
-    },
-    "IQ": {
-        "earningsDate": [
-            "2024-02-20",
-            "2024-02-26"
-        ],
-        "similar": "DIS"
     },
     "JPM": {
         "earningsDate": [
@@ -729,13 +742,6 @@
         ],
         "similar": "AAP"
     },
-    "PACK": {
-        "earningsDate": [
-            "2024-03-13",
-            "2024-03-18"
-        ],
-        "similar": "SEE"
-    },
     "PARA": {
         "earningsDate": [
             "2024-02-14",
@@ -773,13 +779,6 @@
             "2024-01-16"
         ],
         "similar": "CMA"
-    },
-    "PRV-UN.TO": {
-        "earningsDate": [
-            "2024-03-20",
-            "2024-03-25"
-        ],
-        "similar": "ILPT"
     },
     "PSMT": {
         "earningsDate": [
