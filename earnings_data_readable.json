@@ -150,13 +150,6 @@
         ],
         "similar": "DIS"
     },
-    "CHCT": {
-        "earningsDate": [
-            "2024-02-12",
-            "2024-02-16"
-        ],
-        "similar": "MPW"
-    },
     "CJR-B.TO": {
         "earningsDate": [
             "2024-04-11",
@@ -335,12 +328,6 @@
         ],
         "similar": "DAC"
     },
-    "ECL": {
-        "earningsDate": [
-            "2024-02-13"
-        ],
-        "similar": "ALB"
-    },
     "EGLE": {
         "earningsDate": [
             "2024-02-29",
@@ -422,6 +409,13 @@
             "2024-03-25"
         ],
         "similar": "-"
+    },
+    "GMRE": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "MPW"
     },
     "GNK": {
         "earningsDate": [
@@ -640,8 +634,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2024-03-28",
-            "2024-04-01"
+            "2024-01-16",
+            "2024-01-30"
         ],
         "similar": "DIS"
     },
@@ -779,6 +773,12 @@
             "2024-01-16"
         ],
         "similar": "CMA"
+    },
+    "PPG": {
+        "earningsDate": [
+            "2024-01-18"
+        ],
+        "similar": "ALB"
     },
     "PSMT": {
         "earningsDate": [
