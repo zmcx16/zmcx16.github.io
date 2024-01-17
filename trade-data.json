@@ -173,21 +173,9 @@
          "strike":120
       },
       {
-         "symbol":"BAC",
-         "type":"call",
-         "expiry":"2024-01-05",
-         "strike":36
-      },
-      {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2024-01-12",
-         "strike":370
-      },
-      {
          "symbol":"DIS",
          "type":"call",
-         "expiry":"2024-01-12",
+         "expiry":"2024-01-26",
          "strike":97
       },
       {
@@ -203,16 +191,10 @@
          "strike":15
       },
       {
-         "symbol":"NKE",
+         "symbol":"GIS",
          "type":"put",
-         "expiry":"2024-01-05",
-         "strike":100
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-01-05",
-         "strike":101
+         "expiry":"2024-01-19",
+         "strike":62.5
       },
       {
          "symbol":"PAGS",
@@ -221,10 +203,10 @@
          "strike":10
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2024-01-12",
-         "strike":162.5
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2024-02-02",
+         "strike":73
       },
       {
          "symbol":"VALE",
