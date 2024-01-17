@@ -173,6 +173,12 @@
          "strike":120
       },
       {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2024-01-26",
+         "strike":124
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2024-01-26",
@@ -201,6 +207,12 @@
          "type":"put",
          "expiry":"2024-02-16",
          "strike":10
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-01-26",
+         "strike":160
       },
       {
          "symbol":"PYPL",
