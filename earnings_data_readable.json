@@ -15,7 +15,8 @@
     },
     "ALLY": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-17",
+            "2024-04-22"
         ],
         "similar": "PYPL"
     },
@@ -178,7 +179,7 @@
     },
     "CMA": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-18"
         ],
         "similar": "-"
     },
@@ -320,6 +321,12 @@
         ],
         "similar": "DAC"
     },
+    "ECL": {
+        "earningsDate": [
+            "2024-02-13"
+        ],
+        "similar": "ALB"
+    },
     "EGLE": {
         "earningsDate": [
             "2024-02-29",
@@ -359,18 +366,11 @@
             "2024-04-16",
             "2024-04-22"
         ],
-        "similar": "CMA"
-    },
-    "FIGS": {
-        "earningsDate": [
-            "2024-03-01",
-            "2024-03-05"
-        ],
-        "similar": "VFC"
+        "similar": "ZION"
     },
     "FITB": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-19"
         ],
         "similar": "CMA"
     },
@@ -435,6 +435,12 @@
         ],
         "similar": "VFC"
     },
+    "GOOS.TO": {
+        "earningsDate": [
+            "2024-02-01"
+        ],
+        "similar": "VFC"
+    },
     "GPC": {
         "earningsDate": [
             "2024-02-21",
@@ -457,7 +463,8 @@
     },
     "HBAN": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-18",
+            "2024-04-22"
         ],
         "similar": "CMA"
     },
@@ -589,8 +596,7 @@
     },
     "LYB": {
         "earningsDate": [
-            "2024-02-01",
-            "2024-02-05"
+            "2024-02-02"
         ],
         "similar": "ALB"
     },
@@ -717,6 +723,13 @@
         ],
         "similar": "AAP"
     },
+    "OZK": {
+        "earningsDate": [
+            "2024-04-18",
+            "2024-04-22"
+        ],
+        "similar": "CMA"
+    },
     "PARA": {
         "earningsDate": [
             "2024-02-14",
@@ -757,7 +770,8 @@
     },
     "PPG": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-18",
+            "2024-04-22"
         ],
         "similar": "ALB"
     },
@@ -790,14 +804,13 @@
     },
     "REYN": {
         "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
+            "2024-02-07"
         ],
         "similar": "SEE"
     },
     "RF": {
         "earningsDate": [
-            "2024-01-19"
+            "2024-04-19"
         ],
         "similar": "CMA"
     },
@@ -1020,13 +1033,6 @@
             "2024-02-26"
         ],
         "similar": "DIS"
-    },
-    "WDFC": {
-        "earningsDate": [
-            "2024-04-04",
-            "2024-04-08"
-        ],
-        "similar": "ALB"
     },
     "WFC": {
         "earningsDate": [
