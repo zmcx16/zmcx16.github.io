@@ -167,6 +167,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-02-02",
+         "strike":125
+      },
+      {
          "symbol":"AEP",
          "type":"put",
          "expiry":"2024-02-16",
@@ -201,6 +207,12 @@
          "type":"put",
          "expiry":"2024-02-02",
          "strike":56
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2024-02-16",
+         "strike":30
       },
       {
          "symbol":"PAGS",
