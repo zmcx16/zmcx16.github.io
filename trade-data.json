@@ -185,6 +185,12 @@
          "strike":34
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2024-02-02",
+         "strike":68
+      },
+      {
          "symbol":"DE",
          "type":"put",
          "expiry":"2024-01-26",
