@@ -40,6 +40,13 @@
         ],
         "similar": "ALB"
     },
+    "ASC": {
+        "earningsDate": [
+            "2024-02-12",
+            "2024-02-16"
+        ],
+        "similar": "ZIM"
+    },
     "AVY": {
         "earningsDate": [
             "2024-01-31"
@@ -73,8 +80,8 @@
     },
     "BBOX.L": {
         "earningsDate": [
-            "2024-01-23",
-            "2024-01-29"
+            "2024-01-25",
+            "2024-01-31"
         ],
         "similar": "ILPT"
     },
@@ -563,8 +570,7 @@
     },
     "LEVI": {
         "earningsDate": [
-            "2024-01-23",
-            "2024-01-29"
+            "2024-01-25"
         ],
         "similar": "VFC"
     },
@@ -674,7 +680,8 @@
     },
     "NFLX": {
         "earningsDate": [
-            "2024-01-23"
+            "2024-04-16",
+            "2024-04-22"
         ],
         "similar": "DIS"
     },
@@ -740,7 +747,7 @@
     },
     "PG": {
         "earningsDate": [
-            "2024-01-23"
+            "2024-04-18"
         ],
         "similar": "EL"
     },
@@ -915,7 +922,8 @@
     },
     "SYF": {
         "earningsDate": [
-            "2024-01-23"
+            "2024-04-17",
+            "2024-04-22"
         ],
         "similar": "PYPL"
     },
@@ -992,12 +1000,6 @@
         ],
         "similar": "PYPL"
     },
-    "USB": {
-        "earningsDate": [
-            "2024-04-17"
-        ],
-        "similar": "CMA"
-    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-02-08",
@@ -1030,7 +1032,7 @@
         "earningsDate": [
             "2024-01-25"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "WBD": {
         "earningsDate": [
