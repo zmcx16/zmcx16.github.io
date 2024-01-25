@@ -87,8 +87,7 @@
     },
     "BBY": {
         "earningsDate": [
-            "2024-02-29",
-            "2024-03-04"
+            "2024-02-29"
         ],
         "similar": "AAP"
     },
@@ -158,11 +157,11 @@
         ],
         "similar": "CMA"
     },
-    "CGX.TO": {
+    "CHD": {
         "earningsDate": [
-            "2024-02-08"
+            "2024-02-02"
         ],
-        "similar": "DIS"
+        "similar": "EL"
     },
     "CL": {
         "earningsDate": [
@@ -231,8 +230,7 @@
     },
     "COTY": {
         "earningsDate": [
-            "2024-02-06",
-            "2024-02-12"
+            "2024-02-07"
         ],
         "similar": "EL"
     },
@@ -259,8 +257,7 @@
     },
     "DD": {
         "earningsDate": [
-            "2024-02-05",
-            "2024-02-09"
+            "2024-02-06"
         ],
         "similar": "ALB"
     },
@@ -386,13 +383,6 @@
             "2024-04-19"
         ],
         "similar": "CMA"
-    },
-    "FIVE": {
-        "earningsDate": [
-            "2024-03-13",
-            "2024-03-18"
-        ],
-        "similar": "AAP"
     },
     "FR": {
         "earningsDate": [
@@ -550,7 +540,8 @@
     },
     "KMB": {
         "earningsDate": [
-            "2024-01-24"
+            "2024-04-23",
+            "2024-04-29"
         ],
         "similar": "EL"
     },
@@ -753,7 +744,7 @@
     },
     "PKG": {
         "earningsDate": [
-            "2024-01-24"
+            "2024-01-25"
         ],
         "similar": "SEE"
     },
@@ -858,8 +849,7 @@
     },
     "SEE": {
         "earningsDate": [
-            "2024-02-07",
-            "2024-02-12"
+            "2024-02-27"
         ],
         "similar": "-"
     },
@@ -952,6 +942,13 @@
         ],
         "similar": "-"
     },
+    "TKO": {
+        "earningsDate": [
+            "2024-01-31",
+            "2024-02-05"
+        ],
+        "similar": "DIS"
+    },
     "TMST": {
         "earningsDate": [
             "2024-02-21",
@@ -1000,6 +997,12 @@
         ],
         "similar": "PYPL"
     },
+    "USB": {
+        "earningsDate": [
+            "2024-04-17"
+        ],
+        "similar": "CMA"
+    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-02-08",
@@ -1009,8 +1012,7 @@
     },
     "V": {
         "earningsDate": [
-            "2024-01-24",
-            "2024-01-29"
+            "2024-01-25"
         ],
         "similar": "PYPL"
     },
@@ -1032,7 +1034,7 @@
         "earningsDate": [
             "2024-01-25"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "WBD": {
         "earningsDate": [
@@ -1058,6 +1060,13 @@
         "earningsDate": [
             "2024-03-20",
             "2024-03-25"
+        ],
+        "similar": "AAP"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2024-03-14",
+            "2024-03-18"
         ],
         "similar": "AAP"
     },
