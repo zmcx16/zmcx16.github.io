@@ -255,6 +255,12 @@
          "type":"call",
          "expiry":"2024-02-09",
          "strike":146
+      },
+      {
+         "symbol":"ZION",
+         "type":"call",
+         "expiry":"2024-02-02",
+         "strike":48
       }
    ],
    "news_config":{
