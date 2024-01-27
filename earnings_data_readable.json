@@ -55,7 +55,8 @@
     },
     "AXP": {
         "earningsDate": [
-            "2024-01-26"
+            "2024-04-18",
+            "2024-04-22"
         ],
         "similar": "PYPL"
     },
@@ -164,6 +165,12 @@
         ],
         "similar": "CMA"
     },
+    "CGX.TO": {
+        "earningsDate": [
+            "2024-02-08"
+        ],
+        "similar": "DIS"
+    },
     "CHD": {
         "earningsDate": [
             "2024-02-02"
@@ -172,7 +179,8 @@
     },
     "CL": {
         "earningsDate": [
-            "2024-01-26"
+            "2024-04-26",
+            "2024-04-30"
         ],
         "similar": "EL"
     },
@@ -324,13 +332,6 @@
             "2024-04-01"
         ],
         "similar": "TGT"
-    },
-    "DSX": {
-        "earningsDate": [
-            "2024-02-20",
-            "2024-02-26"
-        ],
-        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -531,6 +532,12 @@
         ],
         "similar": "GIS"
     },
+    "KEX": {
+        "earningsDate": [
+            "2024-02-01"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2024-04-18"
@@ -629,13 +636,6 @@
             "2024-02-08"
         ],
         "similar": "ZIM"
-    },
-    "MANU": {
-        "earningsDate": [
-            "2024-03-28",
-            "2024-04-01"
-        ],
-        "similar": "DIS"
     },
     "MATX": {
         "earningsDate": [
@@ -761,6 +761,12 @@
             "2024-02-22"
         ],
         "similar": "ILPT"
+    },
+    "PNC": {
+        "earningsDate": [
+            "2024-04-16"
+        ],
+        "similar": "CMA"
     },
     "PPG": {
         "earningsDate": [
@@ -936,7 +942,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
@@ -1029,7 +1035,8 @@
     },
     "WAL": {
         "earningsDate": [
-            "2024-01-26"
+            "2024-04-16",
+            "2024-04-22"
         ],
         "similar": "CMA"
     },
