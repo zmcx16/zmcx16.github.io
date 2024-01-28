@@ -717,6 +717,13 @@
         ],
         "similar": "TGT"
     },
+    "OLN": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "ALB"
+    },
     "OR.PA": {
         "earningsDate": [
             "2024-02-08"
@@ -767,13 +774,6 @@
             "2024-04-16"
         ],
         "similar": "CMA"
-    },
-    "PPG": {
-        "earningsDate": [
-            "2024-04-18",
-            "2024-04-22"
-        ],
-        "similar": "ALB"
     },
     "PSMT": {
         "earningsDate": [
