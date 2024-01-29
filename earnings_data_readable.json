@@ -79,6 +79,13 @@
         ],
         "similar": "SEE"
     },
+    "BANC": {
+        "earningsDate": [
+            "2024-04-18",
+            "2024-04-22"
+        ],
+        "similar": "ZION"
+    },
     "BBOX.L": {
         "earningsDate": [
             "2024-01-29",
@@ -937,12 +944,6 @@
             "2024-02-29"
         ],
         "similar": "BAC"
-    },
-    "TFC": {
-        "earningsDate": [
-            "2024-04-18"
-        ],
-        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
