@@ -186,8 +186,7 @@
     },
     "CL": {
         "earningsDate": [
-            "2024-04-26",
-            "2024-04-30"
+            "2024-04-26"
         ],
         "similar": "EL"
     },
@@ -670,12 +669,6 @@
         ],
         "similar": "-"
     },
-    "MTB": {
-        "earningsDate": [
-            "2024-04-15"
-        ],
-        "similar": "CMA"
-    },
     "NAT": {
         "earningsDate": [
             "2024-02-26",
@@ -712,8 +705,7 @@
     },
     "OI": {
         "earningsDate": [
-            "2024-01-29",
-            "2024-02-02"
+            "2024-02-06"
         ],
         "similar": "SEE"
     },
@@ -910,7 +902,8 @@
     },
     "SOFI": {
         "earningsDate": [
-            "2024-01-29"
+            "2024-04-29",
+            "2024-05-03"
         ],
         "similar": "PYPL"
     },
@@ -944,6 +937,12 @@
             "2024-02-29"
         ],
         "similar": "BAC"
+    },
+    "TFC": {
+        "earningsDate": [
+            "2024-04-18"
+        ],
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
