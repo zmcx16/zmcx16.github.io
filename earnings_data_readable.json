@@ -88,8 +88,7 @@
     },
     "BBOX.L": {
         "earningsDate": [
-            "2024-01-29",
-            "2024-02-04"
+            "2024-03-01"
         ],
         "similar": "ILPT"
     },
@@ -138,13 +137,6 @@
             "2024-03-01"
         ],
         "similar": "BAC"
-    },
-    "BOH": {
-        "earningsDate": [
-            "2024-04-22",
-            "2024-04-26"
-        ],
-        "similar": "ZION"
     },
     "C": {
         "earningsDate": [
@@ -367,8 +359,7 @@
     },
     "ELF": {
         "earningsDate": [
-            "2024-01-30",
-            "2024-02-05"
+            "2024-02-06"
         ],
         "similar": "EL"
     },
@@ -445,7 +436,7 @@
             "2024-02-14",
             "2024-02-19"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GOOS": {
         "earningsDate": [
@@ -461,8 +452,7 @@
     },
     "GSY.TO": {
         "earningsDate": [
-            "2024-02-13",
-            "2024-02-19"
+            "2024-02-13"
         ],
         "similar": "PYPL"
     },
@@ -521,7 +511,7 @@
     },
     "JPM": {
         "earningsDate": [
-            "2024-01-30"
+            "2024-04-12"
         ],
         "similar": "BAC"
     },
@@ -537,12 +527,6 @@
             "2024-02-08"
         ],
         "similar": "GIS"
-    },
-    "KEX": {
-        "earningsDate": [
-            "2024-02-01"
-        ],
-        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -668,6 +652,12 @@
             "2024-02-26"
         ],
         "similar": "-"
+    },
+    "MTB": {
+        "earningsDate": [
+            "2024-04-15"
+        ],
+        "similar": "ZION"
     },
     "NAT": {
         "earningsDate": [
