@@ -191,6 +191,12 @@
          "strike":68
       },
       {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-02-09",
+         "strike":370
+      },
+      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2024-02-16",
@@ -243,6 +249,12 @@
          "type":"call",
          "expiry":"2024-02-09",
          "strike":146
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2024-02-16",
+         "strike":13
       },
       {
          "symbol":"ZION",
