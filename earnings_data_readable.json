@@ -49,7 +49,8 @@
     },
     "AVY": {
         "earningsDate": [
-            "2024-01-31"
+            "2024-04-24",
+            "2024-04-29"
         ],
         "similar": "SEE"
     },
@@ -230,8 +231,7 @@
     },
     "COLM": {
         "earningsDate": [
-            "2024-01-31",
-            "2024-02-05"
+            "2024-02-01"
         ],
         "similar": "VFC"
     },
@@ -465,8 +465,7 @@
     },
     "HBI": {
         "earningsDate": [
-            "2024-01-31",
-            "2024-02-05"
+            "2024-02-15"
         ],
         "similar": "VFC"
     },
@@ -561,6 +560,13 @@
         ],
         "similar": "VFC"
     },
+    "LC": {
+        "earningsDate": [
+            "2024-04-24",
+            "2024-04-29"
+        ],
+        "similar": "PYPL"
+    },
     "LEVI": {
         "earningsDate": [
             "2024-04-04",
@@ -610,7 +616,8 @@
     },
     "MA": {
         "earningsDate": [
-            "2024-01-31"
+            "2024-04-25",
+            "2024-04-29"
         ],
         "similar": "PYPL"
     },
@@ -626,12 +633,6 @@
             "2024-02-08"
         ],
         "similar": "ZIM"
-    },
-    "MATX": {
-        "earningsDate": [
-            "2024-02-20"
-        ],
-        "similar": "DAC"
     },
     "MKC": {
         "earningsDate": [
@@ -657,7 +658,7 @@
         "earningsDate": [
             "2024-04-15"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "NAT": {
         "earningsDate": [
@@ -830,6 +831,13 @@
         ],
         "similar": "BAC"
     },
+    "SB": {
+        "earningsDate": [
+            "2024-02-12",
+            "2024-02-16"
+        ],
+        "similar": "DAC"
+    },
     "SBLK": {
         "earningsDate": [
             "2024-02-14",
@@ -886,7 +894,8 @@
     },
     "SLGN": {
         "earningsDate": [
-            "2024-01-31"
+            "2024-04-24",
+            "2024-04-29"
         ],
         "similar": "SEE"
     },
@@ -909,13 +918,6 @@
         ],
         "similar": "KSS"
     },
-    "SYF": {
-        "earningsDate": [
-            "2024-04-17",
-            "2024-04-22"
-        ],
-        "similar": "PYPL"
-    },
     "TD": {
         "earningsDate": [
             "2024-02-29"
@@ -927,12 +929,6 @@
             "2024-02-29"
         ],
         "similar": "BAC"
-    },
-    "TFC": {
-        "earningsDate": [
-            "2024-04-18"
-        ],
-        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
