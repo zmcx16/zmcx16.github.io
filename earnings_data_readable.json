@@ -86,20 +86,6 @@
         ],
         "similar": "-"
     },
-    "BALL": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "SEE"
-    },
-    "BANC": {
-        "earningsDate": [
-            "2024-04-18",
-            "2024-04-22"
-        ],
-        "similar": "ZION"
-    },
     "BBOX.L": {
         "earningsDate": [
             "2024-03-01"
@@ -265,7 +251,8 @@
     },
     "CPLP": {
         "earningsDate": [
-            "2024-02-02"
+            "2024-05-03",
+            "2024-05-07"
         ],
         "similar": "DAC"
     },
@@ -345,12 +332,6 @@
         ],
         "similar": "TGT"
     },
-    "ECL": {
-        "earningsDate": [
-            "2024-02-13"
-        ],
-        "similar": "ALB"
-    },
     "EGLE": {
         "earningsDate": [
             "2024-02-29",
@@ -376,6 +357,13 @@
             "2024-02-06"
         ],
         "similar": "EL"
+    },
+    "EMN": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "ALB"
     },
     "ESEA": {
         "earningsDate": [
@@ -403,6 +391,13 @@
             "2024-04-19"
         ],
         "similar": "CMA"
+    },
+    "FIVE": {
+        "earningsDate": [
+            "2024-03-13",
+            "2024-03-18"
+        ],
+        "similar": "AAP"
     },
     "FR": {
         "earningsDate": [
@@ -733,6 +728,13 @@
         ],
         "similar": "AAP"
     },
+    "PACK": {
+        "earningsDate": [
+            "2024-03-13",
+            "2024-03-18"
+        ],
+        "similar": "SEE"
+    },
     "PARA": {
         "earningsDate": [
             "2024-02-14",
@@ -930,6 +932,12 @@
         ],
         "similar": "BAC"
     },
+    "TFC": {
+        "earningsDate": [
+            "2024-04-18"
+        ],
+        "similar": "ZION"
+    },
     "TGT": {
         "earningsDate": [
             "2024-02-26",
@@ -1053,12 +1061,6 @@
             "2024-02-23"
         ],
         "similar": "TGT"
-    },
-    "WOOF": {
-        "earningsDate": [
-            "2024-03-13"
-        ],
-        "similar": "AAP"
     },
     "ZIM": {
         "earningsDate": [
