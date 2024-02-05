@@ -392,13 +392,6 @@
         ],
         "similar": "CMA"
     },
-    "FIVE": {
-        "earningsDate": [
-            "2024-03-13",
-            "2024-03-18"
-        ],
-        "similar": "AAP"
-    },
     "FR": {
         "earningsDate": [
             "2024-02-06",
@@ -1061,6 +1054,13 @@
             "2024-02-23"
         ],
         "similar": "TGT"
+    },
+    "WSM": {
+        "earningsDate": [
+            "2024-03-14",
+            "2024-03-18"
+        ],
+        "similar": "AAP"
     },
     "ZIM": {
         "earningsDate": [
