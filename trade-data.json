@@ -209,6 +209,12 @@
          "strike":56
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2024-03-01",
+         "strike":60
+      },
+      {
          "symbol":"GPC",
          "type":"put",
          "expiry":"2024-02-16",
