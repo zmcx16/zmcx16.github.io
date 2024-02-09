@@ -162,12 +162,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2024-02-02",
-         "strike":125
-      },
-      {
          "symbol":"AEP",
          "type":"put",
          "expiry":"2024-02-16",
@@ -178,12 +172,6 @@
          "type":"call",
          "expiry":"2024-02-09",
          "strike":34
-      },
-      {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2024-02-02",
-         "strike":68
       },
       {
          "symbol":"DE",
@@ -198,10 +186,10 @@
          "strike":117
       },
       {
-         "symbol":"FTNT",
-         "type":"put",
-         "expiry":"2024-02-02",
-         "strike":56
+         "symbol":"EL",
+         "type":"call",
+         "expiry":"2024-02-16",
+         "strike":155
       },
       {
          "symbol":"GIS",
@@ -240,22 +228,28 @@
          "strike":15
       },
       {
+         "symbol":"MS",
+         "type":"put",
+         "expiry":"2024-02-16",
+         "strike":80
+      },
+      {
          "symbol":"PAGS",
          "type":"put",
          "expiry":"2024-02-16",
          "strike":10
       },
       {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2024-02-02",
-         "strike":73
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2024-03-08",
          "strike":89
+      },
+      {
+         "symbol":"SEE",
+         "type":"put",
+         "expiry":"2024-02-16",
+         "strike":32.5
       },
       {
          "symbol":"TGT",
@@ -270,10 +264,16 @@
          "strike":13
       },
       {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":12
+      },
+      {
          "symbol":"ZION",
          "type":"call",
-         "expiry":"2024-02-02",
-         "strike":48
+         "expiry":"2024-03-15",
+         "strike":45
       }
    ],
    "news_config":{
