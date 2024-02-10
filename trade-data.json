@@ -186,6 +186,12 @@
          "strike":117
       },
       {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2024-02-16",
+         "strike":120
+      },
+      {
          "symbol":"EL",
          "type":"call",
          "expiry":"2024-02-16",
@@ -268,6 +274,12 @@
          "type":"put",
          "expiry":"2024-03-22",
          "strike":12
+      },
+      {
+         "symbol":"VMI",
+         "type":"put",
+         "expiry":"2024-02-16",
+         "strike":220
       },
       {
          "symbol":"ZION",
