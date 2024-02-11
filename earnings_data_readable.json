@@ -152,16 +152,10 @@
     },
     "CGX.TO": {
         "earningsDate": [
-            "2024-02-08"
+            "2024-05-10",
+            "2024-05-14"
         ],
         "similar": "DIS"
-    },
-    "CHD": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "EL"
     },
     "CL": {
         "earningsDate": [
@@ -241,6 +235,13 @@
             "2024-03-11"
         ],
         "similar": "GIS"
+    },
+    "CTRE": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "MPW"
     },
     "CUBE": {
         "earningsDate": [
@@ -390,6 +391,12 @@
             "2024-04-19"
         ],
         "similar": "CMA"
+    },
+    "FLO": {
+        "earningsDate": [
+            "2024-02-09"
+        ],
+        "similar": "GIS"
     },
     "FOXA": {
         "earningsDate": [
@@ -577,13 +584,6 @@
         ],
         "similar": "MPW"
     },
-    "LW": {
-        "earningsDate": [
-            "2024-04-04",
-            "2024-04-08"
-        ],
-        "similar": "GIS"
-    },
     "LXP": {
         "earningsDate": [
             "2024-02-15"
@@ -645,8 +645,7 @@
     },
     "MPW": {
         "earningsDate": [
-            "2024-02-21",
-            "2024-02-26"
+            "2024-02-21"
         ],
         "similar": "-"
     },
@@ -682,6 +681,13 @@
             "2024-04-02"
         ],
         "similar": "MPW"
+    },
+    "NWL": {
+        "earningsDate": [
+            "2024-04-26",
+            "2024-04-30"
+        ],
+        "similar": "EL"
     },
     "OHI": {
         "earningsDate": [
@@ -1010,12 +1016,6 @@
         ],
         "similar": "ZION"
     },
-    "VTR": {
-        "earningsDate": [
-            "2024-02-14"
-        ],
-        "similar": "MPW"
-    },
     "WAL": {
         "earningsDate": [
             "2024-04-16",
@@ -1043,9 +1043,10 @@
         ],
         "similar": "TGT"
     },
-    "WOOF": {
+    "WSM": {
         "earningsDate": [
-            "2024-03-13"
+            "2024-03-14",
+            "2024-03-18"
         ],
         "similar": "AAP"
     },
