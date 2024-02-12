@@ -319,12 +319,6 @@
         ],
         "similar": "TGT"
     },
-    "DSX": {
-        "earningsDate": [
-            "2024-02-23"
-        ],
-        "similar": "ZIM"
-    },
     "ECL": {
         "earningsDate": [
             "2024-02-13"
@@ -430,13 +424,6 @@
             "2024-03-25"
         ],
         "similar": "-"
-    },
-    "GMRE": {
-        "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
-        ],
-        "similar": "MPW"
     },
     "GNK": {
         "earningsDate": [
@@ -1016,6 +1003,12 @@
         ],
         "similar": "ZION"
     },
+    "VTR": {
+        "earningsDate": [
+            "2024-02-14"
+        ],
+        "similar": "MPW"
+    },
     "WAL": {
         "earningsDate": [
             "2024-04-16",
@@ -1043,10 +1036,9 @@
         ],
         "similar": "TGT"
     },
-    "WSM": {
+    "WOOF": {
         "earningsDate": [
-            "2024-03-14",
-            "2024-03-18"
+            "2024-03-13"
         ],
         "similar": "AAP"
     },
