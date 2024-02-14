@@ -170,14 +170,8 @@
       {
          "symbol":"BAC",
          "type":"call",
-         "expiry":"2024-02-09",
-         "strike":34
-      },
-      {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2024-02-09",
-         "strike":370
+         "expiry":"2024-03-01",
+         "strike":35
       },
       {
          "symbol":"DG",
@@ -246,6 +240,12 @@
          "strike":10
       },
       {
+         "symbol":"PAYC",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":165
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2024-03-08",
@@ -256,12 +256,6 @@
          "type":"put",
          "expiry":"2024-02-16",
          "strike":32.5
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2024-02-09",
-         "strike":146
       },
       {
          "symbol":"VALE",
