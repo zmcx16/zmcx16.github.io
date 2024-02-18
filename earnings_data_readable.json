@@ -116,12 +116,6 @@
         ],
         "similar": "BAC"
     },
-    "BNS": {
-        "earningsDate": [
-            "2024-02-27"
-        ],
-        "similar": "BAC"
-    },
     "BNS.TO": {
         "earningsDate": [
             "2024-02-27"
@@ -159,13 +153,6 @@
             "2024-04-17"
         ],
         "similar": "CMA"
-    },
-    "CGX.TO": {
-        "earningsDate": [
-            "2024-05-10",
-            "2024-05-14"
-        ],
-        "similar": "DIS"
     },
     "CL": {
         "earningsDate": [
@@ -205,6 +192,13 @@
             "2024-05-17"
         ],
         "similar": "DAC"
+    },
+    "CNK": {
+        "earningsDate": [
+            "2024-05-03",
+            "2024-05-07"
+        ],
+        "similar": "DIS"
     },
     "COF": {
         "earningsDate": [
@@ -341,7 +335,8 @@
     },
     "ELF": {
         "earningsDate": [
-            "2024-02-06"
+            "2024-01-30",
+            "2024-02-05"
         ],
         "similar": "EL"
     },
@@ -369,13 +364,6 @@
             "2024-04-19"
         ],
         "similar": "CMA"
-    },
-    "FLO": {
-        "earningsDate": [
-            "2024-05-16",
-            "2024-05-20"
-        ],
-        "similar": "GIS"
     },
     "FR": {
         "earningsDate": [
@@ -413,7 +401,7 @@
         "earningsDate": [
             "2024-02-28"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GOOS": {
         "earningsDate": [
@@ -487,6 +475,12 @@
             "2024-02-20"
         ],
         "similar": "-"
+    },
+    "IQ": {
+        "earningsDate": [
+            "2024-02-28"
+        ],
+        "similar": "DIS"
     },
     "JPM": {
         "earningsDate": [
@@ -620,6 +614,12 @@
         ],
         "similar": "DIS"
     },
+    "MATX": {
+        "earningsDate": [
+            "2024-02-20"
+        ],
+        "similar": "DAC"
+    },
     "MKC": {
         "earningsDate": [
             "2024-03-26",
@@ -713,6 +713,13 @@
         ],
         "similar": "AAP"
     },
+    "PACK": {
+        "earningsDate": [
+            "2024-03-13",
+            "2024-03-18"
+        ],
+        "similar": "SEE"
+    },
     "PARA": {
         "earningsDate": [
             "2024-02-28"
@@ -778,13 +785,6 @@
             "2024-04-22"
         ],
         "similar": "ILPT"
-    },
-    "REYN": {
-        "earningsDate": [
-            "2024-05-08",
-            "2024-05-13"
-        ],
-        "similar": "SEE"
     },
     "RF": {
         "earningsDate": [
