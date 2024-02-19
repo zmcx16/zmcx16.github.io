@@ -79,13 +79,6 @@
         ],
         "similar": "-"
     },
-    "BALL": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "SEE"
-    },
     "BBOX.L": {
         "earningsDate": [
             "2024-03-01"
@@ -232,6 +225,13 @@
             "2024-03-11"
         ],
         "similar": "GIS"
+    },
+    "CTRE": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "MPW"
     },
     "CUBE": {
         "earningsDate": [
@@ -384,12 +384,6 @@
             "2024-03-25"
         ],
         "similar": "-"
-    },
-    "GMRE": {
-        "earningsDate": [
-            "2024-02-27"
-        ],
-        "similar": "MPW"
     },
     "GNK": {
         "earningsDate": [
@@ -786,11 +780,18 @@
         ],
         "similar": "ILPT"
     },
+    "REYN": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "SEE"
+    },
     "RF": {
         "earningsDate": [
             "2024-04-19"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "RH": {
         "earningsDate": [
@@ -921,7 +922,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
