@@ -129,12 +129,6 @@
         ],
         "similar": "GIS"
     },
-    "CC": {
-        "earningsDate": [
-            "2024-02-28"
-        ],
-        "similar": "ALB"
-    },
     "CCK": {
         "earningsDate": [
             "2024-04-22",
@@ -186,13 +180,6 @@
             "2024-05-17"
         ],
         "similar": "DAC"
-    },
-    "CNK": {
-        "earningsDate": [
-            "2024-05-03",
-            "2024-05-07"
-        ],
-        "similar": "DIS"
     },
     "COF": {
         "earningsDate": [
@@ -310,8 +297,7 @@
     },
     "DOL.TO": {
         "earningsDate": [
-            "2024-03-27",
-            "2024-04-01"
+            "2024-04-04"
         ],
         "similar": "TGT"
     },
@@ -645,19 +631,19 @@
         ],
         "similar": "DIS"
     },
+    "NHI": {
+        "earningsDate": [
+            "2024-05-07",
+            "2024-05-13"
+        ],
+        "similar": "MPW"
+    },
     "NMM": {
         "earningsDate": [
             "2024-05-21",
             "2024-05-27"
         ],
         "similar": "DAC"
-    },
-    "NWH-UN.TO": {
-        "earningsDate": [
-            "2024-03-29",
-            "2024-04-02"
-        ],
-        "similar": "MPW"
     },
     "NWL": {
         "earningsDate": [
@@ -746,6 +732,13 @@
         ],
         "similar": "CMA"
     },
+    "PSMT": {
+        "earningsDate": [
+            "2024-04-08",
+            "2024-04-12"
+        ],
+        "similar": "TGT"
+    },
     "PVH": {
         "earningsDate": [
             "2024-03-25",
@@ -789,7 +782,8 @@
     },
     "RL": {
         "earningsDate": [
-            "2024-02-08"
+            "2024-05-23",
+            "2024-05-27"
         ],
         "similar": "VFC"
     },
@@ -818,7 +812,7 @@
             "2024-05-14",
             "2024-05-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -838,13 +832,6 @@
             "2024-03-29"
         ],
         "similar": "ILPT"
-    },
-    "SFL": {
-        "earningsDate": [
-            "2024-05-13",
-            "2024-05-17"
-        ],
-        "similar": "DAC"
     },
     "SHW": {
         "earningsDate": [
@@ -1007,16 +994,10 @@
         ],
         "similar": "CMA"
     },
-    "WALMEX.MX": {
-        "earningsDate": [
-            "2024-04-24",
-            "2024-04-29"
-        ],
-        "similar": "TGT"
-    },
     "WBD": {
         "earningsDate": [
-            "2024-02-23"
+            "2024-05-03",
+            "2024-05-07"
         ],
         "similar": "DIS"
     },
@@ -1035,8 +1016,7 @@
     },
     "WMT": {
         "earningsDate": [
-            "2024-05-16",
-            "2024-05-20"
+            "2024-05-16"
         ],
         "similar": "TGT"
     },
