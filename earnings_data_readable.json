@@ -221,13 +221,6 @@
         ],
         "similar": "GIS"
     },
-    "CTRE": {
-        "earningsDate": [
-            "2024-05-08",
-            "2024-05-13"
-        ],
-        "similar": "MPW"
-    },
     "CUBE": {
         "earningsDate": [
             "2024-02-29"
@@ -303,7 +296,8 @@
     },
     "DSX": {
         "earningsDate": [
-            "2024-02-23"
+            "2024-05-24",
+            "2024-05-28"
         ],
         "similar": "ZIM"
     },
@@ -374,6 +368,13 @@
         ],
         "similar": "ILPT"
     },
+    "GASS": {
+        "earningsDate": [
+            "2024-05-22",
+            "2024-05-27"
+        ],
+        "similar": "DAC"
+    },
     "GGBR4.SA": {
         "earningsDate": [
             "2024-05-02"
@@ -386,6 +387,12 @@
             "2024-03-25"
         ],
         "similar": "-"
+    },
+    "GMRE": {
+        "earningsDate": [
+            "2024-02-27"
+        ],
+        "similar": "MPW"
     },
     "GNK": {
         "earningsDate": [
@@ -551,6 +558,13 @@
             "2024-05-06"
         ],
         "similar": "ILPT"
+    },
+    "LYB": {
+        "earningsDate": [
+            "2024-04-26",
+            "2024-04-30"
+        ],
+        "similar": "ALB"
     },
     "LYV": {
         "earningsDate": [
@@ -979,6 +993,13 @@
             "2024-05-27"
         ],
         "similar": "-"
+    },
+    "VLY": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "ZION"
     },
     "VTR": {
         "earningsDate": [
