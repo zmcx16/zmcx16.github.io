@@ -98,6 +98,12 @@
         ],
         "similar": "SEE"
     },
+    "BGS": {
+        "earningsDate": [
+            "2024-02-27"
+        ],
+        "similar": "GIS"
+    },
     "BIG": {
         "earningsDate": [
             "2024-03-07"
@@ -448,12 +454,6 @@
         ],
         "similar": "VFC"
     },
-    "HLAG.DE": {
-        "earningsDate": [
-            "2024-03-14"
-        ],
-        "similar": "ZIM"
-    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -545,13 +545,6 @@
         ],
         "similar": "MPW"
     },
-    "LW": {
-        "earningsDate": [
-            "2024-04-04",
-            "2024-04-08"
-        ],
-        "similar": "GIS"
-    },
     "LXP": {
         "earningsDate": [
             "2024-05-01",
@@ -637,6 +630,13 @@
             "2024-04-15"
         ],
         "similar": "CMA"
+    },
+    "NAT": {
+        "earningsDate": [
+            "2024-02-26",
+            "2024-03-01"
+        ],
+        "similar": "ZIM"
     },
     "NFLX": {
         "earningsDate": [
