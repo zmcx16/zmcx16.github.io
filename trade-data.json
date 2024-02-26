@@ -222,12 +222,6 @@
          "strike":30
       },
       {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2024-02-23",
-         "strike":15
-      },
-      {
          "symbol":"MS",
          "type":"put",
          "expiry":"2024-03-01",
@@ -244,6 +238,12 @@
          "type":"put",
          "expiry":"2024-03-15",
          "strike":165
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":25
       },
       {
          "symbol":"SBUX",
