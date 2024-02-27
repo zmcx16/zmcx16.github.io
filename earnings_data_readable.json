@@ -46,13 +46,6 @@
         ],
         "similar": "DAC"
     },
-    "ASO": {
-        "earningsDate": [
-            "2024-03-14",
-            "2024-03-18"
-        ],
-        "similar": "AAP"
-    },
     "AVY": {
         "earningsDate": [
             "2024-04-24",
@@ -85,6 +78,12 @@
         ],
         "similar": "ILPT"
     },
+    "BBWI": {
+        "earningsDate": [
+            "2024-02-29"
+        ],
+        "similar": "AAP"
+    },
     "BBY": {
         "earningsDate": [
             "2024-02-29"
@@ -97,12 +96,6 @@
             "2024-05-06"
         ],
         "similar": "SEE"
-    },
-    "BGS": {
-        "earningsDate": [
-            "2024-02-27"
-        ],
-        "similar": "GIS"
     },
     "BIG": {
         "earningsDate": [
@@ -545,6 +538,13 @@
         ],
         "similar": "MPW"
     },
+    "LW": {
+        "earningsDate": [
+            "2024-04-04",
+            "2024-04-08"
+        ],
+        "similar": "GIS"
+    },
     "LXP": {
         "earningsDate": [
             "2024-05-01",
@@ -633,8 +633,8 @@
     },
     "NAT": {
         "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
+            "2024-05-20",
+            "2024-05-24"
         ],
         "similar": "ZIM"
     },
@@ -921,8 +921,8 @@
     },
     "TGT": {
         "earningsDate": [
-            "2024-02-26",
-            "2024-03-01"
+            "2024-05-15",
+            "2024-05-20"
         ],
         "similar": "-"
     },
