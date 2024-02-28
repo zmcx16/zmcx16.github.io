@@ -258,6 +258,12 @@
          "strike":12
       },
       {
+         "symbol":"VMI",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":200
+      },
+      {
          "symbol":"ZION",
          "type":"call",
          "expiry":"2024-03-15",
