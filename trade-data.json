@@ -192,6 +192,12 @@
          "strike":160
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":270
+      },
+      {
          "symbol":"FTNT",
          "type":"put",
          "expiry":"2024-03-15",
@@ -222,6 +228,12 @@
          "strike":30
       },
       {
+         "symbol":"LNTH",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":55
+      },
+      {
          "symbol":"MS",
          "type":"put",
          "expiry":"2024-03-01",
@@ -250,6 +262,12 @@
          "type":"put",
          "expiry":"2024-03-08",
          "strike":89
+      },
+      {
+         "symbol":"SEE",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":32.5
       },
       {
          "symbol":"VFC",
