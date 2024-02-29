@@ -28,7 +28,8 @@
     },
     "AMC": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-03",
+            "2024-05-07"
         ],
         "similar": "DIS"
     },
@@ -117,6 +118,19 @@
         ],
         "similar": "TGT"
     },
+    "BMO.TO": {
+        "earningsDate": [
+            "2024-02-27"
+        ],
+        "similar": "BAC"
+    },
+    "BNS": {
+        "earningsDate": [
+            "2024-05-22",
+            "2024-05-27"
+        ],
+        "similar": "BAC"
+    },
     "BNS.TO": {
         "earningsDate": [
             "2024-05-22",
@@ -137,6 +151,13 @@
         ],
         "similar": "GIS"
     },
+    "CCK": {
+        "earningsDate": [
+            "2024-04-22",
+            "2024-04-26"
+        ],
+        "similar": "SEE"
+    },
     "CFG": {
         "earningsDate": [
             "2024-04-17"
@@ -155,12 +176,6 @@
             "2024-05-06"
         ],
         "similar": "EL"
-    },
-    "CM.TO": {
-        "earningsDate": [
-            "2024-02-29"
-        ],
-        "similar": "BAC"
     },
     "CMA": {
         "earningsDate": [
@@ -277,8 +292,7 @@
     },
     "DLTR": {
         "earningsDate": [
-            "2024-02-28",
-            "2024-03-04"
+            "2024-03-13"
         ],
         "similar": "TGT"
     },
@@ -343,6 +357,13 @@
         ],
         "similar": "DAC"
     },
+    "FCNCA": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "CMA"
+    },
     "FHN": {
         "earningsDate": [
             "2024-04-16",
@@ -384,14 +405,14 @@
     },
     "GIS": {
         "earningsDate": [
-            "2024-03-21",
-            "2024-03-25"
+            "2024-03-20"
         ],
         "similar": "-"
     },
     "GMRE": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-01",
+            "2024-05-06"
         ],
         "similar": "MPW"
     },
@@ -529,9 +550,17 @@
     },
     "KTB": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-02",
+            "2024-05-06"
         ],
         "similar": "VFC"
+    },
+    "LC": {
+        "earningsDate": [
+            "2024-04-24",
+            "2024-04-29"
+        ],
+        "similar": "PYPL"
     },
     "LEVI": {
         "earningsDate": [
@@ -549,8 +578,7 @@
     },
     "LW": {
         "earningsDate": [
-            "2024-04-04",
-            "2024-04-08"
+            "2024-04-04"
         ],
         "similar": "GIS"
     },
@@ -638,7 +666,7 @@
         "earningsDate": [
             "2024-04-15"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "NAT": {
         "earningsDate": [
@@ -667,6 +695,13 @@
             "2024-05-27"
         ],
         "similar": "DAC"
+    },
+    "NWH-UN.TO": {
+        "earningsDate": [
+            "2024-03-29",
+            "2024-04-02"
+        ],
+        "similar": "MPW"
     },
     "OHI": {
         "earningsDate": [
@@ -711,7 +746,8 @@
     },
     "PARA": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-02",
+            "2024-05-06"
         ],
         "similar": "DIS"
     },
@@ -754,12 +790,6 @@
             "2024-04-12"
         ],
         "similar": "TGT"
-    },
-    "PTVE": {
-        "earningsDate": [
-            "2024-02-29"
-        ],
-        "similar": "SEE"
     },
     "PVH": {
         "earningsDate": [
@@ -838,7 +868,8 @@
     },
     "SBRA": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-01",
+            "2024-05-06"
         ],
         "similar": "MPW"
     },
@@ -903,13 +934,6 @@
         ],
         "similar": "KSS"
     },
-    "SYF": {
-        "earningsDate": [
-            "2024-04-17",
-            "2024-04-22"
-        ],
-        "similar": "PYPL"
-    },
     "TD": {
         "earningsDate": [
             "2024-02-29"
@@ -934,9 +958,17 @@
         ],
         "similar": "-"
     },
+    "TKO": {
+        "earningsDate": [
+            "2024-05-01",
+            "2024-05-06"
+        ],
+        "similar": "DIS"
+    },
     "TMST": {
         "earningsDate": [
-            "2024-02-28"
+            "2024-05-02",
+            "2024-05-06"
         ],
         "similar": "SID"
     },
@@ -1008,13 +1040,6 @@
             "2024-04-29"
         ],
         "similar": "ZION"
-    },
-    "VTR": {
-        "earningsDate": [
-            "2024-05-06",
-            "2024-05-10"
-        ],
-        "similar": "MPW"
     },
     "WAL": {
         "earningsDate": [
