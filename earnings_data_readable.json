@@ -499,6 +499,12 @@
         ],
         "similar": "EL"
     },
+    "HLAG.DE": {
+        "earningsDate": [
+            "2024-03-14"
+        ],
+        "similar": "ZIM"
+    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -605,6 +611,13 @@
             "2024-04-29"
         ],
         "similar": "MPW"
+    },
+    "LU": {
+        "earningsDate": [
+            "2024-03-11",
+            "2024-03-15"
+        ],
+        "similar": "PYPL"
     },
     "LW": {
         "earningsDate": [
@@ -820,6 +833,13 @@
             "2024-04-22"
         ],
         "similar": "ILPT"
+    },
+    "REYN": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "SEE"
     },
     "RF": {
         "earningsDate": [
@@ -1075,20 +1095,6 @@
             "2024-05-16"
         ],
         "similar": "TGT"
-    },
-    "WRK": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "SEE"
-    },
-    "WU": {
-        "earningsDate": [
-            "2024-04-30",
-            "2024-05-06"
-        ],
-        "similar": "PYPL"
     },
     "ZIM": {
         "earningsDate": [
