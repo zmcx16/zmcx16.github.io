@@ -166,32 +166,20 @@
       {
          "symbol":"BAC",
          "type":"call",
-         "expiry":"2024-03-01",
-         "strike":35
+         "expiry":"2024-03-28",
+         "strike":37
+      },
+      {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":68
       },
       {
          "symbol":"DE",
          "type":"put",
-         "expiry":"2024-03-01",
-         "strike":335
-      },
-      {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2024-03-01",
-         "strike":128
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2024-03-01",
-         "strike":117
-      },
-      {
-         "symbol":"EL",
-         "type":"call",
-         "expiry":"2024-03-01",
-         "strike":160
+         "expiry":"2024-03-15",
+         "strike":345
       },
       {
          "symbol":"EPAM",
@@ -200,16 +188,22 @@
          "strike":270
       },
       {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2024-03-08",
+         "strike":138
+      },
+      {
          "symbol":"FTNT",
          "type":"put",
          "expiry":"2024-03-15",
          "strike":60
       },
       {
-         "symbol":"GIS",
+         "symbol":"FTNT",
          "type":"put",
-         "expiry":"2024-03-01",
-         "strike":60
+         "expiry":"2024-03-15",
+         "strike":64
       },
       {
          "symbol":"GLOB",
@@ -218,10 +212,10 @@
          "strike":190
       },
       {
-         "symbol":"INTC",
+         "symbol":"HAL",
          "type":"put",
-         "expiry":"2024-03-01",
-         "strike":37
+         "expiry":"2024-04-05",
+         "strike":31
       },
       {
          "symbol":"KSS",
@@ -236,16 +230,16 @@
          "strike":55
       },
       {
-         "symbol":"MS",
+         "symbol":"NDAQ",
          "type":"put",
-         "expiry":"2024-03-01",
-         "strike":80
+         "expiry":"2024-03-15",
+         "strike":52.5
       },
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2024-03-01",
-         "strike":95
+         "expiry":"2024-03-08",
+         "strike":96
       },
       {
          "symbol":"PAYC",
@@ -266,10 +260,22 @@
          "strike":89
       },
       {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":88
+      },
+      {
          "symbol":"SEE",
          "type":"put",
          "expiry":"2024-03-15",
          "strike":32.5
+      },
+      {
+         "symbol":"STM",
+         "type":"put",
+         "expiry":"2024-03-15",
+         "strike":43
       },
       {
          "symbol":"VFC",
