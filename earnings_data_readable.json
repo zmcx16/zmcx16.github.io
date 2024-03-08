@@ -118,13 +118,15 @@
     },
     "BIG": {
         "earningsDate": [
-            "2024-03-07"
+            "2024-05-24",
+            "2024-05-28"
         ],
         "similar": "TGT"
     },
     "BJ": {
         "earningsDate": [
-            "2024-03-07"
+            "2024-05-21",
+            "2024-05-27"
         ],
         "similar": "TGT"
     },
@@ -149,8 +151,7 @@
     },
     "CAG": {
         "earningsDate": [
-            "2024-04-03",
-            "2024-04-08"
+            "2024-04-04"
         ],
         "similar": "GIS"
     },
@@ -250,7 +251,8 @@
     },
     "COST": {
         "earningsDate": [
-            "2024-03-07"
+            "2024-05-23",
+            "2024-05-27"
         ],
         "similar": "TGT"
     },
@@ -502,12 +504,6 @@
         ],
         "similar": "VFC"
     },
-    "HLAG.DE": {
-        "earningsDate": [
-            "2024-03-14"
-        ],
-        "similar": "ZIM"
-    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -535,13 +531,6 @@
             "2024-04-29"
         ],
         "similar": "-"
-    },
-    "IMAX": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "DIS"
     },
     "IQ": {
         "earningsDate": [
@@ -671,6 +660,12 @@
         ],
         "similar": "ZIM"
     },
+    "MANU": {
+        "earningsDate": [
+            "2024-03-12"
+        ],
+        "similar": "DIS"
+    },
     "MATX": {
         "earningsDate": [
             "2024-05-02",
@@ -696,13 +691,6 @@
             "2024-04-29"
         ],
         "similar": "-"
-    },
-    "MSB": {
-        "earningsDate": [
-            "2024-04-22",
-            "2024-04-26"
-        ],
-        "similar": "SID"
     },
     "MTB": {
         "earningsDate": [
@@ -745,10 +733,16 @@
         ],
         "similar": "MPW"
     },
+    "OI": {
+        "earningsDate": [
+            "2024-04-23",
+            "2024-04-29"
+        ],
+        "similar": "SEE"
+    },
     "OLLI": {
         "earningsDate": [
-            "2024-03-20",
-            "2024-03-25"
+            "2024-03-20"
         ],
         "similar": "TGT"
     },
@@ -811,13 +805,6 @@
         ],
         "similar": "TGT"
     },
-    "PTVE": {
-        "earningsDate": [
-            "2024-05-06",
-            "2024-05-10"
-        ],
-        "similar": "SEE"
-    },
     "PVH": {
         "earningsDate": [
             "2024-03-25",
@@ -865,12 +852,6 @@
             "2024-04-29"
         ],
         "similar": "DIS"
-    },
-    "RY": {
-        "earningsDate": [
-            "2024-05-30"
-        ],
-        "similar": "BAC"
     },
     "RY.TO": {
         "earningsDate": [
