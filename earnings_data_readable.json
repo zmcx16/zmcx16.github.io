@@ -150,8 +150,8 @@
     },
     "CC": {
         "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
+            "2024-03-11",
+            "2024-03-13"
         ],
         "similar": "ALB"
     },
@@ -167,13 +167,6 @@
             "2024-04-17"
         ],
         "similar": "CMA"
-    },
-    "CHD": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "EL"
     },
     "CHPT": {
         "earningsDate": [
@@ -262,6 +255,13 @@
             "2024-06-10"
         ],
         "similar": "GIS"
+    },
+    "CUBE": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "ILPT"
     },
     "DAC": {
         "earningsDate": [
@@ -483,6 +483,13 @@
         ],
         "similar": "VFC"
     },
+    "HNST": {
+        "earningsDate": [
+            "2024-05-07",
+            "2024-05-13"
+        ],
+        "similar": "EL"
+    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -583,13 +590,6 @@
             "2024-04-29"
         ],
         "similar": "MPW"
-    },
-    "LU": {
-        "earningsDate": [
-            "2024-03-11",
-            "2024-03-15"
-        ],
-        "similar": "PYPL"
     },
     "LXP": {
         "earningsDate": [
@@ -698,13 +698,6 @@
             "2024-05-27"
         ],
         "similar": "DAC"
-    },
-    "NSA": {
-        "earningsDate": [
-            "2024-04-29",
-            "2024-05-03"
-        ],
-        "similar": "ILPT"
     },
     "OHI": {
         "earningsDate": [
@@ -1042,6 +1035,13 @@
             "2024-03-13"
         ],
         "similar": "AAP"
+    },
+    "WU": {
+        "earningsDate": [
+            "2024-04-30",
+            "2024-05-06"
+        ],
+        "similar": "PYPL"
     },
     "ZIM": {
         "earningsDate": [
