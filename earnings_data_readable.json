@@ -766,6 +766,12 @@
         ],
         "similar": "ILPT"
     },
+    "PNC": {
+        "earningsDate": [
+            "2024-04-16"
+        ],
+        "similar": "CMA"
+    },
     "PVH": {
         "earningsDate": [
             "2024-03-25",
@@ -915,12 +921,6 @@
         ],
         "similar": "BAC"
     },
-    "TFC": {
-        "earningsDate": [
-            "2024-04-18"
-        ],
-        "similar": "ZION"
-    },
     "TGT": {
         "earningsDate": [
             "2024-05-15",
@@ -995,7 +995,7 @@
             "2024-04-25",
             "2024-04-29"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "VTR": {
         "earningsDate": [
