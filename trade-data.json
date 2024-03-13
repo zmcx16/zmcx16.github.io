@@ -170,6 +170,12 @@
          "strike":37
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":71
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2024-03-15",
@@ -222,6 +228,12 @@
          "type":"put",
          "expiry":"2024-04-05",
          "strike":31
+      },
+      {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":22.5
       },
       {
          "symbol":"LNTH",
