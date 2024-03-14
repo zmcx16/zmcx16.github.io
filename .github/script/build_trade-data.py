@@ -73,7 +73,7 @@ if __name__ == "__main__":
     SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
     FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
-    FORMULA2_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/calc-formula2"
+    FORMULA2_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/calc-formula2" # prevent cloudflare 524 timeout
 
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
 
