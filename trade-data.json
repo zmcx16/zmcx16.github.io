@@ -164,6 +164,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":280
+      },
+      {
          "symbol":"BAC",
          "type":"call",
          "expiry":"2024-03-28",
@@ -188,10 +194,22 @@
          "strike":345
       },
       {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":355
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2024-03-15",
          "strike":123
+      },
+      {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2024-03-22",
+         "strike":139
       },
       {
          "symbol":"EPAM",
@@ -204,6 +222,12 @@
          "type":"put",
          "expiry":"2024-03-15",
          "strike":140
+      },
+      {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":130
       },
       {
          "symbol":"FTNT",
