@@ -308,6 +308,12 @@
          "strike":180
       },
       {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":11
+      },
+      {
          "symbol":"VFC",
          "type":"put",
          "expiry":"2024-03-22",
