@@ -18,7 +18,7 @@ afscreener_token = os.environ.get("AF_TOKEN", "")
 
 def send_request(url):
     try:
-        res = requests.get(url)
+        res = requests.get(url, verify=False)
         res.raise_for_status()
     except Exception as ex:
         print('Generated an exception: {ex}'.format(ex=ex))
@@ -30,7 +30,7 @@ def send_request(url):
 def send_post_json(url, req_data):
     try:
         headers = {'content-type': 'application/json'}
-        res = requests.post(url, req_data, headers=headers)
+        res = requests.post(url, req_data, headers=headers, verify=False)
         res.raise_for_status()
     except Exception as ex:
         print('Generated an exception: {ex}'.format(ex=ex))
