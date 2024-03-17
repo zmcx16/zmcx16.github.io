@@ -241,6 +241,13 @@
         ],
         "similar": "GIS"
     },
+    "CUBE": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "ILPT"
+    },
     "DAC": {
         "earningsDate": [
             "2024-05-13",
@@ -350,13 +357,6 @@
             "2024-05-27"
         ],
         "similar": "EL"
-    },
-    "EMN": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "ALB"
     },
     "ESEA": {
         "earningsDate": [
@@ -586,18 +586,19 @@
         ],
         "similar": "MPW"
     },
-    "LW": {
-        "earningsDate": [
-            "2024-04-04"
-        ],
-        "similar": "GIS"
-    },
     "LXP": {
         "earningsDate": [
             "2024-05-01",
             "2024-05-06"
         ],
         "similar": "ILPT"
+    },
+    "LYB": {
+        "earningsDate": [
+            "2024-04-26",
+            "2024-04-30"
+        ],
+        "similar": "ALB"
     },
     "LYV": {
         "earningsDate": [
@@ -698,13 +699,6 @@
         ],
         "similar": "DAC"
     },
-    "NSA": {
-        "earningsDate": [
-            "2024-04-29",
-            "2024-05-03"
-        ],
-        "similar": "ILPT"
-    },
     "NWH-UN.TO": {
         "earningsDate": [
             "2024-05-10",
@@ -776,7 +770,7 @@
         "earningsDate": [
             "2024-04-16"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "PSMT": {
         "earningsDate": [
@@ -935,13 +929,6 @@
         ],
         "similar": "KSS"
     },
-    "SPHR": {
-        "earningsDate": [
-            "2024-05-08",
-            "2024-05-13"
-        ],
-        "similar": "DIS"
-    },
     "TD": {
         "earningsDate": [
             "2024-05-23"
@@ -958,7 +945,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
