@@ -164,6 +164,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AAP",
+         "type":"call",
+         "expiry":"2024-03-28",
+         "strike":94
+      },
+      {
          "symbol":"ALGN",
          "type":"put",
          "expiry":"2024-03-22",
