@@ -67,13 +67,6 @@
         ],
         "similar": "-"
     },
-    "BALL": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "SEE"
-    },
     "BBOX.L": {
         "earningsDate": [
             "2024-03-01"
@@ -93,13 +86,6 @@
             "2024-05-06"
         ],
         "similar": "SEE"
-    },
-    "BGS": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "GIS"
     },
     "BIG": {
         "earningsDate": [
@@ -240,13 +226,6 @@
             "2024-06-10"
         ],
         "similar": "GIS"
-    },
-    "CUBE": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "ILPT"
     },
     "DAC": {
         "earningsDate": [
@@ -538,6 +517,13 @@
         ],
         "similar": "GIS"
     },
+    "KEX": {
+        "earningsDate": [
+            "2024-04-25",
+            "2024-04-29"
+        ],
+        "similar": "DAC"
+    },
     "KEY": {
         "earningsDate": [
             "2024-04-18"
@@ -585,6 +571,12 @@
             "2024-04-29"
         ],
         "similar": "MPW"
+    },
+    "LW": {
+        "earningsDate": [
+            "2024-04-04"
+        ],
+        "similar": "GIS"
     },
     "LXP": {
         "earningsDate": [
@@ -778,10 +770,16 @@
         ],
         "similar": "TGT"
     },
+    "PTVE": {
+        "earningsDate": [
+            "2024-05-06",
+            "2024-05-10"
+        ],
+        "similar": "SEE"
+    },
     "PVH": {
         "earningsDate": [
-            "2024-03-25",
-            "2024-03-29"
+            "2024-04-01"
         ],
         "similar": "VFC"
     },
@@ -851,7 +849,7 @@
             "2024-05-14",
             "2024-05-20"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
