@@ -812,7 +812,7 @@ function buildWatchTable(data) {
       output +=
         '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
         '  <td class="td-symbol">' + symbol + '</td>' +
-        '  <td class="td-price link" style="text-decoration: underline; color: #0000FF;" onclick="window.open(\'https://hk.finance.yahoo.com/quote/' + symbol + '\',\'_blank\',\'noopener\');window.event.cancelBubble = true;">' + stock_info[symbol]["Close"] + '</td>' +
+        '  <td class="td-price link" style="text-decoration: underline; color: #0000FF;" onclick="window.open(\'https://hk.finance.yahoo.com/quote/' + symbol + '\',\'_blank\',\'noopener\');window.event.cancelBubble = true;">' + stock_info[symbol]["Close"].toFixed(2) + '</td>' +
         '  <td class="th-52w">' + stock_info[symbol]["52W Range"] + '</td>' +
         '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
         '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
