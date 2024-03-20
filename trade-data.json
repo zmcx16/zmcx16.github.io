@@ -200,10 +200,22 @@
          "strike":355
       },
       {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2024-04-05",
+         "strike":123
+      },
+      {
          "symbol":"EL",
          "type":"put",
          "expiry":"2024-03-22",
          "strike":139
+      },
+      {
+         "symbol":"EL",
+         "type":"call",
+         "expiry":"2024-03-28",
+         "strike":157.5
       },
       {
          "symbol":"FSLR",
@@ -248,6 +260,12 @@
          "strike":140
       },
       {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2024-03-28",
+         "strike":69
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2024-03-22",
@@ -276,6 +294,12 @@
          "type":"put",
          "expiry":"2024-03-22",
          "strike":12
+      },
+      {
+         "symbol":"ZION",
+         "type":"call",
+         "expiry":"2024-03-28",
+         "strike":43
       },
       {
          "symbol":"ZION",
