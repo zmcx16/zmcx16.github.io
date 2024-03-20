@@ -305,8 +305,7 @@
     },
     "ECL": {
         "earningsDate": [
-            "2024-04-30",
-            "2024-05-06"
+            "2024-04-30"
         ],
         "similar": "ALB"
     },
@@ -369,6 +368,13 @@
             "2024-04-22"
         ],
         "similar": "ILPT"
+    },
+    "GASS": {
+        "earningsDate": [
+            "2024-05-22",
+            "2024-05-27"
+        ],
+        "similar": "DAC"
     },
     "GEF": {
         "earningsDate": [
@@ -516,13 +522,6 @@
             "2024-05-02"
         ],
         "similar": "GIS"
-    },
-    "KEX": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "DAC"
     },
     "KEY": {
         "earningsDate": [
@@ -758,12 +757,6 @@
         ],
         "similar": "ILPT"
     },
-    "PNC": {
-        "earningsDate": [
-            "2024-04-16"
-        ],
-        "similar": "CMA"
-    },
     "PSMT": {
         "earningsDate": [
             "2024-04-09"
@@ -943,7 +936,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
