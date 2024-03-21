@@ -213,6 +213,12 @@
       },
       {
          "symbol":"EL",
+         "type":"put",
+         "expiry":"2024-03-28",
+         "strike":133
+      },
+      {
+         "symbol":"EL",
          "type":"call",
          "expiry":"2024-03-28",
          "strike":157.5
