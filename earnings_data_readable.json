@@ -40,6 +40,13 @@
         ],
         "similar": "ALB"
     },
+    "ASO": {
+        "earningsDate": [
+            "2024-06-04",
+            "2024-06-10"
+        ],
+        "similar": "AAP"
+    },
     "AVY": {
         "earningsDate": [
             "2024-04-24",
@@ -446,6 +453,13 @@
         ],
         "similar": "SEE"
     },
+    "GSY.TO": {
+        "earningsDate": [
+            "2024-05-07",
+            "2024-05-13"
+        ],
+        "similar": "PYPL"
+    },
     "HBAN": {
         "earningsDate": [
             "2024-04-18",
@@ -547,13 +561,6 @@
         ],
         "similar": "VFC"
     },
-    "LC": {
-        "earningsDate": [
-            "2024-04-24",
-            "2024-04-29"
-        ],
-        "similar": "PYPL"
-    },
     "LEVI": {
         "earningsDate": [
             "2024-04-03"
@@ -624,7 +631,8 @@
     },
     "MANU": {
         "earningsDate": [
-            "2024-03-12"
+            "2024-06-25",
+            "2024-07-01"
         ],
         "similar": "DIS"
     },
@@ -861,8 +869,8 @@
     },
     "SELF": {
         "earningsDate": [
-            "2024-03-25",
-            "2024-03-29"
+            "2024-05-07",
+            "2024-05-13"
         ],
         "similar": "ILPT"
     },
@@ -952,13 +960,6 @@
             "2024-05-06"
         ],
         "similar": "ILPT"
-    },
-    "TSCO": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "AAP"
     },
     "TX": {
         "earningsDate": [
