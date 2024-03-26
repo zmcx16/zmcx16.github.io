@@ -218,6 +218,18 @@
          "strike":130
       },
       {
+         "symbol":"FTNT",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":60
+      },
+      {
+         "symbol":"G",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":30
+      },
+      {
          "symbol":"GLOB",
          "type":"put",
          "expiry":"2024-04-19",
@@ -252,6 +264,18 @@
          "type":"call",
          "expiry":"2024-03-28",
          "strike":69
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":86
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2024-04-05",
+         "strike":145
       },
       {
          "symbol":"VALE",
