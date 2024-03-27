@@ -243,6 +243,12 @@
       },
       {
          "symbol":"KSS",
+         "type":"pull",
+         "expiry":"2024-04-12",
+         "strike":23
+      },
+      {
+         "symbol":"KSS",
          "type":"call",
          "expiry":"2024-04-19",
          "strike":30
