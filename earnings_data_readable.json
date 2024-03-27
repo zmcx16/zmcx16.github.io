@@ -107,6 +107,12 @@
         ],
         "similar": "TGT"
     },
+    "BMO": {
+        "earningsDate": [
+            "2024-05-29"
+        ],
+        "similar": "BAC"
+    },
     "BMO.TO": {
         "earningsDate": [
             "2024-05-29"
@@ -211,13 +217,6 @@
         ],
         "similar": "ILPT"
     },
-    "COLM": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "VFC"
-    },
     "COST": {
         "earningsDate": [
             "2024-05-30"
@@ -237,6 +236,13 @@
             "2024-06-10"
         ],
         "similar": "GIS"
+    },
+    "CPLP": {
+        "earningsDate": [
+            "2024-05-03",
+            "2024-05-07"
+        ],
+        "similar": "DAC"
     },
     "DAC": {
         "earningsDate": [
@@ -361,6 +367,12 @@
         ],
         "similar": "CMA"
     },
+    "FIGS": {
+        "earningsDate": [
+            "2024-02-28"
+        ],
+        "similar": "VFC"
+    },
     "FITB": {
         "earningsDate": [
             "2024-04-19"
@@ -409,7 +421,8 @@
     },
     "GIS": {
         "earningsDate": [
-            "2024-03-20"
+            "2024-06-26",
+            "2024-07-01"
         ],
         "similar": "-"
     },
@@ -431,7 +444,7 @@
         "earningsDate": [
             "2024-05-31"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "GOOS": {
         "earningsDate": [
@@ -762,16 +775,9 @@
         ],
         "similar": "ILPT"
     },
-    "PNC": {
-        "earningsDate": [
-            "2024-04-16"
-        ],
-        "similar": "CMA"
-    },
     "PPG": {
         "earningsDate": [
-            "2024-04-18",
-            "2024-04-22"
+            "2024-04-18"
         ],
         "similar": "ALB"
     },
@@ -938,7 +944,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "ZION"
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
