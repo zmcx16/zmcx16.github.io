@@ -107,12 +107,6 @@
         ],
         "similar": "TGT"
     },
-    "BMO": {
-        "earningsDate": [
-            "2024-05-29"
-        ],
-        "similar": "BAC"
-    },
     "BMO.TO": {
         "earningsDate": [
             "2024-05-29"
@@ -144,6 +138,12 @@
             "2024-04-04"
         ],
         "similar": "GIS"
+    },
+    "CC": {
+        "earningsDate": [
+            "2024-03-28"
+        ],
+        "similar": "ALB"
     },
     "CCK": {
         "earningsDate": [
@@ -318,7 +318,7 @@
             "2024-05-24",
             "2024-05-28"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "ECL": {
         "earningsDate": [
@@ -362,8 +362,7 @@
     },
     "FHN": {
         "earningsDate": [
-            "2024-04-16",
-            "2024-04-22"
+            "2024-04-17"
         ],
         "similar": "CMA"
     },
@@ -444,7 +443,7 @@
         "earningsDate": [
             "2024-05-31"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "GOOS": {
         "earningsDate": [
@@ -506,13 +505,6 @@
             "2024-06-03"
         ],
         "similar": "GIS"
-    },
-    "IFF": {
-        "earningsDate": [
-            "2024-05-06",
-            "2024-05-10"
-        ],
-        "similar": "ALB"
     },
     "ILPT": {
         "earningsDate": [
@@ -658,7 +650,8 @@
     },
     "MKC": {
         "earningsDate": [
-            "2024-03-26"
+            "2024-06-27",
+            "2024-07-01"
         ],
         "similar": "GIS"
     },
@@ -680,13 +673,6 @@
             "2024-04-15"
         ],
         "similar": "CMA"
-    },
-    "NAT": {
-        "earningsDate": [
-            "2024-05-20",
-            "2024-05-24"
-        ],
-        "similar": "ZIM"
     },
     "NFLX": {
         "earningsDate": [
@@ -775,6 +761,12 @@
         ],
         "similar": "ILPT"
     },
+    "PNC": {
+        "earningsDate": [
+            "2024-04-16"
+        ],
+        "similar": "CMA"
+    },
     "PPG": {
         "earningsDate": [
             "2024-04-18"
@@ -821,7 +813,8 @@
     },
     "RH": {
         "earningsDate": [
-            "2024-03-27"
+            "2024-05-23",
+            "2024-05-27"
         ],
         "similar": "AAP"
     },
@@ -944,7 +937,7 @@
         "earningsDate": [
             "2024-04-18"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
