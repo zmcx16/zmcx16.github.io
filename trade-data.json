@@ -11,7 +11,6 @@
       "AAP",
       "DIS",
       "PYPL",
-      "BAC",
       "CMA",
       "ZION",
       "DAC",
@@ -164,12 +163,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
-         "type":"call",
-         "expiry":"2024-03-28",
-         "strike":94
-      },
-      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-04-19",
@@ -182,34 +175,10 @@
          "strike":70
       },
       {
-         "symbol":"BAC",
-         "type":"call",
-         "expiry":"2024-03-28",
-         "strike":37
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2024-03-28",
-         "strike":72
-      },
-      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2024-04-05",
          "strike":123
-      },
-      {
-         "symbol":"EL",
-         "type":"put",
-         "expiry":"2024-03-28",
-         "strike":133
-      },
-      {
-         "symbol":"EL",
-         "type":"call",
-         "expiry":"2024-03-28",
-         "strike":157.5
       },
       {
          "symbol":"FSLR",
@@ -266,12 +235,6 @@
          "strike":140
       },
       {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2024-03-28",
-         "strike":69
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2024-04-12",
@@ -288,12 +251,6 @@
          "type":"put",
          "expiry":"2024-04-19",
          "strike":11
-      },
-      {
-         "symbol":"ZION",
-         "type":"call",
-         "expiry":"2024-03-28",
-         "strike":43
       },
       {
          "symbol":"ZION",
@@ -897,94 +854,87 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":15.502757742893507,
+         "position_%":17.61041450363389,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position":400,
-         "position_%":8.410206679192678,
-         "profit":0,
-         "profit_%":0
-      },
-      "BAC":{
-         "cost_p":29.82,
-         "position_%":9.398387781077641,
+         "position_%":9.553605115819217,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.35,
-         "position_%":3.0232135280926116,
+         "position_%":3.4342304927721425,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":5.326868295048185,
+         "position_%":6.0510755723487994,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.37,
-         "position_%":6.500030304866962,
+         "position_%":7.3837332591590945,
          "profit_%":0
       },
       "EL":{
          "cost_p":147.5,
-         "position_%":3.5759743014728165,
+         "position_%":4.062141120159511,
          "profit_%":0
       },
       "GIS":{
          "cost_p":65.58,
-         "position_%":3.1798290805503364,
+         "position_%":3.6121385038652303,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":4.179647251348566,
+         "position_%":4.747885621122032,
          "profit_%":0
       },
       "KSS":{
          "cost_p":20.91,
-         "position_%":3.041638887205285,
+         "position_%":3.455160847018388,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":5.243954179041154,
+         "position_%":5.956888978240694,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.970483059579369,
+         "position_%":5.646238457322732,
          "profit_%":0
       },
       "SEE":{
          "cost_p":36.28,
-         "position_%":3.078489605430632,
+         "position_%":3.4970215555108797,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.852354688162919,
+         "position_%":4.376096433853196,
          "profit_%":0
       },
       "TGT":{
          "cost_p":117.78,
-         "position_%":2.8554457845930057,
+         "position_%":3.243654109372117,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":3.4183889932723193,
+         "position_%":3.8831315114745157,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":11.358506576156131,
+         "position_%":12.902737194616492,
          "profit_%":0
       },
       "ZION":{
          "cost_p":42.4,
-         "position_%":3.0838232620158794,
+         "position_%":0.5838467237110619,
          "profit_%":0
       }
    }
