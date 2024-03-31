@@ -383,13 +383,6 @@
         ],
         "similar": "ILPT"
     },
-    "GASS": {
-        "earningsDate": [
-            "2024-05-22",
-            "2024-05-27"
-        ],
-        "similar": "DAC"
-    },
     "GEF": {
         "earningsDate": [
             "2024-06-05",
@@ -684,13 +677,6 @@
         ],
         "similar": "DIS"
     },
-    "NHI": {
-        "earningsDate": [
-            "2024-05-07",
-            "2024-05-13"
-        ],
-        "similar": "MPW"
-    },
     "NMM": {
         "earningsDate": [
             "2024-05-21",
@@ -764,12 +750,6 @@
             "2024-05-06"
         ],
         "similar": "ILPT"
-    },
-    "PNC": {
-        "earningsDate": [
-            "2024-04-16"
-        ],
-        "similar": "CMA"
     },
     "PSMT": {
         "earningsDate": [
@@ -848,7 +828,7 @@
             "2024-05-14",
             "2024-05-20"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "SBRA": {
         "earningsDate": [
@@ -979,6 +959,13 @@
         ],
         "similar": "VFC"
     },
+    "UHT": {
+        "earningsDate": [
+            "2024-04-23",
+            "2024-04-29"
+        ],
+        "similar": "MPW"
+    },
     "ULTA": {
         "earningsDate": [
             "2024-05-30"
@@ -991,6 +978,12 @@
             "2024-05-13"
         ],
         "similar": "PYPL"
+    },
+    "USB": {
+        "earningsDate": [
+            "2024-04-17"
+        ],
+        "similar": "CMA"
     },
     "USIM5.SA": {
         "earningsDate": [
