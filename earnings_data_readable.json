@@ -59,12 +59,6 @@
         ],
         "similar": "AAP"
     },
-    "BAC": {
-        "earningsDate": [
-            "2024-04-16"
-        ],
-        "similar": "-"
-    },
     "BBOX.L": {
         "earningsDate": [
             "2024-03-01"
@@ -98,25 +92,6 @@
             "2024-05-27"
         ],
         "similar": "TGT"
-    },
-    "BMO.TO": {
-        "earningsDate": [
-            "2024-05-29"
-        ],
-        "similar": "BAC"
-    },
-    "BNS.TO": {
-        "earningsDate": [
-            "2024-05-22",
-            "2024-05-27"
-        ],
-        "similar": "BAC"
-    },
-    "C": {
-        "earningsDate": [
-            "2024-04-12"
-        ],
-        "similar": "BAC"
     },
     "CAG": {
         "earningsDate": [
@@ -163,12 +138,6 @@
             "2024-05-06"
         ],
         "similar": "EL"
-    },
-    "CM.TO": {
-        "earningsDate": [
-            "2024-05-30"
-        ],
-        "similar": "BAC"
     },
     "CMA": {
         "earningsDate": [
@@ -383,6 +352,13 @@
         ],
         "similar": "ILPT"
     },
+    "GASS": {
+        "earningsDate": [
+            "2024-05-22",
+            "2024-05-27"
+        ],
+        "similar": "DAC"
+    },
     "GEF": {
         "earningsDate": [
             "2024-06-05",
@@ -517,12 +493,6 @@
             "2024-05-20"
         ],
         "similar": "DIS"
-    },
-    "JPM": {
-        "earningsDate": [
-            "2024-04-12"
-        ],
-        "similar": "BAC"
     },
     "JWN": {
         "earningsDate": [
@@ -810,12 +780,6 @@
         ],
         "similar": "DIS"
     },
-    "RY.TO": {
-        "earningsDate": [
-            "2024-05-30"
-        ],
-        "similar": "BAC"
-    },
     "SB": {
         "earningsDate": [
             "2024-05-08",
@@ -828,7 +792,7 @@
             "2024-05-14",
             "2024-05-20"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -898,18 +862,6 @@
             "2024-05-22"
         ],
         "similar": "KSS"
-    },
-    "TD": {
-        "earningsDate": [
-            "2024-05-23"
-        ],
-        "similar": "BAC"
-    },
-    "TD.TO": {
-        "earningsDate": [
-            "2024-05-23"
-        ],
-        "similar": "BAC"
     },
     "TFC": {
         "earningsDate": [
@@ -1026,12 +978,6 @@
             "2024-05-07"
         ],
         "similar": "DIS"
-    },
-    "WFC": {
-        "earningsDate": [
-            "2024-04-12"
-        ],
-        "similar": "BAC"
     },
     "WMT": {
         "earningsDate": [
