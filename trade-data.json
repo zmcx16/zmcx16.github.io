@@ -168,6 +168,12 @@
          "strike":95
       },
       {
+         "symbol":"ANSS",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":320
+      },
+      {
          "symbol":"APTV",
          "type":"put",
          "expiry":"2024-04-19",
@@ -180,10 +186,28 @@
          "strike":73
       },
       {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":141
+      },
+      {
          "symbol":"DIS",
          "type":"call",
          "expiry":"2024-04-05",
          "strike":123
+      },
+      {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":139
+      },
+      {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":250
       },
       {
          "symbol":"FSLR",
@@ -202,6 +226,12 @@
          "type":"put",
          "expiry":"2024-04-19",
          "strike":30
+      },
+      {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":67
       },
       {
          "symbol":"GLOB",
@@ -234,6 +264,12 @@
          "strike":17
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-04-12",
+         "strike":85
+      },
+      {
          "symbol":"PODD",
          "type":"put",
          "expiry":"2024-04-19",
@@ -256,6 +292,12 @@
          "type":"put",
          "expiry":"2024-04-19",
          "strike":11
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2024-05-03",
+         "strike":11.5
       },
       {
          "symbol":"ZION",
