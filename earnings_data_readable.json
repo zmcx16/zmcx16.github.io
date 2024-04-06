@@ -8,8 +8,7 @@
     },
     "ALB": {
         "earningsDate": [
-            "2024-05-01",
-            "2024-05-06"
+            "2024-05-01"
         ],
         "similar": "-"
     },
@@ -111,13 +110,6 @@
         ],
         "similar": "CMA"
     },
-    "CGX.TO": {
-        "earningsDate": [
-            "2024-05-10",
-            "2024-05-14"
-        ],
-        "similar": "DIS"
-    },
     "CL": {
         "earningsDate": [
             "2024-04-26"
@@ -159,8 +151,7 @@
     },
     "COLD": {
         "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
+            "2024-05-09"
         ],
         "similar": "ILPT"
     },
@@ -190,6 +181,13 @@
             "2024-06-10"
         ],
         "similar": "GIS"
+    },
+    "CPLP": {
+        "earningsDate": [
+            "2024-05-03",
+            "2024-05-07"
+        ],
+        "similar": "DAC"
     },
     "DAC": {
         "earningsDate": [
@@ -265,7 +263,7 @@
             "2024-05-24",
             "2024-05-28"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "ECL": {
         "earningsDate": [
@@ -530,6 +528,12 @@
         ],
         "similar": "PYPL"
     },
+    "LW": {
+        "earningsDate": [
+            "2024-04-04"
+        ],
+        "similar": "GIS"
+    },
     "LXP": {
         "earningsDate": [
             "2024-05-01",
@@ -693,13 +697,6 @@
             "2024-04-16"
         ],
         "similar": "CMA"
-    },
-    "POST": {
-        "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
-        ],
-        "similar": "GIS"
     },
     "PSMT": {
         "earningsDate": [
