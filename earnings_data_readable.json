@@ -182,13 +182,6 @@
         ],
         "similar": "GIS"
     },
-    "CPLP": {
-        "earningsDate": [
-            "2024-05-03",
-            "2024-05-07"
-        ],
-        "similar": "DAC"
-    },
     "DAC": {
         "earningsDate": [
             "2024-05-13",
@@ -237,6 +230,13 @@
         ],
         "similar": "AAP"
     },
+    "DLMAF": {
+        "earningsDate": [
+            "2024-06-05",
+            "2024-06-10"
+        ],
+        "similar": "TGT"
+    },
     "DLTR": {
         "earningsDate": [
             "2024-05-23",
@@ -263,7 +263,7 @@
             "2024-05-24",
             "2024-05-28"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "ECL": {
         "earningsDate": [
@@ -310,12 +310,6 @@
             "2024-05-20"
         ],
         "similar": "DAC"
-    },
-    "FHN": {
-        "earningsDate": [
-            "2024-04-17"
-        ],
-        "similar": "CMA"
     },
     "FIGS": {
         "earningsDate": [
@@ -698,19 +692,6 @@
         ],
         "similar": "CMA"
     },
-    "PSMT": {
-        "earningsDate": [
-            "2024-04-09"
-        ],
-        "similar": "TGT"
-    },
-    "PTVE": {
-        "earningsDate": [
-            "2024-05-06",
-            "2024-05-10"
-        ],
-        "similar": "SEE"
-    },
     "PVH": {
         "earningsDate": [
             "2024-05-29",
@@ -729,6 +710,13 @@
             "2024-04-17"
         ],
         "similar": "ILPT"
+    },
+    "REYN": {
+        "earningsDate": [
+            "2024-05-08",
+            "2024-05-13"
+        ],
+        "similar": "SEE"
     },
     "RF": {
         "earningsDate": [
@@ -836,6 +824,12 @@
             "2024-05-22"
         ],
         "similar": "KSS"
+    },
+    "TFC": {
+        "earningsDate": [
+            "2024-04-22"
+        ],
+        "similar": "CMA"
     },
     "TGT": {
         "earningsDate": [
@@ -968,6 +962,6 @@
         "earningsDate": [
             "2024-04-22"
         ],
-        "similar": "CMA"
+        "similar": "-"
     }
 }
