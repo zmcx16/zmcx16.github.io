@@ -15,7 +15,8 @@
       "DAC",
       "ZIM",
       "SID",
-      "ALB"
+      "ALB",
+      "ZION"
    ],
    "watch_stock_list":[
       "ABM",
@@ -192,12 +193,6 @@
          "strike":141
       },
       {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2024-04-05",
-         "strike":123
-      },
-      {
          "symbol":"EL",
          "type":"put",
          "expiry":"2024-04-12",
@@ -240,12 +235,6 @@
          "strike":185
       },
       {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2024-04-05",
-         "strike":31
-      },
-      {
          "symbol":"KSS",
          "type":"pull",
          "expiry":"2024-04-12",
@@ -276,16 +265,22 @@
          "strike":140
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2024-05-03",
+         "strike":53
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2024-04-12",
          "strike":86
       },
       {
-         "symbol":"UPS",
+         "symbol":"SEE",
          "type":"put",
-         "expiry":"2024-04-05",
-         "strike":145
+         "expiry":"2024-04-19",
+         "strike":30
       },
       {
          "symbol":"VALE",
@@ -901,82 +896,87 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":17.713836155672332,
+         "position_%":17.608147468407147,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":9.60971109923017,
+         "position_%":9.552375254969803,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.35,
-         "position_%":3.4543988875007274,
+         "position_%":3.43378839519958,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":6.086612057431113,
+         "position_%":6.050296601389348,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.37,
-         "position_%":7.427096116502165,
+         "position_%":7.3827827316516395,
          "profit_%":0
       },
       "EL":{
          "cost_p":147.5,
-         "position_%":4.085997080243442,
+         "position_%":4.061618189991485,
          "profit_%":0
       },
       "GIS":{
          "cost_p":65.58,
-         "position_%":3.63335170877783,
+         "position_%":3.6116735037239533,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":4.775768790738776,
+         "position_%":4.747274413251064,
          "profit_%":0
       },
       "KSS":{
          "cost_p":20.91,
-         "position_%":3.475452160592151,
+         "position_%":3.454716055025977,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":5.9918723285197055,
+         "position_%":5.956122132170563,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":5.679397433162784,
+         "position_%":5.645511602115621,
          "profit_%":0
       },
       "SEE":{
          "cost_p":36.28,
-         "position_%":3.5175587067749987,
+         "position_%":3.496571374678771,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":4.4017961766148,
+         "position_%":4.375533087387437,
          "profit_%":0
       },
       "TGT":{
          "cost_p":117.78,
-         "position_%":3.262703295668289,
+         "position_%":3.2432365452013356,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":3.905936191961528,
+         "position_%":3.882631625686775,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":12.978511810609186,
+         "position_%":12.901076191138374,
+         "profit_%":0
+      },
+      "ZION":{
+         "cost_p":43.335,
+         "position_%":0.596644828011122,
          "profit_%":0
       }
    }
