@@ -236,7 +236,7 @@
       },
       {
          "symbol":"KSS",
-         "type":"pull",
+         "type":"put",
          "expiry":"2024-04-12",
          "strike":23
       },
