@@ -230,13 +230,6 @@
         ],
         "similar": "AAP"
     },
-    "DLMAF": {
-        "earningsDate": [
-            "2024-06-05",
-            "2024-06-10"
-        ],
-        "similar": "TGT"
-    },
     "DLTR": {
         "earningsDate": [
             "2024-05-23",
@@ -394,6 +387,13 @@
             "2024-04-30"
         ],
         "similar": "SEE"
+    },
+    "GRIN": {
+        "earningsDate": [
+            "2024-05-15",
+            "2024-05-20"
+        ],
+        "similar": "ZIM"
     },
     "GSY.TO": {
         "earningsDate": [
@@ -608,6 +608,13 @@
         ],
         "similar": "DIS"
     },
+    "NHI": {
+        "earningsDate": [
+            "2024-05-07",
+            "2024-05-13"
+        ],
+        "similar": "MPW"
+    },
     "NMM": {
         "earningsDate": [
             "2024-05-21",
@@ -692,6 +699,19 @@
         ],
         "similar": "CMA"
     },
+    "PSMT": {
+        "earningsDate": [
+            "2024-04-09"
+        ],
+        "similar": "TGT"
+    },
+    "PTVE": {
+        "earningsDate": [
+            "2024-05-06",
+            "2024-05-10"
+        ],
+        "similar": "SEE"
+    },
     "PVH": {
         "earningsDate": [
             "2024-05-29",
@@ -710,13 +730,6 @@
             "2024-04-17"
         ],
         "similar": "ILPT"
-    },
-    "REYN": {
-        "earningsDate": [
-            "2024-05-08",
-            "2024-05-13"
-        ],
-        "similar": "SEE"
     },
     "RF": {
         "earningsDate": [
@@ -829,7 +842,7 @@
         "earningsDate": [
             "2024-04-22"
         ],
-        "similar": "CMA"
+        "similar": "ZION"
     },
     "TGT": {
         "earningsDate": [
@@ -872,13 +885,6 @@
         ],
         "similar": "VFC"
     },
-    "UHT": {
-        "earningsDate": [
-            "2024-04-23",
-            "2024-04-29"
-        ],
-        "similar": "MPW"
-    },
     "ULTA": {
         "earningsDate": [
             "2024-05-30"
@@ -891,6 +897,12 @@
             "2024-05-13"
         ],
         "similar": "PYPL"
+    },
+    "USB": {
+        "earningsDate": [
+            "2024-04-17"
+        ],
+        "similar": "CMA"
     },
     "USIM5.SA": {
         "earningsDate": [
