@@ -304,6 +304,12 @@
         ],
         "similar": "DAC"
     },
+    "FHN": {
+        "earningsDate": [
+            "2024-04-17"
+        ],
+        "similar": "CMA"
+    },
     "FIGS": {
         "earningsDate": [
             "2024-02-28"
@@ -422,12 +428,6 @@
         ],
         "similar": "EL"
     },
-    "HLAG.DE": {
-        "earningsDate": [
-            "2024-05-15"
-        ],
-        "similar": "ZIM"
-    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -476,8 +476,7 @@
     },
     "KHC": {
         "earningsDate": [
-            "2024-05-01",
-            "2024-05-06"
+            "2024-05-01"
         ],
         "similar": "GIS"
     },
@@ -601,6 +600,12 @@
             "2024-04-15"
         ],
         "similar": "CMA"
+    },
+    "MUSA": {
+        "earningsDate": [
+            "2024-05-01"
+        ],
+        "similar": "AAP"
     },
     "NFLX": {
         "earningsDate": [
@@ -898,12 +903,6 @@
         ],
         "similar": "PYPL"
     },
-    "USB": {
-        "earningsDate": [
-            "2024-04-17"
-        ],
-        "similar": "CMA"
-    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-04-23"
@@ -955,13 +954,6 @@
             "2024-05-06"
         ],
         "similar": "SEE"
-    },
-    "WSM": {
-        "earningsDate": [
-            "2024-05-21",
-            "2024-05-27"
-        ],
-        "similar": "AAP"
     },
     "ZIM": {
         "earningsDate": [
