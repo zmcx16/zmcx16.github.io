@@ -155,13 +155,6 @@
         ],
         "similar": "ILPT"
     },
-    "COLM": {
-        "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
-        ],
-        "similar": "VFC"
-    },
     "COST": {
         "earningsDate": [
             "2024-05-30"
@@ -170,8 +163,7 @@
     },
     "COTY": {
         "earningsDate": [
-            "2024-05-07",
-            "2024-05-13"
+            "2024-05-06"
         ],
         "similar": "EL"
     },
@@ -216,10 +208,16 @@
         ],
         "similar": "TGT"
     },
+    "DHC": {
+        "earningsDate": [
+            "2024-05-06",
+            "2024-05-10"
+        ],
+        "similar": "MPW"
+    },
     "DIS": {
         "earningsDate": [
-            "2024-05-08",
-            "2024-05-13"
+            "2024-05-07"
         ],
         "similar": "-"
     },
@@ -428,6 +426,12 @@
         ],
         "similar": "EL"
     },
+    "HLAG.DE": {
+        "earningsDate": [
+            "2024-05-15"
+        ],
+        "similar": "ZIM"
+    },
     "HR": {
         "earningsDate": [
             "2024-05-01",
@@ -441,13 +445,6 @@
             "2024-06-03"
         ],
         "similar": "GIS"
-    },
-    "IFF": {
-        "earningsDate": [
-            "2024-05-06",
-            "2024-05-10"
-        ],
-        "similar": "ALB"
     },
     "ILPT": {
         "earningsDate": [
@@ -509,17 +506,9 @@
     },
     "LTC": {
         "earningsDate": [
-            "2024-04-25",
             "2024-04-29"
         ],
         "similar": "MPW"
-    },
-    "LU": {
-        "earningsDate": [
-            "2024-05-20",
-            "2024-05-24"
-        ],
-        "similar": "PYPL"
     },
     "LW": {
         "earningsDate": [
@@ -550,8 +539,7 @@
     },
     "MA": {
         "earningsDate": [
-            "2024-04-25",
-            "2024-04-29"
+            "2024-05-01"
         ],
         "similar": "PYPL"
     },
@@ -613,13 +601,6 @@
         ],
         "similar": "DIS"
     },
-    "NHI": {
-        "earningsDate": [
-            "2024-05-07",
-            "2024-05-13"
-        ],
-        "similar": "MPW"
-    },
     "NMM": {
         "earningsDate": [
             "2024-05-21",
@@ -654,6 +635,12 @@
         ],
         "similar": "TGT"
     },
+    "OMF": {
+        "earningsDate": [
+            "2024-04-30"
+        ],
+        "similar": "PYPL"
+    },
     "OR.PA": {
         "earningsDate": [
             "2024-02-09"
@@ -668,8 +655,7 @@
     },
     "PARA": {
         "earningsDate": [
-            "2024-05-02",
-            "2024-05-06"
+            "2024-04-29"
         ],
         "similar": "DIS"
     },
@@ -706,7 +692,7 @@
     },
     "PSMT": {
         "earningsDate": [
-            "2024-04-09"
+            "2024-04-10"
         ],
         "similar": "TGT"
     },
@@ -843,12 +829,6 @@
         ],
         "similar": "KSS"
     },
-    "TFC": {
-        "earningsDate": [
-            "2024-04-22"
-        ],
-        "similar": "ZION"
-    },
     "TGT": {
         "earningsDate": [
             "2024-05-15",
@@ -930,15 +910,13 @@
     },
     "WAL": {
         "earningsDate": [
-            "2024-04-16",
-            "2024-04-22"
+            "2024-04-18"
         ],
         "similar": "CMA"
     },
     "WBD": {
         "earningsDate": [
-            "2024-05-03",
-            "2024-05-07"
+            "2024-05-09"
         ],
         "similar": "DIS"
     },
