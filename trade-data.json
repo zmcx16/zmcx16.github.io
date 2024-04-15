@@ -170,6 +170,12 @@
          "strike":95
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":210
+      },
+      {
          "symbol":"ANSS",
          "type":"put",
          "expiry":"2024-04-19",
@@ -198,6 +204,12 @@
          "type":"put",
          "expiry":"2024-04-19",
          "strike":250
+      },
+      {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2024-04-26",
+         "strike":150
       },
       {
          "symbol":"FTNT",
