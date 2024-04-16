@@ -248,6 +248,12 @@
          "strike":17
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-04-26",
+         "strike":85
+      },
+      {
          "symbol":"PODD",
          "type":"put",
          "expiry":"2024-04-19",
