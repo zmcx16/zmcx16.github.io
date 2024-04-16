@@ -164,6 +164,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-04-19",
+         "strike":139
+      },
+      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-04-19",
