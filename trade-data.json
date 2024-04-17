@@ -201,7 +201,7 @@
       },
       {
          "symbol":"DIS",
-         "type":"put",
+         "type":"call",
          "expiry":"2024-04-19",
          "strike":124
       },
