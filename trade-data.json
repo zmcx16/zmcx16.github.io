@@ -8,10 +8,15 @@
       "TGT",
       "VFC",
       "MPW",
+      "CVS",
       "ILPT",
       "AAP",
+      "APTV",
       "DIS",
       "PYPL",
+      "ACLS",
+      "GLOB",
+      "EPAM",
       "CMA",
       "DAC",
       "ZIM",
@@ -164,100 +169,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":139
-      },
-      {
-         "symbol":"ACLS",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":95
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":210
-      },
-      {
-         "symbol":"ANSS",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":320
-      },
-      {
-         "symbol":"APTV",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":70
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":73
-      },
-      {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2024-04-19",
-         "strike":124
-      },
-      {
-         "symbol":"EPAM",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":250
-      },
-      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2024-04-26",
          "strike":150
       },
       {
-         "symbol":"FTNT",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":60
-      },
-      {
-         "symbol":"G",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":30
-      },
-      {
-         "symbol":"GLOB",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":185
-      },
-      {
-         "symbol":"KSS",
-         "type":"call",
-         "expiry":"2024-04-19",
-         "strike":30
-      },
-      {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":17
-      },
-      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2024-04-26",
          "strike":85
-      },
-      {
-         "symbol":"PODD",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":140
       },
       {
          "symbol":"PYPL",
@@ -272,28 +193,10 @@
          "strike":91
       },
       {
-         "symbol":"SEE",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":30
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2024-04-19",
-         "strike":11
-      },
-      {
          "symbol":"VFC",
          "type":"put",
          "expiry":"2024-05-03",
          "strike":11.5
-      },
-      {
-         "symbol":"ZION",
-         "type":"call",
-         "expiry":"2024-04-19",
-         "strike":47.5
       }
    ],
    "news_config":{
@@ -411,6 +314,11 @@
          "SEE":"Sealed Air Corporation",
          "EL":"The Estée Lauder Companies Inc.",
          "SBUX":"Starbucks Corporation",
+         "APTV":"Aptiv PLC",
+         "EPAM":"EPAM Systems, Inc.",
+         "ACLS":"Axcelis Technologies, Inc.",
+         "CVS":"CVS Health Corporation",
+         "GLOB":"Globant S.A.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -888,97 +796,127 @@
       "SEE":"1012100",
       "EL":"1001250",
       "SBUX":"829224",
+      "APTV":"1521332",
+      "EPAM":"1352010",
+      "ACLS":"1113232",
+      "CVS":"64803",
+      "GLOB":"1557860",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":15.245009074410163,
+         "position_%":12.962733029426893,
+         "profit_%":0
+      },
+      "ACLS":{
+         "cost_p":95,
+         "position_%":2.888716016409934,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":8.270378681543335,
+         "position_%":7.032249726965658,
+         "profit_%":0
+      },
+      "APTV":{
+         "cost_p":70,
+         "position_%":2.8380367880518653,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.35,
-         "position_%":2.9729496154178547,
+         "position_%":2.527879910500483,
+         "profit_%":0
+      },
+      "CVS":{
+         "cost_p":73,
+         "position_%":2.959666936111231,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":5.238303845225429,
+         "position_%":4.45409602193397,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.37,
-         "position_%":6.391960877222784,
+         "position_%":5.435043166032754,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.25,
-         "position_%":6.83039346284856,
+         "position_%":5.80783956983471,
+         "profit_%":0
+      },
+      "EPAM":{
+         "cost_p":250,
+         "position_%":2.533961417903451,
          "profit_%":0
       },
       "GIS":{
          "cost_p":66.29,
-         "position_%":6.321630473329579,
+         "position_%":5.3752416765702336,
+         "profit_%":0
+      },
+      "GLOB":{
+         "cost_p":185,
+         "position_%":3.750262898497107,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":4.1101564851486625,
+         "position_%":3.4948395875724394,
          "profit_%":0
       },
       "KSS":{
          "cost_p":22.03,
-         "position_%":6.827770973211865,
+         "position_%":5.805609683786955,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":5.15676825833907,
+         "position_%":4.384766837540131,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.887843866503357,
+         "position_%":4.156102159188524,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":86,
-         "position_%":3.075465119397781,
+         "position_%":2.6150481832763615,
          "profit_%":0
       },
       "SEE":{
          "cost_p":36.28,
-         "position_%":3.027306673342095,
+         "position_%":2.5740993667630416,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.7883054842814525,
+         "position_%":3.2211717544388665,
          "profit_%":0
       },
       "TGT":{
          "cost_p":117.78,
-         "position_%":2.8079711764548114,
+         "position_%":2.3875998064053476,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":3.3615548979464114,
+         "position_%":2.8583084793950926,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":11.169660178984918,
+         "position_%":9.497490111215566,
          "profit_%":0
       },
       "ZION":{
          "cost_p":43.335,
-         "position_%":0.5165708563918714,
+         "position_%":0.43923687217938423,
          "profit_%":0
       }
    }
