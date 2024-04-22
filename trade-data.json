@@ -169,10 +169,40 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-04-26",
+         "strike":139
+      },
+      {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2024-04-26",
+         "strike":200
+      },
+      {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":67.5
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2024-04-26",
          "strike":150
+      },
+      {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2024-05-17",
+         "strike":27.5
+      },
+      {
+         "symbol":"M",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":15
       },
       {
          "symbol":"NKE",
