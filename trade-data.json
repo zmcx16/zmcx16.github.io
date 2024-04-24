@@ -227,6 +227,12 @@
          "type":"put",
          "expiry":"2024-05-03",
          "strike":11.5
+      },
+      {
+         "symbol":"ZION",
+         "type":"call",
+         "expiry":"2024-05-17",
+         "strike":47.5
       }
    ],
    "news_config":{
