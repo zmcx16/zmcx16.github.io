@@ -193,6 +193,12 @@
          "strike":150
       },
       {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":35
+      },
+      {
          "symbol":"KSS",
          "type":"call",
          "expiry":"2024-05-17",
