@@ -217,10 +217,22 @@
          "strike":53
       },
       {
+         "symbol":"TX",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":40
+      },
+      {
          "symbol":"VFC",
          "type":"put",
          "expiry":"2024-05-03",
          "strike":11.5
+      },
+      {
+         "symbol":"WNC",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":20
       },
       {
          "symbol":"ZION",
