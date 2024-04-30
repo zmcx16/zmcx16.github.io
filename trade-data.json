@@ -171,14 +171,14 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2024-04-26",
-         "strike":139
+         "expiry":"2024-05-03",
+         "strike":145
       },
       {
          "symbol":"ADSK",
          "type":"put",
-         "expiry":"2024-04-26",
-         "strike":200
+         "expiry":"2024-05-03",
+         "strike":205
       },
       {
          "symbol":"BBY",
@@ -187,10 +187,10 @@
          "strike":67.5
       },
       {
-         "symbol":"FSLR",
+         "symbol":"DG",
          "type":"put",
-         "expiry":"2024-04-26",
-         "strike":150
+         "expiry":"2024-05-03",
+         "strike":132
       },
       {
          "symbol":"HAL",
@@ -211,22 +211,10 @@
          "strike":15
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-04-26",
-         "strike":85
-      },
-      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2024-05-03",
          "strike":53
-      },
-      {
-         "symbol":"SBUX",
-         "type":"call",
-         "expiry":"2024-04-26",
-         "strike":91
       },
       {
          "symbol":"VFC",
