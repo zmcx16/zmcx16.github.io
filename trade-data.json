@@ -169,18 +169,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2024-05-03",
-         "strike":145
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2024-05-03",
-         "strike":205
-      },
-      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2024-05-17",
@@ -189,8 +177,8 @@
       {
          "symbol":"DG",
          "type":"put",
-         "expiry":"2024-05-03",
-         "strike":132
+         "expiry":"2024-05-17",
+         "strike":125
       },
       {
          "symbol":"HAL",
@@ -211,22 +199,10 @@
          "strike":15
       },
       {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2024-05-03",
-         "strike":53
-      },
-      {
          "symbol":"TX",
          "type":"put",
          "expiry":"2024-05-17",
          "strike":40
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2024-05-03",
-         "strike":11.5
       },
       {
          "symbol":"WNC",
