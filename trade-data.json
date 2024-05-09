@@ -169,6 +169,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":125
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2024-05-17",
