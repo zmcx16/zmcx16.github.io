@@ -170,9 +170,21 @@
    "hold_option_list":[
       {
          "symbol":"ACLS",
-         "type":"put",
+         "type":"call",
          "expiry":"2024-05-17",
          "strike":125
+      },
+      {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":440
+      },
+      {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":200
       },
       {
          "symbol":"BBY",
@@ -221,6 +233,12 @@
          "type":"call",
          "expiry":"2024-05-17",
          "strike":47.5
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2024-05-17",
+         "strike":150
       }
    ],
    "news_config":{
