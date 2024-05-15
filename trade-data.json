@@ -239,6 +239,12 @@
          "type":"put",
          "expiry":"2024-05-17",
          "strike":150
+      },
+      {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2024-05-31",
+         "strike":160
       }
    ],
    "news_config":{
