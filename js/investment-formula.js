@@ -769,8 +769,11 @@ function buildHoldTable(data){
       return;
     }
 
+    let min_close = kelly_result['min_close'];
+    let max_close = kelly_result['max_close'];
+
     let price = kelly_result['close'];
-    let days = kelly_result['min_close'].toFixed(2) + ' - ' + kelly_result['max_close'].toFixed(2);
+    let days = isNaN(min_close) || isNaN(max_close) ? "-" : (min_close.toFixed(2) + ' - ' + max_close.toFixed(2));
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
     let avg_cost = data["portfolio"][symbol]["cost_p"];
     let profit_now = data["portfolio"][symbol]["profit_%"].toFixed(2);
