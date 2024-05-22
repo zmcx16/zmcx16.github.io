@@ -163,6 +163,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ACLS",
+         "type":"call",
+         "expiry":"2024-06-21",
+         "strike":125
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2024-05-24",
@@ -170,7 +176,7 @@
       },
       {
          "symbol":"GLOB",
-         "type":"put",
+         "type":"call",
          "expiry":"2024-06-21",
          "strike":170
       },
