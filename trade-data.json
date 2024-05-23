@@ -191,6 +191,12 @@
          "type":"put",
          "expiry":"2024-05-31",
          "strike":160
+      },
+      {
+         "symbol":"SBUX",
+         "type":"call",
+         "expiry":"2024-05-31",
+         "strike":89
       }
    ],
    "news_config":{
