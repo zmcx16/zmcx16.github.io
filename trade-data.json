@@ -162,10 +162,22 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-06-07",
+         "strike":133
+      },
+      {
          "symbol":"ACLS",
          "type":"call",
          "expiry":"2024-06-21",
          "strike":125
+      },
+      {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2024-06-07",
+         "strike":175
       },
       {
          "symbol":"ALB",
@@ -214,6 +226,12 @@
          "type":"put",
          "expiry":"2024-06-07",
          "strike":86
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-06-07",
+         "strike":88
       },
       {
          "symbol":"SBUX",
