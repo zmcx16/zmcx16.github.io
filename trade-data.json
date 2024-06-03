@@ -199,12 +199,6 @@
          "strike":35
       },
       {
-         "symbol":"FSLR",
-         "type":"put",
-         "expiry":"2024-05-31",
-         "strike":160
-      },
-      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2024-06-07",
@@ -235,10 +229,28 @@
          "strike":88
       },
       {
-         "symbol":"SBUX",
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-06-07",
+         "strike":165
+      },
+      {
+         "symbol":"SEE",
          "type":"call",
-         "expiry":"2024-05-31",
-         "strike":89
+         "expiry":"2024-06-21",
+         "strike":42.5
+      },
+      {
+         "symbol":"TEAM",
+         "type":"put",
+         "expiry":"2024-06-07",
+         "strike":140
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2024-07-05",
+         "strike":11
       }
    ],
    "news_config":{
