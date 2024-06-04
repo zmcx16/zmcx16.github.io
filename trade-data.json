@@ -170,6 +170,12 @@
       },
       {
          "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2024-07-19",
+         "strike":90
+      },
+      {
+         "symbol":"ACLS",
          "type":"call",
          "expiry":"2024-06-21",
          "strike":125
@@ -185,6 +191,12 @@
          "type":"put",
          "expiry":"2024-06-07",
          "strike":105
+      },
+      {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-06-14",
+         "strike":345
       },
       {
          "symbol":"GLOB",
@@ -245,6 +257,12 @@
          "type":"put",
          "expiry":"2024-06-07",
          "strike":140
+      },
+      {
+         "symbol":"TGT",
+         "type":"call",
+         "expiry":"2024-06-14",
+         "strike":162.5
       },
       {
          "symbol":"VFC",
