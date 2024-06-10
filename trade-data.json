@@ -21,6 +21,7 @@
       "ZIM",
       "VALE",
       "SID",
+      "HAL",
       "ALB"
    ],
    "watch_stock_list":[
@@ -163,12 +164,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":133
-      },
-      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-07-19",
@@ -181,18 +176,6 @@
          "strike":125
       },
       {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":175
-      },
-      {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":105
-      },
-      {
          "symbol":"DE",
          "type":"put",
          "expiry":"2024-06-14",
@@ -203,18 +186,6 @@
          "type":"call",
          "expiry":"2024-06-21",
          "strike":170
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":35
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":63
       },
       {
          "symbol":"M",
@@ -231,20 +202,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2024-06-07",
-         "strike":86
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":88
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2024-06-07",
-         "strike":165
+         "expiry":"2024-06-14",
+         "strike":92
       },
       {
          "symbol":"SEE",
@@ -255,8 +214,8 @@
       {
          "symbol":"TEAM",
          "type":"put",
-         "expiry":"2024-06-07",
-         "strike":140
+         "expiry":"2024-06-14",
+         "strike":145
       },
       {
          "symbol":"TGT",
@@ -391,6 +350,7 @@
          "ACLS":"Axcelis Technologies, Inc.",
          "CVS":"CVS Health Corporation",
          "GLOB":"Globant S.A.",
+         "HAL":"Halliburton Company",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -873,117 +833,123 @@
       "ACLS":"1113232",
       "CVS":"64803",
       "GLOB":"1557860",
+      "HAL":"45012",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.067280812176103,
+         "position_%":12.748154911663029,
          "profit_%":0
       },
       "ACLS":{
          "cost_p":95,
-         "position_%":2.91201425558698,
+         "position_%":2.840897763565536,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.088966633425428,
+         "position_%":6.915841643374628,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.35,
-         "position_%":2.548267913485589,
+         "position_%":2.4860347446780517,
          "profit_%":0
       },
       "CVS":{
          "cost_p":73,
-         "position_%":2.9835374127417484,
+         "position_%":2.910674199863637,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.4900194542987455,
+         "position_%":4.380365309548208,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.37,
-         "position_%":5.478878189932809,
+         "position_%":5.345074381681094,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.25,
-         "position_%":5.854681292811718,
+         "position_%":5.711699714115973,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":250,
-         "position_%":2.5543984698131403,
+         "position_%":2.4920155820750316,
          "profit_%":0
       },
       "GIS":{
          "cost_p":66.29,
-         "position_%":5.4185943860452195,
+         "position_%":5.2862628139441235,
          "profit_%":0
       },
       "GLOB":{
          "cost_p":185,
-         "position_%":3.780509735323448,
+         "position_%":3.688183061471047,
+         "profit_%":0
+      },
+      "HAL":{
+         "cost_p":35,
+         "position_%":2.442175270433531,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":3.5230263695662836,
+         "position_%":3.4369878907978837,
          "profit_%":0
       },
       "KSS":{
          "cost_p":22.03,
-         "position_%":5.852433422158283,
+         "position_%":5.7095067404037465,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.4201311121646585,
+         "position_%":4.3121837632226345,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.189622194248721,
+         "position_%":4.087304277096184,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":86,
-         "position_%":2.636139220847161,
+         "position_%":2.571760080701433,
          "profit_%":0
       },
       "SEE":{
          "cost_p":36.28,
-         "position_%":2.594860141574981,
+         "position_%":2.5314891088951,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.247151334826465,
+         "position_%":3.1678502079337805,
          "profit_%":0
       },
       "TGT":{
          "cost_p":117.78,
-         "position_%":2.4068564141967337,
+         "position_%":2.348076762054378,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.4971799440893263,
+         "position_%":2.436194433036551,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":2.8813614739492226,
+         "position_%":2.8109935765806355,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.574089816737235,
+         "position_%":9.340273762863784,
          "profit_%":0
       }
    }
