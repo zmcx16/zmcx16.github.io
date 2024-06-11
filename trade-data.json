@@ -182,6 +182,12 @@
          "strike":345
       },
       {
+         "symbol":"FDX",
+         "type":"put",
+         "expiry":"2024-07-05",
+         "strike":225
+      },
+      {
          "symbol":"GLOB",
          "type":"call",
          "expiry":"2024-06-21",
