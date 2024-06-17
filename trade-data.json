@@ -176,12 +176,6 @@
          "strike":125
       },
       {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2024-06-14",
-         "strike":345
-      },
-      {
          "symbol":"FDX",
          "type":"put",
          "expiry":"2024-07-05",
@@ -212,12 +206,6 @@
          "strike":65
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-06-14",
-         "strike":92
-      },
-      {
          "symbol":"SEE",
          "type":"call",
          "expiry":"2024-06-21",
@@ -232,14 +220,8 @@
       {
          "symbol":"TEAM",
          "type":"put",
-         "expiry":"2024-06-14",
-         "strike":145
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2024-06-14",
-         "strike":162.5
+         "expiry":"2024-06-28",
+         "strike":140
       },
       {
          "symbol":"VFC",
