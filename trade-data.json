@@ -194,6 +194,12 @@
          "strike":37
       },
       {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2024-07-12",
+         "strike":30
+      },
+      {
          "symbol":"M",
          "type":"put",
          "expiry":"2024-07-19",
