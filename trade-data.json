@@ -164,6 +164,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-06-28",
+         "strike":136
+      },
+      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-07-19",
@@ -180,6 +186,12 @@
          "type":"put",
          "expiry":"2024-07-19",
          "strike":200
+      },
+      {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2024-07-12",
+         "strike":110
       },
       {
          "symbol":"FDX",
