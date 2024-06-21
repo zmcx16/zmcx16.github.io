@@ -176,6 +176,12 @@
          "strike":125
       },
       {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-07-19",
+         "strike":200
+      },
+      {
          "symbol":"FDX",
          "type":"put",
          "expiry":"2024-07-05",
