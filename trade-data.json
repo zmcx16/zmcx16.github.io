@@ -163,12 +163,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2024-06-28",
-         "strike":136
-      },
-      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-07-19",
@@ -182,27 +176,27 @@
       },
       {
          "symbol":"DIS",
+         "type":"put",
+         "expiry":"2024-07-12",
+         "strike":92
+      },
+      {
+         "symbol":"DIS",
          "type":"call",
          "expiry":"2024-07-12",
          "strike":110
       },
       {
-         "symbol":"DE",
+         "symbol":"EL",
          "type":"put",
-         "expiry":"2024-06-28",
-         "strike":355
+         "expiry":"2024-07-12",
+         "strike":95
       },
       {
          "symbol":"FDX",
          "type":"put",
          "expiry":"2024-07-05",
          "strike":225
-      },
-      {
-         "symbol":"HAL",
-         "type":"call",
-         "expiry":"2024-06-28",
-         "strike":37
       },
       {
          "symbol":"HAL",
@@ -217,16 +211,16 @@
          "strike":15
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-07-05",
+         "strike":70
+      },
+      {
          "symbol":"SEE",
          "type":"call",
          "expiry":"2024-07-19",
          "strike":40
-      },
-      {
-         "symbol":"TEAM",
-         "type":"put",
-         "expiry":"2024-06-28",
-         "strike":140
       },
       {
          "symbol":"VFC",
