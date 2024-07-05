@@ -175,6 +175,12 @@
          "strike":200
       },
       {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-07-12",
+         "strike":340
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2024-07-12",
