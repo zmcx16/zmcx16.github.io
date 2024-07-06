@@ -180,13 +180,6 @@
         ],
         "similar": "CMA"
     },
-    "CGX.TO": {
-        "earningsDate": [
-            "2024-08-08",
-            "2024-08-12"
-        ],
-        "similar": "DIS"
-    },
     "CHX": {
         "earningsDate": [
             "2024-07-22",
@@ -306,6 +299,13 @@
         ],
         "similar": "NKE"
     },
+    "CSSE": {
+        "earningsDate": [
+            "2024-08-12",
+            "2024-08-16"
+        ],
+        "similar": "DIS"
+    },
     "CTSH": {
         "earningsDate": [
             "2024-07-31",
@@ -392,7 +392,7 @@
             "2024-07-31",
             "2024-08-05"
         ],
-        "similar": "GLOB"
+        "similar": "EPAM"
     },
     "ECL": {
         "earningsDate": [
@@ -444,6 +444,13 @@
         ],
         "similar": "DAC"
     },
+    "EXLS": {
+        "earningsDate": [
+            "2024-07-25",
+            "2024-07-29"
+        ],
+        "similar": "GLOB"
+    },
     "EXTO": {
         "earningsDate": [
             "2024-07-29",
@@ -457,13 +464,6 @@
         ],
         "similar": "CMA"
     },
-    "FI": {
-        "earningsDate": [
-            "2024-07-24",
-            "2024-07-29"
-        ],
-        "similar": "EPAM"
-    },
     "FIGS": {
         "earningsDate": [
             "2024-05-09"
@@ -475,7 +475,7 @@
             "2024-07-31",
             "2024-08-05"
         ],
-        "similar": "EPAM"
+        "similar": "GLOB"
     },
     "FITB": {
         "earningsDate": [
@@ -489,13 +489,6 @@
             "2024-09-02"
         ],
         "similar": "AAP"
-    },
-    "FOX": {
-        "earningsDate": [
-            "2024-08-06",
-            "2024-08-12"
-        ],
-        "similar": "DIS"
     },
     "FR": {
         "earningsDate": [
@@ -679,6 +672,13 @@
             "2024-07-29"
         ],
         "similar": "GLOB"
+    },
+    "JKHY": {
+        "earningsDate": [
+            "2024-08-13",
+            "2024-08-19"
+        ],
+        "similar": "EPAM"
     },
     "JWN": {
         "earningsDate": [
@@ -1010,6 +1010,13 @@
         ],
         "similar": "SID"
     },
+    "PLAY": {
+        "earningsDate": [
+            "2024-09-04",
+            "2024-09-09"
+        ],
+        "similar": "DIS"
+    },
     "PLL": {
         "earningsDate": [
             "2024-08-05",
@@ -1220,6 +1227,13 @@
         ],
         "similar": "PYPL"
     },
+    "TDW": {
+        "earningsDate": [
+            "2024-08-05",
+            "2024-08-09"
+        ],
+        "similar": "HAL"
+    },
     "TECK": {
         "earningsDate": [
             "2024-07-24"
@@ -1370,12 +1384,6 @@
             "2024-07-23"
         ],
         "similar": "HAL"
-    },
-    "WNS": {
-        "earningsDate": [
-            "2024-04-25"
-        ],
-        "similar": "GLOB"
     },
     "WOOF": {
         "earningsDate": [
