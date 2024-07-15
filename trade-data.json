@@ -178,28 +178,16 @@
          "strike":200
       },
       {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2024-07-12",
-         "strike":340
-      },
-      {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2024-07-12",
-         "strike":92
+         "expiry":"2024-07-19",
+         "strike":93
       },
       {
-         "symbol":"DIS",
-         "type":"call",
-         "expiry":"2024-07-12",
-         "strike":110
-      },
-      {
-         "symbol":"EL",
+         "symbol":"EPAM",
          "type":"put",
-         "expiry":"2024-07-12",
-         "strike":95
+         "expiry":"2024-07-19",
+         "strike":175
       },
       {
          "symbol":"EW",
@@ -208,28 +196,10 @@
          "strike":87.5
       },
       {
-         "symbol":"FDX",
-         "type":"put",
-         "expiry":"2024-07-05",
-         "strike":225
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2024-07-12",
-         "strike":30
-      },
-      {
          "symbol":"M",
          "type":"put",
          "expiry":"2024-07-19",
          "strike":15
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-07-05",
-         "strike":70
       },
       {
          "symbol":"SEE",
@@ -242,12 +212,6 @@
          "type":"put",
          "expiry":"2024-07-19",
          "strike":35
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2024-07-05",
-         "strike":11
       }
    ],
    "news_config":{
