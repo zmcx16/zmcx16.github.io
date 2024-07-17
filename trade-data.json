@@ -172,6 +172,12 @@
          "strike":90
       },
       {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2024-07-26",
+         "strike":82
+      },
+      {
          "symbol":"ALGN",
          "type":"put",
          "expiry":"2024-07-19",
@@ -181,6 +187,12 @@
          "symbol":"DIS",
          "type":"put",
          "expiry":"2024-07-19",
+         "strike":93
+      },
+      {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2024-07-26",
          "strike":93
       },
       {
