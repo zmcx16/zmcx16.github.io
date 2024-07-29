@@ -166,16 +166,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ALB",
+         "symbol":"DE",
          "type":"put",
-         "expiry":"2024-07-26",
-         "strike":82
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2024-07-26",
-         "strike":55
+         "expiry":"2024-08-02",
+         "strike":352.5
       },
       {
          "symbol":"DIS",
@@ -186,20 +180,20 @@
       {
          "symbol":"EL",
          "type":"put",
-         "expiry":"2024-07-26",
-         "strike":93
+         "expiry":"2024-08-02",
+         "strike":95
       },
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2024-07-26",
-         "strike":162.5
+         "expiry":"2024-08-02",
+         "strike":165
       },
       {
-         "symbol":"SBUX",
+         "symbol":"TGT",
          "type":"put",
-         "expiry":"2024-07-26",
-         "strike":70
+         "expiry":"2024-08-09",
+         "strike":136
       }
    ],
    "news_config":{
