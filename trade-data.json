@@ -194,6 +194,12 @@
          "type":"put",
          "expiry":"2024-08-09",
          "strike":136
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2024-08-23",
+         "strike":10
       }
    ],
    "news_config":{
