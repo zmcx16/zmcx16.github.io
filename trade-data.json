@@ -166,6 +166,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-08-09",
+         "strike":205
+      },
+      {
          "symbol":"DE",
          "type":"put",
          "expiry":"2024-08-02",
