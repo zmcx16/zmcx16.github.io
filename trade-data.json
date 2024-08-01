@@ -190,6 +190,12 @@
          "strike":95
       },
       {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2024-08-30",
+         "strike":29
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2024-08-02",
