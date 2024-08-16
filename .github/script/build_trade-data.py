@@ -69,10 +69,10 @@ if __name__ == "__main__":
     DELAY_TIME_SEC = 300
     SCAN_RETRY_CNT = 3
     SEC_RETRY_CNT = 5
-    SCAN_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-scan"
-    SCREENER_URL = "https://zmcx16.moe/stock-minehunter/api/task/do-screen"
-    SEC_URL = "https://zmcx16.moe/stock-minehunter/api/task/get-sec-data"
-    FORMULA_URL = "https://zmcx16.moe/stock-minehunter/api/task/calc-formula"
+    SCAN_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/do-scan"
+    SCREENER_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/do-screen"
+    SEC_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/get-sec-data"
+    FORMULA_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/calc-formula"
     FORMULA2_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/calc-formula2" # prevent cloudflare 524 timeout
 
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
@@ -200,6 +200,7 @@ if __name__ == "__main__":
                 else:
                     print('send_post_json failed')
 
+            """
             # --- get SEC -------
             if symbol in data["hold_stock_list"]:
                 sec_args = data["sec_template"].copy()
@@ -221,7 +222,8 @@ if __name__ == "__main__":
                         print('send_post_json failed')
 
                     print('SEC retry {retry_i} failed.'.format(retry_i=retry_i))
-
+            """
+            
             # --- get news ------
             if (symbol in data["hold_stock_list"]) or (
                     symbol in data["star_stock_list"]):
