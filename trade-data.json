@@ -790,117 +790,117 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":12.484064246709863,
+         "position_%":12.731529874148094,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":6.772573128756982,
+         "position_%":6.906822602771092,
          "profit_%":0
       },
       "CMA":{
          "cost_p":62.35,
-         "position_%":2.434534070786958,
+         "position_%":2.4827926738701502,
          "profit_%":0
       },
       "CVS":{
          "cost_p":73,
-         "position_%":2.850376698756181,
+         "position_%":2.9068783511230305,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.2896217003473165,
+         "position_%":4.374652817183235,
          "profit_%":0
       },
       "DIS":{
          "cost_p":89.37,
-         "position_%":5.234345867832327,
+         "position_%":5.338103799449287,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.25,
-         "position_%":5.593376193107164,
+         "position_%":5.704251010936632,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":250,
-         "position_%":2.4403910092090597,
+         "position_%":2.4887657115779374,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.5,
-         "position_%":2.5624105596695124,
+         "position_%":2.613203997156834,
          "profit_%":0
       },
       "GIS":{
-         "cost_p":66.29,
-         "position_%":5.176752640014994,
+         "cost_p":66.24,
+         "position_%":3.297116814698451,
          "profit_%":0
       },
       "HAL":{
          "cost_p":35,
-         "position_%":2.391583189024878,
+         "position_%":2.4389903973463785,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":3.365787279901135,
+         "position_%":3.432505669408291,
          "profit_%":0
       },
       "KSS":{
          "cost_p":22.03,
-         "position_%":5.59122864901906,
+         "position_%":5.702060897110443,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.222852602335356,
+         "position_%":4.306560187314463,
          "profit_%":0
       },
       "NKE":{
          "cost_p":75.5,
-         "position_%":2.947992339124544,
+         "position_%":3.0064289795861483,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.002631717664331,
+         "position_%":4.08197396950167,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":86,
-         "position_%":2.5184835215037493,
+         "position_%":2.568406214348431,
          "profit_%":0
       },
       "SEE":{
          "cost_p":37.16,
-         "position_%":5.0783560745236835,
+         "position_%":5.179021895165223,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.1022250509065565,
+         "position_%":3.163718972557874,
          "profit_%":0
       },
       "TGT":{
          "cost_p":136,
-         "position_%":2.6551454180194565,
+         "position_%":2.707777094196796,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.3857262506027768,
+         "position_%":2.4330173596385913,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":2.752761058387819,
+         "position_%":2.807327722659913,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.146780733796293,
+         "position_%":9.328092988251036,
          "profit_%":0
       }
    }
