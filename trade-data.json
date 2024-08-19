@@ -173,6 +173,12 @@
          "strike":29
       },
       {
+         "symbol":"SBUX",
+         "type":"call",
+         "expiry":"2024-08-23",
+         "strike":110
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2024-08-23",
