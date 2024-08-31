@@ -169,15 +169,21 @@
       {
          "symbol":"EL",
          "type":"put",
-         "expiry":"2024-08-30",
-         "strike":82
+         "expiry":"2024-09-20",
+         "strike":80
       },
       {
-         "symbol":"HAL",
+         "symbol":"KSS",
          "type":"put",
-         "expiry":"2024-08-30",
-         "strike":29
-      }
+         "expiry":"2024-09-27",
+         "strike":15.5
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-09-06",
+         "strike":165
+      },
    ],
    "news_config":{
       "latest_days":28,
