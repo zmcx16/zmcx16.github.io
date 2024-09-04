@@ -179,6 +179,12 @@
          "strike":15.5
       },
       {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2024-10-04",
+         "strike":24
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2024-09-06",
