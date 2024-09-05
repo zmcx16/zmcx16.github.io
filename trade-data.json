@@ -194,7 +194,7 @@
          "type":"put",
          "expiry":"2024-09-06",
          "strike":165
-      },
+      }
    ],
    "news_config":{
       "latest_days":28,
