@@ -192,8 +192,14 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2024-09-06",
-         "strike":165
+         "expiry":"2024-09-13",
+         "strike":162.5
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2024-09-13",
+         "strike":80
       }
    ],
    "news_config":{
