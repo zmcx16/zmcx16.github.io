@@ -172,6 +172,36 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"APTV",
+         "type":"put",
+         "expiry":"2024-09-20",
+         "strike":60
+      },
+      {
+         "symbol":"CNMD",
+         "type":"put",
+         "expiry":"2024-09-20",
+         "strike":60
+      },
+      {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2024-09-13",
+         "strike":54
+      },
+      {
+         "symbol":"DE",
+         "type":"put",
+         "expiry":"2024-09-13",
+         "strike":357.5
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2024-09-20",
+         "strike":81
+      },
+      {
          "symbol":"EL",
          "type":"put",
          "expiry":"2024-09-20",
@@ -194,6 +224,12 @@
          "type":"put",
          "expiry":"2024-09-13",
          "strike":162.5
+      },
+      {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2024-09-20",
+         "strike":85
       },
       {
          "symbol":"PYPL",
