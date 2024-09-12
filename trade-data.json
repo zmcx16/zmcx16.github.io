@@ -178,6 +178,12 @@
          "strike":60
       },
       {
+         "symbol":"CE",
+         "type":"put",
+         "expiry":"2024-09-20",
+         "strike":110
+      },
+      {
          "symbol":"CNMD",
          "type":"put",
          "expiry":"2024-09-20",
@@ -236,6 +242,12 @@
          "type":"call",
          "expiry":"2024-09-13",
          "strike":80
+      },
+      {
+         "symbol":"VFC",
+         "type":"call",
+         "expiry":"2024-10-04",
+         "strike":20.5
       }
    ],
    "news_config":{
