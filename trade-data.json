@@ -192,14 +192,8 @@
       {
          "symbol":"CVS",
          "type":"put",
-         "expiry":"2024-09-13",
-         "strike":54
-      },
-      {
-         "symbol":"DE",
-         "type":"put",
-         "expiry":"2024-09-13",
-         "strike":357.5
+         "expiry":"2024-10-11",
+         "strike":50
       },
       {
          "symbol":"DIS",
@@ -214,6 +208,18 @@
          "strike":80
       },
       {
+         "symbol":"GIS",
+         "type":"call",
+         "expiry":"2024-09-20",
+         "strike":77.5
+      },
+      {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":24
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2024-09-27",
@@ -226,22 +232,16 @@
          "strike":24
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2024-09-13",
-         "strike":162.5
+         "symbol":"MPW",
+         "type":"call",
+         "expiry":"2024-10-18",
+         "strike":8
       },
       {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2024-09-20",
          "strike":85
-      },
-      {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2024-09-13",
-         "strike":80
       },
       {
          "symbol":"VFC",
