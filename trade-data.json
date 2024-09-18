@@ -214,6 +214,12 @@
          "strike":77.5
       },
       {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":40
+      },
+      {
          "symbol":"HAL",
          "type":"put",
          "expiry":"2024-10-18",
