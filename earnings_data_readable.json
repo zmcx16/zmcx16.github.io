@@ -65,6 +65,12 @@
         ],
         "similar": "DIS"
     },
+    "AMCR": {
+        "earningsDate": [
+            "2024-08-15"
+        ],
+        "similar": "SEE"
+    },
     "AONNY": {
         "earningsDate": [
             "2024-10-09",
@@ -102,8 +108,7 @@
     },
     "AXP": {
         "earningsDate": [
-            "2024-10-18",
-            "2024-10-22"
+            "2024-10-18"
         ],
         "similar": "PYPL"
     },
@@ -152,13 +157,6 @@
             "2024-08-26"
         ],
         "similar": "VALE"
-    },
-    "BIG": {
-        "earningsDate": [
-            "2024-11-28",
-            "2024-12-02"
-        ],
-        "similar": "TGT"
     },
     "BIRK": {
         "earningsDate": [
@@ -362,13 +360,6 @@
         ],
         "similar": "NKE"
     },
-    "CTRE": {
-        "earningsDate": [
-            "2024-11-07",
-            "2024-11-11"
-        ],
-        "similar": "MPW"
-    },
     "CTSH": {
         "earningsDate": [
             "2024-10-30",
@@ -444,6 +435,13 @@
             "2024-11-25"
         ],
         "similar": "AAP"
+    },
+    "DLMAF": {
+        "earningsDate": [
+            "2024-12-11",
+            "2024-12-16"
+        ],
+        "similar": "TGT"
     },
     "DLTR": {
         "earningsDate": [
@@ -545,12 +543,11 @@
         ],
         "similar": "ILPT"
     },
-    "FIS": {
+    "FHN": {
         "earningsDate": [
-            "2024-11-05",
-            "2024-11-11"
+            "2024-10-16"
         ],
-        "similar": "EPAM"
+        "similar": "CMA"
     },
     "FITB": {
         "earningsDate": [
@@ -584,6 +581,13 @@
             "2024-10-24"
         ],
         "similar": "HAL"
+    },
+    "G": {
+        "earningsDate": [
+            "2024-11-04",
+            "2024-11-19"
+        ],
+        "similar": "EPAM"
     },
     "GASS": {
         "earningsDate": [
@@ -965,6 +969,13 @@
         ],
         "similar": "DIS"
     },
+    "MASI": {
+        "earningsDate": [
+            "2024-11-05",
+            "2024-11-11"
+        ],
+        "similar": "EW"
+    },
     "MATX": {
         "earningsDate": [
             "2024-10-28",
@@ -1157,8 +1168,8 @@
     },
     "PKG": {
         "earningsDate": [
-            "2024-09-16",
-            "2024-09-20"
+            "2024-10-24",
+            "2024-10-31"
         ],
         "similar": "SEE"
     },
@@ -1202,13 +1213,6 @@
             "2024-10-15"
         ],
         "similar": "CMA"
-    },
-    "PODD": {
-        "earningsDate": [
-            "2024-10-31",
-            "2024-11-04"
-        ],
-        "similar": "EW"
     },
     "PSMT": {
         "earningsDate": [
@@ -1443,16 +1447,9 @@
         ],
         "similar": "VALE"
     },
-    "TFC": {
-        "earningsDate": [
-            "2024-10-17"
-        ],
-        "similar": "CMA"
-    },
     "TGT": {
         "earningsDate": [
-            "2024-11-13",
-            "2024-11-18"
+            "2024-11-20"
         ],
         "similar": "-"
     },
@@ -1462,13 +1459,6 @@
             "2024-11-04"
         ],
         "similar": "ILPT"
-    },
-    "TRS": {
-        "earningsDate": [
-            "2024-10-24",
-            "2024-10-28"
-        ],
-        "similar": "SEE"
     },
     "TS": {
         "earningsDate": [
@@ -1481,13 +1471,6 @@
             "2024-07-30"
         ],
         "similar": "SID"
-    },
-    "TXRH": {
-        "earningsDate": [
-            "2024-10-24",
-            "2024-10-28"
-        ],
-        "similar": "SBUX"
     },
     "UA": {
         "earningsDate": [
@@ -1557,13 +1540,6 @@
         ],
         "similar": "-"
     },
-    "VRA": {
-        "earningsDate": [
-            "2024-12-04",
-            "2024-12-09"
-        ],
-        "similar": "NKE"
-    },
     "VTR": {
         "earningsDate": [
             "2024-10-31",
@@ -1583,6 +1559,13 @@
             "2024-11-01"
         ],
         "similar": "MPW"
+    },
+    "WEN": {
+        "earningsDate": [
+            "2024-10-31",
+            "2024-11-04"
+        ],
+        "similar": "SBUX"
     },
     "WFRD": {
         "earningsDate": [
@@ -1623,6 +1606,13 @@
             "2024-11-18"
         ],
         "similar": "AAP"
+    },
+    "WWW": {
+        "earningsDate": [
+            "2024-11-07",
+            "2024-11-11"
+        ],
+        "similar": "NKE"
     },
     "ZBH": {
         "earningsDate": [
