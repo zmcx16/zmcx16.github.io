@@ -172,46 +172,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"APTV",
-         "type":"put",
-         "expiry":"2024-09-20",
-         "strike":60
-      },
-      {
-         "symbol":"CE",
-         "type":"put",
-         "expiry":"2024-09-20",
-         "strike":110
-      },
-      {
-         "symbol":"CNMD",
-         "type":"put",
-         "expiry":"2024-09-20",
-         "strike":60
-      },
-      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2024-10-11",
          "strike":50
       },
       {
-         "symbol":"DIS",
+         "symbol":"EPAM",
          "type":"put",
-         "expiry":"2024-09-20",
-         "strike":81
-      },
-      {
-         "symbol":"EL",
-         "type":"put",
-         "expiry":"2024-09-20",
-         "strike":80
-      },
-      {
-         "symbol":"GIS",
-         "type":"call",
-         "expiry":"2024-09-20",
-         "strike":77.5
+         "expiry":"2024-10-18",
+         "strike":170
       },
       {
          "symbol":"GM",
@@ -244,10 +214,10 @@
          "strike":8
       },
       {
-         "symbol":"PVH",
+         "symbol":"PEP",
          "type":"put",
-         "expiry":"2024-09-20",
-         "strike":85
+         "expiry":"2024-09-27",
+         "strike":162.5
       },
       {
          "symbol":"VFC",
