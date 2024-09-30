@@ -170,6 +170,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"APTV",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":65
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2024-10-11",
@@ -196,8 +202,8 @@
       {
          "symbol":"KSS",
          "type":"put",
-         "expiry":"2024-09-27",
-         "strike":15.5
+         "expiry":"2024-10-25",
+         "strike":17
       },
       {
          "symbol":"KSS",
@@ -212,10 +218,10 @@
          "strike":8
       },
       {
-         "symbol":"PEP",
+         "symbol":"PAYC",
          "type":"put",
-         "expiry":"2024-09-27",
-         "strike":162.5
+         "expiry":"2024-10-18",
+         "strike":150
       },
       {
          "symbol":"VFC",
