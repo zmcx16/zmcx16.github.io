@@ -272,13 +272,6 @@
         ],
         "similar": "SID"
     },
-    "CMP": {
-        "earningsDate": [
-            "2024-09-30",
-            "2024-10-11"
-        ],
-        "similar": "VALE"
-    },
     "CMRE": {
         "earningsDate": [
             "2024-07-31"
@@ -421,6 +414,13 @@
             "2024-12-16"
         ],
         "similar": "TGT"
+    },
+    "DSX": {
+        "earningsDate": [
+            "2024-11-13",
+            "2024-11-18"
+        ],
+        "similar": "DAC"
     },
     "DXC": {
         "earningsDate": [
@@ -804,6 +804,12 @@
         ],
         "similar": "MPW"
     },
+    "LU": {
+        "earningsDate": [
+            "2024-08-21"
+        ],
+        "similar": "PYPL"
+    },
     "LXP": {
         "earningsDate": [
             "2024-10-29",
@@ -817,13 +823,6 @@
             "2024-10-29"
         ],
         "similar": "ALB"
-    },
-    "LYV": {
-        "earningsDate": [
-            "2024-10-31",
-            "2024-11-04"
-        ],
-        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -858,13 +857,6 @@
             "2024-11-11"
         ],
         "similar": "EW"
-    },
-    "MATX": {
-        "earningsDate": [
-            "2024-10-28",
-            "2024-11-01"
-        ],
-        "similar": "DAC"
     },
     "MDT": {
         "earningsDate": [
@@ -1227,6 +1219,12 @@
         ],
         "similar": "SEE"
     },
+    "SLI": {
+        "earningsDate": [
+            "2024-09-24"
+        ],
+        "similar": "VALE"
+    },
     "SOFI": {
         "earningsDate": [
             "2024-10-28",
@@ -1284,6 +1282,13 @@
             "2024-11-20"
         ],
         "similar": "-"
+    },
+    "TKO": {
+        "earningsDate": [
+            "2024-11-05",
+            "2024-11-11"
+        ],
+        "similar": "DIS"
     },
     "TRNO": {
         "earningsDate": [
@@ -1429,13 +1434,6 @@
             "2024-11-18"
         ],
         "similar": "AAP"
-    },
-    "WU": {
-        "earningsDate": [
-            "2024-10-23",
-            "2024-10-28"
-        ],
-        "similar": "PYPL"
     },
     "ZBH": {
         "earningsDate": [
