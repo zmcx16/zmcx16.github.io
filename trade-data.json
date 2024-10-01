@@ -182,6 +182,12 @@
          "strike":50
       },
       {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2024-10-11",
+         "strike":86
+      },
+      {
          "symbol":"EPAM",
          "type":"put",
          "expiry":"2024-10-18",
