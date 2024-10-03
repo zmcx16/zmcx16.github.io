@@ -170,10 +170,22 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-10-11",
+         "strike":110
+      },
+      {
          "symbol":"APTV",
          "type":"put",
          "expiry":"2024-10-18",
          "strike":65
+      },
+      {
+         "symbol":"CE",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":115
       },
       {
          "symbol":"CVS",
@@ -228,6 +240,18 @@
          "type":"put",
          "expiry":"2024-10-18",
          "strike":150
+      },
+      {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":80
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2024-10-11",
+         "strike":17.5
       },
       {
          "symbol":"VFC",
