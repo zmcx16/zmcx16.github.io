@@ -194,6 +194,12 @@
          "strike":50
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2024-10-11",
+         "strike":87
+      },
+      {
          "symbol":"EL",
          "type":"put",
          "expiry":"2024-10-11",
@@ -204,6 +210,12 @@
          "type":"put",
          "expiry":"2024-10-18",
          "strike":170
+      },
+      {
+         "symbol":"GLOB",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":180
       },
       {
          "symbol":"GM",
@@ -246,6 +258,12 @@
          "type":"put",
          "expiry":"2024-11-15",
          "strike":80
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2024-10-11",
+         "strike":86
       },
       {
          "symbol":"VFC",
