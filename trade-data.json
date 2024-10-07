@@ -230,16 +230,34 @@
          "strike":24
       },
       {
+         "symbol":"HAL",
+         "type":"call",
+         "expiry":"2024-11-01",
+         "strike":36
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2024-10-25",
          "strike":17
       },
       {
+         "symbol":"KSS",
+         "type":"call",
+         "expiry":"2024-11-15",
+         "strike":25
+      },
+      {
          "symbol":"MPW",
          "type":"call",
          "expiry":"2024-10-18",
          "strike":8
+      },
+      {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":150
       },
       {
          "symbol":"PAYC",
@@ -258,6 +276,12 @@
          "type":"put",
          "expiry":"2024-10-11",
          "strike":86
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2024-10-25",
+         "strike":137
       },
       {
          "symbol":"VFC",
