@@ -176,6 +176,18 @@
          "strike":110
       },
       {
+         "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":85
+      },
+      {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-10-18",
+         "strike":200
+      },
+      {
          "symbol":"APTV",
          "type":"put",
          "expiry":"2024-10-18",
@@ -264,6 +276,12 @@
          "type":"put",
          "expiry":"2024-10-18",
          "strike":150
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-10-25",
+         "strike":165
       },
       {
          "symbol":"PVH",
