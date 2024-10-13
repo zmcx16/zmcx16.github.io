@@ -101,6 +101,12 @@
         ],
         "similar": "HAL"
     },
+    "ASC": {
+        "earningsDate": [
+            "2024-07-31"
+        ],
+        "similar": "DAC"
+    },
     "AVY": {
         "earningsDate": [
             "2024-10-23"
@@ -283,17 +289,17 @@
         ],
         "similar": "PYPL"
     },
-    "COLB": {
-        "earningsDate": [
-            "2024-10-24"
-        ],
-        "similar": "CMA"
-    },
     "COLD": {
         "earningsDate": [
             "2024-11-07"
         ],
         "similar": "ILPT"
+    },
+    "COLM": {
+        "earningsDate": [
+            "2024-10-30"
+        ],
+        "similar": "VFC"
     },
     "COST": {
         "earningsDate": [
@@ -301,12 +307,12 @@
         ],
         "similar": "TGT"
     },
-    "CRKN": {
+    "COTY": {
         "earningsDate": [
-            "2024-11-12",
-            "2024-11-18"
+            "2024-11-05",
+            "2024-11-11"
         ],
-        "similar": "ALB"
+        "similar": "EL"
     },
     "CROX": {
         "earningsDate": [
@@ -413,6 +419,12 @@
         ],
         "similar": "EW"
     },
+    "ECL": {
+        "earningsDate": [
+            "2024-10-29"
+        ],
+        "similar": "ALB"
+    },
     "EGP": {
         "earningsDate": [
             "2024-10-23"
@@ -468,12 +480,6 @@
         ],
         "similar": "CMA"
     },
-    "FIGS": {
-        "earningsDate": [
-            "2024-08-08"
-        ],
-        "similar": "VFC"
-    },
     "FITB": {
         "earningsDate": [
             "2024-10-18"
@@ -511,30 +517,11 @@
         ],
         "similar": "EPAM"
     },
-    "GASS": {
-        "earningsDate": [
-            "2024-09-05"
-        ],
-        "similar": "DAC"
-    },
-    "GEVO": {
-        "earningsDate": [
-            "2024-11-06",
-            "2024-11-11"
-        ],
-        "similar": "ALB"
-    },
     "GGB": {
         "earningsDate": [
             "2024-11-05"
         ],
         "similar": "SID"
-    },
-    "GLNCY": {
-        "earningsDate": [
-            "2024-08-07"
-        ],
-        "similar": "VALE"
     },
     "GLOB": {
         "earningsDate": [
@@ -574,6 +561,12 @@
             "2024-10-29"
         ],
         "similar": "SEE"
+    },
+    "HAFN": {
+        "earningsDate": [
+            "2024-11-28"
+        ],
+        "similar": "ZIM"
     },
     "HAL": {
         "earningsDate": [
@@ -626,13 +619,6 @@
             "2024-10-30"
         ],
         "similar": "CVS"
-    },
-    "HUYA": {
-        "earningsDate": [
-            "2024-11-12",
-            "2024-11-18"
-        ],
-        "similar": "DIS"
     },
     "IIPR-PA": {
         "earningsDate": [
@@ -692,6 +678,12 @@
             "2024-10-30"
         ],
         "similar": "DAC"
+    },
+    "KEY": {
+        "earningsDate": [
+            "2024-10-17"
+        ],
+        "similar": "CMA"
     },
     "KIROY": {
         "earningsDate": [
@@ -781,6 +773,13 @@
             "2024-11-01"
         ],
         "similar": "ALB"
+    },
+    "LYV": {
+        "earningsDate": [
+            "2024-10-31",
+            "2024-11-04"
+        ],
+        "similar": "DIS"
     },
     "M": {
         "earningsDate": [
@@ -1019,6 +1018,12 @@
         ],
         "similar": "EW"
     },
+    "PPG": {
+        "earningsDate": [
+            "2024-10-16"
+        ],
+        "similar": "ALB"
+    },
     "PSMT": {
         "earningsDate": [
             "2024-10-30"
@@ -1078,6 +1083,12 @@
         ],
         "similar": "VALE"
     },
+    "RIO.L": {
+        "earningsDate": [
+            "2024-07-30"
+        ],
+        "similar": "VALE"
+    },
     "RL": {
         "earningsDate": [
             "2024-11-07"
@@ -1101,7 +1112,7 @@
         "earningsDate": [
             "2024-08-07"
         ],
-        "similar": "DAC"
+        "similar": "ZIM"
     },
     "SBRA": {
         "earningsDate": [
@@ -1259,12 +1270,6 @@
             "2024-11-11"
         ],
         "similar": "VFC"
-    },
-    "UL": {
-        "earningsDate": [
-            "2024-07-25"
-        ],
-        "similar": "EL"
     },
     "ULTA": {
         "earningsDate": [
