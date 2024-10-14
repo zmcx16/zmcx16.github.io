@@ -1,4 +1,11 @@
 {
+    "9910.TW": {
+        "earningsDate": [
+            "2024-11-08",
+            "2024-11-12"
+        ],
+        "similar": "NKE"
+    },
     "AAP": {
         "earningsDate": [
             "2024-11-13",
@@ -23,12 +30,6 @@
             "2024-10-29"
         ],
         "similar": "NKE"
-    },
-    "AESI": {
-        "earningsDate": [
-            "2024-10-28"
-        ],
-        "similar": "HAL"
     },
     "ALB": {
         "earningsDate": [
@@ -314,6 +315,13 @@
         ],
         "similar": "EL"
     },
+    "CRKN": {
+        "earningsDate": [
+            "2024-11-12",
+            "2024-11-18"
+        ],
+        "similar": "ALB"
+    },
     "CROX": {
         "earningsDate": [
             "2024-10-31",
@@ -418,12 +426,6 @@
             "2024-10-24"
         ],
         "similar": "EW"
-    },
-    "ECL": {
-        "earningsDate": [
-            "2024-10-29"
-        ],
-        "similar": "ALB"
     },
     "EGP": {
         "earningsDate": [
@@ -1245,6 +1247,12 @@
         ],
         "similar": "ILPT"
     },
+    "TS": {
+        "earningsDate": [
+            "2024-11-06"
+        ],
+        "similar": "HAL"
+    },
     "TSCO": {
         "earningsDate": [
             "2024-10-24"
@@ -1388,13 +1396,6 @@
             "2024-10-23"
         ],
         "similar": "PYPL"
-    },
-    "WWW": {
-        "earningsDate": [
-            "2024-11-07",
-            "2024-11-11"
-        ],
-        "similar": "NKE"
     },
     "ZBH": {
         "earningsDate": [
