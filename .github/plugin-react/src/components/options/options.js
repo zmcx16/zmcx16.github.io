@@ -490,8 +490,10 @@ const Options = () => {
       if (symbol in exDividendDictRef.current) {
         ex_dividend_date = exDividendDictRef.current[symbol]['ex_dividend_date']
         ex_dividend_link = exDividendDictRef.current[symbol]['link']
+      } else if (stock_extra_info != null && stock_extra_info["exDividendDate"] !== undefined && stock_extra_info["exDividendDate"] !== null && stock_extra_info["exDividendDate"] !== '') {
+        ex_dividend_date = stock_extra_info["exDividendDate"]
       }
-
+      
       let stock_short_float = '-'
       if (symbol in StockDictRef.current) {
         stock_short_float = StockDictRef.current[symbol]['Short Float']
