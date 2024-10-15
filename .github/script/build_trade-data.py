@@ -65,7 +65,7 @@ def get_stock_info():
     sys.exit(1)
 
 if __name__ == "__main__":
-    MAX_SCREENER_STOCKS = 10
+    MAX_SCREENER_STOCKS = 5
     DELAY_TIME_SEC = 300
     SCAN_RETRY_CNT = 3
     SEC_RETRY_CNT = 5
