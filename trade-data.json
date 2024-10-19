@@ -170,58 +170,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ACLS",
+         "symbol":"ABNB",
          "type":"put",
-         "expiry":"2024-10-18",
-         "strike":85
-      },
-      {
-         "symbol":"ALGN",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":200
-      },
-      {
-         "symbol":"APTV",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":65
-      },
-      {
-         "symbol":"CE",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":115
+         "expiry":"2024-10-25",
+         "strike":125
       },
       {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2024-11-01",
          "strike":58
-      },
-      {
-         "symbol":"EPAM",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":170
-      },
-      {
-         "symbol":"GLOB",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":180
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":40
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":24
       },
       {
          "symbol":"HAL",
@@ -242,24 +200,6 @@
          "strike":25
       },
       {
-         "symbol":"MPW",
-         "type":"call",
-         "expiry":"2024-10-18",
-         "strike":8
-      },
-      {
-         "symbol":"NICE",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":150
-      },
-      {
-         "symbol":"PAYC",
-         "type":"put",
-         "expiry":"2024-10-18",
-         "strike":150
-      },
-      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2024-10-25",
@@ -276,12 +216,6 @@
          "type":"put",
          "expiry":"2024-10-25",
          "strike":137
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2024-10-18",
-         "strike":160
       },
       {
          "symbol":"VFC",
