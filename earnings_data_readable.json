@@ -242,12 +242,6 @@
         ],
         "similar": "CVS"
     },
-    "CLX": {
-        "earningsDate": [
-            "2024-10-30"
-        ],
-        "similar": "EL"
-    },
     "CMA": {
         "earningsDate": [
             "2024-10-18"
@@ -662,6 +656,12 @@
         ],
         "similar": "SID"
     },
+    "KMB": {
+        "earningsDate": [
+            "2024-10-22"
+        ],
+        "similar": "EL"
+    },
     "KSS": {
         "earningsDate": [
             "2024-11-19",
@@ -846,6 +846,12 @@
         ],
         "similar": "EPAM"
     },
+    "NARI": {
+        "earningsDate": [
+            "2024-10-28"
+        ],
+        "similar": "EW"
+    },
     "NEUE": {
         "earningsDate": [
             "2024-11-07"
@@ -995,12 +1001,6 @@
             "2025-01-16"
         ],
         "similar": "CMA"
-    },
-    "PODD": {
-        "earningsDate": [
-            "2024-11-07"
-        ],
-        "similar": "EW"
     },
     "PPG": {
         "earningsDate": [
