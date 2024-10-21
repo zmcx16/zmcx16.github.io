@@ -176,6 +176,12 @@
          "strike":125
       },
       {
+         "symbol":"CMA",
+         "type":"call",
+         "expiry":"2024-11-08",
+         "strike":70
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2024-11-01",
