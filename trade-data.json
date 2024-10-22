@@ -188,6 +188,12 @@
          "strike":58
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":65
+      },
+      {
          "symbol":"HAL",
          "type":"call",
          "expiry":"2024-11-01",
