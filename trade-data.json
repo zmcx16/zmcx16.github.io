@@ -230,6 +230,18 @@
          "strike":137
       },
       {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2024-11-01",
+         "strike":137
+      },
+      {
+         "symbol":"TGT",
+         "type":"call",
+         "expiry":"2024-11-08",
+         "strike":160
+      },
+      {
          "symbol":"VFC",
          "type":"call",
          "expiry":"2024-10-25",
