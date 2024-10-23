@@ -87,7 +87,7 @@ if __name__ == "__main__":
     scan_output = {"hold_stock_list": [], "star_stock_list": [], "screener_stock_list": [], "data": [], "news": {},
                    "SEC": {}, "Beneish_Model_v1": {}, "indicator_list": []}
     formula_output = {"hold_stock_list": [], "watch_stock_list": [],"portfolio": {}, "KellyFormula_Range_v1": {},
-                      "Factor_Intersectional_v1": {}, "stock_info": {}}
+                      "Factor_Intersectional_v1": [], "stock_info": {}}
 
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
 
