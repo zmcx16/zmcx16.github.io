@@ -756,9 +756,12 @@ function buildHoldTable(data){
   });
 
   let mf_data_dict = {}
-  data["Factor_Intersectional_v1"].forEach((v, i) => {
-    mf_data_dict[v["symbol"]] = {"rank": i+1, "score": v["Score"]};
-  });
+  if ("Factor_Intersectional_v1" in data && data["Factor_Intersectional_v1"].length > 0){
+    data["Factor_Intersectional_v1"].forEach((v, i) => {
+      mf_data_dict[v["symbol"]] = {"rank": i+1, "score": v["Score"]};
+    });
+  }
+
   $(".th-mf_score")[0].innerText = "Multi-Factor\n[Total: " + data["Factor_Intersectional_v1"].length + "]";
 
   let output = "";
