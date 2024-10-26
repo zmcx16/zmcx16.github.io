@@ -19,6 +19,12 @@
         ],
         "similar": "EW"
     },
+    "ACN": {
+        "earningsDate": [
+            "2024-12-19"
+        ],
+        "similar": "EPAM"
+    },
     "ADDYY": {
         "earningsDate": [
             "2024-10-29"
@@ -81,6 +87,12 @@
         ],
         "similar": "ALB"
     },
+    "ATAAY": {
+        "earningsDate": [
+            "2024-10-31"
+        ],
+        "similar": "KSS"
+    },
     "AVY": {
         "earningsDate": [
             "2024-10-23"
@@ -126,13 +138,6 @@
         ],
         "similar": "AAP"
     },
-    "BERY": {
-        "earningsDate": [
-            "2024-11-14",
-            "2024-11-18"
-        ],
-        "similar": "SEE"
-    },
     "BHP": {
         "earningsDate": [
             "2024-08-26"
@@ -171,6 +176,12 @@
         ],
         "similar": "EW"
     },
+    "CBDBY": {
+        "earningsDate": [
+            "2024-11-05"
+        ],
+        "similar": "KSS"
+    },
     "CCK": {
         "earningsDate": [
             "2024-10-17"
@@ -182,12 +193,6 @@
             "2024-10-30"
         ],
         "similar": "EPAM"
-    },
-    "CFG": {
-        "earningsDate": [
-            "2025-01-17"
-        ],
-        "similar": "CMA"
     },
     "CHCT": {
         "earningsDate": [
@@ -366,18 +371,17 @@
         ],
         "similar": "TGT"
     },
-    "DSX": {
-        "earningsDate": [
-            "2024-11-13",
-            "2024-11-18"
-        ],
-        "similar": "DAC"
-    },
     "DXCM": {
         "earningsDate": [
             "2024-10-24"
         ],
         "similar": "EW"
+    },
+    "ECL": {
+        "earningsDate": [
+            "2024-10-29"
+        ],
+        "similar": "ALB"
     },
     "EGP": {
         "earningsDate": [
@@ -454,6 +458,13 @@
         ],
         "similar": "EPAM"
     },
+    "GEF": {
+        "earningsDate": [
+            "2024-12-04",
+            "2024-12-09"
+        ],
+        "similar": "SEE"
+    },
     "GEVO": {
         "earningsDate": [
             "2024-11-07"
@@ -518,7 +529,7 @@
         "earningsDate": [
             "2024-11-28"
         ],
-        "similar": "ZIM"
+        "similar": "DAC"
     },
     "HAL": {
         "earningsDate": [
@@ -571,7 +582,7 @@
     },
     "ICHBF": {
         "earningsDate": [
-            "2024-10-24",
+            "2024-10-25",
             "2024-11-08"
         ],
         "similar": "SID"
@@ -594,6 +605,12 @@
         ],
         "similar": "DIS"
     },
+    "IRTC": {
+        "earningsDate": [
+            "2024-10-30"
+        ],
+        "similar": "EW"
+    },
     "IT": {
         "earningsDate": [
             "2024-11-05"
@@ -606,12 +623,6 @@
             "2024-11-25"
         ],
         "similar": "KSS"
-    },
-    "JKHY": {
-        "earningsDate": [
-            "2024-11-05"
-        ],
-        "similar": "EPAM"
     },
     "JWN": {
         "earningsDate": [
@@ -677,13 +688,6 @@
             "2025-01-27"
         ],
         "similar": "HAL"
-    },
-    "LCMRF": {
-        "earningsDate": [
-            "2024-10-25",
-            "2024-11-02"
-        ],
-        "similar": "KSS"
     },
     "LEVI": {
         "earningsDate": [
@@ -759,12 +763,6 @@
             "2024-11-06"
         ],
         "similar": "KSS"
-    },
-    "MASI": {
-        "earningsDate": [
-            "2024-11-05"
-        ],
-        "similar": "EW"
     },
     "MATX": {
         "earningsDate": [
@@ -1020,8 +1018,7 @@
     },
     "PYPL": {
         "earningsDate": [
-            "2024-10-30",
-            "2024-11-04"
+            "2024-10-29"
         ],
         "similar": "-"
     },
@@ -1259,6 +1256,12 @@
         ],
         "similar": "PYPL"
     },
+    "USB": {
+        "earningsDate": [
+            "2025-01-16"
+        ],
+        "similar": "CMA"
+    },
     "USIM5.SA": {
         "earningsDate": [
             "2024-10-25"
@@ -1313,13 +1316,6 @@
             "2024-11-07"
         ],
         "similar": "DIS"
-    },
-    "WDFC": {
-        "earningsDate": [
-            "2025-01-07",
-            "2025-01-13"
-        ],
-        "similar": "ALB"
     },
     "WELL": {
         "earningsDate": [
