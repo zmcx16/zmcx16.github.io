@@ -170,10 +170,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
+         "symbol":"ADBE",
          "type":"put",
-         "expiry":"2024-10-25",
-         "strike":125
+         "expiry":"2024-11-08",
+         "strike":435
+      },
+      {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-11-22",
+         "strike":180
       },
       {
          "symbol":"CMA",
@@ -186,6 +192,18 @@
          "type":"put",
          "expiry":"2024-11-01",
          "strike":58
+      },
+      {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2024-11-08",
+         "strike":69
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":60
       },
       {
          "symbol":"GIS",
@@ -202,7 +220,7 @@
       {
          "symbol":"KSS",
          "type":"put",
-         "expiry":"2024-10-25",
+         "expiry":"2024-11-08",
          "strike":17
       },
       {
@@ -214,20 +232,14 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2024-10-25",
-         "strike":165
+         "expiry":"2024-11-22",
+         "strike":160
       },
       {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2024-11-15",
          "strike":80
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2024-10-25",
-         "strike":137
       },
       {
          "symbol":"TGT",
@@ -240,12 +252,6 @@
          "type":"call",
          "expiry":"2024-11-08",
          "strike":160
-      },
-      {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2024-10-25",
-         "strike":22.5
       }
    ],
    "news_config":{
