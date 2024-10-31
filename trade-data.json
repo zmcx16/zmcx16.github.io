@@ -230,6 +230,12 @@
          "strike":25
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-11-08",
+         "strike":70
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2024-11-22",
@@ -240,6 +246,12 @@
          "type":"put",
          "expiry":"2024-11-15",
          "strike":80
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":70
       },
       {
          "symbol":"TGT",
