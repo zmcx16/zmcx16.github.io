@@ -261,6 +261,12 @@
       },
       {
          "symbol":"TGT",
+         "type":"put",
+         "expiry":"2024-11-08",
+         "strike":141
+      },
+      {
+         "symbol":"TGT",
          "type":"call",
          "expiry":"2024-11-08",
          "strike":160
