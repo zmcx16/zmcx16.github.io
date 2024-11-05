@@ -254,6 +254,12 @@
          "strike":70
       },
       {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":85
+      },
+      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2024-11-08",
@@ -263,6 +269,12 @@
          "symbol":"TGT",
          "type":"call",
          "expiry":"2024-11-08",
+         "strike":160
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2024-11-15",
          "strike":160
       }
    ],
