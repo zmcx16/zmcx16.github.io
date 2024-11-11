@@ -170,22 +170,22 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ADBE",
-         "type":"put",
-         "expiry":"2024-11-08",
-         "strike":435
-      },
-      {
          "symbol":"ALGN",
          "type":"put",
          "expiry":"2024-11-22",
          "strike":180
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2024-11-15",
+         "strike":83
+      },
+      {
          "symbol":"CMA",
          "type":"call",
-         "expiry":"2024-11-08",
-         "strike":70
+         "expiry":"2024-11-15",
+         "strike":73
       },
       {
          "symbol":"DEO",
@@ -196,8 +196,8 @@
       {
          "symbol":"DG",
          "type":"put",
-         "expiry":"2024-11-08",
-         "strike":69
+         "expiry":"2024-11-22",
+         "strike":68
       },
       {
          "symbol":"EW",
@@ -213,27 +213,9 @@
       },
       {
          "symbol":"KSS",
-         "type":"put",
-         "expiry":"2024-11-08",
-         "strike":17
-      },
-      {
-         "symbol":"KSS",
          "type":"call",
          "expiry":"2024-11-15",
          "strike":25
-      },
-      {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2024-11-08",
-         "strike":14.5
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-11-08",
-         "strike":70
       },
       {
          "symbol":"PEP",
@@ -261,15 +243,9 @@
       },
       {
          "symbol":"TGT",
-         "type":"put",
-         "expiry":"2024-11-08",
-         "strike":141
-      },
-      {
-         "symbol":"TGT",
          "type":"call",
-         "expiry":"2024-11-08",
-         "strike":160
+         "expiry":"2024-11-15",
+         "strike":157.5
       },
       {
          "symbol":"VFC",
