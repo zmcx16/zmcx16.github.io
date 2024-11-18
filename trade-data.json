@@ -183,7 +183,7 @@
       },
       {
          "symbol":"EPAM",
-         "type":"put",
+         "type":"call",
          "expiry":"2024-12-20",
          "strike":270
       },
