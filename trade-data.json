@@ -176,40 +176,16 @@
          "strike":180
       },
       {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":83
-      },
-      {
-         "symbol":"CMA",
-         "type":"call",
-         "expiry":"2024-11-15",
-         "strike":73
-      },
-      {
-         "symbol":"DEO",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":115
-      },
-      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2024-11-22",
          "strike":68
       },
       {
-         "symbol":"EW",
+         "symbol":"EPAM",
          "type":"put",
-         "expiry":"2024-11-15",
-         "strike":60
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":65
+         "expiry":"2024-12-20",
+         "strike":270
       },
       {
          "symbol":"KSS",
@@ -218,10 +194,10 @@
          "strike":16.5
       },
       {
-         "symbol":"KSS",
-         "type":"call",
-         "expiry":"2024-11-15",
-         "strike":25
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2024-11-29",
+         "strike":70
       },
       {
          "symbol":"PEP",
@@ -236,40 +212,10 @@
          "strike":94
       },
       {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":80
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":70
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":85
-      },
-      {
-         "symbol":"TGT",
-         "type":"call",
-         "expiry":"2024-11-15",
-         "strike":157.5
-      },
-      {
          "symbol":"VFC",
          "type":"call",
          "expiry":"2024-11-22",
          "strike":25
-      },
-      {
-         "symbol":"ZTS",
-         "type":"put",
-         "expiry":"2024-11-15",
-         "strike":160
       }
    ],
    "news_config":{
