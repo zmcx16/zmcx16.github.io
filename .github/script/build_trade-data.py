@@ -66,9 +66,9 @@ def get_stock_info():
 
 if __name__ == "__main__":
     MAX_SCREENER_STOCKS = 5
-    DELAY_TIME_SEC = 300
-    SCAN_RETRY_CNT = 3
-    SEC_RETRY_CNT = 5
+    DELAY_TIME_SEC = 240
+    SCAN_RETRY_CNT = 2
+    SEC_RETRY_CNT = 2
     SCAN_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/do-scan"
     SCREENER_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/do-screen"
     SEC_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/get-sec-data"
