@@ -177,6 +177,12 @@
          "strike":180
       },
       {
+         "symbol":"CMA",
+         "type":"call",
+         "expiry":"2024-12-06",
+         "strike":75
+      },
+      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2024-11-22",
@@ -223,6 +229,12 @@
          "type":"call",
          "expiry":"2024-11-22",
          "strike":94
+      },
+      {
+         "symbol":"QCOM",
+         "type":"call",
+         "expiry":"2024-12-06",
+         "strike":135
       },
       {
          "symbol":"VFC",
