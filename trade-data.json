@@ -183,10 +183,22 @@
          "strike":68
       },
       {
+         "symbol":"DIS",
+         "type":"call",
+         "expiry":"2024-11-29",
+         "strike":119
+      },
+      {
          "symbol":"EPAM",
          "type":"call",
          "expiry":"2024-12-20",
          "strike":270
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":62.5
       },
       {
          "symbol":"KSS",
