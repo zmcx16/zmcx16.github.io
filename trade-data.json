@@ -171,22 +171,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ALGN",
-         "type":"put",
-         "expiry":"2024-11-22",
-         "strike":180
-      },
-      {
          "symbol":"CMA",
          "type":"call",
          "expiry":"2024-12-06",
          "strike":75
-      },
-      {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2024-11-22",
-         "strike":68
       },
       {
          "symbol":"DIS",
@@ -207,40 +195,22 @@
          "strike":62.5
       },
       {
-         "symbol":"KSS",
-         "type":"put",
-         "expiry":"2024-11-22",
-         "strike":16.5
-      },
-      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2024-11-29",
          "strike":70
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2024-11-22",
-         "strike":160
-      },
-      {
          "symbol":"PYPL",
          "type":"call",
-         "expiry":"2024-11-22",
-         "strike":94
+         "expiry":"2024-12-06",
+         "strike":95
       },
       {
          "symbol":"QCOM",
          "type":"call",
          "expiry":"2024-12-06",
          "strike":135
-      },
-      {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2024-11-22",
-         "strike":25
       }
    ],
    "news_config":{
