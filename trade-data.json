@@ -171,6 +171,18 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":65
+      },
+      {
+         "symbol":"ALGN",
+         "type":"put",
+         "expiry":"2024-12-06",
+         "strike":210
+      },
+      {
          "symbol":"CMA",
          "type":"call",
          "expiry":"2024-12-06",
@@ -195,10 +207,22 @@
          "strike":62.5
       },
       {
+         "symbol":"M",
+         "type":"put",
+         "expiry":"2024-12-06",
+         "strike":14.5
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2024-11-29",
          "strike":70
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-12-06",
+         "strike":155
       },
       {
          "symbol":"PYPL",
@@ -207,8 +231,14 @@
          "strike":95
       },
       {
+         "symbol":"SEE",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":32.5
+      },
+      {
          "symbol":"QCOM",
-         "type":"call",
+         "type":"put",
          "expiry":"2024-12-06",
          "strike":135
       }
