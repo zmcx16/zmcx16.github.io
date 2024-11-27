@@ -219,6 +219,12 @@
          "strike":70
       },
       {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":7
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2024-12-06",
