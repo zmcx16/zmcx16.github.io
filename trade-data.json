@@ -191,8 +191,8 @@
       {
          "symbol":"DIS",
          "type":"call",
-         "expiry":"2024-11-29",
-         "strike":119
+         "expiry":"2024-12-06",
+         "strike":123
       },
       {
          "symbol":"EPAM",
@@ -213,16 +213,16 @@
          "strike":14.5
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2024-11-29",
-         "strike":70
-      },
-      {
          "symbol":"PAGS",
          "type":"put",
          "expiry":"2024-12-20",
          "strike":7
+      },
+      {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":6
       },
       {
          "symbol":"PEP",
