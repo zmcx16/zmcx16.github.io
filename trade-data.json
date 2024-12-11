@@ -176,6 +176,18 @@
          "strike":65
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":80
+      },
+      {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":75
+      },
+      {
          "symbol":"EPAM",
          "type":"call",
          "expiry":"2024-12-20",
@@ -204,6 +216,18 @@
          "type":"put",
          "expiry":"2024-12-13",
          "strike":150
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":24
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2024-12-20",
+         "strike":96
       },
       {
          "symbol":"QCOM",
