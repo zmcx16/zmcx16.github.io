@@ -170,6 +170,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2024-12-27",
+         "strike":121
+      },
+      {
          "symbol":"ACLS",
          "type":"put",
          "expiry":"2024-12-20",
@@ -198,6 +204,12 @@
          "type":"put",
          "expiry":"2024-12-20",
          "strike":62.5
+      },
+      {
+         "symbol":"LNTH",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":70
       },
       {
          "symbol":"PAGS",
@@ -234,6 +246,12 @@
          "type":"put",
          "expiry":"2024-12-13",
          "strike":144
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2024-12-20",
+         "strike":140
       },
       {
          "symbol":"SEE",
