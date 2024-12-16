@@ -590,7 +590,7 @@ const Options = () => {
             }
 
             // filter by options_filter
-            // e.g. {"star_list":{"-1":{"priceStrikeYearRatio":{">":0.05}}}}
+            // e.g. {"star_all_list":{"-1":{"priceStrikeYearRatio":{"<":0.05}}}, "star_hold_list":{"1":{"priceStrikeYearRatio":{"<":0.05}}}}
             if (typeof(options_filter) === 'object') {
               if (Options_Def[arg_index].name in options_filter) {
                 let filter_table = options_filter[Options_Def[arg_index].name]
