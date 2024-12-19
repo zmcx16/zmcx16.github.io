@@ -13,6 +13,7 @@
       "AAP",
       "PYPL",
       "EPAM",
+      "PAGS",
       "EW",
       "DAC",
       "ZIM",
@@ -183,6 +184,12 @@
          "strike":80
       },
       {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2024-12-27",
+         "strike":40
+      },
+      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2024-12-20",
@@ -227,14 +234,14 @@
       {
          "symbol":"PAGS",
          "type":"put",
-         "expiry":"2024-12-20",
-         "strike":7
-      },
-      {
-         "symbol":"PAGS",
-         "type":"put",
          "expiry":"2025-01-17",
          "strike":6
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2024-12-27",
+         "strike":148
       },
       {
          "symbol":"PFE",
@@ -267,6 +274,12 @@
          "strike":140
       },
       {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":80
+      },
+      {
          "symbol":"SEE",
          "type":"put",
          "expiry":"2024-12-20",
@@ -277,6 +290,12 @@
          "type":"call",
          "expiry":"2025-01-17",
          "strike":40
+      },
+      {
+         "symbol":"VFC",
+         "type":"call",
+         "expiry":"2025-01-17",
+         "strike":27.5
       }
    ],
    "news_config":{
@@ -401,6 +420,7 @@
          "GLOB":"Globant S.A.",
          "HAL":"Halliburton Company",
          "EW":"Edwards Lifesciences Corporation",
+         "PAGS":"PagSeguro Digital Ltd.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -885,107 +905,113 @@
       "GLOB":"1557860",
       "HAL":"45012",
       "EW":"1099800",
+      "PAGS":"1712807",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":14.410286977558082,
+         "position_%":14.398929959884754,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.817544065235592,
+         "position_%":7.81138291200879,
          "profit_%":0
       },
       "CVS":{
          "cost_p":65.41,
-         "position_%":5.896172468227847,
+         "position_%":5.891525584024157,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.951486831979142,
+         "position_%":4.947584472258782,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.25,
-         "position_%":6.456403501556636,
+         "position_%":6.451315088759062,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":250,
-         "position_%":2.81692997450115,
+         "position_%":2.8147098991095385,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.5,
-         "position_%":2.9577764732262075,
+         "position_%":2.9554453940650154,
          "profit_%":0
       },
       "GIS":{
          "cost_p":65,
-         "position_%":2.929607173481196,
+         "position_%":2.92729829507392,
          "profit_%":0
       },
       "HAL":{
          "cost_p":35,
-         "position_%":2.760591375011127,
+         "position_%":2.7584157011273476,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":3.8851098208319863,
+         "position_%":3.882047892851875,
          "profit_%":0
       },
       "KSS":{
          "cost_p":22.03,
-         "position_%":6.4539246031790745,
+         "position_%":6.448838144047846,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.87441562787679,
+         "position_%":4.870574009419145,
          "profit_%":0
       },
       "NKE":{
          "cost_p":75.5,
-         "position_%":3.402851409197389,
+         "position_%":3.4001695581243228,
+         "profit_%":0
+      },
+      "PAGS":{
+         "cost_p":7,
+         "position_%":0.07881187717506707,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":4.620215866977806,
+         "position_%":4.6165745881235,
          "profit_%":0
       },
       "SEE":{
          "cost_p":37.16,
-         "position_%":5.861918599737912,
+         "position_%":5.8572987116509845,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.580881383585862,
+         "position_%":3.578059223748045,
          "profit_%":0
       },
       "TGT":{
          "cost_p":135.71,
-         "position_%":1.5291422673582042,
+         "position_%":1.5279371216326216,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.753830743072324,
+         "position_%":2.7516603973694846,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.4828319385774054,
+         "position_%":1.481663290891261,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":10.55807889882827,
+         "position_%":10.549757878654479,
          "profit_%":0
       }
    }
