@@ -178,6 +178,12 @@
          "strike":65
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2024-12-27",
+         "strike":145
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2024-12-20",
