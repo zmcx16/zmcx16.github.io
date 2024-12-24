@@ -203,6 +203,12 @@
          "strike":71
       },
       {
+         "symbol":"NXPI",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":185
+      },
+      {
          "symbol":"PAGS",
          "type":"put",
          "expiry":"2025-01-17",
@@ -237,6 +243,12 @@
          "type":"call",
          "expiry":"2025-01-17",
          "strike":40
+      },
+      {
+         "symbol":"TEN",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":15
       },
       {
          "symbol":"VFC",
