@@ -197,10 +197,22 @@
          "strike":65
       },
       {
+         "symbol":"M",
+         "type":"put",
+         "expiry":"2025-01-24",
+         "strike":15
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2025-01-13",
          "strike":71
+      },
+      {
+         "symbol":"NVO",
+         "type":"call",
+         "expiry":"2025-01-03",
+         "strike":95
       },
       {
          "symbol":"NXPI",
