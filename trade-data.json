@@ -168,6 +168,18 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-01-10",
+         "strike":120
+      },
+      {
+         "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":60
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2025-01-10",
@@ -222,6 +234,12 @@
          "strike":6
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-01-10",
+         "strike":145
+      },
+      {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2025-01-17",
@@ -256,6 +274,12 @@
          "type":"put",
          "expiry":"2025-01-17",
          "strike":15
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":180
       },
       {
          "symbol":"VFC",
