@@ -252,6 +252,12 @@
          "strike":95
       },
       {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2025-01-17",
+         "strike":95
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2025-01-24",
