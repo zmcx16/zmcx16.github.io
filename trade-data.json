@@ -180,16 +180,34 @@
          "strike":60
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":155
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2025-01-10",
          "strike":640
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2025-01-17",
+         "strike":77.5
+      },
+      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2025-01-17",
          "strike":65
+      },
+      {
+         "symbol":"EPAM",
+         "type":"call",
+         "expiry":"2025-01-17",
+         "strike":250
       },
       {
          "symbol":"EW",
