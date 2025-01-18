@@ -7,6 +7,7 @@
       "KSS",
       "TGT",
       "NKE",
+      "PVH",
       "VFC",
       "MPW",
       "NVO",
@@ -169,70 +170,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ACLS",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":60
-      },
-      {
-         "symbol":"AMAT",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":155
-      },
-      {
-         "symbol":"APTV",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":55
-      },
-      {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":77.5
-      },
-      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2025-01-24",
          "strike":38
-      },
-      {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":65
-      },
-      {
-         "symbol":"EPAM",
-         "type":"call",
-         "expiry":"2025-01-17",
-         "strike":250
-      },
-      {
-         "symbol":"EW",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":65
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":60
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":45
-      },
-      {
-         "symbol":"HAS",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":52.5
       },
       {
          "symbol":"M",
@@ -241,82 +182,10 @@
          "strike":15
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":67.5
-      },
-      {
-         "symbol":"NXPI",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":185
-      },
-      {
-         "symbol":"PAGS",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":6
-      },
-      {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":95
-      },
-      {
-         "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2025-01-17",
-         "strike":95
-      },
-      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2025-01-24",
          "strike":135
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":80
-      },
-      {
-         "symbol":"SEE",
-         "type":"call",
-         "expiry":"2025-01-17",
-         "strike":40
-      },
-      {
-         "symbol":"TEN",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":15
-      },
-      {
-         "symbol":"TM",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":180
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":17.5
-      },
-      {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2025-01-17",
-         "strike":27.5
-      },
-      {
-         "symbol":"ZTS",
-         "type":"put",
-         "expiry":"2025-01-17",
-         "strike":150
       }
    ],
    "news_config":{
@@ -443,6 +312,7 @@
          "EW":"Edwards Lifesciences Corporation",
          "PAGS":"PagSeguro Digital Ltd.",
          "NVO":"Novo Nordisk A/S",
+         "PVH":"PVH Corp",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -929,127 +799,133 @@
       "EW":"1099800",
       "PAGS":"1712807",
       "NVO":"353278",
+      "PVH":"78239",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.013840115678576,
+         "position_%":12.647062022916803,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.059975191381499,
+         "position_%":6.860999008131738,
          "profit_%":0
       },
       "CVS":{
          "cost_p":65.41,
-         "position_%":5.324796509291021,
+         "position_%":5.174724071742831,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.471656814789111,
+         "position_%":4.345629005669373,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.25,
-         "position_%":5.830737654456037,
+         "position_%":5.666405926289256,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":250,
-         "position_%":2.5439518562199117,
+         "position_%":2.47225389454156,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.5,
-         "position_%":2.671149449030907,
+         "position_%":2.5958665892686383,
          "profit_%":0
       },
       "GGB":{
          "cost_p":2.9,
-         "position_%":2.3607873225720777,
+         "position_%":2.2942516141345677,
          "profit_%":0
       },
       "GIS":{
          "cost_p":65,
-         "position_%":2.645709930468708,
+         "position_%":2.5711440503232224,
          "profit_%":0
       },
       "HAL":{
          "cost_p":35,
-         "position_%":2.4930728190955134,
+         "position_%":2.422808816650729,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.24,
-         "position_%":3.5086184000985017,
+         "position_%":3.4097325713517193,
          "profit_%":0
       },
       "KSS":{
          "cost_p":22.03,
-         "position_%":5.828498976822563,
+         "position_%":5.664230342862059,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.402054292002934,
+         "position_%":4.277988139114716,
          "profit_%":0
       },
       "NKE":{
          "cost_p":75.5,
-         "position_%":3.0730938423136527,
+         "position_%":2.9864827046062046,
          "profit_%":0
       },
       "NVO":{
          "cost_p":90,
-         "position_%":2.747468004717504,
+         "position_%":2.670034206104885,
          "profit_%":0
       },
       "PAGS":{
          "cost_p":7,
-         "position_%":0.07123065197415752,
+         "position_%":0.06922310904716368,
          "profit_%":0
       },
       "PEP":{
          "cost_p":145,
-         "position_%":5.901968306430194,
+         "position_%":5.735629035336419,
+         "profit_%":0
+      },
+      "PVH":{
+         "cost_p":95,
+         "position_%":2.8183694397773786,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.34,
-         "position_%":2.7816587176651,
+         "position_%":2.7032612984475235,
          "profit_%":0
       },
       "SEE":{
          "cost_p":37.16,
-         "position_%":5.293862054719386,
+         "position_%":5.144661464385204,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.2338715996267515,
+         "position_%":3.142729150741231,
          "profit_%":0
       },
       "TGT":{
          "cost_p":135.71,
-         "position_%":1.3809588256304166,
+         "position_%":1.3420383041129404,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.4869673346405854,
+         "position_%":2.416875407303829,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.3391362571141614,
+         "position_%":1.3013944500866772,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.534935073260725,
+         "position_%":9.26620537705333,
          "profit_%":0
       }
    }
