@@ -170,6 +170,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-01-31",
+         "strike":122
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2025-01-24",
@@ -186,6 +192,18 @@
          "type":"put",
          "expiry":"2025-01-24",
          "strike":135
+      },
+      {
+         "symbol":"PVH",
+         "type":"call",
+         "expiry":"2025-03-21",
+         "strike":110
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-01-31",
+         "strike":150
       }
    ],
    "news_config":{
