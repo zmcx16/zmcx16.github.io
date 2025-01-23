@@ -176,6 +176,12 @@
          "strike":122
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2025-01-31",
+         "strike":177.5
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2025-01-24",
@@ -192,6 +198,12 @@
          "type":"put",
          "expiry":"2025-01-31",
          "strike":69
+      },
+      {
+         "symbol":"NXPI",
+         "type":"put",
+         "expiry":"2025-01-31",
+         "strike":200
       },
       {
          "symbol":"PYPL",
