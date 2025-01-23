@@ -188,16 +188,28 @@
          "strike":15
       },
       {
-         "symbol":"QCOM",
+         "symbol":"NKE",
          "type":"put",
-         "expiry":"2025-01-24",
-         "strike":135
+         "expiry":"2025-01-31",
+         "strike":69
+      },
+      {
+         "symbol":"PYPL",
+         "type":"call",
+         "expiry":"2025-01-31",
+         "strike":96
       },
       {
          "symbol":"PVH",
          "type":"call",
          "expiry":"2025-03-21",
          "strike":110
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-01-24",
+         "strike":135
       },
       {
          "symbol":"QCOM",
