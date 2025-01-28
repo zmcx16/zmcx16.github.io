@@ -182,6 +182,12 @@
          "strike":177.5
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2025-02-07",
+         "strike":145
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2025-01-24",
