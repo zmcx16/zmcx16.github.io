@@ -188,6 +188,12 @@
          "strike":145
       },
       {
+         "symbol":"BUD",
+         "type":"put",
+         "expiry":"2025-02-14",
+         "strike":45
+      },
+      {
          "symbol":"CVS",
          "type":"put",
          "expiry":"2025-01-24",
@@ -216,6 +222,12 @@
          "type":"call",
          "expiry":"2025-01-31",
          "strike":96
+      },
+      {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2025-02-21",
+         "strike":80
       },
       {
          "symbol":"PVH",
