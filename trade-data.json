@@ -194,6 +194,12 @@
          "strike":45
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2025-02-21",
+         "strike":55
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2025-02-07",
@@ -210,6 +216,12 @@
          "type":"call",
          "expiry":"2025-03-21",
          "strike":110
+      },
+      {
+         "symbol":"VFC",
+         "type":"call",
+         "expiry":"2025-03-07",
+         "strike":28.5
       }
    ],
    "news_config":{
