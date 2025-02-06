@@ -188,6 +188,12 @@
          "strike":47.5
       },
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2025-02-14",
+         "strike":650
+      },
+      {
          "symbol":"BUD",
          "type":"put",
          "expiry":"2025-02-14",
@@ -216,6 +222,12 @@
          "type":"call",
          "expiry":"2025-03-21",
          "strike":110
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-02-14",
+         "strike":124
       },
       {
          "symbol":"VFC",
