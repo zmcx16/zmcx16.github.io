@@ -170,18 +170,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2025-02-07",
-         "strike":118
-      },
-      {
-         "symbol":"AMAT",
-         "type":"put",
-         "expiry":"2025-02-07",
-         "strike":145
-      },
-      {
          "symbol":"APTV",
          "type":"put",
          "expiry":"2025-02-27",
@@ -200,16 +188,16 @@
          "strike":45
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2025-03-07",
+         "strike":102
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2025-02-21",
          "strike":55
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-02-07",
-         "strike":72
       },
       {
          "symbol":"PVH",
@@ -228,6 +216,12 @@
          "type":"put",
          "expiry":"2025-02-14",
          "strike":124
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-02-21",
+         "strike":120
       },
       {
          "symbol":"VFC",
