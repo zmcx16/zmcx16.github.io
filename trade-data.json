@@ -178,7 +178,7 @@
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2025-02-14",
+         "expiry":"2025-02-28",
          "strike":650
       },
       {
@@ -204,6 +204,12 @@
          "type":"put",
          "expiry":"2025-02-21",
          "strike":55
+      },
+      {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2025-03-28",
+         "strike":23
       },
       {
          "symbol":"PVH",
