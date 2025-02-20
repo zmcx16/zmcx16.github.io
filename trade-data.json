@@ -176,6 +176,12 @@
          "strike":47.5
       },
       {
+         "symbol":"APTV",
+         "type":"put",
+         "expiry":"2025-03-21",
+         "strike":60
+      },
+      {
          "symbol":"ASML",
          "type":"put",
          "expiry":"2025-02-28",
@@ -210,6 +216,12 @@
          "type":"put",
          "expiry":"2025-03-28",
          "strike":23
+      },
+      {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2025-03-07",
+         "strike":10.5
       },
       {
          "symbol":"PVH",
