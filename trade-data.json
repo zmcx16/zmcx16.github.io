@@ -254,6 +254,12 @@
          "strike":120
       },
       {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2025-03-28",
+         "strike":9
+      },
+      {
          "symbol":"VFC",
          "type":"call",
          "expiry":"2025-03-07",
