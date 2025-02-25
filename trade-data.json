@@ -170,10 +170,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"APTV",
+         "symbol":"ADBE",
          "type":"put",
-         "expiry":"2025-02-27",
-         "strike":47.5
+         "expiry":"2025-03-07",
+         "strike":410
       },
       {
          "symbol":"APTV",
@@ -188,12 +188,6 @@
          "strike":650
       },
       {
-         "symbol":"BUD",
-         "type":"put",
-         "expiry":"2025-02-14",
-         "strike":45
-      },
-      {
          "symbol":"DG",
          "type":"put",
          "expiry":"2025-03-07",
@@ -204,12 +198,6 @@
          "type":"put",
          "expiry":"2025-03-07",
          "strike":102
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2025-02-21",
-         "strike":55
       },
       {
          "symbol":"HAL",
@@ -224,10 +212,10 @@
          "strike":10.5
       },
       {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2025-02-21",
-         "strike":80
+         "symbol":"NKE",
+         "type":"call",
+         "expiry":"2025-03-07",
+         "strike":88
       },
       {
          "symbol":"PVH",
@@ -242,16 +230,10 @@
          "strike":88
       },
       {
-         "symbol":"TGT",
+         "symbol":"VALE",
          "type":"put",
-         "expiry":"2025-02-14",
-         "strike":124
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2025-02-21",
-         "strike":120
+         "expiry":"2025-03-14",
+         "strike":9.5
       },
       {
          "symbol":"VALE",
