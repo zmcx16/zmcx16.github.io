@@ -176,6 +176,12 @@
          "strike":410
       },
       {
+         "symbol":"ANSS",
+         "type":"put",
+         "expiry":"2025-03-21",
+         "strike":300
+      },
+      {
          "symbol":"APTV",
          "type":"put",
          "expiry":"2025-03-21",
