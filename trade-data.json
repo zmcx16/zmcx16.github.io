@@ -176,6 +176,12 @@
          "strike":410
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2025-02-28",
+         "strike":157.5
+      },
+      {
          "symbol":"ANSS",
          "type":"put",
          "expiry":"2025-03-21",
