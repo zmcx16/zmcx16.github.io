@@ -236,6 +236,12 @@
          "strike":88
       },
       {
+         "symbol":"NVO",
+         "type":"call",
+         "expiry":"2025-03-14",
+         "strike":105
+      },
+      {
          "symbol":"PVH",
          "type":"call",
          "expiry":"2025-03-21",
