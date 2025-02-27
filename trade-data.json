@@ -242,6 +242,12 @@
          "strike":105
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-03-07",
+         "strike":140
+      },
+      {
          "symbol":"PVH",
          "type":"call",
          "expiry":"2025-03-21",
