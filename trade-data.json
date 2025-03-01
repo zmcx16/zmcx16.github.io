@@ -260,6 +260,12 @@
          "strike":88
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-03-07",
+         "strike":135
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2025-03-14",
