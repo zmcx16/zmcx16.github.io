@@ -170,18 +170,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ADBE",
-         "type":"put",
-         "expiry":"2025-03-07",
-         "strike":410
-      },
-      {
-         "symbol":"AMAT",
-         "type":"put",
-         "expiry":"2025-02-28",
-         "strike":157.5
-      },
-      {
          "symbol":"ANSS",
          "type":"put",
          "expiry":"2025-03-21",
@@ -196,25 +184,25 @@
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2025-02-28",
-         "strike":650
+         "expiry":"2025-03-21",
+         "strike":600
       },
       {
-         "symbol":"DG",
+         "symbol":"CNMD",
          "type":"put",
-         "expiry":"2025-03-07",
-         "strike":63
+         "expiry":"2025-03-21",
+         "strike":55
       },
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2025-03-07",
-         "strike":102
+         "expiry":"2025-03-21",
+         "strike":90
       },
       {
          "symbol":"GM",
          "type":"put",
-         "expiry":"2025-03-07",
+         "expiry":"2025-03-21",
          "strike":41
       },
       {
@@ -224,16 +212,10 @@
          "strike":23
       },
       {
-         "symbol":"KSS",
+         "symbol":"M",
          "type":"put",
-         "expiry":"2025-03-07",
-         "strike":10.5
-      },
-      {
-         "symbol":"NKE",
-         "type":"call",
-         "expiry":"2025-03-07",
-         "strike":88
+         "expiry":"2025-04-17",
+         "strike":11
       },
       {
          "symbol":"NVO",
@@ -244,7 +226,7 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-03-07",
+         "expiry":"2025-03-21",
          "strike":140
       },
       {
@@ -255,15 +237,33 @@
       },
       {
          "symbol":"PYPL",
-         "type":"call",
-         "expiry":"2025-02-28",
-         "strike":88
+         "type":"put",
+         "expiry":"2025-03-21",
+         "strike":57.5
       },
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2025-03-07",
-         "strike":135
+         "expiry":"2025-03-21",
+         "strike":130
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2025-03-21",
+         "strike":85
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-03-21",
+         "strike":100
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2025-04-17",
+         "strike":155
       },
       {
          "symbol":"VALE",
@@ -276,12 +276,6 @@
          "type":"put",
          "expiry":"2025-03-28",
          "strike":9
-      },
-      {
-         "symbol":"VFC",
-         "type":"call",
-         "expiry":"2025-03-07",
-         "strike":28.5
       }
    ],
    "news_config":{
