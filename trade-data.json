@@ -170,6 +170,24 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ANSS",
+         "type":"put",
+         "expiry":"2025-04-17",
+         "strike":290
+      },
+      {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":94
+      },
+      {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":45
+      },
+      {
          "symbol":"HAL",
          "type":"put",
          "expiry":"2025-03-28",
@@ -180,6 +198,30 @@
          "type":"put",
          "expiry":"2025-04-17",
          "strike":11
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2025-04-11",
+         "strike":24
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":145
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":88
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":98
       },
       {
          "symbol":"TM",
