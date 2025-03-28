@@ -177,9 +177,15 @@
       },
       {
          "symbol":"CVS",
-         "type":"put",
+         "type":"call",
          "expiry":"2025-04-04",
          "strike":73
+      },
+      {
+         "symbol":"DG",
+         "type":"put",
+         "expiry":"2025-04-04",
+         "strike":74
       },
       {
          "symbol":"DIS",
