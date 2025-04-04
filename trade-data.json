@@ -176,6 +176,18 @@
          "strike":290
       },
       {
+         "symbol":"APTV",
+         "type":"put",
+         "expiry":"2025-05-16",
+         "strike":47.5
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2025-04-11",
+         "strike":575
+      },
+      {
          "symbol":"CVS",
          "type":"call",
          "expiry":"2025-04-04",
@@ -218,6 +230,12 @@
          "strike":24
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-04-11",
+         "strike":58
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2025-04-04",
@@ -228,6 +246,12 @@
          "type":"put",
          "expiry":"2025-04-04",
          "strike":88
+      },
+      {
+         "symbol":"TEN",
+         "type":"put",
+         "expiry":"2025-04-17",
+         "strike":15
       },
       {
          "symbol":"TGT",
