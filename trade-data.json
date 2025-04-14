@@ -4,14 +4,19 @@
       "EL",
       "KSS",
       "TGT",
+      "DIS",
       "NKE",
       "PVH",
       "VFC",
+      "SBUX",
       "MPW",
       "NVO",
+      "PFE",
       "ILPT",
       "AAP",
+      "GM",
       "PYPL",
+      "QCOM",
       "EPAM",
       "PAGS",
       "EW",
@@ -179,70 +184,10 @@
          "strike":47.5
       },
       {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2025-04-11",
-         "strike":575
-      },
-      {
-         "symbol":"CVS",
-         "type":"call",
-         "expiry":"2025-04-04",
-         "strike":73
-      },
-      {
-         "symbol":"DG",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":74
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":94
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":45
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2025-03-28",
-         "strike":23
-      },
-      {
          "symbol":"M",
          "type":"put",
          "expiry":"2025-04-17",
          "strike":11
-      },
-      {
-         "symbol":"PFE",
-         "type":"put",
-         "expiry":"2025-04-11",
-         "strike":24
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-04-11",
-         "strike":58
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":145
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":88
       },
       {
          "symbol":"TEN",
@@ -251,22 +196,10 @@
          "strike":15
       },
       {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2025-04-04",
-         "strike":98
-      },
-      {
          "symbol":"TM",
          "type":"put",
          "expiry":"2025-04-17",
          "strike":155
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2025-03-28",
-         "strike":9
       }
    ],
    "news_config":{
@@ -394,6 +327,7 @@
          "PAGS":"PagSeguro Digital Ltd.",
          "NVO":"Novo Nordisk A/S",
          "PVH":"PVH Corp",
+         "PFE":"Pfizer Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -881,117 +815,143 @@
       "PAGS":"1712807",
       "NVO":"353278",
       "PVH":"78239",
+      "PFE":"78003",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.407824743197539,
+         "position_%":11.442882221255896,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.273710850598524,
+         "position_%":6.207734525848262,
          "profit_%":0
       },
       "DAC":{
          "cost_p":73.24,
-         "position_%":4.607033001134355,
+         "position_%":3.9318634477353136,
+         "profit_%":0
+      },
+      "DIS":{
+         "cost_p":93.9,
+         "position_%":2.520494113478604,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":5.99803322548923,
+         "position_%":5.119009911975076,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.6066052591298803,
+         "position_%":2.224602241512905,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.4,
-         "position_%":2.748871411108292,
+         "position_%":2.346019015101491,
          "profit_%":0
       },
       "GGB":{
          "cost_p":2.9,
-         "position_%":2.4322584568158803,
+         "position_%":2.0758062986405257,
+         "profit_%":0
+      },
+      "GM":{
+         "cost_p":44.92,
+         "position_%":2.4115142827999767,
          "profit_%":0
       },
       "HAL":{
          "cost_p":34.9,
-         "position_%":2.561210090517757,
+         "position_%":2.1858598222322434,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.606452194589064,
+         "position_%":3.0779196841911243,
          "profit_%":0
       },
       "KSS":{
          "cost_p":21.98,
-         "position_%":5.991323546987669,
+         "position_%":5.11328354977193,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.535323312148922,
+         "position_%":3.8706629516891877,
          "profit_%":0
       },
       "NKE":{
          "cost_p":73.71,
-         "position_%":6.18213002937581,
+         "position_%":5.276126974923901,
          "profit_%":0
       },
       "NVO":{
          "cost_p":89.89,
-         "position_%":2.8271859398687,
+         "position_%":2.4128563989413387,
          "profit_%":0
       },
       "PAGS":{
          "cost_p":6.91,
-         "position_%":0.07244356007154196,
+         "position_%":0.06182681691209497,
+         "profit_%":0
+      },
+      "PFE":{
+         "cost_p":24,
+         "position_%":2.147385826179854,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.491452498621371,
+         "position_%":4.686669565637533,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.8528714278824885,
+         "position_%":2.434777629250258,
+         "profit_%":0
+      },
+      "QCOM":{
+         "cost_p":144.74,
+         "position_%":2.5901052040106007,
+         "profit_%":0
+      },
+      "SBUX":{
+         "cost_p":87.91,
+         "position_%":2.3597085997433878,
          "profit_%":0
       },
       "SEE":{
          "cost_p":34.36,
-         "position_%":8.285194884708853,
+         "position_%":7.070983627972563,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.331774730931408,
+         "position_%":2.843496731499824,
          "profit_%":0
       },
       "TGT":{
-         "cost_p":135.71,
-         "position_%":1.422766358510703,
+         "cost_p":107.3,
+         "position_%":3.840241652484973,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.5622584777836255,
+         "position_%":2.186754566326485,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.3796776418834906,
+         "position_%":1.1774832280219534,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":9.823598358644897,
+         "position_%":8.383931111862696,
          "profit_%":0
       }
    }
