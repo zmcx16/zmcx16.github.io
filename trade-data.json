@@ -4,7 +4,6 @@
       "EL",
       "KSS",
       "TGT",
-      "DIS",
       "NKE",
       "PVH",
       "VFC",
@@ -14,7 +13,6 @@
       "PFE",
       "ILPT",
       "AAP",
-      "GM",
       "PYPL",
       "QCOM",
       "EPAM",
@@ -646,127 +644,117 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":11.342763611271986,
+         "position_%":11.925798759955649,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":6.153420434358046,
-         "profit_%":0
-      },
-      "DIS":{
-         "cost_p":93.9,
-         "position_%":2.498441245832605,
+         "position_%":6.4697155208829695,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":5.074221532004793,
+         "position_%":5.335044168070863,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.205138256838341,
+         "position_%":2.3184856874562305,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.4,
-         "position_%":2.325492703788815,
+         "position_%":2.4450265344126763,
          "profit_%":0
       },
       "GGB":{
          "cost_p":2.9,
-         "position_%":2.0576441925209954,
-         "profit_%":0
-      },
-      "GM":{
-         "cost_p":44.92,
-         "position_%":2.390414925725253,
+         "position_%":2.1634102058876463,
          "profit_%":0
       },
       "HAL":{
          "cost_p":34.9,
-         "position_%":2.166734811348617,
+         "position_%":2.278108246975655,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.0509896647725103,
+         "position_%":3.2078151328678897,
          "profit_%":0
       },
       "KSS":{
          "cost_p":11.63,
-         "position_%":9.902235293387248,
+         "position_%":10.411225114954481,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":3.836796886571477,
+         "position_%":4.034014030461189,
          "profit_%":0
       },
       "NKE":{
          "cost_p":73.71,
-         "position_%":5.2299639114042265,
+         "position_%":5.498791940550979,
          "profit_%":0
       },
       "NVO":{
          "cost_p":89.89,
-         "position_%":2.39174529912559,
+         "position_%":2.514684613024662,
          "profit_%":0
       },
       "PFE":{
          "cost_p":24,
-         "position_%":2.128597440538961,
+         "position_%":2.2380105578148064,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":4.645663913976282,
+         "position_%":4.884458042430815,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.4134747313310916,
+         "position_%":2.537530970802355,
          "profit_%":0
       },
       "QCOM":{
          "cost_p":144.74,
-         "position_%":2.567443279530077,
+         "position_%":2.6994137344842923,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":87.91,
-         "position_%":2.3390625124722506,
+         "position_%":2.4592938517187455,
          "profit_%":0
       },
       "SEE":{
          "cost_p":34.36,
-         "position_%":7.009116605454708,
+         "position_%":7.369395765124522,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":2.818617777513674,
+         "position_%":2.9634989803064395,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":3.8066417561638413,
+         "position_%":4.002308880892145,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.167621726948842,
+         "position_%":2.279040751374745,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.1671809298955302,
+         "position_%":1.2271757892017854,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":40.74,
-         "position_%":8.310576557224238,
+         "position_%":8.737752720348459,
          "profit_%":0
       }
    }
