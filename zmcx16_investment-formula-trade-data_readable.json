@@ -1,444 +1,212 @@
 {
-    "Factor_Intersectional_v1": [
-        {
-            "52W Range": "10.64 - 19.22",
-            "Dividend %": "-",
-            "Insider Own": 0.1449,
-            "Insider Trans": 0.0,
-            "Inst Own": 0.5986,
-            "Inst Trans": 0.0028000000000000004,
-            "Market Cap": 788540000.0,
-            "P/B": 1.02,
-            "P/E": 10.24,
-            "P/FCF": 8.36,
-            "P/S": 1.53,
-            "Price": 15.99,
-            "ROA": 0.010400000000000001,
-            "ROE": 0.106,
-            "ROI": 0.091,
-            "Score": 52.5,
-            "ShareOutstandingHalfYear": 0.0,
-            "ShareOutstandingOneYear": 0.00015637116013504318,
-            "Short Float": 0.0068000000000000005,
-            "Short Ratio": 1.21,
-            "Target Price": 20.58,
-            "eps_q_data": {
-                "2023-09-30": 0.34,
-                "2023-12-31": 0.35,
-                "2024-03-31": 0.36,
-                "2024-06-30": 0.37,
-                "2024-09-30": 0.39
-            },
-            "symbol": "CFB"
-        },
-        {
-            "52W Range": "19.45 - 31.79",
-            "Dividend %": 0.0166,
-            "Insider Own": 0.1077,
-            "Insider Trans": -0.0002,
-            "Inst Own": 0.8959,
-            "Inst Trans": -0.06,
-            "Market Cap": 2770000000.0,
-            "P/B": 2.8,
-            "P/E": 20.21,
-            "P/FCF": "-",
-            "P/S": 0.43,
-            "Price": 31.33,
-            "ROA": 0.0481,
-            "ROE": 0.14150000000000001,
-            "ROI": 0.0985,
-            "Score": 47.7,
-            "ShareOutstandingHalfYear": 0.001789030300285339,
-            "ShareOutstandingOneYear": 0.008135824977210574,
-            "Short Float": 0.0353,
-            "Short Ratio": 1.68,
-            "Target Price": 31.35,
-            "eps_q_data": {
-                "2024-01-31": 0.52,
-                "2024-04-30": 0.75,
-                "2024-07-31": 0.16,
-                "2024-10-31": 0.3,
-                "2025-01-31": 0.35
-            },
-            "symbol": "PDCO"
-        },
-        {
-            "52W Range": "11.69 - 22.49",
-            "Dividend %": "-",
-            "Insider Own": 0.2261,
-            "Insider Trans": 0.0,
-            "Inst Own": 0.9153,
-            "Inst Trans": -0.0762,
-            "Market Cap": 1330000000.0,
-            "P/B": 1.0,
-            "P/E": 55.88,
-            "P/FCF": 6.61,
-            "P/S": 0.68,
-            "Price": 22.48,
-            "ROA": 0.0068000000000000005,
-            "ROE": 0.0192,
-            "ROI": 0.0089,
-            "Score": 33.2,
-            "ShareOutstandingHalfYear": 0.001985602047107611,
-            "ShareOutstandingOneYear": 0.002539728639458756,
-            "Short Float": 0.06620000000000001,
-            "Short Ratio": 2.53,
-            "Target Price": 22.5,
-            "eps_q_data": {
-                "2023-12-31": -0.24,
-                "2024-03-31": 0.13,
-                "2024-06-30": 0.11,
-                "2024-09-30": -0.05
-            },
-            "symbol": "ATSG"
-        },
-        {
-            "52W Range": "32.03 - 70.27",
-            "Dividend %": 0.0232,
-            "Insider Own": 0.0181,
-            "Insider Trans": -0.0553,
-            "Inst Own": 0.7682,
-            "Inst Trans": 0.024,
-            "Market Cap": 2770000000.0,
-            "P/B": 1.37,
-            "P/E": 36.32,
-            "P/FCF": 14.66,
-            "P/S": 2.79,
-            "Price": 64.67,
-            "ROA": 0.0044,
-            "ROE": 0.043,
-            "ROI": 0.0256,
-            "Score": 32.5,
-            "ShareOutstandingHalfYear": 0.0,
-            "ShareOutstandingOneYear": 0.004601647569735552,
-            "Short Float": 0.0126,
-            "Short Ratio": 1.84,
-            "Target Price": 70.5,
-            "eps_q_data": {
-                "2023-09-30": 1.080216,
-                "2023-12-31": -1.695441,
-                "2024-03-31": 1.16,
-                "2024-06-30": 0.88,
-                "2024-09-30": 1.45
-            },
-            "symbol": "HTLF"
-        },
-        {
-            "52W Range": "19.52 - 39.55",
-            "Dividend %": 0.0608,
-            "Insider Own": 0.0371,
-            "Insider Trans": -0.0004,
-            "Inst Own": 0.7106,
-            "Inst Trans": "-",
-            "Market Cap": 1260000000.0,
-            "P/B": 0.81,
-            "P/E": 63.44,
-            "P/FCF": 18.67,
-            "P/S": 1.68,
-            "Price": 27.95,
-            "ROA": 0.0014000000000000002,
-            "ROE": 0.012700000000000001,
-            "ROI": 0.0096,
-            "Score": 31.799999999999997,
-            "ShareOutstandingHalfYear": 0.00010464002170876115,
-            "ShareOutstandingOneYear": 0.0017545855758037269,
-            "Short Float": 0.0206,
-            "Short Ratio": 3.19,
-            "Target Price": 35.0,
-            "eps_q_data": {
-                "2023-12-31": 0.58,
-                "2024-03-31": 0.45,
-                "2024-06-30": 0.51,
-                "2024-09-30": 0.36
-            },
-            "symbol": "SASR"
-        },
-        {
-            "52W Range": "7.83 - 11.80",
-            "Dividend %": "-",
-            "Insider Own": 0.5795,
-            "Insider Trans": -0.002,
-            "Inst Own": 0.4475,
-            "Inst Trans": -0.0103,
-            "Market Cap": 1390000000.0,
-            "P/B": 13.91,
-            "P/E": 527.45,
-            "P/FCF": 58.35,
-            "P/S": 6.88,
-            "Price": 10.76,
-            "ROA": 0.022400000000000003,
-            "ROE": 0.044500000000000005,
-            "ROI": 0.0323,
-            "Score": 30.4,
-            "ShareOutstandingHalfYear": 0.0045564539958013635,
-            "ShareOutstandingOneYear": 0.03145016448060771,
-            "Short Float": 0.0327,
-            "Short Ratio": 1.14,
-            "Target Price": 11.25,
-            "eps_q_data": {
-                "2024-03-31": -0.01,
-                "2024-06-30": 0.02,
-                "2024-09-30": 0.02,
-                "2024-12-31": 0.0
-            },
-            "symbol": "ENFN"
-        },
-        {
-            "52W Range": "75.71 - 113.12",
-            "Dividend %": "-",
-            "Insider Own": 0.30870000000000003,
-            "Insider Trans": -0.0225,
-            "Inst Own": 0.6232,
-            "Inst Trans": "-",
-            "Market Cap": 9600000000.0,
-            "P/B": 11.17,
-            "P/E": 675.02,
-            "P/FCF": 68.54,
-            "P/S": 14.41,
-            "Price": 111.85,
-            "ROA": 0.0101,
-            "ROE": 0.0181,
-            "ROI": 0.0161,
-            "Score": 21.099999999999998,
-            "ShareOutstandingHalfYear": -0.5743733529716434,
-            "ShareOutstandingOneYear": -0.5540941478027978,
-            "Short Float": 0.0953,
-            "Short Ratio": 7.28,
-            "Target Price": 113.0,
-            "eps_q_data": {
-                "2024-03-31": 0.2,
-                "2024-06-30": -0.06,
-                "2024-09-30": 0.02,
-                "2024-12-31": 0.01
-            },
-            "symbol": "ALTR"
-        }
-    ],
+    "Factor_Intersectional_v1": [],
     "KellyFormula_Range_v1": {
         "AAP": {
-            "close": 33.38,
-            "loss": 1.1428757,
-            "max_close": 74.05566,
+            "close": 48.67,
+            "loss": 9.366657,
+            "max_close": 68.95981,
             "min_close": 30.074455,
-            "p": 0.8611111,
-            "profit": 7.886364,
-            "q": 0.13333334
+            "p": 0.022222223,
+            "profit": 0.4788437,
+            "q": 0.9722222
         },
         "ALB": {
-            "close": 61.57,
-            "loss": 4.8311996,
-            "max_close": 133.0665,
+            "close": 57.61,
+            "loss": 2.6185722,
+            "max_close": 125.502556,
             "min_close": 50.76,
-            "p": 0.85555553,
-            "profit": 27.578667,
-            "q": 0.1388889
-        },
-        "DIS": {
-            "close": 110.49,
-            "loss": 14.445007,
-            "max_close": 117.08121,
-            "min_close": 81.72,
-            "p": 0.30555555,
-            "profit": 2.5108643,
-            "q": 0.6888889
+            "p": 0.9166667,
+            "profit": 28.041702,
+            "q": 0.07777778
         },
         "EL": {
-            "close": 65.36,
-            "loss": 6.120407,
-            "max_close": 135.18904,
+            "close": 63.69,
+            "loss": 5.595417,
+            "max_close": 123.27784,
             "min_close": 50.06,
-            "p": 0.7722222,
-            "profit": 13.746643,
-            "q": 0.22222222
+            "p": 0.8111111,
+            "profit": 13.100636,
+            "q": 0.18333334
         },
         "EPAM": {
-            "close": 186.6,
-            "loss": 23.840744,
+            "close": 175.95,
+            "loss": 18.882248,
             "max_close": 267.63,
             "min_close": 143.33,
-            "p": 0.76666665,
-            "profit": 34.94716,
-            "q": 0.22777778
+            "p": 0.82222223,
+            "profit": 41.949265,
+            "q": 0.17222223
         },
         "EW": {
-            "close": 74.8,
-            "loss": 4.808449,
+            "close": 74.99,
+            "loss": 4.8245544,
             "max_close": 93.78,
             "min_close": 59.7,
-            "p": 0.10555556,
-            "profit": 0.70684814,
-            "q": 0.8888889
+            "p": 0.12777779,
+            "profit": 1.0617523,
+            "q": 0.8666667
         },
         "GGB": {
-            "close": 2.67,
-            "loss": 0.12652183,
-            "max_close": 3.8118987,
+            "close": 2.71,
+            "loss": 0.15502715,
+            "max_close": 3.5385134,
             "min_close": 2.3,
-            "p": 0.8666667,
-            "profit": 0.43702674,
-            "q": 0.12777779
-        },
-        "GM": {
-            "close": 49.61,
-            "loss": 2.708908,
-            "max_close": 59.911987,
-            "min_close": 39.659782,
-            "p": 0.4,
-            "profit": 3.4319458,
-            "q": 0.59444445
-        },
-        "HAL": {
-            "close": 21.25,
-            "loss": 1.0021038,
-            "max_close": 37.09016,
-            "min_close": 19.26,
-            "p": 0.87777776,
-            "profit": 6.3995285,
-            "q": 0.10555556
-        },
-        "ILPT": {
-            "close": 3.25,
-            "loss": 0.42786384,
-            "max_close": 5.1137257,
-            "min_close": 2.5003462,
-            "p": 0.8388889,
-            "profit": 0.7274163,
-            "q": 0.15555556
-        },
-        "KSS": {
-            "close": 7.57,
-            "loss": 0.7940011,
-            "max_close": 24.760235,
-            "min_close": 6.13,
-            "p": 0.85555553,
-            "profit": 7.1623282,
+            "p": 0.84444445,
+            "profit": 0.3810184,
             "q": 0.1388889
         },
-        "MPW": {
-            "close": 5.2,
-            "loss": 0.8098955,
-            "max_close": 6.21,
-            "min_close": 3.670565,
-            "p": 0.33888888,
-            "profit": 0.4882598,
-            "q": 0.65
+        "HAL": {
+            "close": 19.91,
+            "loss": 0.30333138,
+            "max_close": 35.859035,
+            "min_close": 19.26,
+            "p": 0.9611111,
+            "profit": 6.628729,
+            "q": 0.033333335
         },
-        "NKE": {
-            "close": 62.58,
-            "loss": 5.9315414,
-            "max_close": 95.772415,
-            "min_close": 53.27,
-            "p": 0.85,
-            "profit": 14.105171,
-            "q": 0.14444445
+        "ILPT": {
+            "close": 3.08,
+            "loss": 0.35336518,
+            "max_close": 5.1137257,
+            "min_close": 2.5003462,
+            "p": 0.87222224,
+            "profit": 0.7728598,
+            "q": 0.12222222
         },
-        "NVO": {
-            "close": 67.74,
-            "loss": 4.157917,
-            "max_close": 144.04108,
-            "min_close": 58.08,
+        "KSS": {
+            "close": 7.48,
+            "loss": 0.7341676,
+            "max_close": 24.760235,
+            "min_close": 6.13,
             "p": 0.8611111,
-            "profit": 32.064995,
+            "profit": 6.612723,
             "q": 0.13333334
         },
+        "MPW": {
+            "close": 4.58,
+            "loss": 0.4256029,
+            "max_close": 6.21,
+            "min_close": 3.670565,
+            "p": 0.6111111,
+            "profit": 0.73688555,
+            "q": 0.38333333
+        },
+        "NKE": {
+            "close": 60.02,
+            "loss": 3.2481499,
+            "max_close": 95.772415,
+            "min_close": 53.27,
+            "p": 0.84444445,
+            "profit": 15.587833,
+            "q": 0.15
+        },
+        "NVO": {
+            "close": 67.35,
+            "loss": 3.572506,
+            "max_close": 144.04109,
+            "min_close": 58.08,
+            "p": 0.8388889,
+            "profit": 29.357292,
+            "q": 0.15555556
+        },
         "PFE": {
-            "close": 23.09,
-            "loss": 1.0492249,
+            "close": 23.32,
+            "loss": 1.0590916,
             "max_close": 29.83797,
             "min_close": 21.185833,
-            "p": 0.8833333,
-            "profit": 2.9239178,
-            "q": 0.11111111
+            "p": 0.8388889,
+            "profit": 2.6000557,
+            "q": 0.15555556
         },
         "PVH": {
-            "close": 78.94,
-            "loss": 8.088127,
+            "close": 81.99,
+            "loss": 10.377876,
             "max_close": 123.590614,
             "min_close": 60.5,
-            "p": 0.65,
-            "profit": 20.287254,
-            "q": 0.34444445
+            "p": 0.6166667,
+            "profit": 16.991943,
+            "q": 0.37777779
         },
         "PYPL": {
-            "close": 72.31,
-            "loss": 4.9643936,
+            "close": 69.85,
+            "loss": 4.2832184,
             "max_close": 91.81,
             "min_close": 57.22,
-            "p": 0.62222224,
-            "profit": 10.817131,
-            "q": 0.37222221
+            "p": 0.74444443,
+            "profit": 11.295303,
+            "q": 0.25
         },
         "QCOM": {
-            "close": 152.12,
-            "loss": 11.247482,
-            "max_close": 223.54147,
+            "close": 145.38,
+            "loss": 7.6195374,
+            "max_close": 223.54146,
             "min_close": 124.66,
-            "p": 0.8333333,
-            "profit": 10.933334,
-            "q": 0.16111112
+            "p": 0.87777776,
+            "profit": 16.081253,
+            "q": 0.11666667
         },
         "SBUX": {
-            "close": 85.67,
-            "loss": 3.1145859,
-            "max_close": 115.81,
-            "min_close": 71.244644,
+            "close": 84.4,
+            "loss": 2.5373306,
+            "max_close": 115.00041,
+            "min_close": 70.7466,
             "p": 0.8611111,
-            "profit": 12.685051,
+            "profit": 12.84285,
             "q": 0.13333334
         },
         "SEE": {
-            "close": 28.94,
-            "loss": 2.304348,
-            "max_close": 39.125458,
+            "close": 31.89,
+            "loss": 3.3933945,
+            "max_close": 39.125454,
             "min_close": 23.93,
-            "p": 0.8666667,
-            "profit": 5.009264,
-            "q": 0.12777779
+            "p": 0.71666664,
+            "profit": 2.6375237,
+            "q": 0.2777778
         },
         "SID": {
-            "close": 1.61,
-            "loss": 0.12633777,
-            "max_close": 2.5280998,
+            "close": 1.59,
+            "loss": 0.117076635,
+            "max_close": 2.4803998,
             "min_close": 1.3,
-            "p": 0.59444445,
-            "profit": 0.3238443,
-            "q": 0.39444444
+            "p": 0.6166667,
+            "profit": 0.29690552,
+            "q": 0.3611111
         },
         "TGT": {
-            "close": 101.08,
-            "loss": 6.528084,
-            "max_close": 158.18729,
-            "min_close": 88.76,
-            "p": 0.85,
-            "profit": 35.01033,
-            "q": 0.14444445
+            "close": 94.29,
+            "loss": 2.1994553,
+            "max_close": 156.39934,
+            "min_close": 87.75676,
+            "p": 0.90555555,
+            "profit": 34.86901,
+            "q": 0.08888889
         },
         "VALE": {
             "close": 9.6,
-            "loss": 0.55151844,
-            "max_close": 11.941772,
+            "loss": 0.5510731,
+            "max_close": 11.583244,
             "min_close": 8.179748,
-            "p": 0.41111112,
-            "profit": 0.6179142,
+            "p": 0.40555555,
+            "profit": 0.59657574,
             "q": 0.57222223
         },
         "VFC": {
-            "close": 14.44,
-            "loss": 2.8315392,
+            "close": 12.0,
+            "loss": 0.8761101,
             "max_close": 26.803305,
             "min_close": 9.74,
-            "p": 0.85,
-            "profit": 6.062402,
-            "q": 0.14444445
+            "p": 0.89444447,
+            "profit": 7.9169292,
+            "q": 0.1
         },
         "ZIM": {
-            "close": 16.26,
-            "loss": 1.9571323,
-            "max_close": 19.163383,
+            "close": 18.05,
+            "loss": 2.8130217,
+            "max_close": 19.37,
             "min_close": 11.051109,
-            "p": 0.31111112,
-            "profit": 0.875309,
-            "q": 0.68333334
+            "p": 0.06666667,
+            "profit": 0.46879196,
+            "q": 0.92777777
         }
     },
     "hold_stock_list": [
@@ -446,7 +214,6 @@
         "EL",
         "KSS",
         "TGT",
-        "DIS",
         "NKE",
         "PVH",
         "VFC",
@@ -456,7 +223,6 @@
         "PFE",
         "ILPT",
         "AAP",
-        "GM",
         "PYPL",
         "QCOM",
         "EPAM",
@@ -471,148 +237,133 @@
     "portfolio": {
         "AAP": {
             "cost_p": 91.35,
-            "position_%": 11.342763611271986,
-            "profit_%": -63.45922276956759
+            "position_%": 11.925798759955649,
+            "profit_%": -46.72140120415982
         },
         "ALB": {
             "cost_p": 173.45,
-            "position_%": 6.153420434358046,
-            "profit_%": -64.50273854136638
-        },
-        "DIS": {
-            "cost_p": 93.9,
-            "position_%": 2.498441245832605,
-            "profit_%": 17.667731629392957
+            "position_%": 6.4697155208829695,
+            "profit_%": -66.78581723839723
         },
         "EL": {
             "cost_p": 143.03,
-            "position_%": 5.074221532004793,
-            "profit_%": -54.3032930154513
+            "position_%": 5.335044168070863,
+            "profit_%": -55.470880234915754
         },
         "EPAM": {
             "cost_p": 248.63,
-            "position_%": 2.205138256838341,
-            "profit_%": -24.948718980010458
+            "position_%": 2.3184856874562305,
+            "profit_%": -29.232192414431086
         },
         "EW": {
             "cost_p": 87.4,
-            "position_%": 2.325492703788815,
-            "profit_%": -14.416475972540056
+            "position_%": 2.4450265344126763,
+            "profit_%": -14.19908466819223
         },
         "GGB": {
             "cost_p": 2.9,
-            "position_%": 2.0576441925209954,
-            "profit_%": -7.93103448275862
-        },
-        "GM": {
-            "cost_p": 44.92,
-            "position_%": 2.390414925725253,
-            "profit_%": 10.440783615316112
+            "position_%": 2.1634102058876463,
+            "profit_%": -6.551724137931032
         },
         "HAL": {
             "cost_p": 34.9,
-            "position_%": 2.166734811348617,
-            "profit_%": -39.11174785100287
+            "position_%": 2.278108246975655,
+            "profit_%": -42.9512893982808
         },
         "ILPT": {
             "cost_p": 17.2,
-            "position_%": 3.0509896647725103,
-            "profit_%": -81.1046511627907
+            "position_%": 3.2078151328678897,
+            "profit_%": -82.09302325581396
         },
         "KSS": {
             "cost_p": 11.63,
-            "position_%": 9.902235293387248,
-            "profit_%": -34.909716251074805
+            "position_%": 10.411225114954481,
+            "profit_%": -35.683576956147895
         },
         "MPW": {
             "cost_p": 6.18,
-            "position_%": 3.836796886571477,
-            "profit_%": -15.85760517799352
+            "position_%": 4.034014030461189,
+            "profit_%": -25.88996763754045
         },
         "NKE": {
             "cost_p": 73.71,
-            "position_%": 5.2299639114042265,
-            "profit_%": -15.099715099715095
+            "position_%": 5.498791940550979,
+            "profit_%": -18.572785239451896
         },
         "NVO": {
             "cost_p": 89.89,
-            "position_%": 2.39174529912559,
-            "profit_%": -24.641228167760605
+            "position_%": 2.514684613024662,
+            "profit_%": -25.075091778840815
         },
         "PFE": {
             "cost_p": 24,
-            "position_%": 2.128597440538961,
-            "profit_%": -3.7916666666666674
+            "position_%": 2.2380105578148064,
+            "profit_%": -2.833333333333332
         },
         "PVH": {
             "cost_p": 87.3,
-            "position_%": 4.645663913976282,
-            "profit_%": -9.576174112256586
+            "position_%": 4.884458042430815,
+            "profit_%": -6.082474226804126
         },
         "PYPL": {
             "cost_p": 68.03,
-            "position_%": 2.4134747313310916,
-            "profit_%": 6.291342054975748
+            "position_%": 2.537530970802355,
+            "profit_%": 2.675290313097153
         },
         "QCOM": {
             "cost_p": 144.74,
-            "position_%": 2.567443279530077,
-            "profit_%": 5.098797844410663
+            "position_%": 2.6994137344842923,
+            "profit_%": 0.4421721707889915
         },
         "SBUX": {
             "cost_p": 87.91,
-            "position_%": 2.3390625124722506,
-            "profit_%": -2.5480605164372596
+            "position_%": 2.4592938517187455,
+            "profit_%": -3.9927198270958835
         },
         "SEE": {
             "cost_p": 34.36,
-            "position_%": 7.009116605454708,
-            "profit_%": -6.228172293364379
+            "position_%": 7.369395765124522,
+            "profit_%": -7.188591385331778
         },
         "SID": {
             "cost_p": 4.54,
-            "position_%": 2.818617777513674,
-            "profit_%": -64.5374449339207
+            "position_%": 2.9634989803064395,
+            "profit_%": -64.97797356828194
         },
         "TGT": {
             "cost_p": 107.3,
-            "position_%": 3.8066417561638413,
-            "profit_%": -5.796831314072692
+            "position_%": 4.002308880892145,
+            "profit_%": -12.124883504193841
         },
         "VALE": {
             "cost_p": 12.22,
-            "position_%": 2.167621726948842,
+            "position_%": 2.279040751374745,
             "profit_%": -21.44026186579379
         },
         "VFC": {
             "cost_p": 18.8,
-            "position_%": 1.1671809298955302,
-            "profit_%": -23.191489361702132
+            "position_%": 1.2271757892017854,
+            "profit_%": -36.17021276595745
         },
         "ZIM": {
             "cost_p": 40.74,
-            "position_%": 8.310576557224238,
-            "profit_%": -60.08836524300442
+            "position_%": 8.737752720348459,
+            "profit_%": -55.69464899361807
         }
     },
     "stock_info": {
         "AAP": [
             "Advance Auto Parts Inc",
-            "Specialty Retail",
+            "Auto Parts",
             "Consumer Cyclical"
         ],
         "ALB": [
-            "Albemarle Corp.",
+            "Albemarle Corp",
             "Specialty Chemicals",
             "Basic Materials"
         ],
-        "DIS": [
-            "Walt Disney Co",
-            "Entertainment",
-            "Communication Services"
-        ],
         "EL": [
-            "Estee Lauder Cos., Inc.",
+            "Estee Lauder Cos., Inc",
             "Household & Personal Products",
             "Consumer Defensive"
         ],
@@ -631,13 +382,8 @@
             "Steel",
             "Basic Materials"
         ],
-        "GM": [
-            "General Motors Company",
-            "Auto Manufacturers",
-            "Consumer Cyclical"
-        ],
         "HAL": [
-            "Halliburton Co.",
+            "Halliburton Co",
             "Oil & Gas Equipment & Services",
             "Energy"
         ],
@@ -647,7 +393,7 @@
             "Real Estate"
         ],
         "KSS": [
-            "Kohl's Corp.",
+            "Kohl's Corp",
             "Department Stores",
             "Consumer Cyclical"
         ],
@@ -657,17 +403,17 @@
             "Real Estate"
         ],
         "NKE": [
-            "Nike, Inc.",
+            "Nike, Inc",
             "Footwear & Accessories",
             "Consumer Cyclical"
         ],
         "NVO": [
             "Novo Nordisk ADR",
-            "Biotechnology",
+            "Drug Manufacturers - General",
             "Healthcare"
         ],
         "PFE": [
-            "Pfizer Inc.",
+            "Pfizer Inc",
             "Drug Manufacturers - General",
             "Healthcare"
         ],
@@ -682,17 +428,17 @@
             "Financial"
         ],
         "QCOM": [
-            "Qualcomm, Inc.",
+            "Qualcomm, Inc",
             "Semiconductors",
             "Technology"
         ],
         "SBUX": [
-            "Starbucks Corp.",
+            "Starbucks Corp",
             "Restaurants",
             "Consumer Cyclical"
         ],
         "SEE": [
-            "Sealed Air Corp.",
+            "Sealed Air Corp",
             "Packaging & Containers",
             "Consumer Cyclical"
         ],
@@ -712,7 +458,7 @@
             "Basic Materials"
         ],
         "VFC": [
-            "VF Corp.",
+            "VF Corp",
             "Apparel Manufacturing",
             "Consumer Cyclical"
         ],
