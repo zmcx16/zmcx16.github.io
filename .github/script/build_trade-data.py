@@ -4,6 +4,7 @@ import time
 import random
 import datetime
 import pathlib
+import logging
 import json
 import traceback
 import requests
@@ -21,7 +22,7 @@ def send_request(url):
         res = requests.get(url, verify=False)
         res.raise_for_status()
     except Exception as ex:
-        print('Generated an exception: {ex}'.format(ex=ex))
+        logging.error('Generated an exception: {ex}'.format(ex=ex))
         return -1, ex
 
     return 0, res.text
@@ -33,7 +34,7 @@ def send_post_json(url, req_data):
         res = requests.post(url, req_data, headers=headers, verify=False)
         res.raise_for_status()
     except Exception as ex:
-        print('Generated an exception: {ex}'.format(ex=ex))
+        logging.error('Generated an exception: {ex}'.format(ex=ex))
         return -1, ex
 
     return 0, res.json()
@@ -55,12 +56,12 @@ def get_stock_info():
             if resp["ret"] == 0:
                 return resp["data"]
             else:
-                print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
         else:
-            print('send_request failed: {ret}'.format(ret=ret))
+            logging.error('send_request failed: {ret}'.format(ret=ret))
 
     except Exception:
-        print('Generated an exception: {ex}, try next target.'.format(ex=traceback.format_exc()))
+        logging.error('Generated an exception: {ex}, try next target.'.format(ex=traceback.format_exc()))
 
     sys.exit(1)
 
@@ -76,6 +77,8 @@ if __name__ == "__main__":
     FORMULA2_URL = "https://dns-only.zmcx16.moe/stock-minehunter/api/task/calc-formula2" # prevent cloudflare 524 timeout
 
     NEWS_API_KEY = os.environ.get("NEWS_API_KEY", "")
+
+    logging.basicConfig(level="DEBUG")
 
     script_path = pathlib.Path(__file__).parent.resolve()
     input_path = script_path / '..' / '..' / 'trade-data.json'
@@ -97,7 +100,7 @@ if __name__ == "__main__":
 
         # --- get indicator ----
         for symbol in data["star_Indicator_list"]:
-            print("get {symbol} indicator output: {now}".format(symbol=symbol, now=datetime.now()))
+            logging.info("get {symbol} indicator output: {now}".format(symbol=symbol, now=datetime.now()))
 
             param = {
                 'code': os.environ.get("MARKET_TOKEN_KEY", ""),
@@ -110,9 +113,9 @@ if __name__ == "__main__":
             if ret == 0:
                 try:
                     indicator_output = json.loads(resp)
-                    print(indicator_output)
+                    logging.info(indicator_output)
                     if indicator_output["ret"] != 0:
-                        print('server err = {err}'.format(err=indicator_output["ret"]))
+                        logging.error('server err = {err}'.format(err=indicator_output["ret"]))
                     else:
                         o = {"symbol": symbol}
                         remain_key = {"52W Range", "52W High", "52W Low", "Perf Week", "Perf Month", "Perf Quarter",
@@ -124,25 +127,25 @@ if __name__ == "__main__":
                         scan_output["indicator_list"].append(o)
 
                 except Exception as ex:
-                    print('Generated an exception: {ex}'.format(ex=ex))
+                    logging.error('Generated an exception: {ex}'.format(ex=ex))
             else:
-                print('send_request failed')
+                logging.error('send_request failed')
         # -------------------
         # screener
-        print("get screener output")
+        logging.info("get screener output")
         screen_template = data["screen_template"].copy()
         ret, resp = send_post_json(SCREENER_URL, str({"data": screen_template}))
         if ret == 0:
             try:
                 if resp["ret"] != 0:
-                    print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                    logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                 else:
                     scan_output["screener_stock_list"] += random.choices(resp["data"][0]["result"]["symbols"], k=MAX_SCREENER_STOCKS)
 
             except Exception as ex:
-                print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                logging.error('Generated an exception: {ex}, try next target.'.format(ex=ex))
         else:
-            print('send_post_json failed')
+            logging.error('send_post_json failed')
 
         # norm-minehunter
         formula_output["hold_stock_list"] = scan_output["hold_stock_list"] = data["hold_stock_list"]
@@ -163,23 +166,23 @@ if __name__ == "__main__":
         news_symbol_keyword = data["news_config"]["symbol_keyword"]
 
         # --- get FactorIntersectional ---
-        print("get FactorIntersectional output")
+        logging.info("get FactorIntersectional output")
         ret, resp = send_post_json(FORMULA2_URL, str({"data": data["Factor_Intersectional_v1_template"]}))
         if ret == 0:
             try:
                 if resp["ret"] != 0:
-                    print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                    logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                 else:
                     formula_output["Factor_Intersectional_v1"] =  resp["result"]["data"]
 
             except Exception as ex:
-                print('Generated an exception: {ex}'.format(ex=ex))
+                logging.error('Generated an exception: {ex}'.format(ex=ex))
         else:
-            print('send_post_json failed')
+            logging.error('send_post_json failed')
 
         # -------------------
         for symbol in scan_list:
-            print("get {symbol} scan / SEC / formula output: {now}".format(symbol=symbol, now=datetime.now()))
+            logging.info("get {symbol} scan / SEC / formula output: {now}".format(symbol=symbol, now=datetime.now()))
 
             # get norm-minehunter
             scan_list_args = data["tactic_template"].copy()
@@ -191,14 +194,14 @@ if __name__ == "__main__":
                 if ret == 0:
                     try:
                         if resp["ret"] != 0:
-                            print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                            logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                         else:
                             scan_output["data"] += resp["data"]
                         break
                     except Exception as ex:
-                        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                        logging.error('Generated an exception: {ex}, try next target.'.format(ex=ex))
                 else:
-                    print('send_post_json failed')
+                    logging.error('send_post_json failed')
 
             """
             # --- get SEC -------
@@ -259,14 +262,14 @@ if __name__ == "__main__":
                 if ret == 0:
                     try:
                         if resp["ret"] != 0:
-                            print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                            logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                         else:
                             formula_output["KellyFormula_Range_v1"][symbol] = resp["data"][0]["result"]
 
                     except Exception as ex:
-                        print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                        logging.error('Generated an exception: {ex}, try next target.'.format(ex=ex))
                 else:
-                    print('send_post_json failed')
+                    logging.error('send_post_json failed')
 
             # -------------------
             # --- get Beneish_Model ---
@@ -278,14 +281,14 @@ if __name__ == "__main__":
             if ret == 0:
                 try:
                     if resp["ret"] != 0:
-                        print('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
+                        logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                     else:
                         scan_output["Beneish_Model_v1"][symbol] = resp["data"][0]["result"]
 
                 except Exception as ex:
-                    print('Generated an exception: {ex}, try next target.'.format(ex=ex))
+                    logging.error('Generated an exception: {ex}, try next target.'.format(ex=ex))
             else:
-                print('send_post_json failed')
+                logging.error('send_post_json failed')
 
             # -------------------
             # -- load portfolio -
@@ -314,7 +317,6 @@ if __name__ == "__main__":
         with open(formula_output_readable_path, 'w', encoding='utf-8') as f:
             f.write(json.dumps(formula_output, indent=4, sort_keys=True))
 
-        print("task completed: {now}".format(now=datetime.now()))
+        logging.info("task completed: {now}".format(now=datetime.now()))
     else:
-        print("No output data")
-
+        logging.info("No output data")
