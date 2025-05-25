@@ -164,7 +164,9 @@ if __name__ == "__main__":
         news_max_count = data["news_config"]["max_count"]
         news_exclude_domains = data["news_config"]["exclude_domains"]
         news_symbol_keyword = data["news_config"]["symbol_keyword"]
-
+        
+        """
+        # server resource doesn't enough causes api no response, skip it
         # --- get FactorIntersectional ---
         logging.info("get FactorIntersectional output")
         ret, resp = send_post_json(FORMULA2_URL, str({"data": data["Factor_Intersectional_v1_template"]}))
@@ -179,7 +181,7 @@ if __name__ == "__main__":
                 logging.error('Generated an exception: {ex}'.format(ex=ex))
         else:
             logging.error('send_post_json failed')
-
+        """
         # -------------------
         for symbol in scan_list:
             logging.info("get {symbol} scan / SEC / formula output: {now}".format(symbol=symbol, now=datetime.now()))
