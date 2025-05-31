@@ -170,32 +170,26 @@
       {
          "symbol":"ANSS",
          "type":"put",
-         "expiry":"2025-04-17",
+         "expiry":"2025-06-20",
          "strike":290
       },
       {
-         "symbol":"APTV",
+         "symbol":"GIS",
          "type":"put",
-         "expiry":"2025-05-16",
-         "strike":47.5
+         "expiry":"2025-06-20",
+         "strike":50
       },
       {
-         "symbol":"M",
+         "symbol":"GM",
          "type":"put",
-         "expiry":"2025-04-17",
-         "strike":11
+         "expiry":"2025-06-20",
+         "strike":41
       },
       {
-         "symbol":"TEN",
+         "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-04-17",
-         "strike":15
-      },
-      {
-         "symbol":"TM",
-         "type":"put",
-         "expiry":"2025-04-17",
-         "strike":155
+         "expiry":"2025-06-20",
+         "strike":121
       }
    ],
    "news_config":{
