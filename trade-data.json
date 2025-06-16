@@ -203,6 +203,12 @@
          "strike":260
       },
       {
+         "symbol":"NVO",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":65
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2025-06-20",
