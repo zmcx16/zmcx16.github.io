@@ -173,10 +173,16 @@
          "strike":290
       },
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2025-06-20",
+         "strike":700
+      },
+      {
          "symbol":"DHI",
          "type":"put",
-         "expiry":"2025-06-13",
-         "strike":110
+         "expiry":"2025-07-11",
+         "strike":107
       },
       {
          "symbol":"GIS",
@@ -191,16 +197,16 @@
          "strike":41
       },
       {
-         "symbol":"GOOG",
-         "type":"put",
-         "expiry":"2025-06-13",
-         "strike":157.5
-      },
-      {
          "symbol":"MOH",
          "type":"put",
          "expiry":"2025-06-20",
          "strike":260
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":50
       },
       {
          "symbol":"NVO",
@@ -219,6 +225,30 @@
          "type":"put",
          "expiry":"2025-06-20",
          "strike":66
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-06-20",
+         "strike":140
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":82
+      },
+      {
+         "symbol":"TEN",
+         "type":"put",
+         "expiry":"2025-07-18",
+         "strike":15
+      },
+      {
+         "symbol":"UAL",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":63
       }
    ],
    "news_config":{
