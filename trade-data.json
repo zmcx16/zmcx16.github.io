@@ -167,6 +167,24 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":119
+      },
+      {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":355
+      },
+      {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":152.5
+      },
+      {
          "symbol":"ANSS",
          "type":"put",
          "expiry":"2025-06-20",
@@ -195,6 +213,12 @@
          "type":"put",
          "expiry":"2025-06-20",
          "strike":41
+      },
+      {
+         "symbol":"GOOG",
+         "type":"put",
+         "expiry":"2025-06-27",
+         "strike":160
       },
       {
          "symbol":"MOH",
