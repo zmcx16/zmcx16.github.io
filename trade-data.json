@@ -185,16 +185,10 @@
          "strike":152.5
       },
       {
-         "symbol":"ANSS",
+         "symbol":"AZN",
          "type":"put",
-         "expiry":"2025-06-20",
-         "strike":290
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2025-06-20",
-         "strike":700
+         "expiry":"2025-07-18",
+         "strike":62.5
       },
       {
          "symbol":"DHI",
@@ -203,28 +197,22 @@
          "strike":107
       },
       {
-         "symbol":"GIS",
+         "symbol":"FSLR",
          "type":"put",
-         "expiry":"2025-06-20",
-         "strike":50
+         "expiry":"2025-07-11",
+         "strike":100
       },
       {
          "symbol":"GM",
          "type":"put",
-         "expiry":"2025-06-20",
-         "strike":41
+         "expiry":"2025-07-18",
+         "strike":42
       },
       {
          "symbol":"GOOG",
          "type":"put",
          "expiry":"2025-06-27",
          "strike":160
-      },
-      {
-         "symbol":"MOH",
-         "type":"put",
-         "expiry":"2025-06-20",
-         "strike":260
       },
       {
          "symbol":"NKE",
@@ -241,20 +229,8 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-06-20",
-         "strike":121
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-06-20",
-         "strike":66
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-06-20",
-         "strike":140
+         "expiry":"2025-07-03",
+         "strike":122
       },
       {
          "symbol":"SBUX",
