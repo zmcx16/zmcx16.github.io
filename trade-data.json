@@ -227,10 +227,34 @@
          "strike":65
       },
       {
+         "symbol":"OXM",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":25
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2025-07-03",
          "strike":122
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-07-03",
+         "strike":66
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-07-11",
+         "strike":66
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-07-03",
+         "strike":140
       },
       {
          "symbol":"SBUX",
