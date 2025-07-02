@@ -167,24 +167,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":119
-      },
-      {
-         "symbol":"ADBE",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":355
-      },
-      {
-         "symbol":"AMAT",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":152.5
-      },
-      {
          "symbol":"AZN",
          "type":"put",
          "expiry":"2025-07-18",
@@ -203,34 +185,28 @@
          "strike":100
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2025-07-18",
+         "strike":47.5
+      },
+      {
          "symbol":"GM",
          "type":"put",
          "expiry":"2025-07-18",
          "strike":42
       },
       {
-         "symbol":"GOOG",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":160
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":50
-      },
-      {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2025-06-27",
-         "strike":65
-      },
-      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2025-08-15",
          "strike":25
+      },
+      {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":7
       },
       {
          "symbol":"PEP",
@@ -259,8 +235,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-06-27",
-         "strike":82
+         "expiry":"2025-07-11",
+         "strike":86
       },
       {
          "symbol":"TEN",
@@ -269,10 +245,10 @@
          "strike":15
       },
       {
-         "symbol":"UAL",
+         "symbol":"TM",
          "type":"put",
-         "expiry":"2025-06-27",
-         "strike":63
+         "expiry":"2025-07-18",
+         "strike":155
       }
    ],
    "news_config":{
