@@ -197,6 +197,12 @@
          "strike":42
       },
       {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2025-07-18",
+         "strike":150
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2025-08-15",
@@ -213,6 +219,12 @@
          "type":"put",
          "expiry":"2025-07-03",
          "strike":122
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-07-11",
+         "strike":129
       },
       {
          "symbol":"PYPL",
