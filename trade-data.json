@@ -161,10 +161,22 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-08-01",
+         "strike":115
+      },
+      {
          "symbol":"AZN",
          "type":"put",
          "expiry":"2025-07-18",
          "strike":62.5
+      },
+      {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2025-07-18",
+         "strike":60
       },
       {
          "symbol":"DHI",
@@ -189,6 +201,12 @@
          "type":"put",
          "expiry":"2025-07-18",
          "strike":42
+      },
+      {
+         "symbol":"HMC",
+         "type":"put",
+         "expiry":"2025-07-18",
+         "strike":27.5
       },
       {
          "symbol":"NICE",
@@ -235,8 +253,8 @@
       {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2025-07-03",
-         "strike":140
+         "expiry":"2025-07-18",
+         "strike":145
       },
       {
          "symbol":"SBUX",
