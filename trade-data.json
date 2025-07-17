@@ -220,6 +220,12 @@
          "strike":7
       },
       {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2025-08-01",
+         "strike":23
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2025-07-25",
@@ -254,6 +260,12 @@
          "type":"put",
          "expiry":"2025-07-18",
          "strike":155
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-07-25",
+         "strike":93
       }
    ],
    "news_config":{
