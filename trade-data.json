@@ -166,46 +166,10 @@
          "strike":115
       },
       {
-         "symbol":"ACLS",
+         "symbol":"AEO",
          "type":"put",
-         "expiry":"2025-07-18",
-         "strike":60
-      },
-      {
-         "symbol":"AZN",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":62.5
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":60
-      },
-      {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":47.5
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":42
-      },
-      {
-         "symbol":"HMC",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":27.5
-      },
-      {
-         "symbol":"NICE",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":150
+         "expiry":"2025-08-22",
+         "strike":8.5
       },
       {
          "symbol":"OXM",
@@ -220,6 +184,12 @@
          "strike":7
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-08-01",
+         "strike":136
+      },
+      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2025-08-01",
@@ -232,34 +202,16 @@
          "strike":64
       },
       {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":145
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2025-07-25",
          "strike":85
       },
       {
-         "symbol":"TEN",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":15
-      },
-      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2025-07-25",
          "strike":92
-      },
-      {
-         "symbol":"TM",
-         "type":"put",
-         "expiry":"2025-07-18",
-         "strike":155
       },
       {
          "symbol":"UPS",
