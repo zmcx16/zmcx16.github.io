@@ -182,6 +182,12 @@
          "strike":655
       },
       {
+         "symbol":"GM",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":47.5
+      },
+      {
          "symbol":"M",
          "type":"put",
          "expiry":"2025-08-15",
@@ -218,28 +224,16 @@
          "strike":23
       },
       {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-07-25",
-         "strike":64
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2025-07-25",
-         "strike":85
-      },
-      {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-07-25",
-         "strike":92
+         "expiry":"2025-08-15",
+         "strike":93
       },
       {
          "symbol":"UPS",
          "type":"put",
-         "expiry":"2025-07-25",
-         "strike":93
+         "expiry":"2025-08-08",
+         "strike":85
       }
    ],
    "news_config":{
