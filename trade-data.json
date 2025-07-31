@@ -182,6 +182,12 @@
          "strike":655
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":45
+      },
+      {
          "symbol":"GM",
          "type":"put",
          "expiry":"2025-08-15",
@@ -222,6 +228,18 @@
          "type":"put",
          "expiry":"2025-08-01",
          "strike":23
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-08-08",
+         "strike":64
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2025-08-08",
+         "strike":84
       },
       {
          "symbol":"TGT",
