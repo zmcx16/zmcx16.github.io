@@ -158,28 +158,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":115
-      },
-      {
-         "symbol":"ADBE",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":345
-      },
-      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2025-08-22",
          "strike":8.5
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":655
       },
       {
          "symbol":"GIS",
@@ -200,12 +182,6 @@
          "strike":11.5
       },
       {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":63
-      },
-      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2025-08-15",
@@ -216,18 +192,6 @@
          "type":"put",
          "expiry":"2025-08-15",
          "strike":7
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":136
-      },
-      {
-         "symbol":"PFE",
-         "type":"put",
-         "expiry":"2025-08-01",
-         "strike":23
       },
       {
          "symbol":"PYPL",
@@ -700,98 +664,97 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.591265202365213,
+         "position_%":13.237198297142964,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.373226833529584,
+         "position_%":7.181146437217755,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":6.080095900834456,
+         "position_%":5.921702939840044,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.6422677826757863,
+         "position_%":2.5734338983647316,
          "profit_%":0
       },
       "EW":{
          "cost_p":87.4,
-         "position_%":2.786480362858831,
+         "position_%":2.713889587544675,
          "profit_%":0
       },
       "GGB":{
          "cost_p":2.9,
-         "position_%":2.4655356376172723,
+         "position_%":2.4013058135406737,
          "profit_%":0
       },
       "HAL":{
          "cost_p":26.94,
-         "position_%":5.439694273580935,
+         "position_%":5.2979844556850395,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.655794221294576,
+         "position_%":3.56055689593962,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position":7000,
-         "position_%":4.597373779453586,
+         "position_%":4.477607305765929,
          "profit_%":0
       },
       "NKE":{
          "cost_p":73.71,
-         "position_%":6.266711443061005,
+         "position_%":6.10345694883045,
          "profit_%":0
       },
       "NVO":{
-         "cost_p":89.89,
-         "position_%":2.8658663594665943,
+         "cost_p":74.48,
+         "position_%":5.3963137885670935,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.566584340447962,
+         "position_%":5.421568901433642,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.8919032659845354,
+         "position_%":2.8165661119857246,
          "profit_%":0
       },
       "SEE":{
          "cost_p":34.36,
-         "position_%":8.398549584897319,
+         "position_%":8.179758441055705,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.3773587311843496,
+         "position_%":3.2893749463070088,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":4.561240929591954,
+         "position_%":4.442415755050246,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.5973142665244024,
+         "position_%":2.5296514690919856,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.398553835820832,
+         "position_%":1.3621200218187615,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":13.444183248810807,
+         "position_%":13.093947984817952,
          "profit_%":0
       }
    }
