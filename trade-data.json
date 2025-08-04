@@ -158,10 +158,28 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":315
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2025-08-22",
          "strike":8.5
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":230
+      },
+      {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":55
       },
       {
          "symbol":"GIS",
@@ -180,6 +198,12 @@
          "type":"put",
          "expiry":"2025-08-15",
          "strike":11.5
+      },
+      {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2025-09-12",
+         "strike":3.5
       },
       {
          "symbol":"OXM",
