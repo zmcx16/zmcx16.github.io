@@ -218,6 +218,12 @@
          "strike":7
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":135
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2025-08-08",
