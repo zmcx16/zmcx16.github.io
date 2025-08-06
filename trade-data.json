@@ -170,6 +170,12 @@
          "strike":8.5
       },
       {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":620
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2025-08-15",
@@ -222,6 +228,12 @@
          "type":"put",
          "expiry":"2025-08-15",
          "strike":135
+      },
+      {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":65
       },
       {
          "symbol":"PYPL",
