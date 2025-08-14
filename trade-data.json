@@ -158,6 +158,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-08-22",
+         "strike":116
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2025-08-15",
@@ -188,6 +194,12 @@
          "strike":55
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":130
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2025-08-15",
@@ -198,6 +210,12 @@
          "type":"put",
          "expiry":"2025-08-15",
          "strike":47.5
+      },
+      {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2025-09-05",
+         "strike":18.5
       },
       {
          "symbol":"M",
@@ -212,6 +230,18 @@
          "strike":3.5
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2025-08-22",
+         "strike":65
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2025-08-22",
+         "strike":70
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2025-08-15",
@@ -222,12 +252,6 @@
          "type":"put",
          "expiry":"2025-08-15",
          "strike":7
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":135
       },
       {
          "symbol":"PVH",
@@ -242,10 +266,22 @@
          "strike":64
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-08-15",
+         "strike":135
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-08-08",
-         "strike":84
+         "expiry":"2025-08-22",
+         "strike":82
+      },
+      {
+         "symbol":"SEE",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":27.5
       },
       {
          "symbol":"TGT",
@@ -264,6 +300,12 @@
          "type":"put",
          "expiry":"2025-09-05",
          "strike":9.5
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2025-09-12",
+         "strike":10.5
       }
    ],
    "news_config":{
