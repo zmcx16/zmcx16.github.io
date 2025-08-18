@@ -166,8 +166,8 @@
       {
          "symbol":"ADBE",
          "type":"put",
-         "expiry":"2025-08-15",
-         "strike":315
+         "expiry":"2025-08-29",
+         "strike":320
       },
       {
          "symbol":"AEO",
@@ -176,22 +176,10 @@
          "strike":8.5
       },
       {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":620
-      },
-      {
          "symbol":"CRM",
          "type":"put",
-         "expiry":"2025-08-15",
-         "strike":230
-      },
-      {
-         "symbol":"CVS",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":55
+         "expiry":"2025-08-29",
+         "strike":215
       },
       {
          "symbol":"EPAM",
@@ -200,28 +188,10 @@
          "strike":130
       },
       {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":45
-      },
-      {
-         "symbol":"GM",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":47.5
-      },
-      {
          "symbol":"HAL",
          "type":"put",
          "expiry":"2025-09-05",
          "strike":18.5
-      },
-      {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":11.5
       },
       {
          "symbol":"MPW",
@@ -242,34 +212,10 @@
          "strike":70
       },
       {
-         "symbol":"OXM",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":25
-      },
-      {
-         "symbol":"PAGS",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":7
-      },
-      {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":65
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-08-08",
-         "strike":64
-      },
-      {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2025-08-15",
-         "strike":135
+         "expiry":"2025-08-29",
+         "strike":145
       },
       {
          "symbol":"SBUX",
@@ -282,18 +228,6 @@
          "type":"put",
          "expiry":"2025-09-19",
          "strike":27.5
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2025-08-15",
-         "strike":93
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2025-08-08",
-         "strike":85
       },
       {
          "symbol":"VALE",
