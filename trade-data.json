@@ -158,22 +158,16 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2025-08-22",
-         "strike":116
-      },
-      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2025-08-29",
          "strike":320
       },
       {
-         "symbol":"AEO",
+         "symbol":"ASML",
          "type":"put",
-         "expiry":"2025-08-22",
-         "strike":8.5
+         "expiry":"2025-08-29",
+         "strike":670
       },
       {
          "symbol":"CRM",
@@ -200,18 +194,6 @@
          "strike":3.5
       },
       {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-08-22",
-         "strike":65
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-08-22",
-         "strike":70
-      },
-      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2025-08-29",
@@ -220,14 +202,32 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-08-22",
-         "strike":82
+         "expiry":"2025-09-12",
+         "strike":79
       },
       {
          "symbol":"SEE",
          "type":"put",
          "expiry":"2025-09-19",
          "strike":27.5
+      },
+      {
+         "symbol":"TEX",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":44
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-08-29",
+         "strike":89
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-08-29",
+         "strike":80
       },
       {
          "symbol":"VALE",
