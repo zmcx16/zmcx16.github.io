@@ -162,20 +162,14 @@
       {
          "symbol":"ADBE",
          "type":"put",
-         "expiry":"2025-08-29",
-         "strike":320
+         "expiry":"2025-09-05",
+         "strike":330
       },
       {
          "symbol":"ASML",
          "type":"put",
-         "expiry":"2025-08-29",
-         "strike":670
-      },
-      {
-         "symbol":"CRM",
-         "type":"put",
-         "expiry":"2025-08-29",
-         "strike":215
+         "expiry":"2025-09-05",
+         "strike":700
       },
       {
          "symbol":"EPAM",
@@ -190,16 +184,22 @@
          "strike":18.5
       },
       {
+         "symbol":"M",
+         "type":"put",
+         "expiry":"2025-09-05",
+         "strike":12
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2025-09-12",
          "strike":3.5
       },
       {
-         "symbol":"QCOM",
+         "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-08-29",
-         "strike":145
+         "expiry":"2025-09-05",
+         "strike":139
       },
       {
          "symbol":"SBUX",
@@ -226,18 +226,6 @@
          "strike":44
       },
       {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2025-08-29",
-         "strike":89
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2025-08-29",
-         "strike":80
-      },
-      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2025-09-05",
@@ -248,6 +236,12 @@
          "type":"put",
          "expiry":"2025-09-12",
          "strike":10.5
+      },
+      {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":11
       }
    ],
    "news_config":{
