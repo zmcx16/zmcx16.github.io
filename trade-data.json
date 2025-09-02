@@ -160,6 +160,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-09-26",
+         "strike":117
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2025-09-05",
@@ -178,10 +184,22 @@
          "strike":130
       },
       {
+         "symbol":"G",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":40
+      },
+      {
          "symbol":"HAL",
          "type":"put",
          "expiry":"2025-09-05",
          "strike":18.5
+      },
+      {
+         "symbol":"HAL",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":20
       },
       {
          "symbol":"M",
@@ -196,10 +214,28 @@
          "strike":3.5
       },
       {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2025-10-03",
+         "strike":4
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2025-09-05",
          "strike":139
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-09-12",
+         "strike":63
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":145
       },
       {
          "symbol":"SBUX",
@@ -224,6 +260,12 @@
          "type":"put",
          "expiry":"2025-09-19",
          "strike":44
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2025-09-12",
+         "strike":87
       },
       {
          "symbol":"VALE",
