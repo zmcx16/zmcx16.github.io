@@ -268,6 +268,12 @@
          "strike":87
       },
       {
+         "symbol":"TRMD",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":17.5
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2025-09-05",
