@@ -178,10 +178,22 @@
          "strike":700
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":225
+      },
+      {
          "symbol":"EPAM",
          "type":"put",
          "expiry":"2025-09-19",
          "strike":130
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":75
       },
       {
          "symbol":"G",
@@ -274,6 +286,12 @@
          "strike":17.5
       },
       {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-09-26",
+         "strike":76
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2025-09-05",
@@ -290,6 +308,12 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":11
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2025-09-19",
+         "strike":140
       }
    ],
    "news_config":{
