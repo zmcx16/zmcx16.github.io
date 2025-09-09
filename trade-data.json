@@ -166,6 +166,12 @@
          "strike":117
       },
       {
+         "symbol":"ACLS",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":65
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2025-09-05",
@@ -236,6 +242,12 @@
          "type":"put",
          "expiry":"2025-09-05",
          "strike":139
+      },
+      {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":70
       },
       {
          "symbol":"PYPL",
