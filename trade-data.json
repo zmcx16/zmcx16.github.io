@@ -172,16 +172,10 @@
          "strike":65
       },
       {
-         "symbol":"ADBE",
+         "symbol":"CAMT",
          "type":"put",
-         "expiry":"2025-09-05",
-         "strike":330
-      },
-      {
-         "symbol":"ASML",
-         "type":"put",
-         "expiry":"2025-09-05",
-         "strike":700
+         "expiry":"2025-10-17",
+         "strike":65
       },
       {
          "symbol":"CRM",
@@ -210,20 +204,8 @@
       {
          "symbol":"HAL",
          "type":"put",
-         "expiry":"2025-09-05",
-         "strike":18.5
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
          "expiry":"2025-09-19",
          "strike":20
-      },
-      {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2025-09-05",
-         "strike":12
       },
       {
          "symbol":"MPW",
@@ -240,8 +222,8 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-09-05",
-         "strike":139
+         "expiry":"2025-09-26",
+         "strike":132
       },
       {
          "symbol":"PVH",
@@ -300,14 +282,14 @@
       {
          "symbol":"UPS",
          "type":"put",
-         "expiry":"2025-09-26",
-         "strike":76
+         "expiry":"2025-09-19",
+         "strike":78
       },
       {
-         "symbol":"VALE",
+         "symbol":"UPS",
          "type":"put",
-         "expiry":"2025-09-05",
-         "strike":9.5
+         "expiry":"2025-09-26",
+         "strike":76
       },
       {
          "symbol":"VFC",
