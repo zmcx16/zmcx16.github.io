@@ -220,6 +220,12 @@
          "strike":4
       },
       {
+         "symbol":"PAYC",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":195
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2025-09-26",
@@ -234,8 +240,8 @@
       {
          "symbol":"PYPL",
          "type":"put",
-         "expiry":"2025-09-12",
-         "strike":63
+         "expiry":"2025-10-03",
+         "strike":60
       },
       {
          "symbol":"QCOM",
@@ -246,8 +252,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-09-12",
-         "strike":79
+         "expiry":"2025-09-26",
+         "strike":76
       },
       {
          "symbol":"SEE",
@@ -270,8 +276,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-09-12",
-         "strike":87
+         "expiry":"2025-09-19",
+         "strike":85
       },
       {
          "symbol":"TRMD",
