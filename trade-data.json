@@ -172,6 +172,12 @@
          "strike":65
       },
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":305
+      },
+      {
          "symbol":"CAMT",
          "type":"put",
          "expiry":"2025-10-17",
@@ -182,6 +188,12 @@
          "type":"put",
          "expiry":"2025-09-19",
          "strike":225
+      },
+      {
+         "symbol":"DEO",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":90
       },
       {
          "symbol":"EPAM",
@@ -218,6 +230,12 @@
          "type":"put",
          "expiry":"2025-10-03",
          "strike":4
+      },
+      {
+         "symbol":"OXM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":35
       },
       {
          "symbol":"PAYC",
@@ -296,6 +314,12 @@
          "type":"put",
          "expiry":"2025-09-26",
          "strike":76
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-09-26",
+         "strike":77
       },
       {
          "symbol":"VFC",
