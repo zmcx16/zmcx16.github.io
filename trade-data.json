@@ -250,6 +250,12 @@
          "strike":132
       },
       {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2025-10-31",
+         "strike":21.5
+      },
+      {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2025-10-17",
@@ -296,6 +302,12 @@
          "type":"put",
          "expiry":"2025-09-19",
          "strike":85
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":175
       },
       {
          "symbol":"TRMD",
