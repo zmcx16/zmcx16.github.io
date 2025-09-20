@@ -214,10 +214,16 @@
          "strike":40
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":45
+      },
+      {
          "symbol":"HAL",
          "type":"put",
-         "expiry":"2025-09-19",
-         "strike":20
+         "expiry":"2025-10-17",
+         "strike":19
       },
       {
          "symbol":"MPW",
@@ -230,6 +236,12 @@
          "type":"put",
          "expiry":"2025-10-03",
          "strike":4
+      },
+      {
+         "symbol":"NVO",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":50
       },
       {
          "symbol":"OXM",
@@ -282,8 +294,8 @@
       {
          "symbol":"SEE",
          "type":"put",
-         "expiry":"2025-09-19",
-         "strike":27.5
+         "expiry":"2025-10-17",
+         "strike":30
       },
       {
          "symbol":"STNG",
@@ -300,8 +312,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-09-19",
-         "strike":85
+         "expiry":"2025-09-26",
+         "strike":83
       },
       {
          "symbol":"TM",
