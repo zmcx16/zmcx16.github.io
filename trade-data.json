@@ -184,28 +184,10 @@
          "strike":65
       },
       {
-         "symbol":"CRM",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":225
-      },
-      {
          "symbol":"DEO",
          "type":"put",
          "expiry":"2025-10-17",
          "strike":90
-      },
-      {
-         "symbol":"EPAM",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":130
-      },
-      {
-         "symbol":"EW",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":75
       },
       {
          "symbol":"G",
@@ -224,12 +206,6 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":19
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2025-09-12",
-         "strike":3.5
       },
       {
          "symbol":"MPW",
@@ -280,12 +256,6 @@
          "strike":60
       },
       {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":145
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2025-09-26",
@@ -298,16 +268,10 @@
          "strike":30
       },
       {
-         "symbol":"STNG",
+         "symbol":"TEN",
          "type":"put",
-         "expiry":"2025-09-19",
-         "strike":42.5
-      },
-      {
-         "symbol":"TEX",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":44
+         "expiry":"2025-10-17",
+         "strike":20
       },
       {
          "symbol":"TGT",
@@ -330,12 +294,6 @@
       {
          "symbol":"UPS",
          "type":"put",
-         "expiry":"2025-09-19",
-         "strike":78
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
          "expiry":"2025-09-26",
          "strike":76
       },
@@ -348,20 +306,8 @@
       {
          "symbol":"VFC",
          "type":"put",
-         "expiry":"2025-09-12",
-         "strike":10.5
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
          "expiry":"2025-10-17",
          "strike":11
-      },
-      {
-         "symbol":"ZTS",
-         "type":"put",
-         "expiry":"2025-09-19",
-         "strike":140
       }
    ],
    "news_config":{
