@@ -184,6 +184,12 @@
          "strike":65
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":220
+      },
+      {
          "symbol":"DEO",
          "type":"put",
          "expiry":"2025-10-17",
@@ -308,6 +314,12 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":11
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":135
       }
    ],
    "news_config":{
