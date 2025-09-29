@@ -162,8 +162,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2025-09-26",
-         "strike":117
+         "expiry":"2025-10-03",
+         "strike":114
       },
       {
          "symbol":"ACLS",
@@ -194,6 +194,18 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":90
+      },
+      {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":135
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":70
       },
       {
          "symbol":"G",
@@ -240,7 +252,7 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-09-26",
+         "expiry":"2025-10-03",
          "strike":132
       },
       {
@@ -264,8 +276,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-09-26",
-         "strike":76
+         "expiry":"2025-10-03",
+         "strike":77
       },
       {
          "symbol":"SEE",
@@ -282,8 +294,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-09-26",
-         "strike":83
+         "expiry":"2025-10-03",
+         "strike":80
       },
       {
          "symbol":"TM",
@@ -320,6 +332,18 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":135
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2025-10-03",
+         "strike":11.5
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":12
       }
    ],
    "news_config":{
