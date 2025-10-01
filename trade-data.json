@@ -312,14 +312,8 @@
       {
          "symbol":"UPS",
          "type":"put",
-         "expiry":"2025-09-26",
+         "expiry":"2025-10-24",
          "strike":76
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2025-09-26",
-         "strike":77
       },
       {
          "symbol":"VFC",
