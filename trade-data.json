@@ -162,8 +162,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2025-10-03",
-         "strike":114
+         "expiry":"2025-10-10",
+         "strike":111
       },
       {
          "symbol":"ACLS",
@@ -208,6 +208,12 @@
          "strike":70
       },
       {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":130
+      },
+      {
          "symbol":"G",
          "type":"put",
          "expiry":"2025-10-17",
@@ -224,12 +230,6 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":19
-      },
-      {
-         "symbol":"MPW",
-         "type":"put",
-         "expiry":"2025-10-03",
-         "strike":4
       },
       {
          "symbol":"NVO",
@@ -250,12 +250,6 @@
          "strike":195
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2025-10-03",
-         "strike":132
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2025-10-31",
@@ -268,16 +262,10 @@
          "strike":70
       },
       {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-10-03",
-         "strike":60
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-10-03",
-         "strike":77
+         "expiry":"2025-10-10",
+         "strike":80
       },
       {
          "symbol":"SEE",
@@ -294,8 +282,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-10-03",
-         "strike":80
+         "expiry":"2025-10-10",
+         "strike":83
       },
       {
          "symbol":"TM",
@@ -326,12 +314,6 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":135
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2025-10-03",
-         "strike":11.5
       },
       {
          "symbol":"ZIM",
