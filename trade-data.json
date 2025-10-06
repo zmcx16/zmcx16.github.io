@@ -232,6 +232,12 @@
          "strike":19
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":65
+      },
+      {
          "symbol":"NVO",
          "type":"put",
          "expiry":"2025-10-17",
@@ -260,6 +266,12 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":70
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":65
       },
       {
          "symbol":"SBUX",
