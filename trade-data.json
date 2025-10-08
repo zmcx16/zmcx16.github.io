@@ -286,6 +286,12 @@
          "strike":30
       },
       {
+         "symbol":"TEAM",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":135
+      },
+      {
          "symbol":"TEN",
          "type":"put",
          "expiry":"2025-10-17",
