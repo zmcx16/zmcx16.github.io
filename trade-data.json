@@ -162,8 +162,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2025-10-10",
-         "strike":111
+         "expiry":"2025-10-17",
+         "strike":110
       },
       {
          "symbol":"ACLS",
@@ -230,6 +230,12 @@
          "type":"put",
          "expiry":"2025-10-17",
          "strike":19
+      },
+      {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2025-10-17",
+         "strike":125
       },
       {
          "symbol":"NKE",
@@ -300,8 +306,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-10-10",
-         "strike":83
+         "expiry":"2025-10-24",
+         "strike":80
       },
       {
          "symbol":"TM",
