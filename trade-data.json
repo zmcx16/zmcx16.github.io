@@ -3,6 +3,7 @@
       "SEE",
       "EL",
       "TGT",
+      "SBUX",
       "NKE",
       "PVH",
       "VFC",
@@ -792,92 +793,98 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.144722479746909,
+         "position_%":12.726614137497982,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.130978541284234,
+         "position_%":6.904155828130504,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":5.880333587546175,
+         "position_%":5.693291485139844,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.555455743325885,
+         "position_%":2.474171610764035,
          "profit_%":0
       },
       "EW":{
          "cost_p":80.31,
-         "position_%":5.778066022706483,
+         "position_%":5.594276854857489,
          "profit_%":0
       },
       "HAL":{
          "cost_p":26.94,
-         "position_%":5.260972436064786,
+         "position_%":5.093631020736351,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.5356826437039155,
+         "position_%":3.423219378606073,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.446326487402075,
+         "position_%":4.304897392979614,
          "profit_%":0
       },
       "NKE":{
          "cost_p":73.71,
-         "position_%":6.060817852730595,
+         "position_%":5.868034892954735,
          "profit_%":0
       },
       "NVO":{
          "cost_p":74.48,
-         "position_%":5.358614834655446,
+         "position_%":5.188167602412971,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.383693513872415,
+         "position_%":5.212448577075177,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.796889421525318,
+         "position_%":2.7079257479833854,
+         "profit_%":0
+      },
+      "SBUX":{
+         "cost_p":79.91,
+         "position_%":3.1808076807489685,
          "profit_%":0
       },
       "SEE":{
          "cost_p":34.36,
-         "position_%":8.122614185076541,
+         "position_%":7.864249449200021,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.2663951865380936,
+         "position_%":3.162497437561076,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":4.411380786853838,
+         "position_%":4.271063247958507,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.511979180584991,
+         "position_%":2.4320779538701287,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.352604174161149,
+         "position":700,
+         "position_%":1.3095804366993,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":13.00247292222115,
+         "position_%":12.588889264823836,
          "profit_%":0
       }
    }
