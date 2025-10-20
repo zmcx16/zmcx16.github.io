@@ -162,6 +162,18 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-10-31",
+         "strike":113
+      },
+      {
+         "symbol":"ADEB",
+         "type":"put",
+         "expiry":"2025-10-31",
+         "strike":300
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2025-10-24",
