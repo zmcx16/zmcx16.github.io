@@ -176,8 +176,8 @@
       {
          "symbol":"CRM",
          "type":"put",
-         "expiry":"2025-10-24",
-         "strike":220
+         "expiry":"2025-11-14",
+         "strike":225
       },
       {
          "symbol":"DIS",
@@ -200,8 +200,8 @@
       {
          "symbol":"NVO",
          "type":"put",
-         "expiry":"2025-10-24",
-         "strike":50
+         "expiry":"2025-10-31",
+         "strike":47
       },
       {
          "symbol":"PFE",
@@ -210,22 +210,10 @@
          "strike":21.5
       },
       {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2025-10-24",
-         "strike":60
-      },
-      {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-10-24",
-         "strike":80
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2025-10-24",
-         "strike":76
+         "expiry":"2025-11-14",
+         "strike":83
       },
       {
          "symbol":"ZIM",
