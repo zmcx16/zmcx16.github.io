@@ -223,6 +223,12 @@
          "strike":21.5
       },
       {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":75
+      },
+      {
          "symbol":"TGT",
          "type":"put",
          "expiry":"2025-11-14",
