@@ -169,15 +169,9 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2025-10-31",
-         "strike":113
-      },
-      {
          "symbol":"ADEB",
          "type":"put",
-         "expiry":"2025-10-31",
+         "expiry":"2025-11-21",
          "strike":300
       },
       {
@@ -189,8 +183,8 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2025-10-31",
-         "strike":102
+         "expiry":"2025-11-07",
+         "strike":106
       },
       {
          "symbol":"GIS",
@@ -199,16 +193,16 @@
          "strike":45
       },
       {
+         "symbol":"MPW",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":4.5
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2025-11-21",
          "strike":65
-      },
-      {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2025-10-31",
-         "strike":47
       },
       {
          "symbol":"OXM",
@@ -217,16 +211,22 @@
          "strike":30
       },
       {
-         "symbol":"PFE",
+         "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-10-31",
-         "strike":21.5
+         "expiry":"2025-11-07",
+         "strike":140
       },
       {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2025-11-21",
          "strike":75
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-11-07",
+         "strike":62
       },
       {
          "symbol":"SBUX",
@@ -239,6 +239,18 @@
          "type":"put",
          "expiry":"2025-11-14",
          "strike":83
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":85
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":10
       },
       {
          "symbol":"VFC",
