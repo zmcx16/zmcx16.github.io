@@ -211,6 +211,12 @@
          "strike":65
       },
       {
+         "symbol":"NVO",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":40
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2025-11-21",
