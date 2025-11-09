@@ -175,16 +175,16 @@
          "strike":300
       },
       {
+         "symbol":"CIVI",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":22.5
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2025-11-14",
          "strike":225
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2025-11-07",
-         "strike":106
       },
       {
          "symbol":"GIS",
@@ -223,10 +223,10 @@
          "strike":30
       },
       {
-         "symbol":"PEP",
+         "symbol":"PBR",
          "type":"put",
-         "expiry":"2025-11-07",
-         "strike":140
+         "expiry":"2025-12-19",
+         "strike":11
       },
       {
          "symbol":"PVH",
@@ -237,13 +237,13 @@
       {
          "symbol":"PYPL",
          "type":"put",
-         "expiry":"2025-11-07",
-         "strike":62
+         "expiry":"2025-11-14",
+         "strike":60
       },
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-11-07",
+         "expiry":"2025-11-14",
          "strike":76
       },
       {
