@@ -169,6 +169,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":110
+      },
+      {
          "symbol":"ADEB",
          "type":"put",
          "expiry":"2025-11-21",
@@ -185,6 +191,12 @@
          "type":"put",
          "expiry":"2025-11-14",
          "strike":225
+      },
+      {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":120
       },
       {
          "symbol":"GIS",
@@ -211,6 +223,12 @@
          "strike":65
       },
       {
+         "symbol":"NOG",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":19
+      },
+      {
          "symbol":"NVO",
          "type":"put",
          "expiry":"2025-11-21",
@@ -227,6 +245,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":11
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":135
       },
       {
          "symbol":"PVH",
