@@ -199,6 +199,12 @@
          "strike":120
       },
       {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":125
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2025-11-21",
