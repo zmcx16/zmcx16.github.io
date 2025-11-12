@@ -187,6 +187,12 @@
          "strike":22.5
       },
       {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":26
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2025-11-14",
@@ -215,6 +221,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":6
+      },
+      {
+         "symbol":"MOH",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":120
       },
       {
          "symbol":"MPW",
@@ -257,6 +269,12 @@
          "type":"put",
          "expiry":"2025-11-21",
          "strike":135
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":22.5
       },
       {
          "symbol":"PVH",
