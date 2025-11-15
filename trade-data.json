@@ -194,8 +194,8 @@
       {
          "symbol":"CRM",
          "type":"put",
-         "expiry":"2025-11-14",
-         "strike":225
+         "expiry":"2025-11-21",
+         "strike":210
       },
       {
          "symbol":"DHI",
@@ -232,6 +232,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":4.5
+      },
+      {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2025-11-21",
+         "strike":120
       },
       {
          "symbol":"NKE",
@@ -284,20 +290,20 @@
       {
          "symbol":"PYPL",
          "type":"put",
-         "expiry":"2025-11-14",
-         "strike":60
+         "expiry":"2025-11-21",
+         "strike":58
       },
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-11-14",
-         "strike":76
+         "expiry":"2025-11-21",
+         "strike":78
       },
       {
-         "symbol":"TGT",
+         "symbol":"TEAM",
          "type":"put",
-         "expiry":"2025-11-14",
-         "strike":83
+         "expiry":"2025-11-21",
+         "strike":130
       },
       {
          "symbol":"UPS",
@@ -322,12 +328,6 @@
          "type":"put",
          "expiry":"2025-11-21",
          "strike":37
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2025-11-14",
-         "strike":11
       }
    ],
    "news_config":{
