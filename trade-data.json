@@ -203,6 +203,12 @@
          "strike":120
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":145
+      },
+      {
          "symbol":"EXR",
          "type":"put",
          "expiry":"2025-11-21",
