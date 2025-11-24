@@ -183,6 +183,24 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2025-12-05",
+         "strike":104
+      },
+      {
+         "symbol":"CAG",
+         "type":"put",
+         "expiry":"2025-12-12",
+         "strike":16.5
+      },
+      {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2025-12-26",
+         "strike":23
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2025-11-28",
@@ -207,6 +225,12 @@
          "strike":145
       },
       {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":42.5
+      },
+      {
          "symbol":"GT",
          "type":"put",
          "expiry":"2025-12-19",
@@ -223,6 +247,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":4.5
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2025-12-05",
+         "strike":56
       },
       {
          "symbol":"NOG",
@@ -255,6 +285,12 @@
          "strike":22.5
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":50
+      },
+      {
          "symbol":"QCOM",
          "type":"put",
          "expiry":"2025-11-28",
@@ -283,6 +319,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":17.5
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":85
       },
       {
          "symbol":"VALE",
