@@ -189,6 +189,12 @@
          "strike":104
       },
       {
+         "symbol":"ALSN",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":80
+      },
+      {
          "symbol":"CAG",
          "type":"put",
          "expiry":"2025-12-12",
