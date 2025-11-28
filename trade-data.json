@@ -194,6 +194,12 @@
          "strike":80
       },
       {
+         "symbol":"BCE",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":22
+      },
+      {
          "symbol":"CAG",
          "type":"put",
          "expiry":"2025-12-12",
@@ -218,18 +224,6 @@
          "strike":23
       },
       {
-         "symbol":"CRM",
-         "type":"put",
-         "expiry":"2025-11-28",
-         "strike":200
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2025-11-28",
-         "strike":95
-      },
-      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-01-16",
@@ -246,6 +240,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":42.5
+      },
+      {
+         "symbol":"GPN",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":65
       },
       {
          "symbol":"GT",
@@ -314,12 +314,6 @@
          "strike":50
       },
       {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2025-11-28",
-         "strike":145
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2025-12-05",
@@ -334,8 +328,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-11-28",
-         "strike":79
+         "expiry":"2025-12-12",
+         "strike":80
       },
       {
          "symbol":"TRMD",
@@ -364,8 +358,8 @@
       {
          "symbol":"ZIM",
          "type":"put",
-         "expiry":"2025-11-28",
-         "strike":15.5
+         "expiry":"2025-12-19",
+         "strike":14.5
       }
    ],
    "news_config":{
