@@ -224,10 +224,22 @@
          "strike":23
       },
       {
+         "symbol":"CNMD",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":40
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-01-16",
          "strike":120
+      },
+      {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":50
       },
       {
          "symbol":"EPAM",
@@ -260,6 +272,12 @@
          "strike":27.5
       },
       {
+         "symbol":"KSPI",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":70
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2025-12-19",
@@ -282,6 +300,12 @@
          "type":"put",
          "expiry":"2025-12-05",
          "strike":40
+      },
+      {
+         "symbol":"OMC",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":65
       },
       {
          "symbol":"PBR",
