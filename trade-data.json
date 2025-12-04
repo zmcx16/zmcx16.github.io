@@ -254,6 +254,12 @@
          "strike":42.5
       },
       {
+         "symbol":"GLOB",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":60
+      },
+      {
          "symbol":"GPN",
          "type":"put",
          "expiry":"2025-12-19",
@@ -276,6 +282,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":27.5
+      },
+      {
+         "symbol":"HOG",
+         "type":"put",
+         "expiry":"2025-12-12",
+         "strike":22
       },
       {
          "symbol":"KSPI",
