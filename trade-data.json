@@ -184,8 +184,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2025-12-05",
-         "strike":104
+         "expiry":"2025-12-12",
+         "strike":110
       },
       {
          "symbol":"ALSN",
@@ -304,8 +304,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2025-12-05",
-         "strike":56
+         "expiry":"2025-12-12",
+         "strike":61
       },
       {
          "symbol":"NOG",
@@ -316,8 +316,8 @@
       {
          "symbol":"NVO",
          "type":"put",
-         "expiry":"2025-12-05",
-         "strike":40
+         "expiry":"2025-12-19",
+         "strike":43
       },
       {
          "symbol":"OMC",
@@ -358,8 +358,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2025-12-05",
-         "strike":74
+         "expiry":"2025-12-19",
+         "strike":77
       },
       {
          "symbol":"TEAM",
