@@ -225,6 +225,12 @@
          "strike":23
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2025-12-12",
+         "strike":240
+      },
+      {
          "symbol":"CNMD",
          "type":"put",
          "expiry":"2025-12-19",
@@ -297,10 +303,28 @@
          "strike":70
       },
       {
+         "symbol":"MOH",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":125
+      },
+      {
          "symbol":"MPW",
          "type":"put",
          "expiry":"2025-12-19",
          "strike":4.5
+      },
+      {
+         "symbol":"MTDR",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":37.5
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":86
       },
       {
          "symbol":"NKE",
@@ -325,6 +349,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":65
+      },
+      {
+         "symbol":"OMC",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":65.5
       },
       {
          "symbol":"PBR",
@@ -355,6 +385,12 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":50
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":150
       },
       {
          "symbol":"SBUX",
