@@ -12,6 +12,7 @@
       "AAP",
       "PYPL",
       "EPAM",
+      "NICE",
       "ZIM",
       "VALE",
       "SID",
@@ -532,6 +533,7 @@
          "PFE":"Pfizer Inc.",
          "G":"Genpact Limited",
          "GT":"The Goodyear Tire & Rubber Company (GT)",
+         "NICE":"NICE Ltd.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -849,92 +851,98 @@
       "PFE":"78003",
       "G":"1398659",
       "GT":"42582",
+      "NICE":"1003935",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":14.181951251968329,
+         "position_%":13.639490425480858,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":7.693672514360488,
+         "position_%":7.399388894517648,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":6.344341191864979,
+         "position_%":6.1016696084338955,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.757102619264122,
+         "position_%":2.6516432125164644,
          "profit_%":0
       },
       "HAL":{
          "cost_p":26.94,
-         "position_%":5.676107254541019,
+         "position_%":5.458995675335548,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.814677637561268,
+         "position_%":3.6687658975411805,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.797178912816873,
+         "position_%":4.613686416500914,
+         "profit_%":0
+      },
+      "NICE":{
+         "cost_p":119.55,
+         "position_%":3.8250083987010006,
          "profit_%":0
       },
       "NKE":{
          "cost_p":70.07,
-         "position_%":10.101244205903877,
+         "position_%":9.714870766654755,
          "profit_%":0
       },
       "NVO":{
          "cost_p":74.48,
-         "position_%":5.781454456741112,
+         "position_%":5.560313338203692,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.8085120539377675,
+         "position_%":5.586335980035088,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":3.017587438177826,
+         "position_%":2.9021644652293777,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":79.91,
-         "position_%":3.5445452327618714,
+         "position_%":3.4089660799129735,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.52414114307259,
+         "position_%":3.389342448367986,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":4.759475703608419,
+         "position_%":4.577425358211263,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.710195391337133,
+         "position_%":2.6065301899972804,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.4593359799507641,
+         "position_%":1.4035162561523817,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":14.028477012131562,
+         "position_%":13.491886588207691,
          "profit_%":0
       }
    }
