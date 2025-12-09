@@ -1,0 +1,42 @@
+name: UpdateAIAnalysis
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 16 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.12
+    - uses: actions/cache@v4
+      name: Configure pip caching
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Install Python dependencies
+      run: |
+        python -m pip install -r ./.github/script/requirements.txt
+    - name: get AI analysis data
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      run: |-
+        python ./.github/script/build_ai_analysis.py
+    - name: Commit and push if data changed
+      run: |-
+        git config --global user.email "zmcx16-bot@zmcx16.moe"
+        git config --global user.name "zmcx16-bot"
+        git config --global pull.ff only
+        git pull
+        git diff
+        git diff --quiet || (git add ai-analysis/ && git commit -m "Updated ai-analysis")
+        git push
