@@ -123,6 +123,7 @@ if __name__ == "__main__":
 
             if current_call < total_calls:
                 time.sleep(2)
+            break # test one stock only
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
