@@ -11,7 +11,7 @@ from build_ai_analysis_prompts import prompts
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UPDATE_THRESHOLD_DAYS = 7
 
-def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash-lite"):
+def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(model_name)
@@ -123,7 +123,6 @@ if __name__ == "__main__":
 
             if current_call < total_calls:
                 time.sleep(2)
-            break # test one stock only
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
