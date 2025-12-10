@@ -38,5 +38,5 @@ jobs:
         git config --global pull.ff only
         git pull
         git diff
-        git diff --quiet || (git add ai-analysis/ && git commit -m "Updated ai-analysis")
+        git diff --quiet || (git add ./plugin-react/ai-analysis/* && git commit -m "Updated ai-analysis")
         git push
