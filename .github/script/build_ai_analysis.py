@@ -58,9 +58,8 @@ def should_update(stat_data, prompt_key, symbol, threshold_days=7):
         logging.warning(f'Failed to parse last_update_time for {symbol}: {ex}')
         return True
 
-def save_analysis_result(prompt_key, symbol, content):
-    script_path = pathlib.Path(__file__).parent.resolve()
-    output_dir = script_path / '..' / '..' / 'ai-analysis' / prompt_key
+def save_analysis_result(output_base_dir, prompt_key, symbol, content):
+    output_dir = output_base_dir / prompt_key
     output_dir.mkdir(parents=True, exist_ok=True)
     
     output_file = output_dir / f'{symbol}.md'
@@ -109,7 +108,7 @@ if __name__ == "__main__":
             prompt = prompt_template.format(symbol=symbol)
             result = call_gemini_api(prompt, GEMINI_API_KEY)
             if result:
-                save_analysis_result(prompt_key, symbol, result)
+                save_analysis_result(output_dir, prompt_key, symbol, result)
                 if prompt_key not in stat_data:
                     stat_data[prompt_key] = {}
                 stat_data[prompt_key][symbol] = {
