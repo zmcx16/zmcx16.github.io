@@ -81,7 +81,7 @@ if __name__ == "__main__":
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
     
-    stat_file = script_path / '..' / '..' / 'ai-analysis' / 'stat.json'
+    stat_file = output_dir / 'stat.json'
     stat_data = load_stat(stat_file)
     
     stock_list = data["hold_stock_list"]
