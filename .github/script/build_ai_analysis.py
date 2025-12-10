@@ -33,6 +33,7 @@ def load_stat(stat_file):
 
 def save_stat(stat_file, stat_data):
     try:
+        stat_file.parent.mkdir(parents=True, exist_ok=True)
         with open(stat_file, 'w', encoding='utf-8') as f:
             f.write(json.dumps(stat_data, indent=2, sort_keys=True))
     except Exception as ex:
