@@ -122,7 +122,7 @@ if __name__ == "__main__":
                 logging.error(f"✗ Failed to analyze {symbol}")
 
             if current_call < total_calls:
-                time.sleep(2)
+                time.sleep(12)
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
