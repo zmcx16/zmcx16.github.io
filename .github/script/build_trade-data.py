@@ -198,7 +198,12 @@ if __name__ == "__main__":
                         if resp["ret"] != 0:
                             logging.error('server err = {err}, msg = {msg}'.format(err=resp["ret"], msg=resp["err_msg"]))
                         else:
-                            scan_output["data"] += resp["data"]
+                            # check ["baseinfo"]["Price"] != "-"
+                            if resp["data"] and resp["data"][0]["baseinfo"]["Price"] != "-":
+                                scan_output["data"] += resp["data"]
+                            else:
+                                logging.error('no data or invalid price for symbol {symbol}'.format(symbol=symbol))
+                                continue
                         break
                     except Exception as ex:
                         logging.error('Generated an exception: {ex}, try next target.'.format(ex=ex))
