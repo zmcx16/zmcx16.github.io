@@ -185,8 +185,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2025-12-12",
-         "strike":110
+         "expiry":"2026-01-16",
+         "strike":115
       },
       {
          "symbol":"ALSN",
@@ -227,7 +227,7 @@
       {
          "symbol":"CRM",
          "type":"put",
-         "expiry":"2025-12-12",
+         "expiry":"2025-12-19",
          "strike":240
       },
       {
@@ -253,6 +253,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":145
+      },
+      {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":125
       },
       {
          "symbol":"GIS",
@@ -357,6 +363,12 @@
          "strike":65.5
       },
       {
+         "symbol":"OXM",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":22.5
+      },
+      {
          "symbol":"PBR",
          "type":"put",
          "expiry":"2025-12-19",
@@ -365,8 +377,14 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2025-12-12",
-         "strike":134
+         "expiry":"2025-12-19",
+         "strike":141
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2025-12-19",
+         "strike":143
       },
       {
          "symbol":"PFE",
@@ -407,8 +425,8 @@
       {
          "symbol":"TGT",
          "type":"put",
-         "expiry":"2025-12-12",
-         "strike":80
+         "expiry":"2025-12-19",
+         "strike":88
       },
       {
          "symbol":"TRMD",
