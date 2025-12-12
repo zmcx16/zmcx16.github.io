@@ -87,5 +87,5 @@ jobs:
         git config --global pull.ff only
         git pull
         git diff
-        git diff --quiet || (git add *.js && git add *.json && git add ./plugin-react/ --ignore-removal && git reset ./plugin-react/ai-analysis/ && git commit -m "Updated plugin pages & monitor data & AI analysis data")
+        git diff --quiet || (git add *.js && git add *.json && git add ./plugin-react/ && git commit -m "Updated plugin pages & monitor data & AI analysis data")
         git push
