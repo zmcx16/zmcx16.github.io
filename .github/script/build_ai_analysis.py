@@ -11,7 +11,7 @@ from build_ai_analysis_prompts import prompts
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UPDATE_THRESHOLD_DAYS = 7
 
-def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
+def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash-lite"):
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(model_name)
