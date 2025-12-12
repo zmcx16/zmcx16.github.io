@@ -11,7 +11,7 @@ from build_ai_analysis_prompts import prompts
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 UPDATE_THRESHOLD_DAYS = 7
 
-def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash-lite"):
+def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
     try:
         genai.configure(api_key=api_key)
         model = genai.GenerativeModel(model_name)
@@ -80,7 +80,6 @@ if __name__ == "__main__":
     input_path = script_path / '..' / '..' / 'trade-data.json'
     with open(input_path, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
-    
     stat_file = output_dir / 'stat.json'
     stat_data = load_stat(stat_file)
     
@@ -122,7 +121,7 @@ if __name__ == "__main__":
                 logging.error(f"✗ Failed to analyze {symbol}")
 
             if current_call < total_calls:
-                time.sleep(12)
+                time.sleep(8)
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
