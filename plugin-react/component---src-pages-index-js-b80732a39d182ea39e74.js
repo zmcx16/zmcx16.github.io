@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{RXBc:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),o=n.n(a),c=n("w8ma"),l=n("y4pv"),m=n.n(l);var u=()=>o.a.createElement(o.a.Fragment,null,o.a.createElement("div",{className:m.a.defaultFont},"test"));t.default=()=>o.a.createElement(c.a,{injectFirst:!0},o.a.createElement(u,null))},y4pv:function(e,t,n){e.exports={defaultFont:"common-module--defaultFont--152C0",comicFont:"common-module--comicFont--WxopU"}}}]);
-//# sourceMappingURL=component---src-pages-index-js-b80732a39d182ea39e74.js.map
