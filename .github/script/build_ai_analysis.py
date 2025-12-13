@@ -120,7 +120,6 @@ if __name__ == "__main__":
             else:
                 logging.error(f"✗ Failed to analyze {symbol}")
 
-            break
             if current_call < total_calls:
                 time.sleep(8)
     
