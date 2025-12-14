@@ -54,6 +54,7 @@ jobs:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |-
         python ./.github/script/build_ai_analysis.py
+        python ./.github/script/build_ai_analysis.py --stock-list watch_stock_list --update-threshold-days 30
     - name: get monitor data
       env:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
