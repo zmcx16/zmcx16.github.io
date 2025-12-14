@@ -4,12 +4,33 @@ import json
 import time
 import pathlib
 import logging
+import argparse
 from datetime import datetime
 import google.generativeai as genai
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-UPDATE_THRESHOLD_DAYS = 7
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='AI Analysis Script for Stock Data')
+    parser.add_argument(
+        '--stock-list',
+        type=str,
+        choices=['hold_stock_list', 'watch_stock_list'],
+        default='hold_stock_list',
+        help='Which stock list to analyze (default: hold_stock_list)'
+    )
+    parser.add_argument(
+        '--update-threshold-days',
+        type=int,
+        default=7,
+        help='Number of days before re-analyzing a stock (default: 7)'
+    )
+    return parser.parse_args()
+
+class RateLimitError(Exception):
+    """Exception raised when API rate limit (429) is hit."""
+    pass
 
 def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
     try:
@@ -19,6 +40,10 @@ def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
         response = model.generate_content(prompt)
         return response.text
     except Exception as ex:
+        error_str = str(ex)
+        if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
+            logging.error(f'Rate limit exceeded (429): {ex}')
+            raise RateLimitError(f'API rate limit exceeded: {ex}')
         logging.error(f'Gemini API error: {ex}')
         return None
 
@@ -70,6 +95,11 @@ def save_analysis_result(output_base_dir, prompt_key, symbol, content):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+    
+    args = parse_args()
+    update_threshold_days = args.update_threshold_days
+    stock_list_key = args.stock_list
+    
     if not GEMINI_API_KEY:
         logging.error("GEMINI_API_KEY environment variable is not set")
         sys.exit(1)
@@ -83,8 +113,13 @@ if __name__ == "__main__":
     stat_file = output_dir / 'stat.json'
     stat_data = load_stat(stat_file)
     
-    stock_list = data["hold_stock_list"]
-    logging.info(f"Starting AI analysis for {len(stock_list)} stocks")
+    if stock_list_key not in data:
+        logging.error(f"Stock list key '{stock_list_key}' not found in trade-data.json")
+        sys.exit(1)
+    
+    stock_list = data[stock_list_key]
+    logging.info(f"Starting AI analysis for {len(stock_list)} stocks from '{stock_list_key}'")
+    logging.info(f"Update threshold: {update_threshold_days} days")
     logging.info(f"Stock list: {', '.join(stock_list)}")
     
     total_calls = len(stock_list) * len(prompts)
@@ -98,14 +133,19 @@ if __name__ == "__main__":
         logging.info(f"{'='*60}")
         for symbol in stock_list:
             current_call += 1
-            if not should_update(stat_data, prompt_key, symbol, UPDATE_THRESHOLD_DAYS):
-                logging.info(f"[{current_call}/{total_calls}] Skipping {symbol} (updated within {UPDATE_THRESHOLD_DAYS} days)")
+            if not should_update(stat_data, prompt_key, symbol, update_threshold_days):
+                logging.info(f"[{current_call}/{total_calls}] Skipping {symbol} (updated within {update_threshold_days} days)")
                 skipped_count += 1
                 continue
             
             logging.info(f"[{current_call}/{total_calls}] Analyzing {symbol} with {prompt_key}")
             prompt = prompt_template.format(symbol=symbol)
-            result = call_gemini_api(prompt, GEMINI_API_KEY)
+            try:
+                result = call_gemini_api(prompt, GEMINI_API_KEY)
+            except RateLimitError:
+                logging.error("Rate limit (429) encountered. Exiting program.")
+                logging.info(f"Progress before exit - Updated: {updated_count}, Skipped: {skipped_count}")
+                sys.exit(0)
             if result:
                 save_analysis_result(output_dir, prompt_key, symbol, result)
                 if prompt_key not in stat_data:
