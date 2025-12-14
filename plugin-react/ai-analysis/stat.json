@@ -1,13 +1,81 @@
 {
   "ev-analysis": {
+    "AAP": {
+      "last_update_time": "2025-12-14T11:37:32.247740"
+    },
+    "ALB": {
+      "last_update_time": "2025-12-14T11:41:10.542537"
+    },
     "EL": {
       "last_update_time": "2025-12-13T18:34:01.147126"
+    },
+    "EPAM": {
+      "last_update_time": "2025-12-14T11:38:34.423556"
+    },
+    "HAL": {
+      "last_update_time": "2025-12-14T11:40:46.413571"
+    },
+    "ILPT": {
+      "last_update_time": "2025-12-14T11:37:03.551157"
+    },
+    "MPW": {
+      "last_update_time": "2025-12-14T11:36:07.550667"
+    },
+    "NICE": {
+      "last_update_time": "2025-12-14T11:39:00.140583"
+    },
+    "NKE": {
+      "last_update_time": "2025-12-14T11:35:05.820802"
+    },
+    "NVO": {
+      "last_update_time": "2025-12-14T11:36:34.053745"
     },
     "PVH": {
       "last_update_time": "2025-12-13T21:25:06.300533"
     },
+    "PYPL": {
+      "last_update_time": "2025-12-14T11:38:03.537611"
+    },
+    "SBUX": {
+      "last_update_time": "2025-12-14T11:34:38.361934"
+    },
+    "SID": {
+      "last_update_time": "2025-12-14T11:40:18.835833"
+    },
     "TGT": {
       "last_update_time": "2025-12-13T21:24:19.249778"
+    },
+    "VALE": {
+      "last_update_time": "2025-12-14T11:39:54.618354"
+    },
+    "VFC": {
+      "last_update_time": "2025-12-14T11:35:39.858319"
+    },
+    "ZIM": {
+      "last_update_time": "2025-12-14T11:39:26.100218"
+    }
+  },
+  "super-thinking": {
+    "EL": {
+      "last_update_time": "2025-12-14T11:41:52.903665"
+    },
+    "ILPT": {
+      "last_update_time": "2025-12-14T11:45:44.256547"
+    },
+    "NKE": {
+      "last_update_time": "2025-12-14T11:43:49.858868"
+    },
+    "PVH": {
+      "last_update_time": "2025-12-14T11:44:24.378169"
+    },
+    "SBUX": {
+      "last_update_time": "2025-12-14T11:43:08.192451"
+    },
+    "TGT": {
+      "last_update_time": "2025-12-14T11:42:31.760961"
+    },
+    "VFC": {
+      "last_update_time": "2025-12-14T11:45:00.461771"
     }
   }
 }
