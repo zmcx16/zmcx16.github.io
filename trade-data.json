@@ -202,12 +202,6 @@
          "strike":22
       },
       {
-         "symbol":"CAG",
-         "type":"put",
-         "expiry":"2025-12-12",
-         "strike":16.5
-      },
-      {
          "symbol":"CALM",
          "type":"put",
          "expiry":"2025-12-19",
@@ -300,8 +294,8 @@
       {
          "symbol":"HOG",
          "type":"put",
-         "expiry":"2025-12-12",
-         "strike":22
+         "expiry":"2026-01-16",
+         "strike":18
       },
       {
          "symbol":"KSPI",
@@ -332,12 +326,6 @@
          "type":"put",
          "expiry":"2025-12-19",
          "strike":86
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2025-12-12",
-         "strike":61
       },
       {
          "symbol":"NOG",
