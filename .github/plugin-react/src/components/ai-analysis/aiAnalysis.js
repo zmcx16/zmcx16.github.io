@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import Grid from '@mui/material/Grid'
 import FormControl from '@mui/material/FormControl'
 import InputLabel from '@mui/material/InputLabel'
@@ -12,6 +12,11 @@ import remarkGfm from 'remark-gfm'
 import commonStyle from '../common.module.scss'
 import aiAnalysisStyle from './aiAnalysis.module.scss'
 
+const STOCK_LIST_OPTIONS = [
+  { value: 'hold_stock_list', label: 'Hold Stock List' },
+  { value: 'watch_stock_list', label: 'Watch Stock List' }
+]
+
 const AIAnalysis = () => {
   const [prompts, setPrompts] = useState([])
   const [symbols, setSymbols] = useState([])
@@ -21,25 +26,52 @@ const AIAnalysis = () => {
   const [lastUpdateTime, setLastUpdateTime] = useState('')
   const [loading, setLoading] = useState(false)
   const [statData, setStatData] = useState({})
+  const [selectedStockList, setSelectedStockList] = useState('hold_stock_list')
   const [error, setError] = useState('')
 
+  // Use ref to always have access to latest state values
+  const tradeDataRef = useRef({})
+  const statDataRef = useRef({})
+
+  // Load trade-data.json to get stock lists
+  const loadTradeData = async () => {
+    try {
+      const response = await fetch('/trade-data.json')
+      if (response.ok) {
+        const resp = await response.json()
+        tradeDataRef.current = resp
+        return resp
+      } else {
+        setError('Failed to load trade data')
+        return null
+      }
+    } catch (err) {
+      setError(`Error loading trade data: ${err.message}`)
+      return null
+    }
+  }
+
   // Load stat.json to get available prompts and symbols
-  const loadStatData = async () => {
+  const loadStatData = async (tradeDataParam, stockListKey = 'hold_stock_list') => {
     try {
       const response = await fetch('/plugin-react/ai-analysis/stat.json')
       if (response.ok) {
         const resp = await response.json()
-        console.log('Loaded stat data:', resp)
         setStatData(resp)
+        statDataRef.current = resp
         const promptKeys = Object.keys(resp)
         setPrompts(promptKeys)
         
         if (promptKeys.length > 0) {
           setSelectedPrompt(promptKeys[0])
-          const symbolKeys = Object.keys(resp[promptKeys[0]] || {})
-          setSymbols(symbolKeys)
-          if (symbolKeys.length > 0) {
-            setSelectedSymbol(symbolKeys[0])
+          const stockListSymbols = tradeDataParam?.[stockListKey] || []
+          const allSymbolKeys = Object.keys(resp[promptKeys[0]] || {})
+          const filteredSymbols = stockListSymbols.length > 0 
+            ? allSymbolKeys.filter(s => stockListSymbols.includes(s))
+            : allSymbolKeys
+          setSymbols(filteredSymbols)
+          if (filteredSymbols.length > 0) {
+            setSelectedSymbol(filteredSymbols[0])
           }
         }
       } else {
@@ -86,22 +118,40 @@ const AIAnalysis = () => {
     setLoading(false)
   }
 
-  // Handle prompt selection change
-  const handlePromptChange = (event) => {
-    const newPrompt = event.target.value
-    setSelectedPrompt(newPrompt)
+  // Helper function to update symbols based on prompt and stock list
+  const updateSymbols = (prompt, stockList, shouldLoadContent = true) => {
+    const td = tradeDataRef.current
+    const sd = statDataRef.current
+    const stockListSymbols = td?.[stockList] || []
+    const allSymbolKeys = Object.keys(sd[prompt] || {})
+    const filteredSymbols = stockListSymbols.length > 0
+      ? allSymbolKeys.filter(s => stockListSymbols.includes(s))
+      : allSymbolKeys
+    setSymbols(filteredSymbols)
     
-    // Update available symbols for this prompt
-    const symbolKeys = Object.keys(statData[newPrompt] || {})
-    setSymbols(symbolKeys)
-    
-    if (symbolKeys.length > 0) {
-      setSelectedSymbol(symbolKeys[0])
-      loadAnalysisContent(newPrompt, symbolKeys[0])
+    if (filteredSymbols.length > 0) {
+      setSelectedSymbol(filteredSymbols[0])
+      if (shouldLoadContent) {
+        loadAnalysisContent(prompt, filteredSymbols[0])
+      }
     } else {
       setSelectedSymbol('')
       setAnalysisContent('')
     }
+  }
+
+  // Handle prompt selection change
+  const handlePromptChange = (event) => {
+    const newPrompt = event.target.value
+    setSelectedPrompt(newPrompt)
+    updateSymbols(newPrompt, selectedStockList)
+  }
+
+  // Handle stock list selection change
+  const handleStockListChange = (event) => {
+    const newStockList = event.target.value
+    setSelectedStockList(newStockList)
+    updateSymbols(selectedPrompt, newStockList)
   }
 
   // Handle symbol selection change
@@ -113,7 +163,11 @@ const AIAnalysis = () => {
 
   // Load initial data
   useEffect(() => {
-    loadStatData()
+    const initData = async () => {
+      const td = await loadTradeData()
+      await loadStatData(td, 'hold_stock_list')
+    }
+    initData()
   }, [])
 
   // Load content when prompt or symbol changes
@@ -134,7 +188,25 @@ const AIAnalysis = () => {
     <div className={commonStyle.defaultFont + ' ' + aiAnalysisStyle.container}>
       <div className={aiAnalysisStyle.controlPanel}>
         <Grid container spacing={3} alignItems="center">
-          <Grid item xs={12} sm={5} md={4}>
+          <Grid item xs={12} sm={6} md={3}>
+            <FormControl fullWidth variant="outlined" size="small">
+              <InputLabel id="stock-list-select-label">Stock List</InputLabel>
+              <Select
+                labelId="stock-list-select-label"
+                id="stock-list-select"
+                value={selectedStockList}
+                onChange={handleStockListChange}
+                label="Stock List"
+              >
+                {STOCK_LIST_OPTIONS.map((option) => (
+                  <MenuItem key={option.value} value={option.value}>
+                    {option.label}
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3}>
             <FormControl fullWidth variant="outlined" size="small">
               <InputLabel id="prompt-select-label">Analysis Type</InputLabel>
               <Select
@@ -152,13 +224,18 @@ const AIAnalysis = () => {
               </Select>
             </FormControl>
           </Grid>
-          <Grid item xs={12} sm={5} md={4}>
-            <FormControl fullWidth variant="outlined" size="small">
+          <Grid item xs={12} sm={6} md={3}>
+            <FormControl 
+              key={`symbol-form-${selectedStockList}-${selectedPrompt}-${symbols.join(',')}`}
+              fullWidth 
+              variant="outlined" 
+              size="small"
+            >
               <InputLabel id="symbol-select-label">Symbol</InputLabel>
               <Select
                 labelId="symbol-select-label"
                 id="symbol-select"
-                value={selectedSymbol}
+                value={symbols.includes(selectedSymbol) ? selectedSymbol : ''}
                 onChange={handleSymbolChange}
                 label="Symbol"
               >
@@ -170,7 +247,7 @@ const AIAnalysis = () => {
               </Select>
             </FormControl>
           </Grid>
-          <Grid item xs={12} sm={2} md={4}>
+          <Grid item xs={12} sm={6} md={3}>
             <Typography variant="body2" color="textSecondary">
               {symbols.length} symbols available
             </Typography>
