@@ -1,7 +1,7 @@
 var myvar = 
 '<link rel="stylesheet" type="text/css" href="css/ai-analysis.css">' +
 '<div class=\'main-ai-analysis\'>' +
-'  <iframe src="./plugin-react/ai-analysis" name="mainframe" width="100%" marginwidth="0" marginheight="0"' +
+'  <iframe src="./plugin-react/ai-stock-analysis" name="mainframe" width="100%" marginwidth="0" marginheight="0"' +
 '    onload="Javascript:SetIFrameHeight()" scrolling="No" frameborder="0" id="mainframe"></iframe>' +
 '</div>' ;
 
