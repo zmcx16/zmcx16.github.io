@@ -6,14 +6,13 @@ import pathlib
 import logging
 import argparse
 from datetime import datetime
-import google.generativeai as genai
+from google import genai
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-# Global model instance (singleton pattern to avoid repeated initialization)
+# Global client instance (singleton pattern to avoid repeated initialization)
 _model = None
-_model_name = None
 
 def parse_args():
     parser = argparse.ArgumentParser(description='AI Analysis Script for Stock Data')
@@ -36,21 +35,22 @@ class RateLimitError(Exception):
     """Exception raised when API rate limit (429) is hit."""
     pass
 
-def get_model(api_key, model_name="gemini-2.5-flash"):
-    """Get or create the Gemini model instance (singleton pattern)."""
-    global _model, _model_name
-    if _model is None or _model_name != model_name:
-        genai.configure(api_key=api_key)
-        _model = genai.GenerativeModel(model_name)
-        _model_name = model_name
-        logging.info(f"Initialized Gemini model: {model_name}")
+def get_client(api_key):
+    """Get or create the Gemini client instance (singleton pattern)."""
+    global _model
+    if _model is None:
+        _model = genai.Client(api_key=api_key)
+        logging.info("Initialized Gemini client")
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
 def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
     try:
-        model = get_model(api_key, model_name)
-        response = model.generate_content(prompt)
+        client = get_client(api_key)
+        response = client.models.generate_content(
+            model=model_name,
+            contents=prompt
+        )
         return response.text
     except Exception as ex:
         error_str = str(ex)
