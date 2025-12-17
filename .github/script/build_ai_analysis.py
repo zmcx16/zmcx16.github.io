@@ -44,21 +44,37 @@ def get_client(api_key):
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
-def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
-    try:
-        client = get_client(api_key)
-        response = client.models.generate_content(
-            model=model_name,
-            contents=prompt
-        )
-        return response.text
-    except Exception as ex:
-        error_str = str(ex)
-        if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
-            logging.error(f'Rate limit exceeded (429): {ex}')
-            raise RateLimitError(f'API rate limit exceeded: {ex}')
-        logging.error(f'Gemini API error: {ex}')
-        return None
+def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash", max_retries=5):
+    client = get_client(api_key)
+    
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt
+            )
+            return response.text
+        except Exception as ex:
+            error_str = str(ex)
+            if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
+                logging.error(f'Rate limit exceeded (429): {ex}')
+                raise RateLimitError(f'API rate limit exceeded: {ex}')
+            
+            # Handle 503 (Service Unavailable / Model Overloaded) with retry
+            if '503' in error_str or 'unavailable' in error_str.lower() or 'overloaded' in error_str.lower():
+                wait_time = 60 * (attempt + 1)  # 60s, 120s, 180s
+                logging.warning(f'Service unavailable (503), attempt {attempt + 1}/{max_retries}. Waiting {wait_time}s before retry...')
+                if attempt < max_retries - 1:
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    logging.error(f'Service unavailable after {max_retries} retries: {ex}')
+                    return None
+            
+            logging.error(f'Gemini API error: {ex}')
+            return None
+    
+    return None
 
 def load_stat(stat_file):
     if stat_file.exists():
