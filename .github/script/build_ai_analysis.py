@@ -11,6 +11,10 @@ from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 
+# Global model instance (singleton pattern to avoid repeated initialization)
+_model = None
+_model_name = None
+
 def parse_args():
     parser = argparse.ArgumentParser(description='AI Analysis Script for Stock Data')
     parser.add_argument(
@@ -32,11 +36,19 @@ class RateLimitError(Exception):
     """Exception raised when API rate limit (429) is hit."""
     pass
 
+def get_model(api_key, model_name="gemini-2.5-flash"):
+    """Get or create the Gemini model instance (singleton pattern)."""
+    global _model, _model_name
+    if _model is None or _model_name != model_name:
+        genai.configure(api_key=api_key)
+        _model = genai.GenerativeModel(model_name)
+        _model_name = model_name
+        logging.info(f"Initialized Gemini model: {model_name}")
+    return _model
+
 def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
     try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel(model_name)
-        
+        model = get_model(api_key, model_name)
         response = model.generate_content(prompt)
         return response.text
     except Exception as ex:
@@ -161,7 +173,7 @@ if __name__ == "__main__":
                 logging.error(f"✗ Failed to analyze {symbol}")
 
             if current_call < total_calls:
-                time.sleep(12)
+                time.sleep(15)
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
