@@ -44,6 +44,7 @@ def get_model(api_key, model_name="gemini-2.5-flash"):
         _model = genai.GenerativeModel(model_name)
         _model_name = model_name
         logging.info(f"Initialized Gemini model: {model_name}")
+        time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
 def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash"):
