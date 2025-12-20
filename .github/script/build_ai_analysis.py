@@ -44,7 +44,7 @@ def get_client(api_key):
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
-def call_gemini_api(prompt, api_key, model_name="gemini-2.5-flash", max_retries=5):
+def call_gemini_api(prompt, api_key, model_name="gemini-3.0-flash-preview", max_retries=5):
     client = get_client(api_key)
     
     for attempt in range(max_retries):
