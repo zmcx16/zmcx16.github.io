@@ -119,7 +119,7 @@ const AIAnalysis = () => {
   }
 
   // Helper function to update symbols based on prompt and stock list
-  const updateSymbols = (prompt, stockList, shouldLoadContent = true) => {
+  const updateSymbols = (prompt, stockList, currentSymbol, shouldLoadContent = true) => {
     const td = tradeDataRef.current
     const sd = statDataRef.current
     const stockListSymbols = td?.[stockList] || []
@@ -130,9 +130,11 @@ const AIAnalysis = () => {
     setSymbols(filteredSymbols)
     
     if (filteredSymbols.length > 0) {
-      setSelectedSymbol(filteredSymbols[0])
+      // Preserve current symbol if it's still in the filtered list
+      const symbolToSelect = filteredSymbols.includes(currentSymbol) ? currentSymbol : filteredSymbols[0]
+      setSelectedSymbol(symbolToSelect)
       if (shouldLoadContent) {
-        loadAnalysisContent(prompt, filteredSymbols[0])
+        loadAnalysisContent(prompt, symbolToSelect)
       }
     } else {
       setSelectedSymbol('')
@@ -144,14 +146,14 @@ const AIAnalysis = () => {
   const handlePromptChange = (event) => {
     const newPrompt = event.target.value
     setSelectedPrompt(newPrompt)
-    updateSymbols(newPrompt, selectedStockList)
+    updateSymbols(newPrompt, selectedStockList, selectedSymbol)
   }
 
   // Handle stock list selection change
   const handleStockListChange = (event) => {
     const newStockList = event.target.value
     setSelectedStockList(newStockList)
-    updateSymbols(selectedPrompt, newStockList)
+    updateSymbols(selectedPrompt, newStockList, selectedSymbol)
   }
 
   // Handle symbol selection change
