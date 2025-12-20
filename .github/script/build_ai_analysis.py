@@ -10,7 +10,7 @@ from google import genai
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL_LIST = ["gemini-3-flash", "gemini-2.5-flash"]
+MODEL_LIST = ["gemini-3-flash-preview", "gemini-2.5-flash"]
 
 # Global client instance (singleton pattern to avoid repeated initialization)
 _model = None
