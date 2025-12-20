@@ -59,6 +59,7 @@ def call_gemini_api(prompt, api_key, model_name, max_retries=5):
             
         except Exception as ex:
             error_str = str(ex)
+            logging.error(f'API call error for {model_name}: {error_str}')
             
             # Handle 429 - Rate Limit: raise exception to switch model
             if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
