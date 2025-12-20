@@ -10,6 +10,7 @@ from google import genai
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+MODEL_LIST = ["gemini-3-flash", "gemini-2.5-flash"]
 
 # Global client instance (singleton pattern to avoid repeated initialization)
 _model = None
@@ -44,9 +45,10 @@ def get_client(api_key):
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
-def call_gemini_api(prompt, api_key, model_name="gemini-3.0-flash-preview", max_retries=5):
+def call_gemini_api(prompt, api_key, model_name, max_retries=5):
     client = get_client(api_key)
     
+    # Retry logic for this specific model (only for 503 errors)
     for attempt in range(max_retries):
         try:
             response = client.models.generate_content(
@@ -54,25 +56,30 @@ def call_gemini_api(prompt, api_key, model_name="gemini-3.0-flash-preview", max_
                 contents=prompt
             )
             return response.text
+            
         except Exception as ex:
             error_str = str(ex)
-            if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
-                logging.error(f'Rate limit exceeded (429): {ex}')
-                raise RateLimitError(f'API rate limit exceeded: {ex}')
             
-            # Handle 503 (Service Unavailable / Model Overloaded) with retry
-            if '503' in error_str or 'unavailable' in error_str.lower() or 'overloaded' in error_str.lower():
-                wait_time = 60 * (attempt + 1)  # 60s, 120s, 180s
-                logging.warning(f'Service unavailable (503), attempt {attempt + 1}/{max_retries}. Waiting {wait_time}s before retry...')
+            # Handle 429 - Rate Limit: raise exception to switch model
+            if '429' in error_str or 'rate limit' in error_str.lower() or 'quota' in error_str.lower():
+                logging.warning(f'Rate limit (429) for {model_name}')
+                raise RateLimitError(f'Rate limit for {model_name}')
+            
+            # Handle 503 - Service Unavailable: retry with backoff
+            elif '503' in error_str or 'unavailable' in error_str.lower() or 'overloaded' in error_str.lower():
                 if attempt < max_retries - 1:
+                    wait_time = 60 * (attempt + 1)
+                    logging.warning(f'Service unavailable (503) for {model_name}, retry {attempt + 1}/{max_retries} after {wait_time}s')
                     time.sleep(wait_time)
                     continue
                 else:
-                    logging.error(f'Service unavailable after {max_retries} retries: {ex}')
+                    logging.error(f'Service unavailable (503) after {max_retries} retries for {model_name}')
                     return None
             
-            logging.error(f'Gemini API error: {ex}')
-            return None
+            # Other errors - return None immediately
+            else:
+                logging.error(f'API error for {model_name}: {ex}')
+                return None
     
     return None
 
@@ -151,30 +158,56 @@ if __name__ == "__main__":
     logging.info(f"Update threshold: {update_threshold_days} days")
     logging.info(f"Stock list: {', '.join(stock_list)}")
     
+    # Build task list (only tasks that need to be updated)
+    tasks = []
+    for prompt_key, prompt_template in prompts.items():
+        for symbol in stock_list:
+            if should_update(stat_data, prompt_key, symbol, update_threshold_days):
+                tasks.append({
+                    'prompt_key': prompt_key,
+                    'prompt_template': prompt_template,
+                    'symbol': symbol
+                })
+    
+    total_tasks = len(tasks)
     total_calls = len(stock_list) * len(prompts)
-    current_call = 0
-    skipped_count = 0
+    skipped_count = total_calls - total_tasks
     updated_count = 0
     
-    for prompt_key, prompt_template in prompts.items():
-        logging.info(f"\n{'='*60}")
-        logging.info(f"Processing prompt: {prompt_key}")
-        logging.info(f"{'='*60}")
-        for symbol in stock_list:
-            current_call += 1
-            if not should_update(stat_data, prompt_key, symbol, update_threshold_days):
-                logging.info(f"[{current_call}/{total_calls}] Skipping {symbol} (updated within {update_threshold_days} days)")
-                skipped_count += 1
-                continue
+    logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
+    
+    # Try each model in the list
+    task_idx = 0
+    for model_idx, current_model in enumerate(MODEL_LIST):
+        if task_idx >= total_tasks:
+            break
             
-            logging.info(f"[{current_call}/{total_calls}] Analyzing {symbol} with {prompt_key}")
+        logging.info(f"\n{'='*80}")
+        logging.info(f"Using model {model_idx + 1}/{len(MODEL_LIST)}: {current_model}")
+        logging.info(f"{'='*80}")
+        
+        model_switched = False
+        
+        while task_idx < total_tasks and not model_switched:
+            task = tasks[task_idx]
+            prompt_key = task['prompt_key']
+            prompt_template = task['prompt_template']
+            symbol = task['symbol']
+            
+            logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {current_model}")
             prompt = prompt_template.format(symbol=symbol)
+            
             try:
-                result = call_gemini_api(prompt, GEMINI_API_KEY)
+                result = call_gemini_api(prompt, GEMINI_API_KEY, current_model)
             except RateLimitError:
-                logging.error("Rate limit (429) encountered. Exiting program.")
-                logging.info(f"Progress before exit - Updated: {updated_count}, Skipped: {skipped_count}")
-                sys.exit(0)
+                logging.warning(f"Rate limit (429) for {current_model}, switching to next model")
+                model_switched = True
+                if model_idx == len(MODEL_LIST) - 1:
+                    logging.error("All models exhausted. Exiting program.")
+                    logging.info(f"Progress: {updated_count}/{total_tasks} completed, {total_tasks - task_idx} remaining")
+                    sys.exit(0)
+                break
+                
             if result:
                 save_analysis_result(output_dir, prompt_key, symbol, result)
                 if prompt_key not in stat_data:
@@ -188,9 +221,16 @@ if __name__ == "__main__":
                 logging.info(f"✓ Successfully analyzed {symbol}")
             else:
                 logging.error(f"✗ Failed to analyze {symbol}")
-
-            if current_call < total_calls:
+            
+            task_idx += 1
+            
+            if task_idx < total_tasks:
                 time.sleep(15)
+        
+        # If we completed all tasks without hitting rate limit, break out
+        if task_idx >= total_tasks:
+            logging.info(f"All tasks completed successfully with {current_model}")
+            break
     
     logging.info("\n" + "="*60)
     logging.info("AI analysis completed!")
