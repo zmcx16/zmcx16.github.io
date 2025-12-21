@@ -228,8 +228,47 @@
     "LQDT": {
       "last_update_time": "2025-12-20T22:18:08.014789"
     },
+    "LRCX": {
+      "last_update_time": "2025-12-21T11:36:37.468638"
+    },
+    "M": {
+      "last_update_time": "2025-12-21T11:37:05.414183"
+    },
+    "MA": {
+      "last_update_time": "2025-12-21T11:37:35.614443"
+    },
+    "MATX": {
+      "last_update_time": "2025-12-21T11:38:04.548024"
+    },
+    "MCHP": {
+      "last_update_time": "2025-12-21T11:38:32.847909"
+    },
+    "MMS": {
+      "last_update_time": "2025-12-21T11:39:00.497990"
+    },
+    "MOH": {
+      "last_update_time": "2025-12-21T11:39:29.088480"
+    },
     "MPW": {
       "last_update_time": "2025-12-14T11:36:07.550667"
+    },
+    "MS": {
+      "last_update_time": "2025-12-21T11:39:57.664803"
+    },
+    "MSFT": {
+      "last_update_time": "2025-12-21T11:40:25.354896"
+    },
+    "MTDR": {
+      "last_update_time": "2025-12-21T11:40:52.853533"
+    },
+    "MU": {
+      "last_update_time": "2025-12-21T11:41:20.529468"
+    },
+    "NDAQ": {
+      "last_update_time": "2025-12-21T11:41:49.811986"
+    },
+    "NFLX": {
+      "last_update_time": "2025-12-21T11:42:18.837174"
     },
     "NICE": {
       "last_update_time": "2025-12-14T11:39:00.140583"
@@ -237,8 +276,53 @@
     "NKE": {
       "last_update_time": "2025-12-14T11:35:05.820802"
     },
+    "NOG": {
+      "last_update_time": "2025-12-21T11:42:46.449726"
+    },
+    "NOW": {
+      "last_update_time": "2025-12-21T11:43:15.995118"
+    },
+    "NTSK": {
+      "last_update_time": "2025-12-21T11:43:47.240505"
+    },
     "NVO": {
       "last_update_time": "2025-12-14T11:36:34.053745"
+    },
+    "NXPI": {
+      "last_update_time": "2025-12-21T11:44:17.152102"
+    },
+    "OMC": {
+      "last_update_time": "2025-12-21T11:44:47.165140"
+    },
+    "ORCL": {
+      "last_update_time": "2025-12-21T11:45:14.230122"
+    },
+    "OXM": {
+      "last_update_time": "2025-12-21T11:45:41.303104"
+    },
+    "PAGS": {
+      "last_update_time": "2025-12-21T11:46:08.610805"
+    },
+    "PAYC": {
+      "last_update_time": "2025-12-21T11:46:46.136490"
+    },
+    "PBR": {
+      "last_update_time": "2025-12-21T11:47:27.285336"
+    },
+    "PBR-A": {
+      "last_update_time": "2025-12-21T11:48:06.574093"
+    },
+    "PCTY": {
+      "last_update_time": "2025-12-21T11:48:40.946346"
+    },
+    "PEP": {
+      "last_update_time": "2025-12-21T11:49:16.556832"
+    },
+    "PFE": {
+      "last_update_time": "2025-12-21T11:49:54.147666"
+    },
+    "PODD": {
+      "last_update_time": "2025-12-21T11:50:33.708545"
     },
     "PVH": {
       "last_update_time": "2025-12-20T22:09:47.499865"
@@ -246,11 +330,53 @@
     "PYPL": {
       "last_update_time": "2025-12-14T11:38:03.537611"
     },
+    "QCOM": {
+      "last_update_time": "2025-12-21T11:51:10.294019"
+    },
+    "RYN": {
+      "last_update_time": "2025-12-21T11:51:53.999008"
+    },
+    "SAIC": {
+      "last_update_time": "2025-12-21T11:52:37.684155"
+    },
     "SBUX": {
       "last_update_time": "2025-12-14T11:34:38.361934"
     },
+    "SEE": {
+      "last_update_time": "2025-12-21T11:53:18.568991"
+    },
     "SID": {
       "last_update_time": "2025-12-14T11:40:18.835833"
+    },
+    "SM": {
+      "last_update_time": "2025-12-21T11:53:56.556962"
+    },
+    "SMP": {
+      "last_update_time": "2025-12-21T11:54:33.405946"
+    },
+    "SONY": {
+      "last_update_time": "2025-12-21T11:55:12.514439"
+    },
+    "SQM": {
+      "last_update_time": "2025-12-21T11:55:49.439120"
+    },
+    "STM": {
+      "last_update_time": "2025-12-21T11:56:25.358775"
+    },
+    "STNG": {
+      "last_update_time": "2025-12-21T11:57:01.168619"
+    },
+    "TDC": {
+      "last_update_time": "2025-12-21T11:57:38.272008"
+    },
+    "TEAM": {
+      "last_update_time": "2025-12-21T11:58:10.894576"
+    },
+    "TECH": {
+      "last_update_time": "2025-12-21T11:58:55.595647"
+    },
+    "TEX": {
+      "last_update_time": "2025-12-21T11:59:32.609208"
     },
     "TGT": {
       "last_update_time": "2025-12-20T22:09:20.659351"
