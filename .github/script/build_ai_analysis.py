@@ -149,6 +149,10 @@ if __name__ == "__main__":
         data = json.loads(f.read())
     stat_file = output_dir / 'stat.json'
     stat_data = load_stat(stat_file)
+
+    stock_info_path = script_path / '..' / '..' / 'stock-data' / 'stat.json'
+    with open(stock_info_path, 'r', encoding='utf-8') as f:
+        stock_info_data = json.loads(f.read())
     
     if stock_list_key not in data:
         logging.error(f"Stock list key '{stock_list_key}' not found in trade-data.json")
@@ -194,9 +198,11 @@ if __name__ == "__main__":
             prompt_key = task['prompt_key']
             prompt_template = task['prompt_template']
             symbol = task['symbol']
+            stock_stat = stock_info_data.get(symbol, {})
             
             logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {current_model}")
-            prompt = prompt_template.format(symbol=symbol)
+            stock_stat_str = json.dumps(stock_stat, indent=2, ensure_ascii=False) if stock_stat else "無基本面數據, 請自行取得相關資訊。"
+            prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
             
             try:
                 result = call_gemini_api(prompt, GEMINI_API_KEY, current_model)
@@ -224,7 +230,6 @@ if __name__ == "__main__":
                 logging.error(f"✗ Failed to analyze {symbol}")
             
             task_idx += 1
-            
             if task_idx < total_tasks:
                 time.sleep(15)
         
