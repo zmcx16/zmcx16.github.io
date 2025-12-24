@@ -12,6 +12,61 @@ from build_ai_analysis_prompts import prompts
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_LIST = ["gemini-3-flash-preview", "gemini-2.5-flash"]
 
+# Helpers to read API tuning parameters from environment variables.
+def _get_env_float(name, default):
+    val = os.environ.get(name)
+    if val is None or val == "":
+        return default
+    try:
+        return float(val)
+    except Exception:
+        logging.warning(f'Invalid float for {name}: {val}, using default {default}')
+        return default
+
+def _get_env_int(name, default):
+    val = os.environ.get(name)
+    if val is None or val == "":
+        return default
+    try:
+        return int(val)
+    except Exception:
+        logging.warning(f'Invalid int for {name}: {val}, using default {default}')
+        return default
+
+def _get_env_list(name):
+    val = os.environ.get(name)
+    if not val:
+        return None
+    # comma separated values
+    return [s.strip() for s in val.split(',') if s.strip()]
+
+def get_api_params():
+    # Build API parameter dict from environment variables with sane defaults for analysis tasks
+    params = {
+        'temperature': _get_env_float('GEMINI_TEMPERATURE', 0.0),
+        'top_p': _get_env_float('GEMINI_TOP_P', 0.8),
+        'candidate_count': _get_env_int('GEMINI_CANDIDATE_COUNT', 1),
+    }
+    stop_seqs = _get_env_list('GEMINI_STOP_SEQUENCES')
+    if stop_seqs:
+        params['stop_sequences'] = stop_seqs
+
+    presence = os.environ.get('GEMINI_PRESENCE_PENALTY')
+    freq = os.environ.get('GEMINI_FREQUENCY_PENALTY')
+    if presence is not None and presence != '':
+        try:
+            params['presence_penalty'] = float(presence)
+        except Exception:
+            logging.warning(f'Invalid GEMINI_PRESENCE_PENALTY: {presence}')
+    if freq is not None and freq != '':
+        try:
+            params['frequency_penalty'] = float(freq)
+        except Exception:
+            logging.warning(f'Invalid GEMINI_FREQUENCY_PENALTY: {freq}')
+
+    # Remove None values
+    return {k: v for k, v in params.items() if v is not None}
+
 # Global client instance (singleton pattern to avoid repeated initialization)
 _model = None
 
@@ -48,13 +103,71 @@ def get_client(api_key):
 def call_gemini_api(prompt, api_key, model_name, max_retries=5):
     client = get_client(api_key)
     
+    # Build request parameters from env vars / defaults
+    api_params = get_api_params()
+    # Always include model and contents
+    request_kwargs = dict(model=model_name, contents=prompt, **api_params)
+    logging.debug(f'Calling Gemini with requested params: {request_kwargs}')
     # Retry logic for this specific model (only for 503 errors)
     for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(
-                model=model_name,
-                contents=prompt
-            )
+            # Determine which kwargs are accepted by this SDK's generate_content
+            try:
+                import inspect
+                gen_func = getattr(client.models, 'generate_content', None)
+                if gen_func is None:
+                    logging.error('SDK client.models.generate_content not found')
+                    return None
+                sig = inspect.signature(gen_func)
+                accepted = set(sig.parameters.keys())
+                logging.debug(f'Accepted params for SDK call: {accepted}')
+
+                # If SDK uses a single 'config' param, put api tuning params inside it.
+                if 'config' in accepted:
+                    filtered_kwargs = {'model': model_name, 'contents': prompt, 'config': api_params}
+                    # If SDK also accepts some tuning args at top-level, include them
+                    for k in ('temperature', 'top_p', 'candidate_count', 'max_output_tokens', 'stop_sequences', 'presence_penalty', 'frequency_penalty'):
+                        if k in accepted and k in api_params:
+                            filtered_kwargs[k] = api_params[k]
+                else:
+                    filtered_kwargs = {k: v for k, v in request_kwargs.items() if k in accepted}
+
+                logging.debug(f'Filtered params for SDK call: {list(filtered_kwargs.keys())}')
+                
+                # Call SDK with filtered kwargs
+                response = gen_func(**filtered_kwargs)
+
+                # Robustly extract text from various SDK response shapes
+                resp_text = None
+                try:
+                    if hasattr(response, 'text') and response.text:
+                        resp_text = response.text
+                    elif isinstance(response, dict):
+                        resp_text = response.get('text') or json.dumps(response, ensure_ascii=False)
+                    else:
+                        # Try common shapes (outputs / candidates)
+                        if hasattr(response, 'output'):
+                            out = getattr(response, 'output')
+                            if isinstance(out, (list, tuple)) and len(out) > 0:
+                                resp_text = str(out[0])
+                            else:
+                                resp_text = str(out)
+                        elif hasattr(response, 'candidates'):
+                            cands = getattr(response, 'candidates')
+                            if isinstance(cands, (list, tuple)) and len(cands) > 0:
+                                cand = cands[0]
+                                resp_text = getattr(cand, 'text', None) or str(cand)
+                            else:
+                                resp_text = str(cands)
+                        else:
+                            resp_text = str(response)
+                except Exception:
+                    resp_text = str(response)
+
+                return resp_text
+            except Exception as inner_ex:
+                logging.error(f'Failed to call SDK generate_content with filtered params: {inner_ex}')
+                return None
             return response.text
             
         except Exception as ex:
