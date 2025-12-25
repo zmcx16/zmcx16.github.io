@@ -745,6 +745,9 @@
     "MATX": {
       "last_update_time": "2025-12-24T11:36:53.661214"
     },
+    "MCHP": {
+      "last_update_time": "2025-12-25T11:11:07.160411"
+    },
     "MMS": {
       "last_update_time": "2025-12-24T11:38:58.595092"
     },
@@ -766,14 +769,62 @@
     "MU": {
       "last_update_time": "2025-12-24T11:43:54.791279"
     },
+    "NDAQ": {
+      "last_update_time": "2025-12-25T11:11:40.957556"
+    },
+    "NFLX": {
+      "last_update_time": "2025-12-25T11:12:14.082247"
+    },
     "NICE": {
       "last_update_time": "2025-12-23T11:13:06.332224"
     },
     "NKE": {
       "last_update_time": "2025-12-22T11:18:15.161788"
     },
+    "NOG": {
+      "last_update_time": "2025-12-25T11:12:49.214822"
+    },
+    "NOW": {
+      "last_update_time": "2025-12-25T11:13:24.098367"
+    },
     "NVO": {
       "last_update_time": "2025-12-23T11:10:49.000749"
+    },
+    "NXPI": {
+      "last_update_time": "2025-12-25T11:18:55.959336"
+    },
+    "OMC": {
+      "last_update_time": "2025-12-25T11:19:27.917155"
+    },
+    "ORCL": {
+      "last_update_time": "2025-12-25T11:20:02.714010"
+    },
+    "OXM": {
+      "last_update_time": "2025-12-25T11:20:37.819098"
+    },
+    "PAGS": {
+      "last_update_time": "2025-12-25T11:21:07.130509"
+    },
+    "PAYC": {
+      "last_update_time": "2025-12-25T11:21:41.848654"
+    },
+    "PBR": {
+      "last_update_time": "2025-12-25T11:22:15.042756"
+    },
+    "PBR-A": {
+      "last_update_time": "2025-12-25T11:22:47.819290"
+    },
+    "PCTY": {
+      "last_update_time": "2025-12-25T11:23:22.421729"
+    },
+    "PEP": {
+      "last_update_time": "2025-12-25T11:23:55.624846"
+    },
+    "PFE": {
+      "last_update_time": "2025-12-25T11:24:30.000410"
+    },
+    "PODD": {
+      "last_update_time": "2025-12-25T11:25:04.602045"
     },
     "PVH": {
       "last_update_time": "2025-12-22T11:18:46.835191"
@@ -781,11 +832,23 @@
     "PYPL": {
       "last_update_time": "2025-12-23T11:11:57.459746"
     },
+    "QCOM": {
+      "last_update_time": "2025-12-25T11:25:37.978019"
+    },
+    "RYN": {
+      "last_update_time": "2025-12-25T11:26:12.713948"
+    },
     "SBUX": {
       "last_update_time": "2025-12-22T11:17:42.986400"
     },
     "SID": {
       "last_update_time": "2025-12-23T11:14:46.734651"
+    },
+    "SMP": {
+      "last_update_time": "2025-12-25T11:27:30.581713"
+    },
+    "STNG": {
+      "last_update_time": "2025-12-25T11:28:48.426191"
     },
     "TGT": {
       "last_update_time": "2025-12-22T11:17:10.187630"
