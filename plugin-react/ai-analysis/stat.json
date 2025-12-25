@@ -82,7 +82,7 @@
       "last_update_time": "2025-12-18T11:39:23.526740"
     },
     "CNMD": {
-      "last_update_time": "2025-12-18T11:40:05.183846"
+      "last_update_time": "2025-12-25T17:30:21.502564"
     },
     "CRM": {
       "last_update_time": "2025-12-18T11:40:47.128030"
@@ -213,6 +213,9 @@
     "K": {
       "last_update_time": "2025-12-20T22:15:32.351271"
     },
+    "KBR": {
+      "last_update_time": "2025-12-25T17:32:49.887262"
+    },
     "KSPI": {
       "last_update_time": "2025-12-20T22:15:58.936247"
     },
@@ -290,6 +293,9 @@
     },
     "NXPI": {
       "last_update_time": "2025-12-21T11:44:17.152102"
+    },
+    "OKE": {
+      "last_update_time": "2025-12-25T17:33:31.114518"
     },
     "OMC": {
       "last_update_time": "2025-12-21T11:44:47.165140"
@@ -404,6 +410,9 @@
     },
     "UPS": {
       "last_update_time": "2025-12-22T11:28:20.712874"
+    },
+    "VAC": {
+      "last_update_time": "2025-12-25T17:34:15.556126"
     },
     "VALE": {
       "last_update_time": "2025-12-22T11:14:29.356638"
@@ -718,6 +727,9 @@
     "K": {
       "last_update_time": "2025-12-24T11:27:36.311950"
     },
+    "KBR": {
+      "last_update_time": "2025-12-25T17:35:12.121326"
+    },
     "KSPI": {
       "last_update_time": "2025-12-24T11:28:30.601841"
     },
@@ -787,11 +799,17 @@
     "NOW": {
       "last_update_time": "2025-12-25T11:13:24.098367"
     },
+    "NTSK": {
+      "last_update_time": "2025-12-25T17:36:15.792285"
+    },
     "NVO": {
       "last_update_time": "2025-12-23T11:10:49.000749"
     },
     "NXPI": {
       "last_update_time": "2025-12-25T11:18:55.959336"
+    },
+    "OKE": {
+      "last_update_time": "2025-12-25T17:37:09.048832"
     },
     "OMC": {
       "last_update_time": "2025-12-25T11:19:27.917155"
@@ -841,17 +859,59 @@
     "SBUX": {
       "last_update_time": "2025-12-22T11:17:42.986400"
     },
+    "SEE": {
+      "last_update_time": "2025-12-25T17:39:00.323661"
+    },
     "SID": {
       "last_update_time": "2025-12-23T11:14:46.734651"
+    },
+    "SM": {
+      "last_update_time": "2025-12-25T17:39:53.921258"
     },
     "SMP": {
       "last_update_time": "2025-12-25T11:27:30.581713"
     },
+    "SONY": {
+      "last_update_time": "2025-12-25T17:40:54.601695"
+    },
+    "SQM": {
+      "last_update_time": "2025-12-25T17:41:52.680411"
+    },
+    "STM": {
+      "last_update_time": "2025-12-25T17:42:46.564899"
+    },
     "STNG": {
       "last_update_time": "2025-12-25T11:28:48.426191"
     },
+    "TDC": {
+      "last_update_time": "2025-12-25T17:43:27.325484"
+    },
+    "TEAM": {
+      "last_update_time": "2025-12-25T17:44:23.559220"
+    },
+    "TECH": {
+      "last_update_time": "2025-12-25T17:45:26.774982"
+    },
+    "TEN": {
+      "last_update_time": "2025-12-25T17:49:04.940766"
+    },
+    "TEX": {
+      "last_update_time": "2025-12-25T17:46:23.147993"
+    },
     "TGT": {
       "last_update_time": "2025-12-22T11:17:10.187630"
+    },
+    "TITN": {
+      "last_update_time": "2025-12-25T17:47:16.316687"
+    },
+    "TM": {
+      "last_update_time": "2025-12-25T17:48:14.932782"
+    },
+    "TRI": {
+      "last_update_time": "2025-12-25T17:50:54.245470"
+    },
+    "TRMD": {
+      "last_update_time": "2025-12-25T17:49:56.653670"
     },
     "VALE": {
       "last_update_time": "2025-12-23T11:14:13.679011"
