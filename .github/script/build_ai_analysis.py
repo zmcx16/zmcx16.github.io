@@ -166,9 +166,13 @@ def call_gemini_api(prompt, api_key, model_name, max_retries=5):
 
                 return resp_text
             except Exception as inner_ex:
+                # If the SDK inner call failed, check if it's a rate-limit (429) or quota error
+                inner_msg = str(inner_ex).lower()
                 logging.error(f'Failed to call SDK generate_content with filtered params: {inner_ex}')
+                if '429' in inner_msg or 'rate limit' in inner_msg or 'quota' in inner_msg:
+                    logging.warning('Detected rate limit error in SDK call, raising RateLimitError')
+                    raise RateLimitError(f'Rate limit detected in SDK inner call: {inner_ex}')
                 return None
-            return response.text
             
         except Exception as ex:
             error_str = str(ex)
