@@ -209,8 +209,8 @@
       {
          "symbol":"CMCSA",
          "type":"put",
-         "expiry":"2025-12-26",
-         "strike":23
+         "expiry":"2026-01-23",
+         "strike":27
       },
       {
          "symbol":"DIS",
@@ -241,6 +241,12 @@
          "type":"put",
          "expiry":"2026-02-20",
          "strike":50
+      },
+      {
+         "symbol":"GPN",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":65
       },
       {
          "symbol":"GT",
@@ -295,6 +301,12 @@
          "type":"put",
          "expiry":"2026-01-09",
          "strike":42
+      },
+      {
+         "symbol":"OKE",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":67.5
       },
       {
          "symbol":"OXM",
