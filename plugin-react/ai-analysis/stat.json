@@ -1,7 +1,10 @@
 {
   "ev-analysis": {
     "AAP": {
-      "last_update_time": "2025-12-22T11:11:52.241855"
+      "last_update_time": "2025-12-30T11:12:05.031385"
+    },
+    "AAPL": {
+      "last_update_time": "2025-12-30T11:23:21.492060"
     },
     "ABNB": {
       "last_update_time": "2025-12-14T19:32:00.573424"
@@ -22,13 +25,16 @@
       "last_update_time": "2025-12-15T11:47:38.526635"
     },
     "ALB": {
-      "last_update_time": "2025-12-22T11:16:01.012695"
+      "last_update_time": "2025-12-30T11:16:16.911717"
     },
     "ALSN": {
       "last_update_time": "2025-12-15T11:48:15.902875"
     },
     "AMAT": {
       "last_update_time": "2025-12-15T11:48:46.979965"
+    },
+    "AMZN": {
+      "last_update_time": "2025-12-30T11:24:05.364423"
     },
     "APD": {
       "last_update_time": "2025-12-15T11:49:20.076427"
@@ -118,7 +124,7 @@
       "last_update_time": "2025-12-18T11:50:04.158904"
     },
     "EPAM": {
-      "last_update_time": "2025-12-22T11:12:54.124059"
+      "last_update_time": "2025-12-30T11:13:06.432122"
     },
     "EW": {
       "last_update_time": "2025-12-18T11:50:48.816464"
@@ -178,7 +184,7 @@
       "last_update_time": "2025-12-20T11:46:48.293570"
     },
     "HAL": {
-      "last_update_time": "2025-12-22T11:15:29.766875"
+      "last_update_time": "2025-12-30T11:15:44.471416"
     },
     "HAS": {
       "last_update_time": "2025-12-20T11:47:29.276802"
@@ -199,7 +205,7 @@
       "last_update_time": "2025-12-20T22:13:34.699003"
     },
     "ILPT": {
-      "last_update_time": "2025-12-22T11:11:19.967398"
+      "last_update_time": "2025-12-30T11:11:31.984142"
     },
     "INGR": {
       "last_update_time": "2025-12-20T22:14:03.501968"
@@ -253,7 +259,7 @@
       "last_update_time": "2025-12-21T11:39:29.088480"
     },
     "MPW": {
-      "last_update_time": "2025-12-22T11:10:15.907257"
+      "last_update_time": "2025-12-30T11:10:28.668766"
     },
     "MS": {
       "last_update_time": "2025-12-21T11:39:57.664803"
@@ -274,7 +280,7 @@
       "last_update_time": "2025-12-21T11:42:18.837174"
     },
     "NICE": {
-      "last_update_time": "2025-12-22T11:13:25.469428"
+      "last_update_time": "2025-12-30T11:13:38.390917"
     },
     "NKE": {
       "last_update_time": "2025-12-29T11:11:08.555176"
@@ -289,7 +295,7 @@
       "last_update_time": "2025-12-21T11:43:47.240505"
     },
     "NVO": {
-      "last_update_time": "2025-12-22T11:10:49.348366"
+      "last_update_time": "2025-12-30T11:11:01.542512"
     },
     "NXPI": {
       "last_update_time": "2025-12-21T11:44:17.152102"
@@ -334,7 +340,7 @@
       "last_update_time": "2025-12-28T11:10:43.799389"
     },
     "PYPL": {
-      "last_update_time": "2025-12-22T11:12:21.549966"
+      "last_update_time": "2025-12-30T11:12:35.631675"
     },
     "QCOM": {
       "last_update_time": "2025-12-21T11:51:10.294019"
@@ -352,7 +358,7 @@
       "last_update_time": "2025-12-21T11:53:18.568991"
     },
     "SID": {
-      "last_update_time": "2025-12-22T11:14:59.232802"
+      "last_update_time": "2025-12-30T11:15:13.437266"
     },
     "SM": {
       "last_update_time": "2025-12-21T11:53:56.556962"
@@ -415,7 +421,7 @@
       "last_update_time": "2025-12-25T17:34:15.556126"
     },
     "VALE": {
-      "last_update_time": "2025-12-22T11:14:29.356638"
+      "last_update_time": "2025-12-30T11:14:42.420160"
     },
     "VFC": {
       "last_update_time": "2025-12-29T11:11:41.838361"
@@ -445,7 +451,7 @@
       "last_update_time": "2025-12-23T11:18:13.005720"
     },
     "ZIM": {
-      "last_update_time": "2025-12-22T11:13:57.368445"
+      "last_update_time": "2025-12-30T11:14:13.084988"
     },
     "ZTS": {
       "last_update_time": "2025-12-22T11:36:16.265746"
@@ -454,6 +460,9 @@
   "stock-valuation": {
     "AAP": {
       "last_update_time": "2025-12-27T11:14:10.376287"
+    },
+    "AAPL": {
+      "last_update_time": "2025-12-30T11:27:22.375421"
     },
     "ABNB": {
       "last_update_time": "2025-12-26T11:36:04.206329"
@@ -818,14 +827,53 @@
     "SQM": {
       "last_update_time": "2025-12-29T12:11:12.020194"
     },
+    "STNG": {
+      "last_update_time": "2025-12-30T11:37:39.246942"
+    },
+    "TDC": {
+      "last_update_time": "2025-12-30T11:38:49.383699"
+    },
+    "TEAM": {
+      "last_update_time": "2025-12-30T11:40:17.279398"
+    },
+    "TECH": {
+      "last_update_time": "2025-12-30T11:41:35.673542"
+    },
+    "TEN": {
+      "last_update_time": "2025-12-30T11:47:31.928072"
+    },
+    "TEX": {
+      "last_update_time": "2025-12-30T11:43:05.008459"
+    },
     "TGT": {
       "last_update_time": "2025-12-27T11:09:43.180642"
+    },
+    "TITN": {
+      "last_update_time": "2025-12-30T11:44:30.889166"
+    },
+    "TM": {
+      "last_update_time": "2025-12-30T11:46:07.034314"
+    },
+    "TRI": {
+      "last_update_time": "2025-12-30T11:49:53.789914"
+    },
+    "TRMD": {
+      "last_update_time": "2025-12-30T11:48:52.325670"
+    },
+    "TX": {
+      "last_update_time": "2025-12-30T11:51:18.199066"
+    },
+    "UPS": {
+      "last_update_time": "2025-12-30T11:57:02.645934"
     },
     "VALE": {
       "last_update_time": "2025-12-27T11:17:36.132831"
     },
     "VFC": {
       "last_update_time": "2025-12-27T11:11:54.484983"
+    },
+    "VMI": {
+      "last_update_time": "2025-12-30T12:02:44.614116"
     },
     "ZIM": {
       "last_update_time": "2025-12-27T11:17:02.224515"
@@ -834,6 +882,9 @@
   "super-thinking": {
     "AAP": {
       "last_update_time": "2025-12-23T11:11:23.533276"
+    },
+    "AAPL": {
+      "last_update_time": "2025-12-30T11:25:11.860915"
     },
     "ABNB": {
       "last_update_time": "2025-12-22T11:37:13.369919"
@@ -861,6 +912,9 @@
     },
     "AMAT": {
       "last_update_time": "2025-12-23T11:19:21.559621"
+    },
+    "AMZN": {
+      "last_update_time": "2025-12-30T11:26:16.354767"
     },
     "APD": {
       "last_update_time": "2025-12-23T11:19:55.882134"
@@ -944,7 +998,7 @@
       "last_update_time": "2025-12-23T11:43:29.898477"
     },
     "EL": {
-      "last_update_time": "2025-12-22T11:16:35.083520"
+      "last_update_time": "2025-12-30T11:16:53.025046"
     },
     "EMN": {
       "last_update_time": "2025-12-23T11:44:26.285508"
@@ -1031,7 +1085,7 @@
       "last_update_time": "2025-12-24T11:23:21.301373"
     },
     "ILPT": {
-      "last_update_time": "2025-12-22T11:20:27.997060"
+      "last_update_time": "2025-12-30T11:20:53.729289"
     },
     "INGR": {
       "last_update_time": "2025-12-24T11:24:28.545762"
@@ -1085,7 +1139,7 @@
       "last_update_time": "2025-12-24T11:39:59.771177"
     },
     "MPW": {
-      "last_update_time": "2025-12-22T11:19:54.045903"
+      "last_update_time": "2025-12-30T11:20:19.338263"
     },
     "MS": {
       "last_update_time": "2025-12-24T11:40:52.022001"
@@ -1109,7 +1163,7 @@
       "last_update_time": "2025-12-23T11:13:06.332224"
     },
     "NKE": {
-      "last_update_time": "2025-12-22T11:18:15.161788"
+      "last_update_time": "2025-12-30T11:18:36.446711"
     },
     "NOG": {
       "last_update_time": "2025-12-25T11:12:49.214822"
@@ -1163,7 +1217,7 @@
       "last_update_time": "2025-12-25T11:25:04.602045"
     },
     "PVH": {
-      "last_update_time": "2025-12-22T11:18:46.835191"
+      "last_update_time": "2025-12-30T11:19:10.367269"
     },
     "PYPL": {
       "last_update_time": "2025-12-23T11:11:57.459746"
@@ -1178,7 +1232,7 @@
       "last_update_time": "2025-12-26T11:22:20.776696"
     },
     "SBUX": {
-      "last_update_time": "2025-12-22T11:17:42.986400"
+      "last_update_time": "2025-12-30T11:18:01.663069"
     },
     "SEE": {
       "last_update_time": "2025-12-25T17:39:00.323661"
@@ -1220,7 +1274,7 @@
       "last_update_time": "2025-12-25T17:46:23.147993"
     },
     "TGT": {
-      "last_update_time": "2025-12-22T11:17:10.187630"
+      "last_update_time": "2025-12-30T11:17:28.312333"
     },
     "TITN": {
       "last_update_time": "2025-12-25T17:47:16.316687"
@@ -1250,7 +1304,7 @@
       "last_update_time": "2025-12-23T11:14:13.679011"
     },
     "VFC": {
-      "last_update_time": "2025-12-22T11:19:19.861451"
+      "last_update_time": "2025-12-30T11:19:44.325960"
     },
     "VIST": {
       "last_update_time": "2025-12-26T11:26:13.219505"
