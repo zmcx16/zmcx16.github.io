@@ -7,6 +7,7 @@ import logging
 import argparse
 from datetime import datetime
 from google import genai
+from google.genai import types
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
@@ -100,13 +101,19 @@ def get_client(api_key):
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
-def call_gemini_api(prompt, api_key, model_name, max_retries=5):
+def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
     client = get_client(api_key)
     
     # Build request parameters from env vars / defaults
     api_params = get_api_params()
     # Always include model and contents
     request_kwargs = dict(model=model_name, contents=prompt, **api_params)
+    # Put tools into a shallow config dict alongside existing api_params
+    try:
+        request_kwargs['config'] = dict(api_params)
+        request_kwargs['config']['tools'] = tools
+    except Exception:
+        request_kwargs['config'] = {'tools': tools}
     logging.debug(f'Calling Gemini with requested params: {request_kwargs}')
     # Retry logic for this specific model (only for 503 errors)
     for attempt in range(max_retries):
@@ -124,7 +131,9 @@ def call_gemini_api(prompt, api_key, model_name, max_retries=5):
 
                 # If SDK uses a single 'config' param, put api tuning params inside it.
                 if 'config' in accepted:
-                    filtered_kwargs = {'model': model_name, 'contents': prompt, 'config': api_params}
+                    # respected config may already be set in request_kwargs
+                    cfg = request_kwargs.get('config', api_params)
+                    filtered_kwargs = {'model': model_name, 'contents': prompt, 'config': cfg}
                     # If SDK also accepts some tuning args at top-level, include them
                     for k in ('temperature', 'top_p', 'candidate_count', 'max_output_tokens', 'stop_sequences', 'presence_penalty', 'frequency_penalty'):
                         if k in accepted and k in api_params:
@@ -322,7 +331,11 @@ if __name__ == "__main__":
             prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
             
             try:
-                result = call_gemini_api(prompt, GEMINI_API_KEY, current_model)
+                grounding_tool = types.Tool(
+                    google_search=types.GoogleSearch()
+                )
+                tools = [grounding_tool]
+                result = call_gemini_api(prompt, GEMINI_API_KEY, current_model, tools)
             except RateLimitError:
                 logging.warning(f"Rate limit (429) for {current_model}, switching to next model")
                 model_switched = True
