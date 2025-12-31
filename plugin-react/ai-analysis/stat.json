@@ -875,6 +875,9 @@
     "UPS": {
       "last_update_time": "2025-12-30T11:57:02.645934"
     },
+    "VAC": {
+      "last_update_time": "2025-12-31T13:56:39.316892"
+    },
     "VALE": {
       "last_update_time": "2025-12-27T11:17:36.132831"
     },
@@ -886,6 +889,9 @@
     },
     "VMI": {
       "last_update_time": "2025-12-30T12:02:44.614116"
+    },
+    "VZ": {
+      "last_update_time": "2025-12-31T13:57:15.214832"
     },
     "WDAY": {
       "last_update_time": "2025-12-31T11:27:45.220233"
@@ -904,6 +910,9 @@
     },
     "ZIM": {
       "last_update_time": "2025-12-27T11:17:02.224515"
+    },
+    "ZTS": {
+      "last_update_time": "2025-12-31T13:57:51.539091"
     }
   },
   "super-thinking": {
@@ -1368,8 +1377,53 @@
     "AAP": {
       "last_update_time": "2025-12-26T11:15:23.508780"
     },
+    "AAPL": {
+      "last_update_time": "2025-12-31T13:58:22.007729"
+    },
+    "ABNB": {
+      "last_update_time": "2025-12-31T13:58:52.302236"
+    },
+    "ACLS": {
+      "last_update_time": "2025-12-31T13:59:24.831067"
+    },
+    "ACMR": {
+      "last_update_time": "2025-12-31T13:59:54.581797"
+    },
+    "ADBE": {
+      "last_update_time": "2025-12-31T14:00:26.915267"
+    },
+    "ADSK": {
+      "last_update_time": "2025-12-31T14:00:58.121573"
+    },
+    "AEO": {
+      "last_update_time": "2025-12-31T14:01:28.477352"
+    },
     "ALB": {
       "last_update_time": "2025-12-26T11:20:00.273490"
+    },
+    "ALSN": {
+      "last_update_time": "2025-12-31T14:02:00.128894"
+    },
+    "AMAT": {
+      "last_update_time": "2025-12-31T14:02:32.244173"
+    },
+    "AMZN": {
+      "last_update_time": "2025-12-31T14:03:02.650678"
+    },
+    "APD": {
+      "last_update_time": "2025-12-31T14:03:34.218017"
+    },
+    "APTV": {
+      "last_update_time": "2025-12-31T14:04:06.260795"
+    },
+    "ARLP": {
+      "last_update_time": "2025-12-31T14:04:37.827789"
+    },
+    "ARTNA": {
+      "last_update_time": "2025-12-31T14:05:06.660888"
+    },
+    "ASML": {
+      "last_update_time": "2025-12-31T14:05:38.263091"
     },
     "CNMD": {
       "last_update_time": "2025-12-26T11:13:49.599299"
