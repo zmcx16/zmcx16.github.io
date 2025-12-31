@@ -11,7 +11,10 @@ from google.genai import types
 from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL_LIST = ["gemini-3-flash-preview", "gemini-2.5-flash"]
+MODEL_LIST = {
+    "gemini-3-flash-preview": {"use_tool": False},
+    "gemini-2.5-flash": {"use_tool": True}
+}
 
 # Helpers to read API tuning parameters from environment variables.
 def _get_env_float(name, default):
@@ -307,14 +310,14 @@ if __name__ == "__main__":
     
     logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
     
-    # Try each model in the list
+    # Try each model in the list (MODEL_LIST is a dict -> model_name: config)
     task_idx = 0
-    for model_idx, current_model in enumerate(MODEL_LIST):
+    for model_idx, (model_name, model_cfg) in enumerate(MODEL_LIST.items()):
         if task_idx >= total_tasks:
             break
             
         logging.info(f"\n{'='*80}")
-        logging.info(f"Using model {model_idx + 1}/{len(MODEL_LIST)}: {current_model}")
+        logging.info(f"Using model {model_idx + 1}/{len(MODEL_LIST)}: {model_name}")
         logging.info(f"{'='*80}")
         
         model_switched = False
@@ -326,18 +329,29 @@ if __name__ == "__main__":
             symbol = task['symbol']
             stock_stat = stock_info_data.get(symbol, {})
             
-            logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {current_model}")
+            logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {model_name}")
             stock_stat_str = json.dumps(stock_stat, indent=2, ensure_ascii=False) if stock_stat else "無基本面數據, 請自行取得相關資訊。"
             prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
             
             try:
-                grounding_tool = types.Tool(
-                    google_search=types.GoogleSearch()
-                )
-                tools = [grounding_tool]
-                result = call_gemini_api(prompt, GEMINI_API_KEY, current_model, tools)
+                # Respect per-model config (e.g., whether to use grounding tools)
+                use_tool = False
+                try:
+                    use_tool = bool(model_cfg.get('use_tool'))
+                except Exception:
+                    use_tool = False
+
+                if use_tool:
+                    grounding_tool = types.Tool(
+                        google_search=types.GoogleSearch()
+                    )
+                    tools = [grounding_tool]
+                else:
+                    tools = []
+
+                result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
             except RateLimitError:
-                logging.warning(f"Rate limit (429) for {current_model}, switching to next model")
+                logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
                 model_switched = True
                 if model_idx == len(MODEL_LIST) - 1:
                     logging.error("All models exhausted. Exiting program.")
@@ -358,14 +372,13 @@ if __name__ == "__main__":
                 logging.info(f"✓ Successfully analyzed {symbol}")
             else:
                 logging.error(f"✗ Failed to analyze {symbol}")
-            
             task_idx += 1
             if task_idx < total_tasks:
                 time.sleep(15)
         
         # If we completed all tasks without hitting rate limit, break out
         if task_idx >= total_tasks:
-            logging.info(f"All tasks completed successfully with {current_model}")
+            logging.info(f"All tasks completed successfully with {model_name}")
             break
     
     logging.info("\n" + "="*60)
