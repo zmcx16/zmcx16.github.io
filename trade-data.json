@@ -221,6 +221,12 @@
          "strike":27
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2026-01-09",
+         "strike":247.5
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2026-02-20",
@@ -237,6 +243,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":145
+      },
+      {
+         "symbol":"FTNT",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":65
       },
       {
          "symbol":"GIS",
@@ -341,10 +353,22 @@
          "strike":79
       },
       {
+         "symbol":"SM",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":15
+      },
+      {
          "symbol":"TEAM",
          "type":"put",
          "expiry":"2026-01-16",
          "strike":105
+      },
+      {
+         "symbol":"TEN",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":20
       },
       {
          "symbol":"TGT",
@@ -363,6 +387,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":35
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":92
       },
       {
          "symbol":"VALE",
