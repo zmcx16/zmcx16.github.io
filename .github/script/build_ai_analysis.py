@@ -12,8 +12,8 @@ from build_ai_analysis_prompts import prompts
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_LIST = {
-    "gemini-3-flash-preview": {"use_tool": False},
-    "gemini-2.5-flash": {"use_tool": True}
+    "gemini-2.5-flash": {"use_tool": True},
+    "gemini-3-flash-preview": {"use_tool": False}
 }
 
 # Helpers to read API tuning parameters from environment variables.
