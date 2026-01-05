@@ -197,6 +197,12 @@
          "strike":115
       },
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":300
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2026-01-16",
