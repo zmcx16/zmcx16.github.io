@@ -1,87 +1,145 @@
-針對美股零售巨頭 **Target (TGT)** 的投資評估，我結合了您提供的基本面數據以及最新的市場動態（截至 2024 年 5 月底的財報與新聞），進行決策樹與期望值分析。
-
----
-
-### 一、 最新市場動態與背景分析 (2024 Q1 財報更新)
-
-在進行計算前，必須修正數據背景。您提供的數據（股價 $99.55）約為 2023 年底的低點。**目前（2024 年 5 月底）TGT 股價約在 $143 - $145 區間。**
-
-**最新核心資訊：**
-1.  **Q1 財報失利：** Target 於 2024 年 5 月 22 日公布 Q1 財報，同店銷售額下降 3.7%，連續第四個季度下滑。
-2.  **降價策略：** 為了應對通膨導致的消費疲軟，Target 宣佈調降 5,000 多種日常用品價格，試圖與 Walmart (WMT) 競爭。
-3.  **利潤率壓力：** 雖然庫存管理改善，但降價競爭與非必需品（家居、服飾）需求低迷，對毛利構成壓力。
-4.  **估值：** 目前 Forward P/E 約 15-16 倍，處於歷史中值偏低位置。
-
----
-
-### 二、 核心假設 (Core Assumptions)
-
-1.  **市場環境：** 高利率環境持續，消費者對「非必需品」支出保持謹慎。
-2.  **競爭格局：** Walmart 在民生必需品（雜貨）佔優，Target 轉型降價策略需 1-2 季觀察是否能帶動客流量。
-3.  **持有期限：** 12 個月。
-4.  **預期報酬率設定：**
-    *   **樂觀：** 降價策略成功，客流量回升，非必需品需求復甦。
-    *   **中性：** 銷售持平，靠股息與庫存管理維持股價。
-    *   **悲觀：** 陷入價格戰，毛利大幅萎縮，同店銷售持續負成長。
-
----
-
-### 三、 決策樹分析 (Decision Tree)
-
-使用 Markdown 繪製決策樹結構：
-
-```mermaid
-graph TD
-    Start[投資 TGT 決策] --> Invest{是否投資?}
-    
-    Invest --> Bull[樂觀情境: 復甦成長]
-    Invest --> Base[中性情境: 震盪盤整]
-    Invest --> Bear[悲觀情境: 衰退風險]
-
-    Bull --> Bull_P[機率: 25%]
-    Bull_P --> Bull_R[預期報酬: +25%]
-    Bull_R --> Bull_EV[期望值: 6.25%]
-
-    Base --> Base_P[機率: 50%]
-    Base_P --> Base_R[預期報酬: +5% 包含股息]
-    Base_R --> Base_EV[期望值: 2.5%]
-
-    Bear --> Bear_P[機率: 25%]
-    Bear_P --> Bear_R[預期報酬: -15%]
-    Bear_R --> Bear_EV[期望值: -3.75%]
-```
-
----
-
-### 四、 期望值計算過程 (Expected Value Analysis)
-
-我們將預期報酬（包含資本利得與約 3% 的股息收益）與機率相乘：
-
-| 情境 (Scenario) | 發生機率 (P) | 預期報酬 (R) | 計算 (P * R) | 核心理由 |
-| :--- | :--- | :--- | :--- | :--- |
-| **樂觀 (Bull)** | 25% | +25% | **+6.25%** | 通膨降溫超預期，降價策略成功奪回市佔，股價回測 $180。 |
-| **中性 (Base)** | 50% | +5% | **+2.5%** | 銷售緩步回升，股價隨大盤波動，主要收益來自股息。 |
-| **悲觀 (Bear)** | 25% | -15% | **-3.75%** | 價格戰導致毛利受損，消費者轉向 Walmart，股價回測 $120。 |
-| **總計期望值** | **100%** | | **+5.0%** | |
-
-**計算公式：**
-$EV = (0.25 \times 25\%) + (0.50 \times 5\%) + (0.25 \times -15\%) = 6.25\% + 2.5\% - 3.75\% = \mathbf{5.0\%}$
-
----
-
-### 五、 最終結論與建議
-
-#### **評估結果：觀望 / 不適合立即重倉投資 (Neutral/Avoid)**
-
-**理由如下：**
-
-1.  **期望值過低：** 計算出的年度期望報酬率僅為 **5.0%**。目前美國無風險利率（10年期美債）約在 **4.4% - 4.6%** 之間。投資 TGT 所承擔的個股風險與獲得的超額報酬不成比例。
-2.  **基本面轉弱：** 根據最新 Q1 財報，Target 的核心問題在於「同店銷售負成長」與「非必需品佔比過高」。在當前高通膨壓力下，消費者優先選擇 Walmart 的雜貨，而非 Target 的家居裝飾。
-3.  **利潤率挑戰：** 雖然 P/E 12-15 倍看似便宜，但公司宣佈對 5,000 種商品降價，這是一種「防禦性」舉措，短期內必然會犧牲毛利率（Gross Margin）。
-4.  **技術面壓力：** 財報後股價出現跳空缺口，顯示市場信心不足，短期內缺乏強大的上漲催化劑（Catalyst）。
-
-**適合投資的條件：**
-*   如果您是**長期存股族**，看中其 3% 以上的穩定配息（Dividend King 紀錄），且能忍受股價在 $130-$150 區間長期震盪。
-*   否則，對於追求資本利得的投資者，目前有更多成長動能更強（如科技股）或防禦性更佳（如 Walmart 或 Costco）的選擇。
-
-**總結：** 雖然 Target 是一家優秀的公司，但目前正處於轉型與消費環境的逆風期，**期望值僅與美債利率持平，投資吸引力不足。**
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGey2g6wbUuIm8_Sh6W_z3QpiWN_fKQvFgIMW8vEhx4YJEX0XTHJx_EFUwMgeKel6cXjjKFJizMaKktpqBxIoK2GSCL4J0AejRrMxe9wemg96_J38VzONyxGoO2MXTW2_P5sg26OOv5RyAlTjMv4M0AKGlxYq2AOhOfoUWvFFrn8E0S4q-X0AvzLwhyVtV6QeH2aBqd81b8YI4SYJvd3U_Ow_CVlA==">Target TGT financial outlook 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFz2fSmi2hSoPLSERH3h6a3pTzPZCDoEsQYj2e_ljCCU2485bFEzsGmO0CwZemrZS4tyxa-oMOocSZbvT0mfWjZveFFZFVQwMd0OTOV3i8uR7eOLnGRcMbLUwY8Y68WW4bLUyAb0dVySUhN82ziGNsU8oG8v0RxbPATXzBIoCxdrUBTA6_O37MsCx-5iCfE5JtFzPFAli0wM_nAdnP5apLRvwwx3rMUXGKaA==">Target TGT Q3 2025 earnings report date</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ4uyg8RwPi-4mflNNcw8UPLa4sPFF7omLdaEUTqpooVqJTbHPmNBHiRc-bpxmcUTOm1--rkbn3OI1la5_3xQHncLj9_nkwZfigDuGGz2kNiTQFTE0WCxv3ZH4UlGbPxdpRIqQIVq36t53SrMb1k22rKpwHql9aFmm2zLee5fykLgQ9VfDs4kWS9bmwXdYYaMScVlulTKU4M9BMo2z4LfWURhdWTXQ">Target TGT latest news January 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsOyLPPvIu0oy7-xYEe27vfpG0CZkLduz8N5buux6xThknRD3Wk8i_zdRPQgKxcXLWvHncPZLMvFSxscB7WhhokbkQhkkF87-VQ7aAnM6qSJTMJgDoIKV37EXXCvChla_dltvJjT6AZgOBXa3RRWXzqs4QvCDfGw69WgbOXghst--NetvRiOIbNSX8UAQJTmREjr8XmBf_D4TCofShXGsdHoKlHEv2et9DMw==">Target TGT Q4 2025 earnings report date</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxu-LuEwgDQQm-Q3bvTbvOSOLKaxeVL-EZyewWsWqhJz2GjbrwWi-1vEfXjjjul4VCTwheC--UsDh43OITYwb4VKODa-TZFp46fdl4oEgVIxpPfBS3MkZDe0ID49zJu7ZUnPquvAPDHAR55f6vBRW0LwKUyG_FTTD0r90ij8q7bS_cwD3dZIsVxTkC1iYmGLnHlGkkVZvLll3y3T18ggkLXQ==">US retail industry trends 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwRMWfU1sD_guuABmsLktz3k4wwck31MqZTm1fBxKQPu_7gjwWUVYXCHq8m17FhdwE7Jbb52Ia4oN7l5DDN0XNfib1fZFwXks9Ap2q3h1CyDVElZs0PHOpY2syqZmrfELOJQ1kOJnasX2_1F_Kh_0HPIr3tkqA_k09Hr1xE1aKXoIRmImDu_XWapV1_luTZ8VGdFh2PBmcCZ2aVLzLiWMCsXHjZN-kClK3YQ==">Target TGT analyst ratings January 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjPFzsrKpVlCwstaVhR799HKUYx0kGgQ8C_pzvkU4uUFlg0VckcrhDGPjW8HSxLyd4XSafmK_8uTNzWm1mm70ytfsn4gRkK2G4rnPtGWnmXYrsHseduZWKneRLRCAAI5KP2c8L9VtJ30TEkoQza5ooso_6SCto57_JSDAH0ZcwAkF_DMVtXd75-teoH3kXWr6i4r13t6b5cxc96_wu50jFvIvYLw==">Target TGT dividend forecast 2026</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Target TGT latest news January 2026',
+    'Target TGT Q3 2025 earnings report date',
+    'Target TGT Q4 2025 earnings report date',
+    'Target TGT financial outlook 2026',
+    'US retail industry trends 2026',
+    <... 2 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
