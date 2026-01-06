@@ -335,6 +335,12 @@
          "strike":67.5
       },
       {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-01-16",
+         "strike":160
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-01-16",
