@@ -89,6 +89,15 @@ def parse_args():
         default=7,
         help='Number of days before re-analyzing a stock (default: 7)'
     )
+    parser.add_argument(
+        '--models',
+        type=str,
+        nargs='+',
+        choices=list(MODEL_LIST.keys()),
+        default=list(MODEL_LIST.keys()),
+        help=f'Models to use for analysis (default: all supported models)'
+    )
+
     return parser.parse_args()
 
 class RateLimitError(Exception):
@@ -265,6 +274,10 @@ if __name__ == "__main__":
     args = parse_args()
     update_threshold_days = args.update_threshold_days
     stock_list_key = args.stock_list
+    selected_models = args.models
+    
+    # Filter MODEL_LIST based on selected models
+    filtered_model_list = {k: v for k, v in MODEL_LIST.items() if k in selected_models}
     
     if not GEMINI_API_KEY:
         logging.error("GEMINI_API_KEY environment variable is not set")
@@ -290,6 +303,7 @@ if __name__ == "__main__":
     stock_list = data[stock_list_key]
     logging.info(f"Starting AI analysis for {len(stock_list)} stocks from '{stock_list_key}'")
     logging.info(f"Update threshold: {update_threshold_days} days")
+    logging.info(f"Selected models: {', '.join(filtered_model_list.keys())}")
     logging.info(f"Stock list: {', '.join(stock_list)}")
     
     # Build task list (only tasks that need to be updated)
@@ -310,14 +324,14 @@ if __name__ == "__main__":
     
     logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
     
-    # Try each model in the list (MODEL_LIST is a dict -> model_name: config)
+    # Try each model in the list (filtered_model_list is a dict -> model_name: config)
     task_idx = 0
-    for model_idx, (model_name, model_cfg) in enumerate(MODEL_LIST.items()):
+    for model_idx, (model_name, model_cfg) in enumerate(filtered_model_list.items()):
         if task_idx >= total_tasks:
             break
             
         logging.info(f"\n{'='*80}")
-        logging.info(f"Using model {model_idx + 1}/{len(MODEL_LIST)}: {model_name}")
+        logging.info(f"Using model {model_idx + 1}/{len(filtered_model_list)}: {model_name}")
         logging.info(f"{'='*80}")
         
         model_switched = False
@@ -353,7 +367,7 @@ if __name__ == "__main__":
             except RateLimitError:
                 logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
                 model_switched = True
-                if model_idx == len(MODEL_LIST) - 1:
+                if model_idx == len(filtered_model_list) - 1:
                     logging.error("All models exhausted. Exiting program.")
                     logging.info(f"Progress: {updated_count}/{total_tasks} completed, {total_tasks - task_idx} remaining")
                     sys.exit(0)
