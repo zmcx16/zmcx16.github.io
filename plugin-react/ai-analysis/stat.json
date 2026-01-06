@@ -457,6 +457,53 @@
       "last_update_time": "2025-12-22T11:36:16.265746"
     }
   },
+  "sold-strategy": {
+    "AAPL": {
+      "last_update_time": "2026-01-06T17:08:38.589578"
+    },
+    "ABNB": {
+      "last_update_time": "2026-01-06T17:09:11.442775"
+    },
+    "ACLS": {
+      "last_update_time": "2026-01-06T17:09:42.705455"
+    },
+    "ACMR": {
+      "last_update_time": "2026-01-06T17:10:13.363220"
+    },
+    "ADBE": {
+      "last_update_time": "2026-01-06T17:10:42.727351"
+    },
+    "ADSK": {
+      "last_update_time": "2026-01-06T17:11:13.778226"
+    },
+    "AEO": {
+      "last_update_time": "2026-01-06T17:11:45.306021"
+    },
+    "ALB": {
+      "last_update_time": "2026-01-06T17:12:14.835987"
+    },
+    "ALSN": {
+      "last_update_time": "2026-01-06T17:12:45.602293"
+    },
+    "AMAT": {
+      "last_update_time": "2026-01-06T17:13:16.765200"
+    },
+    "AMZN": {
+      "last_update_time": "2026-01-06T17:13:49.654972"
+    },
+    "APD": {
+      "last_update_time": "2026-01-06T17:14:21.545307"
+    },
+    "APTV": {
+      "last_update_time": "2026-01-06T17:14:54.591125"
+    },
+    "ARLP": {
+      "last_update_time": "2026-01-06T17:15:26.309208"
+    },
+    "ARTNA": {
+      "last_update_time": "2026-01-06T17:15:58.245835"
+    }
+  },
   "stock-valuation": {
     "AAP": {
       "last_update_time": "2026-01-04T11:20:34.432931"
