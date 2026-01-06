@@ -53,7 +53,7 @@ jobs:
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |-
-        python ./.github/script/build_ai_analysis.py
+        python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash
         echo sleep 1 min to avoid rate limit
         sleep 60
         python ./.github/script/build_ai_analysis.py --stock-list watch_stock_list --update-threshold-days 30
