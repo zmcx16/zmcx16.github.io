@@ -94,7 +94,7 @@ def parse_args():
         type=str,
         nargs='+',
         choices=list(MODEL_LIST.keys()),
-        default=list(MODEL_LIST.keys()),
+        default=None,
         help=f'Models to use for analysis (default: all supported models)'
     )
 
@@ -274,7 +274,7 @@ if __name__ == "__main__":
     args = parse_args()
     update_threshold_days = args.update_threshold_days
     stock_list_key = args.stock_list
-    selected_models = args.models
+    selected_models = args.models if args.models else list(MODEL_LIST.keys())
     
     # Filter MODEL_LIST based on selected models
     filtered_model_list = {k: v for k, v in MODEL_LIST.items() if k in selected_models}
