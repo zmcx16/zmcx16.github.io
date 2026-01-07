@@ -1,78 +1,144 @@
-這份分析報告將結合您提供的基本面數據，以及透過網路搜尋獲取的最新市場動態（如 GLP-1 藥物競爭、產能擴張、醫保談判等），利用**決策樹（Decision Tree）**與**期望值（Expected Value）**模型評估 Novo Nordisk (NVO) 的投資價值。
-
----
-
-### 一、 核心背景與市場動態分析（搜尋資訊彙整）
-
-在進入模型前，我們先整合當前 NVO 的關鍵資訊：
-1.  **市場地位**：NVO 是 GLP-1 市場（Ozempic, Wegovy）的領導者，與 Eli Lilly (LLY) 形成雙頭壟斷。
-2.  **近期利空**：股價從高點回落（52W High -44%），主因是市場擔心 Eli Lilly 的競爭壓力、產能瓶頸，以及美國政府對藥價的談判壓力。
-3.  **財務亮點**：ROE 高達 68.3%，毛利率 81.9%，顯示其產品具有極強的護城河與獲利能力。
-4.  **估值變化**：目前的 P/E 約 15.26 倍，遠低於歷史平均（通常在 30-40 倍），這反映了市場已消化了大量的負面預期。
-
----
-
-### 二、 決策樹分析模型
-
-我們將未來一年的投資情境分為三種：**樂觀（牛市）**、**中性（基準）**、**悲觀（熊市）**。
-
-#### 決策樹圖表 (Markdown)
-
-```mermaid
-graph LR
-    A[投資 NVO 決策] --> B{市場情境}
-    
-    B -- 樂觀情境 (30%) --> C[目標價: $75]
-    B -- 中性情境 (50%) --> D[目標價: $60]
-    B -- 悲觀情境 (20%) --> E[目標價: $42]
-
-    C --> C1[預期報酬: +45.7%]
-    D --> D1[預期報酬: +16.6%]
-    E --> E1[預期報酬: -18.4%]
-```
-
-| 節點名稱 | 發生機率 (P) | 預期股價 (Target) | 預期報酬率 (R) | 期望值 (P * R) |
-| :--- | :--- | :--- | :--- | :--- |
-| **樂觀情境 (Bull)** | 30% | $75.00 | +45.7% | +13.71% |
-| **中性情境 (Base)** | 50% | $60.01 (參考 Target Price) | +16.6% | +8.30% |
-| **悲觀情境 (Bear)** | 20% | $42.00 | -18.4% | -3.68% |
-| **總計期望報酬** | **100%** | - | - | **+18.33%** |
-
----
-
-### 三、 計算過程與核心假設
-
-#### 1. 核心假設說明
-*   **樂觀情境 (30%)**：
-    *   假設：Wegovy 產能大幅釋放，口服版 Semaglutide 臨床數據超預期，且成功開拓心血管、脂肪肝 (MASH) 等新適應症。
-    *   估值：P/E 回升至 22-25 倍。
-*   **中性情境 (50%)**：
-    *   假設：維持目前 GLP-1 市場份額，雖然有 Eli Lilly 競爭，但整體市場規模（減重市場）持續擴大。符合分析師平均目標價 $60.01。
-    *   估值：P/E 維持在 15-18 倍。
-*   **悲觀情境 (20%)**：
-    *   假設：美國醫保談判導致藥價大幅砍價，或 Eli Lilly 的 Zepbound 奪走過半市場，且產能擴張進度落後。
-    *   估值：股價回測 52W 低點（約 $43 附近）。
-
-#### 2. 期望值 (EV) 計算公式
-$$EV = (P_{Bull} \times R_{Bull}) + (P_{Base} \times R_{Base}) + (P_{Bear} \times R_{Bear})$$
-$$EV = (0.30 \times 0.457) + (0.50 \times 0.166) + (0.20 \times -0.184)$$
-$$EV = 0.1371 + 0.0830 - 0.0368 = 0.1833 = 18.33\%$$
-
----
-
-### 四、 綜合評估與最終結論
-
-#### 1. 基本面數據解讀
-*   **超高效率**：ROE (68.3%) 與 ROI (37.5%) 顯示 NVO 是極其高效的賺錢機器。
-*   **估值吸引力**：P/E 15.26 倍對於一家擁有 80% 以上毛利且處於高成長賽道的生技公司來說，處於**顯著低估**區間。
-*   **技術面回溫**：SMA20 (+7.08%) 與 SMA50 (+5.78%) 均已轉正，顯示短期股價已止跌回升，動能正在累積。
-
-#### 2. 投資判斷：**適合投資 (Buy)**
-
-#### 3. 理由總結：
-1.  **期望值為正且優厚**：計算出的預期報酬率為 **18.33%**，遠高於無風險利率與大盤平均預期。
-2.  **安全邊際高**：股價已從高點修正超過 40%，目前的 Forward P/E (14.9) 甚至低於許多傳統價值股，下行風險已得到部分釋放。
-3.  **產業紅利未結束**：減重藥市場仍處於早期滲透階段。即便競爭加劇，NVO 憑藉其強大的品牌（Ozempic 已成為代名詞）與持續擴大的產能，仍能保持高度獲利。
-4.  **財務體質極佳**：債務股本比 (Debt/Eq) 僅 0.6，現金流充沛 (P/FCF 17.65)，有足夠實力進行研發與併購。
-
-**建議操作**：目前股價 $51.47 接近 52 週區間的中下部，適合分批布局。首波目標價看 $60.01，若產能問題解決且新數據亮眼，可長期持有至 $70 以上。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGetf4LDpS_7ACnnhvtQTMSMAXXRusap3ZA4eFfT2yOltrGjEFngiK3JyR51DK8h9_QHRYmZglCQrGUqeO_BZtUTarmMWNZTRcIchbvH73nVsB4CYh_yjGEQscxN6XoA8wmOMXe5e-5RzsVJa6LTC9U5W8meEwEIvm724G9dFFph_gC7CL1rfZza-Rq8jYQuPD53HO1tw5ExymktzxsKMIQG3Gx_sxCTzitoA==">Novo Nordisk (NVO) analyst ratings 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPpHvElEGMA2Dpr1dVHIe3fLYg4a3Z-KgQOqa67cKB_WOp7WQ8yHChf8AjLtAcKab3IthA2XnXW19X0kmLmRbudqcbwTprq7TuITMnLeK1XnUcN85fztLF8k3U7-AZOG93cYdbaVsk1uR3wr951aXEVOzgoxtEKAvggY7_Dgqm8rM05hdqW5rxeRYbCvNpdEjXtlh0dp4KsnV8ipnl9Y942p0q1weGWd_gAVpI">Novo Nordisk (NVO) recent earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGX1hxCDVroIUkVVzoYiz7ihZARGZnlrIbPDcq8teEjVmO0Tdia9hp0soafwPkSbxpsLfOx3AD_TvIwM4diLeJ8VMhvsxkfqRjlVVL3J4sOmSwZNwzLJqYAP9Z9-7wCfbsTb91LpDOlFKk2Y_0PeJ8qko7foGGj5UxmGPGryAsX7E5u6oExZuvf2ntm02JLvhLa10Qb7WXYLzFO1K-v0l5UQ==">Novo Nordisk (NVO) latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4hd7HGYP3egOk3o-JiGVlUn_wesPNH6gFjCnbrjDg8Cn3u9zIzvIV1IqCj4Rynv33sd6WFoVLGT3XbuNrg2PVba0esTRpKrLF2op21zBAIB-T9Cf9iKcD5t8gdiqYohPEyXP9kTO50OuXB8liONhKdppDB6bqL90qzeLMvdZTnlaq-iVjvLh6n7tcLKBHduwQ6tjrFiMN9HwzJAneVMpRrow9Pw=">Novo Nordisk (NVO) market dynamics</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqq8LPMFcfHiNaF6itV9dC1ishiq8hcWtg1okcOQLrapi4tIFVi4qppPWxgjKZk5rp4PRwuMQoXxiLuc9Gg5sml8MGUeCkZIOjz4_1MaCs9Qs7XOhd8jdsYSD2N0cKbyF4nIdjELGOJbew0ZObjyIsLWBfWL5u2-94QZB-vsScz5RmjkQBSOfx1BkhvoFjeXNPmBblWxWn-HEDxa88whOoLfcyu_FpneM">Novo Nordisk (NVO) future outlook 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnbTrExLyKzSk5K8vewfhJsU9DM0YCLQdblr7vCtyP0j64DkJiDBHzBU3Y6-V1bAe4a42NmtTMsD3IjK1cJXtUqadC1S0IcVV8jNW-Ml_gZBeFe_6v8PmS7PYpAANlKEL4j_fBjV79v-tKAge4k0LsD0f2FKnLx05x43zke3dEoC1gZzuPnLEskzaMtzH7EOhEdY3Z8fD9_WA4-RfAPxtXumIDQ5g=">Novo Nordisk (NVO) industry trends</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Novo Nordisk (NVO) latest news',
+    'Novo Nordisk (NVO) recent earnings report',
+    'Novo Nordisk (NVO) market dynamics',
+    'Novo Nordisk (NVO) industry trends',
+    'Novo Nordisk (NVO) analyst ratings 2026',
+    <... 1 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
