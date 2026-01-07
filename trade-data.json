@@ -238,7 +238,12 @@
          "expiry":"2026-02-20",
          "strike":95
       },
-      {
+            {
+         "symbol":"DELL",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":90
+      },      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-01-16",
@@ -347,10 +352,22 @@
          "strike":22.5
       },
       {
+         "symbol":"PAYC",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":135
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2026-01-16",
          "strike":140
+      },
+      {
+         "symbol":"PODD",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":250
       },
       {
          "symbol":"PYPL",
