@@ -214,6 +214,12 @@
          "strike":15.5
       },
       {
+         "symbol":"CALM",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":70
+      },
+      {
          "symbol":"CIVI",
          "type":"put",
          "expiry":"2026-01-16",
@@ -313,6 +319,12 @@
          "type":"put",
          "expiry":"2026-01-16",
          "strike":37.5
+      },
+      {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":95
       },
       {
          "symbol":"NKE",
