@@ -1,148 +1,112 @@
-content=Content(
-  role='model'
-) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
-  search_entry_point=SearchEntryPoint(
-    rendered_content="""<style>
-.container {
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  font-family: Google Sans, Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 12px;
-}
-.chip {
-  display: inline-block;
-  border: solid 1px;
-  border-radius: 16px;
-  min-width: 14px;
-  padding: 5px 16px;
-  text-align: center;
-  user-select: none;
-  margin: 0 8px;
-  -webkit-tap-highlight-color: transparent;
-}
-.carousel {
-  overflow: auto;
-  scrollbar-width: none;
-  white-space: nowrap;
-  margin-right: -12px;
-}
-.headline {
-  display: flex;
-  margin-right: 4px;
-}
-.gradient-container {
-  position: relative;
-}
-.gradient {
-  position: absolute;
-  transform: translate(3px, -9px);
-  height: 36px;
-  width: 9px;
-}
-@media (prefers-color-scheme: light) {
-  .container {
-    background-color: #fafafa;
-    box-shadow: 0 0 0 1px #0000000f;
-  }
-  .headline-label {
-    color: #1f1f1f;
-  }
-  .chip {
-    background-color: #ffffff;
-    border-color: #d2d2d2;
-    color: #5e5e5e;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #f2f2f2;
-  }
-  .chip:focus {
-    background-color: #f2f2f2;
-  }
-  .chip:active {
-    background-color: #d8d8d8;
-    border-color: #b6b6b6;
-  }
-  .logo-dark {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #1f1f1f;
-    box-shadow: 0 0 0 1px #ffffff26;
-  }
-  .headline-label {
-    color: #fff;
-  }
-  .chip {
-    background-color: #2c2c2c;
-    border-color: #3c4043;
-    color: #fff;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #353536;
-  }
-  .chip:focus {
-    background-color: #353536;
-  }
-  .chip:active {
-    background-color: #464849;
-    border-color: #53575b;
-  }
-  .logo-light {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
-  }
-}
-</style>
-<div class="container">
-  <div class="headline">
-    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
-    </svg>
-    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="23" fill="#FFF" r="22"/>
-      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
-      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
-      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
-      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
-    </svg>
-    <div class="gradient-container"><div class="gradient"></div></div>
-  </div>
-  <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt5tuKXY3CD13NV1iTI-QJarySmWHDFL6vNuSHZZv2bZZVHzZnxr1H99z363BU6BWHdmI8V5vS2MF76LYxmfzmWFRnqsTm52XM5lmWHRRpz7MID9PZRvH_81OwJ0IrbmRMlUcbU1YXC320XFFznaEOVaWl5zlo1qqoMz4nzNbyd3cMLjgwUom2skXoHdB1Ko1Jabnj1AiHGn14MkH_HdVy5QUuyA==">Harley-Davidson LiveWire strategy</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG73QbYtNpzXzj5OvC1B6Oh72MaOIC36ubtyT66V_zKVlLGfBFoZN96m105qWVl7-XBp650XuAQVE-d-UHuS5zJZfTC6X43EovCdpkuWqQrfk-V90UdKBzVcVfxsGIXkJiPiQlhCL4x5wO3nOsMtdv9h1rVq70TKUAGVC6Uuh5_EFlwpCtrdalkbOhu0wLqwDMdEF0jIppI0SWfTv_hyZjgN7IJ4w==">electric motorcycle market growth</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH55LB1AcllQnFMkRZiaKTO59U0Jcr8GcpauyHYBdnUqrrRTEA_-hDmgCrcH7WCTKvzfG6uRUpK8ADcTz7M3HbGqa3Y6ds7S9_4Db2S4wFmg1BzkkWWXfaF4YsjKosIaa679-U9R_d3ecnAcNq583LkG7f3FxwKC5z9gycZh9euvn9bYt-I7pxe1ctEli5MP9ZQUpOFu5opSMQd9TsZYA4ZaxUmD5se-iDdIlJ_4ojjDw==">Harley-Davidson (HOG) Q3 2023 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2AkEKXG_My-6WfJx9wjP7sbO84I2ZUjsNzd6bqbLLI9F-gIDpTFH4C41sXltF8pxe82YI8NWONzU67O0rDeh0EEPNAPSu9hsPeDcaBtGLyw3RAycnCCPUcAtO_OO7SyXSH6GliBbzPcc0--68TbEMAAS_AUmxkGZH830wantWlyvxD_yCntlBGN29nES-Ytb96pHQEW-HW1KTm8q-VtnDKjLc0w==">Harley-Davidson (HOG) latest news</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEftaBduDLtK272l9EysnC1n9DqdPjbxNQaognjxL7blwtM_-7w5xOxBmNvHUtjlL6yfvjAhhHGDVywgPrgaUe9zIfmpx4IBpg0Dpk1TCKgF4r2vasPQ22o2dFBWmR-MNSYmKOHnJtT_Na-lV4krA-1wXwz9rWA6caKnNzo8vJAd6MGFyPt92sI-RAoguSXABk_9ddtPbPYaSQ6Ouse_bNOQ3FuCbxmLareUr4P4u4FwQ==">Harley-Davidson (HOG) Q4 2023 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEoz9AoFlV4nFQRe84G3G1v7wiPzguFx_rVE3XsnUFbOpJGHKpTqIB7uuhO4R6PawxXDcRj1VzvcGb65dGDSIE1v05YhFmEYh61psl_E3dZXxbLWUzUYyRrR3InVzuxexKKXRVKbTTwF5EhRwS0JDy8HeD9PG5B7NtBkPCOas8rtRsNwOPNChJl93JR2BO58tQoIbaEOWpLCoi73tze6Ld5gWESBY7_io=">Harley-Davidson (HOG) market dynamics</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUX476CVdoAVMsFO7rgKthWKR1weU1kRb8z969QhKnMUkb8J4RrxyMr3T2Mat7WCPDn7Pe9OAHAKOKNqVX_paXls3pLKNyeLckXNTBL_i8_ON0WqAFMpBO8PP3st_s_pen2G8kbzHqweSHsvnaUr3ff8Oh0d3WLBSKfXDa6nfC2v_YlwMkHEq797Y1KlLcz102EcfYlvUXOcgwi6X_As3CWAg=">motorcycle industry trends 2024</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbtvNC2ed524TkaHuiK-yZaHi-55d9xyiWCrqa7Xw1qzA4epFk1l5Nh0LxdDHYBhfUIBIHaSIUM0zV7NK3fcvdIKZaVOf2RDzLifdyM7Xir6If1auBHk1V0_bhhLfcr1Pw0EcQXg7TS0Z34MoAJ22lOPOCUgHc6AdkXO7C43_AD43xrf8sZCvigxA-uWaYt3R47-XWrW4J1rKo8CpWlpg6-tgumFISv9K6rrPgfPCC5w==">Harley-Davidson (HOG) Q1 2024 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2A3jsTPvHm7K2ZvDHGGxFUFakIYPXkkLof0Bvlm9zUZnPWLZSKfughf4KpbYljokvFP8BdRj71vVar3td-EI46Ydsy3gQY5Zz6BMpqe-qzEVQWi_O0kuVEGny8dXbQVYIWJ5nFGT-2bigMj_avhH7KIgnZFztfvS_Os95m8UYSRqTJ7qHktW3xKeZ8MWGs1DU0glOjNzKFJMlD4Fn8qdqI2CtG0iQxgHChUk=">Harley-Davidson Rewire Hardwire strategy</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvNPZjKFoz6BD_glUMb2eACsSWkg6mKioAIwHGEGtxvVxbne42qu93mU4pO0DrifMd1xG_IxS-CXnCisimwXBj6US-2Om45JAsof1woK146j4uxYkREEM6RmsU8h7BNsbxsULc9Yr1IRUUa4gAlM5XKqxH8odL98VgdvVDzb7eFPNtyofe-R409thZSWtqR6tvm34uEm3Kdz8et60IiEYreNQ_4oVIRMg=">Harley-Davidson competitive landscape</a>
-  </div>
-</div>
-"""
-  ),
-  web_search_queries=[
-    'Harley-Davidson (HOG) latest news',
-    'Harley-Davidson (HOG) Q3 2023 earnings report',
-    'Harley-Davidson (HOG) Q4 2023 earnings report',
-    'Harley-Davidson (HOG) Q1 2024 earnings report',
-    'Harley-Davidson (HOG) market dynamics',
-    <... 5 more items ...>,
-  ]
-) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
+作為一位具備長期價值投資與產業研究經驗的美股分析師，我將針對美股公司 HOG (Harley-Davidson, Inc.) 進行系統性分析，並結合您提供的基本面數據與最新市場資訊。
+
+Harley-Davidson (HOG) 是一家具有深厚歷史與品牌底蘊的美國摩托車製造商。根據最新的財報和市場動態，我將從長期價值投資與產業研究的角度，對其目前營運狀況與未來發展潛力進行系統性分析。
+
+### 目前營運狀況
+
+Harley-Davidson 在 2025 年第三季度表現出複雜的局面。儘管全球摩托車零售銷售額同比下降 6%，但公司報告的每股收益 (EPS) 達到 3.10 美元，遠超分析師預期的 1.38 美元。季度收入為 13.4 億美元，也高於分析師預期的 10.1 億美元。然而，也有報導指出 Q3 2025 營收較去年同期下降 6.7% 至 10.8 億美元。這種差異可能來自於不同的報告口徑或分析師預期。
+
+值得注意的是，Harley-Davidson Motor Company (HDMC) 的收入在 2025 年第三季度增長了 23%，全球摩托車出貨量增長了 33%。同時，全球經銷商庫存下降了 13%，顯示公司正在積極管理庫存水平。Harley-Davidson Financial Services (HDFS) 的營運收入在第三季度大幅增長 472%，達到 4.39 億美元，這主要得益於 HDFS 交易的影響。公司已完成與 KKR 和 PIMCO 的 HDFS 交易，釋放了超過 12 億美元的自由現金，並將 HDFS 轉變為輕資本、低風險的業務模式，同時 Harley-Davidson 仍保留對 HDFS 的完全控制權和多數股權。
+
+然而，公司在 2024 年第四季度和 2025 年全年面臨挑戰。2024 年第四季度，綜合收入下降 35%，HDMC 收入下降 47%，導致綜合營運虧損 1.93 億美元。2024 年全年綜合收入下降 11%，HDMC 收入下降 15%。公司預計 2025 年 HDMC 收入將持平或下降 5%，營運利潤率為 7.0% 至 8.0%。LiveWire 電動摩托車部門預計 2025 年銷量為 1,000-1,500 輛，營運虧損為 7000 萬至 8000 萬美元。
+
+公司正在積極實施其「Hardwire」五年戰略計劃 (2021-2025)，旨在實現長期盈利增長和股東價值，並提升其作為全球最受歡迎摩托車品牌的地位。該計劃包括投資其核心的重型摩托車業務，並成立一個專門的電動摩托車部門 LiveWire。Harley-Davidson 還在 2025 年 12 月 10 日宣布了一系列領導層和組織變革，以加強經銷商關係、商業整合和營運。UBS 報告指出，Harley-Davidson 正在實施多項以經銷商為中心的變革，包括將電子商務業務歸還給經銷商，這可能會增加店內客流量。
+
+### 1. 反向思考（Inversion Thinking）
+
+從「這間公司在什麼情況下會失敗或大幅衰退？」的角度思考，Harley-Davidson 最關鍵的風險來源包括：
+
+*   **核心客戶群老化與新客戶吸引力不足：** Harley-Davidson 的核心客戶群傳統上是年長的、以男性為主的嬰兒潮一代。然而，這一群體正在老去，而公司在吸引年輕一代（千禧一代和 Z 世代）方面面臨挑戰。年輕消費者更傾向於輕便、經濟實惠、注重科技和可持續性的摩托車，而 Harley-Davidson 的傳統產品未能完全滿足這些需求。如果公司無法有效擴大其客戶基礎，將導致長期銷售額和市場份額的持續下滑。
+    *   **目前暴露程度與緩解能力：** 公司已充分暴露於此風險。2023 年摩托車行業委員會的分析顯示，美國摩托車車主的平均年齡已超過 50 歲。Harley-Davidson 正在通過「Hardwire」戰略計劃積極應對，包括推出 Pan America 等冒險旅行車型以吸引年輕群體，並通過 LiveWire 品牌引領電動摩托車市場。公司還計劃在 2026 年推出新的產品線，包括更實惠的入門級車型，以吸引年輕和注重價值的消費者。然而，這些努力的成效仍需時間驗證。
+
+*   **電動化轉型緩慢與競爭加劇：** 儘管 Harley-Davidson 推出了 LiveWire 電動摩托車品牌，並將其分拆上市以獲得更多資金和靈活性，但電動摩托車市場的競爭日益激烈，且 LiveWire 目前仍處於虧損狀態。如果公司在電動化技術、產品線擴展和成本控制方面無法跟上競爭對手（如 Zero 和 Energica 等電動摩托車新創公司，以及其他傳統製造商的電動化進程），可能會失去未來市場份額。
+    *   **目前暴露程度與緩解能力：** 公司已暴露於此風險。LiveWire 預計 2025 年仍將錄得營運虧損。儘管 LiveWire 被視為電動摩托車領域的先驅，但其市場滲透率仍低。Harley-Davidson 計劃通過與 Kymco 等戰略夥伴合作，利用其工程專業知識和製造能力來擴大電動車生產規模。公司還計劃推出更多電動車型，如 S2 Del Mar。然而，電動化轉型需要巨大的資本投入和技術創新，且市場接受度仍存在不確定性。
+
+*   **經濟衰退與可支配收入下降：** 摩托車，尤其是 Harley-Davidson 的高端重型摩托車，屬於可支配消費品。在經濟衰退、高利率和通脹壓力下，消費者信心下降，可支配收入減少，將直接影響摩托車的銷售。
+    *   **目前暴露程度與緩解能力：** 公司已暴露於此風險。2024 年和 2025 年的財報顯示，公司業績受到可支配產品週期性逆風的顯著影響，包括高利率環境對消費者信心的影響。Harley-Davidson 正在通過庫存管理和成本控制來應對。HDFS 的資本輕量化交易也釋放了現金，增加了財務靈活性。然而，宏觀經濟因素超出公司控制範圍，其緩解能力有限，主要依賴於其品牌忠誠度和金融服務支持。
+
+*   **品牌形象老化與文化誤判：** Harley-Davidson 的品牌與「自由、叛逆、美國精神」等特定亞文化深度綁定。雖然這培養了極高的品牌忠誠度，但也可能導致品牌形象過時、排他性強，難以吸引更廣泛、更多元的消費者群體（如女性、少數族裔和城市騎手）。
+    *   **目前暴露程度與緩解能力：** 公司已暴露於此風險。有分析指出，Harley-Davidson 的品牌形象對許多年輕或多元化消費者而言可能顯得過時或令人生畏。公司正在努力多元化其營銷策略，以吸引年輕男性、非白人男性和女性等「外展客戶」。然而，改變一個百年品牌的根深蒂固的形象是一項長期而艱鉅的任務。
+
+### 2. 反脆弱（Antifragility）
+
+評估 Harley-Davidson 在市場波動、經濟衰退、產業劇變下是否能「受益或變得更強」：
+
+Harley-Davidson 目前更傾向於處於**穩健 (Robust)** 狀態，而非反脆弱或脆弱。
+
+*   **成本結構與現金流彈性：** 公司在 2021 年實施了「Rewire」成本削減計劃，每年節省 1.15 億美元。HDFS 交易釋放了超過 12 億美元的自由現金，這顯著增強了公司的現金流彈性。儘管 2024 年和 2025 年面臨收入挑戰，但公司在 2025 年第三季度仍實現了強勁的 EPS 增長。這表明其成本結構在一定程度上具有韌性，且財務服務部門能夠在一定程度上對沖摩托車銷售的波動。
+*   **定價能力：** Harley-Davidson 憑藉其標誌性品牌資產和客戶忠誠度，在高端重型摩托車市場擁有較強的定價能力。其產品通常定價較高，這有助於維持較高的毛利率（30.61%）。然而，高價位也限制了其對年輕和預算有限的消費者的吸引力。
+*   **可選擇權（Optionality）：**
+    *   **LiveWire 分拆：** 將 LiveWire 分拆為獨立的上市公司，為電動摩托車業務提供了專注的資金和營運靈活性，使其能夠像科技新創公司一樣快速行動，同時仍能利用 Harley-Davidson 的支持和專業知識。這為公司在電動化趨勢中創造了潛在的增長點，降低了傳統業務轉型的風險。
+    *   **產品線多元化：** 推出 Pan America 等冒險旅行車型，成功進入新的細分市場，並成為北美銷量第一的冒險旅行摩托車。這表明公司有能力在核心業務之外開拓新市場。
+    *   **金融服務：** Harley-Davidson Financial Services (HDFS) 不僅支持零售銷售，還為公司提供了穩定的收入來源和利潤貢獻。HDFS 的資本輕量化交易進一步降低了其風險敞口。
+    *   **全球擴張與合作：** 通過與 Hero 等夥伴合作，在亞洲等新興市場推出中等排量摩托車，以擴大全球市場份額。
+
+**判斷：穩健 (Robust)**
+
+Harley-Davidson 表現出穩健的特徵。它擁有強大的品牌資產和忠誠的客戶群，使其能夠在一定程度上抵禦市場衝擊。其財務服務部門和多元化的產品線（如 Pan America）提供了緩衝和新的增長機會。LiveWire 的分拆是其適應未來趨勢的重要一步。然而，公司尚未展現出在壓力下「受益或變得更強」的反脆弱特質。核心客戶群老化、電動化轉型的不確定性以及宏觀經濟逆風仍是其面臨的重大挑戰。它正在努力適應變化，但尚未能將這些挑戰轉化為顯著的優勢。
+
+### 3. 第一原理思考（First Principles Thinking）
+
+從最基本且不可否認的事實出發：
+
+*   **公司真正創造的價值是什麼？**
+    Harley-Davidson 創造的價值遠不止於交通工具。它提供的是一種獨特的**生活方式、身份認同、社群歸屬感和自由體驗**。它的產品是美國文化、叛逆精神和個人主義的象徵。騎行 Harley-Davidson 不僅是從 A 點到 B 點，更是參與一個擁有百年歷史的傳奇、一個全球性的騎手社群 (H.O.G.)，以及一種對開放道路和冒險的追求。這種情感連結和文化意義是其核心價值。
+
+*   **誰願意付錢？為什麼？**
+    願意為 Harley-Davidson 付錢的主要是**富裕、品牌忠誠度高的男性騎手**，他們通常年齡在 50 歲以上，家庭收入較高。他們付錢是為了：
+    *   **品牌傳承與歷史：** 對 Harley-Davidson 的歷史、工藝和美國製造的認可。
+    *   **社群歸屬感：** 成為 Harley Owners Group (H.O.G.) 的一員，享受與志同道合者一同騎行的樂趣。
+    *   **身份象徵：** 擁有一輛 Harley-Davidson 代表著某種生活態度和個人風格。
+    *   **優質體驗：** 享受其重型摩托車帶來的獨特騎行感受、聲浪和定制化潛力。
+    *   **金融服務支持：** HDFS 提供的融資方案也降低了購買門檻，支持了零售銷售。
+
+*   **拆解其收入來源、核心競爭優勢與長期護城河是否成立：**
+    *   **收入來源：** 主要來自摩托車銷售、零件與配件 (P&A)、通用商品 (General Merchandise) 以及金融服務 (HDFS)。其中，P&A 和通用商品是高利潤業務，HDFS 提供穩定的利潤貢獻。
+    *   **核心競爭優勢：**
+        1.  **無與倫比的品牌資產和傳承：** 這是其最核心的優勢，經過百年積累，在全球範圍內具有極高的辨識度和情感價值。
+        2.  **強大的經銷商網絡：** 廣泛的經銷商網絡不僅提供銷售和服務，也是品牌體驗和社群活動的重要組成部分。公司正在加強與經銷商的合作，例如將電商業務歸還給經銷商以增加店內流量。
+        3.  **金融服務能力：** HDFS 為客戶提供融資，降低了購買門檻，並為公司帶來穩定的利潤。
+        4.  **定制化能力：** Harley-Davidson 在摩托車定制化方面表現出色，這是其與競爭對手區分開來的關鍵因素。
+    *   **長期護城河是否成立：**
+        Harley-Davidson 的長期護城河主要建立在**品牌忠誠度、社群效應和轉換成本**之上。
+        *   **品牌忠誠度與社群效應：** H.O.G. 等社群組織創造了強大的歸屬感，使得騎手很難轉向其他品牌。這種情感連結和社群網絡是難以複製的。
+        *   **轉換成本：** 對於已經投入大量時間和金錢定制其 Harley-Davidson 摩托車的騎手來說，轉換到另一個品牌會產生情感和經濟上的轉換成本。
+        *   **然而，護城河面臨侵蝕：** 隨著核心客戶群老化，以及年輕一代對品牌傳承的認同度下降，這條護城河正在受到侵蝕。新興的電動摩托車品牌和更注重科技、輕便的競爭對手正在挑戰其市場地位。公司必須不斷創新並擴大其吸引力，才能維持護城河的深度。
+
+### 綜合結論
+
+Harley-Davidson 是一家擁有深厚品牌底蘊和忠誠客戶群的公司，但在快速變化的市場中面臨顯著挑戰。
+
+**本質優勢：**
+*   **無可比擬的品牌資產與文化影響力：** Harley-Davidson 不僅是摩托車，更是一種生活方式和身份象徵，擁有全球性的社群和極高的品牌忠誠度。
+*   **強大的經銷商網絡與金融服務支持：** 廣泛的經銷商網絡和 HDFS 提供的融資服務，為銷售和客戶關係提供了堅實基礎。
+*   **積極的戰略轉型與多元化嘗試：** 「Hardwire」戰略、LiveWire 分拆、Pan America 等新產品線的推出，顯示公司正努力適應市場變化並開拓新領域。
+
+**致命弱點：**
+*   **核心客戶群老化與年輕化困境：** 傳統客戶群正在老去，而公司在吸引年輕一代方面面臨巨大挑戰，導致長期銷售增長乏力。
+*   **電動化轉型的不確定性與盈利壓力：** 儘管 LiveWire 具有潛力，但目前仍處於虧損狀態，且電動摩托車市場競爭激烈，盈利前景仍不明朗。
+*   **宏觀經濟敏感性：** 作為可支配消費品，其銷售額易受經濟衰退、高利率和消費者信心下降的影響。
+
+**是否適合長期持有型投資（5–10 年）：**
+
+基於目前的分析，Harley-Davidson **不適合**作為純粹的長期持有型投資（5-10 年），除非投資者對其轉型戰略的成功抱有極高的信心。
+
+儘管公司擁有強大的品牌和積極的轉型努力，但其核心業務面臨結構性逆風（人口結構變化），且新興業務（電動化）的盈利能力和市場競爭力仍需時間證明。目前的 P/E (5.06) 和 P/B (0.69) 雖然看起來很低，但這可能反映了市場對其未來增長前景的擔憂，以及其傳統業務的挑戰。EPS next Y_% 為 -0.5139 也預示著短期盈利壓力。
+
+**在哪些前提成立／不成立下，投資結論會改變：**
+
+**投資結論會改變（轉為適合長期持有）的前提成立：**
+1.  **成功吸引年輕客戶群並實現核心業務增長：** 公司能夠通過其新產品線（如 Pan America、2026 年新車型）和營銷策略，顯著擴大年輕和多元化客戶群，並扭轉傳統摩托車銷售的下降趨勢，實現穩定的零售銷售增長。
+2.  **LiveWire 實現盈利並成為電動摩托車市場領導者：** LiveWire 能夠在未來 3-5 年內實現盈利，並在電動摩托車市場中建立起強大的競爭優勢和市場份額，證明其電動化戰略的成功。
+3.  **宏觀經濟環境顯著改善：** 全球經濟進入持續增長週期，利率下降，消費者信心恢復，從而刺激可支配消費品的需求。
+4.  **品牌形象成功現代化：** 公司能夠在不疏遠核心客戶的同時，成功地將品牌形象現代化，使其對更廣泛的消費者群體具有吸引力。
+
+**投資結論會改變（轉為不適合長期持有，甚至考慮賣出）的前提不成立：**
+1.  **核心客戶群加速流失，年輕化努力失敗：** 公司未能有效吸引新客戶，導致傳統摩托車銷售持續大幅下滑，且無法被新產品線彌補。
+2.  **LiveWire 持續虧損且市場份額停滯不前：** 電動化業務未能實現盈利，且在競爭激烈的市場中無法獲得顯著份額，成為公司的財務負擔。
+3.  **宏觀經濟持續低迷或惡化：** 高利率、通脹和經濟衰退持續影響消費者購買力，導致摩托車行業整體萎縮。
+4.  **競爭加劇導致市場份額進一步被侵蝕：** 來自 Indian Motorcycle、日本和歐洲競爭對手，以及新興電動摩托車品牌的競爭壓力持續增大，導致 Harley-Davidson 的市場份額和定價能力下降。
+5.  **管理層戰略執行不力或出現重大失誤：** 「Hardwire」戰略未能按預期實現目標，或公司在關鍵決策上出現重大失誤。
+
+總之，Harley-Davidson 處於一個關鍵的轉型期。其長期投資價值取決於其能否成功應對人口結構變化、電動化趨勢和宏觀經濟挑戰。目前來看，風險與機遇並存，需要密切關注其戰略執行的進展和財務表現。

@@ -123,25 +123,26 @@ content=Content(
     <div class="gradient-container"><div class="gradient"></div></div>
   </div>
   <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZ-1RiZR9hXw4GjIJpnTLb1XnsW1y1v1u-j8FM5AUSq3-SnCtK6Mrlr88sJVs_9c2Z0XD6710ASn3hJBLXHSP-6xgx8gCC1NEFMpZ_zfXwvDnGfOF-EZB-Uc82cyBdof7xhLigp_qH5zGtGxW06-NmrNF9yCXZIPQQ0K611wJDkXgQyLnkyk3C_tzaIEzsuh1PCwjzcmVF0RoHUrTp3HiOSL4DpGKqQA==">Novo Nordisk NVO supply chain issues</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUV7RFFvuhUuzKRg62b_GNJ7_3MTivEv33QuErkhEC-9KQjlMoW19w-fy1NA6agh4tFr-vJGWHCy-wcM5PRg8DdRN1Bm0Py6F1vuWADp5w-t1PNP-TqUvuBmqQp0zsBDd_clUD4fX09sCehTRNvOGDamy33yrjXp5upVNRHhnyM6D81nE-AovpVrF6bVzUloc6Jl24D3jkZtQDj3A4CfdgOnXeoqIYs1rdXDUWZEBGsDd5fCU=">Novo Nordisk NVO market dynamics diabetes obesity</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuIbml_0g7Igm9CqdikXaShVuFKGQ5joZMtkmBisUG-IY78KzmPnzGpcXrw-c_D76tTEvR_rQRg3M81CBEJGrlfC2YcdKgylxn7FeXkDcjFTDrNV64i2ILRvWSs7eMe3BxLS1WsEdDMuHXiKCxTfjXiUKoFf6BnpmvX69gFpYvk7nyP5DW2Aiy4pO1W0B98A7FwGKwvDECN-hsoTZG1gEu2lWgMxykrFyX7Fg=">Novo Nordisk NVO Q4 2024 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRuNspmpeLHVVu-ZL7QbmDJeIdL-dG1ykA-gGBIUUYi_f721I6StAKvGkrG4Svpo6_7pSAEunzbR2sTEhJ4C4XPHhucLescxX-v4z-JjMutqEYprS34kXf8EDWuzZaTOtZYRSIMUBEcSYkcT_a2GLw7zGiMY0N4DiLOA0cjXPPLcm9MJ1lpEO4EY93X5KCCP_hwNJ0ekvFvRZM4tOhslo=">Novo Nordisk NVO latest news</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnMjxrqWIvyDAnZiYIclRsE3cR-nngoCxBQhagCKz-J-XlxS2IuD6lSNQNbxqfxLGxigqVhSnUKwKM93f_YBQ0Ejm5wzhLqehlF7bsQm2GVG8-PbNsqyWLZoQw3N5GeUbQxS9TyqFQ2Z1sbQivmslUCelX2QZUE7wFm4tB22O95d0WLJ-Vj9pSODj1JiyF10G7H9SknmjZ9U3QOUA1lhERD7DrIjjcj9zyy00=">Novo Nordisk NVO Q3 2024 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoIQ8vBHOlZ_lsIC6u906svAORKFg_e1LM6HWs0t2niLVBun0p4jPIBNIhk8qcUb_oj7UI7vxWkBQcozHv3BNaA1aUiBqksINc4c6-vHEX5QBBrKSZ0seS6vd8N5bnKEM8GAjcu93yyORf_0owLnMmEG-jzhcxxsyyOGHOw-dz2hTTqA-7J08wDLx3oxgrIHrXz26pwQS7NcGFPyHalYGrlhWUIUQJO26aUw==">Novo Nordisk NVO GLP-1 drug competition</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpt4g-OJ5PngqPespYgpkEOaLwJV-FUCe_RDd0pYsSkMT2C3TQkM-vndgaAO_eng1z8VjhmgZnMDfKAwt7OvCOyYK0ExHEtRgCqtt5wU6-10SEONOgN7p6DNWeMCR37IRvxG-kFYePugVXl8kJQPlDIZ4LEjsqm5od1_PePCnu_rM2Pr-jTbOsrtYZochBiAuFN9SnQLS8XXsscrXpeeayMmesmr9urPDqlKyTSdn6YSXyr9GmkKs=">Novo Nordisk NVO patent expiry dates Ozempic Wegovy</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEtuzI82h2cMJ2xYa53TCpuX3UKQTrHevSCRSS6PKsd2TjDFQYfGz77Cz4X0GZVlULzokNo727YSc5U1c0rRuaDZnp4-0CUxPJwnZGRTu5nTqr-ukwHlQ5tyXfjiAdWukzQN0UaUSeIjXmKHe914LiKZ6TIHkK2eHS9wXbDQ5ePQLTx_UcuiPqlUzsx-LQYm-GBH7dODh3P0Kh0pXyvqwXpYiNA3FpMleQY81o=">Novo Nordisk NVO full year 2024 earnings</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJhCT7s_EU1HyGGvcD0pNZkkYvTZw60577dVacIFGF7MDAJHfx7dy-K-e1HOv7KTYoinQiCJjXY78ILZdZalTKeoRI6Q-h1eQJns2NUnOoibyRjIKFuZVFEWdVi8B11GhHbOPnp6CtbZ2Y_2iwZ2Sxff2tcDtTMNDYAtWTQzuYz4PhabuyfhTaz5NOAnooex4V_V8HBhqAYqcPFzdViJXhiBM=">Novo Nordisk NVO R&amp;D pipeline</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMVCODVKHtLa7EL55gq3sHNzj0pt_RhmBHlzAJ-WH1IyDkyj1NmjsX45wywMCQP6NYxqEexu-yS39o09mVxl8IyVCLCiIqhjk7gKoup0xPpEcpGFDBm7L70kP4Z3prD50W9sg0AiynO_MJ1Oa70Ss5vNasX6xTHJK4FRwN87MKtw5Ss42kPvk1b1JBICuYVqS757ba0AHkBey0Hz8AJnfil5Fp77T0idY=">GLP-1 market size and growth forecast</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhTjdpU22m79GOCv0FW2JYRfZUg6Pb-gbcM6Qf0e3SleybaBwKCZsEWmYYMLBh2c86PSCWKzrnKb_vsbTnzDHiGswsJxhYw2mpFxPUajPk7n4IhyYHSmdBrrSvOsEfGS5QbikbguJ3zCt-FMfmMGN-3yjwOCkj3l9ZQt0NingE1VZPZDVAvrrqk8Jo-Ki4Gp4_BI7iidbFTLEmDGEkzhA-Mat_g8M4">Novo Nordisk NVO annual report 2025</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFSMEAfM4lpjHipNC-JOjb-7u93SAQwWyByCdVBvy4mKDNdNKgJAOKf-iyCSHeFYXpIka_zMjUD_HtpOf3Mq1G32rHXaCMhOTwT2PfHHjjZXRSNVCs-tdducy6x91zHSiH1RoGaJBXGLuqSO-CS31KrBwcL0SEJoaTPXRY0b9TrjNbUcqTiep8hOTRqvTuUx29vmIIaS8iFJpsuxBkOewI=">Novo Nordisk NVO latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENzi0lj_wa9In2VCUfTYw0NN5ZOErYbA9sItrWLd6Lqwd1QNGO7nuFkj-o_hTp_VvNNEGWPnatqhFYsEYSXvsNs4cWWsbloKI_0mddWhPurYsQRxntXoct5vTxNHTFWOS6JcTJEKGv6Q_vQ05eOvqsxUF5QOETbwYVUODfh6NPesgSLpkNo4XFZSeye3nY2hITDihodGlwh0kizrqHH3aaTQktVr5RD-y6lN0=">Novo Nordisk NVO Q4 2025 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQZ5r1aNC83kDBH0HpawwwZ5v8s0SAPiL5V5iQQNS0iRcVwFDXFzq0cf7ZgAcc62sxLtdMHvHC1a2Gfh4i9mLlCesyK_7zsedkvBjwKhoGGpEnnOvXXl7NLXd4fbWee6CCVs7ZZphFDjnu63uwY6tZr35eFjEgZX-qtKKToXXp-AkeeK2-m46eceid1Khdbv9yCJl1Ne0ggb_J_5ca8oi7KdRi9puFHRaeDh2lGR9JbyYqb-XHp1VmXzo=">Obesity drug market competition Novo Nordisk Eli Lilly</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiNqh49pCKjg-F2EMhQOyeAvw4rf2Sa4tNmr8lorYVylGCSl2rhnjFGnX3OyxpGgRkAkSnbQIYYzBQlYYQ-0nMDw4vKbBORZCr6NH2JngS3mPqz_kpm-ojllLHPxISmYorwbXAKZwD0l2iJxooOUb7AZRKm0IKzj1sVp8-WPMNXhRsQVGUW7at70qf7OpkZVBW6xaPM84tHmtFPpHlimjcrNxNVMjZYJg=">Diabetes treatment market trends 2025</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE40aKBw0hAs42w4V12NnE9ulX6jdJa4vNq-gMQowBCzqgWZl3iQsoXUuQ3iW_pUWA7DQmoLV5arTa4fsVTcC_2Y6Bh4gIcVNZAzohbWcSyIQXVCCJuic93p_1LfecAhwqwvDt4kvkq1MdeY7l2NRvSEUEQhIH7VlmXJDnPD-SwDdZoWSFTPiqQx_1zCqG_lNefqmxvgq7uwPRlpPJh_3cFXwqTeCxhoCxtLRunuYE=">Novo Nordisk Ozempic Wegovy sales data 2025</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt3I6PzcfNlHcmS-V6DqG_tZSqB4yMYjnkUXudub4fdXw-yMEesU5t8KVa4kJ1O37vgp6LV9P1WnCWnOkxl3lz9SpyplRH88y3xyy_hLbFeSr_CHFu1c-2vII1z3i4m33d1QoMLa9mONcxZshkpdZ1owk0hu7yuThTqvDzTLzkcbm704Ehdtvlr9F_kx7tehkeKcGi7UZVU0Wx20kMBRlMESoP5SX8ih-NS82kWmaS7SQ=">Novo Nordisk manufacturing capacity GLP-1 2025</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvYnRStD7x8zCTFUjOC_xVZs4U2macUxs7-2E5WPdh4hICe7vk-AMSVuLr9D1Uf_6PGCtjQWcQHrmQh4_WWm5yHeHYZfzal6puMB0kuKz8GPaixihnXEN0qXzrUx9qsCNfCJwoxX8dMKCbQizvF9ccpa0bQ9qXfLbcFEu_MeVdK2MtK7Suc0-VlE14otk0R1t9hRykr30_dgMWZbOMJO03Z3AYwHXXQ1EBaHpkFKK5jubcDDI=">Novo Nordisk NVO analyst ratings and target price</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEh2rrHEITnuvyAmNnwLttSahGat-MwkLAI8GlftOYTMpR1piaaEKAkJ4Br78pPl_FURDoSEs4dOszQ2ucLhGJZGk0p51iGDaH6VS_sblRdNru_LeeUsVZ-sl4CVeRsxTMLfsFl-hwGxoldyfBOyjLBE1vHPGA08gL3eNlrAHUaGQyTidE5PA4tUTuJQ4GK--1N-eFc-HOZoMSC5wPwqM4Fg_nk">Novo Nordisk pipeline drugs 2025</a>
   </div>
 </div>
 """
   ),
   web_search_queries=[
     'Novo Nordisk NVO latest news',
-    'Novo Nordisk NVO Q3 2024 earnings report',
-    'Novo Nordisk NVO Q4 2024 earnings report',
-    'Novo Nordisk NVO full year 2024 earnings',
-    'Novo Nordisk NVO market dynamics diabetes obesity',
-    <... 4 more items ...>,
+    'Novo Nordisk NVO Q4 2025 earnings report',
+    'Novo Nordisk NVO annual report 2025',
+    'GLP-1 market size and growth forecast',
+    'Obesity drug market competition Novo Nordisk Eli Lilly',
+    <... 5 more items ...>,
   ]
 ) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None

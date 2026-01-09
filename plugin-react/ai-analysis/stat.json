@@ -458,6 +458,9 @@
     }
   },
   "sold-strategy": {
+    "AAP": {
+      "last_update_time": "2026-01-09T11:24:53.412308"
+    },
     "AAPL": {
       "last_update_time": "2026-01-06T17:08:38.589578"
     },
@@ -628,6 +631,108 @@
     },
     "GOOG": {
       "last_update_time": "2026-01-08T11:41:19.006175"
+    },
+    "GPN": {
+      "last_update_time": "2026-01-09T11:29:55.002953"
+    },
+    "GT": {
+      "last_update_time": "2026-01-09T11:30:26.052757"
+    },
+    "HAFN": {
+      "last_update_time": "2026-01-09T11:30:57.193708"
+    },
+    "HAL": {
+      "last_update_time": "2026-01-09T11:31:28.648982"
+    },
+    "HAS": {
+      "last_update_time": "2026-01-09T11:32:05.615292"
+    },
+    "HMC": {
+      "last_update_time": "2026-01-09T11:32:37.546416"
+    },
+    "HOG": {
+      "last_update_time": "2026-01-09T11:25:44.656462"
+    },
+    "HOV": {
+      "last_update_time": "2026-01-09T11:33:09.756605"
+    },
+    "HPE": {
+      "last_update_time": "2026-01-09T11:33:41.673188"
+    },
+    "HPQ": {
+      "last_update_time": "2026-01-09T11:34:12.345776"
+    },
+    "ILPT": {
+      "last_update_time": "2026-01-09T11:24:01.664737"
+    },
+    "INGR": {
+      "last_update_time": "2026-01-09T11:34:44.599257"
+    },
+    "INTC": {
+      "last_update_time": "2026-01-09T11:35:15.877357"
+    },
+    "ISRG": {
+      "last_update_time": "2026-01-09T11:35:48.096064"
+    },
+    "K": {
+      "last_update_time": "2026-01-09T11:36:18.055632"
+    },
+    "KBR": {
+      "last_update_time": "2026-01-09T11:36:48.389687"
+    },
+    "KSPI": {
+      "last_update_time": "2026-01-09T11:37:19.650581"
+    },
+    "KSS": {
+      "last_update_time": "2026-01-09T11:37:51.711675"
+    },
+    "LMAT": {
+      "last_update_time": "2026-01-09T11:38:22.923965"
+    },
+    "LNTH": {
+      "last_update_time": "2026-01-09T11:38:54.757956"
+    },
+    "LQDT": {
+      "last_update_time": "2026-01-09T11:39:25.311471"
+    },
+    "LRCX": {
+      "last_update_time": "2026-01-09T11:39:58.474713"
+    },
+    "M": {
+      "last_update_time": "2026-01-09T11:40:29.669135"
+    },
+    "MA": {
+      "last_update_time": "2026-01-09T11:41:00.946094"
+    },
+    "MATX": {
+      "last_update_time": "2026-01-09T11:41:33.275700"
+    },
+    "MPW": {
+      "last_update_time": "2026-01-09T11:22:28.224792"
+    },
+    "NICE": {
+      "last_update_time": "2026-01-09T11:27:09.546708"
+    },
+    "NKE": {
+      "last_update_time": "2026-01-09T11:20:22.258935"
+    },
+    "NVO": {
+      "last_update_time": "2026-01-09T11:23:06.189759"
+    },
+    "PVH": {
+      "last_update_time": "2026-01-09T11:21:04.670405"
+    },
+    "PYPL": {
+      "last_update_time": "2026-01-09T11:26:24.902711"
+    },
+    "SBUX": {
+      "last_update_time": "2026-01-09T11:19:26.899138"
+    },
+    "TGT": {
+      "last_update_time": "2026-01-09T11:18:46.069967"
+    },
+    "VFC": {
+      "last_update_time": "2026-01-09T11:21:48.258587"
     }
   },
   "stock-valuation": {
@@ -1090,7 +1195,7 @@
   },
   "super-thinking": {
     "AAP": {
-      "last_update_time": "2025-12-31T11:12:11.852536"
+      "last_update_time": "2026-01-09T11:14:19.313745"
     },
     "AAPL": {
       "last_update_time": "2025-12-30T11:25:11.860915"
@@ -1114,7 +1219,7 @@
       "last_update_time": "2025-12-22T11:42:47.794686"
     },
     "ALB": {
-      "last_update_time": "2025-12-31T11:20:15.969557"
+      "last_update_time": "2026-01-09T11:17:55.162737"
     },
     "ALSN": {
       "last_update_time": "2025-12-23T11:18:47.619515"
@@ -1207,7 +1312,7 @@
       "last_update_time": "2025-12-23T11:43:29.898477"
     },
     "EL": {
-      "last_update_time": "2025-12-30T11:16:53.025046"
+      "last_update_time": "2026-01-09T11:10:35.009973"
     },
     "EMN": {
       "last_update_time": "2025-12-23T11:44:26.285508"
@@ -1273,7 +1378,7 @@
       "last_update_time": "2025-12-24T11:20:28.284603"
     },
     "HAL": {
-      "last_update_time": "2025-12-31T11:19:30.036472"
+      "last_update_time": "2026-01-09T11:17:01.635593"
     },
     "HAS": {
       "last_update_time": "2025-12-24T11:21:02.741856"
@@ -1282,7 +1387,7 @@
       "last_update_time": "2025-12-24T11:21:37.122757"
     },
     "HOG": {
-      "last_update_time": "2025-12-31T11:13:06.425747"
+      "last_update_time": "2026-01-09T11:15:13.086704"
     },
     "HOV": {
       "last_update_time": "2025-12-24T11:22:11.486320"
@@ -1348,7 +1453,7 @@
       "last_update_time": "2025-12-24T11:39:59.771177"
     },
     "MPW": {
-      "last_update_time": "2025-12-30T11:20:19.338263"
+      "last_update_time": "2026-01-09T11:12:15.679702"
     },
     "MS": {
       "last_update_time": "2025-12-24T11:40:52.022001"
@@ -1369,7 +1474,7 @@
       "last_update_time": "2025-12-25T11:12:14.082247"
     },
     "NICE": {
-      "last_update_time": "2025-12-31T11:15:55.356208"
+      "last_update_time": "2026-01-09T11:16:09.774727"
     },
     "NKE": {
       "last_update_time": "2026-01-07T11:22:14.684569"
@@ -1384,7 +1489,7 @@
       "last_update_time": "2025-12-25T17:36:15.792285"
     },
     "NVO": {
-      "last_update_time": "2025-12-31T11:11:11.652639"
+      "last_update_time": "2026-01-09T11:13:25.236120"
     },
     "NXPI": {
       "last_update_time": "2025-12-25T11:18:55.959336"
@@ -1441,7 +1546,7 @@
       "last_update_time": "2025-12-26T11:22:20.776696"
     },
     "SBUX": {
-      "last_update_time": "2025-12-30T11:18:01.663069"
+      "last_update_time": "2026-01-09T11:11:39.130480"
     },
     "SEE": {
       "last_update_time": "2025-12-25T17:39:00.323661"
