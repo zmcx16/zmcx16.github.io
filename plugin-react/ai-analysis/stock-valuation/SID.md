@@ -1,181 +1,150 @@
-為了對美股公司 SID 進行完整的股票估值分析，我將首先透過網路搜尋獲取最新的公司資訊、財報、市場動態及產業趨勢，以補充您提供的基本面數據。隨後，我將應用折現現金流模型（DCF）、相對估值法（Comparable Company Analysis）和股息折現模型（DDM，若適用）進行估值，並綜合分析得出結論。
-
-### 1. 資訊蒐集與公司概況
-
-首先，我需要確認 SID 的完整公司名稱及其所屬產業，並查詢最新的財務報告和市場新聞。
-
-**公司概況：**
-SID 的完整公司名稱是 **Companhia Siderúrgica Nacional (CSN)**，這是一家巴西綜合鋼鐵生產商。該公司在巴西和拉丁美洲營運，業務涵蓋五個主要部門：鋼鐵、採礦、物流、能源和水泥。其產品包括扁鋼、長鋼、金屬容器、鍍鋅鋼等。CSN 也在鐵礦石和錫礦開採、水泥生產、鐵路營運以及水力發電廠發電方面有所涉獵.
-
-**最新財報與市場動態：**
-*   CSN 於 2025 年 4 月 30 日提交了截至 2024 年 12 月 31 日財政年度的 20-F 年度報告。
-*   根據 2025 年 3 月 12 日的 2024 年第四季度和全年業績報告，CSN 在 2024 年第四季度錄得 8500 萬巴西雷亞爾的淨虧損，較上一季度大幅改善 88.7%，反映出強勁的營運業績，但被高額的財務費用和較高的稅收抵消。
-*   2024 年，CSN 的水泥業務調整後 EBITDA 達到 13.61 億巴西雷亞爾，較 2023 年增長 39.5%，EBITDA 利潤率為 28.5%。
-*   2024 年鐵礦石銷量為 4255.2 萬噸，與 2023 年持平。
-*   2023 年鋼鐵淨營運收入為 232 億巴西雷亞爾。
-*   巴西鋼鐵行業預計在 2025 年和 2026 年將面臨來自中國鋼鐵的激烈競爭，產量預計將下降 2.2%。
-*   巴西鋼鐵協會預計 2026 年軋製鋼材進口量將增長 10%，達到 632.4 萬噸。
-*   儘管面臨進口壓力，巴西鋼鐵市場的表觀消費量預計在 2026 年將增長 1%。
-*   巴西政府已採取配額措施，並計劃對某些鋼鐵產品徵收更高的進口稅，以保護國內投資。
-*   巴西鋼鐵市場預計在 2026-2034 年期間將以 4.18% 的複合年增長率增長，主要受基礎設施、汽車和建築等行業的國內需求以及對綠色鋼鐵製造投資的推動。
-
-**股息政策：**
-CSN 是一家支付股息的公司。然而，提供的基本面數據中 "Dividend %" 為 "-"，這可能表示當前股息收益率為零或未提供。但根據 TipRanks 的 AI 分析，CSN 的高股息收益率提供了一些吸引力。CSN 的投資者關係網站也提供了股息歷史查詢。
-
-**基本面數據補充分析：**
-*   **P/E:** 提供的數據為 "-"，但最新資訊顯示 2024 年第四季度錄得淨虧損，這解釋了負的 P/E 或無法計算 P/E。Seeking Alpha 顯示其遠期 P/E 為 43.67，而您提供的數據是 59.1，這表明分析師對未來盈利的預期存在差異，但都顯示出較高的估值。
-*   **ROE, ROA, ROI, Profit Margin:** 均為負值，表明公司目前處於虧損狀態，盈利能力較弱。
-*   **Debt/Eq, LT Debt/Eq:** 均非常高 (3.76 和 3.12)，表明公司槓桿率很高，財務風險較大。
-*   **Quick Ratio, Current Ratio:** 快速比率低於 1 (0.91)，流動比率為 1.32，顯示公司短期償債能力存在一定壓力。
-*   **EPS next Y_%:** 1.2916999999999998 (約 129%) 的高增長預期，與當前虧損形成對比，表明市場預期公司未來盈利將大幅改善。
-
-### 2. 估值方法應用
-
-鑑於公司目前的虧損狀況和高槓桿，以及巴西鋼鐵行業面臨的挑戰和機遇，我將採用以下估值方法。
-
-#### 2.1 折現現金流模型（Discounted Cash Flow, DCF）
-
-DCF 模型需要預測公司的自由現金流 (Free Cash Flow, FCF) 並將其折現。由於公司目前處於虧損狀態，且 P/E 為負，直接從淨利潤推導 FCF 較為困難。我將嘗試從營運現金流和資本支出角度進行預測。
-
-**估值假設：**
-
-*   **預測期間：** 5 年 (2026-2030)。
-*   **收入增長率：** 考慮到巴西鋼鐵行業面臨的挑戰（中國鋼鐵競爭、產量下降）以及國內需求增長（基礎設施、汽車、建築），我將假設一個保守的收入增長率。
-    *   2026 年：-2.2% (參考巴西鋼鐵產量預計下降)
-    *   2027-2030 年：逐步恢復至 1% - 2% (參考巴西鋼鐵市場表觀消費量增長和長期市場增長預期)
-*   **營運利潤率 (Operating Margin)：** 提供的數據為 0.1195 (11.95%)。考慮到行業競爭壓力，我將假設其在預測期內保持相對穩定或略有波動。
-*   **稅率：** 巴西企業所得稅率約為 34% (一般稅率 25% + 社會貢獻 9%)。
-*   **資本支出 (Capital Expenditure, CapEx)：** 參考歷史數據和行業趨勢，預計 CapEx 佔收入的比例。
-*   **營運資本變動 (Change in Working Capital, NWC)：** 假設其與收入增長成比例。
-*   **折現率 (WACC - 加權平均資本成本)：** 由於公司槓桿率高，且在巴西營運，WACC 會相對較高。
-    *   **股權成本 (Cost of Equity, Ke)：** 使用資本資產定價模型 (CAPM)。
-        *   無風險利率 (Risk-Free Rate)：參考巴西長期政府債券收益率或美國 10 年期國債收益率 (約 4.5%)。
-        *   市場風險溢價 (Market Risk Premium, MRP)：約 6% - 7%。
-        *   Beta：由於未提供，我將假設一個行業平均 Beta，例如 1.2 - 1.5 (鋼鐵行業通常波動較大)。
-    *   **債務成本 (Cost of Debt, Kd)：** 考慮到高槓桿，假設一個較高的債務成本，例如 8% - 10%。
-    *   **債務權益比 (Debt-to-Equity Ratio)：** 3.76 (來自提供數據)。
-    *   **WACC 計算：**
-        *   Ke = 無風險利率 + Beta * MRP
-        *   WACC = (E/(E+D)) * Ke + (D/(E+D)) * Kd * (1 - 稅率)
-*   **永續增長率 (Terminal Growth Rate, g)：** 考慮到巴西鋼鐵行業的長期增長潛力，我將假設一個保守的永續增長率，例如 1% - 2%。
-
-**DCF 計算步驟 (簡化示例，實際計算需詳細財務數據)：**
-
-1.  **預測收入：** 基於上述增長率。
-2.  **預測 EBIT (息稅前利潤)：** 收入 * 營運利潤率。
-3.  **計算稅後 EBIT (NOPAT)：** EBIT * (1 - 稅率)。
-4.  **計算自由現金流 (FCFF)：** NOPAT + 折舊與攤銷 - 資本支出 - 營運資本變動。
-    *   由於缺乏詳細的折舊與攤銷數據，我將假設其與資本支出大致相抵或佔收入的固定比例。
-5.  **計算終值 (Terminal Value, TV)：** TV = FCFF (最後一年) * (1 + g) / (WACC - g)。
-6.  **折現所有 FCFF 和 TV：** 得到公司總價值。
-7.  **減去淨債務，除以流通股數：** 得到每股估值。
-
-**由於缺乏詳細的歷史財務報表數據（如折舊攤銷、實際資本支出、營運資本變動等），無法進行精確的 DCF 計算。我將基於提供的數據和行業趨勢進行合理推斷。**
-
-**WACC 估算：**
-*   無風險利率 (巴西)：考慮到巴西的經濟環境，使用較高的無風險利率，例如 6%。
-*   市場風險溢價：7%。
-*   Beta：1.3 (鋼鐵行業)。
-*   Ke = 6% + 1.3 * 7% = 6% + 9.1% = 15.1%。
-*   債務成本：9%。
-*   稅率：34%。
-*   股權佔總資本比重 (E/(E+D))：假設 D/E = 3.76，則 E = 1，D = 3.76。E+D = 4.76。E/(E+D) = 1/4.76 = 0.21。D/(E+D) = 3.76/4.76 = 0.79。
-*   WACC = (0.21 * 15.1%) + (0.79 * 9% * (1 - 0.34)) = 3.17% + (0.79 * 9% * 0.66) = 3.17% + 4.68% = **7.85%**。
-
-這個 WACC 看起來相對較低，主要是因為高債務比重和債務成本的稅盾效應。然而，高槓桿本身就是風險。
-
-**DCF 估值結果 (概念性推導，非精確計算)：**
-由於無法獲取詳細的財務預測數據，我無法提供精確的 DCF 估值。然而，基於公司目前的虧損狀況和高槓桿，以及行業面臨的逆風，DCF 估值可能會顯示出較低的內在價值，甚至可能低於當前股價，除非未來幾年的盈利和現金流能實現非常強勁的轉正和增長。
-
-#### 2.2 相對估值（Comparable Company Analysis）
-
-相對估值法是通過比較同行業可比公司的估值倍數來評估目標公司。
-
-**可比公司：**
-根據 Seeking Alpha，SID 的同行包括 Alpha Metallurgical Resources, Inc. (AMR), Worthington Steel, Inc. (WS), Usinas Siderúrgicas de Minas Gerais S.A. (USNZY), Ramaco Resources, Inc. (METC)。我將主要關注巴西或拉丁美洲的鋼鐵公司，如果數據可得。
-
-**估值倍數：**
-*   **P/E (市盈率)：** 由於 SID 目前 P/E 為 "-"，且為負值，不適用於直接比較。但可以參考其遠期 P/E (59.1)。
-*   **P/B (市淨率)：** SID 為 0.8。
-*   **P/S (市銷率)：** SID 為 0.27。
-*   **EV/EBITDA (企業價值/息稅折舊攤銷前利潤)：** 這是衡量公司整體價值的常用指標，尤其適用於盈利不穩定的公司。
-
-**可比公司數據查詢：**
-
-**可比公司估值倍數概覽：**
-
-| 公司 (股票代碼) | P/B | P/S | EV/EBITDA (LTM) | Forward P/E |
-| :-------------- | :-- | :-- | :-------------- | :---------- |
-| SID             | 0.8 | 0.27 | -               | 59.1        |
-| Gerdau S.A. (GGB) | 0.64 | 0.56 | 4.74 | 8.94 |
-| Usinas Siderúrgicas de Minas Gerais S.A. (USNZY) | 0.34 | 0.41 | NM (Not Meaningful) | 16.85 (2026) |
-| ArcelorMittal S.A. (MT) | - | - | 6.3x - 6.4x | - |
-
-**分析：**
-
-*   **P/B (市淨率)：**
-    *   SID (0.8) 介於 GGB (0.64) 和 USNZY (0.34) 之間。這表明相對於其賬面價值，SID 的估值可能略高於 USNZY，但與 GGB 接近。
-*   **P/S (市銷率)：**
-    *   SID (0.27) 低於 GGB (0.56) 和 USNZY (0.41)。這可能表明市場對 SID 的銷售額增長潛力或盈利能力持更為悲觀的態度，或者其銷售額的質量較低。
-*   **EV/EBITDA：**
-    *   SID 的 EV/EBITDA 未提供。
-    *   GGB 的 EV/EBITDA 為 4.74。
-    *   USNZY 的 EV/EBITDA 為 NM (不具意義)，可能因為 EBITDA 為負或非常低。
-    *   MT 的 EV/EBITDA 約為 6.3x - 6.4x。
-    *   如果 SID 的 EBITDA 為正，且其 EV/EBITDA 倍數與 GGB 接近，則可能暗示其估值。但由於 SID 目前的負盈利，EV/EBITDA 可能不適用或會很高。
-*   **Forward P/E：**
-    *   SID 的 Forward P/E 為 59.1。
-    *   GGB 的 Forward P/E 為 8.94。
-    *   USNZY 的 Forward P/E (2026) 為 16.85。
-    *   SID 的 Forward P/E 遠高於可比公司，這強烈暗示市場預期 SID 未來盈利將大幅增長，或者其估值相對較高。這也可能反映了其當前虧損導致的基數效應。
-
-**相對估值結論：**
-從 P/B 和 P/S 來看，SID 的估值似乎並未顯著高估。然而，其極高的 Forward P/E 相對於同行業公司而言，是一個顯著的差異點，表明市場對其未來盈利增長有非常高的預期。如果這些預期未能實現，則存在估值回歸的風險。
-
-#### 2.3 股息折現模型（Dividend Discount Model, DDM）
-
-根據提供的數據，SID 的 "Dividend %" 為 "-"，且公司目前處於虧損狀態。雖然有資料顯示 CSN 是一家支付股息的公司，且 TipRanks 提到其高股息收益率，但由於缺乏穩定的股息增長歷史和可預測的未來股息支付，DDM 模型在此情況下可能不適用或難以提供可靠的估值。
-
-如果公司未來能夠恢復盈利並維持穩定的股息政策，則 DDM 可能會變得適用。但目前，我將不使用 DDM 進行估值。
-
-### 3. 綜合結論與合理價位區間
-
-**估值挑戰：**
-SID 目前的虧損狀況、高槓桿以及巴西鋼鐵行業的挑戰，使得精確估值變得複雜。特別是 DCF 模型，由於缺乏詳細的財務預測數據，難以進行量化計算。
-
-**綜合分析：**
-
-1.  **盈利能力弱但有增長預期：** 公司目前處於虧損狀態 (ROE, ROA, ROI, Profit Margin 均為負)，P/E 為負。然而，其 EPS next Y_% 預期高達 129%，Forward P/E 也高達 59.1，這表明市場對其未來盈利轉正和大幅增長抱有強烈預期。
-2.  **高槓桿與流動性壓力：** 高 Debt/Eq (3.76) 和較低的 Quick Ratio (0.91) 表明公司存在較高的財務風險和一定的流動性壓力。
-3.  **行業逆風與機遇並存：** 巴西鋼鐵行業面臨中國鋼鐵的競爭和產量下降的壓力。但同時，國內基礎設施、汽車和建築行業的需求增長以及對綠色鋼鐵的投資，為長期增長提供了機遇。政府的保護措施也可能提供一些緩衝。
-4.  **相對估值：**
-    *   P/B (0.8) 和 P/S (0.27) 相對於可比公司並未顯著高估，甚至 P/S 較低。
-    *   Forward P/E (59.1) 遠高於可比公司 (GGB 8.94, USNZY 16.85)，這反映了市場對 SID 未來盈利增長的高度樂觀。
-
-**合理價位區間推斷：**
-
-鑑於上述分析，SID 的估值主要取決於其能否成功實現市場預期的盈利大幅增長，並有效管理其高槓桿。
-
-*   **基於相對估值：**
-    *   如果 SID 未來盈利能達到可比公司的水平，其 P/S 較低可能暗示一定的上漲空間。
-    *   然而，其高 Forward P/E 則是一個警示信號，如果未來盈利增長不及預期，股價可能面臨壓力。
-    *   考慮到其 P/B 0.8，略低於賬面價值，這在一定程度上提供了安全邊際。
-
-*   **考慮市場目標價：** 您提供的目標價為 1.9。當前股價為 1.61。這意味著分析師預期有約 18% 的上漲空間。
-
-**綜合結論：**
-
-Companhia Siderúrgica Nacional (SID) 是一家具備多元化業務的巴西綜合鋼鐵生產商，但目前面臨盈利挑戰和高槓桿的財務風險。儘管巴西鋼鐵行業面臨外部競爭壓力，但國內需求和綠色鋼鐵投資為其提供了長期增長潛力。
-
-從相對估值來看，SID 的 P/S 倍數較低，可能暗示其銷售額的估值相對便宜。然而，其極高的遠期市盈率 (Forward P/E) 表明市場對其未來盈利增長抱有非常高的期望。如果公司能夠成功扭虧為盈並實現這些高增長預期，那麼當前股價可能具有吸引力。反之，若增長不及預期，則存在較大的估值調整風險。
-
-**合理價位區間：**
-
-考慮到公司目前的虧損狀況、高槓桿以及行業的挑戰與機遇，並參考分析師目標價和可比公司的估值倍數，我認為 SID 的合理價位區間可能在 **1.50 美元至 2.00 美元** 之間。
-
-*   **下限 (1.50 美元)：** 反映了公司當前的虧損、高槓桿以及行業逆風帶來的風險。如果盈利恢復不及預期，股價可能維持在較低水平。
-*   **上限 (2.00 美元)：** 考慮了市場對其未來盈利大幅增長的預期，以及其在多個業務板塊（鋼鐵、採礦、水泥、能源、物流）的綜合優勢，以及分析師的目標價。
-
-**投資建議：**
-
-對於 SID 的投資應持謹慎態度。投資者需要密切關注公司未來幾個季度的盈利報告，特別是其能否實現盈利轉正和預期的 EPS 增長。同時，巴西鋼鐵行業的政策變化（如反傾銷措施）和全球大宗商品價格走勢也將對其業績產生重大影響。高槓桿意味著公司對利率變化和經濟波動的敏感度較高。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7dYHkibQLydf1cAJ4mLHsNiFvCZnk42vIv8hz0AJrMuZvqOutsFU8fQXMz1ZaWc41EjAd55DDbGAoh324hFxeGtcxiNh_XQLyAY3OxnWYoiJImqrCIcPdCqXGuC1wgfA4deNbSXEJjmj409gtbyEgHwwFjZpYRCE8iyITnPg48ROVuDFxmECL5TuTKdLVhuZJtZgtEfvi9LtzHpq_svbgXsFg7wk=">Gerdau S.A. (SID) income statement</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFscmiI-bPCuvyGm8Wt-Cb82DZGMpiSH9T2XT0ahp2FGX9xX8xyZlXdLmyhCcPZM-5iR6YYaq-JTEQ1Jb0_ZUpFQdKICghi6saDZr3Qs79Mi2gsOSSf3ADmwV7HoGgQtoTUcbWqO2V0u7nS2JK_R4B6BxovMMNvp5KIiqVd3cj8yX18iVOCc8RJqAwI4vfF8ny7Q8AesECHF295a60tEFS7">Gerdau S.A. (SID) competitors</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiW5k1miBxxUY-Jg_CYDhKHau-JoUqKUQBiesN52-3xelkMJIw2w2qg3aFvIEOrbkmuPReSm_xr2p2HrfnBJhvjrSutNGECk5ZF6q6Q6HnUljVm6BZab055QlfA-FcX7wCjvy254UtJ3ckJ98EJt-5gDmdoenzTz1RDo_tiJBDAn7ISTLvw7jnqdHfDXCQWk-o7y7_7bRkEqUAvH4WpS7qH0otmpiyjA==">Gerdau S.A. (SID) annual report 2022</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrSpTXm-g3uVKTVAFg8kGRzGIvEhvNcpQN6AMUii1dBZy6SjvFeISgXS1pt3abXb3cKbbYbFtVtL_RgaAW2D0b3hB0FHsmFniNvM_ku9XD-eoBM8f2Y8fiki7EwnIjD7hxrJVRgLeAVjXtRtlT3NeG4I4fANQp8OOQeEKzrjzr7h_lPlqCMCyeQKIdYZziWll9BsaMBoxl5w92-mFDH_WH">Gerdau S.A. (SID) latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJM0fscZsCGmgNSZ4AQGef0hCr0Uh_Kjsy2NHShmcYyNe5poMfhcRfwgO7mi6BT7R5AiJV2g3cPRfZQ_ZDqNuY23hmczS3wuBex9c7jf3-FqFxdnRgyJNEt6LgVVlUQtVSix65YV6gUzjAVdlLFM3XttIG97O9BIsRWq7AZtmuvPzTR4RJ-DJcwl1JddAokQ7CIrhKKI99Sc49OB_Hf60OX_-ESRPo0XEhi7_A">Gerdau S.A. (SID) Q3 2023 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2i7713P77KCDQDSIZbiQalen14df_kEUgvY_KoGuUUx4ApUPBa70z3FA0IZhlqjUnxhk-9mqKYUsQUoPqGPv4IKPD_AlJ4b48jTGm_1zi9DGBRULv_Oh1u_vCXBvf4celRtsBNxI7UxZpmwnAEUa3Ymbcy7S_R4FMVDBhnT0X9VcJkMXqKMHXpwChk8sMuehvLYVHdcFo3t0EIw-woA==">Steel industry outlook 2024</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwlJFat3_sChVy1e0IOS9O2NepRqOISak0eSW50JdVVXNgU4WNNllAqIPs0tM7080Loo5IAm67aKO_rpC5z9SSk6fjmkfZP7oioJBFIIv46JqHb5p1Tpxf2zrYb4RU3D8beSxdO6b8DZjDJ5N--6P4FUsDpwAKETzyrrL_xmKbQ_6F9dW3Z66UJcTkJlYPceV3WnMwLnje28MWs9f-XiSELP4swtM=">Gerdau S.A. (SID) dividend history</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-flKHbFsWrg88UUdkkt83Glw_e7hjUzojh-9XbF0-w-fhGp3N2LS6uYSgtHdkblQP4-YcvSxi-Qwc9yvfnJGYqFE1cBzQkdu3OGyW-PvZqfVwpkC1DPhpqFfm_s779OXDPECrse8w8mgi8O0sFBBWVWRRMeKoBBM1YGGtrNUNkac-yUwNfbThpzBdR9ISda4NpqnHS5Yar7aBRRcMDGZnBCZx2DUDZEI6EAs=">Gerdau S.A. (SID) free cash flow history</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVTyfgDiWde8zlSUgyorDcoud_mkpMLhe5bO51G3g3ywoo260xYZR_gOkaU0dmBap7bdT5wVG2e2pGST1QUyeYaJMOpg2vwJ2PNgCe31OyjLZ1Qj84GOMRZRvMry1dRtq3nJc7pSFFe2yzAHV7YG7jfTEkiG3yMhF206_gZO8ZHV8FUKUTbInx-CPlgE2CxHWAl3So6SY6wz9FsjVKmZL0JQSovgq-wnY=">Gerdau S.A. (SID) revenue growth rate</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWkaIBi_YdT8jebsrJDTiJB0e3WARZlKjbjrYiOZDUlWDMuhy8DpgqD2yXOWBWD9y_0JCFLVdC0uLe3plcATCDBZdV1qTZrpKj6pqD1oKEki8J-pbKe9V8DyjoslIFQ8_ZDCR_btFahFvFcta5jv-4oNhcZi6BK9w5JCflfKGhpp2aReLFk0yXPLwrgM-QQ7C13rf5ZHygJtaXRCWEL_QIerE=">Gerdau S.A. (SID) balance sheet</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHF_vnWvsps3gdXLOgpgZQXx6eB5YUN-Wr55kUx7wC_sc9ayyhvBLNkm4zZvFIeofQ5KFxntwA1XoxrgzS1ZZ-5ErPgpejnqCTTjbUkUgLZmwEQUNbe0x0GTxKIi9A4TbTtBICKrV5JCumlu-N01-TLS4VT_TNOOw0GxE595hCl-n7nc9evgyvFNVy6G9tb2FWnk0Powl-78ZV6vYq1lTY=">Gerdau S.A. (SID) net income</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn3VFSQaz4CWhmuUgj6kbi3_jZ48sYzBCelXWbaFHPbdoLyJSzq6-guKy7vww5vb_Ws3Yky5Fn4m8VFD5VaVH6rXHsTBVQDcK7oxuNpzvJKfwgw_RTo4kOVT7pkTfBNLay2KBS6LqC_gxxTaWUY6hgy3nBSdAGDsk9gToXDEaUsrrmxtDIPiZj6mqkOmSJzDVO1hQoWMB0xk3PMCiYUFYf8D8o91SbL5gS">Gerdau S.A. (SID) capital expenditures</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Gerdau S.A. (SID) latest news',
+    'Gerdau S.A. (SID) Q3 2023 earnings report',
+    'Gerdau S.A. (SID) annual report 2022',
+    'Gerdau S.A. (SID) competitors',
+    'Steel industry outlook 2024',
+    <... 7 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
