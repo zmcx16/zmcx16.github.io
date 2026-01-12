@@ -234,8 +234,8 @@
       {
          "symbol":"CRM",
          "type":"put",
-         "expiry":"2026-01-09",
-         "strike":247.5
+         "expiry":"2026-01-30",
+         "strike":235
       },
       {
          "symbol":"DIS",
@@ -329,8 +329,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2026-01-09",
-         "strike":53
+         "expiry":"2026-01-23",
+         "strike":58
       },
       {
          "symbol":"NOG",
@@ -341,8 +341,8 @@
       {
          "symbol":"NVO",
          "type":"put",
-         "expiry":"2026-01-09",
-         "strike":42
+         "expiry":"2026-01-30",
+         "strike":48
       },
       {
          "symbol":"OKE",
@@ -389,8 +389,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2026-01-09",
-         "strike":79
+         "expiry":"2026-01-23",
+         "strike":80
       },
       {
          "symbol":"SM",
