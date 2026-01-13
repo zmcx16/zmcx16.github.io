@@ -17,6 +17,10 @@ const STOCK_LIST_OPTIONS = [
   { value: 'watch_stock_list', label: 'Watch Stock List' }
 ]
 
+const STOCK_LIST_EXCEPTIONS_PROMPT = [
+  'summary'
+]
+
 const AIAnalysis = () => {
   const [prompts, setPrompts] = useState([])
   const [symbols, setSymbols] = useState([])
@@ -66,9 +70,10 @@ const AIAnalysis = () => {
           setSelectedPrompt(promptKeys[0])
           const stockListSymbols = tradeDataParam?.[stockListKey] || []
           const allSymbolKeys = Object.keys(resp[promptKeys[0]] || {})
-          const filteredSymbols = stockListSymbols.length > 0 
-            ? allSymbolKeys.filter(s => stockListSymbols.includes(s))
-            : allSymbolKeys
+          // Don't filter by stock list if prompt is 'summary'
+          const filteredSymbols = STOCK_LIST_EXCEPTIONS_PROMPT.includes(promptKeys[0]) || stockListSymbols.length === 0
+            ? allSymbolKeys
+            : allSymbolKeys.filter(s => stockListSymbols.includes(s))
           setSymbols(filteredSymbols)
           if (filteredSymbols.length > 0) {
             setSelectedSymbol(filteredSymbols[0])
@@ -124,9 +129,10 @@ const AIAnalysis = () => {
     const sd = statDataRef.current
     const stockListSymbols = td?.[stockList] || []
     const allSymbolKeys = Object.keys(sd[prompt] || {})
-    const filteredSymbols = stockListSymbols.length > 0
-      ? allSymbolKeys.filter(s => stockListSymbols.includes(s))
-      : allSymbolKeys
+    // Don't filter by stock list if prompt is 'summary'
+    const filteredSymbols = prompt === 'summary' || stockListSymbols.length === 0
+      ? allSymbolKeys
+      : allSymbolKeys.filter(s => stockListSymbols.includes(s))
     setSymbols(filteredSymbols)
     
     if (filteredSymbols.length > 0) {
