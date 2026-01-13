@@ -1,145 +1,85 @@
-content=Content(
-  role='model'
-) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
-  search_entry_point=SearchEntryPoint(
-    rendered_content="""<style>
-.container {
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  font-family: Google Sans, Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 12px;
-}
-.chip {
-  display: inline-block;
-  border: solid 1px;
-  border-radius: 16px;
-  min-width: 14px;
-  padding: 5px 16px;
-  text-align: center;
-  user-select: none;
-  margin: 0 8px;
-  -webkit-tap-highlight-color: transparent;
-}
-.carousel {
-  overflow: auto;
-  scrollbar-width: none;
-  white-space: nowrap;
-  margin-right: -12px;
-}
-.headline {
-  display: flex;
-  margin-right: 4px;
-}
-.gradient-container {
-  position: relative;
-}
-.gradient {
-  position: absolute;
-  transform: translate(3px, -9px);
-  height: 36px;
-  width: 9px;
-}
-@media (prefers-color-scheme: light) {
-  .container {
-    background-color: #fafafa;
-    box-shadow: 0 0 0 1px #0000000f;
-  }
-  .headline-label {
-    color: #1f1f1f;
-  }
-  .chip {
-    background-color: #ffffff;
-    border-color: #d2d2d2;
-    color: #5e5e5e;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #f2f2f2;
-  }
-  .chip:focus {
-    background-color: #f2f2f2;
-  }
-  .chip:active {
-    background-color: #d8d8d8;
-    border-color: #b6b6b6;
-  }
-  .logo-dark {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #1f1f1f;
-    box-shadow: 0 0 0 1px #ffffff26;
-  }
-  .headline-label {
-    color: #fff;
-  }
-  .chip {
-    background-color: #2c2c2c;
-    border-color: #3c4043;
-    color: #fff;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #353536;
-  }
-  .chip:focus {
-    background-color: #353536;
-  }
-  .chip:active {
-    background-color: #464849;
-    border-color: #53575b;
-  }
-  .logo-light {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
-  }
-}
-</style>
-<div class="container">
-  <div class="headline">
-    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
-    </svg>
-    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="23" fill="#FFF" r="22"/>
-      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
-      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
-      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
-      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
-    </svg>
-    <div class="gradient-container"><div class="gradient"></div></div>
-  </div>
-  <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGey2g6wbUuIm8_Sh6W_z3QpiWN_fKQvFgIMW8vEhx4YJEX0XTHJx_EFUwMgeKel6cXjjKFJizMaKktpqBxIoK2GSCL4J0AejRrMxe9wemg96_J38VzONyxGoO2MXTW2_P5sg26OOv5RyAlTjMv4M0AKGlxYq2AOhOfoUWvFFrn8E0S4q-X0AvzLwhyVtV6QeH2aBqd81b8YI4SYJvd3U_Ow_CVlA==">Target TGT financial outlook 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFz2fSmi2hSoPLSERH3h6a3pTzPZCDoEsQYj2e_ljCCU2485bFEzsGmO0CwZemrZS4tyxa-oMOocSZbvT0mfWjZveFFZFVQwMd0OTOV3i8uR7eOLnGRcMbLUwY8Y68WW4bLUyAb0dVySUhN82ziGNsU8oG8v0RxbPATXzBIoCxdrUBTA6_O37MsCx-5iCfE5JtFzPFAli0wM_nAdnP5apLRvwwx3rMUXGKaA==">Target TGT Q3 2025 earnings report date</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEJ4uyg8RwPi-4mflNNcw8UPLa4sPFF7omLdaEUTqpooVqJTbHPmNBHiRc-bpxmcUTOm1--rkbn3OI1la5_3xQHncLj9_nkwZfigDuGGz2kNiTQFTE0WCxv3ZH4UlGbPxdpRIqQIVq36t53SrMb1k22rKpwHql9aFmm2zLee5fykLgQ9VfDs4kWS9bmwXdYYaMScVlulTKU4M9BMo2z4LfWURhdWTXQ">Target TGT latest news January 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsOyLPPvIu0oy7-xYEe27vfpG0CZkLduz8N5buux6xThknRD3Wk8i_zdRPQgKxcXLWvHncPZLMvFSxscB7WhhokbkQhkkF87-VQ7aAnM6qSJTMJgDoIKV37EXXCvChla_dltvJjT6AZgOBXa3RRWXzqs4QvCDfGw69WgbOXghst--NetvRiOIbNSX8UAQJTmREjr8XmBf_D4TCofShXGsdHoKlHEv2et9DMw==">Target TGT Q4 2025 earnings report date</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxu-LuEwgDQQm-Q3bvTbvOSOLKaxeVL-EZyewWsWqhJz2GjbrwWi-1vEfXjjjul4VCTwheC--UsDh43OITYwb4VKODa-TZFp46fdl4oEgVIxpPfBS3MkZDe0ID49zJu7ZUnPquvAPDHAR55f6vBRW0LwKUyG_FTTD0r90ij8q7bS_cwD3dZIsVxTkC1iYmGLnHlGkkVZvLll3y3T18ggkLXQ==">US retail industry trends 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwRMWfU1sD_guuABmsLktz3k4wwck31MqZTm1fBxKQPu_7gjwWUVYXCHq8m17FhdwE7Jbb52Ia4oN7l5DDN0XNfib1fZFwXks9Ap2q3h1CyDVElZs0PHOpY2syqZmrfELOJQ1kOJnasX2_1F_Kh_0HPIr3tkqA_k09Hr1xE1aKXoIRmImDu_XWapV1_luTZ8VGdFh2PBmcCZ2aVLzLiWMCsXHjZN-kClK3YQ==">Target TGT analyst ratings January 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjPFzsrKpVlCwstaVhR799HKUYx0kGgQ8C_pzvkU4uUFlg0VckcrhDGPjW8HSxLyd4XSafmK_8uTNzWm1mm70ytfsn4gRkK2G4rnPtGWnmXYrsHseduZWKneRLRCAAI5KP2c8L9VtJ30TEkoQza5ooso_6SCto57_JSDAH0ZcwAkF_DMVtXd75-teoH3kXWr6i4r13t6b5cxc96_wu50jFvIvYLw==">Target TGT dividend forecast 2026</a>
-  </div>
-</div>
-"""
-  ),
-  web_search_queries=[
-    'Target TGT latest news January 2026',
-    'Target TGT Q3 2025 earnings report date',
-    'Target TGT Q4 2025 earnings report date',
-    'Target TGT financial outlook 2026',
-    'US retail industry trends 2026',
-    <... 2 more items ...>,
-  ]
-) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
+根據對美股公司 Target (TGT) 的基本面數據、最新新聞、財報、市場動態及產業趨勢的綜合評估，以下將使用決策樹分析與期望值分析來判斷其目前是否適合投資。
+
+### 核心假設
+
+在進行決策樹分析前，我們基於收集到的資訊，建立以下核心假設：
+
+*   **市場趨勢：** 美國零售業預計在 2024-2025 年受益於經濟增長、通膨趨緩及健康的勞動市場，但整體零售銷售增長預計將趨於溫和（約 0.4% 至中個位數增長）。消費者仍對價格敏感，偏好價值型商品、自有品牌和折扣零售商。
+*   **財務狀況：** Target 在 2023 年第四季度表現超出預期，EPS 大幅增長，營運利潤率有所改善。 然而，2024 年第一季度預計可比銷售額將下降 3-5%，全年可比銷售額預計持平至增長 2%。 2025 財年 EPS 預計將下降，而 2026 財年預計將恢復增長。 公司維持健康的資產負債表並承諾派發股息。
+*   **產業競爭：** Target 面臨來自 Walmart（雜貨主導、價格優勢）和 Amazon（物流、便利性）的激烈競爭，Costco 也在搶佔市場份額。
+*   **公司策略：** Target 正積極推動多項策略，包括推出付費會員計畫 Target Circle 360、 投資 AI 於商品採購（Target Trend Brain）和供應鏈管理、 以及擴大健康產品線。 這些舉措旨在提升顧客體驗、優化營運效率並重新獲得市場份額。
+
+### 決策樹分析
+
+我們將考慮未來 12-24 個月內 Target 股票的三種主要情境，並計算其預期報酬。
+
+**當前股價 (P0):** $106.14
+**年度股息 (D):** $4.56 (股息率 4.32%)
+
+#### 決策樹結構 (Decision Tree)
+
+```
+投資 TGT 股票
+├── 情境 1: 樂觀情境 (Moderate Growth/Recovery)
+│   ├── 機率 (Probability): 30%
+│   └── 預期報酬 (Expected Return): 40.49%
+│       (股價上漲至 $140 + 兩年股息)
+│
+├── 情境 2: 基本情境 (Stagnation/Modest Performance)
+│   ├── 機率 (Probability): 50%
+│   └── 預期報酬 (Expected Return): 4.69%
+│       (股價下跌至 $102 + 兩年股息)
+│
+└── 情境 3: 悲觀情境 (Decline/Underperformance)
+    ├── 機率 (Probability): 20%
+    └── 預期報酬 (Expected Return): -16.04%
+        (股價下跌至 $80 + 兩年股息)
+```
+
+#### 計算過程
+
+**1. 情境 1: 樂觀情境 (Moderate Growth/Recovery)**
+*   **情境描述：** Target 的策略性舉措（如 Target Circle 360、AI 應用、健康產品擴張）成功推動可比銷售額增長，市場份額有所提升。零售業整體環境良好，通膨持續緩解，消費者支出穩定。營運利潤率向管理層目標 6% 靠攏。
+*   **預期股價 (P1_opt):** $140 (參考分析師最高目標價 $150，並考慮積極增長潛力)
+*   **資本利得：** $140 - $106.14 = $33.86
+*   **兩年股息收入：** 2 * $4.56 = $9.12
+*   **總報酬：** $33.86 + $9.12 = $42.98
+*   **總報酬率：** ($42.98 / $106.14) * 100% = **40.49%**
+*   **機率 (P_opt):** 30%
+
+**2. 情境 2: 基本情境 (Stagnation/Modest Performance)**
+*   **情境描述：** Target 表現符合分析師「持有」共識和平均目標價。公司面臨激烈競爭，消費者對價格敏感，可比銷售額持平或略有增長（0% 至 +1%）。利潤率保持穩定，但提升緩慢。
+*   **預期股價 (P1_base):** $102 (參考分析師平均目標價 $98.83 - $103.28)
+*   **資本利得：** $102 - $106.14 = -$4.14
+*   **兩年股息收入：** 2 * $4.56 = $9.12
+*   **總報酬：** -$4.14 + $9.12 = $4.98
+*   **總報酬率：** ($4.98 / $106.14) * 100% = **4.69%**
+*   **機率 (P_base):** 50%
+
+**3. 情境 3: 悲觀情境 (Decline/Underperformance)**
+*   **情境描述：** Target 的策略性舉措未能有效應對競爭壓力，市場份額持續流失。可支配支出疲軟，導致銷售額下降，利潤率進一步受壓。負面新聞（如移民事件）對品牌形象造成衝擊。
+*   **預期股價 (P1_pess):** $80 (參考分析師最低目標價)
+*   **資本利得：** $80 - $106.14 = -$26.14
+*   **兩年股息收入：** 2 * $4.56 = $9.12
+*   **總報酬：** -$26.14 + $9.12 = -$17.02
+*   **總報酬率：** (-$17.02 / $106.14) * 100% = **-16.04%**
+*   **機率 (P_pess):** 20%
+
+#### 期望值分析 (Expected Value Analysis)
+
+整體期望值 (Expected Value) = (情境 1 報酬率 * 情境 1 機率) + (情境 2 報酬率 * 情境 2 機率) + (情境 3 報酬率 * 情境 3 機率)
+
+整體期望值 = (40.49% * 0.30) + (4.69% * 0.50) + (-16.04% * 0.20)
+整體期望值 = 12.147% + 2.345% - 3.208%
+整體期望值 = **11.284%**
+
+### 最終結論
+
+根據決策樹分析和期望值計算，投資 Target (TGT) 股票的整體期望值為 **11.284%**。
+
+**判斷：適合投資**
+
+**簡短理由：**
+儘管 Target 面臨激烈的零售市場競爭和可比銷售額增長的挑戰，且分析師普遍給予「持有」評級，但其穩健的股息（連續 54 年增長）、積極的策略轉型（如 Target Circle 360 會員計畫、AI 應用於商品採購 和健康產品線擴張），以及在 2023 年第四季度展現出的盈利能力改善，為其提供了潛在的上升空間。
+
+11.284% 的正向期望值表明，在考慮了不同情境及其機率後，投資 TGT 預期能帶來正向報酬。對於尋求穩定股息收入並願意承擔一定風險以期公司策略轉型成功的投資者而言，TGT 目前是適合投資的標的。然而，投資者應密切關注其可比銷售額的恢復情況以及新策略的執行成效。
