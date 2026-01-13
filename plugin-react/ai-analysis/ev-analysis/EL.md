@@ -1,145 +1,106 @@
-content=Content(
-  role='model'
-) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
-  search_entry_point=SearchEntryPoint(
-    rendered_content="""<style>
-.container {
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  font-family: Google Sans, Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 12px;
-}
-.chip {
-  display: inline-block;
-  border: solid 1px;
-  border-radius: 16px;
-  min-width: 14px;
-  padding: 5px 16px;
-  text-align: center;
-  user-select: none;
-  margin: 0 8px;
-  -webkit-tap-highlight-color: transparent;
-}
-.carousel {
-  overflow: auto;
-  scrollbar-width: none;
-  white-space: nowrap;
-  margin-right: -12px;
-}
-.headline {
-  display: flex;
-  margin-right: 4px;
-}
-.gradient-container {
-  position: relative;
-}
-.gradient {
-  position: absolute;
-  transform: translate(3px, -9px);
-  height: 36px;
-  width: 9px;
-}
-@media (prefers-color-scheme: light) {
-  .container {
-    background-color: #fafafa;
-    box-shadow: 0 0 0 1px #0000000f;
-  }
-  .headline-label {
-    color: #1f1f1f;
-  }
-  .chip {
-    background-color: #ffffff;
-    border-color: #d2d2d2;
-    color: #5e5e5e;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #f2f2f2;
-  }
-  .chip:focus {
-    background-color: #f2f2f2;
-  }
-  .chip:active {
-    background-color: #d8d8d8;
-    border-color: #b6b6b6;
-  }
-  .logo-dark {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #1f1f1f;
-    box-shadow: 0 0 0 1px #ffffff26;
-  }
-  .headline-label {
-    color: #fff;
-  }
-  .chip {
-    background-color: #2c2c2c;
-    border-color: #3c4043;
-    color: #fff;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #353536;
-  }
-  .chip:focus {
-    background-color: #353536;
-  }
-  .chip:active {
-    background-color: #464849;
-    border-color: #53575b;
-  }
-  .logo-light {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
-  }
-}
-</style>
-<div class="container">
-  <div class="headline">
-    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
-    </svg>
-    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="23" fill="#FFF" r="22"/>
-      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
-      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
-      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
-      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
-    </svg>
-    <div class="gradient-container"><div class="gradient"></div></div>
-  </div>
-  <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC-Pb7t6T8v1Ro-rm_4iLhz0QGunfzoYrYwZytnmqiP3sD2N1z4Hfxp-HNOfWA-ep8TVXNeaMyFBnIseo4letvUq-VJ_LxIyJ1hc-aUCsr5i2FDZY49MYHeJhRXIK1G7D76XQeKMH4aG-H7hZUaTC1RQzfjmvMBCOrJFHmzg3JY5U5Wq5ldtxJ48SNw6XOJIDvu6oV7nYsH8wY5O_NMWi91vA6cWGpnVeF_Alzs7z5awYxKrRn8N4=">Estée Lauder EL financial performance 2025 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_xBDoX1uKtiF3jrRBjOP-NZy2igyA5t3GNstp82U7Q5vDn3xyQ1Xr8EYJJ1LtlRb9cF8ANqiC59jv7v_Wv8nF2fnFmbl3kBQZY7iWnqQwEaEQ2q0ncWGY831RqOlH8V-ldvazrEgjTIQ89Z928YAzDC1qB1fphFfubc9CEXBM4Ye2vFJ9HEYxCMFLvCTdNordFKb-7UiTgR5SbtwU3hxPUxoFJtL5pMiqEuAn7J0=">Estée Lauder EL Q1 2026 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2QP4mpT1pGVknZNVsfWBOLqo4YC-EW_tRcWZY1aV7lTn_3uzBt5BRMVlHImsUndWJ1_JmoBCf3XQNSowd-_Cn9VO8eQ4AKxQPLBIHPuBPqb5Oybv9Ma28QSPw5asbZAZkgDg2Z_Y9DvJ51rBXgVRcQpnKM2A_4Y6b5nA_PfjlVn9tKRsJZ9MCPxBS5lHTVz1lWfM-h_Vr2ap-_yRIqa2A3Ac=">Estée Lauder EL latest news</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxH7zbDYWEr9iq6-pcDSWtH3o6w_uqZoNVCTnSF8I3pEss0dDNc_ZRBBe1Id6fHm20e9b2XEOIXhR1zn4juoEZC6Kni438wi4klC2rmlzTbWZwnjfbsyKH9OKHHDspdJpWl4soe6a5YMZ43vPfJoQ-DNCN0Y7ZE8pnx2HpZ7b8i6FUO5ybkt8WGWvn_PfoXElk-qQl79v_4iyRK_Gxe_akcZmOyVcUieBqWxkj3L8=">Estée Lauder EL Q4 2025 earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhvGU06Q6YeSndtkKujb7AIdzlyG-R9DmtghT4TXbO0hDgrO23Ck6p3h-Z8tcoNn94Aq3MXWYTRQHMy0Fm46UtoWSUk7QcRbPBtSR80ymHLU3oQohgdDT8KJY5Vc1UQPLOLA95qAZyTWiAVJR5hey4zd4_0tl61vRZUPoqU-rXP0cyLJYwrBDDq4UaVx--7vYfnOYCYd0tx4n-29GKR8e5CqTSAg1PlGrwreyZqfbSRsLhtYrsuiU=">Estée Lauder EL market dynamics beauty industry</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBXxQS8ZLgfIkSbF1byjgbg9bhR2ODi3xV_EB_rfV_bFnIoayqgd8N0BDD7njpuQ0QW96obykB9sNLjaXtW6eiF1X70dH2mK-As73KnpiaKIubOTby4g2tBatYwjZv_kxg4K5xQSCbclEpMyg_wcplw9_u83qmctk9ItVPwgWmoiMy-50884lvlCcTYoJKHTmuVNIcXFOLKT45J_hDNNn-qZvJc-7M8b4A_vZrPLrKXNCua4y1Qdp2">Estée Lauder EL industry trends luxury cosmetics</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH4sBEySCQySjVFBqInOY-1fNsoARnfW-Z-auPrAP7GRDI3w67RueLr40d8vnK2GrjQ7CjjKXyZOonoeSe4dDMoOnzHcm1RGC-gM5KNSmxoL3gyC_FNSXwHe5BgjUOQxjFdjDzyUp4tj87IiI-X_GkzmvNwZTsIu42boDXRxdDzVh5IzKZ_NxfLBUnN76Ylcj2oT-B7NLCq-PpcKP5Alktt86KI-GhDae60qG-6O5Q-1z2XHIFbpsDGTQ==">Estée Lauder EL analyst ratings and forecast 2026</a>
-  </div>
-</div>
-"""
-  ),
-  web_search_queries=[
-    'Estée Lauder EL latest news',
-    'Estée Lauder EL Q1 2026 earnings report',
-    'Estée Lauder EL Q4 2025 earnings report',
-    'Estée Lauder EL financial performance 2025 2026',
-    'Estée Lauder EL market dynamics beauty industry',
-    <... 2 more items ...>,
-  ]
-) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
+為了評估美股公司 **EL (The Estée Lauder Companies Inc.)** 目前是否適合投資，我們將結合其基本面數據、最新市場資訊，並運用決策樹分析與期望值分析。
+
+### 核心假設
+
+1.  **市場趨勢：**
+    *   全球高端美妝市場預計將持續增長，但區域性差異顯著，特別是中國大陸和亞洲旅遊零售市場短期內仍面臨挑戰，但長期有復甦潛力。
+    *   線上銷售渠道（如Amazon、TikTok Shop）和特定品類（如香水）將是主要的增長動力。
+    *   消費者對產品功效、成分透明度和可持續性的需求日益增加。
+    *   創新（如混合彩妝、神經科學美妝、AI美妝體驗）將是維持競爭力的關鍵。
+2.  **公司財務與策略：**
+    *   雅詩蘭黛的「美妝再想像 (Beauty Reimagined)」戰略和「利潤復甦與增長計劃 (PRGP)」對於提高營運效率、毛利率並最終恢復可持續盈利能力至關重要。
+    *   公司能否有效管理其較高的債務水平將影響其財務彈性。
+    *   成功剝離表現不佳的品牌（如Smashbox、Too Faced、Dr. Jart+）有助於優化產品組合和提高盈利能力。
+    *   香水業務預計將繼續成為強勁的增長引擎。
+3.  **分析師預期：**
+    *   分析師對EL的共識評級為「適度買入」或「買入」，但目標價範圍較廣，顯示市場對其未來表現存在分歧。
+    *   Zacks將EL評級上調至「強烈買入」，反映了盈利預期上調的趨勢。
+
+### 基本面數據概覽 (截至 2026 年 1 月 12 日)
+
+*   **收盤價 (Close):** $113.02
+*   **市盈率 (P/E):** - (負值，因近期GAAP淨虧損)
+*   **市淨率 (P/B):** 10.47 (較高，可能反映品牌價值或無形資產)
+*   **股息率 (Dividend %):** 1.24% (近期股息已下調至每股$0.35)
+*   **52週高點 (52W High):** $113.86
+*   **52週低點 (52W Low):** $48.37
+*   **年度表現 (Perf Year):** 53.43% (過去一年表現強勁)
+*   **市值 (Market Cap):** $407.3億
+*   **股東權益報酬率 (ROE):** -0.2073 (負值，因淨虧損)
+*   **資產報酬率 (ROA):** -0.0458 (負值)
+*   **投資報酬率 (ROI):** -0.0721 (負值)
+*   **預期市盈率 (Forward P/E):** 38.7 (預期未來盈利為正)
+*   **PEG比率 (PEG):** 1.14 (若盈利如預期恢復，增長與估值相對合理)
+*   **速動比率 (Quick Ratio):** 0.92 (短期流動性略顯緊張)
+*   **流動比率 (Current Ratio):** 1.32 (尚可)
+*   **負債權益比 (Debt/Eq):** 2.42 (債務水平較高)
+*   **淨利率 (Profit Margin):** -0.0645 (負值)
+*   **分析師推薦 (Recom):** 2.37 (介於「持有」和「買入」之間，偏向買入)
+*   **目標價 (Target Price):** $107.95 (低於當前股價，但分析師目標價範圍廣泛，最高達$130)
+
+### 最新資訊補充
+
+*   **2025財年第一季度 (截至2024年9月30日):** 營收33.6億美元，同比下降4%；有機淨銷售額下降5%；GAAP淨虧損1.56億美元，每股虧損0.43美元；調整後每股收益0.14美元。主要受中國大陸和亞洲旅遊零售市場疲軟以及滑石粉訴訟費用影響。
+*   **2025財年第二季度 (截至2024年12月31日):** 淨銷售額下降6%至40億美元；GAAP每股淨虧損1.64美元；調整後每股收益0.62美元。毛利率擴大至76.1%，但營運利潤率因商譽及其他無形資產減值和重組費用而下降。
+*   **2025財年第三季度 (截至2025年3月31日):** 淨銷售額下降10%至36億美元；有機淨銷售額下降9%。超出盈利預期，毛利率擴大至75.0%。
+*   **2025財年 (截至2025年6月30日):** 淨銷售額143億美元，同比下降8%；營運虧損7.85億美元；GAAP每股淨虧損3.15美元；調整後每股收益1.51美元。毛利率擴大至74.0%。
+*   **2026財年第一季度 (截至2025年9月30日):** 每股收益0.32美元，超出預期；營收34.8億美元，超出預期。有機銷售額增長3%，其中香水業務增長13%。
+*   **2026財年展望:** 公司目標恢復正向銷售增長並提高營運盈利能力。分析師預計2026財年銷售額將增長5.0%至150.4億美元，但每股收益預期有所下調至2.10美元。
+*   **近期評級：** Raymond James將EL評級上調至「強烈買入」，目標價130美元。BofA Securities維持「買入」評級，目標價130美元。Rothschild Redburn下調至「賣出」，目標價70美元。Zacks將其評級上調至#1「強烈買入」。
+*   **戰略行動：** 推出「美妝再想像」戰略，並擴大「利潤復甦與增長計劃 (PRGP)」，旨在精簡營運模式，擴大消費者覆蓋，加強創新，並增加消費者導向投資。 考慮出售表現不佳的品牌。
+
+### 決策樹分析 (Decision Tree Analysis)
+
+**決策點：投資 EL 股票**
+
+| 節點類型 | 預測情境名稱 | 機率 (Probability) | 預期報酬 / 期望值 (Expected Value) | 計算過程 |
+| :------- | :----------- | :----------------- | :--------------------------------- | :------- |
+| **決策點** | **投資 EL 股票** | -                  | **-1.43%**                         | (20.69% * 0.35) + (-1.43% * 0.45) + (-32.40% * 0.20) = 7.24% - 0.64% - 6.48% = -1.43% |
+|          | **不投資 EL 股票** | -                  | **0%**                             | (假設不投資報酬為0) |
+| **機會節點** | **情境一：樂觀 (Successful Turnaround)** | **35%**            | **20.69%**                         | 股價上漲至 $135.00。 報酬率 = (($135.00 - $113.02) / $113.02) + 1.24% (股息) = 19.45% + 1.24% = 20.69% |
+|          | **情境二：中性 (Gradual Recovery)** | **45%**            | **-1.43%**                         | 股價維持在 $110.00。 報酬率 = (($110.00 - $113.02) / $113.02) + 1.24% (股息) = -2.67% + 1.24% = -1.43% |
+|          | **情境三：悲觀 (Continued Headwinds)** | **20%**            | **-32.40%**                        | 股價下跌至 $75.00。 報酬率 = (($75.00 - $113.02) / $113.02) + 1.24% (股息) = -33.64% + 1.24% = -32.40% |
+
+**計算過程詳述：**
+
+*   **當前股價 (Current Price):** $113.02
+*   **股息率 (Dividend Yield):** 1.24% (基於當前股價和最新股息)
+
+**情境一：樂觀 (Successful Turnaround)**
+*   **情境描述：** 雅詩蘭黛的「美妝再想像」戰略和PRGP成功推動中國大陸和旅遊零售市場復甦，香水業務持續強勁增長，電商和創新舉措顯著提升銷售額和盈利能力。分析師普遍上調評級和目標價。
+*   **預期股價 (12個月後):** $135.00 (接近分析師最高目標價)
+*   **報酬率計算:**
+    *   資本利得率 = ($135.00 - $113.02) / $113.02 = 0.1945 = 19.45%
+    *   總報酬率 = 19.45% + 1.24% (股息) = **20.69%**
+*   **機率 (Probability):** 35% (考慮到近期Q1 FY2026的積極信號和分析師升級)
+
+**情境二：中性 (Gradual Recovery)**
+*   **情境描述：** 公司表現出改善跡象，但中國大陸和旅遊零售市場的挑戰持續時間超出預期。香水和電商帶來部分增長，但整體復甦緩慢且不均衡。盈利能力有所改善，但仍低於歷史水平。
+*   **預期股價 (12個月後):** $110.00 (略低於當前股價，接近分析師平均目標價)
+*   **報酬率計算:**
+    *   資本利得率 = ($110.00 - $113.02) / $113.02 = -0.0267 = -2.67%
+    *   總報酬率 = -2.67% + 1.24% (股息) = **-1.43%**
+*   **機率 (Probability):** 45% (許多分析師持「持有」評級，且平均目標價顯示潛在下跌空間)
+
+**情境三：悲觀 (Continued Headwinds)**
+*   **情境描述：** 雅詩蘭黛的轉型努力未能有效克服宏觀經濟逆風，尤其是在關鍵的亞洲市場。競爭加劇，公司在高債務和營運效率低下方面持續掙扎。盈利能力保持疲軟或進一步惡化。
+*   **預期股價 (12個月後):** $75.00 (高於分析師最低目標價，但反映顯著下跌)
+*   **報酬率計算:**
+    *   資本利得率 = ($75.00 - $113.02) / $113.02 = -0.3364 = -33.64%
+    *   總報酬率 = -33.64% + 1.24% (股息) = **-32.40%**
+*   **機率 (Probability):** 20% (考慮到公司近期的大幅虧損、高債務以及部分分析師的「賣出」評級)
+
+**整體期望值 (Overall Expected Value):**
+期望值 = (情境一報酬率 × 情境一機率) + (情境二報酬率 × 情境二機率) + (情境三報酬率 × 情境三機率)
+期望值 = (20.69% × 0.35) + (-1.43% × 0.45) + (-32.40% × 0.20)
+期望值 = 7.2415% - 0.6435% - 6.48%
+期望值 = **-1.43%**
+
+### 最終結論
+
+根據決策樹分析和期望值計算，投資美股公司 EL 的整體期望值為 **-1.43%**。
+
+**不適合投資。**
+
+**簡短理由：**
+儘管雅詩蘭黛正在積極實施「美妝再想像」戰略和「利潤復甦與增長計劃」，並在香水和電商等領域展現出增長潛力，但其近期財務表現（包括連續虧損、高債務水平和股息下調）顯示公司仍面臨顯著挑戰。 尤其是在中國大陸和旅遊零售市場的持續逆風，以及高昂的重組和減值費用，使得其短期內恢復可持續盈利能力存在不確定性。 雖然有分析師給予「強烈買入」評級，但平均目標價仍低於當前股價，且存在較大的下行風險。 綜合來看，負的期望值表明在當前股價水平下，投資 EL 的預期回報為負，風險大於潛在收益，因此目前不適合投資。
