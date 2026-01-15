@@ -1,144 +1,130 @@
-content=Content(
-  role='model'
-) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
-  search_entry_point=SearchEntryPoint(
-    rendered_content="""<style>
-.container {
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  font-family: Google Sans, Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 12px;
-}
-.chip {
-  display: inline-block;
-  border: solid 1px;
-  border-radius: 16px;
-  min-width: 14px;
-  padding: 5px 16px;
-  text-align: center;
-  user-select: none;
-  margin: 0 8px;
-  -webkit-tap-highlight-color: transparent;
-}
-.carousel {
-  overflow: auto;
-  scrollbar-width: none;
-  white-space: nowrap;
-  margin-right: -12px;
-}
-.headline {
-  display: flex;
-  margin-right: 4px;
-}
-.gradient-container {
-  position: relative;
-}
-.gradient {
-  position: absolute;
-  transform: translate(3px, -9px);
-  height: 36px;
-  width: 9px;
-}
-@media (prefers-color-scheme: light) {
-  .container {
-    background-color: #fafafa;
-    box-shadow: 0 0 0 1px #0000000f;
-  }
-  .headline-label {
-    color: #1f1f1f;
-  }
-  .chip {
-    background-color: #ffffff;
-    border-color: #d2d2d2;
-    color: #5e5e5e;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #f2f2f2;
-  }
-  .chip:focus {
-    background-color: #f2f2f2;
-  }
-  .chip:active {
-    background-color: #d8d8d8;
-    border-color: #b6b6b6;
-  }
-  .logo-dark {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #1f1f1f;
-    box-shadow: 0 0 0 1px #ffffff26;
-  }
-  .headline-label {
-    color: #fff;
-  }
-  .chip {
-    background-color: #2c2c2c;
-    border-color: #3c4043;
-    color: #fff;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #353536;
-  }
-  .chip:focus {
-    background-color: #353536;
-  }
-  .chip:active {
-    background-color: #464849;
-    border-color: #53575b;
-  }
-  .logo-light {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
-  }
-}
-</style>
-<div class="container">
-  <div class="headline">
-    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
-    </svg>
-    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="23" fill="#FFF" r="22"/>
-      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
-      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
-      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
-      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
-    </svg>
-    <div class="gradient-container"><div class="gradient"></div></div>
-  </div>
-  <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoagnaXAi_CasygL0_i6IRxTs4IAjTAsbXNwwvJ4x-uJtl7G_urIrk1i2w1fKiImNjyISbAiKSPGQUQPsFSmiQlXEwbvA7RNIOztWvC4Kcn4jH6wVgO_mlReZRsoQAGi6sEnhQRrpN3eCd7xME5hH0isrrJk9MLfVrAPXBvlfDXFxGvmNrwOl6K4DbOA-i6V8UKoKSlxeC">NICE industry trends</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHG3_ukRg_h2EIqFxszWbRAHT7klLLhrQWCjngu1c1MFcKoMGakCUAgSeSdxcYJeg1dOYVOdYVblu3J6cwt5wLfAxLJUYgC5AYq2nUAeJ_dPZ10olksMuomRYIwvJ63gpLnTTir9mETih2yls3jjjGvTd5I1jQyCbBg8Ihewagg26e3IeM_CcQjOvdlfdW2mV6zeUkPUX3vvUaNCrMkEVsdF8hIiVQCtY=">NICE company recent financial reports</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPVFiOer-Ca0Dtd4nvgC_ObgB_npWf2OEZoCw4tcEvrL5lUbmAPueHrY0qcO3XlANyxsHJPgMY8gKmn4uTE7YflImA5QNYsfaCawu7elb5NTwVoVFe1s26JCFkwj0MGMckfMcgIBL4RrJaV17gmS9LhPrtw35CGbc5_oeiwo8PvwyFV3Fq9AP2KU33vAiXuNf7AEJDUmBE1pM=">NICE stock latest news</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH63ktSNv1vG-DrWOOQQsHWqEp86wc1g9BNDH4zzOhgRaCHEJhaExCL7uAYgeCw_GbPhguMkL2m1sT-QkUVruUM-PxXVVqiK_lKl1ml187eqx3p6n0xjhcW7RKNAIBCbb-p6fQ4xx1-PPe0tCQsxGG5XA9zhJo_Ku_gCHxzTZTVRSuYdrX6j7DvkMtGj_V_LozUgBwFYFqm">NICE market dynamics</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK4iZMhDZFum0XCfC_lgfOngAnyGYfQWjoH3Ck9qd15TcLn4NCh7C4zp8nxRbfsXNYDEC4wVRuuzp2b1z6Pd7h_obO8Ak5gXwUtcGdA3idFWNR6wgTfJvCO0YJ18owXxzncAUzGdXiYW6QfaVGmQdfIahVBq_UXtkZnHNgm4r4VxbutyU71bJnJwpjPYC3si4AAjcvIaro">NICE analyst ratings</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjL6oH1ko4vB2v8V15VIn1SKdpvBHTjD6oHtWmhhPuoPf11HIacj6hLe3wilYvyAp5-tgCZwfhMlFv8MUI5dCf0q20ppytt0zliXzKI-IVJDkcaiqn-RSd24DQQWK4zUtGehwnA7S-GDDV-mUx7wz4Z1d8LCL-FLruSos3Liw--GiT-1MbrhZXVdIeNDMYi2u3TRs=">NICE competitors</a>
-  </div>
-</div>
-"""
-  ),
-  web_search_queries=[
-    'NICE stock latest news',
-    'NICE company recent financial reports',
-    'NICE market dynamics',
-    'NICE industry trends',
-    'NICE analyst ratings',
-    <... 1 more items ...>,
-  ]
-) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
+NICE (NASDAQ: NICE) 是一家專注於客戶體驗和金融犯罪與合規解決方案的AI驅動雲端平台公司。為了評估其目前的投資適宜性，我們將結合其基本面數據、最新市場資訊，並運用決策樹分析與期望值分析。
+
+**基本面數據概覽 (截至用戶提供資訊及最新查詢結果):**
+*   **收盤價 (Close)**: $115.05
+*   **市盈率 (P/E)**: 12.96
+*   **市淨率 (P/B)**: 1.84
+*   **市值 (Market Cap)**: $7.10 Billion (部分最新報導顯示約 $7.28B - $7.76B)
+*   **52週高/低 (52W Range)**: $99.00 - $180.61
+*   **目標價 (Target Price)**: $158.57 (分析師平均目標價介於 $158.57 至 $179.64)
+*   **預期市盈率 (Forward P/E)**: 10.38
+*   **PEG Ratio**: 2.74
+*   **下一年度EPS成長率 (EPS next Y_%)**: -0.0966 (約 -9.66%)
+*   **毛利率 (Gross Margin)**: 67.05%
+*   **營運利潤率 (Oper. Margin)**: 21.99%
+*   **淨利率 (Profit Margin)**: 19.50%
+*   **負債權益比 (Debt/Eq)**: 0.02 (Q3 2025已償清所有債務，目前無債務)
+*   **分析師推薦 (Recom)**: 1.95 (介於「買入」至「強烈買入」之間)
+
+**最新資訊補充：**
+*   **2025年第三季度財報 (2025年11月13日發布)**:
+    *   總營收 $7.32億，年增6%，符合財測高端。
+    *   雲端營收 $5.63億，年增13%，佔總營收77%創新高。
+    *   AI及自助服務ARR年增49%。
+    *   GAAP稀釋後EPS $2.29，年增23%。 Non-GAAP稀釋後EPS $3.18，年增10%。
+    *   營運現金流 $1.905億，年增20%。
+    *   已償清所有債務，第三季度末淨現金及投資 $4.559億。
+*   **2025年全年財測上調**: Non-GAAP總營收預計介於 $29.32億至 $29.46億 (中點年增7%)。
+*   **2025年全年Non-GAAP稀釋後EPS下調**: 預計介於 $12.18至 $12.32 (年增10%)。 此次下調歸因於收購Cognigy及AI基礎設施投資導致的短期利潤壓力。
+*   **策略性收購與出售**:
+    *   成功收購德國AI新創公司Cognigy，加速AI年度經常性收入 (ARR) 增長。
+    *   正在探索出售其金融犯罪與合規部門Actimize，預計售價 $15億至 $20億。此舉旨在聚焦雲端CRM和AI驅動的客戶服務自動化，但市場對此有不同解讀，擔心可能犧牲穩定獲利業務。
+*   **分析師評價**:
+    *   多數分析師給予「買入」或「適度買入」評級。
+    *   平均目標價約 $158.57至 $179.64，最高目標價可達 $200，甚至有報導提及 $300的潛力，最低目標價為 $120。
+    *   部分分析師對其執行力不一致及在競爭激烈的AI CX市場中過於依賴長期目標表示擔憂。
+    *   Zacks Consensus Estimate顯示，未來一年EPS預期有所下調，反映分析師對近期盈利前景的悲觀情緒。
+*   **市場動態與產業趨勢**: NICE是AI驅動雲端平台領域的領導者，受益於客戶體驗和金融犯罪預防市場對AI和雲端解決方案的強勁需求。 公司正積極轉型為雲端優先的SaaS模式。
+*   **股價表現**: 過去一年股價下跌約35.47%，2025年收盤下跌42.5%，市值回到2019年水平。這歸因於管理層變動、增長放緩以及對生成式AI如何重塑其核心市場的擔憂。
+
+---
+
+### 核心假設
+
+在進行決策樹分析之前，我們需要建立以下核心假設：
+
+*   **市場假設**:
+    *   全球科技市場對AI和雲端解決方案的需求持續增長，特別是在客戶體驗 (CX) 和金融犯罪預防領域。
+    *   宏觀經濟環境存在不確定性，可能影響企業的IT支出，但AI轉型仍是優先事項。
+    *   AI CX市場競爭激烈，NICE需要持續創新以保持領先地位。
+*   **財務假設**:
+    *   NICE的雲端營收將繼續保持強勁增長，成為主要收入來源。
+    *   收購Cognigy和對AI的投資將在短期內對利潤率造成壓力，導致2026年的盈利能力預期下降。
+    *   出售Actimize將為公司帶來現金流，並使其更專注於核心AI和雲端業務，但其對整體盈利能力的長期影響尚待觀察。
+    *   公司無債務的狀況提供了財務彈性，有助於應對市場波動和支持未來投資。
+*   **產業趨勢假設**:
+    *   AI驅動的客戶互動、個性化體驗和全通路策略是CX行業的關鍵趨勢。
+    *   NICE的AI-first策略與這些趨勢高度契合，具有長期增長潛力。
+
+---
+
+### 決策樹分析
+
+我們將評估投資NICE股票的決策，並考慮三種未來情境：樂觀、中性、悲觀。
+
+**起始點：投資NICE股票 (當前股價 $115.05)**
+
+#### 1. 樂觀情境 (AI驅動增長加速)
+*   **情境名稱**: AI驅動增長加速與市場重新評估
+*   **情境描述**: NICE成功整合Cognigy，其AI-first策略在CX和金融犯罪領域取得顯著市場份額增長。2026年的盈利能力擔憂被證明是暫時的，公司展現出強勁的長期增長潛力。市場對其估值進行重新評估。
+*   **機率 (Probability)**: 40% (基於分析師普遍看好AI前景，但考慮到短期利潤壓力及股價波動)
+*   **預期股價**: $190.00 (接近分析師高目標價 $200，但考慮到近期股價表現，取一個較為實際的高點)
+*   **預期報酬 (Expected Return)**: (($190.00 - $115.05) / $115.05) * 100% = 65.14%
+*   **期望值 (Expected Value)**: 0.40 * 65.14% = 26.06%
+
+#### 2. 中性情境 (穩定表現與整合逆風)
+*   **情境名稱**: 穩定增長與整合逆風
+*   **情境描述**: NICE的雲端營收持續增長，但Cognigy的整合和AI投資導致短期利潤率持續承壓。Actimize的出售順利進行，但未能立即顯著提振投資者信心。股價在分析師平均目標價附近波動。
+*   **機率 (Probability)**: 40% (基於公司穩健的雲端增長和AI戰略，但同時面臨短期盈利挑戰)
+*   **預期股價**: $140.00 (接近分析師平均目標價 $158.57，但考慮到整合成本和市場謹慎情緒，取一個略低於平均的價格)
+*   **預期報酬 (Expected Return)**: (($140.00 - $115.05) / $115.05) * 100% = 21.69%
+*   **期望值 (Expected Value)**: 0.40 * 21.69% = 8.68%
+
+#### 3. 悲觀情境 (競爭加劇與盈利侵蝕)
+*   **情境名稱**: 競爭加劇與盈利能力侵蝕
+*   **情境描述**: AI市場競爭加劇，NICE的AI產品未能如預期般快速獲得市場份額。Cognigy整合面臨更多挑戰，2026年的盈利能力預期進一步惡化。Actimize的出售可能不盡理想，或市場對其戰略轉型持負面看法。投資者信心持續受損。
+*   **機率 (Probability)**: 20% (基於2026年盈利預期下調、股價近期大幅下跌以及市場對AI競爭的擔憂)
+*   **預期股價**: $95.00 (低於52週低點 $99.00，反映市場對盈利惡化和競爭壓力的悲觀預期)
+*   **預期報酬 (Expected Return)**: (($95.00 - $115.05) / $115.05) * 100% = -17.43%
+*   **期望值 (Expected Value)**: 0.20 * -17.43% = -3.49%
+
+---
+
+### 決策樹圖 (Markdown)
+
+```
+投資NICE股票 (當前股價: $115.05)
+├── 樂觀情境 (AI驅動增長加速)
+│   ├── 機率: 40%
+│   └── 預期報酬: 65.14% (預期股價: $190.00)
+│       └── 期望值: 26.06%
+├── 中性情境 (穩定增長與整合逆風)
+│   ├── 機率: 40%
+│   └── 預期報酬: 21.69% (預期股價: $140.00)
+│       └── 期望值: 8.68%
+└── 悲觀情境 (競爭加劇與盈利侵蝕)
+    ├── 機率: 20%
+    └── 預期報酬: -17.43% (預期股價: $95.00)
+        └── 期望值: -3.49%
+```
+
+---
+
+### 總體期望值計算
+
+將各情境的期望值加總，得出投資NICE股票的總體期望值：
+
+總體期望值 = (樂觀情境期望值) + (中性情境期望值) + (悲觀情境期望值)
+總體期望值 = 26.06% + 8.68% + (-3.49%)
+總體期望值 = 31.25%
+
+---
+
+### 最終結論
+
+根據上述決策樹分析和期望值計算，投資NICE股票的**總體期望值為 31.25%**。
+
+**判斷**: **適合投資**
+
+**簡短理由**:
+儘管NICE近期股價表現不佳，且2026年盈利能力預期因AI投資和Cognigy整合而面臨短期壓力，但其在AI驅動的雲端客戶體驗和金融犯罪解決方案市場中仍處於領先地位。公司強勁的雲端營收增長、AI-first戰略的推進以及無債務的財務狀況提供了堅實的基礎。分析師普遍給予「買入」評級，且平均目標價顯示出可觀的潛在漲幅。雖然存在競爭加劇和整合挑戰的風險，但樂觀和中性情境下的預期報酬足以抵消悲觀情境下的潛在損失，使得整體投資期望值為正且具吸引力。因此，對於願意承擔一定風險並看好AI和雲端轉型長期趨勢的投資者而言，NICE目前是適合投資的標的。

@@ -1,135 +1,146 @@
-好的，這將根據決策樹分析（Decision Tree）與期望值分析（Expected Value Analysis）來評估美股公司 **ARTNA** (Artesian Resources Corporation) 目前是否適合投資。
-
-ARTNA 是一家受監管的公用事業公司，主要提供水務服務，其業務性質通常較為穩定且具有防禦性。然而，其表現仍會受到監管環境、利率以及營運效率等因素影響。
-
----
-
-## 美股公司 ARTNA 投資評估：決策樹與期望值分析
-
-### 1. 核心假設
-
-在進行決策樹分析之前，我們需要建立一些核心假設，這些假設將影響情境設定、機率分配以及預期報酬的估計。
-
-*   **公司層面 (ARTNA 財務與營運):**
-    *   **穩定性:** ARTNA 作為一家受監管的水務公用事業公司，其營收和現金流具有較高的可預測性和穩定性。
-    *   **股息政策:** 預計公司將維持其長期以來穩定且略有增長的股息政策。
-    *   **資本支出:** 公司將持續投資於基礎設施升級和擴張，以支持其資產基礎和未來的費率申請。
-    *   **營運效率:** 管理層能有效控制成本，並維持良好的營運效率。
-*   **產業層面 (公用事業):**
-    *   **監管環境:** 州級公用事業委員會的費率審批是公司成長和盈利能力的關鍵。假設監管機構將繼續允許公用事業公司獲得合理的回報率。
-    *   **需求穩定:** 水務服務的需求是基本且非彈性的，受經濟波動影響較小。
-*   **宏觀經濟層面:**
-    *   **利率環境:** 利率對公用事業公司影響顯著，因其通常依賴債務融資進行資本支出。假設未來1-2年內，利率將在高位穩定或有小幅下行壓力。
-    *   **通膨:** 通貨膨脹可能增加營運成本，但也可能支持公司申請更高的費率。
-    *   **經濟增長:** 區域經濟和人口的穩定增長將支持公司客戶基礎的擴大。
-
-### 2. 決策樹分析與期望值計算
-
-我們的投資決策為：**是否投資 ARTNA**。
-
-**決策點 (Decision Node):** 投資 ARTNA 或 不投資 ARTNA。
-
-**情境點 (Chance Node):** 假設投資 ARTNA 後，市場可能出現以下三種主要情境：
-
-1.  **有利監管及經濟環境**
-2.  **中性監管及經濟環境**
-3.  **不利監管及經濟環境**
-
-針對這些情境，我們分配主觀機率，並估計各自的預期報酬。預期報酬包含了股息收益和資本利得/損失。
-
----
-
-#### 決策樹繪製 (Markdown)
-
-```mermaid
-graph TD
-    A[開始投資決策] --> B{是否投資 ARTNA?}
-
-    B --> C[投資 ARTNA]
-    B --> D[不投資 ARTNA]
-
-    C --> E[情境1: 有利監管及經濟環境]
-    C --> F[情境2: 中性監管及經濟環境]
-    C --> G[情境3: 不利監管及經濟環境]
-
-    D --> H[結果: 不投資 ARTNA]
-
-    E --> E1(預期報酬: +15%)
-    F --> F1(預期報酬: +7%)
-    G --> G1(預期報酬: -5%)
-
-    subgraph ARTNA投資情境節點計算
-        E["情境1: 有利監管及經濟環境"]
-        F["情境2: 中性監管及經濟環境"]
-        G["情境3: 不利監管及經濟環境"]
-
-        E -- P=25% --> E1
-        F -- P=50% --> F1
-        G -- P=25% --> G1
-    end
-
-    style C fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#f9f,stroke:#333,stroke-width:2px
-    style E fill:#ccf,stroke:#333,stroke-width:1px
-    style F fill:#ccf,stroke:#333,stroke-width:1px
-    style G fill:#ccf,stroke:#333,stroke-width:1px
-    style E1 fill:#efe,stroke:#333,stroke-width:1px
-    style F1 fill:#efe,stroke:#333,stroke-width:1px
-    style G1 fill:#ffe,stroke:#333,stroke-width:1px
-    style H fill:#eee,stroke:#333,stroke-width:1px
-
-    %% 節點標示及期望值計算 (下方文字說明)
-```
-
----
-
-#### 明確列出所有計算過程
-
-**1. 不投資 ARTNA 的期望值：**
-
-*   **預測情境名稱:** 不投資 ARTNA
-*   **對應的機率:** N/A (這是直接的決策結果)
-*   **預期報酬 / 期望值:** 0% (假設資金停留在現金或其他無風險資產，且不產生顯著報酬，或作為基準比較)
-    *   **計算方式:** $EV_{不投資} = 0\%$
-
-**2. 投資 ARTNA 的各情境期望值：**
-
-*   **節點名稱：情境1: 有利監管及經濟環境**
-    *   **描述:** 監管機構批復的費率增長超出預期，利率穩定或小幅下降，區域經濟和人口增長穩健，支持公司收益增長。
-    *   **對應的機率 (P1):** 25%
-    *   **預期報酬 (R1):** +15% (包含約3.2%股息收益 + 11.8%資本增值)
-    *   **節點期望值計算:** $EV_1 = P1 \times R1 = 0.25 \times 0.15 = 0.0375$
-
-*   **節點名稱：情境2: 中性監管及經濟環境**
-    *   **描述:** 監管費率批准符合預期，利率維持在高位穩定，經濟環境溫和增長。公司營運穩定，股息持續發放。
-    *   **對應的機率 (P2):** 50%
-    *   **預期報酬 (R2):** +7% (包含約3.2%股息收益 + 3.8%資本增值)
-    *   **節點期望值計算:** $EV_2 = P2 \times R2 = 0.50 \times 0.07 = 0.0350$
-
-*   **節點名稱：情境3: 不利監管及經濟環境**
-    *   **描述:** 監管機構對費率增長的審批嚴格，批復低於預期或有延遲；或利率意外大幅上升，增加公司融資成本；或區域經濟衰退，影響部分需求。
-    *   **對應的機率 (P3):** 25%
-    *   **預期報酬 (R3):** -5% (包含約3.2%股息收益 - 8.2%資本損失)
-    *   **節點期望值計算:** $EV_3 = P3 \times R3 = 0.25 \times (-0.05) = -0.0125$
-
-**3. 投資 ARTNA 的總期望值：**
-
-*   **總期望值計算 (Sum of all scenario expected values):**
-    $EV_{ARTNA} = EV_1 + EV_2 + EV_3$
-    $EV_{ARTNA} = 0.0375 + 0.0350 + (-0.0125)$
-    $EV_{ARTNA} = 0.06$ 或 6%
-
----
-
-### 3. 最終結論
-
-根據上述決策樹和期望值分析：
-
-*   **不投資 ARTNA 的期望值:** 0%
-*   **投資 ARTNA 的總期望值:** **+6%**
-
-**判斷：適合投資**
-
-**簡短理由：**
-
-根據當前的假設和分析，投資 ARTNA 的整體期望值為正數 (+6%)，高於不投資的基準 (0%)。ARTNA 作為一家受監管的水務公用事業公司，其業務模式具有內在的防禦性和穩定性，能在不同市場環境中提供相對可靠的收益流和股息。儘管其潛在資本增值可能不如高成長型股票，但對於尋求穩定回報、股息收益以及較低波動性的投資者來說，ARTNA 目前顯示出值得投資的潛力。當然，實際回報仍需觀察未來的監管決策、利率走勢和公司營運表現。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7RwkGClSsZsXUZk5D5NPConN7RSKJxZbB_k9QdxOCFVBYdD9emiDVVnkQg8QSLucZmERYPHHGgr4KccIs5PzLx0wn9xfguS5QgTLw4HONCOu_6ZVSSUKUjWvKJ1I3sUjUQciS5cDI1l5rYq24e7fXhom5gYz_EccRNO5Rvox9aRG0vlJjth8Nyaij-qxiQ1Q0sTUcHDB5Og==">ARTNA company profile</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG3MgUF9bPxY-bUTQ-bqM2S2wzCS9qUjGGJaX-JIEBVK8iGK2u6D5mq7dCLrEepVjI3UtJUyf1J6ULaMhbRH0i10WkRI3Zt8NBlWsb4Zzi_W6vVmXqb1VltncoTuADqgj2ceRHnCOm8c1syGzK930354YKUXbyYSU4D3_iEvA7ApAAXZCjUMomQajTpiSKkcx8uy2EGv_ELihk">ARTNA financial reports</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF86KXeS2J9Ysh-s_bClOOXXtOxxxF7zg6qlElNAVerWpwVL2BjfE3fepfTP-BHbM0UFSBFJTqseFW9WDehtsBNHQ7vhEPyWvvhnley55sMv085fQfDZnfh3oXngRFoY8W2dNsCeEDE6z_48IOVjPJLSQwZweYSdK0Zj28EWJetU3jCoUsLnK6UU-i2OVTxbMaSIZI=">ARTNA stock news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHd9pyyvAQHv5efa5pvHKa0gxYXOsaQnrKzSo0BBuVhwv82XnKUcEr4JMODU8Z_xhvdPf1cx-W4nBURYC59VKWilNynMfec-pBeiPdCaqIgEO70ZCUb9zYTrE3wdIrHXsAcK672eATZ4aXl4RfropI724C9r-rHWuqzPgDeWJNozUT978fhlKt53JjUtuvzu3ioiz-4DqDFwA==">ARTNA market dynamics</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbenVAyyiiDr35O74zASmH7sxZzAA6ykqWcxg6WDvDdk8iTo80nQ7a8R-eqmJc8_YmKrJtcHZkruMeY6hCXcMeOaDiJDr5NoU_9ymd5SKh3LYBXMkBCB14SLazJVyIAhAZ07ldpBV1gfPAvRL8x4gQhEsqnB0-sWCYZv5t3LKw6JT8zFUCT7cyqTIWONsyn9iZTVuAwCVcfoDHgg==">ARTNA stock price target</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlRPRkQFDZtFqtqDMmPREXzBaYnK6Tje1KTgFXweYDARtH1cHcEn30PP7cyFK7GREkR8fxxtJ9KgQF-_EvEmq7tXWZCfYKvXZtnz_hgfloUFoacmbTBFDumBozt_RMekaL4AR2uvGKbxPSBCDNRa7QdOw6FYeWAnfaGOIX6k0YsdZnAW9Qd93QQhGrWVRj5WVJFyeY7OhxWw==">ARTNA analyst ratings</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHICv-r51-PTAwaWe5982fKFqalNZVvLL7F9cwDZL19EtdX9oHWLMdT35peImPYyVjAFDwqGvxi_GGpi5giiQXbr5ZJgilrhL_wkfYJY4VBhzEd8EKJlvUYs8Mf_GzQA5GTeNwa4rRFpone7jMuqP8B12PNs-T-5O2FnynFaZkjnJ567aJb5C0p3Peu-Q14KMJBmc8iW5rahg==">ARTNA industry trends</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBbrQIUUuH5RgJNKgltg7GxuvH1ICDEo1WL3rkgbX7ko7bB0MI1bVHbSHkZIt5gF4m0vm12BI7rm-TBW268JTOsD0f7pV0EgbWMFuSnRSBrkPGv5pk6wA7MIdT2JAmpxtAM4Jje8tQI5WaZHUxmHWpB90iFO8uaJ7759H9HpL7eBBU9HuifZumBos38TY8ewCNOFj-6u2YkTpuUiFRsxI=">ARTNA latest earnings report</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'ARTNA stock news',
+    'ARTNA financial reports',
+    'ARTNA market dynamics',
+    'ARTNA industry trends',
+    'ARTNA company profile',
+    <... 3 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None

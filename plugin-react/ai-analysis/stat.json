@@ -10,43 +10,43 @@
       "last_update_time": "2026-01-14T11:12:34.391663"
     },
     "ACLS": {
-      "last_update_time": "2025-12-15T11:45:16.542313"
+      "last_update_time": "2026-01-15T11:20:31.676358"
     },
     "ACMR": {
-      "last_update_time": "2025-12-15T11:46:00.109496"
+      "last_update_time": "2026-01-15T11:21:30.659518"
     },
     "ADBE": {
-      "last_update_time": "2025-12-15T11:46:34.868298"
+      "last_update_time": "2026-01-15T11:22:14.992674"
     },
     "ADSK": {
-      "last_update_time": "2025-12-15T11:47:08.069624"
+      "last_update_time": "2026-01-15T11:23:00.674023"
     },
     "AEO": {
-      "last_update_time": "2025-12-15T11:47:38.526635"
+      "last_update_time": "2026-01-15T11:24:01.504818"
     },
     "ALB": {
       "last_update_time": "2026-01-08T11:16:42.650725"
     },
     "ALSN": {
-      "last_update_time": "2025-12-15T11:48:15.902875"
+      "last_update_time": "2026-01-15T11:24:53.096606"
     },
     "AMAT": {
-      "last_update_time": "2025-12-15T11:48:46.979965"
+      "last_update_time": "2026-01-15T11:25:34.110148"
     },
     "AMZN": {
       "last_update_time": "2025-12-30T11:24:05.364423"
     },
     "APD": {
-      "last_update_time": "2025-12-15T11:49:20.076427"
+      "last_update_time": "2026-01-15T11:26:19.398626"
     },
     "APTV": {
-      "last_update_time": "2025-12-15T11:49:45.411866"
+      "last_update_time": "2026-01-15T11:27:05.796856"
     },
     "ARLP": {
       "last_update_time": "2025-12-15T11:50:26.097779"
     },
     "ARTNA": {
-      "last_update_time": "2025-12-15T11:50:55.392423"
+      "last_update_time": "2026-01-15T11:27:55.810111"
     },
     "ASML": {
       "last_update_time": "2025-12-16T11:38:46.410435"
@@ -124,7 +124,7 @@
       "last_update_time": "2025-12-18T11:50:04.158904"
     },
     "EPAM": {
-      "last_update_time": "2026-01-07T11:15:12.285582"
+      "last_update_time": "2026-01-15T11:12:45.520364"
     },
     "EW": {
       "last_update_time": "2025-12-18T11:50:48.816464"
@@ -205,7 +205,7 @@
       "last_update_time": "2025-12-20T22:13:34.699003"
     },
     "ILPT": {
-      "last_update_time": "2026-01-07T11:12:28.975301"
+      "last_update_time": "2026-01-15T11:11:25.665438"
     },
     "INGR": {
       "last_update_time": "2025-12-20T22:14:03.501968"
@@ -280,7 +280,7 @@
       "last_update_time": "2025-12-21T11:42:18.837174"
     },
     "NICE": {
-      "last_update_time": "2026-01-07T11:15:57.261867"
+      "last_update_time": "2026-01-15T11:13:40.756638"
     },
     "NKE": {
       "last_update_time": "2026-01-13T16:57:52.327998"
@@ -295,7 +295,7 @@
       "last_update_time": "2025-12-21T11:43:47.240505"
     },
     "NVO": {
-      "last_update_time": "2026-01-07T11:11:47.483002"
+      "last_update_time": "2026-01-15T11:10:46.388455"
     },
     "NXPI": {
       "last_update_time": "2025-12-21T11:44:17.152102"
@@ -340,7 +340,7 @@
       "last_update_time": "2026-01-13T11:12:41.396811"
     },
     "PYPL": {
-      "last_update_time": "2026-01-07T11:14:11.420946"
+      "last_update_time": "2026-01-15T11:12:09.991039"
     },
     "QCOM": {
       "last_update_time": "2025-12-21T11:51:10.294019"
@@ -451,7 +451,7 @@
       "last_update_time": "2025-12-23T11:18:13.005720"
     },
     "ZIM": {
-      "last_update_time": "2026-01-07T11:16:54.796100"
+      "last_update_time": "2026-01-15T11:14:44.118454"
     },
     "ZTS": {
       "last_update_time": "2025-12-22T11:36:16.265746"
@@ -1374,9 +1374,6 @@
     }
   },
   "summary": {
-    "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-01-14T21:59:25.590073"
-    },
     "Top10_DividendValue": {
       "last_update_time": "2026-01-14T20:15:11.075270"
     },
@@ -1391,6 +1388,9 @@
     },
     "Top10_Turnaround": {
       "last_update_time": "2026-01-14T20:15:57.528012"
+    },
+    "Top10_UndervaluedGrowth": {
+      "last_update_time": "2026-01-14T21:59:25.590073"
     }
   },
   "super-thinking": {
@@ -1599,7 +1599,7 @@
       "last_update_time": "2025-12-24T11:23:21.301373"
     },
     "ILPT": {
-      "last_update_time": "2026-01-07T11:24:42.176905"
+      "last_update_time": "2026-01-15T11:17:45.153134"
     },
     "INGR": {
       "last_update_time": "2025-12-24T11:24:28.545762"
@@ -1677,7 +1677,7 @@
       "last_update_time": "2026-01-09T11:16:09.774727"
     },
     "NKE": {
-      "last_update_time": "2026-01-07T11:22:14.684569"
+      "last_update_time": "2026-01-15T11:15:33.507042"
     },
     "NOG": {
       "last_update_time": "2025-12-25T11:12:49.214822"
@@ -1731,7 +1731,7 @@
       "last_update_time": "2025-12-25T11:25:04.602045"
     },
     "PVH": {
-      "last_update_time": "2026-01-07T11:22:58.581092"
+      "last_update_time": "2026-01-15T11:16:25.567343"
     },
     "PYPL": {
       "last_update_time": "2026-01-08T11:22:51.838377"

@@ -1,144 +1,89 @@
-content=Content(
-  role='model'
-) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
-  search_entry_point=SearchEntryPoint(
-    rendered_content="""<style>
-.container {
-  align-items: center;
-  border-radius: 8px;
-  display: flex;
-  font-family: Google Sans, Roboto, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 8px 12px;
-}
-.chip {
-  display: inline-block;
-  border: solid 1px;
-  border-radius: 16px;
-  min-width: 14px;
-  padding: 5px 16px;
-  text-align: center;
-  user-select: none;
-  margin: 0 8px;
-  -webkit-tap-highlight-color: transparent;
-}
-.carousel {
-  overflow: auto;
-  scrollbar-width: none;
-  white-space: nowrap;
-  margin-right: -12px;
-}
-.headline {
-  display: flex;
-  margin-right: 4px;
-}
-.gradient-container {
-  position: relative;
-}
-.gradient {
-  position: absolute;
-  transform: translate(3px, -9px);
-  height: 36px;
-  width: 9px;
-}
-@media (prefers-color-scheme: light) {
-  .container {
-    background-color: #fafafa;
-    box-shadow: 0 0 0 1px #0000000f;
-  }
-  .headline-label {
-    color: #1f1f1f;
-  }
-  .chip {
-    background-color: #ffffff;
-    border-color: #d2d2d2;
-    color: #5e5e5e;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #f2f2f2;
-  }
-  .chip:focus {
-    background-color: #f2f2f2;
-  }
-  .chip:active {
-    background-color: #d8d8d8;
-    border-color: #b6b6b6;
-  }
-  .logo-dark {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #1f1f1f;
-    box-shadow: 0 0 0 1px #ffffff26;
-  }
-  .headline-label {
-    color: #fff;
-  }
-  .chip {
-    background-color: #2c2c2c;
-    border-color: #3c4043;
-    color: #fff;
-    text-decoration: none;
-  }
-  .chip:hover {
-    background-color: #353536;
-  }
-  .chip:focus {
-    background-color: #353536;
-  }
-  .chip:active {
-    background-color: #464849;
-    border-color: #53575b;
-  }
-  .logo-light {
-    display: none;
-  }
-  .gradient {
-    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
-  }
-}
-</style>
-<div class="container">
-  <div class="headline">
-    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
-    </svg>
-    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="23" fill="#FFF" r="22"/>
-      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
-      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
-      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
-      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
-    </svg>
-    <div class="gradient-container"><div class="gradient"></div></div>
-  </div>
-  <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGetf4LDpS_7ACnnhvtQTMSMAXXRusap3ZA4eFfT2yOltrGjEFngiK3JyR51DK8h9_QHRYmZglCQrGUqeO_BZtUTarmMWNZTRcIchbvH73nVsB4CYh_yjGEQscxN6XoA8wmOMXe5e-5RzsVJa6LTC9U5W8meEwEIvm724G9dFFph_gC7CL1rfZza-Rq8jYQuPD53HO1tw5ExymktzxsKMIQG3Gx_sxCTzitoA==">Novo Nordisk (NVO) analyst ratings 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPpHvElEGMA2Dpr1dVHIe3fLYg4a3Z-KgQOqa67cKB_WOp7WQ8yHChf8AjLtAcKab3IthA2XnXW19X0kmLmRbudqcbwTprq7TuITMnLeK1XnUcN85fztLF8k3U7-AZOG93cYdbaVsk1uR3wr951aXEVOzgoxtEKAvggY7_Dgqm8rM05hdqW5rxeRYbCvNpdEjXtlh0dp4KsnV8ipnl9Y942p0q1weGWd_gAVpI">Novo Nordisk (NVO) recent earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGX1hxCDVroIUkVVzoYiz7ihZARGZnlrIbPDcq8teEjVmO0Tdia9hp0soafwPkSbxpsLfOx3AD_TvIwM4diLeJ8VMhvsxkfqRjlVVL3J4sOmSwZNwzLJqYAP9Z9-7wCfbsTb91LpDOlFKk2Y_0PeJ8qko7foGGj5UxmGPGryAsX7E5u6oExZuvf2ntm02JLvhLa10Qb7WXYLzFO1K-v0l5UQ==">Novo Nordisk (NVO) latest news</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGp4hd7HGYP3egOk3o-JiGVlUn_wesPNH6gFjCnbrjDg8Cn3u9zIzvIV1IqCj4Rynv33sd6WFoVLGT3XbuNrg2PVba0esTRpKrLF2op21zBAIB-T9Cf9iKcD5t8gdiqYohPEyXP9kTO50OuXB8liONhKdppDB6bqL90qzeLMvdZTnlaq-iVjvLh6n7tcLKBHduwQ6tjrFiMN9HwzJAneVMpRrow9Pw=">Novo Nordisk (NVO) market dynamics</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaqq8LPMFcfHiNaF6itV9dC1ishiq8hcWtg1okcOQLrapi4tIFVi4qppPWxgjKZk5rp4PRwuMQoXxiLuc9Gg5sml8MGUeCkZIOjz4_1MaCs9Qs7XOhd8jdsYSD2N0cKbyF4nIdjELGOJbew0ZObjyIsLWBfWL5u2-94QZB-vsScz5RmjkQBSOfx1BkhvoFjeXNPmBblWxWn-HEDxa88whOoLfcyu_FpneM">Novo Nordisk (NVO) future outlook 2026</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnbTrExLyKzSk5K8vewfhJsU9DM0YCLQdblr7vCtyP0j64DkJiDBHzBU3Y6-V1bAe4a42NmtTMsD3IjK1cJXtUqadC1S0IcVV8jNW-Ml_gZBeFe_6v8PmS7PYpAANlKEL4j_fBjV79v-tKAge4k0LsD0f2FKnLx05x43zke3dEoC1gZzuPnLEskzaMtzH7EOhEdY3Z8fD9_WA4-RfAPxtXumIDQ5g=">Novo Nordisk (NVO) industry trends</a>
-  </div>
-</div>
-"""
-  ),
-  web_search_queries=[
-    'Novo Nordisk (NVO) latest news',
-    'Novo Nordisk (NVO) recent earnings report',
-    'Novo Nordisk (NVO) market dynamics',
-    'Novo Nordisk (NVO) industry trends',
-    'Novo Nordisk (NVO) analyst ratings 2026',
-    <... 1 more items ...>,
-  ]
-) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
+為了評估美股公司 **NVO (Novo Nordisk)** 目前是否適合投資，我們將運用決策樹分析（Decision Tree Analysis）與期望值分析（Expected Value Analysis），並結合其基本面數據及最新的市場資訊。
+
+**核心假設：**
+
+*   **市場趨勢**：全球肥胖症和糖尿病藥物市場將持續顯著增長，主要受疾病盛行率上升和意識提高所驅動。GLP-1 類藥物仍將是市場主導力量。
+*   **財務表現**：Novo Nordisk 的核心 GLP-1 藥物（Ozempic、Wegovy）將繼續是主要的營收來源。公司的重組計劃預計將帶來成本節約。
+*   **產業競爭**：GLP-1 市場的競爭將持續激烈，特別是來自 Eli Lilly 的競爭。口服 GLP-1 藥物將逐漸普及，而新的研發管線藥物對長期增長至關重要。部分國際市場的專利到期將引入學名藥競爭和價格壓力。
+*   **政策與法規**：肥胖症治療藥物的保險覆蓋範圍擴大（例如美國 Medicare 可能納入）將是重要的增長動力。
+
+**決策樹分析：**
+
+我們將設定三個主要情境來評估投資 NVO 的潛在結果：
+
+1.  **強勁增長情境 (Optimistic Scenario)**
+2.  **溫和增長情境 (Moderate Growth / Base Case Scenario)**
+3.  **停滯/衰退情境 (Stagnation / Decline Scenario)**
+
+**當前股價：** $58.91
+
+**1. 預測情境與預期報酬計算：**
+
+*   **情境 1：強勁增長 (Optimistic)**
+    *   **情境描述**：口服 Wegovy 成功擴大市場份額，新管線藥物（如 CagriSema、Amycretin）表現出色，有效抵消競爭和價格壓力。肥胖症藥物的保險覆蓋範圍顯著增加，大幅推動需求。公司成功執行重組計劃，提升效率。
+    *   **預期股價**：$80.00 (參考分析師較高目標價及口服藥物潛力)
+    *   **預期報酬計算**：
+        *   股價增長 = ($80.00 - $58.91) / $58.91 = 0.3579
+        *   股息收益 = 0.0293
+        *   總報酬 = 0.3579 + 0.0293 = 0.3872 (38.72%)
+
+*   **情境 2：溫和增長 (Moderate Growth / Base Case)**
+    *   **情境描述**：口服 Wegovy 表現良好，但面臨 Eli Lilly 的激烈競爭。價格壓力及部分國際市場的專利到期限制了整體增長。重組計劃按預期進行，帶來成本節約。
+    *   **預期股價**：$60.32 (參考公司提供的目標價，接近分析師平均目標價)
+    *   **預期報酬計算**：
+        *   股價增長 = ($60.32 - $58.91) / $58.91 = 0.0239
+        *   股息收益 = 0.0293
+        *   總報酬 = 0.0239 + 0.0293 = 0.0532 (5.32%)
+
+*   **情境 3：停滯/衰退 (Stagnation / Decline)**
+    *   **情境描述**：來自 Eli Lilly 的激烈競爭和激進定價嚴重侵蝕市場份額。關鍵國際市場的專利到期導致營收大幅下滑。新管線藥物研發受阻或效果不如預期。重組成本超出預期，未能帶來顯著效益。
+    *   **預期股價**：$48.00 (參考分析師較低目標價，如 BMO Capital 的 $46)
+    *   **預期報酬計算**：
+        *   股價增長 = ($48.00 - $58.91) / $58.91 = -0.1852
+        *   股息收益 = 0.0293
+        *   總報酬 = -0.1852 + 0.0293 = -0.1559 (-15.59%)
+
+**2. 決策樹繪製與期望值計算：**
+
+```markdown
+決策點：投資 NVO 股票
+├── 情境 1：強勁增長 (Optimistic)
+│   ├── 機率 (Probability): 30%
+│   └── 預期報酬 (Expected Return): 38.72%
+│       └── 期望值 (Expected Value) = 0.30 * 0.3872 = 0.11616
+├── 情境 2：溫和增長 (Moderate Growth / Base Case)
+│   ├── 機率 (Probability): 50%
+│   └── 預期報酬 (Expected Return): 5.32%
+│       └── 期望值 (Expected Value) = 0.50 * 0.0532 = 0.02660
+└── 情境 3：停滯/衰退 (Stagnation / Decline)
+    ├── 機率 (Probability): 20%
+    └── 預期報酬 (Expected Return): -15.59%
+        └── 期望值 (Expected Value) = 0.20 * -0.1559 = -0.03118
+
+整體期望值 (Overall Expected Value) = 0.11616 + 0.02660 + (-0.03118)
+                                  = 0.11158
+                                  = 11.16%
+```
+
+**計算過程詳述：**
+
+*   **情境機率分配**：
+    *   強勁增長 (30%)：考慮到口服 Wegovy 的首次上市優勢、新管線藥物的潛力以及肥胖症市場的巨大增長空間，若公司能有效應對競爭並擴大市場覆蓋，此情境有一定機率發生。
+    *   溫和增長 (50%)：這是最可能的情境。NVO 在 GLP-1 市場的領導地位和口服藥物的推出將帶來增長，但 Eli Lilly 的強勁競爭、國際市場的專利到期和價格壓力將限制其爆發性增長。Q3 2025 財報指引下調也支持此觀點。
+    *   停滯/衰退 (20%)：儘管 NVO 是一家強大的公司，但競爭加劇、專利懸崖以及潛在的研發挫折仍構成風險。BMO Capital 等分析師給出的較低目標價也反映了這些擔憂。
+
+*   **期望值計算**：
+    *   每個情境的期望值 = 該情境的機率 × 該情境的預期報酬。
+    *   整體期望值 = 所有情境期望值的總和。
+
+**3. 最終結論：**
+
+根據我們的決策樹分析和期望值計算，投資 NVO 股票的**整體期望值為 11.16%**。
+
+**判斷：適合投資**
+
+**理由：**
+
+儘管 Novo Nordisk 面臨來自 Eli Lilly 的激烈競爭、國際市場的專利到期以及潛在的價格壓力，但其在 GLP-1 藥物市場的領導地位依然穩固。特別是口服 Wegovy 的成功上市，為公司帶來了重要的競爭優勢和新的增長動力。此外，肥胖症和糖尿病藥物市場的長期增長潛力巨大，以及公司在研發管線上的持續投入（如 CagriSema 和 Amycretin），都為未來的增長提供了基礎。
+
+11.16% 的正向期望值表明，在考慮了各種可能的情境及其機率後，投資 NVO 預期能帶來正向的報酬。雖然存在風險，但其核心業務的強勁表現和創新能力使其成為一個值得考慮的投資標的。投資者應密切關注競爭格局的變化、新藥研發進展以及全球市場的定價策略。
