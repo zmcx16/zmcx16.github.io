@@ -149,3 +149,89 @@ Top10_SmallCapGems:
     - 總覽表格（排名、代碼、公司名、市值、產業、成長率、潛力亮點）
     - 每檔個股詳細分析
     - 小型股投資風險提示
+
+Top10_UndervaluedGrowthIndustries:
+  output_path: ./summary/Top10_UndervaluedGrowthIndustries.md
+  prompt: |
+    請根據以下產業類別清單，篩選出 TOP 10 低基期且具高成長潛力的產業。
+
+    【產業類別清單】
+    Diagnostics & Research, Aluminum, Shell Companies, REIT - Mortgage, Airlines, 
+    Rental & Leasing Services, Semiconductors, Building Products & Equipment, 
+    Specialty Retail, Consumer Electronics, REIT - Diversified, Gold, 
+    Airports & Air Services, Aerospace & Defense, Asset Management, 
+    Specialty Industrial Machinery, Drug Manufacturers - General, Medical Distribution, 
+    Banks - Regional, Biotechnology, Beverages - Brewers, Auto & Truck Dealerships, 
+    Specialty Business Services, Medical Devices, Infrastructure Operations, 
+    Conglomerates, Drug Manufacturers - Specialty & Generic, REIT - Residential, 
+    Health Information Services, Business Equipment & Supplies, Gambling, 
+    Insurance - Diversified, Medical Care Facilities, Grocery Stores, 
+    Communication Equipment, Software - Infrastructure, Semiconductor Equipment & Materials, 
+    Engineering & Construction, Information Technology Services, REIT - Retail, 
+    Pollution & Treatment Controls, Farm Products, Auto Parts, 
+    Staffing & Employment Services, Credit Services, Software - Application, 
+    Security & Protection Services, Advertising Agencies, Closed-End Fund - Equity, 
+    Utilities - Regulated Electric, Electrical Equipment & Parts, Insurance - Life, 
+    Apparel Retail, Utilities - Diversified, Entertainment, Insurance - Property & Casualty, 
+    Education & Training Services, Silver, Farm & Heavy Construction Machinery, 
+    Insurance - Specialty, REIT - Hotel & Motel, Textile Manufacturing, 
+    Industrial Distribution, Insurance Brokers, Specialty Chemicals, 
+    Medical Instruments & Supplies, Telecom Services, Oil & Gas Midstream, 
+    Packaging & Containers, Broadcasting, REIT - Specialty, Oil & Gas Refining & Marketing, 
+    Furnishings, Fixtures & Appliances, Internet Retail, Food Distribution, 
+    Computer Hardware, Internet Content & Information, Healthcare Plans, 
+    Closed-End Fund - Foreign, Leisure, Metal Fabrication, Oil & Gas E&P, 
+    Chemicals, Electronic Components, Waste Management, Utilities - Renewable, 
+    Trucking, Thermal Coal, Restaurants, REIT - Office, Oil & Gas Equipment & Services, 
+    Solar, Electronics & Computer Distribution, Utilities - Independent Power Producers, 
+    Mortgage Finance, Utilities - Regulated Gas, Integrated Freight & Logistics, 
+    Electronic Gaming & Multimedia, Other Precious Metals & Mining, Closed-End Fund - Debt, 
+    Utilities - Regulated Water, Auto Manufacturers, Banks - Diversified, 
+    Consulting Services, Resorts & Casinos, Other Industrial Metals & Mining, 
+    Lumber & Wood Production, Real Estate Services, Beverages - Wineries & Distilleries, 
+    Personal Services, Capital Markets, Packaged Foods, Discount Stores, 
+    Travel Services, Oil & Gas Drilling, Oil & Gas Integrated, Tobacco, 
+    Residential Construction, Footwear & Accessories, Department Stores, 
+    Financial Data & Stock Exchanges, Beverages - Non-Alcoholic, Uranium, 
+    Agricultural Inputs, Scientific & Technical Instruments, REIT - Healthcare Facilities, 
+    Household & Personal Products, Lodging, Steel, Paper & Paper Products, 
+    Marine Shipping, Railroads, REIT - Industrial, Apparel Manufacturing, 
+    Building Materials, Recreational Vehicles, Copper, Home Improvement Retail, 
+    Luxury Goods, Real Estate - Development, Publishing, Tools & Accessories, 
+    Insurance - Reinsurance, Pharmaceutical Retailers, Coking Coal, 
+    Real Estate - Diversified, Confectioners, Financial Conglomerates, Exchange Traded Fund
+
+    【評估標準】
+    1. 低基期指標（產業層面，至少符合2項）：
+       - 產業平均 P/E 低於歷史均值或市場整體 P/E
+       - 產業平均 P/B < 2.0x
+       - 產業整體股價距離 52 週高點跌幅 > 30%
+       - 產業 ETF 或主要成分股估值處於歷史低檔區間
+       - 市場資金流出、投資人情緒低迷
+       - 產業週期處於谷底或復甦初期
+
+    2. 高成長潛力指標（產業層面，至少符合2項）：
+       - 產業預期營收成長率 > 10%
+       - 產業預期獲利成長率 > 15%
+       - 具備明確的產業成長驅動因素（政策利多、技術突破、需求爆發等）
+       - 長期結構性成長趨勢（人口結構、消費升級、能源轉型等）
+       - 產業整合機會或龍頭企業市佔提升空間
+       - 分析師對產業展望多數為正面
+
+    3. 排除條件：
+       - 排除結構性衰退產業（無明確反轉契機）
+       - 排除 Shell Companies、Closed-End Fund 等非實質營運產業
+       - 排除高度監管風險且無明確解套路徑的產業
+
+    【輸出格式】
+    - Markdown 格式
+    - 總覽表格（排名、產業名稱、低基期理由摘要、成長催化劑、預期成長率、風險等級）
+    - 每個產業詳細分析：
+      * 產業概述與現況
+      * 低基期原因（估值、股價位置、資金流向）
+      * 成長驅動因素（短中長期催化劑）
+      * 代表性個股推薦（2-3檔）
+      * 投資時程建議（短線/中線/長線）
+      * 主要風險因素
+    - 產業配置策略建議（依風險承受度分類）
+    - 總結與風險提示
