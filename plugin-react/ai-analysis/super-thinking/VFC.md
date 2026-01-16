@@ -1,93 +1,146 @@
-作為一位具備長期價值投資與產業研究經驗的美股分析師，我將針對VFC公司進行系統性分析，並結合其基本面數據與最新市場資訊，從反向思考、反脆弱與第一原理思考三個核心維度深入探討。
-
-### 目前營運狀況與未來發展潛力
-
-VFC (VF Corporation) 正處於一項名為「Reinvent」的重大轉型計畫中。從最新的財報數據來看，公司在2026財年第一季和第二季的營收表現略有改善，並超出財測預期，顯示轉型計畫已初步見效。其中，The North Face 和 Timberland 等核心品牌展現出良好的成長動能，在2026財年第二季分別實現了6%和7%的營收增長。然而，Vans 品牌仍是公司面臨的主要挑戰，其營收持續下滑，在2026財年第一季下降14%，第二季雖有改善但仍下滑9%，主要原因在於市場飽和以及未能有效吸引年輕客群。
-
-在財務結構方面，VFC已積極透過資產出售來降低債務。公司已於2025年底完成Dickies品牌的出售，獲得6億美元現金，並在此前出售了Packs業務（包含JanSport和Kipling）。這些舉措使得公司在2026財年第二季的淨債務較去年同期減少了15億美元（21%）。公司設定了中期財務目標，包括調整後營運利潤率至少10%、毛利率至少55%，以及淨槓桿率降至2.5倍或以下。這些目標顯示公司正致力於改善盈利能力和強化資產負債表。
-
-然而，整體服飾與鞋類市場面臨需求放緩、通膨壓力以及消費者偏好轉向高性價比品牌的挑戰。VFC的批發業務，特別是在美國市場，因零售商訂單趨於謹慎而表現疲軟。儘管公司積極投資於設計、行銷、全球商業平台、AI應用及人才發展等領域，並計畫減少20%的實體店面以優化營運效率，但這些轉型措施的成效仍需時間驗證。
-
-### 1. 反向思考（Inversion Thinking）
-
-從「這間公司在什麼情況下會失敗或大幅衰退？」的角度思考，VFC最關鍵的3-5個風險來源如下：
-
-*   **核心品牌持續衰退，尤其Vans未能成功轉型：** Vans作為VFC過去的成長引擎，目前正經歷嚴重的品牌吸引力下降和市場份額流失。如果Vans無法有效重塑品牌形象、推出符合年輕世代潮流的產品，並在競爭激烈的運動休閒鞋市場中找回定位，將對VFC的整體營收和盈利能力造成長期且巨大的負面影響。公司目前已暴露於此風險中，並正透過「Reinvent」計畫中的品牌提升、零售執行和商業卓越來緩解，但成效仍待觀察。
-*   **高額債務與利息負擔：** 儘管VFC已積極透過資產出售和自由現金流來降低債務，但其歷史上較高的債務權益比（Debt/Eq 3.92，最新數據顯示為2.40）仍是潛在風險。在利率上升的環境下，若公司營運現金流不如預期，或需進行高成本再融資，將大幅侵蝕盈利，甚至引發流動性危機。公司正積極透過債務削減策略來緩解此風險，目標是將淨槓桿率降至2.5倍以下。
-*   **消費者偏好快速轉變與競爭加劇：** 服飾與鞋類產業的趨勢變化快速，消費者對舒適性、永續性、個性化和性價比的要求日益提高。VFC若無法持續創新、快速響應市場變化，並有效管理其多品牌組合，可能在與新興品牌或更具敏捷性的競爭對手（如快時尚或DTC品牌）的競爭中落敗。目前市場已顯示出價值型品牌受青睞的趨勢，VFC的品牌組合需證明其能持續提供消費者認可的價值。
-*   **全球供應鏈中斷與成本壓力：** 疫情期間的供應鏈問題凸顯了全球化生產的脆弱性。若未來再次發生大規模供應鏈中斷（如地緣政治衝突、自然災害），或原材料、勞動力成本持續上漲，將直接衝擊VFC的生產效率和毛利率。公司已透過優化成本結構和專注高毛利產品來應對，但外部環境的不可控性仍是風險。
-
-### 2. 反脆弱（Antifragility）
-
-評估VFC在市場波動、經濟衰退、產業劇變下是否能「受益或變得更強」：
-
-VFC目前更傾向於處於**穩健（Robust）**而非反脆弱的狀態，但正努力朝向更具彈性的方向發展。
-
-*   **成本結構與現金流彈性：** VFC正在積極實施「Reinvent」計畫，目標是削減成本、優化P&L結構，並將SG&A費用佔營收比重降至45%或更低。公司預計將產生可觀的自由現金流，並將其用於債務削減。這種對成本控制和現金流管理的重視，使其在經濟下行時具備一定的防禦能力。然而，其毛利率（53.79%）和營運利潤率（5.43%）仍有提升空間，且低於其設定的中期目標。
-*   **定價能力：** VFC旗下擁有The North Face、Timberland等具備一定品牌溢價能力的品牌。這些品牌在特定細分市場（如戶外、工裝）擁有忠實的消費者基礎，使其在一定程度上具備轉嫁成本的定價能力。然而，Vans的困境顯示其在年輕市場的定價能力和品牌吸引力正在減弱。在整體消費需求疲軟和價值型品牌崛起的趨勢下，VFC的整體定價能力面臨考驗。
-*   **可選擇權（Optionality）：** VFC的品牌組合策略本身提供了一定的可選擇權。透過不斷評估和優化品牌組合，出售非核心或表現不佳的品牌（如Dickies、Packs業務），並將資源集中於高潛力品牌，可以提升整體效率和盈利能力。此外，公司投資於AI、數位化平台和新興市場的策略，也為未來成長創造了潛在機會。然而，這些選擇權的實現需要時間和有效的執行。
-
-綜合來看，VFC的穩健性體現在其多品牌組合的多元化，以及目前積極的債務削減和成本優化措施。然而，其尚未達到反脆弱的程度，因為部分核心品牌（Vans）的脆弱性仍高，且整體營運利潤率和現金流的穩定性仍需進一步提升，才能在劇烈變動中「受益或變得更強」。
-
-### 3. 第一原理思考（First Principles Thinking）
-
-從最基本且不可否認的事實出發，VFC真正創造的價值是什麼？誰願意付錢？為什麼？
-
-VFC的核心價值在於其**「透過一系列具備獨特文化與功能屬性的品牌，為消費者提供連結特定生活方式、戶外活動與工作場景的優質服飾、鞋類及配件」**。
-
-*   **公司真正創造的價值：**
-    *   **品牌故事與文化連結：** VFC旗下品牌如The North Face代表戶外探索與冒險精神，Vans代表滑板文化與街頭潮流，Timberland則象徵戶外工裝與耐用性。這些品牌不僅提供產品，更提供一種身份認同、生活態度和情感連結。
-    *   **功能性與品質：** 許多品牌（特別是The North Face和Timberland）以其產品的耐用性、功能性（如保暖、防水、舒適）和高品質而聞名，滿足消費者在特定環境下的實際需求。
-    *   **全球分銷與可及性：** VFC作為全球性的服飾巨頭，擁有廣泛的批發和直營（DTC）分銷網絡，使其品牌產品能夠觸及全球數百萬消費者。
-
-*   **誰願意付錢？為什麼？**
-    *   **追求特定生活方式的消費者：** 例如，戶外運動愛好者願意為The North Face的功能性裝備支付溢價；滑板愛好者和街頭潮流追隨者願意為Vans的經典款式和文化符號買單。
-    *   **重視品質與耐用性的消費者：** 這些消費者願意為Timberland等品牌的堅固耐用和經典設計支付更高價格，因為他們認為這些產品具有更長的使用壽命和更好的性能。
-    *   **尋求品牌認同與社會歸屬感的消費者：** 購買VFC旗下品牌產品，不僅是為了功能，更是為了表達自我、融入特定社群或展現個人品味。
-
-*   **收入來源、核心競爭優勢與長期護城河：**
-    *   **收入來源：** 主要來自其多品牌組合在全球範圍內的批發銷售和直營（DTC，包括實體店和電商）銷售。
-    *   **核心競爭優勢：**
-        *   **強大的品牌組合與品牌資產：** 擁有數個在全球範圍內廣受認可且具備獨特市場定位的品牌。
-        *   **規模經濟與全球分銷網絡：** 作為行業巨頭，VFC在採購、生產、物流和分銷方面享有規模優勢，並能將產品推向全球市場。
-        *   **設計與創新能力：** 透過持續投資於設計、材料和技術創新，保持產品的競爭力。
-    *   **長期護城河：**
-        *   **品牌護城河（Brand Moat）：** 這是VFC最核心的護城河。旗下許多品牌已建立起深厚的品牌忠誠度和情感連結，使其產品在功能性之外，還具備文化和情感價值，難以被輕易複製或替代。
-        *   **規模護城河（Scale Moat）：** 其龐大的全球營運規模和分銷網絡，為新進入者設置了較高的壁壘。
-        *   **轉換成本護城河（Switching Cost Moat）：** 雖然在服飾行業轉換成本相對較低，但對於特定品牌的忠實消費者而言，轉換到其他品牌可能意味著放棄其所認同的文化或風格，這也構成了一種隱性轉換成本。
-
-然而，Vans的困境提醒我們，品牌護城河並非一勞永逸。如果品牌未能與時俱進，失去與目標客群的連結，即使是強大的品牌也可能面臨侵蝕。VFC的挑戰在於如何持續維護和強化其品牌護城河，特別是在快速變化的消費市場中。
-
----
-
-### 綜合結論
-
-VFC正處於一個關鍵的轉型期，其「Reinvent」計畫旨在解決過去的營運挑戰並重塑增長軌跡。
-
-**本質優勢：**
-*   **多元且具韌性的品牌組合：** 擁有The North Face、Timberland等表現強勁的全球知名品牌，這些品牌在戶外和工裝市場擁有深厚的消費者基礎和品牌忠誠度。
-*   **積極的債務削減與財務優化策略：** 公司已透過資產出售和自由現金流顯著降低債務，並設定了明確的財務目標以改善資產負債表和盈利能力。
-*   **全球化的營運規模與分銷網絡：** 作為行業巨頭，VFC具備規模經濟優勢和廣泛的全球市場覆蓋能力。
-
-**致命弱點：**
-*   **Vans品牌持續疲軟：** Vans的長期衰退是VFC目前最大的營運包袱，其未能有效適應市場變化和吸引年輕客群，對公司整體業績構成重大壓力。
-*   **盈利能力仍待提升：** 儘管毛利率尚可，但營運利潤率和淨利潤率偏低，且遠低於中期目標，顯示公司在成本控制和效率提升方面仍有巨大空間。
-*   **高P/E與低ROE/ROA：** 目前高企的P/E（84.56）與較低的ROE（0.0639）和ROA（0.0081）表明其當前盈利能力與估值不匹配，市場對其未來復甦有較高預期。
-
-**判斷該公司是否適合長期持有型投資（5–10 年）：**
-
-基於目前的分析，VFC**不適合**作為一個穩健的長期持有型投資（5-10年），至少在當前階段不適合。儘管公司正在積極轉型並展現出一些初步的改善跡象，但其核心品牌Vans的困境、整體盈利能力的脆弱性以及高企的估值（相對於當前盈利）帶來了較高的不確定性。長期投資需要更清晰的成長路徑和更穩固的競爭優勢。
-
-**在哪些前提成立／不成立下，投資結論會改變：**
-
-*   **投資結論會改變（轉為適合長期持有）的前提成立：**
-    *   **Vans品牌成功實現轉型並恢復增長：** 如果Vans能夠在未來12-24個月內展現出明確的復甦跡象，例如營收恢復正增長、品牌吸引力提升、新品受到市場歡迎，這將是VFC長期投資價值的關鍵轉折點。
-    *   **盈利能力顯著改善並達到中期目標：** 如果VFC能夠持續提升毛利率、有效控制SG&A費用，並將調整後營運利潤率穩定提升至10%以上，證明其「Reinvent」計畫在財務層面取得實質性成功。
-    *   **債務結構進一步優化，淨槓桿率穩定在2.5倍以下：** 穩健的資產負債表將為公司提供更大的營運彈性和抵禦風險的能力。
-    *   **其他核心品牌（The North Face, Timberland）保持強勁增長勢頭：** 確保公司有穩定的收入來源來彌補Vans的潛在波動。
-
-*   **投資結論會改變（轉為更不適合長期持有）的前提不成立：**
-    *   **Vans品牌持續惡化或轉型失敗：** 如果Vans的營收和市場份額繼續下滑，且公司無法找到有效的解決方案，將嚴重拖累VFC的整體表現。
-    *   **宏觀經濟環境持續惡化，影響消費者可支配支出：** 若全球經濟陷入長期衰退，將進一步打擊服飾和鞋類等非必需消費品的需求，對VFC的營收和盈利造成更大壓力。
-    *   **競爭加劇導致市場份額持續流失：** 如果VFC未能有效應對來自新興品牌或更具創新力的競爭對手，導致其核心品牌的市場份額被侵蝕。
-    *   **債務削減進度緩慢或利息負擔加重：** 若公司無法按計畫降低債務，或因利率上升導致利息支出大幅增加，將嚴重影響其財務健康。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpx8rhFH1yXOvmbXf1tErUcJQ-ldvRQNQYTtVEfgZpOmCjrgOYrOlsc3fvi_PJ-JYU3uYd1Uo8SzDFfnuy5Nn2HZG7gG8GEfp6X3q18o4LQt-Z9ChPalF8XcfAjeK7Q2skfG1KC3hN54fKSDU8RIOyx1dMzSE1iqMEpqXMlsla7bBQVzscfAc32xDVJPCU44O_72hXIx_-w_IFCQi7C39DFscCGI6VcbEKJ-Ww">apparel and footwear industry trends 2024</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElBWEWlKMbBUTMOznxjtevyKopTF3-rvR3vN_kiN4-3RK2hjIR2pe3Lf9dHRMNjipZzo4FQm7ChsAmA_lWpeaShtukCyvqTgESd0rRqY4bW77jnkUKA5BA5U8XfRBKlyz2mSBbEpIUcEhqco2N9aRGEhRz3nSpQaAomudL6Smvi4oP8mhgYtqc7krhLKZBiRdNbskDGzg4Xci-kKFJDEqctrwuTvQ=">VF Corporation turnaround strategy</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrKTGq1DrImlOSePRTV3PmGihFmuesB8wKtRiF64shjcWYsdPTUo6YqiBEGcJb6S_WeZRltd_M5byAPkHPMTAArHLY4xPX6UiShvoiPN-zUWLBWrfQsRKJOq9mZPkrncXgfo3ccvZRTit1DR4h_b--zXBaeQOJ42fyfyFw3P1yxHMsiPgoBGvMrsO4hHAT8MmkGw==">VFC latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQCMNDIzIRCVrA9c_-sjBovypCW6QtwuIBtQ7uTkQXQGDY5eRef-SGcwwWLW3ErAEXmK8BgV9WjXUdru6mclEf99I52mNCHfLnF4XsEm9xcvj8964jdCw_VO49sq3yAMz6h_yOj7uixQoNT3kePPgEjJfMNHbguG_bgrMhEbUE7yC0xPXlg6c394dipx-6Q4G1ZZfGNiRvtJMR3wfO0YwvdDRHgcuHa_Am">VF Corporation Q3 2024 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp1An3zwFnNzIwyCHXtcdhgg2KJm1aXJg9UpjJkzOigSCb5JdCiD1wZaUCzU5UBA0yDBsitF7qVJm1UZG0jnhtUd1lwOUWjeEECjn5p_IHO8JF-WNJKw434cn4zF9aDW8S2NQStwy1PqFCSae1cXF0ovSgknoXVwBoj5AU9HS4nzihxNy2NqQaRAq4wRCKZeiiu8YqIuzJZJ34dQ==">VFC dividend cut history</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaPYHywLDrlgWpV_phtmeAUzuAp4QKQ0nj6s6N8oG920sfkQ_rHcX7ae0R_iWk1kGZdQ7EtMOIB6jZ8-vjSlqA0f7B-WlhIg6CQ9t8jTho3FLWF88oQiYzszoPZ3qURHTWtm7rkQpPEDp7yINa466MnHNGImAvV72aoM_yXl9YItA-QCLivEM4jDItUl3D4smSzNZtnc5QvaHM4hUarLlp">VFC debt level and management</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHW35BwnNkb0PBFpp9OQVehpNmYA23i2aN9doY9vfviFYtO-BRfYTsbE-YdEa_6Rplywqd4KtMD9cGfwy6y3kwkSmOb8TbdEAsBFjZ5CpIsiLWrq_mxuyp7cEUU0NN6RrfHqdAb6DyHMQeL6gg1IyQm6y7bQmvhch1cPPz8EfE4ovz5SVKGRef8K2SzPu8lrRoxtmhZH3G0q32pnEQy9EUoc_tsqOSnAS_MGaJDXRii_cjVcL0sPVRI">VFC brand performance Vans The North Face Timberland</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHsFjHolsWYtxwUG3Lw2BKGPbeHlUh40rNBpztKt_T3MzpSAtXUeMRPjQn9FHgdpppfL5gqRpxpNH6inafZccquDZMTyQwE2CBCbxxbCK94LNb6xxjpztlqUDBv6YDF2AhM9O3PWOdQ6UCaXibkxLoG2v7GypFotCuVk38WH9h_U-wwYYLLjBqzqQWSDMguB1NYN6ejIqE=">VFC analyst ratings</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'VFC latest news',
+    'VF Corporation Q3 2024 earnings report',
+    'VF Corporation turnaround strategy',
+    'apparel and footwear industry trends 2024',
+    'VFC debt level and management',
+    <... 3 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None

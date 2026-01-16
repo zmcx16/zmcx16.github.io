@@ -1,106 +1,144 @@
-根據對美股公司 HOG (Harley-Davidson, Inc.) 的基本面數據和最新市場資訊的綜合分析，以下是使用決策樹分析和期望值分析的評估。
-
-### 核心假設
-
-在進行決策樹分析之前，我們基於收集到的資訊做出以下核心假設：
-
-*   **市場趨勢：**
-    *   全球摩托車市場面臨挑戰，特別是受高利率和消費者信心下降的影響，導致可支配產品需求疲軟。
-    *   電動摩托車、智慧互聯功能和冒險旅行車款是行業的未來趨勢。
-    *   Harley-Davidson 的傳統核心客戶群體正在老化，吸引年輕一代消費者是其關鍵挑戰。
-*   **公司財務與營運：**
-    *   HOG 近期銷售額和出貨量持續下滑，2024 年全球摩托車出貨量下降 17%，2025 年上半年全球註冊量下降 27.7%。
-    *   公司正在實施 "Hardwire" 戰略，並推出新車型（如 LiveWire 電動車、Pan America 冒險車款以及 2026 年新產品線）以應對市場變化。
-    *   與 KKR 和 PIMCO 的 HDFS 戰略合作預計在 2026 年第一季度前釋放約 12-12.5 億美元的自由現金流，有助於改善資產負債表。
-    *   關稅問題對公司盈利能力構成顯著壓力，預計 2025 年淨影響為 1.3-1.75 億美元。
-    *   公司面臨庫存過剩的挑戰（截至 2024 年底約 20,000 輛）。
-    *   分析師對 HOG 的平均目標價約為 27.88 美元至 30.10 美元，暗示有顯著上漲空間，但共識評級多為「持有」。
-    *   公司具有健康的股息收益率（約 3.38% - 3.4%）和可持續的派息比率。
-    *   P/E 比率和 P/B 比率相對較低，PEG 比率也較低，可能暗示被低估。
-*   **領導層變動：** 首席執行官 Jochen Zeitz 辭職以及其他董事會成員的變動，可能帶來不確定性。
-
-### 決策樹分析
-
-**決策點：投資 HOG 股票**
-
-*   **當前股價 (P0)：** 20.88 美元
-
-```mermaid
-graph TD
-    A[投資 HOG 股票] --> B{市場與公司表現}
-
-    B --> C1(情境 1: 樂觀復甦)
-    C1 -- 機率: 30% --> C1_EV(預期報酬: +35%)
-    C1_EV --> C1_Result(期望值: $28.19)
-
-    B --> C2(情境 2: 中性穩定)
-    C2 -- 機率: 45% --> C2_EV(預期報酬: +5%)
-    C2_EV --> C2_Result(期望值: $21.92)
-
-    B --> C3(情境 3: 悲觀下滑)
-    C3 -- 機率: 25% --> C3_EV(預期報酬: -20%)
-    C3_EV --> C3_Result(期望值: $16.70)
-
-    C1_Result --> D(整體期望值)
-    C2_Result --> D
-    C3_Result --> D
-```
-
-#### 節點說明與計算過程
-
-**1. 決策點：投資 HOG 股票**
-    *   這是我們需要做出決策的起點。
-
-**2. 機會節點：市場與公司表現**
-    *   基於對 HOG 及其所處行業的最新資訊分析，我們將未來一年的市場和公司表現分為三個情境。
-
-    **情境 1: 樂觀復甦**
-    *   **預測情境名稱：** 樂觀復甦
-    *   **情境描述：** 宏觀經濟環境改善（利率下降，消費者信心回升），HOG 的 "Hardwire" 戰略和新產品（LiveWire、Pan America、2026 年新車型）成功吸引新客戶並提振銷售。HDFS 交易順利完成並釋放大量現金，關稅影響得到有效緩解。公司成功應對領導層變動。
-    *   **對應機率 (Probability)：** 30%
-        *   理由：儘管面臨挑戰，但公司有明確的戰略方向，分析師給出的平均目標價也顯示出潛在的上漲空間，HDFS 交易帶來利好。
-    *   **預期報酬 (Expected Return)：** +35%
-        *   理由：基於分析師平均目標價（約 27.88 美元 - 30.10 美元）相對於當前股價（20.88 美元）的潛在漲幅（33.5% - 44.2%），並考慮到股息收益率。
-    *   **期望值 (Expected Value) 計算：**
-        *   期望股價 = 當前股價 × (1 + 預期報酬率)
-        *   期望股價 = $20.88 × (1 + 0.35) = $20.88 × 1.35 = $28.19
-        *   加權期望值 = 0.30 × $28.19 = $8.457
-
-    **情境 2: 中性穩定**
-    *   **預測情境名稱：** 中性穩定
-    *   **情境描述：** 宏觀經濟壓力持續存在，HOG 的銷售額保持相對穩定，但增長緩慢。新產品的市場接受度一般，關稅影響持續。HDFS 交易的利好被其他不利因素部分抵消。公司在轉型過程中進展緩慢。
-    *   **對應機率 (Probability)：** 45%
-        *   理由：這是最可能的情境，因為公司面臨的挑戰是結構性的，轉型需要時間，且宏觀經濟不確定性較高。
-    *   **預期報酬 (Expected Return)：** +5%
-        *   理由：考慮到當前股價相對較低，以及約 3.38% 的股息收益率，預計股價小幅上漲或持平。
-    *   **期望值 (Expected Value) 計算：**
-        *   期望股價 = $20.88 × (1 + 0.05) = $20.88 × 1.05 = $21.92
-        *   加權期望值 = 0.45 × $21.92 = $9.864
-
-    **情境 3: 悲觀下滑**
-    *   **預測情境名稱：** 悲觀下滑
-    *   **情境描述：** HOG 未能有效扭轉銷售下滑趨勢，新產品未能吸引足夠的市場份額。宏觀經濟惡化，關稅對盈利能力造成嚴重打擊。領導層變動導致公司戰略執行受阻，市場對其未來前景失去信心，導致股價進一步下跌。高空頭倉位加劇下跌壓力。
-    *   **對應機率 (Probability)：** 25%
-        *   理由：公司近期銷售數據持續疲軟，且面臨多重結構性挑戰，歷史銷售數據也顯示出持續下滑的趨勢。
-    *   **預期報酬 (Expected Return)：** -20%
-        *   理由：考慮到公司銷售額大幅下滑的歷史，以及市場對其未來前景的擔憂，股價可能跌至分析師最低目標價（21 美元）以下。
-    *   **期望值 (Expected Value) 計算：**
-        *   期望股價 = $20.88 × (1 - 0.20) = $20.88 × 0.80 = $16.70
-        *   加權期望值 = 0.25 × $16.70 = $4.175
-
-**3. 整體期望值 (Overall Expected Value)**
-    *   整體期望值 = 情境 1 加權期望值 + 情境 2 加權期望值 + 情境 3 加權期望值
-    *   整體期望值 = $8.457 + $9.864 + $4.175 = $22.496
-
-### 最終結論
-
-根據決策樹分析和期望值計算，投資 HOG 股票的整體期望值為 **22.496 美元**。
-
-*   **判斷：** 適合投資。
-*   **理由：**
-    *   儘管 HOG 面臨銷售下滑、市場轉型和關稅等多重挑戰，但其當前股價 (20.88 美元) 低於計算出的整體期望值 (22.496 美元)。這表明該股票在當前價格下具有一定的上漲潛力。
-    *   公司正在積極實施轉型戰略，包括發展電動摩托車和冒險旅行車款，並通過 HDFS 交易改善財務狀況。
-    *   其較低的 P/E (5.17) 和 P/B (0.7) 比率，以及健康的股息收益率 (3.38%)，使其在估值上具有吸引力。
-    *   分析師的平均目標價也顯著高於當前股價，提供了潛在的上漲空間。
-
-然而，投資者應充分意識到 HOG 轉型過程中的風險，包括市場對新產品的接受度、宏觀經濟的不確定性以及關稅的持續影響。建議投資者在考慮投資時，將 HOG 視為一項具有潛在價值但伴隨較高風險的投資。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCm03_EwSo-TyDjwKD_HbCrx3SI_MfLaBK8F8wo7l4JGhzFGYglG9QUHJqtIKDgYQgQ4ywMSc9xK9OKw1DzS52hvUZ01HhfjpfzlkijNlHB5VfgGixD5S_cWObm3tGpZv_J0reUnn-nRzgfI2P_6Ib-czWHt1xEFIniIrFByOOHlZPE9lOawERz3FVhwPyEZr1JHHhqnfU3uJD5ZL6Z4D7JKs=">Motorcycle industry trends 2024</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyh67QLRh_l3ELuyesqDm_XJ2M2ZoPa8_MDRg8B8BOHr7DM9BNqjatVOpCpWwbqKsCK_BwgYl-vf-ioLBSs4JSvm2sjSQYOohl_xrsdDJs1e8NG1Qao7TP2temDi7pJ_AFtJB5JR4LYip2lKVD2FJjy39N_CARvTdNY70Tk9dHWUE7wyB58TYS9Nuazdwt14je6dOUNgZPJAoXyb6ymb71r7wmCGkaYA==">Harley-Davidson market dynamics 2024</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkzUoOtVI571Si2xjCVlUz_YGfCsj5S769qQCmhDSqx9tKu29r6NzXO1OfMinPm25lss9PaAD8Gm3Nv0CB_jVCslUd0-K0y7c7QZK_xfvcrZDsSFL1Jp2YEcQRIIQTS8qkp3ZViEraTDJk2I15YIbbgj39NTZiG4jZlfMneyw3cn7d_7DDhZjJAKOfq22e3D05mw==">HOG latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO3M-YE629eu3CEu7laC0r8jyEc34Qsua5zcPLpsCLNWtKcYzSbKwZVeqGvYKLgpNyhdSQLZkbiH14gfyUkTJfqaSYmisAtHDW-vqzZtLMth7QBgpjtYZzKAWJ5FbtgNRwGMZtxDUIMVT_dWHFdeEpcagjwSyHUfI1pm5WNUN-bo5W-6cK0y7eB9mY6RiLT0Mfz9JbiWklcKjYO_31ioyA5639MzoMXpiidg==">Harley-Davidson Q4 2023 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0zLwdpdUNCcSugVbxMUgpS61AxCR4BHfncqV3o5Cj9UDiIQA0f1wf1U3I_IsyG4C-KhjXtB56dt3CUvwuWsYaUArRWHmfskcpL_PVcfmOOniqv4C75hEMBcq0HjBj2Kz_zqmIfqZC5FkCwJA8QjvXO7jVVkd2Gh4IwCMhXEUOIFLrtC4gj-qkroqmGBIaD-vxhtT9paHPp6rI">HOG stock forecast 2024</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDAGGR9UtNkxfhIMg67HeCZ3BYPwcdqWScd0q3oqg6pFqp0PiIYbTQb6t4Ho9JXP1U40cGTUwbtjUCXlM02LKMeo_NZml2yZM6y54NjVfnU8OmE2JkZbGCiuwlj6SJNzRUveG9s9b_rd7T7sifoUxRrWL_51c8N2O1u63J8Fb44dRbOteApNVv1KVTQ_M8qMo3xP4vW6qKOP_MDeZiNCns4TGXpMFTWJhnZ3xtogkHUAv7I6VM7DvFslo=">Harley-Davidson analyst ratings and price targets 2024</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'HOG latest news',
+    'Harley-Davidson Q4 2023 earnings report',
+    'Harley-Davidson market dynamics 2024',
+    'Motorcycle industry trends 2024',
+    'Harley-Davidson analyst ratings and price targets 2024',
+    <... 1 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
