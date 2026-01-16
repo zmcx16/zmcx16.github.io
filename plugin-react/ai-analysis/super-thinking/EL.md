@@ -1,103 +1,149 @@
-作為一位具備長期價值投資與產業研究經驗的美股分析師，我將針對美股公司 Estée Lauder Companies Inc. (EL) 進行系統性分析。
-
-### 目前營運狀況與未來發展潛力分析
-
-Estée Lauder (EL) 是全球領先的美容產品製造商和銷售商，旗下擁有眾多知名品牌，涵蓋護膚、彩妝、香水和護髮產品。從提供的基本面數據來看，該公司市值約 397.4 億美元，股價在過去一年表現強勁，年度漲幅接近 50%。然而，其 P/E 值為空，Forward P/E 達 37.76，顯示市場對其未來盈利增長有較高預期。值得注意的是，其 ROE、ROA、ROI 均為負值，且 Profit Margin 亦為負，這可能暗示近期盈利能力面臨挑戰或有一次性費用影響。Debt/Eq 和 LT Debt/Eq 較高，顯示槓桿率較高。
-
-為了更全面地分析，我將主動查詢該公司的最新營運狀況、財報、市場動態與產業趨勢。
-
-Estée Lauder Companies Inc. (EL) 在過去一年中經歷了顯著的轉型。儘管在 2025 財年面臨挑戰，包括有機淨銷售額下降 8% 至 143 億美元，以及營運虧損 7.85 億美元，但公司已開始展現復甦跡象。
-
-在 2026 財年第一季度（截至 2025 年 9 月 30 日），EL 實現了銷售額和利潤的積極增長，淨銷售額增長 4% 至 34.8 億美元，有機銷售額增長 3%。這是四年來首次實現營運利潤率擴張，並重申了全年展望。這一增長主要得益於香水（增長 13%）和護膚品（增長 3%）的強勁表現，尤其是在亞洲/太平洋地區，受旅遊零售和中國大陸需求的推動，有機增長達 9%。
-
-公司正在積極執行其「Beauty Reimagined」戰略，該戰略於 2025 年 2 月推出，旨在恢復可持續的銷售增長和提高盈利能力。該計劃包括成本效率、減少促銷支出和優化供應鏈，目標是到 2027 財年實現 8 億至 10 億美元的年度節省，並裁員多達 7,000 人。此外，EL 正在加強其在電子商務渠道的佈局，例如 Bobbi Brown Cosmetics 於 2025 年 12 月在美國 Amazon Premium Beauty 商店推出。公司還積極利用 AI 技術，例如與 Jo Malone London 合作推出 AI 驅動的香水顧問體驗，並將 AI 應用於研發以加速創新。
-
-然而，公司仍面臨挑戰，特別是在中國大陸和旅遊零售市場的疲軟需求，以及北美百貨商店的銷售疲軟。儘管如此，Raymond James Financial 等分析師已將 Estée Lauder 的評級上調至「強烈買入」，理由是需求趨勢改善、品牌動能和營運效率提高。
-
-### 1. 反向思考（Inversion Thinking）
-
-從「這間公司在什麼情況下會失敗或大幅衰退？」開始思考，Estée Lauder 最關鍵的風險來源可能包括：
-
-*   **中國市場和旅遊零售的持續低迷：** 過去幾年，中國市場和亞洲旅遊零售的疲軟對 EL 的業績造成了顯著影響，導致銷售額下降和盈利壓力。如果中國經濟復甦不及預期，或消費者情緒持續低迷，將嚴重影響其在該地區的增長。公司已意識到對中國市場的過度依賴，並正在努力分散市場風險。
-*   **消費者偏好快速轉變與新興品牌的競爭：** 美容行業的消費者偏好變化迅速，特別是年輕一代對小眾品牌、天然成分和可持續性的需求日益增長。如果 EL 無法及時推出符合新趨勢的創新產品，或其傳統品牌失去對年輕消費者的吸引力，將面臨市場份額被侵蝕的風險。公司正透過「Beauty Reimagined」戰略加速創新並加強消費者互動。
-*   **供應鏈中斷與成本上升：** 全球供應鏈的脆弱性以及原材料和運輸成本的上升，可能導致生產延誤、成本增加，進而影響利潤率。EL 正在優化其生產足跡，將製造業更貼近消費者，並削減庫存和促銷活動以抵消成本上升。
-*   **品牌組合管理不善：** EL 擁有龐大的品牌組合，但並非所有品牌都表現良好。近期公司正在考慮出售 Too Faced、Smashbox 和 Dr. Jart 等三個品牌，這表明其正在進行品牌組合的重新評估和優化。如果未能有效管理品牌組合，可能導致資源分散，影響核心品牌的發展。
-*   **宏觀經濟衰退與可支配收入下降：** 儘管高端美容產品在經濟衰退中通常表現出一定的韌性，但嚴重的經濟衰退仍可能導致消費者減少非必需品支出，影響其高端產品的銷售。
-
-目前，EL 已經暴露於中國市場和旅遊零售的風險之中，並在 2025 財年經歷了顯著的銷售下滑。然而，公司正在積極採取緩解措施，包括實施「Beauty Reimagined」戰略，專注於成本控制、創新和市場多元化。其在 2026 財年第一季度的業績回升，特別是中國市場的復甦，顯示出這些措施正在產生初步成效。
-
-### 2. 反脆弱（Antifragility）
-
-分析公司在市場波動、經濟衰退、產業劇變下是否能「受益或變得更強」。
-
-Estée Lauder 展現出一定的**穩健性 (Robust)**，並在某些方面具備**反脆弱性 (Antifragile)** 的潛力。
-
-*   **成本結構與現金流彈性：** 儘管 2025 財年營運利潤率為負，但公司通過「利潤恢復和增長計劃 (PRGP)」實現了毛利率的擴張，這得益於營運效率、降低過剩和報廢以及戰略性定價行動。這表明公司在成本控制方面具備一定的彈性。2026 財年第一季度，經營活動產生的淨現金流有所改善，從去年的 6.7 億美元減少到 3.4 億美元。
-*   **定價能力：** 作為高端美容市場的領導者，EL 擁有強大的品牌組合（如 La Mer, Jo Malone London, Tom Ford Beauty, Clinique 等），賦予其較強的定價能力。即使在經濟不確定時期，忠實的高端消費者也更願意為其信賴的品牌支付溢價。
-*   **可選擇權（Optionality）：**
-    *   **品牌組合的靈活性：** 公司正在積極評估和優化其品牌組合，考慮出售表現不佳的品牌，這為其提供了重新分配資源、專注於高增長領域的選擇權。
-    *   **數字化轉型：** EL 大力投資數字渠道和電子商務，例如在 Amazon Premium Beauty Store 推出品牌，並利用 AI 進行創新和消費者互動。這使其能夠適應不斷變化的零售格局，並觸達更廣泛的消費者群體。
-    *   **新興市場的拓展：** 除了中國市場，EL 也在積極拓展印度和拉丁美洲等新興市場，以實現地域多元化，降低對單一市場的依賴。
-    *   **創新加速：** 公司計劃通過 AI 驅動的研發將創新速度提高三倍，這將使其能夠更快地響應市場趨勢，推出新產品，抓住新興機會。
-
-綜合來看，EL 正在從過去的脆弱狀態中恢復，並通過其戰略轉型努力變得更加穩健。其強大的品牌組合、定價能力以及對數字化和創新的投資，使其在面對市場波動時具備一定的韌性。如果其「Beauty Reimagined」戰略能夠成功執行，特別是在中國市場復甦和新興市場拓展方面取得進展，公司有望從中受益並變得更強，展現出反脆弱的特徵。
-
-### 3. 第一原理思考（First Principles Thinking）
-
-從最基本且不可否認的事實出發，Estée Lauder 真正創造的價值是什麼？誰願意付錢？為什麼？
-
-Estée Lauder 真正創造的價值在於**提供高品質、高性能的「奢華美容體驗」和「自我提升的承諾」**。
-
-*   **誰願意付錢？為什麼？**
-    *   **追求品質與功效的消費者：** 這些消費者願意為經過驗證的配方、卓越的成分和顯著的效果支付溢價。他們相信 EL 旗下品牌（如 La Mer 的「奇蹟肉湯」、Estée Lauder 的 Advanced Night Repair）能夠提供超越普通產品的護膚和彩妝體驗。
-    *   **追求身份認同與奢華體驗的消費者：** 購買 EL 的產品不僅是為了功能，更是為了品牌所代表的奢華、品味和社會地位。Tom Ford Beauty、Jo Malone London、Le Labo 等品牌提供了獨特的香氛和美學體驗，滿足了消費者對個性化和高端生活方式的追求。
-    *   **尋求情感連結與自信提升的消費者：** 美容產品不僅僅是物理上的改變，更是情感上的滿足。EL 的品牌通過精緻的包裝、高雅的營銷和「高觸感」的客戶服務，與消費者建立情感連結，讓他們在使用產品時感受到愉悅、自信和被呵護。
-    *   **注重創新與趨勢的消費者：** 隨著美容科技的發展，消費者對新成分、新技術和個性化解決方案的需求增加。EL 通過持續的研發和創新，例如 AI 驅動的香水顧問 和加速產品開發，吸引了這部分追求前沿體驗的消費者。
-
-*   **收入來源：** EL 的收入主要來自其多元化的品牌組合，涵蓋護膚、彩妝、香水和護髮四大類。其中，護膚品通常是其最大的收入來源，而香水業務在近期表現強勁。銷售渠道包括百貨商店、專業零售商、獨立商店、電子商務平台以及旅遊零售。
-
-*   **核心競爭優勢與長期護城河：**
-    *   **強大的品牌資產與聲譽：** EL 旗下擁有數十個全球知名品牌，這些品牌經過數十年的積累，建立了深厚的消費者信任和品牌忠誠度。這種品牌資產是難以被新進入者複製的。
-    *   **全球分銷網絡與「高觸感」體驗：** 公司在全球約 150 個國家和地區擁有廣泛的分銷網絡，並通過「高觸感」的客戶體驗（例如專櫃服務、個性化諮詢）來鞏固客戶關係。
-    *   **研發與創新能力：** EL 投入大量資源進行研發，不斷推出創新產品和技術，保持其在高端美容領域的領先地位。其對 AI 等新技術的應用，顯示了其在創新方面的持續投入。
-    *   **規模經濟與供應鏈優勢：** 作為全球第二大美容公司，EL 享有規模經濟帶來的成本優勢，並能更好地管理其全球供應鏈。
-
-儘管近期面臨挑戰，但從第一原理來看，EL 創造的「奢華美容體驗」和「自我提升承諾」的核心價值依然存在，且有穩固的消費者基礎願意為此付費。其強大的品牌組合、全球分銷、研發創新和規模優勢構成了其長期護城河。
-
----
-
-### 綜合結論
-
-Estée Lauder (EL) 正在經歷一個關鍵的轉型期，從過去的挑戰中逐步恢復。
-
-**本質優勢：**
-
-*   **無可匹敵的奢華品牌組合：** 擁有 La Mer、Jo Malone London、Tom Ford Beauty 等一系列全球頂級高端美容品牌，這些品牌具有強大的定價能力和消費者忠誠度。
-*   **全球分銷網絡與「高觸感」客戶體驗：** 廣泛的國際市場覆蓋和注重個性化服務的策略，有助於維持品牌形象和客戶關係。
-*   **持續的研發與創新投入：** 積極利用 AI 等新技術加速產品創新，並適應不斷變化的消費者需求，例如 AI 驅動的香水顧問。
-*   **「Beauty Reimagined」戰略帶來的營運效率提升：** 該戰略旨在優化成本結構、精簡營運並重新聚焦高增長領域，已在 2026 財年第一季度顯示出初步成效，毛利率和營運利潤率均有所改善。
-
-**致命弱點：**
-
-*   **對中國市場和旅遊零售的過度依賴與波動性：** 過去的業績下滑主要受中國市場和亞洲旅遊零售疲軟的影響，這些市場的復甦速度和持續性仍存在不確定性。
-*   **部分品牌表現不佳與組合優化壓力：** 公司正在考慮出售部分品牌（如 Too Faced、Smashbox、Dr. Jart），這表明其品牌組合中存在表現不佳的資產，需要進行戰略性調整。
-*   **高槓桿率：** 較高的 Debt/Eq 和 LT Debt/Eq 數據顯示公司槓桿率較高，這在經濟下行時可能增加財務風險。
-*   **盈利能力恢復的持續性：** 儘管 2026 財年第一季度業績回升，但要完全恢復到疫情前的高盈利水平仍需時間，且面臨宏觀經濟和競爭壓力。
-
-**是否適合長期持有型投資（5–10 年）：**
-
-基於目前的分析，Estée Lauder **適合長期持有型投資（5-10 年）**。儘管公司在過去幾年經歷了挑戰，但其核心的品牌資產、在高端美容市場的領導地位以及正在執行的「Beauty Reimagined」轉型戰略，為其長期增長奠定了基礎。公司在 2026 財年第一季度已展現出復甦跡象，特別是中國市場的改善和營運效率的提升。其對數字化和創新的投入，以及對品牌組合的戰略性優化，有望使其在未來美容行業的發展中保持競爭力。
-
-**在哪些前提成立／不成立下，投資結論會改變：**
-
-*   **投資結論會改變（轉為不適合長期持有）的前提：**
-    *   **中國市場和旅遊零售持續低迷且無明顯復甦跡象：** 如果中國經濟增長長期停滯，或消費者對高端美容產品的需求持續疲軟，且公司無法有效開拓其他高增長市場，將嚴重影響其長期盈利能力。
-    *   **「Beauty Reimagined」戰略執行失敗：** 如果公司的成本控制、創新加速和市場多元化等戰略未能按預期實現，導致銷售額持續下滑、利潤率無法恢復，則其長期價值將受損。
-    *   **核心品牌失去市場吸引力：** 如果其主要高端品牌（如 La Mer、Estée Lauder）因消費者偏好轉變或競爭加劇而失去市場份額和定價能力，將動搖其護城河。
-    *   **新興競爭者顛覆性創新：** 如果有新興品牌或技術以顛覆性的方式改變美容行業格局，而 EL 無法適應或有效競爭，將面臨巨大風險。
-
-*   **投資結論會加強（更適合長期持有）的前提：**
-    *   **中國市場和旅遊零售強勁復甦：** 如果中國經濟和消費者信心持續改善，帶動高端美容產品需求大幅增長，將為 EL 提供強大的增長動力。
-    *   **「Beauty Reimagined」戰略超預期成功：** 如果公司能夠在成本效率、產品創新和市場拓展方面取得顯著突破，實現持續的有機增長和利潤率擴張。
-    *   **品牌組合優化效果顯著：** 如果出售非核心品牌能夠帶來可觀收益，並使公司更專注於高潛力品牌，進一步提升整體盈利能力。
-    *   **新興市場（如印度、拉丁美洲）貢獻顯著增長：** 如果公司能夠成功在新興市場建立強大的立足點，實現多元化增長，降低對單一市場的風險。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2fR4e3ComIYugiT36i3DJj2H-WnKqQ_mcvGcRrQ0RhkWNuVxN1wZ4s7BXWqfWa9o_5gFw5b7UMAdyf_D05iruwY6B_p2o1ol_MHn_ZCl3t2EKRUMh0tZUCciYlkQHJQylycbm-Ex5ZKGPDSEHfUoU84jp-wE_q-zwwHACjZsdkwtaLTmBV5FQ51XmimvkaYMtdIZq9QP6tBb8-HyNIjia0Ak=">Estée Lauder market trends</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMsm3jflTrMObR07OqPMcYEUBOJsVAdm_tB041W8RO0Tg_0lyYYXkng-cQuGKNc10kwM39mCEn-vV3JfUmocP7AJq0xVZf-oGPMBpkjOKNEYGV7QtbwBYTWPxbEu3Gr9c25yYvCiewISClwUQCcp2zZ03QzD-825YV-lGVSaUqNnT9Z3BsQX2nW0AZmYLRStaELk5vY_OxFABqQ7LrtD-kbjwRCgXm5HGwqwN_">Estée Lauder Q1 2026 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7ZYn2sLMGWRzJklpaxfEGcQmkNLOjTBpsxDMqeYhsekmYAd_ZqA8cFIaqTV1TAmp19Jz9nYagnG3KH_J2bCCR0_AC8flCnxbNh30xh9GCQSKOi2oCPbXIGy0mpRt52WiW8xgZkjFLLMYNc039O38MkOxoTXFhrHaUyNhpWLV4RKNHri8OORarHK7F9wYDsSBFPiV3YNrGTzfLAe32Qy90">Estée Lauder latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZDfoBBjynbCHD2ReLvWv0t2OvUN--0EyaEkZ6SLj3r8W2eGboLTTlTt4vF3kc9TEHZg9OAaNLgygTcb4WL_YYcLo3G4PpO60A1aoetwRFUegJbgk9Loj4Z4TiVgpXcTgwKZSETmvdc5azjzS0pZVu4gkoPIHKNZ_i7TJ_YW7xOlJ-syCl3Re2bwYuvrZMl_ZfIpsoz1rQMPPaOqVFIhpJA8TtN5s2snnmEP5G">Estée Lauder Q4 2025 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE65sVOzMCMR2f6WlSioJagpbx-wJLM-rN12yF-I92mVLABc_2gbxGfU6HL9etSN8ATqU0-IjhXpZYKfAMWwx2EhGerzspsc_Md4FtzXdttTVYJzh5t3UjZ2V2fvLNPMHXWMtSIOsgSLzw7Lw8nVg5t2oq5YQC728YBMcYgeIUivD-ocXD124uUZsN2TuDHjeGK-hT4Hg0f_sr4Iopq3ju1HjH1">Beauty industry trends 2025 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjiWgZh8L3Gh-1Gxe6T0CuAidwPB8p9cx9pECugF3Qis7WskDq8SQ4KNgembHGv2bzJGBeSwwAuV0ofgfqnkKjHqc3qpxdORFdBSLpGdJkX0BaDtiMF59utpD32cMiKpB6PJU4514q6HjNG_7cVOaTtFmrnHaL2Co5dGFdxcDKjtBTs2iFbOg-FtnfBnAdpB7mcldVZPRb4021ftmnObQ=">Luxury beauty market outlook</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETNfDiNxodwJvXlmy1yZFyTMf8mX-gxL0X3CAePQ8bJkHEdZ3E7zdIzFHo5W7y05_0j3T_z9q--x4zggs1CFlc0DPhXTx47fV4D1JP2EjZ2-s5p-V4WSXfCUhU8Ef31NjX6F24cyKiJm51y-hN5gs21TVgtwvHCAsMo5UEuj38HjhPmiVk701gH5g0M8PBo2xp5UiRC_SyAZ_5JoxR0xNiaPbQJREi82b1YA==">Estée Lauder competitive landscape</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnBzMfCMkzRyUy8zji786XkswEbQh0JCPJDHupQJmg5rkTKWjyIktwxyhuznP4JIcr6jz9Qrp_i8dicpMwc4eX0Vfn2IGZO2_6MYIAbWk-efyMN067D6SUgNaSPfG1HTnIZQTTAARvjnXkxbhcNelQY3jfgh0-eSnkGImOvDOn722nvyQChVDT4ryfusUy2GyV62ppXzGDyUIscg66OQpXgFTUvrGH_sj-5_1hqw==">Estée Lauder China market performance</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmk__yYkjRy45LHQ_0mqzrwloKC-rtAHv1twoNPTKCgVS8dFDyRcwRPpjNzY0SDnLzJKBAFIlxdAM-zhviRLlRE34iPjsqGd46Dl2kqYMaKPOfw1QixAt33ZpIp7jw2GmnMNH09SC-puQSzTm-V8cfO-i1Sq_vysMh5c9hFQ7LB4cwoX36k1KLt8P3OrPB6i0igsY2jGpTOG8HAJ-q9BdmoUk5dKbyqIam_7pm4A==">Estée Lauder travel retail challenges</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzkNYPbN9s1-kH9ZCW50xSjXLbgVWnypysCqiFZuF5Krip_8D0nld61U_SZz7b0MzPC-NsSTrHeAoIM-EjuvK6IeFATBmUxGFkP3OeoUyY1X-lVGkDE1Rbw8KM5UUpZsn6Yn48xrXizGvEDTLk8KkdkhLGz0p2BEdQoYBCMOPV4y6O4uvdE4BRaNyC_eu5GwG504aolILeBeKuisdV8xcPSre5">Estée Lauder growth drivers</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL6pLBYjl5ion8P3rX6pow6vfw7vNEl69iLGFvWTX_laQIdmRo550TbcYlgzrI5vqI3gatP2rgapUZ0n257GVgFKNWT-9RG5SQsAUrlbNV6_WuJEPTPEdFFvHFapiuqvLXh9dpYXdI5urqMwSRYfQZ2vxG0EPAhY5bbVGFHouhhW5y5rvo7Vd3uPbTizvZ15sH3ygMS348tB9wHUyHIrc=">Estée Lauder challenges</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Estée Lauder latest news',
+    'Estée Lauder Q1 2026 earnings report',
+    'Estée Lauder Q4 2025 earnings report',
+    'Estée Lauder market trends',
+    'Beauty industry trends 2025 2026',
+    <... 6 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None

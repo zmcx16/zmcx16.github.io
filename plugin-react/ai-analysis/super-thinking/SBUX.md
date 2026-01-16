@@ -1,114 +1,144 @@
-作為一位具備長期價值投資與產業研究經驗的美股分析師，我將針對星巴克（SBUX）進行系統性分析，結合其基本面數據與最新市場資訊，深入探討其營運現況與未來發展潛力。
-
-### 1. 反向思考 (Inversion Thinking)
-
-從「這間公司在什麼情況下會失敗或大幅衰退？」的角度出發，星巴克最關鍵的風險來源主要有以下幾點：
-
-1.  **品牌吸引力與顧客忠誠度流失：** 星巴克的核心價值在於其「第三空間」的體驗、優質咖啡與品牌形象。若因產品品質下滑、服務體驗不佳、定價過高導致消費者認為價值不符，或因社會議題處理不當而損害品牌聲譽，將直接衝擊其營收與獲利能力。例如，Reptrak的數據顯示，星巴克的品牌聲譽分數從2021年的71.5分下降到2025年1月的57.7分，顯示顧客好感度顯著下降。
-2.  **全球經濟衰退與消費者可支配所得下降：** 星巴克的產品屬於可支配性消費，在經濟衰退或通膨壓力下，消費者可能減少購買頻率或轉向更平價的替代品。2025財年第四季度，星巴克的營運利潤因重組成本、槓桿效應、對「重回星巴克」策略的投資（主要是勞動時間）以及通膨而大幅下降。
-3.  **中國市場的激烈競爭與地緣政治風險：** 中國是星巴克的第二大市場和重要成長引擎。然而，該市場正經歷由瑞幸咖啡（Luckin Coffee）和庫迪咖啡（Cotti Coffee）等本土品牌主導的激烈價格戰和快速擴張。這些競爭者以更低的價格和更符合當地消費者習慣的數位化模式搶佔市場份額，導致星巴克在上海的市佔率到2025年初已腰斬至約19%。星巴克已明確表示不參與價格戰，這可能使其在追求高端定位的同時面臨市場份額流失的風險。此外，中美關係緊張等地緣政治因素也可能對其在華營運造成不確定性。
-4.  **勞動成本持續上升與工會化趨勢：** 勞動成本是餐飲業的重要組成部分。美國最低工資上漲（例如加州從16美元漲至20美元）以及工會化運動的推進，都對星巴克的利潤率構成壓力。公司已透過提價來部分抵消這些成本，但過度提價可能影響顧客流量。2025財年第四季度，營運利潤率的顯著收縮部分歸因於勞動時間的投資增加。
-5.  **供應鏈中斷與原材料價格波動：** 咖啡豆作為主要原材料，其價格受氣候變遷、地緣政治事件和供應鏈效率等多重因素影響。雖然星巴克透過採購和對沖策略來緩解影響，但持續的波動仍可能壓縮利潤空間。
-
-**目前公司是否已暴露於這些風險之中，以及其緩解能力：**
-星巴克目前已顯著暴露於上述所有風險之中。
-*   **品牌聲譽下降與競爭加劇：** 公司正透過「重回星巴克」（Back to Starbucks）策略來應對，該策略專注於提升服務品質、優化門店體驗、簡化定價（例如取消非乳製品牛奶的額外收費）和菜單創新。這些措施旨在重建顧客好感度並提升交易量。
-*   **經濟衰退與成本壓力：** 公司透過提價、門店重組（關閉表現不佳的門店並翻新其他門店）以及數位化轉型來提升營運效率和現金流彈性。然而，2025財年第四季度營運利潤率的大幅下降表明這些緩解措施仍在初期階段，成本壓力依然嚴峻。
-*   **中國市場挑戰：** 星巴克正重新評估其中國策略，包括考慮出售部分股權以引入戰略合作夥伴，並持續擴大門店網絡（目標2025年達到9,000家，2025財年第四季度已超過8,000家）。同時，公司也嘗試深化產品在地化，但仍堅持高端定位，不參與價格戰。
-*   **勞動成本：** 公司透過投資於員工（例如增加勞動時間、改善培訓）來提升服務品質和員工滿意度，以期長期提升顧客體驗和效率。然而，這在短期內會繼續對利潤率造成壓力。
-
-總體而言，星巴克已意識到這些風險並積極採取行動，但許多措施仍處於執行初期，其成效和對財務表現的影響尚待觀察。
-
-### 2. 反脆弱 (Antifragility)
-
-反脆弱性是指在面對衝擊、波動、混亂時，不僅能抵抗，反而能從中受益或變得更強的能力。
-
-*   **市場波動、經濟衰退、產業劇變下的表現：**
-    *   **脆弱性：** 在經濟衰退時期，星巴克作為「可負擔的奢侈品」，其銷售額會受到影響，因為消費者會減少非必需品的開支。2025財年第四季度營運利潤率的大幅收縮，以及美國同店銷售額在2025財年第四季度持平（此前連續七個季度沒有增長），都顯示其在宏觀經濟逆風下的脆弱性。中國市場的激烈價格戰也凸顯了其在特定市場的脆弱性。
-    *   **穩健性：** 星巴克強大的品牌認知度、全球門店網絡和忠誠度計劃使其具備一定的韌性。即使在挑戰時期，其核心顧客群體仍會維持一定消費頻率。其數位化平台（移動訂單與支付、配送服務）在疫情期間和後疫情時代都展現了其適應消費者行為變化的能力，美國配送業務在2025財年第四季度增長近30%，全年銷售額超過10億美元。
-    *   **反脆弱性：** 星巴克在某些方面展現出反脆弱的潛力。
-        *   **成本結構與現金流彈性：** 雖然勞動成本上升，但其「Greener Stores」倡議透過節能減排每年節省6000萬美元營運成本，並計劃到2025年底認證10,000家綠色門店。其忠誠度計劃（Starbucks Rewards）擁有超過3400萬活躍會員，透過預付卡和會員儲值提供穩定的預收現金流，這在經濟不確定時期提供了重要的流動性緩衝。
-        *   **定價能力：** 憑藉其強大的品牌溢價，星巴克在一定程度上擁有轉嫁成本的定價能力，例如為應對勞動成本上升而進行的提價。然而，這種能力在面對激烈價格競爭的市場（如中國）時會受到限制。
-        *   **可選擇權（Optionality）：**
-            *   **產品創新：** 持續推出季節性飲品、植物基選項和即飲咖啡產品，滿足不斷變化的消費者偏好。
-            *   **門店模式創新：** 發展更多元化的門店形式，如得來速（drive-thru）、取貨專用店，以適應消費者對便利性的需求，並優化門店佈局，關閉表現不佳的城市門店，翻新其他門店。
-            *   **國際市場擴張：** 在新興市場（如印度、拉丁美洲）的積極擴張，為其提供了多元化的增長來源，降低對單一市場的依賴。
-            *   **數位化與AI投資：** 大力投資AI和物聯網技術，用於優化庫存管理、設備維護、員工排班和新店選址，提升營運效率和個性化顧客體驗。
-
-**判斷公司是「脆弱 / 穩健 / 反脆弱」，並說明理由：**
-綜合來看，星巴克目前處於從「脆弱」向「穩健」轉變的階段，並展現出「反脆弱」的潛力，但尚未完全實現反脆弱。
-
-*   **理由：**
-    *   **脆弱性體現在：** 2025財年利潤率的顯著下滑、美國同店銷售額的停滯以及中國市場的激烈競爭，都表明其在面對外部衝擊時仍會受到較大影響。
-    *   **穩健性體現在：** 其強大的品牌、全球規模、忠誠度計劃和數位化基礎設施提供了堅實的防禦能力，使其能夠承受一定程度的衝擊而不至於崩潰。
-    *   **反脆弱潛力體現在：** 公司積極推動的「重回星巴克」策略、門店優化、數位化轉型和新興市場擴張，都是在主動適應和利用市場變化來強化自身。例如，透過關閉表現不佳的門店並翻新其他門店，公司正在優化其實體資產組合，以適應遠程工作和競爭加劇的環境。對AI和數據分析的投資，使其能夠更精準地理解和響應消費者需求，從而提升效率和個性化服務。這些主動的變革和學習能力，是其未來實現反脆弱的關鍵。
-
-### 3. 第一原理思考 (First Principles Thinking)
-
-從最基本且不可否認的事實出發，拆解星巴克的價值創造、收入來源、核心競爭優勢與長期護城河。
-
-*   **公司真正創造的價值是什麼？誰願意付錢？為什麼？**
-    *   **真正創造的價值：** 星巴克不僅僅是賣咖啡，它販售的是一種「體驗」和「第三空間」的概念。它提供了一個介於家庭和工作場所之間的舒適、社交和高效的環境。這種價值包括：
-        *   **高品質的咖啡體驗：** 提供多樣化、可客製化的優質咖啡飲品。
-        *   **舒適的環境：** 營造獨特的店內氛圍，提供休憩、工作或社交的場所。
-        *   **便利性：** 廣泛的門店網絡、得來速、移動訂單與支付、配送服務，滿足不同場景下的便利需求。
-        *   **社群與歸屬感：** 透過品牌故事、忠誠度計劃和員工互動，建立顧客的社群感和歸屬感。
-        *   **身份象徵：** 對部分消費者而言，消費星巴克是一種生活品味和身份的象徵。
-    *   **誰願意付錢？為什麼？**
-        *   **追求品質與體驗的消費者：** 他們願意為優質咖啡和舒適環境支付溢價。
-        *   **尋求便利的忙碌人士：** 他們重視快速、便捷的服務，尤其是在通勤或工作間隙。
-        *   **需要「第三空間」的自由職業者/學生：** 他們將星巴克作為臨時辦公室或學習場所。
-        *   **重視社群與歸屬感的會員：** 他們享受忠誠度計劃帶來的福利和個性化服務。
-        *   **追求時尚與身份認同的年輕一代：** 他們被星巴克的品牌形象和潮流飲品所吸引。
-
-*   **拆解其收入來源、核心競爭優勢與長期護城河是否成立：**
-    *   **收入來源：**
-        *   **核心：** 手工調製咖啡和茶飲、食品銷售。
-        *   **多元化：** 包裝咖啡豆、即飲咖啡產品、授權業務、周邊商品銷售。
-        *   **數位化：** 移動訂單與支付、配送服務的收入貢獻日益增加。
-    *   **核心競爭優勢與長期護城河：**
-        *   **強大的品牌資產與全球認知度（Brand Equity & Global Recognition）：** 星巴克是全球最知名的咖啡品牌之一，其綠色美人魚標誌深入人心。這種品牌力量使其能夠在市場上脫穎而出，並擁有一定的定價權。
-        *   **龐大的全球門店網絡（Global Scale & Distribution）：** 截至2025財年第四季度，星巴克在全球擁有超過38,000家門店，廣泛的佈局提供了無與倫比的便利性，形成進入壁壘。
-        *   **領先的數位化平台與忠誠度計劃（Digital Platform & Loyalty Program）：** Starbucks Rewards計劃擁有龐大的會員基礎（美國超過3400萬活躍會員），透過個性化推薦、積分獎勵和便捷的移動支付，極大地提升了顧客忠誠度和重複購買率。這形成了一個強大的「數位飛輪」（Digital Flywheel），難以被競爭對手複製。
-        *   **優質的供應鏈管理（Supply Chain Management）：** 從咖啡豆採購到烘焙、配送，星巴克對其全球供應鏈擁有高度控制，確保產品品質的一致性，並透過道德採購和可持續發展實踐來強化品牌形象。
-        *   **「第三空間」的體驗價值（"Third Place" Experience）：** 雖然近年來受到得來速和數位訂單的影響，但星巴克仍致力於維護其門店作為舒適社交場所的獨特體驗。這是一種情感連結，超越了單純的產品消費。
-
-    *   **護城河是否成立：**
-        星巴克的護城河是成立的，但正在受到侵蝕並需要不斷加固。品牌、規模和數位忠誠度計劃是其最堅固的護城河。然而，在中國等市場，本土競爭者透過極致的便利性、價格優勢和在地化創新，正在挑戰星巴克的傳統護城河，尤其是在「第三空間」體驗之外的消費場景。勞動成本上升和供應鏈波動也考驗著其營運效率和成本控制能力。因此，星巴克需要持續創新並強化其數位化和在地化策略，才能確保護城河的長期有效性。
-
-### 綜合結論
-
-**該公司的「本質優勢」與「致命弱點」：**
-
-*   **本質優勢：**
-    *   **全球頂級品牌資產與顧客忠誠度：** 星巴克擁有無可匹敵的全球品牌認知度和透過Starbucks Rewards建立的強大顧客忠誠度，這是其長期價值的基石。
-    *   **龐大且不斷擴張的全球門店網絡：** 廣泛的實體佈局結合數位化能力，提供了無與倫比的便利性和市場滲透力。
-    *   **領先的數位化與數據分析能力：** 透過移動應用、AI和數據分析，星巴克能提供個性化體驗、優化營運並驅動銷售增長。
-    *   **強大的產品創新與供應鏈管理：** 能夠持續推出新產品並確保全球範圍內咖啡品質的一致性，同時致力於可持續發展。
-
-*   **致命弱點：**
-    *   **利潤率壓力與成本控制挑戰：** 勞動成本上升、通膨以及「重回星巴克」策略的投資，導致2025財年利潤率大幅收縮，短期內盈利能力承壓。
-    *   **中國市場的激烈競爭與策略適應性：** 在中國面臨本土品牌的價格戰和快速擴張，星巴克堅持高端定位的策略面臨考驗，市場份額受到侵蝕。
-    *   **對可支配性消費的依賴：** 經濟下行時，消費者可能減少對星巴克產品的消費，影響其營收增長。
-    *   **負股東權益與流動性指標：** 負的股東權益和低於1的流動比率/速動比率，雖然對於成熟公司可能透過強勁現金流管理，但仍是財務結構上的潛在風險。
-
-**判斷該公司是否適合長期持有型投資（5–10 年）：**
-我認為星巴克（SBUX）**適合長期持有型投資（5–10 年）**。
-
-儘管公司目前面臨利潤率壓力、中國市場競爭和宏觀經濟逆風等挑戰，但其核心的品牌價值、全球規模、數位化護城河以及管理層積極的轉型策略（「重回星巴克」）為長期增長奠定了基礎。2025財年第四季度全球同店銷售額恢復增長，特別是國際市場和中國市場的積極表現，顯示出轉型策略正在逐步奏效。分析師預期2026財年盈利將顯著回升，也支持了這一觀點。星巴克在可持續發展方面的投入，也將有助於吸引新一代注重社會責任的消費者。
-
-**在哪些前提成立／不成立下，投資結論會改變：**
-
-*   **投資結論會改變（轉為不適合長期持有）的前提：**
-    *   **「重回星巴克」策略未能有效提升美國市場的顧客流量和盈利能力：** 如果美國同店銷售額持續停滯或下滑，且利潤率無法有效恢復，表明其核心市場的競爭力正在喪失。
-    *   **中國市場競爭惡化且星巴克無法有效應對：** 如果星巴克在中國的市場份額和盈利能力持續被本土競爭者侵蝕，且其高端定位策略無法奏效，導致該關鍵增長市場的長期潛力受損。
-    *   **品牌聲譽持續惡化，導致顧客忠誠度大幅下降：** 如果公司因重大負面事件或持續的服務問題而失去消費者信任，其核心競爭優勢將被動搖。
-    *   **勞動成本壓力失控，且無法透過提價或效率提升來抵消：** 如果勞動成本的增長速度遠超公司轉嫁能力或營運效率提升速度，將嚴重侵蝕其盈利基礎。
-    *   **數位化護城河被顛覆：** 如果有新的技術或商業模式出現，能夠有效瓦解星巴克在數位忠誠度、便利性方面的優勢，使其失去競爭力。
-
-*   **投資結論會強化（更適合長期持有）的前提：**
-    *   **「重回星巴克」策略在美國市場取得顯著成功：** 如果美國同店銷售額和交易量持續強勁增長，且利潤率恢復到健康水平，證明其轉型策略的有效性。
-    *   **中國市場策略奏效，實現可持續增長：** 如果星巴克在中國能夠在保持品牌溢價的同時，有效應對競爭並實現穩健的門店擴張和同店銷售增長。
-    *   **數位化與AI投資帶來顯著的營運效率提升和顧客體驗優化：** 如果這些技術投資能夠持續降低成本、提升效率並進一步鞏固顧客忠誠度。
-    *   **新興市場（如印度、拉丁美洲）的擴張速度和盈利能力超出預期：** 為公司提供新的強勁增長引擎。
-    *   **可持續發展目標的達成，進一步強化品牌形象並帶來成本效益：** 提升企業社會責任形象，吸引更多環保意識強的消費者。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbZ1mCouwge5htlpf7BmQoCkTHaSR2KTLghtFMdTILy4MZEAFefMInddMZudp2C2syK9A76KRhyLAMpyaVE69nh5j2r7CCentbSy1Rn9Z1nw2iIGlyJqWjFiT6HiD-qDC4-CUVHBQYIC8nnsatq1IAdzGjIZ27Uf6GnVZL-tW3sVIMQYBEWwXT1_MxG4_Bu4JMLaVsBZwFqdbEDJ03CcU27BIRfaEb">Starbucks growth strategy 2025 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGape1hmZWMaEa41xsSjJHFZT3JN7q5Lzq57DljWVuQIyXhuouhqggvlGLarSmOxqMmqvH6_1bLMb2qtpnWPrnzQQzBWJVXnyEkoVjtdRgffWDGFviWkQpOi8vnkkAHX43Jj0sxlasN9hbKqCF5qoI2L2z7Eb_SYR49nMs2-CLcpZSiPgB9amJ7qMJ_KbktXo9P6L79lU7ia_LjpI3INg3f1g==">Starbucks challenges 2025 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUt9470EBZqDk_l8p7rnc9OVHeO_-FJ-xD9qdOd1ahDhb23xrzNWADp0WQJGLTfHLmXP3sSHBgkxKUCtinPQDMTriabiay78UTv0P8Dv0hnxcR3v5mBEFwE7rQJQgKcgWDw194AKzXMnDi_tyVIseHmzHYeerqCPi4U8SZ6YOzWjX_wyJZB1SP9Ykb1NxeYwzBPiPMjsH1kWKHDkdCH8TLw-yWpqrOlYqVHVaZ9jjrGfggQ==">Starbucks Q4 2025 earnings Q1 2026 earnings date</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxqS4kpgFVAu2xCYfxwnwTXVTR9WnRzOsGr8JBgGDGRkGxiw_EBMeYOaK0wJ8J0IRVbHnFMtPjodWDZmpGX-Z0GCngnzOWUrDdnBc6Tp8yfkUd_dMP9nq1tLwQDNSQScjtCjkxg59Yh8nyAW0UHzezd09X7uylmoEo0j8b7ZXGXqp9kcNjXTJA_AO1N-ZuLPbSEPA9vbIJ-Qk5j41y_H95940=">Starbucks latest news 2025 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtjdUSW214Y-lA7mCwwQZ94IiQcA45U4bvsLe_YEHBNX3AodYDrWG62GRAAdlbF_Z7ygDylTkbvR4m86oYm5nzSx5ohHZNd8vSDrCsz4WIk2204P8xRLUzUIw_hglIB1EFIcl5nAnXShTBfKj8Zx0Nh8861QveN6tv8PkZYjPsPcQHt6Esy8QhDl_FrT87U6wFfO5id2oKULYS0ioj8A==">Coffee industry trends 2025</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVW56MZHeHFtGNy2ViDnasxjxT089UwlhNnUYyi3ZsnpiLvIx30S-tTFraNra552ON16MUSW8iU2BbP5jjoeeQ6CR3K0P-5ZSKUFFMZJlG9pEAHiOgodhbx6qKQCJnB7PSKnNOYKVfEa37rl6ymD0x_-uDWrTr5PGx8MhJeyyOwy6Xaw8oaqb7vOcI6OkBFOnSoBpdvTHOTlx4CbT6_XYFU2DOptEa7YxsplmpdQD-AZDLqW98JVMVBu_UELJl">Starbucks debt to equity ratio explanation negative equity</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Starbucks Q4 2025 earnings Q1 2026 earnings date',
+    'Starbucks latest news 2025 2026',
+    'Starbucks challenges 2025 2026',
+    'Starbucks growth strategy 2025 2026',
+    'Coffee industry trends 2025',
+    <... 1 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
