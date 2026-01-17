@@ -1,127 +1,145 @@
-作為一位具備長期價值投資與產業研究經驗的美股分析師，我將針對美股公司 Halliburton (HAL) 進行系統性分析。
-
-Halliburton (HAL) 是一家全球領先的油田服務公司，為能源產業提供廣泛的產品和服務，涵蓋油氣勘探、開發和生產的整個生命週期。
-
-**目前營運狀況：**
-
-Halliburton 在2025年第三季度表現穩健，營收達到56億美元，較第二季度略有增長。調整後淨利潤為每股0.58美元，超出分析師預期。然而，GAAP淨利潤因一次性費用（包括資產減值和阿根廷投資減記）而顯著下降至每股0.02美元。
-
-從營運部門來看，完井與生產（Completion and Production）部門營收在第三季度達到32億美元，較第二季度增長2%，而鑽井與評估（Drilling and Evaluation）部門營收也增長2%至24億美元。
-
-地理區域方面，北美地區營收增長5%，但國際營收整體持平，其中拉丁美洲有所增長，抵消了中東/亞洲地區的下降。公司管理層表示，國際市場的價值主張正在贏得客戶，且在北美市場正執行「價值最大化」策略，優先考慮回報、技術領先和與領先營運商合作。
-
-財務數據顯示，Halliburton 的P/E為20.11，P/B為2.51，股息率為2.24%。公司擁有健康的流動性，速動比率為1.43，流動比率為1.95。債務權益比為0.84，長期債務權益比為0.77，顯示其資產負債表相對穩健。公司在2025年第三季度回購了約2.5億美元的股票，並支付了每股0.17美元的股息。
-
-分析師對Halliburton的評級多為「買入」或「持有」，目標價有所上調，反映出市場對其未來潛力的樂觀態度，儘管近期有分析師因估值原因將其評級下調至「持有」。
-
-**未來發展潛力：**
-
-Halliburton 的未來發展潛力與全球能源需求、油氣產業投資以及公司自身的技術創新和戰略佈局緊密相關。
-
-1.  **國際市場增長與多元化：** 儘管北美市場面臨挑戰，Halliburton 在國際市場展現出增長潛力，尤其是在拉丁美洲和歐洲/非洲/獨立國協地區。公司正積極拓展國際業務，並將其視為重要的增長引擎。例如，公司正探索在埃及石油領域的進一步投資，以實現其可持續發展目標。
-2.  **技術創新與數位化轉型：** 油氣產業正經歷數位化轉型，Halliburton 積極投資於數位解決方案和自動化技術，以優化營運、提高效率並降低成本。公司正在開發AI相關的軟體架構，這將帶來經常性訂閱收入，有助於在油氣價格週期中增加收入和利潤。此外，Halliburton 還與VoltaGrid合作，為數據中心提供分散式電力解決方案，並計劃在中東地區推出。
-3.  **能源轉型中的機會：** 儘管Halliburton的核心業務是傳統油氣，但公司也積極參與能源轉型，將其專業知識應用於低碳解決方案，例如碳捕獲、利用與儲存（CCUS）和地熱能。公司已承諾設定符合《巴黎協定》的減排目標，並在2023年投入1.87億美元用於環境合規和可持續發展倡議。
-4.  **成本控制與資本效率：** 公司管理層強調資本紀律和股東回報，並在2025年第三季度採取措施，預計每季度可節省1億美元，並調整了2026年的資本預算。這種對成本結構的優化和資本效率的提升，有助於公司在市場波動中保持盈利能力。
-5.  **委內瑞拉市場的潛在機會：** 儘管存在政治風險和運營挑戰，委內瑞拉市場的重新開放為Halliburton帶來了長期機會，因為該國需要大量的資本支出和技術支持來提高石油產量。
-
----
-
-### 反向思考 (Inversion Thinking)
-
-從「這間公司在什麼情況下會失敗或大幅衰退？」開始思考，Halliburton 面臨以下最關鍵的風險來源：
-
-1.  **持續低迷的油氣價格與勘探開發支出減少：** Halliburton 的營收和盈利能力與全球油氣價格以及上游勘探與生產（E&P）公司的資本支出直接相關。如果油價長期維持低位，E&P公司將削減鑽井和完井活動，直接導致對油田服務的需求下降，進而嚴重影響Halliburton的訂單量和定價能力。
-    *   **目前暴露程度：** 2026年油氣市場預計仍將面臨波動，布倫特原油價格預計平均為59美元/桶，低於去年，市場供應過剩，全球液體燃料增長超過需求增長。這表明Halliburton仍暴露於油價波動的風險中。北美地區的需求疲軟和謹慎的支出也構成風險。
-    *   **緩解能力：** Halliburton 透過其全球佈局來分散風險，國際市場的增長可以部分抵消北美市場的疲軟。此外，公司強調資本紀律和成本控制，並在2025年第三季度採取了節省成本的措施，以應對市場下行壓力。公司也透過技術創新，幫助客戶降低開發成本，提高效率，從而維持其服務的吸引力。
-
-2.  **能源轉型加速與化石燃料需求長期結構性下降：** 全球對氣候變化的關注日益增加，推動了能源轉型，長期來看可能導致對化石燃料的需求結構性下降。如果可再生能源和替代能源的發展速度超預期，將對傳統油氣產業造成根本性衝擊，Halliburton 的核心業務將面臨長期萎縮的風險。
-    *   **目前暴露程度：** 能源轉型是油氣產業面臨的長期趨勢，儘管全球對可靠能源的需求依然存在，但脫碳化趨勢、ESG投資和監管壓力確實威脅著Halliburton的收入和未來項目。
-    *   **緩解能力：** Halliburton 正在積極應對能源轉型，透過其「低碳解決方案」業務，將專業知識應用於碳捕獲、利用與儲存（CCUS）和地熱能等新興領域。公司也投資於減少自身營運和客戶營運的排放強度，並承諾設定科學基礎的減排目標。這種多元化和技術轉型有助於公司在能源格局變化中尋找新的增長點。
-
-3.  **地緣政治不穩定與監管環境變化：** 油氣產業高度受地緣政治事件和各國政府監管政策的影響。戰爭、制裁、國家化風險或更嚴格的環境法規都可能導致Halliburton在特定地區的業務中斷、成本增加或市場准入受限。
-    *   **目前暴露程度：** 地緣政治緊張局勢持續影響能源市場，例如委內瑞拉的局勢變化。此外，全球貿易日益兩極化，以及美國中期選舉的結果，都可能對市場產生影響。公司在2025年第三季度因阿根廷的投資減記而受到一次性費用的影響，這也反映了地緣政治和經濟不確定性帶來的風險。
-    *   **緩解能力：** Halliburton 的全球業務遍及70多個國家，使其能夠在一定程度上分散單一地區的政治或監管風險。公司也透過與當地政府和客戶建立長期關係來應對這些挑戰。此外，公司在環境合規和可持續發展方面的投資，有助於其適應日益嚴格的環境法規。
-
-### 反脆弱 (Antifragility)
-
-Halliburton 在市場波動、經濟衰退和產業劇變下，是否能「受益或變得更強」？
-
-Halliburton 屬於高度週期性的油田服務產業，其業務表現與油氣價格和E&P公司的資本支出密切相關。因此，在傳統意義上，它更傾向於「穩健」而非「反脆弱」，但在某些方面展現出增強韌性的特徵。
-
-*   **成本結構與現金流彈性：** Halliburton 展現出在市場下行時調整成本結構的能力。公司在2025年第三季度採取了措施，預計每季度可節省1億美元，並調整了2026年的資本預算，這表明其具備快速響應市場變化的能力。其穩健的自由現金流（Q3 2025為2.76億美元）和股票回購計劃 也提供了財務彈性，使其能夠在低迷時期維持股東回報或進行戰略性投資。
-*   **定價能力：** Halliburton 作為北美最大的油田服務公司，在水力壓裂和完井市場佔據主導地位，這部分業務佔其收入的近一半。其在材料科學和定向鑽井市場的專業知識也賦予其一定的定價能力。透過提供差異化的技術和服務，Halliburton 能夠在一定程度上抵禦價格競爭。
-*   **可選擇權（Optionality）：** Halliburton 正在積極投資於數位化和自動化技術，以及低碳解決方案（如CCUS和地熱能）。這些投資為公司提供了在能源轉型中抓住新市場機會的「可選擇權」。例如，與VoltaGrid合作為數據中心提供電力解決方案，顯示其將核心技術應用於新領域的潛力。此外，公司在國際市場的擴張，特別是新興市場的潛在機會（如委內瑞拉），也增加了其長期增長的可選擇權。
-
-**判斷：穩健 (Robust)**
-
-Halliburton 更傾向於「穩健」而非「反脆弱」。
-
-**理由：**
-
-Halliburton 雖然在市場波動中能夠透過成本控制、資本紀律和技術創新來維持其營運和財務表現，並尋求新的增長機會，但其核心業務的週期性使其難以在負面衝擊中「受益或變得更強」。油氣產業的本質決定了其對商品價格的敏感性，這意味著在油價大幅下跌時，公司仍會面臨營收和利潤壓力。然而，其強大的市場地位、技術領先優勢以及對新興能源領域的戰略性投資，使其具備較強的韌性，能夠抵禦衝擊並在市場復甦時迅速恢復。公司在過去55年持續支付股息的記錄也證明了其財務韌性。
-
-### 第一原理思考 (First Principles Thinking)
-
-從最基本且不可否認的事實出發，Halliburton 真正創造的價值是什麼？誰願意付錢？為什麼？
-
-1.  **公司真正創造的價值是什麼？**
-    Halliburton 真正的價值在於其作為能源產業的「技術賦能者」和「效率提升者」。它提供專業的產品、服務和解決方案，幫助上游油氣公司更有效、更安全、更經濟地勘探、鑽取、完井並生產石油和天然氣。這包括從地質評估、鑽井、完井、生產優化到油藏管理等整個油氣田生命週期的關鍵環節。此外，Halliburton 也透過其數位化和低碳解決方案，幫助客戶降低營運排放，提升可持續性。
-
-2.  **誰願意付錢？為什麼？**
-    *   **上游油氣勘探與生產（E&P）公司：** 這是Halliburton最主要的客戶群。他們願意付錢，因為Halliburton的技術和服務能夠：
-        *   **提高生產效率：** 透過先進的鑽井技術、完井解決方案和生產優化服務，幫助E&P公司從油氣田中提取更多資源，提高採收率。
-        *   **降低營運成本：** 創新技術和數位化解決方案（如自動化鑽井、預測性維護）有助於減少人力、時間和設備損耗，從而降低每桶油當量的開發成本。
-        *   **降低風險：** 專業的鑽井和完井服務有助於減少事故發生，確保作業安全，符合嚴格的環境和安全標準。
-        *   **優化油藏管理：** 透過地質評估和油藏建模，幫助客戶更好地理解地下儲層，做出更明智的投資決策。
-        *   **滿足監管要求：** 提供符合環保法規的解決方案，例如水處理和排放管理。
-    *   **新興能源領域的參與者：** 隨著Halliburton拓展低碳解決方案，如CCUS和地熱能，這些領域的開發商和營運商也將成為其潛在客戶。他們願意付錢，因為Halliburton在地下工程和項目管理方面的專業知識，對於這些新興技術的商業化和規模化至關重要。
-
-3.  **核心競爭優勢與長期護城河是否成立？**
-    Halliburton 的核心競爭優勢和長期護城河主要體現在以下幾個方面：
-
-    *   **技術領先與創新能力：** Halliburton 在油田服務領域擁有深厚的技術積累和持續的研發投入。其在水力壓裂、完井、鑽井和數位化解決方案方面的專有技術和專利是其重要的護城河。這種技術優勢使得客戶難以輕易轉向競爭對手，因為轉換成本可能很高，且新進入者難以複製其技術深度。
-    *   **全球規模與綜合服務能力：** 作為全球性的油田服務巨頭，Halliburton 在全球70多個國家擁有廣泛的營運網絡和客戶基礎。其能夠提供從勘探到生產的全面綜合服務，這種「一站式」解決方案對客戶具有吸引力，減少了多供應商協調的複雜性。這種規模經濟和全球覆蓋是小型競爭對手難以匹敵的。
-    *   **客戶關係與品牌聲譽：** Halliburton 擁有超過百年的營運歷史，與全球主要油氣公司建立了長期穩固的合作關係。其品牌在產業內享有盛譽，代表著可靠性和專業性。這種深厚的客戶信任和品牌忠誠度構成了重要的護城河。
-    *   **數據和數位化優勢：** 隨著油氣產業數位化轉型，Halliburton 在數據分析、AI和自動化方面的投資將成為其新的競爭優勢。透過利用大數據和先進演算法，公司可以提供更精準的油藏評估、更高效的鑽井方案和更優化的生產策略，進一步鞏固其市場地位。
-
-總體而言，Halliburton 的核心競爭優勢和長期護城河是成立的，主要基於其技術創新、全球規模、綜合服務能力和深厚的客戶關係。這些因素使其在高度競爭和週期性的油田服務市場中保持領先地位。
-
----
-
-### 綜合結論
-
-Halliburton (HAL) 作為全球領先的油田服務公司，在當前和未來都面臨著機遇與挑戰。
-
-**本質優勢：**
-
-*   **技術領先與創新能力：** 在水力壓裂、完井、鑽井和數位化解決方案方面擁有專有技術和持續研發投入，是其核心競爭力。
-*   **全球化營運與綜合服務：** 廣泛的國際佈局和提供全生命週期服務的能力，使其能夠分散區域風險並滿足客戶多元需求。
-*   **穩健的財務狀況與資本紀律：** 健康的資產負債表、穩定的現金流以及對成本控制和股東回報的重視，增強了其抵禦市場波動的能力。
-*   **積極應對能源轉型：** 透過投資低碳解決方案和減少排放，為未來能源格局變化做好準備，創造新的增長點。
-
-**致命弱點：**
-
-*   **高度依賴油氣價格週期：** 公司的營收和盈利能力與全球油氣價格及E&P資本支出高度相關，使其容易受到商品市場波動的影響。
-*   **北美市場的潛在疲軟：** 儘管國際市場表現強勁，但北美地區的需求疲軟和E&P公司謹慎的支出可能對其整體業績構成壓力。
-*   **地緣政治與監管風險：** 全球地緣政治不穩定和日益嚴格的環境法規可能導致營運中斷、成本增加或市場准入受限。
-
-**是否適合長期持有型投資（5–10 年）：**
-
-Halliburton 適合**中長期持有型投資（3-5年），但對於嚴格意義上的長期持有（5-10年）則需更謹慎評估。**
-
-理由是，儘管Halliburton擁有強大的競爭優勢和應對市場變化的能力，但其所處的油田服務產業本質上是週期性的。在5-10年的時間跨度內，全球能源轉型的速度和方向仍存在較大不確定性，這可能對傳統油氣服務的長期需求產生結構性影響。然而，公司在數位化和低碳解決方案方面的戰略佈局，為其在能源轉型中提供了重要的「可選擇權」，這可能在未來幾年內逐步顯現價值。
-
-**在哪些前提成立／不成立下，投資結論會改變：**
-
-*   **投資結論會改變為「更具吸引力的長期持有」的前提：**
-    *   **全球油氣需求在可預見的未來（5-10年）保持穩健增長，或至少維持當前水平，且E&P資本支出持續復甦。**
-    *   **Halliburton 在低碳解決方案（如CCUS、地熱能、數據中心電力解決方案）領域的營收佔比和盈利能力顯著提升，成功實現業務多元化，降低對傳統油氣的依賴。**
-    *   **公司在數位化和自動化技術方面取得突破性進展，並能將其轉化為顯著的市場份額增長和更高的利潤率。**
-    *   **地緣政治環境趨於穩定，主要產油國和消費國之間的合作增強，減少了供應鏈和市場波動。**
-
-*   **投資結論會改變為「不適合長期持有，甚至考慮減持」的前提：**
-    *   **全球能源轉型速度遠超預期，導致對化石燃料的需求在未來5-10年內出現大幅且不可逆轉的下降。**
-    *   **Halliburton 在新興能源領域的轉型進展緩慢，未能有效開拓新市場或實現盈利。**
-    *   **油氣價格長期低迷，導致E&P公司持續削減資本支出，嚴重侵蝕Halliburton的核心業務。**
-    *   **主要競爭對手在技術創新或市場拓展方面取得顯著優勢，導致Halliburton的市場份額和定價能力下降。**
-    *   **出現重大的環境事故或嚴格的監管懲罰，嚴重損害公司聲譽和財務狀況。**
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfOy-LwdbwYoyfQe2-THfi4atwGGLQjHaFCOjkddbatJ6NIsOriLWIHYmrEW1QQmHHJ0_iabBQR_juhgw7ZZeOXGKkJMcCJHdAcku5FFx82QIt6oBIIM-5-9-k3XzY-Ep7mxM35je2--FHBOO4WTMMQ8u5Mf0YI4fQVJ9WC_IGl8BzkoivLe771PpiyzDqFMrlyyFa3T9PC2EMTDN-q1q6XKl4y7wBF9UzgguJTg==">oil and gas services industry outlook 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoneKpY-aL_-6En_zMwqXRuv9NNIh9p_tdak-uDnL5CMRDV5EKxBAsG56VKO29HIQ-ekpw-O91v0tHkjmr2Mck1XLiAl0y7GXufWvl7Z1mfW3qZYirlGidBZuCV2zdLAg5eOde_WKiRe-rxO-RqVMdB3pOgTg4emm3TpjtqUfrRmRPy21HCOkOFv88Z-maMBVTrq6bcb2QZxTSUMM1Z8hy4oLl7WNHTIeqxRwa">Halliburton (HAL) Q4 2025 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkYfp79QxkfQ8uxJVZ7U7SL_2tgMGPYZ6f9gTxcjT1eZiaINDlpDeupib6U9sih0lcNVXP3KKk0tc-23fIIP_uClhb-bhGpvH9gwjbCFVuk5qkmmC93-Zh4AWmHWoTg4hWNeWv8Z1QQ0ejyZORmNGCLM_UhcDYDXf8gaKfy5x3IN94eMeZuHHzI5qZS6LbL8cY7yaydOjZQcybjCrYS4SZ">Halliburton (HAL) latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIpYB16K2QaUSC10kQmgUTXs4teJYFPjjJKn8Dd1ybCMS8vDO_decW8h0WfFSuVGFU_Q87wJjSTZ0qeNyb8ZOJ57l_ECOVgW8fNv9SexkOMPvo2Lb1wqjSczmi1zkb12ItGvxX5UWJdw9_iPA5dKJ3fOfoa8JL7uycmYBSy64fDzNWvbugc_vXzvmACdVrm3rJmKz15rTMg3e-I5fUAkg2FpGNY3PVjg==">Halliburton (HAL) investor relations</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNkVDcTZ4wuFNYLbOPpFuscm1Bilq0lhwuOIQXALXG-opV3Tc0QMbPaq9D3HT8pfOvmnm7Lp-oC-XcdicGWeskDf5P5yFJNQR28AXOYelmXOKbVO4nMWddtaQ02JFRiY0D72QuXq6Ii0rX4bS9j-vkhA_5BRWAsZVwzCf-fj_TcP2HwMywxPRtHMuAtN4S509OCBKaMaWsxeENh_jyGWmPgU912e8KO-dM8gI=">Halliburton (HAL) competitive advantages</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGO6pOV-DRpySwPESg61DPtn6mewCRvIUoYVNlDEaOPCVDQpnyrURKhKgyD3XLdRgTiaGJe0gtxbWY0TAD2rDjVjYU7i2wgwXLW_TaIOinab2z1FHZuZDFicsnFyZYlFH0nW6RzuvFwJdTBXWc9OmqCeJE2qmCxrYjLYTFbw8AyQDnhV9gvNVKvz7-SgwGOwtpcEpPj_neTC7lypRYyEVeAVhM9Ow==">Halliburton (HAL) ESG initiatives</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtvMewCaXbwQksYoMn-9VjqTB_iY1vlEdkR_lBDTLqxfWsVR3sTSeoKoS112oMe4bIfUJ0BUABn3LTbh9-wh193K6HItgT330XFcsTs15ET0-b0Spx8fhf75jFpxl0jFO47yAPbIapxTCz2Wjk16vKPpinK1KtgG7HWL7FxoiLTfyHetNXI9gBuCUOIgIp1Pj2xr0qK5dS_1OmtbOaMqrTbYaIYb_-Wm40aJvh_hg8TIMSrz2BnVZQFVA=">energy transition impact on oilfield services industry</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Halliburton (HAL) latest news',
+    'Halliburton (HAL) Q4 2025 earnings report',
+    'Halliburton (HAL) investor relations',
+    'oil and gas services industry outlook 2026',
+    'energy transition impact on oilfield services industry',
+    <... 2 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
