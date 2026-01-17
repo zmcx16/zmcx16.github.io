@@ -13,6 +13,7 @@
       "HOG",
       "PYPL",
       "EPAM",
+      "ADBE",
       "NICE",
       "ZIM",
       "VALE",
@@ -508,6 +509,7 @@
          "HOG":"Harley-Davidson, Inc.",
          "CNMD":"CONMED Corporation",
          "SM":"SM Energy Company",
+         "ADBE":"Adobe Inc.",
          "STC":"Stewart Information Services Corporation"
       }
    },
@@ -803,107 +805,113 @@
       "HOG":"793952",
       "CNMD":"816956",
       "SM":"893538",
+      "ADBE":"796343",
       "STC":"94344"
    },
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":12.815104367596794,
+         "position_%":12.441653906245438,
+         "profit_%":0
+      },
+      "ADBE":{
+         "cost_p":299.55,
+         "position_%":2.914142956928471,
          "profit_%":0
       },
       "ALB":{
          "cost_p":173.45,
-         "position_%":6.952161553083632,
+         "position_%":6.749565626830156,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":5.732877872225724,
+         "position_%":5.565813615482948,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.491374930733905,
+         "position_%":2.4187727036592412,
          "profit_%":0
       },
       "HAL":{
          "cost_p":26.94,
-         "position_%":2.699498879216965,
+         "position_%":2.620831622755901,
          "profit_%":0
       },
       "HOG":{
          "cost_p":21.9,
-         "position_%":3.2917052034995287,
+         "position_%":3.195780208148899,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.4470215829644992,
+         "position_%":3.346570446280735,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.334830048809424,
+         "position_%":4.208506904247225,
          "profit_%":0
       },
       "NICE":{
          "cost_p":119.55,
-         "position_%":3.5938206125878414,
+         "position_%":3.4890915423214692,
          "profit_%":0
       },
       "NKE":{
          "cost_p":70.07,
-         "position_%":9.127693110866835,
+         "position_%":8.861699084946464,
          "profit_%":0
       },
       "NVO":{
          "cost_p":64.24,
-         "position_%":8.368246117341023,
+         "position_%":8.124383462494091,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.248691584758152,
+         "position_%":5.095737208610025,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.7267543987101726,
+         "position_%":2.647292877447423,
          "profit_%":0
       },
       "SBUX":{
          "cost_p":79.91,
-         "position_%":1.6014621784575178,
+         "position_%":1.554793281176125,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.184486799610807,
+         "position_%":3.0916863018256318,
          "profit_%":0
       },
       "SM":{
          "cost_p":18.16,
-         "position_%":3.6394134852694937,
+         "position_%":3.5333557735150083,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":4.300760649442916,
+         "position_%":4.175430335882823,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.4489885897573354,
+         "position_%":2.3776215612529406,
          "profit_%":0
       },
       "VFC":{
          "cost_p":18.8,
-         "position_%":1.3186861637154883,
+         "position_%":1.2802577637515833,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":12.676421871351945,
+         "position_%":12.307012816197402,
          "profit_%":0
       }
    }
