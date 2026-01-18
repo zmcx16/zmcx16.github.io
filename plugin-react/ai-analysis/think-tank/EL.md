@@ -123,23 +123,20 @@ content=Content(
     <div class="gradient-container"><div class="gradient"></div></div>
   </div>
   <div class="carousel">
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiatHfvdhdvl7WghOhGHASRI38tayLHP7MLGvYgDFaWBF1OSYar2ILUWDhHumYmMIwqPro2a_PHZmxf-5-q1uktC7cWq83NPlT6Ue-HKZ7_NZoLayeiVuhlx0ZSsTfhQEbIG7gFMoxmsBZTwfvHhTw6wasTRO3tddImpg11YJ6an4TssEwOgu8Hu0Gpy91JUtPH4SPilVfsXg2tHYS7_XpToJLfgC0IDppADrxzNp-Cr8n">Estee Lauder market dynamics and industry trends</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtIb__-OmxBgVVN0cXseRaPAZYkoLIEQdeOwpBaodWuIYCK4eOY-PZfmJQOjtS98_ti4s0XP3nkwEBIMES4TUtzdhJAgn3tWEk9QWLqj0xL00xZmou4Y_IAzDhFmTlCT88f6Hbk9dA8kVOXc3VOnQ3uxDSjTfOTKbF5OzqyJtXdtxNHswViJsswHoF8uyuEHxpRFlgC0iDRskKefVVUcOsVyAtXBI=">Estee Lauder latest earnings report</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsSy0pVb4Vl79y4sqGgF6Mn3LsvpLnd_uloV1fTAVj2umLGssv0Ib-wLAdf6APVt62q9l5Cg4g_aDRShfYs0MqnwuntcITnwzVVVKdLQP5IsmwBzxjBisnrjcrP-kt9MgTf07Ce_7_1KqV2M7Qe_3ibrG9ng8GjyVYZhkQ-IzzdkVT-pRofayO-IFJ_Kzy5Tvd1ATRpMMOBpvYp_5bX-FHLRPTL4rDYG8r4eH-EUlpAFE=">Estee Lauder Companies Inc. (EL) stock analysis</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkiBuaH3dYuJOM7Yui82lniZ68Ccm6Tv6h892oe6ys4ooD41ggGOCehaPpWFoo3yxhkFyu0qZPRwIvATA2CL8HDBNtFhxXWYfR4nFON-g4tN2h_tbDnUa3egbtbmxdneLZ6FjWnzNak_N35O_jiyMb3iqoEAmm7kNtmWHII0bJbaN-nH9jnMgryqlDXvYPHBpdKBt8kr4rC-2BSTv_Cqg=">Estee Lauder Q1 2025 earnings</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0RVrdyuwfX3Zc8Lzr_ryEhnIX2TCNwCpKjq2m-YKC9HiCmPMYWNeldlE7hwUwRucVszGiLd8yDzrajT_qmRe7U6AzdvduzLegkSlmhL7Kc_L2JwKrGsJDmeya4pVgQsWfNxi7VszP0SsoAvjnGBRaXj4bRwX1sQb-VrlPDoiNqelPYZCknBM92GF78xCL38I694QIdYETmgTq">Estee Lauder debt levels</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1yWKuesCywAMbPU8pNrmtYvl85OUHp-yidQpZbDswONTKetFzj9s0TGySFNajsAAF9Kl2WKMmHA50VrCRes9wt_AiPsNArIh64X1lbdWL6SKd325YUVbFnd0y9RNhBXvwEcwg5IaFBliRg34HaA0uo2IWa7i-awwKD0gh-pl6aHVSwRSei9ulBfgEmMQmkzA_xG6Xp6tcz13zvwUM2Fxybic2">Estee Lauder profitability issues</a>
-    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5Ltt-xHhG0qr0kkl4QSZmrzFnNgi6XiaD9ZbsR1Wczm1lybf6oOIOPbRfnTGJgZNfgYJv4p7yRogyY9CBNrcwrjTfvOQ_ALXyy1BVRUUjO6I4EUqh_4B4kOJ3w22yZ9HS_FAQ2DaHKLRtST9OUg6TqS4AYbaGOGWo-DC37-sIU3-v0jTwMNnUgc8ll7yz9Vjy8xDe3XvGLCIRzuiebdcuH9WLEA==">Estee Lauder competitive landscape</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZQxMNjQ_GBWuYcduTSs2iADM1ChAu66mkzs42UBhR31fONZQRVclhFMvCiHXdURFUpIRX-_y-EmbwSIdMYiy59eAOYAJ2T2XGkMboSzXEJKr3RuIcJyxZcQ-lMtspgwHNugOpM-anI14xDwmTTUR7A4v0EUl8plVgDRGiAI2FAjY2wZZ7AUaM1K534gTVChkAacXEugDLKNaAdL0EYL_1WbJ941YiuSioqTT-aaEul4dcGEovIzkzpQ==">Estee Lauder Companies Inc. (EL) competitive landscape</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDXkZuoqwL9NXe3bU8kALVBFm6VS4wcsbGAQU0bhS0AMWHJX9qJz7InQHra7IQsCYH9P22uyG2kwLCrS-sYGhe2SkKyawpdZ5Ahb5b3wRBEdGtQut1lcxW1LSW9EsrUYJcP6BgLAIK5mZe-EbQJgZy1CJD-vA3FU8poC42q3ga9IBpHW7U-JSHCkuZgyNZXp94URIqUXJuyV2p_VvF09mcC5aR_XfiESjGHuMkRobFMvz31NWAuD3DuPF3">Estee Lauder Companies Inc. (EL) Q4 2025 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9nvsiI9sNQkW3-vReAlHa8wnYZq3iOlMPmWZMSmlExKSs8AKceVEbZzv-QKHwthgJ4eLYRh9yqz6vweGayPPMVyQVsshaFMG-cLABKjCPr_S4q151tdwyj45J3mOSXF21cUE69S0HkL35HoQaDBZ7V_503Qp4rPsL-EaOr-_CcrHqqPS8Bc2-WGv0wgH2yr39BuhWOSL-">EL stock company name</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkQLaINUIGZ-12SRuyWVJmWfjlxzp1br1WdZAyCI92pfAKcCm5bU-YAheEnLs5wiM8n9qlkk-kpsdbye42ePK-vLN7xUjWEiQO0j2xfKvFwuG33S2-3U27XMdPDwQ6tQT9ebzu9veFcUVMKfV4liKyiJfxH767hmWmYz2d1SUIaahkninhlwx3GWV1tUf7TzJsngwo3XvL3_HUR_mnX3tNC4TQANt6EmwCvgz1XoM=">Estee Lauder Companies Inc. (EL) recent news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFngJtlCmEY9T6_9M__7FPBTKscHO8QGneuyrcvPj5zEwT3ezU_MiH-yr9Th_fN6WRhaiiGNotty521nEIgJI11td7aaERPDAAY0GIsdvxeyagdPJ-IjBsvJI0LdYcfCCzFcnIhv4W1M2efjWaQe55s9OPgRDsyBnKGwoqiGIXvVQtyyFvkVvkvxBxk-9h0kWIyHkwHHCIzRhTmMg_TYTSfOtE0dYAizc7sYgfZvb7WpZZp">Estee Lauder Companies Inc. (EL) industry trends</a>
   </div>
 </div>
 """
   ),
   web_search_queries=[
-    'Estee Lauder Companies Inc. (EL) stock analysis',
-    'Estee Lauder latest earnings report',
-    'Estee Lauder Q1 2025 earnings',
-    'Estee Lauder market dynamics and industry trends',
-    'Estee Lauder competitive landscape',
-    <... 2 more items ...>,
+    'EL stock company name',
+    'Estee Lauder Companies Inc. (EL) recent news',
+    'Estee Lauder Companies Inc. (EL) Q4 2025 earnings report',
+    'Estee Lauder Companies Inc. (EL) industry trends',
+    'Estee Lauder Companies Inc. (EL) competitive landscape',
   ]
 ) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None

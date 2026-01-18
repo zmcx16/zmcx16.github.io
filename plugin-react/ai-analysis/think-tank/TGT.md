@@ -1,107 +1,144 @@
-作為一個由全球頂尖投資大師組成的「超級投資智囊團」，我們將對美股公司 **TGT (Target Corporation)** 進行多維度的深度投資分析。
-
-### 1. 核心數據掃描 (Core Health Check)
-
-首先，讓我們快速檢視 Target 的核心財務健康狀況：
-
-*   **獲利能力 (Profitability):**
-    *   **ROE (股東權益報酬率):** 0.251 (25.1%)。這是一個相當健康的數字，顯示公司能有效利用股東資金創造利潤。
-    *   **ROA (資產報酬率):** 0.0635 (6.35%)。相較於 ROE，ROA 較低，這通常意味著公司有較高的財務槓桿。
-    *   **ROI (投資報酬率):** 0.1094 (10.94%)。這也顯示了公司在投資資本方面的合理回報。
-    *   **毛利率 (Gross Margin):** 0.2536 (25.36%)。
-    *   **營運利潤率 (Oper. Margin):** 0.0448 (4.48%)。
-    *   **淨利率 (Profit Margin):** 0.0358 (3.58%)。
-    *   根據最新估計，Target 在2025財年的營運利潤率已穩定在約4.4%至5.3%之間，從2022年庫存危機時的3.5%有所恢復，但仍低於管理層長期目標的6%。2025財年預計的每股盈餘 (EPS) 將介於7.70美元至8.70美元之間，低於2024財年的8.86美元。
-
-*   **債務風險 (Debt Risk):**
-    *   **Debt/Eq (總債務股東權益比):** 1.32。
-    *   **LT Debt/Eq (長期債務股東權益比):** 1.22。
-    *   這些比率顯示 Target 的債務水平相對較高，股東權益的槓桿作用明顯。雖然在零售業中，適度槓桿是常見的，但高於1的債務股東權益比需要密切關注其償債能力。
-    *   公司在2025年第三季度的淨利息支出為1.15億美元，高於去年的1.05億美元，反映了當前年度平均債務水平的上升。
-
-*   **現金流狀況 (Cash Flow):**
-    *   **P/FCF (市盈率/自由現金流):** 16.0。這個比率顯示市場對其自由現金流的估值，16倍的P/FCF在當前市場環境下屬於合理範圍，表明公司產生現金流的能力受到認可。
-
-*   **流動性 (Liquidity):**
-    *   **Quick Ratio (速動比率):** 0.27。
-    *   **Current Ratio (流動比率):** 0.97。
-    *   這兩個比率都低於1，表明公司的短期流動性較為緊張，可能在應對短期債務方面存在壓力。這在零售業中並非罕見，因為庫存通常佔據流動資產的很大一部分，但仍需警惕。
-
-總體而言，Target 展現了良好的獲利能力，但伴隨著較高的債務水平和緊張的短期流動性。公司正處於轉型期，新任CEO Michael Fiddelke 將於2026年2月1日上任，市場將密切關注其「企業加速」計劃能否帶來市場渴望的利潤改善。
-
-### 2. 智囊團辯論 (The Great Debate)
-
-#### 價值派 (Buffett/Munger):
-
-**Warren Buffett (價值投資):**
-「Target 過去以其『平價時尚』的定位在零售業中獨樹一幟，這是一種強大的品牌護城河。然而，目前的數據顯示，公司正處於『戰略擠壓』之中。Walmart 以其60%的雜貨收入佔比，吸引了尋求低價食品的『降級消費』者，而 Target 的雜貨佔比約為20%，使其更容易受到波動性較大的非必需品支出的影響。Amazon 的物流優勢和 Prime 會員的『黏性』也比 Target Circle 360 更強。Costco 則持續從 Target 的中等收入客群中搶佔市場份額，尤其是在家居用品和批量消費品方面。
-
-Target 的『護城河』正在面臨挑戰。儘管公司擁有價值300億美元的高利潤自有品牌，並積極推出如 dealworthy (400多種基本商品，價格低於10美元) 和 Gigglescape (自有玩具系列) 等新品牌以應對『價值』需求，但其在2025年的銷售額預計將略有收縮。公司將在2026年投入50億美元的資本支出，用於門店改造、技術和新店擴張，這顯示了管理層對長期競爭力的投入。
-
-我會關注 Target 在自有品牌上的持續創新能力，以及其全通路策略 (omnichannel strategy) 如何將實體店面轉化為電商履約中心，以降低成本並提升效率。如果他們能有效執行這些策略，並在新的領導團隊下重新定義其市場定位，那麼目前的估值 (P/E 12.9, P/B 3.11, P/S 0.46) 可能提供一個合理的長期買入點，特別是考慮到其4.25%的股息率和連續54年增加股息的『股息王』地位。但前提是，他們必須證明能夠有效應對來自 Walmart 和 Amazon 的雙重壓力，並在『大分化』的零售趨勢中找到自己的位置。
-
-**Charlie Munger (價值投資，強調護城河與管理層):**
-「我同意 Warren 的看法，Target 的護城河正在經受考驗。過去，Target 的『策展式』商品選擇和獨特的購物體驗是其核心優勢。然而，現在的消費者要麼追求極致奢華，要麼追求極致性價比，Target 這種『大眾精品』(masstige) 的定位正處於尷尬境地。
-
-我會特別關注新任 CEO Michael Fiddelke 的領導能力。他能否在 Brian Cornell 奠定的基礎上，有效應對不斷變化的零售格局，並推動『企業加速』計劃以改善利潤率，這至關重要。公司在2025年第三季度的可比銷售額下降了2.7%，其中實體店銷售額下降3.8%，但數位銷售額增長了2.4%，主要得益於 Target Circle 360 驅動的當日達服務增長超過35%。這表明其全通路策略正在發揮作用，但實體店的挑戰不容忽視。
-
-Target 的自有品牌策略是其關鍵的差異化因素，佔其年銷售額的三分之一，並產生了超過300億美元的銷售額。這些品牌，如 Good & Gather，不僅提供品質和價格的平衡，也建立了客戶忠誠度。這是一個重要的護城河組成部分，但需要持續創新和投資。如果管理層能有效執行其供應鏈優化 (利用AI改善預測和庫存管理) 和門店作為履約中心 (節省40%的履約成本) 的策略，那麼這家公司仍有機會鞏固其護城河。」
-
-#### 動能與情緒派 (Fisher/Simons):
-
-**Ken Fisher (成長與動能):**
-「從動能角度看，Target 的表現喜憂參半。過去一年，TGT 是2025年表現最差的零售股之一，下跌了27.7%。這顯示了市場對其流量持續下降和市場份額被 Amazon 和 Walmart 侵蝕的擔憂。然而，最近的數據顯示出一些短期積極信號：週表現0.0878，月表現0.1426，季度表現0.1765，年初至今表現0.0878。這表明股價在近期有所反彈。
-
-目前的股價105.52美元，相對於52週高點145.08美元有顯著下跌，但已從52週低點83.44美元反彈。SMA20、SMA50、SMA200 均為正值，表明短期和中期趨勢向上。這可能是一個從底部反彈的信號，而不是過熱。
-
-分析師的共識是『持有/中性』，平均目標價約為97.28美元至102.83美元，略低於或接近當前股價。這表明華爾街普遍持觀望態度，認為目前股價已大致反映其當前增長狀況，缺乏明確的突破催化劑。然而，一些價值導向的對沖基金在2024年末和2025年開始建倉，押注股價在95-100美元附近觸底反彈。這可能預示著市場情緒正在從極度悲觀中恢復。我會密切關注其Q1 2026財報，這將是新 CEO Michael Fiddelke 的首次財報電話會議，以評估其『企業加速』計劃的執行情況。
-
-**Jim Simons (量化視角):**
-「從量化角度來看，TGT 的數據呈現出複雜的信號。
-*   **估值指標:** P/E 12.9，P/B 3.11，P/S 0.46，P/FCF 16.0。這些指標相對於歷史水平和行業平均水平可能提供一定的價值，特別是P/S和P/FCF。其P/E比率12.66，低於歷史中位數15.34；P/S比率0.44，低於歷史中位數0.62。
-*   **動能指標:** 近期表現 (週、月、季、YTD) 均為正，顯示短期動能強勁。然而，年表現為-0.2366，表明長期仍處於下行趨勢中。SMA20、SMA50、SMA200 均為正，這是一個技術性買入信號，但需要警惕其是否為短期反彈。
-*   **分析師情緒:** 共識評級為『持有』，平均目標價略低於當前股價。這表明市場對其未來增長預期不高。
-*   **空頭持倉 (Short Float):** 0.0447 (4.47%)。這個比例相對較低，不構成顯著的空頭擠壓風險，也意味著沒有大量的悲觀押注。
-*   **機構交易 (Inst Trans):** -0.0074。機構投資者近期略有淨賣出，這與一些價值對沖基金建倉的說法略有出入，可能反映了不同類型機構的策略差異。
-
-綜合來看，TGT 的股價在經歷大幅下跌後出現反彈，但基本面數據顯示其盈利能力和流動性仍面臨挑戰。量化模型會尋找更清晰的趨勢信號。目前的數據更像是從超賣狀態的技術性反彈，而非強勁趨勢的開始。需要更多數據來確認其『企業加速』計劃能否帶來持續的利潤增長和市場份額的穩定。」
-
-#### 反向思考派 (Soros):
-
-**George Soros (反身性理論與市場共識):**
-「我對 Target 的看法是，市場目前對其存在一個『共識』，即它是一家成熟的零售商，正在努力應對來自 Walmart 和 Amazon 的競爭，並在努力現代化其運營。這個共識反映在分析師普遍的『持有/中性』評級和接近當前股價的平均目標價上。市場認為其估值大致合理，缺乏明確的催化劑。
-
-然而，這個共識可能存在『錯誤定價』的風險。
-*   **被低估的潛力:** 市場可能低估了 Target 在自有品牌方面的實力。其自有品牌佔總銷售額的三分之一，貢獻了300億美元的年銷售額，且利潤率更高。在通脹壓力下，消費者對高性價比的自有品牌需求增加，這是一個重要的防禦性優勢。此外，Target 正在積極擴展其健康產品系列，計劃到2026年增加30%的產品，這可能吸引新的消費群體並提升客戶參與度。
-*   **被高估的風險:** 另一方面，市場可能低估了宏觀經濟逆風和競爭加劇的影響。零售業在2026年面臨『大分化』趨勢，消費者要麼追求奢侈品，要麼追求極致價值，Target 的『大眾精品』定位可能難以同時滿足兩端需求。勞動力成本上升、數據隱私問題以及貿易政策變化帶來的進口成本波動，都是持續存在的風險。此外，激進投資者 Toms Capital 正在建倉，這可能導致公司增加支出以解決商品價格差距和勞動力問題，進而影響利潤率。
-
-我會尋找市場共識何時會被打破的信號。如果 Target 的新領導團隊能夠成功執行其『企業加速』計劃，顯著改善營運利潤率，並證明其自有品牌和全通路策略能夠有效抵禦競爭，那麼市場對其『缺乏催化劑』的共識將被打破，股價可能出現反身性上漲。反之，如果宏觀經濟壓力持續，或競爭對手進一步侵蝕其市場份額，那麼目前的『合理估值』可能迅速轉變為『高估』。」
-
-### 3. 風險評估 (Pre-Mortem)
-
-假設一年後這筆投資慘賠 50%，最可能的原因是什麼？
-
-1.  **宏觀經濟嚴重衰退與消費者支出急劇下降：** 零售業對消費者可支配收入高度敏感。如果全球或美國經濟陷入嚴重衰退，失業率飆升，消費者將大幅削減非必需品支出。Target 的商品組合中，非必需品佔比較高 (相較於 Walmart 的雜貨佔比)，這將使其銷售額和利潤率受到嚴重衝擊。即使其自有品牌能提供價值，也難以抵消整體消費環境惡化的影響。
-2.  **競爭加劇導致市場份額加速流失與利潤率壓縮：** Target 面臨來自 Walmart (價格優勢)、Amazon (便利性和物流優勢) 和 Costco (批量採購和會員模式) 的激烈競爭。如果這些競爭對手在價格戰、電商服務或獨家商品方面採取更激進的策略，導致 Target 的客流量和市場份額加速流失，同時為了維持競爭力被迫降價，將嚴重壓縮其本已不高的利潤率。特別是如果其『平價時尚』的品牌定位在『大分化』的零售趨勢中失去吸引力，將會是致命打擊。
-3.  **供應鏈或庫存管理再次出現重大失誤：** Target 在2022年曾因庫存過剩而遭受重創。儘管公司正在努力通過技術和自動化改善庫存管理和供應鏈效率，但如果再次出現類似的重大失誤 (例如，對消費者需求預測錯誤導致大量滯銷庫存，或供應鏈中斷導致商品短缺)，將會導致巨額減值損失、運營成本飆升，並嚴重損害品牌聲譽和財務表現。新任 CEO Michael Fiddelke 的『企業加速』計劃若未能有效解決這些深層次問題，將會加劇投資者的擔憂。
-
-### 4. 最終裁決與操作建議
-
-綜合以上智囊團的觀點，Target (TGT) 目前正處於一個關鍵的轉型期。公司擁有強大的品牌認知度、成功的自有品牌策略和不斷優化的全通路能力，這些都是其長期競爭力的基石。然而，它也面臨著激烈的競爭、宏觀經濟逆風和相對緊張的流動性挑戰。
-
-**投資立場：觀望 (Observe)**
-
-儘管 Target 的估值指標 (P/E 12.9, P/S 0.46) 相對合理，且股息收益率誘人 (4.25%)，但其盈利能力和市場份額在當前零售『大分化』趨勢中面臨的壓力不容小覷。分析師的共識也普遍為『持有/中性』，平均目標價與當前股價接近，表明市場缺乏明確的看漲催化劑。新任 CEO Michael Fiddelke 的領導能力和『企業加速』計劃的執行效果，將是決定公司未來走向的關鍵。在這些不確定性得到更清晰的答案之前，採取觀望態度更為謹慎。
-
-**建議的「安全邊際」買入價格：**
-
-考慮到當前股價約為105.52美元，而分析師的平均目標價在97.28美元至102.83美元之間，且一些價值對沖基金在95-100美元附近建倉，我們建議在股價回落至更具吸引力的水平時再考慮買入，以獲得足夠的「安全邊際」。
-
-建議的「安全邊際」買入價格區間為：**$85 - $95**。
-
-這個價格區間考慮了以下因素：
-*   **分析師低端目標價：** 最低的分析師目標價為80美元。
-*   **歷史支撐位：** 價值對沖基金在95-100美元附近建倉，表明該區域可能存在較強支撐。
-*   **潛在風險折價：** 考慮到宏觀經濟下行、競爭加劇和潛在的運營風險，需要更大的折價來彌補這些不確定性。
-
-在該價格區間內買入，將為投資者提供更好的風險回報比，並在公司成功執行其轉型策略時，獲得更大的上漲潛力。在此之前，密切關注其季度財報、新 CEO 的戰略發言以及零售行業的整體趨勢至關重要。
+content=Content(
+  role='model'
+) citation_metadata=None finish_message=None token_count=None finish_reason=<FinishReason.STOP: 'STOP'> avg_logprobs=None grounding_metadata=GroundingMetadata(
+  search_entry_point=SearchEntryPoint(
+    rendered_content="""<style>
+.container {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-family: Google Sans, Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 12px;
+}
+.chip {
+  display: inline-block;
+  border: solid 1px;
+  border-radius: 16px;
+  min-width: 14px;
+  padding: 5px 16px;
+  text-align: center;
+  user-select: none;
+  margin: 0 8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.carousel {
+  overflow: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  margin-right: -12px;
+}
+.headline {
+  display: flex;
+  margin-right: 4px;
+}
+.gradient-container {
+  position: relative;
+}
+.gradient {
+  position: absolute;
+  transform: translate(3px, -9px);
+  height: 36px;
+  width: 9px;
+}
+@media (prefers-color-scheme: light) {
+  .container {
+    background-color: #fafafa;
+    box-shadow: 0 0 0 1px #0000000f;
+  }
+  .headline-label {
+    color: #1f1f1f;
+  }
+  .chip {
+    background-color: #ffffff;
+    border-color: #d2d2d2;
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #f2f2f2;
+  }
+  .chip:focus {
+    background-color: #f2f2f2;
+  }
+  .chip:active {
+    background-color: #d8d8d8;
+    border-color: #b6b6b6;
+  }
+  .logo-dark {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    background-color: #1f1f1f;
+    box-shadow: 0 0 0 1px #ffffff26;
+  }
+  .headline-label {
+    color: #fff;
+  }
+  .chip {
+    background-color: #2c2c2c;
+    border-color: #3c4043;
+    color: #fff;
+    text-decoration: none;
+  }
+  .chip:hover {
+    background-color: #353536;
+  }
+  .chip:focus {
+    background-color: #353536;
+  }
+  .chip:active {
+    background-color: #464849;
+    border-color: #53575b;
+  }
+  .logo-light {
+    display: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);
+  }
+}
+</style>
+<div class="container">
+  <div class="headline">
+    <svg class="logo-light" width="18" height="18" viewBox="9 9 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z" fill="#4285F4"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z" fill="#34A853"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z" fill="#FBBC05"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z" fill="#EA4335"/>
+    </svg>
+    <svg class="logo-dark" width="18" height="18" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="24" cy="23" fill="#FFF" r="22"/>
+      <path d="M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z" fill="#4285F4"/>
+      <path d="M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z" fill="#34A853"/>
+      <path d="M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z" fill="#FBBC05"/>
+      <path d="M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z" fill="#EA4335"/>
+    </svg>
+    <div class="gradient-container"><div class="gradient"></div></div>
+  </div>
+  <div class="carousel">
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz8jd-pSjuG2sSrLTKOrFUEV4nBhkOuqX_TCvj9hwm2hXhDcig5CpFNY8kkoipcKdcM0H7oYCwp4xK09sXUQnJuJd2mRnFhQV9I_k5vVsqlDulRrH8cLXzLAVzpTaihKywFy4YYHlE-NlZZL74oU_wo4nlWIC_wnhojTLKn8Ac_iEx64-zMxB0-rB9N3p22H6FWI1xj_EpC6fNcYpxu8tt">US retail industry trends 2026</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE3T3KUCFLW9dhsO7G3KFi48IPb4B0LpZxcTx91_qjNFtL3YVH_Ke7y-d87agwfAzjDMG5sXGy7RTfYZF4d6iABrJ-1t0W2v1wC3Ng6PR-XXNUUJUS6T1Acth7EYkoMWp673wuZO1FCdJDDk9ltvhLS2YwCtFANMFJnF43NbLU6LEeTWh6mBNJojMAADbuEourcYnR-dSsXRKCjidCcFBC3IYXD_w==">Target TGT Q3 2025 earnings report</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiIyMhHSm1dslPSOszdESnhALbElrhkAdFmkw5XnFnbPoZs9ugkCOVWvFu5yB5H4LuTvyGgvxUaAAjtJvSTWkCZERlIrS64FZ8EwlaLJTa-ppdPfuaI4bVDDAucxOBDLQ8ELa1Umk_bpSZjRJvcoV8S6j4Q93WlchrPmoP3FD5HGOBMjRdGSKPr8SKbkdRoZsoLlizPoFHaQ==">Target TGT latest news</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJN1QEKPy2Juql_-I_lcmeqJDxoSoho8U3Ad_7vEOfqC3J0BgOdxa7RjZ9JiLW4bKZ2iKxlinueujCXZOzyzK4WBHygKuohj01bSwnjjaUJNuBoq8GFLK_s3IMw9wrTQLc1h12XYhYkVr9dXC_GBwaFxuqiwUORqlZJAe8lrgJ8xcSSUbj9gJy4yyajP-Rg1oQJBkdLMVgbToQ_K7X4VSDn_7-sNEyuZoCI6oufH0=">Target TGT analyst ratings and price targets</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR3Paf9ZFsQVYlYLiBGNeB8Bhysjug7rAq_vaH8-F-pMB9knU1A0t0waJJMTDkEL2s86mxxlNJLHBFefpX2nPv1-DVhjpB3OnARUVVpgM90hAe6ZjvYLt1RP-jEtGQJEgC1FMRXxc5AU9fJtbi5sjVX2HPvLoAK8WgXvaJN4TsAPNPyzA0_3DYVHilo6uXrNy8kLMnb7Q0WUYKu3Y0nONnw9fKZTgeIXg1saFnWt57K2Ox">Target TGT competitive advantages and challenges</a>
+    <a class="chip" href="https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFuyr4ki5BnLylPUyzNfsvTBss44tsaw9PTbscmOxWnNXjr-1ONnwd16VsfXTKihKgNjZ2JgIVks9uDmkIqQnpMpx_4A2yCdImZxVIMJqxnaPTYgCBVu_NZAymiz-GHXs0YobO3-YuYYvo729fuhHwK5apoX5SrKw6wVAjhOxGIHuwuG5S86prkjw93yxNYH6L-JJNqbyrP9EsLoU=">Target TGT dividend policy</a>
+  </div>
+</div>
+"""
+  ),
+  web_search_queries=[
+    'Target TGT latest news',
+    'Target TGT Q3 2025 earnings report',
+    'Target TGT analyst ratings and price targets',
+    'US retail industry trends 2026',
+    'Target TGT competitive advantages and challenges',
+    <... 1 more items ...>,
+  ]
+) index=0 logprobs_result=None safety_ratings=None url_context_metadata=None
