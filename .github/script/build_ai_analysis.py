@@ -104,6 +104,92 @@ class RateLimitError(Exception):
     """Exception raised when API rate limit (429) is hit."""
     pass
 
+def is_valid_markdown(text):
+    """Check if the response text is valid markdown format."""
+    if not text or not isinstance(text, str):
+        return False
+    
+    text = text.strip()
+    
+    # Check if it's a JSON response (common error case)
+    if text.startswith('{') or text.startswith('['):
+        try:
+            json.loads(text)
+            logging.warning('Response appears to be JSON instead of markdown')
+            return False
+        except Exception:
+            pass
+    
+    # Check for Python object representations (from API response objects)
+    python_object_patterns = [
+        'content=',
+        'Content(',
+        'GroundingMetadata(',
+        'SearchEntryPoint(',
+        'FinishReason.',
+    ]
+    for pattern in python_object_patterns:
+        if text.startswith(pattern):
+            logging.warning(f'Response appears to be Python object representation: {pattern}')
+            return False
+    
+    # Check for common error patterns
+    error_patterns = [
+        'error',
+        'exception',
+        'traceback',
+        '<!DOCTYPE',
+        '<html',
+    ]
+    text_lower = text.lower()
+    for pattern in error_patterns:
+        if text_lower.startswith(pattern):
+            logging.warning(f'Response contains error pattern: {pattern}')
+            return False
+    
+    # Check for HTML/XML tags (common in grounding metadata responses)
+    html_tags = [
+        '<style',
+        '<div',
+        '<svg',
+        '<script',
+        '<span',
+        '<table',
+        '<form',
+        '<iframe',
+        '<img',
+        '<link',
+        '<meta',
+        '<head',
+        '<body',
+    ]
+    for tag in html_tags:
+        if text_lower.startswith(tag):
+            logging.warning(f'Response contains HTML tag: {tag}')
+            return False
+    
+    # Basic markdown validation - should have some structure
+    # Check for common markdown elements (at least one should exist)
+    markdown_indicators = [
+        text.count('#') > 0,  # Headers
+        text.count('**') > 0,  # Bold
+        text.count('*') > 2,  # Italic or list
+        text.count('-') > 2,  # Lists or separators
+        text.count('\n') > 3,  # Multiple lines
+    ]
+    
+    # At least 2 markdown indicators should be present
+    if sum(markdown_indicators) < 2:
+        logging.warning('Response lacks markdown structure')
+        return False
+    
+    # Check minimum length (should be substantial analysis)
+    if len(text) < 100:
+        logging.warning(f'Response too short: {len(text)} characters')
+        return False
+    
+    return True
+
 def get_client(api_key):
     """Get or create the Gemini client instance (singleton pattern)."""
     global _model
@@ -185,6 +271,17 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                 except Exception:
                     resp_text = str(response)
 
+                # Check is valid markdown response
+                if not is_valid_markdown(resp_text):
+                    if attempt < max_retries - 1:
+                        wait_time = 30
+                        logging.warning(f'Invalid markdown response for {model_name}, retry {attempt + 1}/{max_retries} after {wait_time}s')
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        logging.error(f'Invalid markdown response after {max_retries} retries for {model_name}')
+                        return None
+
                 return resp_text
             except Exception as inner_ex:
                 # If the SDK inner call failed, check if it's a rate-limit (429) or quota error
@@ -207,7 +304,7 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
             # Handle 503 - Service Unavailable: retry with backoff
             elif '503' in error_str or 'unavailable' in error_str.lower() or 'overloaded' in error_str.lower():
                 if attempt < max_retries - 1:
-                    wait_time = 60 * (attempt + 1)
+                    wait_time = 30
                     logging.warning(f'Service unavailable (503) for {model_name}, retry {attempt + 1}/{max_retries} after {wait_time}s')
                     time.sleep(wait_time)
                     continue
