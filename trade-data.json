@@ -197,6 +197,12 @@
          "strike":110
       },
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":265
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2026-01-30",
@@ -245,6 +251,12 @@
          "strike":95
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":170
+      },
+      {
          "symbol":"FTNT",
          "type":"put",
          "expiry":"2026-02-20",
@@ -273,6 +285,12 @@
          "type":"put",
          "expiry":"2026-01-30",
          "strike":19.5
+      },
+      {
+         "symbol":"HPQ",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":16
       },
       {
          "symbol":"MOH",
