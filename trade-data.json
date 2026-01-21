@@ -203,6 +203,12 @@
          "strike":265
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":230
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2026-01-30",
@@ -219,6 +225,12 @@
          "type":"put",
          "expiry":"2026-02-20",
          "strike":70
+      },
+      {
+         "symbol":"CIVI",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":20
       },
       {
          "symbol":"CMCSA",
@@ -293,6 +305,12 @@
          "strike":16
       },
       {
+         "symbol":"KSPI",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":70
+      },
+      {
          "symbol":"MOH",
          "type":"put",
          "expiry":"2026-02-20",
@@ -327,6 +345,12 @@
          "type":"put",
          "expiry":"2026-01-30",
          "strike":155
+      },
+      {
+         "symbol":"OXM",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":25
       },
       {
          "symbol":"PAYC",
