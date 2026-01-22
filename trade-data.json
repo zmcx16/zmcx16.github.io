@@ -231,12 +231,6 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":20
-      },      
-      {
-         "symbol":"CMCSA",
-         "type":"put",
-         "expiry":"2026-01-23",
-         "strike":27
       },
       {
          "symbol":"CRM",
@@ -317,16 +311,22 @@
          "strike":135
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2026-02-13",
+         "strike":76
+      },
+      {
          "symbol":"NICE",
          "type":"put",
          "expiry":"2026-02-20",
          "strike":95
       },
       {
-         "symbol":"NKE",
+         "symbol":"NOG",
          "type":"put",
-         "expiry":"2026-01-23",
-         "strike":58
+         "expiry":"2026-02-20",
+         "strike":20
       },
       {
          "symbol":"NVO",
@@ -359,12 +359,6 @@
          "strike":135
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-01-23",
-         "strike":140
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-01-30",
@@ -377,6 +371,12 @@
          "strike":250
       },
       {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":50
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2026-02-20",
@@ -387,12 +387,6 @@
          "type":"put",
          "expiry":"2026-01-30",
          "strike":145
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2026-01-23",
-         "strike":80
       },
       {
          "symbol":"SM",
@@ -411,12 +405,6 @@
          "type":"put",
          "expiry":"2026-02-20",
          "strike":80
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2026-01-23",
-         "strike":20
       }
    ],
    "news_config":{
