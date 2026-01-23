@@ -46,6 +46,15 @@
             "profit": 1.5399933,
             "q": 0.98333335
         },
+        "FLO": {
+            "close": 10.98,
+            "loss": 0.28872108,
+            "max_close": 18.77727,
+            "min_close": 10.08,
+            "p": 0.78333336,
+            "profit": 3.2261171,
+            "q": 0.20555556
+        },
         "HOG": {
             "close": 20.78,
             "loss": 0.27857208,
@@ -63,6 +72,15 @@
             "p": 0.2888889,
             "profit": 0.24347973,
             "q": 0.7
+        },
+        "MOH": {
+            "close": 198.75,
+            "loss": 30.114319,
+            "max_close": 353.24,
+            "min_close": 134.51,
+            "p": 0.30555555,
+            "profit": 80.77728,
+            "q": 0.6888889
         },
         "MPW": {
             "close": 5.09,
@@ -117,15 +135,6 @@
             "p": 0.96666664,
             "profit": 10.909218,
             "q": 0.027777778
-        },
-        "SBUX": {
-            "close": 95.83,
-            "loss": 9.212547,
-            "max_close": 113.427155,
-            "min_close": 77.89724,
-            "p": 0.0055555557,
-            "profit": 0.5999985,
-            "q": 0.98888886
         },
         "SID": {
             "close": 1.82,
@@ -184,12 +193,13 @@
     },
     "hold_stock_list": [
         "EL",
+        "FLO",
         "TGT",
-        "SBUX",
         "NKE",
         "PVH",
         "VFC",
         "MPW",
+        "MOH",
         "NVO",
         "ILPT",
         "AAP",
@@ -207,103 +217,108 @@
     "portfolio": {
         "AAP": {
             "cost_p": 91.35,
-            "position_%": 12.776504578522205,
-            "profit_%": -49.87411056376573
+            "position_%": 12.502003996261813,
+            "profit_%": -49.66611932129174
         },
         "ADBE": {
             "cost_p": 299.55,
-            "position_%": 2.9925732633484454,
-            "profit_%": 0.06009013520280648
+            "position_%": 2.9282784401284125,
+            "profit_%": 0.7043899182106539
         },
         "ALB": {
             "cost_p": 173.45,
-            "position_%": 6.931221265602241,
-            "profit_%": 8.573075814355725
+            "position_%": 3.391152698649795,
+            "profit_%": 8.048428942058235
         },
         "EL": {
             "cost_p": 143.03,
-            "position_%": 5.715610133289642,
-            "profit_%": -16.458085716283303
+            "position_%": 5.592811421019086,
+            "profit_%": -17.800461441655603
         },
         "EPAM": {
             "cost_p": 248.63,
-            "position_%": 2.4838707743826536,
-            "profit_%": -11.897196637573899
+            "position_%": 2.4305053198769055,
+            "profit_%": -11.856976229738965
+        },
+        "FLO": {
+            "cost_p": 10.95,
+            "position_%": 3.2112818146626054,
+            "profit_%": 1.5525114155251136
         },
         "HOG": {
             "cost_p": 21.9,
-            "position_%": 3.281790408980018,
-            "profit_%": -5.114155251141541
+            "position_%": 3.2112818146626054,
+            "profit_%": -6.5296803652968025
         },
         "ILPT": {
             "cost_p": 17.2,
-            "position_%": 3.436638967090186,
-            "profit_%": -66.51162790697674
+            "position_%": 3.3628034832387708,
+            "profit_%": -67.32558139534883
+        },
+        "MOH": {
+            "cost_p": 199,
+            "position_%": 3.8906854253750893,
+            "profit_%": -0.07035175879396299
         },
         "MPW": {
             "cost_p": 6.18,
-            "position_%": 4.321773305707018,
-            "profit_%": -17.637540453074433
+            "position_%": 4.228920892003176,
+            "profit_%": -17.31391585760517
         },
         "NICE": {
             "cost_p": 119.55,
-            "position_%": 3.582995830078183,
-            "profit_%": -6.139690506064411
+            "position_%": 3.50601589902205,
+            "profit_%": -3.262233375156831
         },
         "NKE": {
             "cost_p": 70.07,
-            "position_%": 9.100200004395699,
-            "profit_%": -6.579135150563722
+            "position_%": 8.904684072433222,
+            "profit_%": -7.692307692307673
         },
         "NVO": {
             "cost_p": 64.24,
-            "position_%": 8.343040506384755,
-            "profit_%": -3.1288916562889137
+            "position_%": 8.16379199105338,
+            "profit_%": -1.7745952677459427
         },
         "PVH": {
             "cost_p": 87.3,
-            "position_%": 5.232882241168137,
-            "profit_%": -29.335624284077895
+            "position_%": 5.120454838722291,
+            "profit_%": -30.0
         },
         "PYPL": {
             "cost_p": 68.03,
-            "position_%": 2.7185412666412248,
-            "profit_%": -15.992944289284141
-        },
-        "SBUX": {
-            "cost_p": 79.91,
-            "position_%": 1.5966384875591673,
-            "profit_%": 19.922412714303594
+            "position_%": 2.6601339647062043,
+            "profit_%": -16.463325003674854
         },
         "SID": {
             "cost_p": 4.54,
-            "position_%": 3.1748949527362242,
-            "profit_%": -59.91189427312775
+            "position_%": 3.1066829853874456,
+            "profit_%": -58.590308370044056
         },
         "SM": {
             "cost_p": 18.16,
-            "position_%": 3.6284513745556843,
-            "profit_%": 3.2488986784140956
+            "position_%": 3.550494840442795,
+            "profit_%": 4.845814977973563
         },
         "TGT": {
             "cost_p": 107.3,
-            "position_%": 4.287806525218336,
-            "profit_%": -0.7455731593662602
+            "position_%": 4.195683880831629,
+            "profit_%": 0.8574091332712039
         },
         "VALE": {
             "cost_p": 12.22,
-            "position_%": 2.4416121033629112,
-            "profit_%": 28.80523731587561
+            "position_%": 2.3891545677428945,
+            "profit_%": 31.096563011456617
         },
         "VFC": {
             "cost_p": 18.8,
-            "position_%": 1.314714209503106,
-            "profit_%": 6.063829787234045
+            "position_%": 1.2864678441692505,
+            "profit_%": 5.4255319148936145
         },
         "ZIM": {
             "cost_p": 29.42,
-            "position_%": 12.63823980147416,
-            "profit_%": -25.016995241332435
+            "position_%": 12.366709809610581,
+            "profit_%": -24.031271244051666
         }
     },
     "stock_info": {
@@ -332,6 +347,11 @@
             "Information Technology Services",
             "Technology"
         ],
+        "FLO": [
+            "Flowers Foods, Inc",
+            "Packaged Foods",
+            "Consumer Defensive"
+        ],
         "HOG": [
             "Harley-Davidson, Inc",
             "Recreational Vehicles",
@@ -341,6 +361,11 @@
             "Industrial Logistics Properties Trust",
             "REIT - Industrial",
             "Real Estate"
+        ],
+        "MOH": [
+            "Molina Healthcare Inc",
+            "Healthcare Plans",
+            "Healthcare"
         ],
         "MPW": [
             "Medical Properties Trust Inc",
@@ -371,11 +396,6 @@
             "PayPal Holdings Inc",
             "Credit Services",
             "Financial"
-        ],
-        "SBUX": [
-            "Starbucks Corp",
-            "Restaurants",
-            "Consumer Cyclical"
         ],
         "SID": [
             "Companhia Siderurgica Nacional ADR",
