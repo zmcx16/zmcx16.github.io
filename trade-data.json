@@ -221,6 +221,12 @@
          "strike":20
       },
       {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":26
+      },
+      {
          "symbol":"DELL",
          "type":"put",
          "expiry":"2026-03-20",
@@ -233,10 +239,22 @@
          "strike":80
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-02-06",
+         "strike":138
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2026-02-20",
          "strike":95
+      },
+      {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":65
       },
       {
          "symbol":"EPAM",
@@ -305,10 +323,22 @@
          "strike":95
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":52.5
+      },
+      {
          "symbol":"NOG",
          "type":"put",
          "expiry":"2026-02-20",
          "strike":20
+      },
+      {
+         "symbol":"NOW",
+         "type":"put",
+         "expiry":"2026-02-06",
+         "strike":103
       },
       {
          "symbol":"OKE",
@@ -347,6 +377,18 @@
          "strike":47.5
       },
       {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":180
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2026-02-20",
+         "strike":83
+      },
+      {
          "symbol":"SM",
          "type":"put",
          "expiry":"2026-02-20",
@@ -369,6 +411,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":15
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2026-02-06",
+         "strike":20
       },
       {
          "symbol":"ZIM",
