@@ -13,6 +13,7 @@
       "HOG",
       "PYPL",
       "EPAM",
+      "NOW",
       "ADBE",
       "NICE",
       "ZIM",
@@ -257,12 +258,6 @@
          "strike":80
       },
       {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2026-02-06",
-         "strike":138
-      },
-      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2026-02-20",
@@ -377,12 +372,6 @@
          "strike":20
       },
       {
-         "symbol":"NOW",
-         "type":"put",
-         "expiry":"2026-02-06",
-         "strike":103
-      },
-      {
          "symbol":"OKE",
          "type":"put",
          "expiry":"2026-02-20",
@@ -465,12 +454,6 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":15
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2026-02-06",
-         "strike":20
       },
       {
          "symbol":"ZIM",
@@ -917,97 +900,102 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":13.11549718697249,
+         "position_%":12.712989038538577,
          "profit_%":0
       },
       "ADBE":{
          "cost_p":299.55,
-         "position_%":3.0719737136270315,
+         "position_%":2.977696353502409,
          "profit_%":0
       },
       "EL":{
          "cost_p":143.03,
-         "position_%":5.867259559473534,
+         "position_%":5.687196253599727,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":248.63,
-         "position_%":2.549774075844062,
+         "position_%":2.4715227653857585,
          "profit_%":0
       },
       "FLO":{
          "cost_p":10.95,
-         "position_%":3.3688645131913866,
+         "position_%":3.2654757206661373,
          "profit_%":0
       },
       "HOG":{
          "cost_p":21.9,
-         "position_%":3.3688645131913866,
+         "position_%":3.2654757206661373,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":3.527821590678347,
+         "position_%":3.4195544837417082,
          "profit_%":0
       },
       "MOH":{
          "cost_p":199,
-         "position_%":4.081607538052273,
+         "position_%":3.9563450131662785,
          "profit_%":0
       },
       "MPW":{
          "cost_p":6.18,
-         "position_%":4.436440756184456,
+         "position_%":4.3002885746123924,
          "profit_%":0
       },
       "NICE":{
          "cost_p":119.55,
-         "position_%":3.6780616671418285,
+         "position_%":3.5651837662615224,
          "profit_%":0
       },
       "NKE":{
          "cost_p":70.07,
-         "position_%":9.341651061525617,
+         "position_%":9.054960391817323,
+         "profit_%":0
+      },
+      "NOW":{
+         "cost_p":102.91,
+         "position_%":3.068950743504586,
          "profit_%":0
       },
       "NVO":{
          "cost_p":64.24,
-         "position_%":8.564402229090991,
+         "position_%":8.30156494320458,
          "profit_%":0
       },
       "PVH":{
          "cost_p":87.3,
-         "position_%":5.371723689527087,
+         "position_%":5.206868135418334,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":68.03,
-         "position_%":2.79067096295172,
+         "position_%":2.7050266456854466,
          "profit_%":0
       },
       "SID":{
          "cost_p":4.54,
-         "position_%":3.259132853248775,
+         "position_%":3.159111671317195,
          "profit_%":0
       },
       "SM":{
          "cost_p":18.16,
-         "position_%":3.7247232608557432,
+         "position_%":3.6104133386482227,
          "profit_%":0
       },
       "TGT":{
          "cost_p":107.3,
-         "position_%":4.401572752090542,
+         "position_%":4.266490652389364,
          "profit_%":0
       },
       "VALE":{
          "cost_p":12.22,
-         "position_%":2.506394176633105,
+         "position_%":2.4294741739141674,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":12.973563899719624,
+         "position_%":12.575411613960133,
          "profit_%":0
       }
    }
