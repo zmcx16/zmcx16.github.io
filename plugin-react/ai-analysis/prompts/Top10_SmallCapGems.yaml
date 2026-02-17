@@ -1,0 +1,10 @@
+Top10_SmallCapGems:
+  output_path: ./summary/Top10_SmallCapGems.md
+  prompt: |
+    請分析 plugin-react/ai-analysis 目錄下所有股票分析檔案，篩選出 TOP 10 小型股潛力股。
+
+    【輸出格式】
+    - Markdown 格式
+    - 總覽表格（排名、代碼、公司名、市值、產業、成長率、潛力亮點）
+    - 每檔個股詳細分析
+    - 小型股投資風險提示

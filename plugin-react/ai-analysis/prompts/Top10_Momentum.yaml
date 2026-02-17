@@ -1,0 +1,10 @@
+Top10_Momentum:
+  output_path: ./summary/Top10_Momentum.md
+  prompt: |
+    請分析 plugin-react/ai-analysis 目錄下所有股票分析檔案，篩選出 TOP 10 動能強勢股。
+
+    【輸出格式】
+    - Markdown 格式
+    - 總覽表格（排名、代碼、公司名、近3月漲幅、距52週高點、催化劑）
+    - 每檔個股詳細分析
+    - 進場時機與停損建議

@@ -1,0 +1,11 @@
+Top10_UndervaluedGrowth:
+  output_path: ./summary/Top10_UndervaluedGrowth.md
+  prompt: |
+    請分析 plugin-react/ai-analysis 目錄下所有股票分析檔案，篩選出 TOP 10 低基期且具高成長潛力的公司。
+
+    【輸出格式】
+    - Markdown 格式
+    - 包含：總覽表格（排名、代碼、公司名、產業、Forward P/E、低基期理由、成長催化劑、目標價上漲空間）
+    - 每檔個股詳細分析（關鍵指標表、低基期理由、成長潛力、DCF估值區間）
+    - 投資策略建議（依風險等級分類）
+    - 風險提示
