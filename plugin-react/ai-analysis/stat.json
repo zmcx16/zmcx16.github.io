@@ -1,7 +1,7 @@
 {
   "ev-analysis": {
     "AAP": {
-      "last_update_time": "2026-02-09T11:25:29.354910"
+      "last_update_time": "2026-02-17T11:24:45.943744"
     },
     "AAPL": {
       "last_update_time": "2026-01-29T11:42:22.106663"
@@ -82,55 +82,55 @@
       "last_update_time": "2026-02-16T11:37:21.952434"
     },
     "CIVI": {
-      "last_update_time": "2026-01-17T16:21:33.579836"
+      "last_update_time": "2026-02-17T11:44:55.446350"
     },
     "CMCSA": {
-      "last_update_time": "2026-01-17T16:22:07.150924"
+      "last_update_time": "2026-02-17T11:45:28.351081"
     },
     "CNMD": {
       "last_update_time": "2026-02-09T11:43:15.755612"
     },
     "CRM": {
-      "last_update_time": "2026-01-17T16:22:39.190705"
+      "last_update_time": "2026-02-17T11:46:01.747103"
     },
     "CSCO": {
-      "last_update_time": "2026-01-17T16:23:10.547993"
+      "last_update_time": "2026-02-17T11:46:33.379790"
     },
     "CVS": {
-      "last_update_time": "2026-01-17T16:23:42.498100"
+      "last_update_time": "2026-02-17T11:47:06.569358"
     },
     "DE": {
-      "last_update_time": "2026-01-17T16:24:14.375052"
+      "last_update_time": "2026-02-17T11:47:38.171971"
     },
     "DELL": {
-      "last_update_time": "2026-01-17T16:24:46.458345"
+      "last_update_time": "2026-02-17T11:48:10.427402"
     },
     "DEO": {
-      "last_update_time": "2026-01-17T16:25:18.853266"
+      "last_update_time": "2026-02-17T11:48:43.835152"
     },
     "DG": {
-      "last_update_time": "2026-01-17T16:25:53.468901"
+      "last_update_time": "2026-02-17T11:49:15.077707"
     },
     "DHI": {
-      "last_update_time": "2026-01-17T16:26:26.382334"
+      "last_update_time": "2026-02-17T11:49:46.296663"
     },
     "DIS": {
-      "last_update_time": "2026-01-17T16:26:56.958142"
+      "last_update_time": "2026-02-17T11:50:17.706977"
     },
     "EL": {
       "last_update_time": "2026-02-11T11:24:55.227923"
     },
     "EMN": {
-      "last_update_time": "2026-01-17T16:27:28.311868"
+      "last_update_time": "2026-02-17T11:50:47.489351"
     },
     "EPAM": {
       "last_update_time": "2026-02-15T11:12:32.116966"
     },
     "EW": {
-      "last_update_time": "2026-01-17T16:27:59.929882"
+      "last_update_time": "2026-02-17T11:51:17.804628"
     },
     "EXLS": {
-      "last_update_time": "2026-01-17T16:28:32.452201"
+      "last_update_time": "2026-02-17T11:51:49.301553"
     },
     "EXR": {
       "last_update_time": "2026-01-20T12:50:23.737499"
@@ -208,7 +208,7 @@
       "last_update_time": "2026-01-22T11:26:22.954367"
     },
     "ILPT": {
-      "last_update_time": "2026-02-09T11:24:43.957816"
+      "last_update_time": "2026-02-17T11:23:59.957238"
     },
     "INGR": {
       "last_update_time": "2026-01-22T11:27:02.952880"
@@ -364,7 +364,7 @@
       "last_update_time": "2026-01-23T11:30:58.493591"
     },
     "SID": {
-      "last_update_time": "2026-02-09T11:26:24.660980"
+      "last_update_time": "2026-02-17T11:25:35.262130"
     },
     "SM": {
       "last_update_time": "2026-02-14T11:14:05.082460"
@@ -612,7 +612,7 @@
       "last_update_time": "2026-02-14T11:43:40.227700"
     },
     "FLO": {
-      "last_update_time": "2026-02-09T11:40:48.992964"
+      "last_update_time": "2026-02-17T11:42:15.808893"
     },
     "FSLR": {
       "last_update_time": "2026-02-14T11:44:26.931127"
@@ -822,7 +822,7 @@
       "last_update_time": "2026-02-16T11:56:42.268557"
     },
     "SEE": {
-      "last_update_time": "2026-01-10T11:28:02.938277"
+      "last_update_time": "2026-02-17T11:57:53.337102"
     },
     "SID": {
       "last_update_time": "2026-02-13T11:21:29.987597"
@@ -831,19 +831,19 @@
       "last_update_time": "2026-02-13T11:22:29.532621"
     },
     "SMP": {
-      "last_update_time": "2026-01-10T11:29:07.008758"
+      "last_update_time": "2026-02-17T11:58:25.677959"
     },
     "SONY": {
-      "last_update_time": "2026-01-10T11:29:39.565116"
+      "last_update_time": "2026-02-17T11:58:58.227313"
     },
     "SQM": {
-      "last_update_time": "2026-01-10T11:30:11.381427"
+      "last_update_time": "2026-02-17T11:59:30.965239"
     },
     "STM": {
-      "last_update_time": "2026-01-10T11:30:43.088043"
+      "last_update_time": "2026-02-17T12:00:09.842756"
     },
     "STNG": {
-      "last_update_time": "2026-01-11T11:24:25.198097"
+      "last_update_time": "2026-02-17T12:00:42.657002"
     },
     "TDC": {
       "last_update_time": "2026-01-11T11:25:07.646668"
@@ -1073,7 +1073,7 @@
       "last_update_time": "2026-02-04T11:39:59.362470"
     },
     "FLO": {
-      "last_update_time": "2026-02-09T11:37:20.036952"
+      "last_update_time": "2026-02-17T11:36:57.323470"
     },
     "FSLR": {
       "last_update_time": "2026-02-03T11:40:34.330985"
@@ -1184,7 +1184,7 @@
       "last_update_time": "2026-02-04T11:48:11.788076"
     },
     "MOH": {
-      "last_update_time": "2026-02-09T11:38:26.431111"
+      "last_update_time": "2026-02-17T11:37:49.855864"
     },
     "MPW": {
       "last_update_time": "2026-02-14T11:20:18.657398"
@@ -1536,7 +1536,7 @@
       "last_update_time": "2026-01-27T11:34:03.029812"
     },
     "EPAM": {
-      "last_update_time": "2026-02-09T11:31:11.928842"
+      "last_update_time": "2026-02-17T11:30:47.617251"
     },
     "EW": {
       "last_update_time": "2026-01-27T11:34:45.706599"
@@ -1560,7 +1560,7 @@
       "last_update_time": "2026-02-04T11:39:21.934987"
     },
     "FLO": {
-      "last_update_time": "2026-02-09T11:27:17.822219"
+      "last_update_time": "2026-02-17T11:26:25.642389"
     },
     "FSLR": {
       "last_update_time": "2026-01-28T11:28:15.442663"
@@ -1671,10 +1671,10 @@
       "last_update_time": "2026-01-30T11:33:19.680897"
     },
     "MOH": {
-      "last_update_time": "2026-02-09T11:29:27.080593"
+      "last_update_time": "2026-02-17T11:28:45.644826"
     },
     "MPW": {
-      "last_update_time": "2026-02-09T11:28:34.973828"
+      "last_update_time": "2026-02-17T11:27:53.864856"
     },
     "MS": {
       "last_update_time": "2026-01-29T11:50:08.161527"
@@ -1755,7 +1755,7 @@
       "last_update_time": "2026-02-15T11:17:28.183844"
     },
     "PYPL": {
-      "last_update_time": "2026-02-09T11:30:22.411982"
+      "last_update_time": "2026-02-17T11:29:37.299685"
     },
     "QCOM": {
       "last_update_time": "2026-01-31T11:15:38.728989"
@@ -1776,7 +1776,7 @@
       "last_update_time": "2026-01-30T11:51:03.533212"
     },
     "SID": {
-      "last_update_time": "2026-02-09T11:36:28.631707"
+      "last_update_time": "2026-02-17T11:35:58.841560"
     },
     "SM": {
       "last_update_time": "2026-02-14T11:14:54.649028"
@@ -1812,7 +1812,7 @@
       "last_update_time": "2026-01-31T11:23:34.037048"
     },
     "TGT": {
-      "last_update_time": "2026-02-09T11:28:01.488303"
+      "last_update_time": "2026-02-17T11:26:59.786907"
     },
     "TITN": {
       "last_update_time": "2026-01-31T11:24:13.645225"
@@ -1839,7 +1839,7 @@
       "last_update_time": "2026-01-31T11:36:56.132643"
     },
     "VALE": {
-      "last_update_time": "2026-02-09T11:33:59.457095"
+      "last_update_time": "2026-02-17T11:35:04.938904"
     },
     "VFC": {
       "last_update_time": "2026-02-02T11:26:02.040372"
@@ -1869,7 +1869,7 @@
       "last_update_time": "2026-01-31T11:36:02.410008"
     },
     "ZIM": {
-      "last_update_time": "2026-02-09T11:31:56.258269"
+      "last_update_time": "2026-02-17T11:31:42.507558"
     },
     "ZTS": {
       "last_update_time": "2026-01-31T11:38:36.928569"
@@ -2024,7 +2024,7 @@
       "last_update_time": "2026-02-08T11:32:34.623609"
     },
     "FLO": {
-      "last_update_time": "2026-02-09T11:39:21.614575"
+      "last_update_time": "2026-02-17T11:39:38.568060"
     },
     "FSLR": {
       "last_update_time": "2026-02-08T11:33:09.009065"
@@ -2135,7 +2135,7 @@
       "last_update_time": "2026-02-10T11:48:12.656511"
     },
     "MOH": {
-      "last_update_time": "2026-02-09T11:40:14.021327"
+      "last_update_time": "2026-02-17T11:41:28.841048"
     },
     "MPW": {
       "last_update_time": "2026-02-11T11:34:11.066163"
@@ -2234,7 +2234,7 @@
       "last_update_time": "2026-02-11T11:55:09.493163"
     },
     "SBUX": {
-      "last_update_time": "2026-01-18T11:10:44.697696"
+      "last_update_time": "2026-02-17T11:52:21.403208"
     },
     "SEE": {
       "last_update_time": "2026-01-18T21:02:27.584331"
