@@ -779,8 +779,14 @@ function buildHoldTable(data){
     let days = isNaN(min_close) || isNaN(max_close) ? "-" : (min_close.toFixed(2) + ' - ' + max_close.toFixed(2));
     let score = kellyFormula(kelly_result['profit'] / kelly_result['loss'], kelly_result['p'], kelly_result['q']);
     let avg_cost = data["portfolio"][symbol]["cost_p"];
-    let profit_now = data["portfolio"][symbol]["profit_%"].toFixed(2);
-    let profit_color = data["portfolio"][symbol]["profit_%"] > 0 ? "limegreen;" : "orangered";
+    let profit_raw = data["portfolio"][symbol]["profit_%"];
+    let profit_now;
+    if (profit_raw == 0) {
+      profit_now = ((price - avg_cost) / avg_cost * 100).toFixed(2);
+    } else {
+      profit_now = profit_raw.toFixed(2);
+    }
+    let profit_color = parseFloat(profit_now) > 0 ? "limegreen;" : "orangered";
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
     let target_diff = "-";
