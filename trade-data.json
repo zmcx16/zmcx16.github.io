@@ -201,10 +201,22 @@
          "strike":110
       },
       {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2026-03-02",
+         "strike":185
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2026-03-20",
          "strike":52.5
+      },
+      {
+         "symbol":"CALM",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":75
       },
       {
          "symbol":"CIVI",
@@ -223,6 +235,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":90
+      },
+      {
+         "symbol":"FTNT",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":60
       },
       {
          "symbol":"HAL",
@@ -249,16 +267,40 @@
          "strike":15
       },
       {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":64
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-03-20",
          "strike":52.5
       },
       {
+         "symbol":"OKE",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":75
+      },
+      {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-03-06",
+         "strike":110
+      },
+      {
          "symbol":"PVH",
          "type":"put",
          "expiry":"2026-03-20",
          "strike":50
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2026-03-06",
+         "strike":85
       },
       {
          "symbol":"VFC",
