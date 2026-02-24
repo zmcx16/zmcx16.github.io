@@ -201,6 +201,56 @@
 
 .errorMessage {
   color: #d32f2f;
+  background-color: #fdecea;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.fontSizeControl {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fontSizeLabel {
+  font-size: 0.85rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.fontSizeButtons {
+  display: flex;
+  gap: 2px;
+}
+
+.fontSizeBtn {
+  width: 32px;
+  height: 32px;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  color: #555 !important;
+
+  &:hover {
+    background-color: #e3f2fd !important;
+    border-color: #4a90d9 !important;
+  }
+}
+
+.fontSizeBtnActive {
+  background-color: #4a90d9 !important;
+  color: #fff !important;
+  border-color: #4a90d9 !important;
+
+  &:hover {
+    background-color: #3a7bc8 !important;
+  }
+}
+
+.errorMessage {
+  color: #d32f2f;
   text-align: center;
   padding: 20px;
 }

@@ -6,6 +6,7 @@ import Select from '@mui/material/Select'
 import MenuItem from '@mui/material/MenuItem'
 import CircularProgress from '@mui/material/CircularProgress'
 import Typography from '@mui/material/Typography'
+import IconButton from '@mui/material/IconButton'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
@@ -16,6 +17,15 @@ const STOCK_LIST_OPTIONS = [
   { value: 'hold_stock_list', label: 'Hold Stock List' },
   { value: 'watch_stock_list', label: 'Watch Stock List' }
 ]
+
+const FONT_SIZE_OPTIONS = [
+  { value: 14, label: 'S' },
+  { value: 16, label: 'M' },
+  { value: 18, label: 'L' },
+  { value: 22, label: 'XL' }
+]
+
+const DEFAULT_FONT_SIZE = 16
 
 const STOCK_LIST_EXCEPTIONS_PROMPT = [
   'summary'
@@ -32,6 +42,7 @@ const AIAnalysis = () => {
   const [statData, setStatData] = useState({})
   const [selectedStockList, setSelectedStockList] = useState('hold_stock_list')
   const [error, setError] = useState('')
+  const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE)
 
   // Use ref to always have access to latest state values
   const tradeDataRef = useRef({})
@@ -232,7 +243,7 @@ const AIAnalysis = () => {
               </Select>
             </FormControl>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
+          <Grid item xs={12} sm={6} md={2}>
             <FormControl 
               key={`symbol-form-${selectedStockList}-${selectedPrompt}-${symbols.join(',')}`}
               fullWidth 
@@ -255,10 +266,28 @@ const AIAnalysis = () => {
               </Select>
             </FormControl>
           </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Typography variant="body2" color="textSecondary">
-              {symbols.length} symbols available
-            </Typography>
+          <Grid item xs={12} sm={6} md={4}>
+            <div className={aiAnalysisStyle.fontSizeControl}>
+              <span className={aiAnalysisStyle.fontSizeLabel}>Font Size:</span>
+              <div className={aiAnalysisStyle.fontSizeButtons}>
+                {FONT_SIZE_OPTIONS.map((option) => (
+                  <IconButton
+                    key={option.value}
+                    size="small"
+                    onClick={() => setFontSize(option.value)}
+                    className={
+                      aiAnalysisStyle.fontSizeBtn +
+                      (fontSize === option.value ? ' ' + aiAnalysisStyle.fontSizeBtnActive : '')
+                    }
+                  >
+                    {option.label}
+                  </IconButton>
+                ))}
+              </div>
+              <Typography variant="body2" color="textSecondary" style={{ marginLeft: 'auto' }}>
+                {symbols.length} symbols
+              </Typography>
+            </div>
           </Grid>
         </Grid>
       </div>
@@ -286,7 +315,7 @@ const AIAnalysis = () => {
                 </span>
               )}
             </div>
-            <div className={aiAnalysisStyle.markdownContent}>
+            <div className={aiAnalysisStyle.markdownContent} style={{ fontSize: `${fontSize}px` }}>
               <ReactMarkdown remarkPlugins={[remarkGfm]}>
                 {analysisContent}
               </ReactMarkdown>
