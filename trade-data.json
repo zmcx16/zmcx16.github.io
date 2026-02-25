@@ -237,6 +237,12 @@
          "strike":90
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2026-03-06",
+         "strike":96
+      },
+      {
          "symbol":"FTNT",
          "type":"put",
          "expiry":"2026-04-17",
@@ -295,6 +301,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":50
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2026-03-06",
+         "strike":126
       },
       {
          "symbol":"SBUX",
