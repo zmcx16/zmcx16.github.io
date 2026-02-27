@@ -194,6 +194,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":120
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2026-03-02",
@@ -312,6 +318,12 @@
          "type":"put",
          "expiry":"2026-03-06",
          "strike":85
+      },
+      {
+         "symbol":"SM",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":17.5
       },
       {
          "symbol":"VFC",
