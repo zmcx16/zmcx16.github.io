@@ -8,7 +8,25 @@ import argparse
 from datetime import datetime
 from google import genai
 from google.genai import types
-from build_ai_analysis_prompts import prompts
+
+def load_prompts_from_dir(prompts_dir: pathlib.Path) -> dict:
+    """Dynamically load all .txt prompt files from a directory.
+    The filename stem (without extension) becomes the prompt key."""
+    result = {}
+    if not prompts_dir.is_dir():
+        logging.warning(f"Prompts directory not found: {prompts_dir}")
+        return result
+    for txt_file in sorted(prompts_dir.glob("*.txt")):
+        key = txt_file.stem
+        try:
+            result[key] = txt_file.read_text(encoding="utf-8")
+            logging.info(f"Loaded prompt: {key}")
+        except Exception as ex:
+            logging.warning(f"Failed to load prompt {txt_file}: {ex}")
+    return result
+
+_SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
+prompts = load_prompts_from_dir(_SCRIPT_DIR / "prompts" / "stock")
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL_LIST = {
