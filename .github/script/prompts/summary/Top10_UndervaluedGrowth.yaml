@@ -1,7 +1,7 @@
 Top10_UndervaluedGrowth:
   output_path: plugin-react/ai-analysis/summary/Top10_UndervaluedGrowth.md
   prompt: |
-    從 `trade-data.json` 中的 `watch_stock_list` 提取目前市場上被嚴重低估但具備高成長潛力的個股，篩選出 **TOP 10 低估成長股 (Undervalued Growth / GARP)**。
+    請從目前的美股市場，篩選出 **TOP 10 低估成長股 (Undervalued Growth / GARP)**。
     **重要：請使用網路搜尋功能，主動查詢公司的最新 P/E 歷史分位數、PEG 指標、以及分析師對未來的成長預期修正情況。**
 
     【篩選標準】
