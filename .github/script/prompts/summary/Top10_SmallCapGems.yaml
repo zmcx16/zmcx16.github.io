@@ -1,5 +1,5 @@
 Top10_SmallCapGems:
-  output_path: ./summary/Top10_SmallCapGems.md
+  output_path: plugin-react/ai-analysis/summary/Top10_SmallCapGems.md
   prompt: |
     請從目前的美股市場，篩選出 **TOP 10 小型股黑馬 (Small-Cap Gems)**。
     **重要：請使用網路搜尋功能，主動查詢公司的即時市值、最新財報預期、利基市場地位與內部人持股動態。**

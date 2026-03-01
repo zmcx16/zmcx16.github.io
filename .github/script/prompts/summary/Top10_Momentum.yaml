@@ -1,5 +1,5 @@
 Top10_Momentum:
-  output_path: ./summary/Top10_Momentum.md
+  output_path: plugin-react/ai-analysis/summary/Top10_Momentum.md
   prompt: |
     請從目前的美股市場，篩選出最具爆發力的 **TOP 10 動能強勢股 (Momentum Leaders)**。
     **重要：請使用網路搜尋功能，主動查詢公司的即時股價走勢、成交量與技術指標，以進行精準分析。**

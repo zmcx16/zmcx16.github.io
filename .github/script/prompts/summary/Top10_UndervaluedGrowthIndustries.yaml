@@ -1,5 +1,5 @@
 Top10_UndervaluedGrowthIndustries:
-  output_path: ./summary/Top10_UndervaluedGrowthIndustries.md
+  output_path: plugin-react/ai-analysis/summary/Top10_UndervaluedGrowthIndustries.md
   prompt: |
     請根據以下產業類別清單，結合最新市場數據，篩選出 TOP 10 低基期且具高成長潛力的產業。
 

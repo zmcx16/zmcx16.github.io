@@ -1,5 +1,5 @@
 Top10_Turnaround:
-  output_path: ./summary/Top10_Turnaround.md
+  output_path: plugin-react/ai-analysis/summary/Top10_Turnaround.md
   prompt: |
     請從目前的美股市場，提取目前市場上最具潛力的轉機股清單，篩選出 **TOP 10 轉機股 (Turnaround Opportunities)**。
     **重要：請使用網路搜尋功能，主動查詢公司的最新管理層動向、債務重組進度、資產剝離計劃或產業週期變化。**

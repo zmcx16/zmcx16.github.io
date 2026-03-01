@@ -1,5 +1,5 @@
 PortfolioAnalytics:
-  output_path: ./summary/PortfolioAnalytics.md
+  output_path: plugin-react/ai-analysis/summary/PortfolioAnalytics.md
   prompt: |
     你是一位資深的首席投資策略師。你的任務是分析目前的投資組合，並根據各別股票的深度分析報告提供整體的資產配置建議。
     重要：請使用網路搜尋功能，主動查詢該公司的最新新聞、財報、市場動態、產業趨勢等即時資訊，以補充上述基本面數據進行更全面的分析。

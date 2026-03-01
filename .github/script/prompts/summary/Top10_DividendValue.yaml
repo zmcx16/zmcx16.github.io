@@ -1,5 +1,5 @@
 Top10_DividendValue:
-  output_path: ./summary/Top10_DividendValue.md
+  output_path: plugin-react/ai-analysis/summary/Top10_DividendValue.md
   prompt: |
     請從目前的美股市場，篩選出最具投資價值的 **TOP 10 高股息價值股**。
     **重要：請使用網路搜尋功能，主動查詢公司的即時資訊，以進行更全面的分析。**

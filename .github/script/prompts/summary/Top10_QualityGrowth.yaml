@@ -1,5 +1,5 @@
 Top10_QualityGrowth:
-  output_path: ./summary/Top10_QualityGrowth.md
+  output_path: plugin-react/ai-analysis/summary/Top10_QualityGrowth.md
   prompt: |
     請從目前的美股市場，篩選出 **TOP 10 高質量成長股 (Quality Growth Leaders)**。
     **重要：請使用網路搜尋功能，主動查詢公司的即時財報數據、利潤率趨勢與市場份額，以進行深度分析。**
