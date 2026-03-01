@@ -6,6 +6,8 @@ import pathlib
 import logging
 import argparse
 from datetime import datetime
+import yaml
+
 from google import genai
 from google.genai import types
 
@@ -23,6 +25,36 @@ def load_prompts_from_dir(prompts_dir: pathlib.Path) -> dict:
             logging.info(f"Loaded prompt: {key}")
         except Exception as ex:
             logging.warning(f"Failed to load prompt {txt_file}: {ex}")
+    return result
+
+def load_summary_prompts_from_dir(prompts_dir: pathlib.Path) -> dict:
+    """Dynamically load all .yaml prompt files from a directory.
+    Each YAML file should have a top-level key with 'output_path' and 'prompt' fields."""
+    result = {}
+    if not prompts_dir.is_dir():
+        logging.warning(f"Summary prompts directory not found: {prompts_dir}")
+        return result
+    for yaml_file in sorted(prompts_dir.glob("*.yaml")):
+        try:
+            content = yaml_file.read_text(encoding="utf-8")
+            data = yaml.safe_load(content)
+            if not isinstance(data, dict):
+                logging.warning(f"Invalid YAML structure in {yaml_file}: expected dict")
+                continue
+            for key, val in data.items():
+                if not isinstance(val, dict):
+                    logging.warning(f"Skipping {key} in {yaml_file}: value is not a dict")
+                    continue
+                if 'prompt' not in val:
+                    logging.warning(f"Skipping {key} in {yaml_file}: missing 'prompt' field")
+                    continue
+                result[key] = {
+                    'prompt': val['prompt'],
+                    'output_path': val.get('output_path', f'plugin-react/ai-analysis/summary/{key}.md')
+                }
+                logging.info(f"Loaded summary prompt: {key}")
+        except Exception as ex:
+            logging.warning(f"Failed to load summary prompt {yaml_file}: {ex}")
     return result
 
 _SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
@@ -114,6 +146,13 @@ def parse_args():
         choices=list(MODEL_LIST.keys()),
         default=None,
         help=f'Models to use for analysis (default: all supported models)'
+    )
+    parser.add_argument(
+        '--input-type',
+        type=str,
+        choices=['stock', 'summary'],
+        default='stock',
+        help='Type of analysis to perform: stock (per-stock analysis) or summary (portfolio summary prompts) (default: stock)'
     )
 
     return parser.parse_args()
@@ -373,6 +412,21 @@ def should_update(stat_data, prompt_key, symbol, threshold_days=7):
         logging.warning(f'Failed to parse last_update_time for {symbol}: {ex}')
         return True
 
+def should_update_summary(stat_data, prompt_key, threshold_days=7):
+    summary_stat = stat_data.get('summary', {})
+    if prompt_key not in summary_stat:
+        return True
+    last_update_str = summary_stat[prompt_key].get('last_update_time')
+    if not last_update_str:
+        return True
+    try:
+        last_update = datetime.fromisoformat(last_update_str)
+        days_since_update = (datetime.now() - last_update).days
+        return days_since_update >= threshold_days
+    except Exception as ex:
+        logging.warning(f'Failed to parse last_update_time for summary {prompt_key}: {ex}')
+        return True
+
 def save_analysis_result(output_base_dir, prompt_key, symbol, content):
     output_dir = output_base_dir / prompt_key
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -383,12 +437,19 @@ def save_analysis_result(output_base_dir, prompt_key, symbol, content):
     
     logging.info(f'Saved analysis for {symbol} to {output_file}')
 
+def save_summary_result(workspace_root, output_path, content):
+    output_file = workspace_root / output_path
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(content)
+    logging.info(f'Saved summary analysis to {output_file}')
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     args = parse_args()
     update_threshold_days = args.update_threshold_days
-    stock_list_key = args.stock_list
+    input_type = args.input_type
     selected_models = args.models if args.models else list(MODEL_LIST.keys())
     
     # Filter MODEL_LIST based on selected models
@@ -399,118 +460,217 @@ if __name__ == "__main__":
         sys.exit(1)
     
     script_path = pathlib.Path(__file__).parent.resolve()
-    output_dir = plugin_react_folder_path = script_path / ".." / ".." / "plugin-react" / "ai-analysis"
-
-    input_path = script_path / '..' / '..' / 'trade-data.json'
-    with open(input_path, 'r', encoding='utf-8') as f:
-        data = json.loads(f.read())
+    workspace_root = (script_path / ".." / "..").resolve()
+    output_dir = workspace_root / "plugin-react" / "ai-analysis"
     stat_file = output_dir / 'stat.json'
     stat_data = load_stat(stat_file)
 
-    stock_info_path = script_path / '..' / '..' / 'stock-data' / 'stat.json'
-    with open(stock_info_path, 'r', encoding='utf-8') as f:
-        stock_info_data = json.loads(f.read())
-    
-    if stock_list_key not in data:
-        logging.error(f"Stock list key '{stock_list_key}' not found in trade-data.json")
-        sys.exit(1)
-    
-    stock_list = data[stock_list_key]
-    logging.info(f"Starting AI analysis for {len(stock_list)} stocks from '{stock_list_key}'")
-    logging.info(f"Update threshold: {update_threshold_days} days")
-    logging.info(f"Selected models: {', '.join(filtered_model_list.keys())}")
-    logging.info(f"Stock list: {', '.join(stock_list)}")
-    
-    # Build task list (only tasks that need to be updated)
-    tasks = []
-    for prompt_key, prompt_template in prompts.items():
-        for symbol in stock_list:
-            if should_update(stat_data, prompt_key, symbol, update_threshold_days):
+    if input_type == 'summary':
+        # Summary mode: run each summary prompt once (no per-stock iteration)
+        summary_prompts = load_summary_prompts_from_dir(_SCRIPT_DIR / "prompts" / "summary")
+
+        if not summary_prompts:
+            logging.error("No summary prompts found in prompts/summary directory")
+            sys.exit(1)
+
+        tasks = []
+        for prompt_key, prompt_cfg in summary_prompts.items():
+            if should_update_summary(stat_data, prompt_key, update_threshold_days):
                 tasks.append({
                     'prompt_key': prompt_key,
-                    'prompt_template': prompt_template,
-                    'symbol': symbol
+                    'prompt': prompt_cfg['prompt'],
+                    'output_path': prompt_cfg['output_path'],
                 })
-    
-    total_tasks = len(tasks)
-    total_calls = len(stock_list) * len(prompts)
-    skipped_count = total_calls - total_tasks
-    updated_count = 0
-    
-    logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
-    
-    # Try each model in the list (filtered_model_list is a dict -> model_name: config)
-    task_idx = 0
-    for model_idx, (model_name, model_cfg) in enumerate(filtered_model_list.items()):
-        if task_idx >= total_tasks:
-            break
-            
-        logging.info(f"\n{'='*80}")
-        logging.info(f"Using model {model_idx + 1}/{len(filtered_model_list)}: {model_name}")
-        logging.info(f"{'='*80}")
-        
-        model_switched = False
-        
-        while task_idx < total_tasks and not model_switched:
-            task = tasks[task_idx]
-            prompt_key = task['prompt_key']
-            prompt_template = task['prompt_template']
-            symbol = task['symbol']
-            stock_stat = stock_info_data.get(symbol, {})
-            
-            logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {model_name}")
-            stock_stat_str = json.dumps(stock_stat, indent=2, ensure_ascii=False) if stock_stat else "無基本面數據, 請自行取得相關資訊。"
-            prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
-            
-            try:
-                # Respect per-model config (e.g., whether to use grounding tools)
-                use_tool = False
-                try:
-                    use_tool = bool(model_cfg.get('use_tool'))
-                except Exception:
-                    use_tool = False
 
-                if use_tool:
-                    grounding_tool = types.Tool(
-                        google_search=types.GoogleSearch()
-                    )
-                    tools = [grounding_tool]
-                else:
-                    tools = []
+        total_tasks = len(tasks)
+        skipped_count = len(summary_prompts) - total_tasks
+        updated_count = 0
 
-                result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
-            except RateLimitError:
-                logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
-                model_switched = True
-                if model_idx == len(filtered_model_list) - 1:
-                    logging.error("All models exhausted. Exiting program.")
-                    logging.info(f"Progress: {updated_count}/{total_tasks} completed, {total_tasks - task_idx} remaining")
-                    sys.exit(0)
+        logging.info(f"Starting summary AI analysis for {total_tasks} prompts")
+        logging.info(f"Update threshold: {update_threshold_days} days")
+        logging.info(f"Selected models: {', '.join(filtered_model_list.keys())}")
+        logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
+
+        task_idx = 0
+        for model_idx, (model_name, model_cfg) in enumerate(filtered_model_list.items()):
+            if task_idx >= total_tasks:
                 break
-                
-            if result:
-                save_analysis_result(output_dir, prompt_key, symbol, result)
-                if prompt_key not in stat_data:
-                    stat_data[prompt_key] = {}
-                stat_data[prompt_key][symbol] = {
-                    'last_update_time': datetime.now().isoformat()
-                }
-                save_stat(stat_file, stat_data)
-                
-                updated_count += 1
-                logging.info(f"✓ Successfully analyzed {symbol}")
-            else:
-                logging.error(f"✗ Failed to analyze {symbol}")
-            task_idx += 1
-            if task_idx < total_tasks:
-                time.sleep(15)
-        
-        # If we completed all tasks without hitting rate limit, break out
-        if task_idx >= total_tasks:
-            logging.info(f"All tasks completed successfully with {model_name}")
-            break
-    
-    logging.info("\n" + "="*60)
-    logging.info("AI analysis completed!")
-    logging.info(f"Updated: {updated_count}, Skipped: {skipped_count}")
-    logging.info("="*60)
+
+            logging.info(f"\n{'='*80}")
+            logging.info(f"Using model {model_idx + 1}/{len(filtered_model_list)}: {model_name}")
+            logging.info(f"{'='*80}")
+
+            model_switched = False
+
+            while task_idx < total_tasks and not model_switched:
+                task = tasks[task_idx]
+                prompt_key = task['prompt_key']
+                prompt = task['prompt']
+                output_path = task['output_path']
+
+                logging.info(f"[{task_idx + 1}/{total_tasks}] Running summary prompt '{prompt_key}' using {model_name}")
+
+                try:
+                    use_tool = False
+                    try:
+                        use_tool = bool(model_cfg.get('use_tool'))
+                    except Exception:
+                        use_tool = False
+
+                    if use_tool:
+                        grounding_tool = types.Tool(google_search=types.GoogleSearch())
+                        tools = [grounding_tool]
+                    else:
+                        tools = []
+
+                    result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
+                except RateLimitError:
+                    logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
+                    model_switched = True
+                    if model_idx == len(filtered_model_list) - 1:
+                        logging.error("All models exhausted. Exiting program.")
+                        logging.info(f"Progress: {updated_count}/{total_tasks} completed, {total_tasks - task_idx} remaining")
+                        sys.exit(0)
+                    break
+
+                if result:
+                    save_summary_result(workspace_root, output_path, result)
+                    if 'summary' not in stat_data:
+                        stat_data['summary'] = {}
+                    stat_data['summary'][prompt_key] = {
+                        'last_update_time': datetime.now().isoformat()
+                    }
+                    save_stat(stat_file, stat_data)
+                    updated_count += 1
+                    logging.info(f"✓ Successfully ran summary prompt '{prompt_key}'")
+                else:
+                    logging.error(f"✗ Failed to run summary prompt '{prompt_key}'")
+                task_idx += 1
+                if task_idx < total_tasks:
+                    time.sleep(15)
+
+            if task_idx >= total_tasks:
+                logging.info(f"All summary tasks completed successfully with {model_name}")
+                break
+
+        logging.info("\n" + "="*60)
+        logging.info("Summary AI analysis completed!")
+        logging.info(f"Updated: {updated_count}, Skipped: {skipped_count}")
+        logging.info("="*60)
+
+    else:
+        # Stock mode: existing per-stock analysis logic
+        stock_list_key = args.stock_list
+
+        input_path = workspace_root / 'trade-data.json'
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.loads(f.read())
+
+        stock_info_path = workspace_root / 'stock-data' / 'stat.json'
+        with open(stock_info_path, 'r', encoding='utf-8') as f:
+            stock_info_data = json.loads(f.read())
+
+        if stock_list_key not in data:
+            logging.error(f"Stock list key '{stock_list_key}' not found in trade-data.json")
+            sys.exit(1)
+
+        stock_list = data[stock_list_key]
+        logging.info(f"Starting AI analysis for {len(stock_list)} stocks from '{stock_list_key}'")
+        logging.info(f"Update threshold: {update_threshold_days} days")
+        logging.info(f"Selected models: {', '.join(filtered_model_list.keys())}")
+        logging.info(f"Stock list: {', '.join(stock_list)}")
+
+        # Build task list (only tasks that need to be updated)
+        tasks = []
+        for prompt_key, prompt_template in prompts.items():
+            for symbol in stock_list:
+                if should_update(stat_data, prompt_key, symbol, update_threshold_days):
+                    tasks.append({
+                        'prompt_key': prompt_key,
+                        'prompt_template': prompt_template,
+                        'symbol': symbol
+                    })
+
+        total_tasks = len(tasks)
+        total_calls = len(stock_list) * len(prompts)
+        skipped_count = total_calls - total_tasks
+        updated_count = 0
+
+        logging.info(f"Total tasks: {total_tasks} to process, {skipped_count} already up-to-date")
+
+        # Try each model in the list (filtered_model_list is a dict -> model_name: config)
+        task_idx = 0
+        for model_idx, (model_name, model_cfg) in enumerate(filtered_model_list.items()):
+            if task_idx >= total_tasks:
+                break
+
+            logging.info(f"\n{'='*80}")
+            logging.info(f"Using model {model_idx + 1}/{len(filtered_model_list)}: {model_name}")
+            logging.info(f"{'='*80}")
+
+            model_switched = False
+
+            while task_idx < total_tasks and not model_switched:
+                task = tasks[task_idx]
+                prompt_key = task['prompt_key']
+                prompt_template = task['prompt_template']
+                symbol = task['symbol']
+                stock_stat = stock_info_data.get(symbol, {})
+
+                logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {model_name}")
+                stock_stat_str = json.dumps(stock_stat, indent=2, ensure_ascii=False) if stock_stat else "無基本面數據, 請自行取得相關資訊。"
+                prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
+
+                try:
+                    # Respect per-model config (e.g., whether to use grounding tools)
+                    use_tool = False
+                    try:
+                        use_tool = bool(model_cfg.get('use_tool'))
+                    except Exception:
+                        use_tool = False
+
+                    if use_tool:
+                        grounding_tool = types.Tool(
+                            google_search=types.GoogleSearch()
+                        )
+                        tools = [grounding_tool]
+                    else:
+                        tools = []
+
+                    result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
+                except RateLimitError:
+                    logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
+                    model_switched = True
+                    if model_idx == len(filtered_model_list) - 1:
+                        logging.error("All models exhausted. Exiting program.")
+                        logging.info(f"Progress: {updated_count}/{total_tasks} completed, {total_tasks - task_idx} remaining")
+                        sys.exit(0)
+                    break
+
+                if result:
+                    save_analysis_result(output_dir, prompt_key, symbol, result)
+                    if prompt_key not in stat_data:
+                        stat_data[prompt_key] = {}
+                    stat_data[prompt_key][symbol] = {
+                        'last_update_time': datetime.now().isoformat()
+                    }
+                    save_stat(stat_file, stat_data)
+
+                    updated_count += 1
+                    logging.info(f"✓ Successfully analyzed {symbol}")
+                else:
+                    logging.error(f"✗ Failed to analyze {symbol}")
+                task_idx += 1
+                exit(0)
+                if task_idx < total_tasks:
+                    time.sleep(15)
+
+            # If we completed all tasks without hitting rate limit, break out
+            if task_idx >= total_tasks:
+                logging.info(f"All tasks completed successfully with {model_name}")
+                break
+
+        logging.info("\n" + "="*60)
+        logging.info("AI analysis completed!")
+        logging.info(f"Updated: {updated_count}, Skipped: {skipped_count}")
+        logging.info("="*60)
