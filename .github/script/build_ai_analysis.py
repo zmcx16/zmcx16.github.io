@@ -445,6 +445,9 @@ def save_summary_result(workspace_root, output_path, content):
     logging.info(f'Saved summary analysis to {output_file}')
 
 if __name__ == "__main__":
+    root_logger = logging.getLogger()
+    for _h in root_logger.handlers[:]:
+        root_logger.removeHandler(_h)
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     args = parse_args()
