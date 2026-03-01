@@ -1,0 +1,237 @@
+Top10_UndervaluedGrowthIndustries:
+  output_path: plugin-react/ai-analysis/summary/Top10_UndervaluedGrowthIndustries.md
+  prompt: |
+    請根據以下產業類別清單，結合最新市場數據，篩選出 TOP 10 低基期且具高成長潛力的產業。
+
+    【產業類別清單】
+    Diagnostics & Research, Aluminum, Shell Companies, REIT - Mortgage, Airlines, 
+    Rental & Leasing Services, Semiconductors, Building Products & Equipment, 
+    Specialty Retail, Consumer Electronics, REIT - Diversified, Gold, 
+    Airports & Air Services, Aerospace & Defense, Asset Management, 
+    Specialty Industrial Machinery, Drug Manufacturers - General, Medical Distribution, 
+    Banks - Regional, Biotechnology, Beverages - Brewers, Auto & Truck Dealerships, 
+    Specialty Business Services, Medical Devices, Infrastructure Operations, 
+    Conglomerates, Drug Manufacturers - Specialty & Generic, REIT - Residential, 
+    Health Information Services, Business Equipment & Supplies, Gambling, 
+    Insurance - Diversified, Medical Care Facilities, Grocery Stores, 
+    Communication Equipment, Software - Infrastructure, Semiconductor Equipment & Materials, 
+    Engineering & Construction, Information Technology Services, REIT - Retail, 
+    Pollution & Treatment Controls, Farm Products, Auto Parts, 
+    Staffing & Employment Services, Credit Services, Software - Application, 
+    Security & Protection Services, Advertising Agencies, Closed-End Fund - Equity, 
+    Utilities - Regulated Electric, Electrical Equipment & Parts, Insurance - Life, 
+    Apparel Retail, Utilities - Diversified, Entertainment, Insurance - Property & Casualty, 
+    Education & Training Services, Silver, Farm & Heavy Construction Machinery, 
+    Insurance - Specialty, REIT - Hotel & Motel, Textile Manufacturing, 
+    Industrial Distribution, Insurance Brokers, Specialty Chemicals, 
+    Medical Instruments & Supplies, Telecom Services, Oil & Gas Midstream, 
+    Packaging & Containers, Broadcasting, REIT - Specialty, Oil & Gas Refining & Marketing, 
+    Furnishings, Fixtures & Appliances, Internet Retail, Food Distribution, 
+    Computer Hardware, Internet Content & Information, Healthcare Plans, 
+    Closed-End Fund - Foreign, Leisure, Metal Fabrication, Oil & Gas E&P, 
+    Chemicals, Electronic Components, Waste Management, Utilities - Renewable, 
+    Trucking, Thermal Coal, Restaurants, REIT - Office, Oil & Gas Equipment & Services, 
+    Solar, Electronics & Computer Distribution, Utilities - Independent Power Producers, 
+    Mortgage Finance, Utilities - Regulated Gas, Integrated Freight & Logistics, 
+    Electronic Gaming & Multimedia, Other Precious Metals & Mining, Closed-End Fund - Debt, 
+    Utilities - Regulated Water, Auto Manufacturers, Banks - Diversified, 
+    Consulting Services, Resorts & Casinos, Other Industrial Metals & Mining, 
+    Lumber & Wood Production, Real Estate Services, Beverages - Wineries & Distilleries, 
+    Personal Services, Capital Markets, Packaged Foods, Discount Stores, 
+    Travel Services, Oil & Gas Drilling, Oil & Gas Integrated, Tobacco, 
+    Residential Construction, Footwear & Accessories, Department Stores, 
+    Financial Data & Stock Exchanges, Beverages - Non-Alcoholic, Uranium, 
+    Agricultural Inputs, Scientific & Technical Instruments, REIT - Healthcare Facilities, 
+    Household & Personal Products, Lodging, Steel, Paper & Paper Products, 
+    Marine Shipping, Railroads, REIT - Industrial, Apparel Manufacturing, 
+    Building Materials, Recreational Vehicles, Copper, Home Improvement Retail, 
+    Luxury Goods, Real Estate - Development, Publishing, Tools & Accessories, 
+    Insurance - Reinsurance, Pharmaceutical Retailers, Coking Coal, 
+    Real Estate - Diversified, Confectioners, Financial Conglomerates, Exchange Traded Fund
+
+    【參考數據來源】
+    請綜合參考以下數據來源進行分析：
+    - Finviz 產業數據: https://finviz.com/groups.ashx?g=industry&v=152&o=-perf1w&st=d1&c=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28
+
+    【評估標準】
+
+    1. 低基期指標（產業層面，至少符合3項，權重加總需 ≥ 60%）：
+       | 指標 | 門檻值 | 權重 |
+       |------|--------|------|
+       | 產業 Forward P/E vs S&P 500 | 折價 > 20% | 20% |
+       | 產業 P/E vs 自身 5 年均值 | 低於均值 1 個標準差 | 15% |
+       | 產業平均 P/B | < 2.0x | 10% |
+       | 產業 P/S vs 歷史均值 | 低於 25 百分位 | 10% |
+       | 股價距 52 週高點跌幅 | > 25% | 15% |
+       | 產業 ETF 相對 SPY 表現 | 過去 6 個月落後 > 10% | 10% |
+       | 資金流向 | 連續 4 週以上淨流出 | 10% |
+       | 產業週期位置 | 處於收縮期末段或復甦初期 | 10% |
+
+    2. 高成長潛力指標（產業層面，至少符合3項，權重加總需 ≥ 50%）：
+       | 指標 | 門檻值 | 權重 |
+       |------|--------|------|
+       | 產業預期營收成長率 | > 8% YoY | 15% |
+       | 產業預期 EPS 成長率 | > 12% YoY | 20% |
+       | 分析師評級變化 | 過去 3 個月上調比例 > 下調 | 10% |
+       | 產業 TAM 成長率 | > 10% CAGR (未來 5 年) | 15% |
+       | 政策/法規利多 | 有具體政策支持 | 10% |
+       | 技術創新驅動 | 有明確技術突破應用 | 10% |
+       | 結構性需求趨勢 | 具備長期需求成長邏輯 | 10% |
+       | 龍頭企業資本支出 | 前 5 大企業 CapEx 成長 > 10% | 10% |
+
+    3. 宏觀經濟敏感度分析：
+       - 利率敏感度：評估產業對 Fed 利率政策的敏感程度（高/中/低）
+       - 經濟週期敏感度：分類為週期性、防禦性或成長型
+       - 通膨傳導能力：評估成本轉嫁能力（強/中/弱）
+       - 美元匯率影響：評估匯率變動對產業的影響方向與程度
+       - 地緣政治風險：評估供應鏈與市場的地緣政治暴露程度
+
+    4. 產業週期定位分析：
+       請判斷每個候選產業目前所處的週期階段：
+       - 🔴 收縮期（Contraction）：需求下滑、產能過剩、獲利衰退
+       - 🟡 谷底期（Trough）：需求觸底、庫存去化完成、估值極低
+       - 🟢 復甦期（Recovery）：需求回升、訂單回溫、獲利改善
+       - 🔵 擴張期（Expansion）：需求旺盛、產能擴張、獲利高峰
+       ※ 優先選擇處於「谷底期」或「復甦初期」的產業
+
+    5. 排除條件（符合任一項即排除）：
+       - 結構性衰退產業（技術替代、需求永久性萎縮）且無明確反轉契機
+       - Shell Companies、Closed-End Fund 等非實質營運產業
+       - 高度監管風險且無明確解套路徑的產業（如面臨反壟斷訴訟）
+       - 產業平均 Debt/Equity > 3.0 且利息覆蓋率 < 2.0
+       - 過去 3 年產業營收持續負成長且無反轉跡象
+       - ESG 重大爭議產業（除非有明確轉型計畫）
+
+    【評分與排名機制】
+    請使用以下加權評分系統計算每個產業的綜合得分：
+    - 低基期分數（40%）：根據符合的低基期指標加權計算
+    - 成長潛力分數（40%）：根據符合的成長指標加權計算
+    - 風險調整分數（20%）：根據宏觀敏感度與產業週期位置調整
+    - 最終得分 = 低基期分數 × 0.4 + 成長潛力分數 × 0.4 + 風險調整分數 × 0.2
+    - 依最終得分由高至低排名，選出 TOP 10
+
+    【輸出格式】
+
+    ## 一、執行摘要
+    - 分析日期與數據截止日
+    - 當前市場環境概述（S&P 500 P/E、VIX、利率環境）
+    - TOP 10 產業一句話總結
+
+    ## 二、總覽表格
+    | 排名 | 產業名稱 | 綜合得分 | 低基期得分 | 成長得分 | 週期位置 | 代表性 ETF | Forward P/E | vs S&P 500 | 預期 EPS 成長 | 風險等級 | 核心催化劑 |
+    |------|----------|----------|------------|----------|----------|------------|-------------|------------|---------------|----------|------------|
+
+    ## 三、個別產業深度分析
+    **（必須完整輸出全部 10 個產業，每個產業包含以下所有項目）**
+
+    ### 【第 N 名】產業名稱
+
+    #### 3.N.1 產業概述與市場現況
+    - 產業定義與主要業務範疇
+    - 全球與美國市場規模（TAM）
+    - 產業集中度與競爭格局
+    - 近期重大事件與新聞
+
+    #### 3.N.2 低基期分析
+    | 估值指標 | 當前值 | 5年均值 | 歷史百分位 | 評估 |
+    |----------|--------|---------|------------|------|
+    | Forward P/E | | | | |
+    | Trailing P/E | | | | |
+    | P/B | | | | |
+    | P/S | | | | |
+    | EV/EBITDA | | | | |
+    
+    - 股價位置分析（距 52 週高點、距歷史高點）
+    - 資金流向分析（ETF 資金流、機構持倉變化）
+    - 市場情緒指標（賣空比例、選擇權 Put/Call Ratio）
+    - 低估原因深度剖析
+
+    #### 3.N.3 成長驅動因素
+    **短期催化劑（0-6個月）：**
+    - [列出具體催化劑與預期時間點]
+    
+    **中期催化劑（6-18個月）：**
+    - [列出具體催化劑與預期時間點]
+    
+    **長期結構性趨勢（18個月以上）：**
+    - [列出具體趨勢與邏輯]
+
+    #### 3.N.4 宏觀經濟敏感度
+    | 因素 | 敏感度 | 當前環境影響 | 說明 |
+    |------|--------|--------------|------|
+    | 利率 | 高/中/低 | 正面/中性/負面 | |
+    | 經濟週期 | 週期性/防禦性/成長型 | | |
+    | 通膨 | 高/中/低 | 正面/中性/負面 | |
+    | 美元匯率 | 高/中/低 | 正面/中性/負面 | |
+    | 地緣政治 | 高/中/低 | | |
+
+    #### 3.N.5 代表性個股推薦
+    | 股票代碼 | 公司名稱 | 市值 | Forward P/E | 投資亮點 | 風險提示 |
+    |----------|----------|------|-------------|----------|----------|
+    | | | | | | |
+    | | | | | | |
+    | | | | | | |
+    
+    - 產業 ETF 替代選項：[列出 2-3 個相關 ETF]
+
+    #### 3.N.6 投資策略建議
+    - **建議持有期間**：短線（< 3個月）/ 中線（3-12個月）/ 長線（> 12個月）
+    - **建議倉位比重**：核心持股 / 衛星配置 / 投機部位
+    - **進場策略**：分批建倉 / 突破買入 / 回檔承接
+    - **目標報酬與停損**：預期報酬區間、建議停損點位
+
+    #### 3.N.7 風險因素與監控指標
+    **主要風險：**
+    1. [風險1] - 發生機率：高/中/低，影響程度：高/中/低
+    2. [風險2] - 發生機率：高/中/低，影響程度：高/中/低
+    3. [風險3] - 發生機率：高/中/低，影響程度：高/中/低
+    
+    **關鍵監控指標：**
+    - [需要持續追蹤的領先指標或數據]
+
+    ---
+
+    ## 四、產業輪動與配置策略
+
+    ### 4.1 產業相關性分析
+    - 選出的 10 個產業之間的相關性矩陣概述
+    - 分散風險的配置建議
+
+    ### 4.2 依風險承受度的配置建議
+    | 投資人類型 | 建議配置產業 | 建議比重 | 說明 |
+    |------------|--------------|----------|------|
+    | 保守型 | | | |
+    | 穩健型 | | | |
+    | 積極型 | | | |
+
+    ### 4.3 不同市場情境的應對策略
+    | 情境 | 機率評估 | 受益產業 | 受損產業 | 應對策略 |
+    |------|----------|----------|----------|----------|
+    | 軟著陸 | | | | |
+    | 經濟衰退 | | | | |
+    | 通膨反彈 | | | | |
+    | 降息週期 | | | | |
+
+    ## 五、總結與風險提示
+
+    ### 5.1 核心投資主題總結
+    - 本次篩選的核心邏輯與主軸
+    - 最具信心的 3 個產業及理由
+    - 需要密切關注的關鍵時間節點
+
+    ### 5.2 整體風險提示
+    - 系統性風險警示
+    - 數據局限性說明
+    - 投資建議免責聲明
+
+    ### 5.3 下次更新建議追蹤事項
+    - 需要在下次分析時重新評估的項目
+
+    【重要規則】
+    - **禁止省略**：必須完整輸出所有 10 個產業的詳細分析（第三節的 3.1 至 3.10），不得使用「以下省略」、「其餘類推」、「參照上述格式」、「...」等任何形式的省略語句
+    - **格式一致**：每個產業都必須包含 3.N.1 至 3.N.7 的所有分析項目，內容深度保持一致
+    - **數據標註**：所有引用的數據需標註來源或說明為估計值
+    - **時效性**：明確標註分析日期，並說明數據的時效性限制
+    - **量化優先**：盡可能使用具體數字而非模糊描述
+    - **邏輯連貫**：低基期原因與成長催化劑之間需有邏輯連結
+    - **風險平衡**：每個產業的機會與風險分析需平衡呈現
