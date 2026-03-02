@@ -663,8 +663,7 @@ if __name__ == "__main__":
                     logging.info(f"✓ Successfully analyzed {symbol}")
                 else:
                     logging.error(f"✗ Failed to analyze {symbol}")
-                task_idx += 1
-                exit(0)
+                task_idx += 1                
                 if task_idx < total_tasks:
                     time.sleep(15)
 
