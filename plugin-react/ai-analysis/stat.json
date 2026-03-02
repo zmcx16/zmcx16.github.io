@@ -361,7 +361,7 @@
       "last_update_time": "2026-02-28T11:12:11.965096"
     },
     "PYPL": {
-      "last_update_time": "2026-02-23T11:22:52.925678"
+      "last_update_time": "2026-03-02T11:28:56.662693"
     },
     "QCOM": {
       "last_update_time": "2026-02-24T11:54:29.428657"
@@ -528,7 +528,7 @@
       "last_update_time": "2026-02-13T11:30:29.432796"
     },
     "ARLP": {
-      "last_update_time": "2026-01-06T17:15:26.309208"
+      "last_update_time": "2026-03-02T11:31:29.064293"
     },
     "ARTNA": {
       "last_update_time": "2026-02-13T11:31:23.372455"
@@ -1429,19 +1429,19 @@
       "last_update_time": "2026-03-01T15:10:12.388913"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-02-19T20:16:44.725968"
+      "last_update_time": "2026-03-02T11:21:50.462354"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-02-19T20:17:06.084715"
+      "last_update_time": "2026-03-02T11:22:26.328599"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-02-19T20:15:57.528012"
+      "last_update_time": "2026-03-02T11:23:15.671038"
     },
     "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-02-19T20:59:25.590073"
+      "last_update_time": "2026-03-02T11:24:07.791694"
     },
     "Top10_UndervaluedGrowthIndustries": {
-      "last_update_time": "2026-02-19T20:47:16.558785"
+      "last_update_time": "2026-03-02T11:26:26.863556"
     }
   },
   "super-thinking": {
