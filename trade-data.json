@@ -202,6 +202,12 @@
          "strike":120
       },
       {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":125
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2026-03-13",
@@ -244,6 +250,12 @@
          "strike":96
       },
       {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":65
+      },
+      {
          "symbol":"FTNT",
          "type":"put",
          "expiry":"2026-04-17",
@@ -266,6 +278,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":16
+      },
+      {
+         "symbol":"KSPI",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":65
       },
       {
          "symbol":"KSS",
@@ -296,6 +314,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":52.5
+      },
+      {
+         "symbol":"NOG",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":23
       },
       {
          "symbol":"OKE",
