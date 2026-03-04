@@ -280,6 +280,12 @@
          "strike":16
       },
       {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":35
+      },
+      {
          "symbol":"KSPI",
          "type":"put",
          "expiry":"2026-03-20",
