@@ -244,12 +244,6 @@
          "strike":90
       },
       {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2026-03-06",
-         "strike":96
-      },
-      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2026-03-20",
@@ -340,10 +334,10 @@
          "strike":50
       },
       {
-         "symbol":"ORCL",
+         "symbol":"PAGS",
          "type":"put",
-         "expiry":"2026-03-06",
-         "strike":110
+         "expiry":"2026-03-20",
+         "strike":9
       },
       {
          "symbol":"PFE",
@@ -364,22 +358,16 @@
          "strike":50
       },
       {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-03-06",
-         "strike":126
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2026-03-06",
-         "strike":85
-      },
-      {
          "symbol":"SM",
          "type":"put",
          "expiry":"2026-03-20",
          "strike":17.5
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":13.5
       },
       {
          "symbol":"VFC",
