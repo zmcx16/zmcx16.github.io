@@ -244,6 +244,12 @@
          "strike":90
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":90
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2026-03-20",
@@ -266,6 +272,12 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":27
+      },
+      {
+         "symbol":"HMC",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":22.5
       },
       {
          "symbol":"HPQ",
@@ -356,6 +368,18 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":50
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":115
+      },
+      {
+         "symbol":"SBUX",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":85
       },
       {
          "symbol":"SM",
