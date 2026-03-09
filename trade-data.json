@@ -204,6 +204,12 @@
          "strike":120
       },
       {
+         "symbol":"AEO",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":13
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2026-03-27",
@@ -378,6 +384,12 @@
          "strike":115
       },
       {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":170
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2026-03-27",
@@ -388,6 +400,24 @@
          "type":"put",
          "expiry":"2026-03-20",
          "strike":17.5
+      },
+      {
+         "symbol":"TGT",
+         "type":"put",
+         "expiry":"2026-03-20",
+         "strike":100
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":180
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":85
       },
       {
          "symbol":"VALE",
