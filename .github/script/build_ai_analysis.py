@@ -5,6 +5,7 @@ import time
 import pathlib
 import logging
 import argparse
+import concurrent.futures
 from datetime import datetime
 import yaml
 
@@ -297,9 +298,22 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                     filtered_kwargs = {k: v for k, v in request_kwargs.items() if k in accepted}
 
                 logging.debug(f'Filtered params for SDK call: {list(filtered_kwargs.keys())}')
-                
-                # Call SDK with filtered kwargs
-                response = gen_func(**filtered_kwargs)
+
+                # Call SDK with filtered kwargs, applying a per-call timeout so
+                # the script never hangs indefinitely on a stalled HTTP request.
+                api_timeout = _get_env_int('GEMINI_API_TIMEOUT', 120)
+                with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+                    future = executor.submit(gen_func, **filtered_kwargs)
+                    try:
+                        response = future.result(timeout=api_timeout)
+                    except concurrent.futures.TimeoutError:
+                        logging.warning(f'API call timed out after {api_timeout}s for {model_name}')
+                        if attempt < max_retries - 1:
+                            logging.warning(f'Retrying ({attempt + 1}/{max_retries})...')
+                            time.sleep(30)
+                            continue
+                        logging.error(f'API call timed out after {max_retries} retries for {model_name}')
+                        return None
 
                 # Robustly extract text from various SDK response shapes
                 resp_text = None
