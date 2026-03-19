@@ -197,12 +197,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":120
-      },
-      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-05-15",
@@ -215,16 +209,10 @@
          "strike":125
       },
       {
-         "symbol":"BBY",
+         "symbol":"AMZN",
          "type":"put",
-         "expiry":"2026-03-20",
-         "strike":52.5
-      },
-      {
-         "symbol":"CALM",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":75
+         "expiry":"2026-03-27",
+         "strike":190
       },
       {
          "symbol":"CIVI",
@@ -233,28 +221,10 @@
          "strike":20
       },
       {
-         "symbol":"CMCSA",
+         "symbol":"CVS",
          "type":"put",
-         "expiry":"2026-03-20",
-         "strike":26
-      },
-      {
-         "symbol":"DELL",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":90
-      },
-      {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":90
-      },
-      {
-         "symbol":"EMN",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":65
+         "expiry":"2026-04-17",
+         "strike":60
       },
       {
          "symbol":"FTNT",
@@ -263,16 +233,10 @@
          "strike":60
       },
       {
-         "symbol":"GLOB",
+         "symbol":"GAP",
          "type":"put",
-         "expiry":"2026-03-20",
-         "strike":35
-      },
-      {
-         "symbol":"HAL",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":27
+         "expiry":"2026-04-24",
+         "strike":19
       },
       {
          "symbol":"HMC",
@@ -281,76 +245,28 @@
          "strike":22.5
       },
       {
-         "symbol":"HPQ",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":16
-      },
-      {
-         "symbol":"KBR",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":35
-      },
-      {
-         "symbol":"KSPI",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":65
-      },
-      {
          "symbol":"KSS",
          "type":"put",
-         "expiry":"2026-03-20",
-         "strike":10
-      },
-      {
-         "symbol":"M",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":15
-      },
-      {
-         "symbol":"MTDR",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":40
-      },
-      {
-         "symbol":"NFLX",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":64
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":52.5
-      },
-      {
-         "symbol":"NOG",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":23
-      },
-      {
-         "symbol":"OKE",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":75
-      },
-      {
-         "symbol":"OMF",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":50
-      },
-      {
-         "symbol":"PAGS",
-         "type":"put",
-         "expiry":"2026-03-20",
+         "expiry":"2026-04-17",
          "strike":9
+      },
+      {
+         "symbol":"MSFT",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":355
+      },
+      {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":120
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-03-27",
+         "strike":140
       },
       {
          "symbol":"PFE",
@@ -359,46 +275,10 @@
          "strike":25
       },
       {
-         "symbol":"PGR",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":190
-      },
-      {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":50
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":115
-      },
-      {
-         "symbol":"SAP",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":170
-      },
-      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2026-03-27",
          "strike":85
-      },
-      {
-         "symbol":"SM",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":17.5
-      },
-      {
-         "symbol":"TGT",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":100
       },
       {
          "symbol":"TM",
@@ -411,18 +291,6 @@
          "type":"put",
          "expiry":"2026-03-27",
          "strike":85
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":13.5
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2026-03-20",
-         "strike":15
       }
    ],
    "news_config":{
