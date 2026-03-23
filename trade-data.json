@@ -35,7 +35,6 @@
       "AMZN",
       "APD",
       "APTV",
-      "ARLP",
       "ASML",
       "AZN",
       "BAC",
@@ -231,6 +230,12 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":20
+      },
+      {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":25
       },
       {
          "symbol":"CVS",
