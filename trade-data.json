@@ -286,6 +286,12 @@
          "strike":22.5
       },
       {
+         "symbol":"HOG",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":15
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-04-17",
@@ -304,6 +310,12 @@
          "strike":355
       },
       {
+         "symbol":"MSFT",
+         "type":"put",
+         "expiry":"2026-04-01",
+         "strike":350
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-03-27",
@@ -314,6 +326,12 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":22
+      },
+      {
+         "symbol":"OMF",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":45
       },
       {
          "symbol":"ORCL",
@@ -370,10 +388,22 @@
          "strike":22.5
       },
       {
+         "symbol":"TX",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":35
+      },
+      {
          "symbol":"UPS",
          "type":"put",
          "expiry":"2026-03-27",
          "strike":85
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2026-04-10",
+         "strike":13
       },
       {
          "symbol":"VFC",
