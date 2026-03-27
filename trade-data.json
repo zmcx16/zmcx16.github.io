@@ -198,8 +198,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":116
+         "expiry":"2026-04-02",
+         "strike":115
       },
       {
          "symbol":"AEO",
@@ -210,19 +210,19 @@
       {
          "symbol":"ALB",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":125
+         "expiry":"2026-04-17",
+         "strike":120
       },
       {
          "symbol":"AMZN",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":190
+         "expiry":"2026-04-02",
+         "strike":187.5
       },
       {
          "symbol":"BBY",
          "type":"put",
-         "expiry":"2026-03-27",
+         "expiry":"2026-04-02",
          "strike":56
       },
       {
@@ -252,8 +252,8 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":89
+         "expiry":"2026-04-02",
+         "strike":88
       },
       {
          "symbol":"EMN",
@@ -306,20 +306,8 @@
       {
          "symbol":"MSFT",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":355
-      },
-      {
-         "symbol":"MSFT",
-         "type":"put",
          "expiry":"2026-04-01",
          "strike":350
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2026-03-27",
-         "strike":49
       },
       {
          "symbol":"NOG",
@@ -336,26 +324,26 @@
       {
          "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-03-27",
+         "expiry":"2026-04-02",
          "strike":120
       },
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":140
+         "expiry":"2026-04-02",
+         "strike":142
       },
       {
          "symbol":"PFE",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":25
+         "expiry":"2026-04-24",
+         "strike":24.5
       },
       {
          "symbol":"PGR",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":185
+         "expiry":"2026-04-02",
+         "strike":190
       },
       {
          "symbol":"QCOM",
@@ -366,8 +354,8 @@
       {
          "symbol":"SBUX",
          "type":"put",
-         "expiry":"2026-03-27",
-         "strike":85
+         "expiry":"2026-04-10",
+         "strike":80
       },
       {
          "symbol":"TEAM",
@@ -400,9 +388,15 @@
          "strike":35
       },
       {
+         "symbol":"UAL",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":65
+      },
+      {
          "symbol":"UPS",
          "type":"put",
-         "expiry":"2026-03-27",
+         "expiry":"2026-04-17",
          "strike":85
       },
       {
