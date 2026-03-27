@@ -301,19 +301,24 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
 
                 # Call SDK with filtered kwargs, applying a per-call timeout so
                 # the script never hangs indefinitely on a stalled HTTP request.
+                # NOTE: do NOT use `with` here — exiting the context manager calls
+                # shutdown(wait=True), which blocks until the hung thread finishes,
+                # defeating the purpose of the timeout.
                 api_timeout = _get_env_int('GEMINI_API_TIMEOUT', 120)
-                with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-                    future = executor.submit(gen_func, **filtered_kwargs)
-                    try:
-                        response = future.result(timeout=api_timeout)
-                    except concurrent.futures.TimeoutError:
-                        logging.warning(f'API call timed out after {api_timeout}s for {model_name}')
-                        if attempt < max_retries - 1:
-                            logging.warning(f'Retrying ({attempt + 1}/{max_retries})...')
-                            time.sleep(30)
-                            continue
-                        logging.error(f'API call timed out after {max_retries} retries for {model_name}')
-                        return None
+                executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+                future = executor.submit(gen_func, **filtered_kwargs)
+                try:
+                    response = future.result(timeout=api_timeout)
+                except concurrent.futures.TimeoutError:
+                    executor.shutdown(wait=False)  # abandon the hung thread immediately
+                    logging.warning(f'API call timed out after {api_timeout}s for {model_name}')
+                    if attempt < max_retries - 1:
+                        logging.warning(f'Retrying ({attempt + 1}/{max_retries})...')
+                        time.sleep(30)
+                        continue
+                    logging.error(f'API call timed out after {max_retries} retries for {model_name}')
+                    return None
+                executor.shutdown(wait=False)
 
                 # Robustly extract text from various SDK response shapes
                 resp_text = None
