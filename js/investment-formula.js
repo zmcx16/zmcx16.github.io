@@ -745,8 +745,8 @@ function buildHoldTable(data){
   let total_postion_kelly = 0;
   data["hold_stock_list"].forEach((symbol) => {
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
-    if (kelly_result === null) {
-      console.log('symbol ' + symbol + ' data is null');
+    if (kelly_result == null) {
+      console.log('symbol ' + symbol + ' data is null or undefined');
       return;
     }
 
@@ -767,8 +767,8 @@ function buildHoldTable(data){
   let output = "";
   data["hold_stock_list"].forEach((symbol) => {
     let kelly_result = data["KellyFormula_Range_v1"][symbol];
-    if (kelly_result === null){
-      console.log('symbol ' + symbol + ' data is null');
+    if (kelly_result == null){
+      console.log('symbol ' + symbol + ' data is null or undefined');
       return;
     }
 
