@@ -51,7 +51,8 @@ def load_summary_prompts_from_dir(prompts_dir: pathlib.Path) -> dict:
                     continue
                 result[key] = {
                     'prompt': val['prompt'],
-                    'output_path': val.get('output_path', f'plugin-react/ai-analysis/summary/{key}.md')
+                    'output_path': val.get('output_path', f'plugin-react/ai-analysis/summary/{key}.md'),
+                    'inject': val.get('inject'),
                 }
                 logging.info(f"Loaded summary prompt: {key}")
         except Exception as ex:
@@ -456,6 +457,66 @@ def save_analysis_result(output_base_dir, prompt_key, symbol, content):
     
     logging.info(f'Saved analysis for {symbol} to {output_file}')
 
+def build_summary_prompt_with_context(prompt: str, cfg: dict, workspace_root: pathlib.Path) -> str:
+    """Pre-inject local file content into a summary prompt based on the 'inject' config."""
+    inject = cfg.get('inject')
+    if not inject:
+        return prompt
+
+    context_parts = []
+
+    # --- Inject portfolio data from trade-data.json ---
+    if inject.get('portfolio_from_trade_data'):
+        try:
+            trade_data = json.loads((workspace_root / 'trade-data.json').read_text(encoding='utf-8'))
+            portfolio = trade_data.get('portfolio', {})
+            context_parts.append(
+                "## 【持股組合資料 (from trade-data.json .portfolio)】\n```json\n"
+                + json.dumps(portfolio, indent=2, ensure_ascii=False)
+                + "\n```"
+            )
+            logging.info(f"Injected portfolio data: {list(portfolio.keys())}")
+        except Exception as ex:
+            logging.warning(f"Failed to inject portfolio data: {ex}")
+
+    # --- Inject per-stock .md analysis files for portfolio holdings ---
+    if inject.get('stock_md_files_for_portfolio'):
+        md_dirs = inject.get('md_dirs')
+        try:
+            trade_data = json.loads((workspace_root / 'trade-data.json').read_text(encoding='utf-8'))
+            portfolio_symbols = sorted(trade_data.get('portfolio', {}).keys())
+            ai_analysis_dir = workspace_root / 'plugin-react' / 'ai-analysis'
+            md_sections = []
+            missing = []
+            for symbol in portfolio_symbols:
+                found = False
+                for md_dir in md_dirs:
+                    md_file = ai_analysis_dir / md_dir / f'{symbol}.md'
+                    if md_file.exists():
+                        content = md_file.read_text(encoding='utf-8')
+                        md_sections.append(f"### {symbol} ({md_dir})\n{content}")
+                        found = True
+                        break
+                if not found:
+                    missing.append(symbol)
+            if md_sections:
+                context_parts.append(
+                    "## 【個股深度分析報告 (from plugin-react/ai-analysis)】\n\n"
+                    + "\n\n---\n\n".join(md_sections)
+                )
+                logging.info(f"Injected {len(md_sections)} stock MD files")
+            if missing:
+                logging.warning(f"No .md analysis files found for: {missing}")
+        except Exception as ex:
+            logging.warning(f"Failed to inject stock MD files: {ex}")
+
+    if not context_parts:
+        return prompt
+
+    injected_context = "\n\n".join(context_parts)
+    return f"{injected_context}\n\n---\n\n{prompt}"
+
+
 def save_summary_result(workspace_root, output_path, content):
     output_file = workspace_root / output_path
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -529,6 +590,7 @@ if __name__ == "__main__":
                 prompt_key = task['prompt_key']
                 prompt = task['prompt']
                 output_path = task['output_path']
+                prompt_cfg = summary_prompts[prompt_key]
 
                 logging.info(f"[{task_idx + 1}/{total_tasks}] Running summary prompt '{prompt_key}' using {model_name}")
 
@@ -545,7 +607,9 @@ if __name__ == "__main__":
                     else:
                         tools = []
 
-                    result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
+                    enriched_prompt = build_summary_prompt_with_context(prompt, prompt_cfg, workspace_root)
+                    logging.info(f"Enriched prompt for '{prompt_key}': {enriched_prompt}...")
+                    result = call_gemini_api(enriched_prompt, GEMINI_API_KEY, model_name, tools)
                 except RateLimitError:
                     logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
                     model_switched = True
