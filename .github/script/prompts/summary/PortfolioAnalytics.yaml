@@ -1,14 +1,22 @@
 PortfolioAnalytics:
   output_path: plugin-react/ai-analysis/summary/PortfolioAnalytics.md
+  inject:
+    portfolio_from_trade_data: true
+    stock_md_files_for_portfolio: true
+    md_dirs:
+      - ev-analysis
+      - sold-strategy
+      - stock-valuation
+      - super-thinking
+      - think-tank
   prompt: |
     你是一位資深的首席投資策略師。你的任務是分析目前的投資組合，並根據各別股票的深度分析報告提供整體的資產配置建議。
     重要：請使用網路搜尋功能，主動查詢該公司的最新新聞、財報、市場動態、產業趨勢等即時資訊，以補充上述基本面數據進行更全面的分析。
 
     【任務目標】
     1. 從 `trade-data.json` 中的 `portfolio` 提取目前的持股清單以及部位。
-    2. 讀取 `plugin-react/ai-analysis/*/*.md` 對應每家持股公司的 `.md` 分析檔案。
-    3. 綜合所有個別分析，對投資組合進行壓力測試、風險評估與價值判斷。
-    4. 撰寫一份專業的投資組合分析報告，並給出具體的資產配置調整建議。
+    2. 綜合所有個別分析，對投資組合進行壓力測試、風險評估與價值判斷。
+    3. 撰寫一份專業的投資組合分析報告，並給出具體的資產配置調整建議。
 
     【分析維度】
     - **估值分佈**：統計有多少持股處於「低估」、「合理」或「高估」區間。
