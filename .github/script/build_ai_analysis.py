@@ -608,7 +608,7 @@ if __name__ == "__main__":
                         tools = []
 
                     enriched_prompt = build_summary_prompt_with_context(prompt, prompt_cfg, workspace_root)
-                    logging.info(f"Enriched prompt for '{prompt_key}': {enriched_prompt}...")
+                    # logging.info(f"Enriched prompt for '{prompt_key}': {enriched_prompt}...")
                     result = call_gemini_api(enriched_prompt, GEMINI_API_KEY, model_name, tools)
                 except RateLimitError:
                     logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
