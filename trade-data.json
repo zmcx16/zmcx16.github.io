@@ -198,8 +198,8 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2026-04-02",
-         "strike":115
+         "expiry":"2026-04-17",
+         "strike":105
       },
       {
          "symbol":"AEO",
@@ -216,14 +216,20 @@
       {
          "symbol":"AMZN",
          "type":"put",
-         "expiry":"2026-04-02",
-         "strike":187.5
+         "expiry":"2026-04-17",
+         "strike":180
       },
       {
          "symbol":"BBY",
          "type":"put",
-         "expiry":"2026-04-02",
-         "strike":56
+         "expiry":"2026-04-17",
+         "strike":55
+      },
+      {
+         "symbol":"CALM",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":70
       },
       {
          "symbol":"CIVI",
@@ -258,7 +264,7 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2026-04-02",
+         "expiry":"2026-04-10",
          "strike":88
       },
       {
@@ -318,8 +324,8 @@
       {
          "symbol":"MSFT",
          "type":"put",
-         "expiry":"2026-04-01",
-         "strike":350
+         "expiry":"2026-04-17",
+         "strike":330
       },
       {
          "symbol":"NOG",
@@ -336,7 +342,7 @@
       {
          "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-04-02",
+         "expiry":"2026-04-10",
          "strike":120
       },
       {
@@ -348,8 +354,8 @@
       {
          "symbol":"PEP",
          "type":"put",
-         "expiry":"2026-04-02",
-         "strike":142
+         "expiry":"2026-04-10",
+         "strike":145
       },
       {
          "symbol":"PFE",
@@ -358,16 +364,10 @@
          "strike":24.5
       },
       {
-         "symbol":"PGR",
-         "type":"put",
-         "expiry":"2026-04-02",
-         "strike":190
-      },
-      {
          "symbol":"QCOM",
          "type":"put",
-         "expiry":"2026-04-02",
-         "strike":115
+         "expiry":"2026-04-17",
+         "strike":110
       },
       {
          "symbol":"SBUX",
@@ -422,12 +422,6 @@
          "type":"put",
          "expiry":"2026-04-10",
          "strike":13
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2026-04-02",
-         "strike":14.5
       },
       {
          "symbol":"ZIM",
