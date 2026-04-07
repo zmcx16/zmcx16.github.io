@@ -226,6 +226,12 @@
          "strike":55
       },
       {
+         "symbol":"CAG",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":13.5
+      },
+      {
          "symbol":"CALM",
          "type":"put",
          "expiry":"2026-05-15",
@@ -272,6 +278,12 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":60
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":75
       },
       {
          "symbol":"F",
@@ -424,10 +436,22 @@
          "strike":13
       },
       {
+         "symbol":"VFC",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":15
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2026-04-17",
          "strike":20
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":110
       }
    ],
    "news_config":{
