@@ -1802,11 +1802,20 @@
     "NXPI": {
       "last_update_time": "2026-03-25T11:41:39.005098"
     },
+    "OKE": {
+      "last_update_time": "2026-04-10T10:56:49.687697"
+    },
     "OMC": {
       "last_update_time": "2026-04-09T11:09:39.282696"
     },
+    "OMF": {
+      "last_update_time": "2026-04-10T10:57:48.032625"
+    },
     "ORCL": {
       "last_update_time": "2026-04-09T11:11:04.186278"
+    },
+    "OXM": {
+      "last_update_time": "2026-04-10T10:58:49.438203"
     },
     "PAGS": {
       "last_update_time": "2026-04-09T11:13:03.197437"
@@ -1814,8 +1823,20 @@
     "PAYC": {
       "last_update_time": "2026-03-30T11:00:25.152631"
     },
+    "PBR": {
+      "last_update_time": "2026-04-10T10:59:32.345736"
+    },
     "PBR-A": {
       "last_update_time": "2026-04-09T11:14:46.235519"
+    },
+    "PCTY": {
+      "last_update_time": "2026-04-10T11:00:11.384705"
+    },
+    "PEP": {
+      "last_update_time": "2026-04-10T11:02:18.485740"
+    },
+    "PFE": {
+      "last_update_time": "2026-04-10T11:03:07.264718"
     },
     "PODD": {
       "last_update_time": "2026-04-02T10:48:30.713534"
@@ -1826,11 +1847,26 @@
     "PYPL": {
       "last_update_time": "2026-03-30T10:55:37.934002"
     },
+    "QCOM": {
+      "last_update_time": "2026-04-10T11:04:31.393812"
+    },
+    "RYN": {
+      "last_update_time": "2026-04-10T11:05:35.353160"
+    },
+    "SAIC": {
+      "last_update_time": "2026-04-10T11:06:47.803494"
+    },
+    "SAP": {
+      "last_update_time": "2026-04-10T11:07:48.197078"
+    },
+    "SBUX": {
+      "last_update_time": "2026-04-10T11:08:48.952752"
+    },
     "SID": {
       "last_update_time": "2026-03-30T11:03:57.208333"
     },
     "SM": {
-      "last_update_time": "2026-03-06T10:51:13.786687"
+      "last_update_time": "2026-04-10T11:09:46.812914"
     },
     "TGT": {
       "last_update_time": "2026-02-21T11:18:15.528101"
