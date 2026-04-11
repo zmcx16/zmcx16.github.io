@@ -252,14 +252,14 @@
       {
          "symbol":"CVS",
          "type":"put",
-         "expiry":"2026-04-10",
+         "expiry":"2026-04-17",
          "strike":60
       },
       {
          "symbol":"CVS",
          "type":"put",
-         "expiry":"2026-04-17",
-         "strike":60
+         "expiry":"2026-05-01",
+         "strike":68
       },
       {
          "symbol":"DHI",
@@ -270,8 +270,8 @@
       {
          "symbol":"DIS",
          "type":"put",
-         "expiry":"2026-04-10",
-         "strike":88
+         "expiry":"2026-04-24",
+         "strike":89
       },
       {
          "symbol":"EMN",
@@ -322,6 +322,12 @@
          "strike":15
       },
       {
+         "symbol":"HPQ",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":15
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-04-17",
@@ -332,6 +338,12 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
+      },
+      {
+         "symbol":"MOH",
+         "type":"put",
+         "expiry":"2026-04-17",
+         "strike":125
       },
       {
          "symbol":"MSFT",
@@ -354,20 +366,14 @@
       {
          "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-04-10",
-         "strike":120
+         "expiry":"2026-04-17",
+         "strike":115
       },
       {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":22.5
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-04-10",
-         "strike":145
       },
       {
          "symbol":"PFE",
@@ -380,12 +386,6 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":110
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2026-04-10",
-         "strike":80
       },
       {
          "symbol":"TEAM",
@@ -428,12 +428,6 @@
          "type":"put",
          "expiry":"2026-04-17",
          "strike":85
-      },
-      {
-         "symbol":"VALE",
-         "type":"put",
-         "expiry":"2026-04-10",
-         "strike":13
       },
       {
          "symbol":"VFC",
