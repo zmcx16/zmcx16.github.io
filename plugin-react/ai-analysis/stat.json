@@ -570,7 +570,7 @@
       "last_update_time": "2026-02-13T11:40:12.353419"
     },
     "CIVI": {
-      "last_update_time": "2026-03-16T11:03:38.130166"
+      "last_update_time": "2026-04-16T10:52:52.939917"
     },
     "CMCSA": {
       "last_update_time": "2026-03-17T11:21:20.087443"
@@ -1776,10 +1776,10 @@
       "last_update_time": "2026-04-15T11:15:28.847597"
     },
     "NDAQ": {
-      "last_update_time": "2026-03-14T10:50:08.910213"
+      "last_update_time": "2026-04-16T10:53:37.478260"
     },
     "NFLX": {
-      "last_update_time": "2026-03-14T10:50:45.872538"
+      "last_update_time": "2026-04-16T10:54:15.727147"
     },
     "NICE": {
       "last_update_time": "2026-03-30T11:01:39.588392"
@@ -1788,10 +1788,10 @@
       "last_update_time": "2026-04-05T10:37:45.954312"
     },
     "NOG": {
-      "last_update_time": "2026-03-14T10:51:24.324394"
+      "last_update_time": "2026-04-16T10:55:00.671017"
     },
     "NOMD": {
-      "last_update_time": "2026-03-14T10:51:59.644011"
+      "last_update_time": "2026-04-16T10:55:38.088423"
     },
     "NOW": {
       "last_update_time": "2026-03-28T10:37:29.124561"
@@ -1838,6 +1838,9 @@
     "PFE": {
       "last_update_time": "2026-04-10T11:03:07.264718"
     },
+    "PGR": {
+      "last_update_time": "2026-04-16T11:08:31.449609"
+    },
     "PODD": {
       "last_update_time": "2026-04-02T10:48:30.713534"
     },
@@ -1868,8 +1871,35 @@
     "SM": {
       "last_update_time": "2026-04-10T11:09:46.812914"
     },
+    "SMP": {
+      "last_update_time": "2026-04-16T11:09:09.358527"
+    },
+    "SONY": {
+      "last_update_time": "2026-04-16T11:09:47.775489"
+    },
+    "SQM": {
+      "last_update_time": "2026-04-16T11:10:25.783337"
+    },
+    "STM": {
+      "last_update_time": "2026-04-16T11:11:03.184527"
+    },
+    "STNG": {
+      "last_update_time": "2026-04-16T11:11:41.964865"
+    },
+    "TDC": {
+      "last_update_time": "2026-04-16T11:12:18.440332"
+    },
+    "TEAM": {
+      "last_update_time": "2026-04-16T11:12:56.216134"
+    },
+    "TECH": {
+      "last_update_time": "2026-04-16T11:13:42.066425"
+    },
+    "TEX": {
+      "last_update_time": "2026-04-16T11:14:18.853652"
+    },
     "TGT": {
-      "last_update_time": "2026-02-21T11:18:15.528101"
+      "last_update_time": "2026-04-16T11:14:54.209372"
     },
     "ZIM": {
       "last_update_time": "2026-03-30T11:02:44.125372"
