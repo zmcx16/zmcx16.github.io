@@ -216,6 +216,12 @@
          "symbol":"CVS",
          "type":"put",
          "expiry":"2026-05-01",
+         "strike":66
+      },
+      {
+         "symbol":"CVS",
+         "type":"put",
+         "expiry":"2026-05-01",
          "strike":68
       },
       {
