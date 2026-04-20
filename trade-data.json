@@ -195,10 +195,22 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":120
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
+      },
+      {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":59
       },
       {
          "symbol":"CAG",
@@ -261,10 +273,22 @@
          "strike":13
       },
       {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":144
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":22.5
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-05-08",
+         "strike":147
       },
       {
          "symbol":"PFE",
