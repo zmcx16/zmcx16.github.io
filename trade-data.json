@@ -303,6 +303,12 @@
          "strike":180
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":45.5
+      },
+      {
          "symbol":"SBUX",
          "type":"put",
          "expiry":"2026-04-24",
