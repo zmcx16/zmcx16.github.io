@@ -273,6 +273,12 @@
          "strike":13
       },
       {
+         "symbol":"NVO",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":35
+      },
+      {
          "symbol":"ORCL",
          "type":"put",
          "expiry":"2026-05-01",
@@ -313,6 +319,12 @@
          "type":"put",
          "expiry":"2026-04-24",
          "strike":85
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":23
       }
    ],
    "news_config":{
