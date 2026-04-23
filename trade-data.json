@@ -201,6 +201,12 @@
          "strike":120
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-05-01",
+         "strike":215
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-05-15",
@@ -237,34 +243,16 @@
          "strike":68
       },
       {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":89
-      },
-      {
-         "symbol":"F",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":10
-      },
-      {
-         "symbol":"FSLR",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":170
-      },
-      {
-         "symbol":"GAP",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":19
-      },
-      {
          "symbol":"HPQ",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":15
+      },
+      {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2026-05-22",
+         "strike":12
       },
       {
          "symbol":"M",
@@ -297,12 +285,6 @@
          "strike":147
       },
       {
-         "symbol":"PFE",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":24.5
-      },
-      {
          "symbol":"PGR",
          "type":"put",
          "expiry":"2026-05-15",
@@ -313,12 +295,6 @@
          "type":"put",
          "expiry":"2026-05-01",
          "strike":45.5
-      },
-      {
-         "symbol":"SBUX",
-         "type":"put",
-         "expiry":"2026-04-24",
-         "strike":85
       },
       {
          "symbol":"ZIM",
