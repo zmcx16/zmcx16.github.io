@@ -667,6 +667,15 @@ if __name__ == "__main__":
         logging.info(f"Stock list: {', '.join(stock_list)}")
 
         # Build task list (only tasks that need to be updated)
+        def _task_sort_key(task):
+            last_update_str = stat_data.get(task['prompt_key'], {}).get(task['symbol'], {}).get('last_update_time')
+            if not last_update_str:
+                return datetime.min
+            try:
+                return datetime.fromisoformat(last_update_str)
+            except Exception:
+                return datetime.min
+
         tasks = []
         for prompt_key, prompt_template in prompts.items():
             for symbol in stock_list:
@@ -676,6 +685,7 @@ if __name__ == "__main__":
                         'prompt_template': prompt_template,
                         'symbol': symbol
                     })
+        tasks.sort(key=_task_sort_key)
 
         total_tasks = len(tasks)
         total_calls = len(stock_list) * len(prompts)
