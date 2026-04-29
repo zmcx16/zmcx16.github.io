@@ -313,6 +313,12 @@
          "strike":65
       },
       {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2026-05-29",
+         "strike":94
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2026-05-15",
