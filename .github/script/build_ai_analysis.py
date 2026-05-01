@@ -305,7 +305,7 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                 # NOTE: do NOT use `with` here — exiting the context manager calls
                 # shutdown(wait=True), which blocks until the hung thread finishes,
                 # defeating the purpose of the timeout.
-                api_timeout = _get_env_int('GEMINI_API_TIMEOUT', 120)
+                api_timeout = _get_env_int('GEMINI_API_TIMEOUT', 300)
                 executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
                 future = executor.submit(gen_func, **filtered_kwargs)
                 try:
