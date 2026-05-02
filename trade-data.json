@@ -199,34 +199,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":120
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":215
-      },
-      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
-      },
-      {
-         "symbol":"BBY",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":59
-      },
-      {
-         "symbol":"CAG",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":13.5
       },
       {
          "symbol":"CALM",
@@ -235,28 +211,34 @@
          "strike":70
       },
       {
-         "symbol":"CVS",
+         "symbol":"EMN",
          "type":"put",
-         "expiry":"2026-05-01",
-         "strike":66
+         "expiry":"2026-05-15",
+         "strike":65
       },
       {
-         "symbol":"CVS",
+         "symbol":"FSLR",
          "type":"put",
-         "expiry":"2026-05-01",
-         "strike":68
+         "expiry":"2026-05-22",
+         "strike":170
       },
       {
-         "symbol":"DIS",
+         "symbol":"GIS",
          "type":"put",
-         "expiry":"2026-05-01",
-         "strike":95
+         "expiry":"2026-05-15",
+         "strike":32.5
       },
       {
          "symbol":"HPQ",
          "type":"put",
          "expiry":"2026-05-15",
          "strike":15
+      },
+      {
+         "symbol":"ISRG",
+         "type":"put",
+         "expiry":"2026-05-08",
+         "strike":425
       },
       {
          "symbol":"KSS",
@@ -269,18 +251,6 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
-      },
-      {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":35
-      },
-      {
-         "symbol":"ORCL",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":144
       },
       {
          "symbol":"OXM",
@@ -299,12 +269,6 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":180
-      },
-      {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2026-05-01",
-         "strike":45.5
       },
       {
          "symbol":"UAL",
