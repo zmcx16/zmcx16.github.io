@@ -497,8 +497,131 @@
     }
   },
   "fs-analysis": {
+    "AAP": {
+      "last_update_time": "2026-05-02T09:06:38.325869"
+    },
     "AAPL": {
       "last_update_time": "2026-05-01T20:42:45.253411"
+    },
+    "ABNB": {
+      "last_update_time": "2026-05-02T09:45:29.480160"
+    },
+    "ACLS": {
+      "last_update_time": "2026-05-02T09:45:59.205245"
+    },
+    "ADBE": {
+      "last_update_time": "2026-05-02T09:42:56.982382"
+    },
+    "ADSK": {
+      "last_update_time": "2026-05-02T09:25:24.042240"
+    },
+    "AEO": {
+      "last_update_time": "2026-05-02T09:46:29.159858"
+    },
+    "ALB": {
+      "last_update_time": "2026-05-02T09:47:01.566331"
+    },
+    "AMAT": {
+      "last_update_time": "2026-05-02T09:47:33.068227"
+    },
+    "AMZN": {
+      "last_update_time": "2026-05-02T09:48:02.663965"
+    },
+    "APD": {
+      "last_update_time": "2026-05-02T09:48:31.919253"
+    },
+    "APTV": {
+      "last_update_time": "2026-05-02T09:49:02.622537"
+    },
+    "ASML": {
+      "last_update_time": "2026-05-02T09:49:33.193604"
+    },
+    "AZN": {
+      "last_update_time": "2026-05-02T09:50:01.654990"
+    },
+    "BAC": {
+      "last_update_time": "2026-05-02T09:50:32.290507"
+    },
+    "BBY": {
+      "last_update_time": "2026-05-02T09:51:01.928852"
+    },
+    "BCE": {
+      "last_update_time": "2026-05-02T09:51:33.713259"
+    },
+    "BLD": {
+      "last_update_time": "2026-05-02T09:52:03.818100"
+    },
+    "BUD": {
+      "last_update_time": "2026-05-02T09:52:31.965461"
+    },
+    "CAG": {
+      "last_update_time": "2026-05-02T09:53:11.257010"
+    },
+    "CALM": {
+      "last_update_time": "2026-05-02T09:53:41.442630"
+    },
+    "CAMT": {
+      "last_update_time": "2026-05-02T09:54:12.257097"
+    },
+    "CIVI": {
+      "last_update_time": "2026-05-02T09:54:42.609752"
+    },
+    "CMCSA": {
+      "last_update_time": "2026-05-02T09:55:13.568544"
+    },
+    "CNMD": {
+      "last_update_time": "2026-05-02T09:55:45.338768"
+    },
+    "CRM": {
+      "last_update_time": "2026-05-02T09:34:12.537449"
+    },
+    "CSCO": {
+      "last_update_time": "2026-05-02T09:56:17.280463"
+    },
+    "CVS": {
+      "last_update_time": "2026-05-02T09:56:48.125957"
+    },
+    "EL": {
+      "last_update_time": "2026-05-02T08:37:50.474127"
+    },
+    "EPAM": {
+      "last_update_time": "2026-05-02T09:12:12.521313"
+    },
+    "FLO": {
+      "last_update_time": "2026-05-02T08:42:09.003487"
+    },
+    "GLOB": {
+      "last_update_time": "2026-05-02T09:29:41.119553"
+    },
+    "ILPT": {
+      "last_update_time": "2026-05-02T09:02:04.931464"
+    },
+    "MOH": {
+      "last_update_time": "2026-05-02T08:59:52.294091"
+    },
+    "MPT": {
+      "last_update_time": "2026-05-02T08:55:32.525070"
+    },
+    "NKE": {
+      "last_update_time": "2026-05-02T08:46:36.187505"
+    },
+    "NOW": {
+      "last_update_time": "2026-05-02T09:38:39.014938"
+    },
+    "NVO": {
+      "last_update_time": "2026-05-02T09:01:05.804058"
+    },
+    "PAYC": {
+      "last_update_time": "2026-05-02T09:16:47.435548"
+    },
+    "PODD": {
+      "last_update_time": "2026-05-02T09:21:01.388977"
+    },
+    "PVH": {
+      "last_update_time": "2026-05-02T08:51:05.764561"
+    },
+    "TASK": {
+      "last_update_time": "2026-05-02T09:07:49.044715"
     }
   },
   "sold-strategy": {
@@ -1497,7 +1620,7 @@
   },
   "summary": {
     "PortfolioAnalytics": {
-      "last_update_time": "2026-04-25T08:26:59.202687"
+      "last_update_time": "2026-05-02T08:31:35.291501"
     },
     "Top10_DividendValue": {
       "last_update_time": "2026-04-26T08:34:28.259481"
