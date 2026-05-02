@@ -1,0 +1,33 @@
+# 任務：手動接管 AI 股票分析與報告生成流程 (Manual Workflow)
+
+## 背景與目標
+原始腳本 `python ./.github/script/build_ai_analysis.py` 透過 Gemini API 自動執行分析，但在 API 不穩定時，需由 AI 代理人手動模擬其工作流。你的目標是根據腳本邏輯，直接分析並生成報告，確保輸出結果與系統自動化流程無縫對接。
+
+## 執行流程標準作業程序 (SOP)
+
+### 1. 目標篩選 (Filtering)
+- **讀取清單**：從 `trade-data.json` 中的 `hold_stock_list` 提取股票代號。
+- **更新判定**：讀取 `plugin-react/ai-analysis/stat.json`。
+  - 僅針對 `last_update_time` 缺失、或距今超過 **7 天** 的股票進行更新。
+- **數據準備**：從 `stock-data/stat.json` 讀取該股票的 `{stock_stat}`（JSON 格式）。
+
+### 2. 模板加載 (Templating)
+- 進入 `.github/script/prompts/stock/` 目錄。
+- 遍歷所有 `.txt` 模板（如 `ev-analysis.txt`, `fs-analysis.txt`, `stock-valuation.txt`, `super-thinking.txt`）。
+- **關鍵操作**：將模板中的變數 `{symbol}` 與 `{stock_stat}` 替換為實際數據。
+
+### 3. 執行增強分析 (Agentic Reasoning)
+- **實時檢索**：針對每一項分析，主動使用搜尋工具查詢該公司的最新季報 (10-Q)、年報 (10-K) 及最近 4 週的重大新聞。
+- **內容要求**：
+  - 嚴格遵守模板中定義的「角色設定」與「分析任務」。
+  - **數據驅動**：必須引用具體的財務數字與財報日期。
+  - **結論明確**：避免模稜兩可的措辭，給出清晰的投資判定。
+
+### 4. 檔案輸出與狀態同步 (Output & Stat Sync)
+- **儲存路徑**：`plugin-react/ai-analysis/{prompt_key}/{symbol}.md`
+- **統計更新**：在任務完成後，必須更新 `plugin-react/ai-analysis/stat.json` 中的 `last_update_time` 欄位（使用 ISO 格式）。
+
+## 注意事項
+- **格式一致性**：輸出的 Markdown 必須符合既有的 Web 渲染標準。
+- **權限與路徑**：請確保在專案根目錄執行，路徑需完全準確。
+- **單點突破**：若待更新股票過多，請分批次進行分析。
