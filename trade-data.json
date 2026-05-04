@@ -3,7 +3,6 @@
       "EL",
       "FLO",
       "NKE",
-      "PVH",
       "MPT",
       "MOH",
       "NVO",
@@ -251,6 +250,12 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
+      },
+      {
+         "symbol":"OMF",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":50
       },
       {
          "symbol":"OXM",
@@ -733,112 +738,107 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":9.955612711174355,
+         "position_%":9.855105521062985,
          "profit_%":0
       },
       "ADBE":{
          "cost_p":281.04,
-         "position_%":4.375518643128378,
+         "position_%":4.331345461943141,
          "profit_%":0
       },
       "ADSK":{
          "cost_p":228.33,
-         "position_%":3.5548753621744327,
+         "position_%":3.5189870101248126,
          "profit_%":0
       },
       "CRM":{
          "cost_p":234.16,
-         "position_%":3.6456427749606495,
+         "position_%":3.608838077741979,
          "profit_%":0
       },
       "EL":{
-         "cost_p":143.03,
-         "position_%":4.453675146076373,
+         "cost_p":112.06,
+         "position_%":6.908206269076977,
          "profit_%":0
       },
       "EPAM":{
-         "cost_p":195.07,
-         "position_%":4.555574411374106,
+         "cost_p":152.61,
+         "position_%":7.05600588116079,
          "profit_%":0
       },
       "FLO":{
          "cost_p":10.95,
-         "position_%":2.5572122727506263,
+         "position_%":2.5313958586826106,
          "profit_%":0
       },
       "GLOB":{
          "cost_p":49.15,
-         "position_%":2.2956526612912014,
+         "position_%":2.2724768302146177,
          "profit_%":0
       },
       "ILPT":{
          "cost_p":17.2,
-         "position_%":2.6778722125607777,
+         "position_%":2.6508376724104052,
          "profit_%":0
       },
       "MOH":{
          "cost_p":199,
-         "position_%":3.0982358738348528,
+         "position_%":3.066957539591108,
          "profit_%":0
       },
       "MPT":{
          "cost_p":6.18,
-         "position_%":3.367579997540094,
+         "position_%":3.333582491525411,
          "profit_%":0
       },
       "NICE":{
          "cost_p":119.55,
-         "position_%":2.791915316961985,
+         "position_%":2.7637294511918364,
          "profit_%":0
       },
       "NKE":{
          "cost_p":64.33,
-         "position_%":9.514775782693784,
+         "position_%":9.418719075165889,
          "profit_%":0
       },
       "NOW":{
          "cost_p":102.91,
-         "position_%":2.40331246565084,
+         "position_%":2.3790497517536755,
          "profit_%":0
       },
       "NVO":{
          "cost_p":51.55,
-         "position_%":10.032290156795645,
+         "position_%":9.931008867206133,
          "profit_%":0
       },
       "PAYC":{
          "cost_p":133.03,
-         "position_%":2.071147328121862,
+         "position_%":2.0502379974462572,
          "profit_%":0
       },
       "PODD":{
          "cost_p":247.35,
-         "position_%":1.9254991040026406,
-         "profit_%":0
-      },
-      "PVH":{
-         "cost_p":87.3,
-         "position_%":4.0775275143585334,
+         "position_%":1.9060601693916095,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":54.66,
-         "position_%":4.680515832919456,
+         "position_%":4.63326354335314,
          "profit_%":0
       },
       "SID":{
          "cost_p":1.8,
-         "position_%":5.184485155713599,
+         "position_%":5.132145028562006,
          "profit_%":0
       },
       "TASK":{
          "cost_p":6.28,
-         "position_%":2.9332042142235495,
+         "position_%":2.9035919621053505,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":9.84787506169226,
+         "position_%":9.748455540289266,
          "profit_%":0
       }
    }
