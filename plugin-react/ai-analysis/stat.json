@@ -725,11 +725,53 @@
     "LMAT": {
       "last_update_time": "2026-05-04T11:22:23.356189"
     },
+    "LNTH": {
+      "last_update_time": "2026-05-05T10:48:07.108668"
+    },
+    "LQDT": {
+      "last_update_time": "2026-05-05T10:48:45.823490"
+    },
+    "LRCX": {
+      "last_update_time": "2026-05-05T10:49:15.507981"
+    },
+    "M": {
+      "last_update_time": "2026-05-05T10:49:47.694022"
+    },
+    "MATX": {
+      "last_update_time": "2026-05-05T10:50:38.145387"
+    },
+    "MCHP": {
+      "last_update_time": "2026-05-05T10:51:09.164289"
+    },
+    "MELI": {
+      "last_update_time": "2026-05-05T10:52:02.737571"
+    },
+    "MMS": {
+      "last_update_time": "2026-05-05T10:52:36.326655"
+    },
     "MOH": {
       "last_update_time": "2026-05-02T08:59:52.294091"
     },
     "MPT": {
       "last_update_time": "2026-05-02T08:55:32.525070"
+    },
+    "MS": {
+      "last_update_time": "2026-05-05T10:53:36.287972"
+    },
+    "MSFT": {
+      "last_update_time": "2026-05-05T10:54:06.653723"
+    },
+    "MTDR": {
+      "last_update_time": "2026-05-05T10:54:38.062877"
+    },
+    "MU": {
+      "last_update_time": "2026-05-05T10:55:26.734379"
+    },
+    "NDAQ": {
+      "last_update_time": "2026-05-05T10:55:56.660064"
+    },
+    "NFLX": {
+      "last_update_time": "2026-05-05T10:56:28.651577"
     },
     "NICE": {
       "last_update_time": "2026-05-03T10:38:28.875598"
@@ -737,11 +779,29 @@
     "NKE": {
       "last_update_time": "2026-05-02T08:46:36.187505"
     },
+    "NOG": {
+      "last_update_time": "2026-05-05T10:57:01.190103"
+    },
+    "NOMD": {
+      "last_update_time": "2026-05-05T10:57:38.025458"
+    },
     "NOW": {
       "last_update_time": "2026-05-02T09:38:39.014938"
     },
+    "NTSK": {
+      "last_update_time": "2026-05-05T11:02:11.584722"
+    },
     "NVO": {
       "last_update_time": "2026-05-02T09:01:05.804058"
+    },
+    "NXPI": {
+      "last_update_time": "2026-05-05T11:02:42.708002"
+    },
+    "OKE": {
+      "last_update_time": "2026-05-05T11:03:14.108353"
+    },
+    "OMC": {
+      "last_update_time": "2026-05-05T11:03:49.788626"
     },
     "PAYC": {
       "last_update_time": "2026-05-02T09:16:47.435548"
