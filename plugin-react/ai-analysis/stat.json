@@ -803,8 +803,29 @@
     "OMC": {
       "last_update_time": "2026-05-05T11:03:49.788626"
     },
+    "OXM": {
+      "last_update_time": "2026-05-06T11:01:29.568544"
+    },
+    "PAGS": {
+      "last_update_time": "2026-05-06T11:02:03.994887"
+    },
     "PAYC": {
       "last_update_time": "2026-05-02T09:16:47.435548"
+    },
+    "PBR": {
+      "last_update_time": "2026-05-06T11:02:38.791400"
+    },
+    "PBR-A": {
+      "last_update_time": "2026-05-06T11:03:10.069548"
+    },
+    "PCTY": {
+      "last_update_time": "2026-05-06T11:03:41.374026"
+    },
+    "PEP": {
+      "last_update_time": "2026-05-06T11:04:11.278886"
+    },
+    "PGR": {
+      "last_update_time": "2026-05-06T11:05:14.219564"
     },
     "PODD": {
       "last_update_time": "2026-05-02T09:21:01.388977"
@@ -815,11 +836,47 @@
     "PYPL": {
       "last_update_time": "2026-05-03T10:37:40.675634"
     },
+    "QCOM": {
+      "last_update_time": "2026-05-06T11:05:46.164402"
+    },
+    "RYN": {
+      "last_update_time": "2026-05-06T11:06:21.055591"
+    },
+    "SAIC": {
+      "last_update_time": "2026-05-06T11:06:52.445843"
+    },
+    "SAP": {
+      "last_update_time": "2026-05-06T11:07:23.983298"
+    },
+    "SBUX": {
+      "last_update_time": "2026-05-06T11:07:54.255107"
+    },
     "SID": {
       "last_update_time": "2026-05-02T22:33:51.226257"
     },
+    "SM": {
+      "last_update_time": "2026-05-06T11:08:24.335250"
+    },
+    "SMP": {
+      "last_update_time": "2026-05-06T11:08:53.725950"
+    },
+    "SONY": {
+      "last_update_time": "2026-05-06T11:09:22.873764"
+    },
+    "SQM": {
+      "last_update_time": "2026-05-06T11:09:56.262911"
+    },
+    "STM": {
+      "last_update_time": "2026-05-06T11:10:25.648892"
+    },
+    "STNG": {
+      "last_update_time": "2026-05-06T11:10:58.228686"
+    },
     "TASK": {
       "last_update_time": "2026-05-02T09:07:49.044715"
+    },
+    "TDC": {
+      "last_update_time": "2026-05-06T11:11:28.947703"
     },
     "ZIM": {
       "last_update_time": "2026-05-02T22:32:15.021744"
