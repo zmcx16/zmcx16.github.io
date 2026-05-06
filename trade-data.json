@@ -198,6 +198,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":215
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-05-15",
@@ -216,6 +222,12 @@
          "strike":65
       },
       {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":125
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-05-22",
@@ -226,6 +238,12 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":32.5
+      },
+      {
+         "symbol":"HOG",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":20
       },
       {
          "symbol":"HPQ",
@@ -258,6 +276,12 @@
          "strike":50
       },
       {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-05-22",
+         "strike":150
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-05-15",
@@ -268,6 +292,12 @@
          "type":"put",
          "expiry":"2026-05-08",
          "strike":147
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2026-06-05",
+         "strike":24
       },
       {
          "symbol":"PGR",
