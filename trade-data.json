@@ -216,6 +216,12 @@
          "strike":70
       },
       {
+         "symbol":"CNMD",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":30
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2026-05-15",
@@ -232,6 +238,12 @@
          "type":"put",
          "expiry":"2026-05-22",
          "strike":170
+      },
+      {
+         "symbol":"GAP",
+         "type":"put",
+         "expiry":"2026-05-22",
+         "strike":21.5
       },
       {
          "symbol":"GIS",
@@ -252,12 +264,6 @@
          "strike":15
       },
       {
-         "symbol":"ISRG",
-         "type":"put",
-         "expiry":"2026-05-08",
-         "strike":425
-      },
-      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-05-22",
@@ -268,6 +274,12 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
+      },
+      {
+         "symbol":"OMC",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":67.5
       },
       {
          "symbol":"OMF",
@@ -288,12 +300,6 @@
          "strike":22.5
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-05-08",
-         "strike":147
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-06-05",
@@ -304,6 +310,18 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":180
+      },
+      {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-05-15",
+         "strike":150
+      },
+      {
+         "symbol":"TRI",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":65
       },
       {
          "symbol":"UAL",
