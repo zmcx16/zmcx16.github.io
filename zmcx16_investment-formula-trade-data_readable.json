@@ -3,8 +3,8 @@
     "KellyFormula_Range_v1": {
         "AAP": {
             "close": 56.15,
-            "loss": 6.864792,
-            "max_close": 65.48837,
+            "loss": 6.8647957,
+            "max_close": 65.48838,
             "min_close": 30.28268,
             "p": 0.30555555,
             "profit": 2.6792145,
@@ -115,7 +115,7 @@
             "max_close": 77.81375,
             "min_close": 42.62,
             "p": 0.9444444,
-            "profit": 18.278637,
+            "profit": 18.27864,
             "q": 0.05
         },
         "NOW": {
@@ -130,7 +130,7 @@
         "NVO": {
             "close": 46.07,
             "loss": 6.097164,
-            "max_close": 77.31148,
+            "max_close": 77.311485,
             "min_close": 34.765,
             "p": 0.60555553,
             "profit": 6.4665337,
