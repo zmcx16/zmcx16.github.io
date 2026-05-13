@@ -210,6 +210,12 @@
          "strike":13
       },
       {
+         "symbol":"BBY",
+         "type":"put",
+         "expiry":"2026-05-22",
+         "strike":52
+      },
+      {
          "symbol":"CALM",
          "type":"put",
          "expiry":"2026-05-15",
@@ -274,6 +280,12 @@
          "type":"put",
          "expiry":"2026-05-15",
          "strike":13
+      },
+      {
+         "symbol":"NVO",
+         "type":"put",
+         "expiry":"2026-05-29",
+         "strike":41
       },
       {
          "symbol":"OMC",
