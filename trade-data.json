@@ -204,6 +204,18 @@
          "strike":117
       },
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":115
+      },
+      {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":125
+      },
+      {
          "symbol":"BBY",
          "type":"put",
          "expiry":"2026-05-22",
@@ -222,6 +234,12 @@
          "strike":30
       },
       {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":60
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-05-22",
@@ -232,6 +250,12 @@
          "type":"put",
          "expiry":"2026-05-22",
          "strike":21.5
+      },
+      {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":30
       },
       {
          "symbol":"HOG",
@@ -268,6 +292,12 @@
          "type":"put",
          "expiry":"2026-05-22",
          "strike":150
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":135
       },
       {
          "symbol":"PFE",
