@@ -234,6 +234,12 @@
          "strike":30
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":115
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2026-06-18",
@@ -270,10 +276,28 @@
          "strike":17.5
       },
       {
+         "symbol":"ISRG",
+         "type":"put",
+         "expiry":"2026-06-05",
+         "strike":390
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-05-22",
          "strike":12
+      },
+      {
+         "symbol":"MMS",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":50
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2026-06-12",
+         "strike":36
       },
       {
          "symbol":"NVO",
@@ -304,6 +328,12 @@
          "type":"put",
          "expiry":"2026-06-05",
          "strike":24
+      },
+      {
+         "symbol":"PGR",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":180
       },
       {
          "symbol":"TRI",
