@@ -282,6 +282,12 @@
          "strike":390
       },
       {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":27.5
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-05-22",
@@ -358,6 +364,12 @@
          "type":"put",
          "expiry":"2026-05-29",
          "strike":6.5
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2026-06-12",
+         "strike":23
       }
    ],
    "news_config":{
