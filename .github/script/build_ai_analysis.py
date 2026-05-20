@@ -253,8 +253,14 @@ def get_client(api_key):
     """Get or create the Gemini client instance (singleton pattern)."""
     global _model
     if _model is None:
-        _model = genai.Client(api_key=api_key)
-        logging.info("Initialized Gemini client")
+        # Set a client-level timeout using HttpOptions (in milliseconds)
+        # 300,000 ms = 300 seconds
+        client_timeout = _get_env_int('GEMINI_CLIENT_TIMEOUT', 300000)
+        _model = genai.Client(
+            api_key=api_key,
+            http_options=types.HttpOptions(timeout=client_timeout)
+        )
+        logging.info(f"Initialized Gemini client with {client_timeout}ms timeout")
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
@@ -307,6 +313,7 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                 # defeating the purpose of the timeout.
                 api_timeout = _get_env_int('GEMINI_API_TIMEOUT', 300)
                 executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+                logging.info(f"Submitting API call for {model_name} (attempt {attempt+1}/{max_retries})...")
                 future = executor.submit(gen_func, **filtered_kwargs)
                 try:
                     response = future.result(timeout=api_timeout)
@@ -320,6 +327,7 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                     logging.error(f'API call timed out after {max_retries} retries for {model_name}')
                     return None
                 executor.shutdown(wait=False)
+                logging.info(f"API call for {model_name} completed.")
 
                 # Robustly extract text from various SDK response shapes
                 resp_text = None
