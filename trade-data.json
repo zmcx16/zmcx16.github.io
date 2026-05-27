@@ -252,6 +252,12 @@
          "strike":190
       },
       {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":180
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-06-18",
