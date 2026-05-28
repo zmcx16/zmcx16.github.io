@@ -14,11 +14,59 @@
     },
     "ADSK": {
       "last_update_time": "2026-05-28T06:26:11.437657"
+    },
+    "AMAT": {
+      "last_update_time": "2026-05-28T11:12:00.835407"
+    },
+    "AZN": {
+      "last_update_time": "2026-05-28T11:14:25.605615"
+    },
+    "BAC": {
+      "last_update_time": "2026-05-28T11:14:55.570818"
+    },
+    "BBY": {
+      "last_update_time": "2026-05-28T11:15:29.083611"
+    },
+    "BCE": {
+      "last_update_time": "2026-05-28T11:16:26.156457"
+    },
+    "BUD": {
+      "last_update_time": "2026-05-28T11:17:31.620788"
+    },
+    "CIVI": {
+      "last_update_time": "2026-05-28T11:19:41.738352"
+    },
+    "CMCSA": {
+      "last_update_time": "2026-05-28T11:20:14.677636"
+    },
+    "CNMD": {
+      "last_update_time": "2026-05-28T11:21:07.180564"
+    },
+    "EL": {
+      "last_update_time": "2026-05-28T11:03:15.608838"
+    },
+    "PAYC": {
+      "last_update_time": "2026-05-28T11:07:25.071017"
     }
   },
   "summary": {
+    "PortfolioAnalytics": {
+      "last_update_time": "2026-05-28T10:55:12.933237"
+    },
     "Top10_DividendValue": {
       "last_update_time": "2026-05-28T06:18:16.446580"
+    },
+    "Top10_Momentum": {
+      "last_update_time": "2026-05-28T10:56:31.206421"
+    },
+    "Top10_QualityGrowth": {
+      "last_update_time": "2026-05-28T10:57:31.393605"
+    },
+    "Top10_SmallCapGems": {
+      "last_update_time": "2026-05-28T10:58:30.906410"
+    },
+    "Top10_Turnaround": {
+      "last_update_time": "2026-05-28T10:59:20.552183"
     }
   }
 }
