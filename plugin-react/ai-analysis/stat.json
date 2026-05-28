@@ -1,0 +1,24 @@
+{
+  "ev-analysis": {
+    "AAPL": {
+      "last_update_time": "2026-05-28T06:24:07.615979"
+    },
+    "ABNB": {
+      "last_update_time": "2026-05-28T06:24:37.161716"
+    },
+    "ACLS": {
+      "last_update_time": "2026-05-28T06:25:09.995094"
+    },
+    "ADBE": {
+      "last_update_time": "2026-05-28T06:25:41.359289"
+    },
+    "ADSK": {
+      "last_update_time": "2026-05-28T06:26:11.437657"
+    }
+  },
+  "summary": {
+    "Top10_DividendValue": {
+      "last_update_time": "2026-05-28T06:18:16.446580"
+    }
+  }
+}
