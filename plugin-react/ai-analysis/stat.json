@@ -15,8 +15,23 @@
     "ADSK": {
       "last_update_time": "2026-05-28T06:26:11.437657"
     },
+    "AEO": {
+      "last_update_time": "2026-05-29T11:14:42.714117"
+    },
+    "ALB": {
+      "last_update_time": "2026-05-29T11:15:29.009510"
+    },
     "AMAT": {
       "last_update_time": "2026-05-28T11:12:00.835407"
+    },
+    "AMZN": {
+      "last_update_time": "2026-05-29T11:17:08.080693"
+    },
+    "APD": {
+      "last_update_time": "2026-05-29T11:17:57.786589"
+    },
+    "APTV": {
+      "last_update_time": "2026-05-29T11:18:26.960811"
     },
     "AZN": {
       "last_update_time": "2026-05-28T11:14:25.605615"
@@ -33,6 +48,9 @@
     "BUD": {
       "last_update_time": "2026-05-28T11:17:31.620788"
     },
+    "CAMT": {
+      "last_update_time": "2026-05-29T11:21:18.407983"
+    },
     "CIVI": {
       "last_update_time": "2026-05-28T11:19:41.738352"
     },
@@ -42,8 +60,56 @@
     "CNMD": {
       "last_update_time": "2026-05-28T11:21:07.180564"
     },
+    "CRM": {
+      "last_update_time": "2026-05-29T11:21:52.405033"
+    },
+    "CVS": {
+      "last_update_time": "2026-05-29T11:22:46.507237"
+    },
+    "DE": {
+      "last_update_time": "2026-05-29T11:23:18.452874"
+    },
+    "DELL": {
+      "last_update_time": "2026-05-29T11:23:51.892589"
+    },
+    "DEO": {
+      "last_update_time": "2026-05-29T11:24:39.671135"
+    },
+    "DG": {
+      "last_update_time": "2026-05-29T11:25:09.350144"
+    },
+    "DHI": {
+      "last_update_time": "2026-05-29T11:25:39.855459"
+    },
+    "DIS": {
+      "last_update_time": "2026-05-29T11:26:10.595333"
+    },
+    "DXC": {
+      "last_update_time": "2026-05-29T11:26:40.201146"
+    },
     "EL": {
       "last_update_time": "2026-05-28T11:03:15.608838"
+    },
+    "EMN": {
+      "last_update_time": "2026-05-29T11:27:08.816887"
+    },
+    "EPAM": {
+      "last_update_time": "2026-05-29T11:27:39.771628"
+    },
+    "EW": {
+      "last_update_time": "2026-05-29T11:28:11.010801"
+    },
+    "FLO": {
+      "last_update_time": "2026-05-29T10:59:00.651273"
+    },
+    "ILPT": {
+      "last_update_time": "2026-05-29T11:07:00.948042"
+    },
+    "MPT": {
+      "last_update_time": "2026-05-29T11:02:11.899179"
+    },
+    "NKE": {
+      "last_update_time": "2026-05-29T10:59:45.016527"
     },
     "PAYC": {
       "last_update_time": "2026-05-28T11:07:25.071017"
@@ -67,6 +133,12 @@
     },
     "Top10_Turnaround": {
       "last_update_time": "2026-05-28T10:59:20.552183"
+    },
+    "Top10_UndervaluedGrowth": {
+      "last_update_time": "2026-05-29T10:53:40.787397"
+    },
+    "Top10_UndervaluedGrowthIndustries": {
+      "last_update_time": "2026-05-29T10:55:32.605327"
     }
   }
 }
