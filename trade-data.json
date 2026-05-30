@@ -200,12 +200,6 @@
       {
          "symbol":"ABNB",
          "type":"put",
-         "expiry":"2026-05-29",
-         "strike":117
-      },
-      {
-         "symbol":"ABNB",
-         "type":"put",
          "expiry":"2026-06-18",
          "strike":115
       },
@@ -240,6 +234,12 @@
          "strike":115
       },
       {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":75
+      },
+      {
          "symbol":"EMN",
          "type":"put",
          "expiry":"2026-06-18",
@@ -270,12 +270,6 @@
          "strike":20
       },
       {
-         "symbol":"HPQ",
-         "type":"put",
-         "expiry":"2026-05-29",
-         "strike":17.5
-      },
-      {
          "symbol":"ISRG",
          "type":"put",
          "expiry":"2026-06-05",
@@ -286,6 +280,12 @@
          "type":"put",
          "expiry":"2026-06-18",
          "strike":27.5
+      },
+      {
+         "symbol":"KSS",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":11
       },
       {
          "symbol":"MMS",
@@ -302,8 +302,8 @@
       {
          "symbol":"NVO",
          "type":"put",
-         "expiry":"2026-05-29",
-         "strike":41
+         "expiry":"2026-06-18",
+         "strike":40
       },
       {
          "symbol":"OMC",
@@ -330,6 +330,12 @@
          "strike":180
       },
       {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2026-06-26",
+         "strike":39
+      },
+      {
          "symbol":"TRI",
          "type":"put",
          "expiry":"2026-07-17",
@@ -342,22 +348,10 @@
          "strike":65
       },
       {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2026-05-29",
-         "strike":94
-      },
-      {
          "symbol":"VFC",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":12
-      },
-      {
-         "symbol":"WEN",
-         "type":"put",
-         "expiry":"2026-05-29",
-         "strike":6.5
       },
       {
          "symbol":"ZIM",
