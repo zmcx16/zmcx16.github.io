@@ -114,6 +114,12 @@
     "DXC": {
       "last_update_time": "2026-05-29T11:26:40.201146"
     },
+    "DXCM": {
+      "last_update_time": "2026-06-01T11:43:07.583796"
+    },
+    "DXPE": {
+      "last_update_time": "2026-06-01T11:43:35.812901"
+    },
     "EL": {
       "last_update_time": "2026-05-28T11:03:15.608838"
     },
@@ -122,6 +128,9 @@
     },
     "EPAM": {
       "last_update_time": "2026-05-29T11:27:39.771628"
+    },
+    "ETN": {
+      "last_update_time": "2026-06-01T11:44:05.795229"
     },
     "EW": {
       "last_update_time": "2026-05-29T11:28:11.010801"
@@ -162,6 +171,9 @@
     "GGB": {
       "last_update_time": "2026-05-30T10:49:40.199131"
     },
+    "GILD": {
+      "last_update_time": "2026-06-01T11:44:35.519077"
+    },
     "GIS": {
       "last_update_time": "2026-05-30T10:53:42.391703"
     },
@@ -180,8 +192,50 @@
     "GT": {
       "last_update_time": "2026-05-30T10:55:55.312012"
     },
+    "HAFN": {
+      "last_update_time": "2026-06-01T11:45:03.971503"
+    },
+    "HAL": {
+      "last_update_time": "2026-06-01T11:45:31.958582"
+    },
+    "HAS": {
+      "last_update_time": "2026-06-01T11:46:01.502598"
+    },
+    "HCI": {
+      "last_update_time": "2026-06-01T11:46:31.709122"
+    },
+    "HMC": {
+      "last_update_time": "2026-06-01T11:47:00.770177"
+    },
+    "HOG": {
+      "last_update_time": "2026-06-01T11:47:28.868986"
+    },
+    "HOV": {
+      "last_update_time": "2026-06-01T11:47:57.589811"
+    },
+    "HPE": {
+      "last_update_time": "2026-06-01T11:48:28.455391"
+    },
+    "HPQ": {
+      "last_update_time": "2026-06-01T11:48:59.764813"
+    },
     "ILPT": {
       "last_update_time": "2026-05-29T11:07:00.948042"
+    },
+    "INGR": {
+      "last_update_time": "2026-06-01T11:49:29.085872"
+    },
+    "INTC": {
+      "last_update_time": "2026-06-01T11:50:07.366312"
+    },
+    "KBR": {
+      "last_update_time": "2026-06-01T11:51:41.239295"
+    },
+    "KINS": {
+      "last_update_time": "2026-06-01T11:52:12.051117"
+    },
+    "KSPI": {
+      "last_update_time": "2026-06-01T11:52:42.207598"
     },
     "MOH": {
       "last_update_time": "2026-05-30T10:20:32.081972"
@@ -227,6 +281,9 @@
     "FLO": {
       "last_update_time": "2026-05-30T10:35:57.253081"
     },
+    "ILPT": {
+      "last_update_time": "2026-06-01T11:25:55.404588"
+    },
     "MOH": {
       "last_update_time": "2026-05-31T12:23:31.726950"
     },
@@ -238,6 +295,23 @@
     },
     "NVO": {
       "last_update_time": "2026-05-31T12:29:42.792425"
+    },
+    "PAYC": {
+      "last_update_time": "2026-06-01T11:29:01.860461"
+    },
+    "PYPL": {
+      "last_update_time": "2026-06-01T11:27:09.143213"
+    },
+    "SID": {
+      "last_update_time": "2026-06-01T11:36:09.069015"
+    },
+    "TASK": {
+      "last_update_time": "2026-06-01T11:27:55.862286"
+    }
+  },
+  "sold-strategy": {
+    "FLO": {
+      "last_update_time": "2026-06-01T11:37:16.106712"
     }
   },
   "summary": {
