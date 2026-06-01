@@ -212,6 +212,12 @@
          "strike":115
       },
       {
+         "symbol":"AEO",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":11
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2026-06-18",
@@ -242,6 +248,18 @@
          "strike":115
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":125
+      },
+      {
+         "symbol":"DXCM",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":60
+      },
+      {
          "symbol":"EL",
          "type":"put",
          "expiry":"2026-06-18",
@@ -252,6 +270,12 @@
          "type":"put",
          "expiry":"2026-06-18",
          "strike":60
+      },
+      {
+         "symbol":"ETN",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":340
       },
       {
          "symbol":"FSLR",
@@ -266,10 +290,28 @@
          "strike":180
       },
       {
+         "symbol":"GAP",
+         "type":"put",
+         "expiry":"2026-07-02",
+         "strike":17
+      },
+      {
+         "symbol":"GILD",
+         "type":"put",
+         "expiry":"2026-06-26",
+         "strike":115
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-06-18",
          "strike":30
+      },
+      {
+         "symbol":"GPN",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":62.5
       },
       {
          "symbol":"HOG",
