@@ -93,6 +93,9 @@
     "CVS": {
       "last_update_time": "2026-05-29T11:22:46.507237"
     },
+    "CVX": {
+      "last_update_time": "2026-06-02T11:37:45.935291"
+    },
     "DE": {
       "last_update_time": "2026-05-29T11:23:18.452874"
     },
@@ -228,6 +231,15 @@
     "INTC": {
       "last_update_time": "2026-06-01T11:50:07.366312"
     },
+    "ISRG": {
+      "last_update_time": "2026-06-02T11:38:19.563557"
+    },
+    "JPM": {
+      "last_update_time": "2026-06-02T11:38:59.725371"
+    },
+    "K": {
+      "last_update_time": "2026-06-02T11:39:36.082579"
+    },
     "KBR": {
       "last_update_time": "2026-06-01T11:51:41.239295"
     },
@@ -237,11 +249,59 @@
     "KSPI": {
       "last_update_time": "2026-06-01T11:52:42.207598"
     },
+    "KSS": {
+      "last_update_time": "2026-06-02T11:40:07.546133"
+    },
+    "LLY": {
+      "last_update_time": "2026-06-02T11:40:37.693020"
+    },
+    "LMAT": {
+      "last_update_time": "2026-06-02T11:41:07.711930"
+    },
+    "LNTH": {
+      "last_update_time": "2026-06-02T11:41:36.481451"
+    },
+    "LQDT": {
+      "last_update_time": "2026-06-02T11:42:10.714227"
+    },
+    "LRCX": {
+      "last_update_time": "2026-06-02T11:42:41.120094"
+    },
+    "M": {
+      "last_update_time": "2026-06-02T11:43:11.941814"
+    },
+    "MA": {
+      "last_update_time": "2026-06-02T11:43:44.345357"
+    },
+    "MATX": {
+      "last_update_time": "2026-06-02T11:44:13.377015"
+    },
+    "MCHP": {
+      "last_update_time": "2026-06-02T11:44:43.050456"
+    },
+    "MDT": {
+      "last_update_time": "2026-06-02T11:45:12.473335"
+    },
+    "MEDP": {
+      "last_update_time": "2026-06-02T11:45:48.011900"
+    },
+    "MELI": {
+      "last_update_time": "2026-06-02T11:46:21.886691"
+    },
     "MOH": {
       "last_update_time": "2026-05-30T10:20:32.081972"
     },
+    "MORN": {
+      "last_update_time": "2026-06-02T11:47:09.659235"
+    },
     "MPT": {
       "last_update_time": "2026-05-29T11:02:11.899179"
+    },
+    "MS": {
+      "last_update_time": "2026-06-02T11:47:47.831482"
+    },
+    "MSFT": {
+      "last_update_time": "2026-06-02T11:48:17.544847"
     },
     "NICE": {
       "last_update_time": "2026-05-30T10:32:25.120607"
@@ -275,11 +335,23 @@
     }
   },
   "fs-analysis": {
+    "ADBE": {
+      "last_update_time": "2026-06-02T11:20:44.686905"
+    },
+    "CRM": {
+      "last_update_time": "2026-06-02T11:18:54.680208"
+    },
     "EL": {
       "last_update_time": "2026-05-30T10:34:54.096744"
     },
+    "EPAM": {
+      "last_update_time": "2026-06-02T11:15:08.247247"
+    },
     "FLO": {
       "last_update_time": "2026-05-30T10:35:57.253081"
+    },
+    "GLOB": {
+      "last_update_time": "2026-06-02T11:18:09.708912"
     },
     "ILPT": {
       "last_update_time": "2026-06-01T11:25:55.404588"
@@ -290,14 +362,23 @@
     "MPT": {
       "last_update_time": "2026-05-31T12:22:34.013902"
     },
+    "NICE": {
+      "last_update_time": "2026-06-02T11:21:37.365514"
+    },
     "NKE": {
       "last_update_time": "2026-05-30T10:36:59.383701"
+    },
+    "NOW": {
+      "last_update_time": "2026-06-02T11:19:50.960973"
     },
     "NVO": {
       "last_update_time": "2026-05-31T12:29:42.792425"
     },
     "PAYC": {
       "last_update_time": "2026-06-01T11:29:01.860461"
+    },
+    "PODD": {
+      "last_update_time": "2026-06-02T11:16:00.669372"
     },
     "PYPL": {
       "last_update_time": "2026-06-01T11:27:09.143213"
@@ -307,11 +388,41 @@
     },
     "TASK": {
       "last_update_time": "2026-06-01T11:27:55.862286"
+    },
+    "ZIM": {
+      "last_update_time": "2026-06-02T11:26:18.076251"
     }
   },
   "sold-strategy": {
+    "AAP": {
+      "last_update_time": "2026-06-02T11:32:15.428729"
+    },
+    "EL": {
+      "last_update_time": "2026-06-02T11:27:01.447922"
+    },
     "FLO": {
       "last_update_time": "2026-06-01T11:37:16.106712"
+    },
+    "ILPT": {
+      "last_update_time": "2026-06-02T11:31:20.546638"
+    },
+    "MOH": {
+      "last_update_time": "2026-06-02T11:29:45.961602"
+    },
+    "MPT": {
+      "last_update_time": "2026-06-02T11:28:47.613864"
+    },
+    "NKE": {
+      "last_update_time": "2026-06-02T11:27:56.932154"
+    },
+    "NVO": {
+      "last_update_time": "2026-06-02T11:30:24.554969"
+    },
+    "PYPL": {
+      "last_update_time": "2026-06-02T11:34:00.997013"
+    },
+    "TASK": {
+      "last_update_time": "2026-06-02T11:34:57.634405"
     }
   },
   "summary": {
