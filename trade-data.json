@@ -212,6 +212,12 @@
          "strike":115
       },
       {
+         "symbol":"ABT",
+         "type":"put",
+         "expiry":"2026-06-12",
+         "strike":79
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-08-21",
@@ -227,6 +233,12 @@
          "symbol":"BCE",
          "type":"put",
          "expiry":"2026-06-18",
+         "strike":23
+      },
+      {
+         "symbol":"BCE",
+         "type":"put",
+         "expiry":"2026-07-17",
          "strike":23
       },
       {
@@ -384,6 +396,12 @@
          "type":"put",
          "expiry":"2026-06-26",
          "strike":39
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":165
       },
       {
          "symbol":"TRI",
