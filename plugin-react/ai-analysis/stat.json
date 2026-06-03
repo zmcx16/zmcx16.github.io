@@ -303,23 +303,77 @@
     "MSFT": {
       "last_update_time": "2026-06-02T11:48:17.544847"
     },
+    "NDAQ": {
+      "last_update_time": "2026-06-03T12:03:32.358652"
+    },
+    "NFLX": {
+      "last_update_time": "2026-06-03T12:04:07.548446"
+    },
     "NICE": {
       "last_update_time": "2026-05-30T10:32:25.120607"
     },
     "NKE": {
       "last_update_time": "2026-05-29T10:59:45.016527"
     },
+    "NOG": {
+      "last_update_time": "2026-06-03T12:04:49.612030"
+    },
+    "NOMD": {
+      "last_update_time": "2026-06-03T12:05:51.081391"
+    },
     "NOW": {
       "last_update_time": "2026-05-30T10:29:42.541311"
+    },
+    "NVDA": {
+      "last_update_time": "2026-06-03T12:10:58.046476"
     },
     "NVO": {
       "last_update_time": "2026-05-30T10:23:18.066309"
     },
+    "NXPI": {
+      "last_update_time": "2026-06-03T12:11:28.419302"
+    },
+    "OKE": {
+      "last_update_time": "2026-06-03T12:12:00.562520"
+    },
+    "OMC": {
+      "last_update_time": "2026-06-03T12:12:45.564806"
+    },
+    "OMF": {
+      "last_update_time": "2026-06-03T12:13:19.859430"
+    },
+    "ORCL": {
+      "last_update_time": "2026-06-03T12:14:05.998701"
+    },
+    "OXM": {
+      "last_update_time": "2026-06-03T12:14:42.302755"
+    },
+    "PAGS": {
+      "last_update_time": "2026-06-03T12:15:24.005724"
+    },
     "PAYC": {
       "last_update_time": "2026-05-28T11:07:25.071017"
     },
+    "PBR": {
+      "last_update_time": "2026-06-03T12:16:14.079647"
+    },
+    "PCTY": {
+      "last_update_time": "2026-06-03T12:17:25.276636"
+    },
+    "PEP": {
+      "last_update_time": "2026-06-03T12:18:12.505211"
+    },
+    "PFE": {
+      "last_update_time": "2026-06-03T12:18:49.794080"
+    },
+    "PGR": {
+      "last_update_time": "2026-06-03T12:19:34.009626"
+    },
     "PODD": {
       "last_update_time": "2026-05-30T10:27:16.246788"
+    },
+    "PVH": {
+      "last_update_time": "2026-06-03T12:20:04.389988"
     },
     "PYPL": {
       "last_update_time": "2026-05-30T10:25:40.655896"
@@ -335,8 +389,14 @@
     }
   },
   "fs-analysis": {
+    "AAP": {
+      "last_update_time": "2026-06-03T11:24:50.960628"
+    },
     "ADBE": {
       "last_update_time": "2026-06-02T11:20:44.686905"
+    },
+    "ADSK": {
+      "last_update_time": "2026-06-03T11:25:45.191571"
     },
     "CRM": {
       "last_update_time": "2026-06-02T11:18:54.680208"
@@ -397,11 +457,26 @@
     "AAP": {
       "last_update_time": "2026-06-02T11:32:15.428729"
     },
+    "ADBE": {
+      "last_update_time": "2026-06-03T11:33:10.859999"
+    },
+    "ADSK": {
+      "last_update_time": "2026-06-03T11:29:01.857743"
+    },
+    "CRM": {
+      "last_update_time": "2026-06-03T11:30:58.726390"
+    },
     "EL": {
       "last_update_time": "2026-06-02T11:27:01.447922"
     },
+    "EPAM": {
+      "last_update_time": "2026-06-03T11:26:34.774741"
+    },
     "FLO": {
       "last_update_time": "2026-06-01T11:37:16.106712"
+    },
+    "GLOB": {
+      "last_update_time": "2026-06-03T11:29:57.022739"
     },
     "ILPT": {
       "last_update_time": "2026-06-02T11:31:20.546638"
@@ -412,17 +487,40 @@
     "MPT": {
       "last_update_time": "2026-06-02T11:28:47.613864"
     },
+    "NICE": {
+      "last_update_time": "2026-06-03T11:34:58.345922"
+    },
     "NKE": {
       "last_update_time": "2026-06-02T11:27:56.932154"
+    },
+    "NOW": {
+      "last_update_time": "2026-06-03T11:31:47.927732"
     },
     "NVO": {
       "last_update_time": "2026-06-02T11:30:24.554969"
     },
+    "PAYC": {
+      "last_update_time": "2026-06-03T11:27:23.430304"
+    },
+    "PODD": {
+      "last_update_time": "2026-06-03T11:28:20.576445"
+    },
     "PYPL": {
       "last_update_time": "2026-06-02T11:34:00.997013"
     },
+    "SID": {
+      "last_update_time": "2026-06-03T11:36:42.999676"
+    },
     "TASK": {
       "last_update_time": "2026-06-02T11:34:57.634405"
+    },
+    "ZIM": {
+      "last_update_time": "2026-06-03T11:35:47.162843"
+    }
+  },
+  "stock-valuation": {
+    "MOH": {
+      "last_update_time": "2026-06-03T11:56:11.728274"
     }
   },
   "summary": {
