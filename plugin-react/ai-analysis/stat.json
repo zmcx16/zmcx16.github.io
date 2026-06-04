@@ -288,6 +288,9 @@
     "MELI": {
       "last_update_time": "2026-06-02T11:46:21.886691"
     },
+    "MMS": {
+      "last_update_time": "2026-06-04T11:56:43.250625"
+    },
     "MOH": {
       "last_update_time": "2026-05-30T10:20:32.081972"
     },
@@ -302,6 +305,12 @@
     },
     "MSFT": {
       "last_update_time": "2026-06-02T11:48:17.544847"
+    },
+    "MTDR": {
+      "last_update_time": "2026-06-04T11:57:13.123308"
+    },
+    "MU": {
+      "last_update_time": "2026-06-04T11:57:48.524199"
     },
     "NDAQ": {
       "last_update_time": "2026-06-03T12:03:32.358652"
@@ -357,6 +366,9 @@
     "PBR": {
       "last_update_time": "2026-06-03T12:16:14.079647"
     },
+    "PBR-A": {
+      "last_update_time": "2026-06-04T12:02:56.349794"
+    },
     "PCTY": {
       "last_update_time": "2026-06-03T12:17:25.276636"
     },
@@ -378,11 +390,50 @@
     "PYPL": {
       "last_update_time": "2026-05-30T10:25:40.655896"
     },
+    "QCOM": {
+      "last_update_time": "2026-06-04T12:03:27.199742"
+    },
+    "RYN": {
+      "last_update_time": "2026-06-04T12:03:57.341291"
+    },
+    "SAP": {
+      "last_update_time": "2026-06-04T12:04:28.718477"
+    },
+    "SBUX": {
+      "last_update_time": "2026-06-04T12:05:00.451461"
+    },
     "SID": {
       "last_update_time": "2026-05-30T10:33:58.417194"
     },
+    "SM": {
+      "last_update_time": "2026-06-04T12:05:34.954367"
+    },
+    "SONY": {
+      "last_update_time": "2026-06-04T12:06:24.951349"
+    },
+    "SQM": {
+      "last_update_time": "2026-06-04T12:07:20.036502"
+    },
+    "STM": {
+      "last_update_time": "2026-06-04T12:07:54.531782"
+    },
+    "STNG": {
+      "last_update_time": "2026-06-04T12:08:26.459731"
+    },
     "TASK": {
       "last_update_time": "2026-05-30T10:26:26.881678"
+    },
+    "TDC": {
+      "last_update_time": "2026-06-04T12:08:57.982323"
+    },
+    "TEAM": {
+      "last_update_time": "2026-06-04T12:09:29.095575"
+    },
+    "TECH": {
+      "last_update_time": "2026-06-04T12:10:01.938171"
+    },
+    "TEX": {
+      "last_update_time": "2026-06-04T12:10:34.850958"
     },
     "ZIM": {
       "last_update_time": "2026-05-30T10:33:10.659706"
@@ -521,6 +572,18 @@
   "stock-valuation": {
     "MOH": {
       "last_update_time": "2026-06-03T11:56:11.728274"
+    },
+    "NKE": {
+      "last_update_time": "2026-06-04T11:01:33.550269"
+    },
+    "PAYC": {
+      "last_update_time": "2026-06-04T11:25:08.706552"
+    },
+    "PYPL": {
+      "last_update_time": "2026-06-04T11:17:51.482285"
+    },
+    "TASK": {
+      "last_update_time": "2026-06-04T11:18:47.308594"
     }
   },
   "summary": {
@@ -528,7 +591,7 @@
       "last_update_time": "2026-05-28T10:55:12.933237"
     },
     "Top10_DividendValue": {
-      "last_update_time": "2026-05-28T06:18:16.446580"
+      "last_update_time": "2026-06-04T10:49:14.748133"
     },
     "Top10_Momentum": {
       "last_update_time": "2026-05-28T10:56:31.206421"
