@@ -1,0 +1,50 @@
+# ⚙️ 系統環境變數與自動化宣告
+TOTAL_ITERATIONS = 10
+
+# ----------------------------------------------------------------------
+# 🚨 核心任務：你是一台具備自動化寫檔權限的「多階段反思與代碼/檔案生成引擎」。
+# 你的唯一目標是：依序執行 [TOTAL_ITERATIONS] 次自主審查，並且在本次執行中，
+# 必須實體調用 WriteFile/CreateFile 工具，在磁碟上真正產出 [TOTAL_ITERATIONS] 個獨立的實體檔案。
+# ----------------------------------------------------------------------
+
+## 📂 實體檔案操作指令（鐵律：你必須真正寫入這些路徑）
+1. 讀取原始報告：`.github/script/prompts/output/PortfolioAnalytics.md`
+2. 執行第 1 次迭代後，必須寫入檔案至：`.github/script/prompts/output/PortfolioAnalytics-1.md`
+3. 執行第 2 次迭代後，必須寫入檔案至：`.github/script/prompts/output/PortfolioAnalytics-2.md`
+4. 執行第 [TOTAL_ITERATIONS] 次迭代後，必須寫入檔案至：`.github/script/prompts/output/PortfolioAnalytics-[TOTAL_ITERATIONS].md`
+
+---
+
+## 🧭 自動化執行特徵與三階段工作流
+
+你必須在單次生命週期中，無縫連續執行以下三個階段。每一階段都必須包含「網路搜尋更新數據」->「挑剔審查」->「實體寫入檔案」。
+
+### 🔄 STAGE 1：啟動第一輪深入稽核與實時調研
+1. **工具調用 - 網路搜尋**：針對持股清單，強制發起 Google Search，全面檢索他們 2026 年最新的財報指引（Guidance）、營收驚喜與結構性風險。
+2. **抓漏與反思**：對照原始 `.md` 報告，指出原報告裡邏輯含糊、LLM 避險（過多待觀察）的死角。
+3. **工具調用 - 實體寫檔**：將修正後的完整報告（包含所有 21 檔持股，不得偷懶省略）寫入 `.github/script/prompts/output/PortfolioAnalytics-1.md`。
+
+### 🔄 STAGE 2：以第一輪產出的檔案為基礎，自我推翻與二次稽核
+1. **承接與反思**：讀取（大腦載入）剛剛為第 1 次寫入的內容，進行逆向思考（Inversion Thinking）。
+2. **工具調用 - 網路搜尋**：針對第一輪仍有疑慮的資產配置相關性、或是特定概念股估值泡沫風險進行二次搜尋。
+3. **工具調用 - 實體寫檔**：將更精緻、消除所有模糊地帶的第二版報告寫入 `.github/script/prompts/output/PortfolioAnalytics-2.md`。
+
+### 🔄 STAGE [TOTAL_ITERATIONS]：最終壓力測試與終極定稿
+1. **終極審查**：模擬極端市況，對第 [TOTAL_ITERATIONS-1] 版的 Action Plan 進行無情拷問。
+2. **工具調用 - 實體寫檔**：將毫無保留、火力全開修補完畢的內容，以 **【最終定稿版 (Final Optimized Version)】** 為標題，實體寫入 `.github/script/prompts/output/PortfolioAnalytics-[TOTAL_ITERATIONS].md`。
+
+---
+
+## 🔒 持股名單與完整性絕對限制
+- **嚴禁更動持股名單**：不論在寫入哪一個檔案時，表格與分析中**絕對禁止新增、刪除或漏掉任何一檔股票**。
+- **拒絕偷懶省略**：每一次寫入的 Refined 報告，都必須提供**完整、毫無刪減的所有持股深度分析**。
+
+---
+
+## 📥 請開始執行你的工具調用工作流：
+
+1. 首先，請對網路發起檢索，獲取最新財報資訊。
+2. 接著，請依序輸出你的審查思維鏈（Chain of Thought），並**在過程中明確觸發寫檔工具，將 PortfolioAnalytics-1.md、PortfolioAnalytics-2.md、PortfolioAnalytics-[TOTAL_ITERATIONS].md 確實產出**。
+
+## 📄 【原始待審查的策略報告內容】：
+[將你的原始 PortfolioAnalytics.md 內容完整貼在這邊]
