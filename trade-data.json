@@ -338,12 +338,6 @@
          "strike":20
       },
       {
-         "symbol":"ISRG",
-         "type":"put",
-         "expiry":"2026-06-05",
-         "strike":390
-      },
-      {
          "symbol":"KBR",
          "type":"put",
          "expiry":"2026-06-18",
@@ -388,7 +382,7 @@
       {
          "symbol":"PFE",
          "type":"put",
-         "expiry":"2026-06-05",
+         "expiry":"2026-07-02",
          "strike":24
       },
       {
@@ -398,10 +392,22 @@
          "strike":180
       },
       {
+         "symbol":"PVH",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":65
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2026-06-26",
          "strike":39
+      },
+      {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":150
       },
       {
          "symbol":"TM",
@@ -426,6 +432,12 @@
          "type":"put",
          "expiry":"2026-07-17",
          "strike":12
+      },
+      {
+         "symbol":"VZ",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":41
       },
       {
          "symbol":"ZIM",
