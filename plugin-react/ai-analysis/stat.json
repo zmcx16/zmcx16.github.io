@@ -408,6 +408,9 @@
     "SM": {
       "last_update_time": "2026-06-04T12:05:34.954367"
     },
+    "SMP": {
+      "last_update_time": "2026-06-05T11:49:05.775529"
+    },
     "SONY": {
       "last_update_time": "2026-06-04T12:06:24.951349"
     },
@@ -434,6 +437,60 @@
     },
     "TEX": {
       "last_update_time": "2026-06-04T12:10:34.850958"
+    },
+    "TGT": {
+      "last_update_time": "2026-06-05T11:50:10.553714"
+    },
+    "TM": {
+      "last_update_time": "2026-06-05T11:51:15.651193"
+    },
+    "TRI": {
+      "last_update_time": "2026-06-05T11:52:35.558860"
+    },
+    "TRMD": {
+      "last_update_time": "2026-06-05T11:52:03.818357"
+    },
+    "TX": {
+      "last_update_time": "2026-06-05T11:53:06.926858"
+    },
+    "UAL": {
+      "last_update_time": "2026-06-05T11:54:12.176294"
+    },
+    "UPS": {
+      "last_update_time": "2026-06-05T11:54:44.328546"
+    },
+    "VAC": {
+      "last_update_time": "2026-06-05T12:02:07.999347"
+    },
+    "VALE": {
+      "last_update_time": "2026-06-05T11:56:13.603089"
+    },
+    "VFC": {
+      "last_update_time": "2026-06-05T11:57:18.252047"
+    },
+    "VIST": {
+      "last_update_time": "2026-06-05T11:56:45.845960"
+    },
+    "VZ": {
+      "last_update_time": "2026-06-05T12:02:51.736089"
+    },
+    "WDAY": {
+      "last_update_time": "2026-06-05T11:58:16.322318"
+    },
+    "WEN": {
+      "last_update_time": "2026-06-05T11:58:47.685159"
+    },
+    "WFC": {
+      "last_update_time": "2026-06-05T11:59:52.947347"
+    },
+    "WU": {
+      "last_update_time": "2026-06-05T12:00:24.517294"
+    },
+    "X": {
+      "last_update_time": "2026-06-05T12:01:00.162992"
+    },
+    "XOM": {
+      "last_update_time": "2026-06-05T12:01:32.450641"
     },
     "ZIM": {
       "last_update_time": "2026-05-30T10:33:10.659706"
@@ -570,6 +627,9 @@
     }
   },
   "stock-valuation": {
+    "ADBE": {
+      "last_update_time": "2026-06-05T11:38:28.331696"
+    },
     "MOH": {
       "last_update_time": "2026-06-03T11:56:11.728274"
     },
@@ -594,10 +654,10 @@
       "last_update_time": "2026-06-04T10:49:14.748133"
     },
     "Top10_Momentum": {
-      "last_update_time": "2026-05-28T10:56:31.206421"
+      "last_update_time": "2026-06-05T10:54:10.161991"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-05-28T10:57:31.393605"
+      "last_update_time": "2026-06-05T10:55:07.170259"
     },
     "Top10_SmallCapGems": {
       "last_update_time": "2026-05-28T10:58:30.906410"
