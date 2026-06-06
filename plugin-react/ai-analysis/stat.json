@@ -234,6 +234,9 @@
     "ISRG": {
       "last_update_time": "2026-06-02T11:38:19.563557"
     },
+    "IT": {
+      "last_update_time": "2026-06-06T10:29:33.727707"
+    },
     "JPM": {
       "last_update_time": "2026-06-02T11:38:59.725371"
     },
@@ -332,6 +335,9 @@
     },
     "NOW": {
       "last_update_time": "2026-05-30T10:29:42.541311"
+    },
+    "NTSK": {
+      "last_update_time": "2026-06-06T11:03:40.765276"
     },
     "NVDA": {
       "last_update_time": "2026-06-03T12:10:58.046476"
@@ -435,6 +441,9 @@
     "TECH": {
       "last_update_time": "2026-06-04T12:10:01.938171"
     },
+    "TEN": {
+      "last_update_time": "2026-06-06T11:04:11.552818"
+    },
     "TEX": {
       "last_update_time": "2026-06-04T12:10:34.850958"
     },
@@ -494,17 +503,65 @@
     },
     "ZIM": {
       "last_update_time": "2026-05-30T10:33:10.659706"
+    },
+    "ZTS": {
+      "last_update_time": "2026-06-06T11:05:20.471895"
     }
   },
   "fs-analysis": {
     "AAP": {
       "last_update_time": "2026-06-03T11:24:50.960628"
     },
+    "AAPL": {
+      "last_update_time": "2026-06-06T11:05:58.766468"
+    },
+    "ABNB": {
+      "last_update_time": "2026-06-06T11:06:29.601988"
+    },
+    "ABT": {
+      "last_update_time": "2026-06-06T11:06:57.933754"
+    },
+    "ACLS": {
+      "last_update_time": "2026-06-06T11:07:41.057180"
+    },
+    "ACN": {
+      "last_update_time": "2026-06-06T11:08:12.494385"
+    },
     "ADBE": {
       "last_update_time": "2026-06-02T11:20:44.686905"
     },
     "ADSK": {
       "last_update_time": "2026-06-03T11:25:45.191571"
+    },
+    "AEO": {
+      "last_update_time": "2026-06-06T11:08:43.021020"
+    },
+    "ALB": {
+      "last_update_time": "2026-06-06T11:09:14.136756"
+    },
+    "AMZN": {
+      "last_update_time": "2026-06-06T11:10:14.457310"
+    },
+    "ANET": {
+      "last_update_time": "2026-06-06T11:10:43.701801"
+    },
+    "APTV": {
+      "last_update_time": "2026-06-06T11:11:41.255137"
+    },
+    "ASML": {
+      "last_update_time": "2026-06-06T11:12:15.324554"
+    },
+    "AZN": {
+      "last_update_time": "2026-06-06T11:12:45.249912"
+    },
+    "BAC": {
+      "last_update_time": "2026-06-06T11:13:15.782123"
+    },
+    "BBY": {
+      "last_update_time": "2026-06-06T11:13:58.445225"
+    },
+    "BCE": {
+      "last_update_time": "2026-06-06T11:15:08.464895"
     },
     "CRM": {
       "last_update_time": "2026-06-02T11:18:54.680208"
@@ -523,6 +580,9 @@
     },
     "ILPT": {
       "last_update_time": "2026-06-01T11:25:55.404588"
+    },
+    "IT": {
+      "last_update_time": "2026-06-06T10:30:46.764571"
     },
     "MOH": {
       "last_update_time": "2026-05-31T12:23:31.726950"
@@ -589,6 +649,9 @@
     "ILPT": {
       "last_update_time": "2026-06-02T11:31:20.546638"
     },
+    "IT": {
+      "last_update_time": "2026-06-06T10:31:37.605236"
+    },
     "MOH": {
       "last_update_time": "2026-06-02T11:29:45.961602"
     },
@@ -627,14 +690,29 @@
     }
   },
   "stock-valuation": {
+    "AAP": {
+      "last_update_time": "2026-06-06T11:00:32.482766"
+    },
     "ADBE": {
       "last_update_time": "2026-06-05T11:38:28.331696"
+    },
+    "EL": {
+      "last_update_time": "2026-06-06T10:36:35.399449"
+    },
+    "FLO": {
+      "last_update_time": "2026-06-06T10:37:56.980910"
+    },
+    "ILPT": {
+      "last_update_time": "2026-06-06T10:57:27.547826"
     },
     "MOH": {
       "last_update_time": "2026-06-03T11:56:11.728274"
     },
     "NKE": {
       "last_update_time": "2026-06-04T11:01:33.550269"
+    },
+    "NVO": {
+      "last_update_time": "2026-06-06T10:50:39.285186"
     },
     "PAYC": {
       "last_update_time": "2026-06-04T11:25:08.706552"
@@ -648,7 +726,7 @@
   },
   "summary": {
     "PortfolioAnalytics": {
-      "last_update_time": "2026-05-28T10:55:12.933237"
+      "last_update_time": "2026-06-06T10:21:38.510840"
     },
     "Top10_DividendValue": {
       "last_update_time": "2026-06-04T10:49:14.748133"
@@ -660,16 +738,16 @@
       "last_update_time": "2026-06-05T10:55:07.170259"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-05-28T10:58:30.906410"
+      "last_update_time": "2026-06-06T10:22:46.859565"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-05-28T10:59:20.552183"
+      "last_update_time": "2026-06-06T10:23:52.252252"
     },
     "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-05-29T10:53:40.787397"
+      "last_update_time": "2026-06-06T10:25:36.680031"
     },
     "Top10_UndervaluedGrowthIndustries": {
-      "last_update_time": "2026-05-29T10:55:32.605327"
+      "last_update_time": "2026-06-06T10:27:10.693677"
     }
   }
 }
