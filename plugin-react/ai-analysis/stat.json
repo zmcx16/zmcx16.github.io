@@ -539,11 +539,17 @@
     "ALB": {
       "last_update_time": "2026-06-06T11:09:14.136756"
     },
+    "AMAT": {
+      "last_update_time": "2026-06-07T10:47:10.508184"
+    },
     "AMZN": {
       "last_update_time": "2026-06-06T11:10:14.457310"
     },
     "ANET": {
       "last_update_time": "2026-06-06T11:10:43.701801"
+    },
+    "APD": {
+      "last_update_time": "2026-06-07T10:47:40.613522"
     },
     "APTV": {
       "last_update_time": "2026-06-06T11:11:41.255137"
@@ -563,8 +569,53 @@
     "BCE": {
       "last_update_time": "2026-06-06T11:15:08.464895"
     },
+    "BLD": {
+      "last_update_time": "2026-06-07T10:48:13.182281"
+    },
+    "BUD": {
+      "last_update_time": "2026-06-07T10:48:53.369022"
+    },
+    "CAG": {
+      "last_update_time": "2026-06-07T10:49:45.970776"
+    },
+    "CALM": {
+      "last_update_time": "2026-06-07T10:50:31.058053"
+    },
+    "CAMT": {
+      "last_update_time": "2026-06-07T10:51:03.978236"
+    },
+    "CMCSA": {
+      "last_update_time": "2026-06-07T10:51:37.537019"
+    },
+    "CNMD": {
+      "last_update_time": "2026-06-07T10:52:12.927449"
+    },
     "CRM": {
       "last_update_time": "2026-06-02T11:18:54.680208"
+    },
+    "CSCO": {
+      "last_update_time": "2026-06-07T10:52:48.052269"
+    },
+    "CVS": {
+      "last_update_time": "2026-06-07T10:53:30.939363"
+    },
+    "CVX": {
+      "last_update_time": "2026-06-07T10:54:09.657092"
+    },
+    "DELL": {
+      "last_update_time": "2026-06-07T10:54:41.304920"
+    },
+    "DEO": {
+      "last_update_time": "2026-06-07T10:55:12.413954"
+    },
+    "DG": {
+      "last_update_time": "2026-06-07T10:55:58.593097"
+    },
+    "DIS": {
+      "last_update_time": "2026-06-07T10:57:29.019743"
+    },
+    "DXCM": {
+      "last_update_time": "2026-06-07T10:58:12.972270"
     },
     "EL": {
       "last_update_time": "2026-05-30T10:34:54.096744"
