@@ -224,6 +224,12 @@
          "strike":160
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-06-26",
+         "strike":190
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-08-21",
@@ -252,6 +258,12 @@
          "type":"put",
          "expiry":"2026-06-18",
          "strike":12
+      },
+      {
+         "symbol":"CALM",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":65
       },
       {
          "symbol":"CNMD",
@@ -326,6 +338,12 @@
          "strike":30
       },
       {
+         "symbol":"GLOB",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":30
+      },
+      {
          "symbol":"GPN",
          "type":"put",
          "expiry":"2026-06-18",
@@ -362,6 +380,12 @@
          "strike":36
       },
       {
+         "symbol":"NVDA",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":171
+      },
+      {
          "symbol":"NVO",
          "type":"put",
          "expiry":"2026-06-18",
@@ -372,6 +396,12 @@
          "type":"put",
          "expiry":"2026-06-18",
          "strike":67.5
+      },
+      {
+         "symbol":"OMF",
+         "type":"put",
+         "expiry":"2026-06-18",
+         "strike":50
       },
       {
          "symbol":"PEP",
