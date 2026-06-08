@@ -480,6 +480,9 @@
     "VIST": {
       "last_update_time": "2026-06-05T11:56:45.845960"
     },
+    "VMI": {
+      "last_update_time": "2026-06-08T11:40:57.028931"
+    },
     "VZ": {
       "last_update_time": "2026-06-05T12:02:51.736089"
     },
@@ -611,20 +614,59 @@
     "DG": {
       "last_update_time": "2026-06-07T10:55:58.593097"
     },
+    "DHI": {
+      "last_update_time": "2026-06-08T11:41:39.828473"
+    },
     "DIS": {
       "last_update_time": "2026-06-07T10:57:29.019743"
     },
     "DXCM": {
       "last_update_time": "2026-06-07T10:58:12.972270"
     },
+    "DXPE": {
+      "last_update_time": "2026-06-08T11:42:08.681953"
+    },
     "EL": {
       "last_update_time": "2026-05-30T10:34:54.096744"
+    },
+    "EMN": {
+      "last_update_time": "2026-06-08T11:42:40.534145"
     },
     "EPAM": {
       "last_update_time": "2026-06-02T11:15:08.247247"
     },
+    "ETN": {
+      "last_update_time": "2026-06-08T11:43:09.299188"
+    },
+    "EW": {
+      "last_update_time": "2026-06-08T11:43:56.800317"
+    },
+    "EXLS": {
+      "last_update_time": "2026-06-08T11:44:29.227051"
+    },
+    "EXR": {
+      "last_update_time": "2026-06-08T11:44:58.657710"
+    },
+    "FDX": {
+      "last_update_time": "2026-06-08T11:46:00.446436"
+    },
     "FLO": {
       "last_update_time": "2026-05-30T10:35:57.253081"
+    },
+    "FSLR": {
+      "last_update_time": "2026-06-08T11:47:09.195249"
+    },
+    "FTNT": {
+      "last_update_time": "2026-06-08T11:47:39.075789"
+    },
+    "GAP": {
+      "last_update_time": "2026-06-08T11:48:27.678161"
+    },
+    "GGB": {
+      "last_update_time": "2026-06-08T11:49:25.590028"
+    },
+    "GIS": {
+      "last_update_time": "2026-06-08T11:53:23.629071"
     },
     "GLOB": {
       "last_update_time": "2026-06-02T11:18:09.708912"
