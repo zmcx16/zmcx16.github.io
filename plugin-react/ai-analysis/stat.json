@@ -647,8 +647,17 @@
     "EXR": {
       "last_update_time": "2026-06-08T11:44:58.657710"
     },
+    "F": {
+      "last_update_time": "2026-06-09T11:10:20.867285"
+    },
     "FDX": {
       "last_update_time": "2026-06-08T11:46:00.446436"
+    },
+    "FFIV": {
+      "last_update_time": "2026-06-09T11:10:52.047868"
+    },
+    "FISV": {
+      "last_update_time": "2026-06-09T11:11:19.846026"
     },
     "FLO": {
       "last_update_time": "2026-05-30T10:35:57.253081"
@@ -659,11 +668,17 @@
     "FTNT": {
       "last_update_time": "2026-06-08T11:47:39.075789"
     },
+    "G": {
+      "last_update_time": "2026-06-09T11:11:49.982890"
+    },
     "GAP": {
       "last_update_time": "2026-06-08T11:48:27.678161"
     },
     "GGB": {
       "last_update_time": "2026-06-08T11:49:25.590028"
+    },
+    "GILD": {
+      "last_update_time": "2026-06-09T11:12:22.606262"
     },
     "GIS": {
       "last_update_time": "2026-06-08T11:53:23.629071"
@@ -671,8 +686,53 @@
     "GLOB": {
       "last_update_time": "2026-06-02T11:18:09.708912"
     },
+    "GM": {
+      "last_update_time": "2026-06-09T11:12:52.948417"
+    },
+    "GOOG": {
+      "last_update_time": "2026-06-09T11:15:52.750679"
+    },
+    "GPN": {
+      "last_update_time": "2026-06-09T11:16:27.171692"
+    },
+    "GT": {
+      "last_update_time": "2026-06-09T11:16:58.554754"
+    },
+    "HAFN": {
+      "last_update_time": "2026-06-09T11:17:27.828998"
+    },
+    "HAL": {
+      "last_update_time": "2026-06-09T11:17:57.690736"
+    },
+    "HAS": {
+      "last_update_time": "2026-06-09T11:18:30.337414"
+    },
+    "HCI": {
+      "last_update_time": "2026-06-09T11:19:01.733044"
+    },
+    "HMC": {
+      "last_update_time": "2026-06-09T11:19:31.491298"
+    },
+    "HOG": {
+      "last_update_time": "2026-06-09T11:20:01.473579"
+    },
+    "HPE": {
+      "last_update_time": "2026-06-09T11:20:36.395941"
+    },
+    "HPQ": {
+      "last_update_time": "2026-06-09T11:21:06.833117"
+    },
     "ILPT": {
       "last_update_time": "2026-06-01T11:25:55.404588"
+    },
+    "INGR": {
+      "last_update_time": "2026-06-09T11:21:37.211676"
+    },
+    "INTC": {
+      "last_update_time": "2026-06-09T11:22:05.674598"
+    },
+    "ISRG": {
+      "last_update_time": "2026-06-09T11:22:34.611567"
     },
     "IT": {
       "last_update_time": "2026-06-06T10:30:46.764571"
