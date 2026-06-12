@@ -212,18 +212,6 @@
          "strike":115
       },
       {
-         "symbol":"ABT",
-         "type":"put",
-         "expiry":"2026-06-12",
-         "strike":79
-      },
-      {
-         "symbol":"ACN",
-         "type":"put",
-         "expiry":"2026-06-12",
-         "strike":160
-      },
-      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-06-26",
@@ -310,12 +298,6 @@
       {
          "symbol":"FSLR",
          "type":"put",
-         "expiry":"2026-06-12",
-         "strike":190
-      },
-      {
-         "symbol":"FSLR",
-         "type":"put",
          "expiry":"2026-07-17",
          "strike":180
       },
@@ -376,8 +358,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2026-06-12",
-         "strike":36
+         "expiry":"2026-06-26",
+         "strike":40.5
       },
       {
          "symbol":"NVDA",
@@ -472,8 +454,8 @@
       {
          "symbol":"ZIM",
          "type":"put",
-         "expiry":"2026-06-12",
-         "strike":23
+         "expiry":"2026-07-17",
+         "strike":20
       }
    ],
    "news_config":{
