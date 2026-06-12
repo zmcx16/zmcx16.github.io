@@ -746,11 +746,62 @@
     "KINS": {
       "last_update_time": "2026-06-11T16:16:45.890904"
     },
+    "KSPI": {
+      "last_update_time": "2026-06-12T11:22:25.105410"
+    },
+    "KSS": {
+      "last_update_time": "2026-06-12T11:23:25.552732"
+    },
+    "LLY": {
+      "last_update_time": "2026-06-12T11:23:58.975390"
+    },
+    "LMAT": {
+      "last_update_time": "2026-06-12T11:25:11.705395"
+    },
+    "LNTH": {
+      "last_update_time": "2026-06-12T11:25:55.872984"
+    },
+    "LQDT": {
+      "last_update_time": "2026-06-12T11:26:28.511278"
+    },
+    "M": {
+      "last_update_time": "2026-06-12T11:28:02.776513"
+    },
+    "MA": {
+      "last_update_time": "2026-06-12T11:28:34.073728"
+    },
+    "MATX": {
+      "last_update_time": "2026-06-12T11:29:03.690787"
+    },
+    "MDT": {
+      "last_update_time": "2026-06-12T11:30:12.223429"
+    },
+    "MEDP": {
+      "last_update_time": "2026-06-12T11:30:44.352636"
+    },
+    "MELI": {
+      "last_update_time": "2026-06-12T11:31:53.472052"
+    },
     "MOH": {
       "last_update_time": "2026-05-31T12:23:31.726950"
     },
+    "MORN": {
+      "last_update_time": "2026-06-12T11:32:40.941492"
+    },
     "MPT": {
       "last_update_time": "2026-05-31T12:22:34.013902"
+    },
+    "MS": {
+      "last_update_time": "2026-06-12T11:33:28.679152"
+    },
+    "MSFT": {
+      "last_update_time": "2026-06-12T11:33:58.348297"
+    },
+    "MTDR": {
+      "last_update_time": "2026-06-12T11:34:32.797380"
+    },
+    "MU": {
+      "last_update_time": "2026-06-12T11:35:07.025362"
     },
     "NICE": {
       "last_update_time": "2026-06-02T11:21:37.365514"
@@ -919,6 +970,27 @@
     }
   },
   "super-thinking": {
+    "AAP": {
+      "last_update_time": "2026-06-12T11:17:32.834550"
+    },
+    "ILPT": {
+      "last_update_time": "2026-06-12T11:16:14.410790"
+    },
+    "MOH": {
+      "last_update_time": "2026-06-12T11:13:31.280030"
+    },
+    "MPT": {
+      "last_update_time": "2026-06-12T11:12:17.960136"
+    },
+    "NKE": {
+      "last_update_time": "2026-06-12T11:11:10.745717"
+    },
+    "NVO": {
+      "last_update_time": "2026-06-12T11:14:57.560417"
+    },
+    "PYPL": {
+      "last_update_time": "2026-06-12T11:19:03.727837"
+    },
     "TASK": {
       "last_update_time": "2026-06-10T11:07:37.748117"
     }
