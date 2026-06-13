@@ -899,6 +899,9 @@
     "RYN": {
       "last_update_time": "2026-06-13T18:19:44.412924"
     },
+    "SAP": {
+      "last_update_time": "2026-06-13T19:53:50.096696"
+    },
     "SID": {
       "last_update_time": "2026-06-01T11:36:09.069015"
     },
@@ -1045,6 +1048,9 @@
   "summary": {
     "PortfolioAnalytics": {
       "last_update_time": "2026-06-13T10:25:32.401857"
+    },
+    "Top10_DavisDoublePlay": {
+      "last_update_time": "2026-06-13T19:49:18.470655"
     },
     "Top10_DividendValue": {
       "last_update_time": "2026-06-11T16:09:07.782134"
