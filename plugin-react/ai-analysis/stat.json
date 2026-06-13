@@ -887,8 +887,17 @@
     "PODD": {
       "last_update_time": "2026-06-02T11:16:00.669372"
     },
+    "PVH": {
+      "last_update_time": "2026-06-13T18:18:47.729138"
+    },
     "PYPL": {
       "last_update_time": "2026-06-01T11:27:09.143213"
+    },
+    "QCOM": {
+      "last_update_time": "2026-06-13T18:19:16.098920"
+    },
+    "RYN": {
+      "last_update_time": "2026-06-13T18:19:44.412924"
     },
     "SID": {
       "last_update_time": "2026-06-01T11:36:09.069015"
@@ -1044,7 +1053,7 @@
       "last_update_time": "2026-06-13T10:30:44.034078"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-06-05T10:55:07.170259"
+      "last_update_time": "2026-06-13T18:14:18.125783"
     },
     "Top10_SmallCapGems": {
       "last_update_time": "2026-06-13T10:32:16.987580"
