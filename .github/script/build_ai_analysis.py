@@ -664,6 +664,10 @@ if __name__ == "__main__":
         with open(stock_info_path, 'r', encoding='utf-8') as f:
             stock_info_data = json.loads(f.read())
 
+        stock_company_info_path = workspace_root / 'stock-data' / 'info.json'
+        with open(stock_company_info_path, 'r', encoding='utf-8') as f:
+            stock_company_info_data = json.loads(f.read())
+
         if stock_list_key not in data:
             logging.error(f"Stock list key '{stock_list_key}' not found in trade-data.json")
             sys.exit(1)
@@ -723,7 +727,10 @@ if __name__ == "__main__":
 
                 logging.info(f"[{task_idx + 1}/{total_tasks}] Analyzing {symbol} with {prompt_key} using {model_name}")
                 stock_stat_str = json.dumps(stock_stat, indent=2, ensure_ascii=False) if stock_stat else "無基本面數據, 請自行取得相關資訊。"
-                prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str)
+                company_info = stock_company_info_data.get(symbol)
+                company_name = company_info[0] if company_info else None
+                prompt = prompt_template.format(symbol=symbol, stock_stat=stock_stat_str,
+                                                company_name=company_name if company_name is not None else '{company_name}')
 
                 try:
                     # Respect per-model config (e.g., whether to use grounding tools)
