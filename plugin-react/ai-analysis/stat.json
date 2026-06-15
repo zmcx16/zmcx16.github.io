@@ -968,22 +968,64 @@
     "VALE": {
       "last_update_time": "2026-06-14T11:29:36.772292"
     },
+    "VFC": {
+      "last_update_time": "2026-06-15T11:57:18.610293"
+    },
     "VIST": {
       "last_update_time": "2026-06-14T11:30:06.291345"
     },
+    "VMI": {
+      "last_update_time": "2026-06-15T11:57:49.578034"
+    },
+    "VZ": {
+      "last_update_time": "2026-06-15T12:02:41.628696"
+    },
+    "WDAY": {
+      "last_update_time": "2026-06-15T11:58:19.627661"
+    },
+    "WEN": {
+      "last_update_time": "2026-06-15T11:59:16.071643"
+    },
+    "WU": {
+      "last_update_time": "2026-06-15T12:00:31.746245"
+    },
     "ZIM": {
       "last_update_time": "2026-06-02T11:26:18.076251"
+    },
+    "ZTS": {
+      "last_update_time": "2026-06-15T12:04:16.262146"
     }
   },
   "sold-strategy": {
     "AAP": {
       "last_update_time": "2026-06-02T11:32:15.428729"
     },
+    "AAPL": {
+      "last_update_time": "2026-06-15T12:04:46.153195"
+    },
+    "ABT": {
+      "last_update_time": "2026-06-15T12:06:13.504217"
+    },
     "ADBE": {
       "last_update_time": "2026-06-03T11:33:10.859999"
     },
     "ADSK": {
       "last_update_time": "2026-06-03T11:29:01.857743"
+    },
+    "AEO": {
+      "last_update_time": "2026-06-15T12:08:08.214159"
+    },
+    "ALB": {
+      "last_update_time": "2026-06-15T12:08:40.561084"
+    },
+    "AMAT": {
+      "last_update_time": "2026-06-15T12:09:37.365665"
+    },
+    "AMZN": {
+      "last_update_time": "2026-06-15T12:10:12.323796"
+    },
+    "ANET": {
+      "last_update_time": "2026-06-15T12:10:53.747505"
     },
     "CRM": {
       "last_update_time": "2026-06-03T11:30:58.726390"
@@ -1079,6 +1121,9 @@
     },
     "MPT": {
       "last_update_time": "2026-06-13T10:39:01.605708"
+    },
+    "NICE": {
+      "last_update_time": "2026-06-15T11:41:57.476444"
     },
     "NKE": {
       "last_update_time": "2026-06-04T11:01:33.550269"
@@ -1206,17 +1251,32 @@
     }
   },
   "think-tank": {
+    "CRM": {
+      "last_update_time": "2026-06-15T11:52:32.738397"
+    },
     "EL": {
       "last_update_time": "2026-06-14T11:07:35.456793"
     },
     "FLO": {
       "last_update_time": "2026-06-14T11:09:52.907972"
     },
+    "ILPT": {
+      "last_update_time": "2026-06-15T11:45:30.718369"
+    },
+    "MOH": {
+      "last_update_time": "2026-06-15T11:42:54.201474"
+    },
     "MPT": {
       "last_update_time": "2026-06-14T11:14:30.316100"
     },
     "NKE": {
       "last_update_time": "2026-06-14T11:11:45.187429"
+    },
+    "PODD": {
+      "last_update_time": "2026-06-15T11:50:52.479592"
+    },
+    "PYPL": {
+      "last_update_time": "2026-06-15T11:48:13.659758"
     }
   }
 }
