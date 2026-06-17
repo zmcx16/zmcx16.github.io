@@ -214,10 +214,10 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"ABNB",
+         "symbol":"ABT",
          "type":"put",
-         "expiry":"2026-06-18",
-         "strike":115
+         "expiry":"2026-06-26",
+         "strike":84
       },
       {
          "symbol":"ADSK",
@@ -232,28 +232,10 @@
          "strike":11
       },
       {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":125
-      },
-      {
-         "symbol":"BCE",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":23
-      },
-      {
          "symbol":"BCE",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":23
-      },
-      {
-         "symbol":"CAG",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":12
       },
       {
          "symbol":"CALM",
@@ -268,46 +250,10 @@
          "strike":21
       },
       {
-         "symbol":"CNMD",
+         "symbol":"DIS",
          "type":"put",
-         "expiry":"2026-06-18",
-         "strike":30
-      },
-      {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":115
-      },
-      {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":125
-      },
-      {
-         "symbol":"DXCM",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":60
-      },
-      {
-         "symbol":"EL",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":75
-      },
-      {
-         "symbol":"EMN",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":60
-      },
-      {
-         "symbol":"ETN",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":340
+         "expiry":"2026-06-26",
+         "strike":94
       },
       {
          "symbol":"FSLR",
@@ -328,46 +274,10 @@
          "strike":115
       },
       {
-         "symbol":"GIS",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":30
-      },
-      {
-         "symbol":"GLOB",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":30
-      },
-      {
-         "symbol":"GPN",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":62.5
-      },
-      {
-         "symbol":"HOG",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":20
-      },
-      {
-         "symbol":"KBR",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":27.5
-      },
-      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":11
-      },
-      {
-         "symbol":"MMS",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":50
       },
       {
          "symbol":"NKE",
@@ -376,52 +286,10 @@
          "strike":40.5
       },
       {
-         "symbol":"NVDA",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":171
-      },
-      {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":40
-      },
-      {
-         "symbol":"OMC",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":67.5
-      },
-      {
-         "symbol":"OMF",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":50
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":135
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-07-02",
          "strike":24
-      },
-      {
-         "symbol":"PGR",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":180
-      },
-      {
-         "symbol":"PVH",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":65
       },
       {
          "symbol":"PYPL",
@@ -436,21 +304,9 @@
          "strike":150
       },
       {
-         "symbol":"TM",
-         "type":"put",
-         "expiry":"2026-06-18",
-         "strike":165
-      },
-      {
          "symbol":"TRI",
          "type":"put",
          "expiry":"2026-07-17",
-         "strike":65
-      },
-      {
-         "symbol":"UAL",
-         "type":"put",
-         "expiry":"2026-06-18",
          "strike":65
       },
       {
