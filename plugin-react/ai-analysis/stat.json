@@ -337,7 +337,7 @@
       "last_update_time": "2026-06-03T12:04:07.548446"
     },
     "NICE": {
-      "last_update_time": "2026-05-30T10:32:25.120607"
+      "last_update_time": "2026-06-20T10:36:43.562381"
     },
     "NKE": {
       "last_update_time": "2026-06-18T11:13:36.220007"
@@ -349,7 +349,7 @@
       "last_update_time": "2026-06-03T12:05:51.081391"
     },
     "NOW": {
-      "last_update_time": "2026-05-30T10:29:42.541311"
+      "last_update_time": "2026-06-20T10:35:54.309145"
     },
     "NTR": {
       "last_update_time": "2026-06-17T11:38:07.834228"
@@ -409,7 +409,7 @@
       "last_update_time": "2026-06-03T12:19:34.009626"
     },
     "PODD": {
-      "last_update_time": "2026-05-30T10:27:16.246788"
+      "last_update_time": "2026-06-20T10:33:42.745548"
     },
     "PSX": {
       "last_update_time": "2026-06-16T11:50:13.983474"
@@ -418,7 +418,7 @@
       "last_update_time": "2026-06-03T12:20:04.389988"
     },
     "PYPL": {
-      "last_update_time": "2026-05-30T10:25:40.655896"
+      "last_update_time": "2026-06-20T10:32:14.209558"
     },
     "QCOM": {
       "last_update_time": "2026-06-04T12:03:27.199742"
@@ -433,7 +433,7 @@
       "last_update_time": "2026-06-04T12:05:00.451461"
     },
     "SID": {
-      "last_update_time": "2026-05-30T10:33:58.417194"
+      "last_update_time": "2026-06-20T10:38:42.290777"
     },
     "SM": {
       "last_update_time": "2026-06-04T12:05:34.954367"
@@ -454,7 +454,7 @@
       "last_update_time": "2026-06-04T12:08:26.459731"
     },
     "TASK": {
-      "last_update_time": "2026-05-30T10:26:26.881678"
+      "last_update_time": "2026-06-20T10:32:55.632950"
     },
     "TDC": {
       "last_update_time": "2026-06-04T12:08:57.982323"
@@ -532,7 +532,7 @@
       "last_update_time": "2026-06-05T12:01:32.450641"
     },
     "ZIM": {
-      "last_update_time": "2026-05-30T10:33:10.659706"
+      "last_update_time": "2026-06-20T10:37:37.645376"
     },
     "ZTS": {
       "last_update_time": "2026-06-06T11:05:20.471895"
@@ -666,7 +666,7 @@
       "last_update_time": "2026-06-08T11:42:08.681953"
     },
     "EL": {
-      "last_update_time": "2026-05-30T10:34:54.096744"
+      "last_update_time": "2026-06-20T10:39:26.563587"
     },
     "EMN": {
       "last_update_time": "2026-06-08T11:42:40.534145"
@@ -834,13 +834,13 @@
       "last_update_time": "2026-06-13T11:28:45.077654"
     },
     "MOH": {
-      "last_update_time": "2026-05-31T12:23:31.726950"
+      "last_update_time": "2026-06-20T10:46:02.469990"
     },
     "MORN": {
       "last_update_time": "2026-06-12T11:32:40.941492"
     },
     "MPT": {
-      "last_update_time": "2026-05-31T12:22:34.013902"
+      "last_update_time": "2026-06-20T10:42:50.640108"
     },
     "MS": {
       "last_update_time": "2026-06-12T11:33:28.679152"
@@ -864,7 +864,7 @@
       "last_update_time": "2026-06-02T11:21:37.365514"
     },
     "NKE": {
-      "last_update_time": "2026-05-30T10:36:59.383701"
+      "last_update_time": "2026-06-20T10:41:30.935475"
     },
     "NOG": {
       "last_update_time": "2026-06-13T11:30:11.769166"
@@ -885,7 +885,7 @@
       "last_update_time": "2026-06-13T11:35:09.027807"
     },
     "NVO": {
-      "last_update_time": "2026-05-31T12:29:42.792425"
+      "last_update_time": "2026-06-20T10:48:01.405652"
     },
     "NXPI": {
       "last_update_time": "2026-06-13T11:35:51.916675"
@@ -1120,6 +1120,9 @@
     "BCE": {
       "last_update_time": "2026-06-19T11:33:01.510447"
     },
+    "BLD": {
+      "last_update_time": "2026-06-20T10:50:52.427731"
+    },
     "BTG": {
       "last_update_time": "2026-06-18T11:24:57.485245"
     },
@@ -1128,6 +1131,9 @@
     },
     "BUD": {
       "last_update_time": "2026-06-19T11:35:21.430068"
+    },
+    "CAG": {
+      "last_update_time": "2026-06-20T10:51:25.711859"
     },
     "CALM": {
       "last_update_time": "2026-06-19T11:37:06.015663"
@@ -1138,8 +1144,20 @@
     "CHWY": {
       "last_update_time": "2026-06-19T11:41:29.636188"
     },
+    "CMCSA": {
+      "last_update_time": "2026-06-20T10:52:00.141550"
+    },
+    "CNMD": {
+      "last_update_time": "2026-06-20T10:52:32.701357"
+    },
     "CRM": {
       "last_update_time": "2026-06-03T11:30:58.726390"
+    },
+    "CSCO": {
+      "last_update_time": "2026-06-20T10:53:12.622160"
+    },
+    "CVS": {
+      "last_update_time": "2026-06-20T10:53:44.996101"
     },
     "CVX": {
       "last_update_time": "2026-06-18T11:33:05.630131"
@@ -1156,11 +1174,17 @@
     "DG": {
       "last_update_time": "2026-06-19T11:45:33.421146"
     },
+    "DHI": {
+      "last_update_time": "2026-06-20T10:54:14.870083"
+    },
     "DIS": {
       "last_update_time": "2026-06-19T11:46:47.802781"
     },
     "DXCM": {
       "last_update_time": "2026-06-19T11:47:34.627683"
+    },
+    "DXPE": {
+      "last_update_time": "2026-06-20T10:54:43.796434"
     },
     "EL": {
       "last_update_time": "2026-06-02T11:27:01.447922"
@@ -1174,11 +1198,50 @@
     "ETN": {
       "last_update_time": "2026-06-19T11:49:07.673612"
     },
+    "EW": {
+      "last_update_time": "2026-06-20T10:55:14.094798"
+    },
     "EXLS": {
       "last_update_time": "2026-06-19T11:51:59.996505"
     },
+    "EXR": {
+      "last_update_time": "2026-06-20T10:55:47.414178"
+    },
+    "F": {
+      "last_update_time": "2026-06-20T10:56:19.492735"
+    },
+    "FDX": {
+      "last_update_time": "2026-06-20T10:56:50.629636"
+    },
+    "FFIV": {
+      "last_update_time": "2026-06-20T10:57:20.228599"
+    },
+    "FISV": {
+      "last_update_time": "2026-06-20T10:57:53.070143"
+    },
     "FLO": {
       "last_update_time": "2026-06-01T11:37:16.106712"
+    },
+    "FSLR": {
+      "last_update_time": "2026-06-20T10:58:23.331584"
+    },
+    "FTNT": {
+      "last_update_time": "2026-06-20T10:58:53.622322"
+    },
+    "G": {
+      "last_update_time": "2026-06-20T10:59:23.398518"
+    },
+    "GAP": {
+      "last_update_time": "2026-06-20T10:59:54.409497"
+    },
+    "GEN": {
+      "last_update_time": "2026-06-20T11:00:23.690585"
+    },
+    "GGB": {
+      "last_update_time": "2026-06-20T11:00:54.645856"
+    },
+    "GIS": {
+      "last_update_time": "2026-06-20T11:01:46.811045"
     },
     "GLOB": {
       "last_update_time": "2026-06-03T11:29:57.022739"
@@ -1296,7 +1359,7 @@
   },
   "summary": {
     "PortfolioAnalytics": {
-      "last_update_time": "2026-06-13T10:25:32.401857"
+      "last_update_time": "2026-06-20T10:28:08.029738"
     },
     "Top10_DavisDoublePlay": {
       "last_update_time": "2026-06-13T19:49:18.470655"
