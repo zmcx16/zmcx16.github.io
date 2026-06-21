@@ -672,7 +672,7 @@
       "last_update_time": "2026-06-08T11:42:40.534145"
     },
     "EPAM": {
-      "last_update_time": "2026-06-02T11:15:08.247247"
+      "last_update_time": "2026-06-21T11:10:59.264965"
     },
     "ETN": {
       "last_update_time": "2026-06-08T11:43:09.299188"
@@ -942,7 +942,7 @@
       "last_update_time": "2026-06-13T18:18:47.729138"
     },
     "PYPL": {
-      "last_update_time": "2026-06-01T11:27:09.143213"
+      "last_update_time": "2026-06-21T11:02:27.011927"
     },
     "QCOM": {
       "last_update_time": "2026-06-13T18:19:16.098920"
@@ -957,7 +957,7 @@
       "last_update_time": "2026-06-14T11:20:18.959869"
     },
     "SID": {
-      "last_update_time": "2026-06-01T11:36:09.069015"
+      "last_update_time": "2026-06-21T11:08:59.259573"
     },
     "SM": {
       "last_update_time": "2026-06-14T11:20:48.601611"
@@ -978,7 +978,7 @@
       "last_update_time": "2026-06-14T11:23:16.845043"
     },
     "TASK": {
-      "last_update_time": "2026-06-01T11:27:55.862286"
+      "last_update_time": "2026-06-21T11:03:18.273749"
     },
     "TDC": {
       "last_update_time": "2026-06-14T11:23:47.318292"
@@ -1220,7 +1220,7 @@
       "last_update_time": "2026-06-20T10:57:53.070143"
     },
     "FLO": {
-      "last_update_time": "2026-06-01T11:37:16.106712"
+      "last_update_time": "2026-06-21T11:09:56.473739"
     },
     "FSLR": {
       "last_update_time": "2026-06-20T10:58:23.331584"
@@ -1240,17 +1240,74 @@
     "GGB": {
       "last_update_time": "2026-06-20T11:00:54.645856"
     },
+    "GILD": {
+      "last_update_time": "2026-06-21T11:13:33.246359"
+    },
     "GIS": {
       "last_update_time": "2026-06-20T11:01:46.811045"
     },
     "GLOB": {
       "last_update_time": "2026-06-03T11:29:57.022739"
     },
+    "GM": {
+      "last_update_time": "2026-06-21T11:14:04.581622"
+    },
+    "GOOG": {
+      "last_update_time": "2026-06-21T11:14:37.076723"
+    },
+    "GPN": {
+      "last_update_time": "2026-06-21T11:15:04.563593"
+    },
+    "GT": {
+      "last_update_time": "2026-06-21T11:15:32.682241"
+    },
+    "HAFN": {
+      "last_update_time": "2026-06-21T11:16:01.400016"
+    },
+    "HAL": {
+      "last_update_time": "2026-06-21T11:16:31.059902"
+    },
+    "HAS": {
+      "last_update_time": "2026-06-21T11:16:59.674021"
+    },
+    "HCI": {
+      "last_update_time": "2026-06-21T11:17:27.470078"
+    },
+    "HMC": {
+      "last_update_time": "2026-06-21T11:17:56.231881"
+    },
+    "HOG": {
+      "last_update_time": "2026-06-21T11:18:25.386008"
+    },
+    "HPE": {
+      "last_update_time": "2026-06-21T11:18:53.397568"
+    },
+    "HPQ": {
+      "last_update_time": "2026-06-21T11:19:20.887083"
+    },
     "ILPT": {
       "last_update_time": "2026-06-02T11:31:20.546638"
     },
+    "INGR": {
+      "last_update_time": "2026-06-21T11:19:48.893990"
+    },
+    "INTC": {
+      "last_update_time": "2026-06-21T11:20:18.139466"
+    },
+    "ISRG": {
+      "last_update_time": "2026-06-21T11:20:49.361567"
+    },
     "IT": {
       "last_update_time": "2026-06-06T10:31:37.605236"
+    },
+    "JPM": {
+      "last_update_time": "2026-06-21T11:21:19.225814"
+    },
+    "KBR": {
+      "last_update_time": "2026-06-21T11:21:47.453962"
+    },
+    "KINS": {
+      "last_update_time": "2026-06-21T11:22:15.482957"
     },
     "MOH": {
       "last_update_time": "2026-06-02T11:29:45.961602"
@@ -1362,28 +1419,28 @@
       "last_update_time": "2026-06-20T10:28:08.029738"
     },
     "Top10_DavisDoublePlay": {
-      "last_update_time": "2026-06-13T19:49:18.470655"
+      "last_update_time": "2026-06-21T10:48:02.370421"
     },
     "Top10_DividendValue": {
       "last_update_time": "2026-06-19T11:09:05.840552"
     },
     "Top10_Momentum": {
-      "last_update_time": "2026-06-13T10:30:44.034078"
+      "last_update_time": "2026-06-21T10:49:11.237505"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-06-13T18:14:18.125783"
+      "last_update_time": "2026-06-21T10:50:45.503699"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-06-13T10:32:16.987580"
+      "last_update_time": "2026-06-21T10:51:31.066738"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-06-14T10:40:27.378046"
+      "last_update_time": "2026-06-21T10:52:25.892600"
     },
     "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-06-14T10:41:28.908671"
+      "last_update_time": "2026-06-21T10:53:27.140278"
     },
     "Top10_UndervaluedGrowthIndustries": {
-      "last_update_time": "2026-06-14T10:42:50.944387"
+      "last_update_time": "2026-06-21T10:54:59.473830"
     }
   },
   "super-thinking": {
@@ -1460,6 +1517,9 @@
     },
     "ADBE": {
       "last_update_time": "2026-06-19T11:13:13.323110"
+    },
+    "ADSK": {
+      "last_update_time": "2026-06-21T10:59:17.204120"
     },
     "CRM": {
       "last_update_time": "2026-06-15T11:52:32.738397"
