@@ -220,6 +220,12 @@
          "strike":84
       },
       {
+         "symbol":"ABT",
+         "type":"put",
+         "expiry":"2026-07-10",
+         "strike":79
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-06-26",
@@ -230,6 +236,12 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":11
+      },
+      {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":120
       },
       {
          "symbol":"BCE",
@@ -256,6 +268,12 @@
          "strike":94
       },
       {
+         "symbol":"DIS",
+         "type":"put",
+         "expiry":"2026-07-02",
+         "strike":95
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-07-17",
@@ -280,10 +298,28 @@
          "strike":11
       },
       {
+         "symbol":"MSFT",
+         "type":"put",
+         "expiry":"2026-06-29",
+         "strike":345
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2026-07-02",
+         "strike":70
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-06-26",
          "strike":40.5
+      },
+      {
+         "symbol":"OMC",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":62.5
       },
       {
          "symbol":"PFE",
