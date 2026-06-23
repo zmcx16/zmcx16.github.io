@@ -214,6 +214,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ABNB",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":120
+      },
+      {
          "symbol":"ABT",
          "type":"put",
          "expiry":"2026-06-26",
@@ -274,6 +280,12 @@
          "strike":95
       },
       {
+         "symbol":"DXCM",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":60
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-07-17",
@@ -316,6 +328,12 @@
          "strike":40.5
       },
       {
+         "symbol":"NVDA",
+         "type":"put",
+         "expiry":"2026-07-01",
+         "strike":180
+      },
+      {
          "symbol":"OMC",
          "type":"put",
          "expiry":"2026-07-17",
@@ -332,6 +350,12 @@
          "type":"put",
          "expiry":"2026-06-26",
          "strike":39
+      },
+      {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2026-07-02",
+         "strike":160
       },
       {
          "symbol":"SAP",
