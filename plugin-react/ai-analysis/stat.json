@@ -1345,6 +1345,9 @@
     "MDT": {
       "last_update_time": "2026-06-22T12:03:34.687987"
     },
+    "MEDP": {
+      "last_update_time": "2026-06-24T10:51:20.762275"
+    },
     "MMS": {
       "last_update_time": "2026-06-22T12:06:50.664534"
     },
@@ -1450,14 +1453,62 @@
     "PODD": {
       "last_update_time": "2026-06-03T11:28:20.576445"
     },
+    "PVH": {
+      "last_update_time": "2026-06-24T10:53:40.004874"
+    },
     "PYPL": {
       "last_update_time": "2026-06-02T11:34:00.997013"
+    },
+    "QCOM": {
+      "last_update_time": "2026-06-24T10:54:18.952920"
+    },
+    "RYN": {
+      "last_update_time": "2026-06-24T10:55:18.448762"
+    },
+    "SAP": {
+      "last_update_time": "2026-06-24T10:55:54.758211"
+    },
+    "SBUX": {
+      "last_update_time": "2026-06-24T10:56:40.989656"
     },
     "SID": {
       "last_update_time": "2026-06-03T11:36:42.999676"
     },
+    "SM": {
+      "last_update_time": "2026-06-24T10:57:25.934165"
+    },
+    "STM": {
+      "last_update_time": "2026-06-24T10:59:32.765258"
+    },
     "TASK": {
       "last_update_time": "2026-06-23T10:54:18.257199"
+    },
+    "TDC": {
+      "last_update_time": "2026-06-24T11:01:36.388711"
+    },
+    "TEAM": {
+      "last_update_time": "2026-06-24T11:02:08.434551"
+    },
+    "TECH": {
+      "last_update_time": "2026-06-24T11:02:37.048861"
+    },
+    "TEN": {
+      "last_update_time": "2026-06-24T11:05:03.874765"
+    },
+    "TEX": {
+      "last_update_time": "2026-06-24T11:03:06.509247"
+    },
+    "TGT": {
+      "last_update_time": "2026-06-24T11:03:55.603678"
+    },
+    "TM": {
+      "last_update_time": "2026-06-24T11:04:29.986516"
+    },
+    "TRI": {
+      "last_update_time": "2026-06-24T11:06:39.497436"
+    },
+    "TRMD": {
+      "last_update_time": "2026-06-24T11:06:08.688890"
     },
     "ZIM": {
       "last_update_time": "2026-06-03T11:35:47.162843"
