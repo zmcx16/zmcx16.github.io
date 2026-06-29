@@ -1590,6 +1590,9 @@
     "ABNB": {
       "last_update_time": "2026-06-27T11:14:32.650618"
     },
+    "ABT": {
+      "last_update_time": "2026-06-29T12:04:33.033627"
+    },
     "ACLS": {
       "last_update_time": "2026-06-26T11:36:44.258003"
     },
@@ -1666,7 +1669,7 @@
       "last_update_time": "2026-06-28T11:17:55.247829"
     },
     "CRM": {
-      "last_update_time": "2026-06-13T10:58:22.828745"
+      "last_update_time": "2026-06-29T11:40:48.914471"
     },
     "CSCO": {
       "last_update_time": "2026-06-27T11:20:11.034644"
@@ -1746,6 +1749,9 @@
     "G": {
       "last_update_time": "2026-06-28T11:30:15.281689"
     },
+    "GAP": {
+      "last_update_time": "2026-06-29T12:13:55.999966"
+    },
     "GEN": {
       "last_update_time": "2026-06-28T11:31:29.967696"
     },
@@ -1755,11 +1761,17 @@
     "GLOB": {
       "last_update_time": "2026-06-28T10:43:31.825585"
     },
+    "GT": {
+      "last_update_time": "2026-06-29T12:19:41.141131"
+    },
+    "HAS": {
+      "last_update_time": "2026-06-29T12:20:58.823879"
+    },
     "ILPT": {
-      "last_update_time": "2026-06-06T10:57:27.547826"
+      "last_update_time": "2026-06-29T11:31:23.630104"
     },
     "IT": {
-      "last_update_time": "2026-06-10T19:56:31.045129"
+      "last_update_time": "2026-06-29T11:36:00.324146"
     },
     "MOH": {
       "last_update_time": "2026-06-26T10:48:17.837318"
@@ -1789,7 +1801,7 @@
       "last_update_time": "2026-06-26T10:52:56.671920"
     },
     "SID": {
-      "last_update_time": "2026-06-13T11:13:58.017283"
+      "last_update_time": "2026-06-29T11:47:09.300678"
     },
     "TASK": {
       "last_update_time": "2026-06-26T10:57:41.936229"
@@ -1803,28 +1815,28 @@
       "last_update_time": "2026-06-28T10:24:55.741643"
     },
     "Top10_DavisDoublePlay": {
-      "last_update_time": "2026-06-21T10:48:02.370421"
+      "last_update_time": "2026-06-29T11:21:53.035400"
     },
     "Top10_DividendValue": {
       "last_update_time": "2026-06-27T10:21:36.297527"
     },
     "Top10_Momentum": {
-      "last_update_time": "2026-06-21T10:49:11.237505"
+      "last_update_time": "2026-06-29T11:23:04.601067"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-06-21T10:50:45.503699"
+      "last_update_time": "2026-06-29T11:23:58.585388"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-06-21T10:51:31.066738"
+      "last_update_time": "2026-06-29T11:24:51.746588"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-06-21T10:52:25.892600"
+      "last_update_time": "2026-06-29T11:25:51.643569"
     },
     "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-06-21T10:53:27.140278"
+      "last_update_time": "2026-06-29T11:26:52.308621"
     },
     "Top10_UndervaluedGrowthIndustries": {
-      "last_update_time": "2026-06-21T10:54:59.473830"
+      "last_update_time": "2026-06-29T11:27:51.134758"
     }
   },
   "super-thinking": {
@@ -1835,19 +1847,19 @@
       "last_update_time": "2026-06-14T11:02:27.252866"
     },
     "ADSK": {
-      "last_update_time": "2026-06-14T10:53:46.461650"
+      "last_update_time": "2026-06-29T11:59:26.603741"
     },
     "CRM": {
       "last_update_time": "2026-06-28T11:09:08.441118"
     },
     "EL": {
-      "last_update_time": "2026-06-13T11:15:15.452659"
+      "last_update_time": "2026-06-29T11:48:10.257771"
     },
     "EPAM": {
       "last_update_time": "2026-06-28T11:04:16.654574"
     },
     "FLO": {
-      "last_update_time": "2026-06-13T11:16:20.169909"
+      "last_update_time": "2026-06-29T11:50:55.399241"
     },
     "GLOB": {
       "last_update_time": "2026-06-28T11:07:57.943843"
@@ -1856,7 +1868,7 @@
       "last_update_time": "2026-06-27T10:46:24.276643"
     },
     "IT": {
-      "last_update_time": "2026-06-13T11:18:41.549293"
+      "last_update_time": "2026-06-29T11:52:17.757561"
     },
     "MOH": {
       "last_update_time": "2026-06-27T10:43:39.869848"
@@ -1871,16 +1883,16 @@
       "last_update_time": "2026-06-27T10:40:57.550116"
     },
     "NOW": {
-      "last_update_time": "2026-06-14T11:00:59.493557"
+      "last_update_time": "2026-06-29T12:00:50.208530"
     },
     "NVO": {
       "last_update_time": "2026-06-27T10:45:13.084282"
     },
     "PAYC": {
-      "last_update_time": "2026-06-13T11:23:21.249904"
+      "last_update_time": "2026-06-29T11:53:39.254407"
     },
     "PODD": {
-      "last_update_time": "2026-06-13T11:24:56.104041"
+      "last_update_time": "2026-06-29T11:54:54.781632"
     },
     "PYPL": {
       "last_update_time": "2026-06-27T10:48:44.993420"
