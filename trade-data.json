@@ -268,6 +268,12 @@
          "strike":60
       },
       {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":60
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-07-17",
@@ -280,16 +286,16 @@
          "strike":17
       },
       {
+         "symbol":"GLOB",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":22.5
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":11
-      },
-      {
-         "symbol":"MSFT",
-         "type":"put",
-         "expiry":"2026-06-29",
-         "strike":345
       },
       {
          "symbol":"NFLX",
@@ -314,6 +320,18 @@
          "type":"put",
          "expiry":"2026-07-17",
          "strike":62.5
+      },
+      {
+         "symbol":"OMF",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":55
+      },
+      {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-07-10",
+         "strike":115
       },
       {
          "symbol":"OXM",
