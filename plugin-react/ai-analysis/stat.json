@@ -1761,14 +1761,32 @@
     "GLOB": {
       "last_update_time": "2026-06-28T10:43:31.825585"
     },
+    "GM": {
+      "last_update_time": "2026-06-30T11:12:49.668973"
+    },
+    "GOOG": {
+      "last_update_time": "2026-06-30T11:13:36.647962"
+    },
     "GT": {
       "last_update_time": "2026-06-29T12:19:41.141131"
+    },
+    "HAFN": {
+      "last_update_time": "2026-06-30T11:14:45.418248"
+    },
+    "HAL": {
+      "last_update_time": "2026-06-30T11:15:23.553115"
     },
     "HAS": {
       "last_update_time": "2026-06-29T12:20:58.823879"
     },
+    "HPE": {
+      "last_update_time": "2026-06-30T11:17:45.869058"
+    },
     "ILPT": {
       "last_update_time": "2026-06-29T11:31:23.630104"
+    },
+    "INGR": {
+      "last_update_time": "2026-06-30T11:20:24.305295"
     },
     "IT": {
       "last_update_time": "2026-06-29T11:36:00.324146"
@@ -1807,7 +1825,7 @@
       "last_update_time": "2026-06-26T10:57:41.936229"
     },
     "ZIM": {
-      "last_update_time": "2026-06-13T11:12:34.615761"
+      "last_update_time": "2026-06-30T10:49:23.055619"
     }
   },
   "summary": {
@@ -1844,7 +1862,7 @@
       "last_update_time": "2026-06-27T10:47:35.968253"
     },
     "ADBE": {
-      "last_update_time": "2026-06-14T11:02:27.252866"
+      "last_update_time": "2026-06-30T10:50:56.839362"
     },
     "ADSK": {
       "last_update_time": "2026-06-29T11:59:26.603741"
@@ -1904,7 +1922,7 @@
       "last_update_time": "2026-06-26T11:26:10.913692"
     },
     "ZIM": {
-      "last_update_time": "2026-06-14T11:05:35.397559"
+      "last_update_time": "2026-06-30T10:52:29.426236"
     }
   },
   "think-tank": {
@@ -1927,7 +1945,7 @@
       "last_update_time": "2026-06-16T11:33:51.601144"
     },
     "FLO": {
-      "last_update_time": "2026-06-14T11:09:52.907972"
+      "last_update_time": "2026-06-30T10:55:13.131413"
     },
     "GLOB": {
       "last_update_time": "2026-06-17T11:25:24.320662"
@@ -1939,16 +1957,16 @@
       "last_update_time": "2026-06-17T11:21:11.020956"
     },
     "MOH": {
-      "last_update_time": "2026-06-15T11:42:54.201474"
+      "last_update_time": "2026-06-30T11:06:36.022351"
     },
     "MPT": {
-      "last_update_time": "2026-06-14T11:14:30.316100"
+      "last_update_time": "2026-06-30T10:59:55.214356"
     },
     "NICE": {
       "last_update_time": "2026-06-19T11:13:59.357798"
     },
     "NKE": {
-      "last_update_time": "2026-06-14T11:11:45.187429"
+      "last_update_time": "2026-06-30T10:59:12.238937"
     },
     "NOW": {
       "last_update_time": "2026-06-18T11:06:34.219762"
