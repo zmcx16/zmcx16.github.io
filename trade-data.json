@@ -256,12 +256,6 @@
          "strike":21
       },
       {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2026-07-02",
-         "strike":95
-      },
-      {
          "symbol":"DXCM",
          "type":"put",
          "expiry":"2026-07-17",
@@ -274,16 +268,16 @@
          "strike":60
       },
       {
+         "symbol":"ETN",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":335
+      },
+      {
          "symbol":"FSLR",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":180
-      },
-      {
-         "symbol":"GAP",
-         "type":"put",
-         "expiry":"2026-07-02",
-         "strike":17
       },
       {
          "symbol":"GLOB",
@@ -292,22 +286,16 @@
          "strike":22.5
       },
       {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":30
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":11
-      },
-      {
-         "symbol":"NFLX",
-         "type":"put",
-         "expiry":"2026-07-02",
-         "strike":70
-      },
-      {
-         "symbol":"NVDA",
-         "type":"put",
-         "expiry":"2026-07-01",
-         "strike":180
       },
       {
          "symbol":"NVO",
@@ -340,16 +328,10 @@
          "strike":25
       },
       {
-         "symbol":"PFE",
+         "symbol":"PEP",
          "type":"put",
-         "expiry":"2026-07-02",
-         "strike":24
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-07-02",
-         "strike":160
+         "expiry":"2026-07-10",
+         "strike":125
       },
       {
          "symbol":"SAP",
@@ -362,12 +344,6 @@
          "type":"put",
          "expiry":"2026-07-17",
          "strike":65
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2026-07-02",
-         "strike":101
       },
       {
          "symbol":"VFC",
