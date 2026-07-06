@@ -43,4 +43,5 @@ jobs:
         git add *.json
         git diff --cached
         git diff --cached --quiet || git commit -m "Updated trade-data"
+        git pull --rebase origin master
         git push

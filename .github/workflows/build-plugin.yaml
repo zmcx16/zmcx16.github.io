@@ -93,4 +93,5 @@ jobs:
         git config --global pull.ff only
         git pull
         git add *.js && git add *.json && git add ./plugin-react/* && git commit -m "Updated plugin pages & monitor data & AI analysis data"
+        git pull --rebase origin master
         git push

@@ -37,4 +37,5 @@ jobs:
         git pull
         git diff
         git diff --quiet || (git add *.json && git commit -m "Updated earnings data")
+        git pull --rebase origin master
         git push
