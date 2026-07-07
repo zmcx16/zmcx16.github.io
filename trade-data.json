@@ -327,6 +327,12 @@
          "strike":11
       },
       {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":37
+      },
+      {
          "symbol":"NTR",
          "type":"put",
          "expiry":"2026-07-17",
@@ -379,6 +385,12 @@
          "type":"put",
          "expiry":"2026-07-31",
          "strike":22
+      },
+      {
+         "symbol":"PYPL",
+         "type":"put",
+         "expiry":"2026-07-24",
+         "strike":40
       },
       {
          "symbol":"SAP",
