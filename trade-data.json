@@ -219,12 +219,6 @@
          "strike":120
       },
       {
-         "symbol":"ABT",
-         "type":"put",
-         "expiry":"2026-07-10",
-         "strike":79
-      },
-      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-07-17",
@@ -363,28 +357,22 @@
          "strike":55
       },
       {
-         "symbol":"ORCL",
-         "type":"put",
-         "expiry":"2026-07-10",
-         "strike":115
-      },
-      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":25
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-07-10",
-         "strike":125
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-07-31",
          "strike":22
+      },
+      {
+         "symbol":"PODD",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":135
       },
       {
          "symbol":"PYPL",
@@ -421,12 +409,6 @@
          "type":"put",
          "expiry":"2026-07-17",
          "strike":41
-      },
-      {
-         "symbol":"WEN",
-         "type":"put",
-         "expiry":"2026-07-10",
-         "strike":6
       },
       {
          "symbol":"ZIM",
