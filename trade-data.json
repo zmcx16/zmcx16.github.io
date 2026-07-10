@@ -357,10 +357,22 @@
          "strike":55
       },
       {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-07-24",
+         "strike":110
+      },
+      {
          "symbol":"OXM",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":25
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-07-17",
+         "strike":129
       },
       {
          "symbol":"PFE",
