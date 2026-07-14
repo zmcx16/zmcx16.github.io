@@ -393,10 +393,22 @@
          "strike":40
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2026-07-24",
+         "strike":140
+      },
+      {
          "symbol":"SAP",
          "type":"put",
          "expiry":"2026-07-17",
          "strike":150
+      },
+      {
+         "symbol":"TEAM",
+         "type":"put",
+         "expiry":"2026-07-24",
+         "strike":70
       },
       {
          "symbol":"TM",
