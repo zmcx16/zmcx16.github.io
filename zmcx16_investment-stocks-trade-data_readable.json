@@ -4,10 +4,9 @@
         "AAPL": null,
         "ADBE": null,
         "ADSK": null,
+        "AEM": null,
         "AMD": null,
-        "ARW": null,
-        "CDE": null,
-        "CGAU": null,
+        "BPOP": null,
         "COST": null,
         "CRM": null,
         "EL": null,
@@ -18,9 +17,11 @@
         "ILPT": null,
         "IT": null,
         "JNJ": null,
+        "KGC": null,
         "MPT": null,
         "MSFT": null,
         "MU": null,
+        "NEM": null,
         "NICE": null,
         "NKE": null,
         "NOW": null,
@@ -30,7 +31,6 @@
         "PYPL": null,
         "SID": null,
         "TASK": null,
-        "TGS": null,
         "TSLA": null,
         "ZIM": null
     },
@@ -65,7 +65,7 @@
             "symbol": "VOO"
         },
         {
-            "Highest Close": "372.69",
+            "Highest Close": "372.54",
             "symbol": "VTI"
         },
         {
@@ -77,7 +77,7 @@
             "symbol": "QQQ"
         },
         {
-            "Highest Close": "54.48",
+            "Highest Close": "54.46",
             "symbol": "PRF"
         }
     ],
@@ -177,134 +177,134 @@
         ],
         "AAPL": [
             {
-                "author": "Bloomberg",
-                "content": "Wall Street is anticipating a near-record earnings season, but for investors a key question remains: Will it be enough to keep stock market bulls running?The stakes have rarely been higher. The S&amp\u2026 [+9472 chars]",
-                "description": "Wall Street enters the second-quarter earnings season with expectations near record highs, leaving companies with little room for disappointment. Investors will closely monitor AI spending, profit margins and corporate guidance to determine whether the broade\u2026",
-                "publishedAt": "2026-07-12T05:12:09Z",
-                "source": {
-                    "id": "the-times-of-india",
-                    "name": "The Times of India"
-                },
-                "title": "Stocks priced for \u2018sunshine and rainbows\u2019 now face earnings test",
-                "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/stocks-priced-for-sunshine-and-rainbows-now-face-earnings-test/articleshow/132340900.cms",
-                "urlToImage": "https://img.etimg.com/thumb/msid-132340937,width-1200,height-630,imgsize-278212,overlay-etmarkets/articleshow.jpg"
-            },
-            {
-                "author": "fortune.com",
-                "content": "When iPhone engineer Chang Liu quit for a job at OpenAIs nascent hardware division, Apple Inc. says he left with more than just years of experience.According to a lawsuit filed Friday, Liu departed w\u2026 [+151 chars]",
-                "description": "When iPhone engineer Chang Liu quit for a job at OpenAI\u2019s nascent hardware division, Apple Inc. says he left with more than just years of experience.\nAccording to a lawsuit filed Friday, Liu departed with three things: a company-issued MacBook he never return\u2026",
-                "publishedAt": "2026-07-11T23:35:02Z",
-                "source": {
-                    "id": null,
-                    "name": "Biztoc.com"
-                },
-                "title": "OpenAI engineer\u2019s \u2018LOL\u2019 moment set stage for legal fight with Apple",
-                "url": "https://biztoc.com/x/98983e5c8e872013",
-                "urlToImage": "https://biztoc.com/cdn/98983e5c8e872013_s.webp"
-            },
-            {
-                "author": "AppBank\u7de8\u96c6\u90e8",
-                "content": "NTT79SBISBI202683SMTB\r\ndd\r\n202683SBI SMTBd NEOBANK\r\nBaaSBanking as a ServiceNEOBANK\r\nFGSMTB2026820ddd\r\ndd1.01001\r\n122.03.0\r\n131615d\r\nd PLATINUM502.020500.7510200.25d GOLDd GOLD U501.020500.5010200.25\u2026 [+247 chars]",
-                "description": "\u682a\u5f0f\u4f1a\u793eNTT\u30c9\u30b3\u30e2\u30fb\u30d5\u30a3\u30ca\u30f3\u30b7\u30e3\u30eb\u30b0\u30eb\u30fc\u30d7\u306f7\u67089\u65e5\u3001\u9023\u7d50\u5b50\u4f1a\u793e\u3067\u3042\u308b\u4f4f\u4fe1SBI\u30cd\u30c3\u30c8\u9280\u884c\u682a\u5f0f\u4f1a\u793e\u306e\u500b\u4eba\u5411\u3051\u9280\u884c\u30b5\u30fc\u30d3\u30b9\u30d6\u30e9\u30f3\u30c9\u3092\u300c\u30c9\u30b3\u30e2\u306e\u9280\u884c\u300d\u306b\u5237\u65b0\u3059\u308b\u3068\u767a\u8868\u3057\u307e\u3057\u305f\u3002\u4f4f\u4fe1SBI\u30cd\u30c3\u30c8\u9280\u884c\u306f2026\u5e748\u67083\u65e5\u306b\u682a\u5f0f\u4f1a\u793e\u30c9\u30b3\u30e2SMTB\u30cd",
-                "publishedAt": "2026-07-11T22:15:00Z",
-                "source": {
-                    "id": null,
-                    "name": "Appbank.net"
-                },
-                "title": "\u300c\u30c9\u30b3\u30e2\u306e\u9280\u884c\u300d\u306b\u5237\u65b0\u3078\u3000d\u30ab\u30fc\u30c9\u5229\u7528\u3067\u6700\u59274.5\uff05\u306ed\u30dd\u30a4\u30f3\u30c8\u9084\u5143\u7279\u5178\u3082\u958b\u59cb\u4e88\u5b9a",
-                "url": "https://www.appbank.net/2026/07/12/iphone-news/3050826.php",
-                "urlToImage": "https://www.appbank.net/wp-content/uploads/2026/07/20260709_233341_617_01.webp"
-            },
-            {
-                "author": "breakingthenews.net",
-                "content": "OpenAI CEO Sam Altman said on Saturday that he is not afraid of Apple, Inc., following the tech giant's lawsuit against Altman's AI company.\"i am not afraid of apple, but i have tremendous respect fo\u2026 [+69 chars]",
-                "description": "OpenAI CEO Sam Altman said on Saturday that he is not afraid of Apple, Inc., following the tech giant's lawsuit against Altman's AI company.\"i am not afraid of apple, but i have tremendous respect for...",
-                "publishedAt": "2026-07-11T21:04:26Z",
-                "source": {
-                    "id": null,
-                    "name": "Biztoc.com"
-                },
-                "title": "Altman: I'm not afraid of Apple, but I respect it",
-                "url": "https://biztoc.com/x/7fedd5ea8a62bf7e",
-                "urlToImage": "https://biztoc.com/cdn/7fedd5ea8a62bf7e_s.webp"
-            },
-            {
                 "author": "Bloomberg News",
-                "content": "Apple sued OpenAI for trade secret theft, accusing the artificial intelligence startup and its hardware chief of engaging in a coordinated campaign to steal information about upcoming products.\r\nThe \u2026 [+5487 chars]",
-                "description": "Apple sued OpenAI for trade secret theft, accusing the artificial intelligence startup and its hardware chief of engaging in a coordinated campaign to steal information about upcoming products.",
-                "publishedAt": "2026-07-11T19:43:34Z",
-                "source": {
-                    "id": null,
-                    "name": "Boston Herald"
-                },
-                "title": "Apple sues OpenAI for trade secret theft in blockbuster case",
-                "url": "https://www.bostonherald.com/2026/07/11/apple-sues-openai-for-trade-secret-theft-in-blockbuster-case/",
-                "urlToImage": "https://www.bostonherald.com/wp-content/uploads/2026/07/BIZ-APPLE-OPENAI-TRADE-SECRETS-LAWSUIT-FILEPIC-GET.jpg?w=1024&h=683"
-            },
-            {
-                "author": "John Gruber",
-                "content": "Mark Gurman, reporting for Bloomberg (paywalled, alas):\n\n\n Apple was quickly alarmed by OpenAI\u2019s recruiting drive, which\nincluded poaching senior hardware and design leaders and ravaging\nseveral team\u2026 [+1241 chars]",
-                "description": null,
-                "publishedAt": "2026-07-11T18:02:17Z",
-                "source": {
-                    "id": "bloomberg",
-                    "name": "Bloomberg"
-                },
-                "title": "Gurman on Tang Tan and Paul Meade",
-                "url": "https://www.bloomberg.com/news/articles/2026-07-11/openai-engineer-s-lol-moment-set-stage-for-legal-fight-with-apple?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4Mzc3OTcwMCwiZXhwIjoxNzg0Mzg0NTAwLCJhcnRpY2xlSWQiOiJUSFpEVUhLR0lGUEMwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.lF9LVTMyaJOToYhpwph5JjsSJEjdBGXLbenBKQdpHhc&leadSource=uverify%20wall",
-                "urlToImage": null
-            },
-            {
-                "author": "Miguel Mart\u00ednez",
-                "content": "Es aqu\u00ed cuando un peque\u00f1o ajuste en la iluminaci\u00f3n, una correcci\u00f3n de color, borrar un elemento en el fondo, o mejorar el encuadre puede marcar la diferencia entre una foto cualquiera y otra que pare\u2026 [+7175 chars]",
-                "description": "Hacer buenas fotos con el m\u00f3vil ya no es lo complicado. Los sensores, lentes y los algoritmos de IA han mejorado tanto que pr\u00e1cticamente cualquier smartphone de gama media es capaz de capturar im\u00e1genes de gran calidad. El verdadero salto llega despu\u00e9s, a la h\u2026",
-                "publishedAt": "2026-07-11T17:36:32Z",
-                "source": {
-                    "id": null,
-                    "name": "Movilzona.es"
-                },
-                "title": "Photoshop, Lightroom y otras 7 apps para editar fotos como un profesional",
-                "url": "https://www.movilzona.es/tutoriales/apps/mejores-app-editar-fotos/",
-                "urlToImage": "https://www.movilzona.es/app/uploads-movilzona.es/2026/07/Apps-para-editar-fotos.jpeg"
-            },
-            {
-                "author": "Bloomberg News",
-                "content": "The setup for sectors that are still seeing accelerating growth and sharp share-price gains, like semiconductors, is precarious and the companies had really better deliver to meet heightened expectat\u2026 [+3901 chars]",
-                "description": "Wall Street is anticipating a near-record earnings season, but for investors a key question remains: Will it be enough to keep stock market bulls running?",
-                "publishedAt": "2026-07-11T13:29:20Z",
+                "content": "(Bloomberg) South Africa plans to increase its strategic oil reserves for the first time since the apartheid government stockpiled crude, adding to measures across the continent to mitigate supply sh\u2026 [+3729 chars]",
+                "description": "South Africa plans to increase its strategic oil reserves for the first time since the apartheid government stockpiled crude, adding to measures across the continent to mitigate supply shocks.",
+                "publishedAt": "2026-07-13T06:01:52Z",
                 "source": {
                     "id": "financial-post",
                     "name": "Financial Post"
                 },
-                "title": "Stocks Priced for \u2018Sunshine and Rainbows\u2019 Now Face Earnings Test",
-                "url": "https://financialpost.com/pmn/business-pmn/stocks-priced-for-sunshine-and-rainbows-now-face-earnings-test",
-                "urlToImage": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/google-share-count-spikes-alphabet-had-the-largest-equity-i.jpg"
+                "title": "South Africa Plans First Strategic Oil Boost Since Apartheid Era",
+                "url": "https://financialpost.com/pmn/business-pmn/south-africa-plans-first-strategic-oil-boost-since-apartheid-era",
+                "urlToImage": null
+            },
+            {
+                "author": null,
+                "content": "IT 7 13 Tom's Hardware \r\nApple I 01-0033 \u00b7 \r\n\u00b7 Harry Sadler BASIC Byte Shop \r\n \u00b7 20 70 \r\n2010 Siri Inc. 10 \r\n Apple I 30-50 IT 203.4 - 339 AppleI 47.5 322 \r\n 7 15 NeXT Macintosh \r\nIT",
+                "description": "IT\u4e4b\u5bb6 7 \u6708 13 \u65e5\u6d88\u606f\uff0c\u636e\u79d1\u6280\u5a92\u4f53 Tom's Hardware \u4eca\u5929\u62a5\u9053\uff0c\u82cf\u5bcc\u6bd4\u62cd\u5356\u884c\u6b63\u5728\u7b79\u5907\u4e00\u573a\u201c\u79d1\u5b66\u4e0e\u6280\u672f\u5386\u53f2\u201d\u62cd\u5356\u4f1a\uff0c\u5c55\u51fa\u79d1\u6280\u754c\u7684\u5927\u91cf\u73cd\u8d35\u6587\u7269\u3002\u636e\u62a5\u9053\uff0c\u672c\u6b21\u62cd\u5356\u4f1a\u5c06\u5c55\u51fa\u4e00\u53f0\u53ef\u4ee5\u6b63\u5e38\u5f00\u673a\u7684\u82f9\u679c Apple I \u7535\u8111\uff0c\u5e8f\u5217\u53f7\u4e3a 01-0033\u3002\u8fd9\u53f0\u673a\u5668\u7531\u82f9\u679c\u521b\u59cb\u4eba\u53f2\u8482\u592b \u00b7 \u6c83\u5179\u5c3c\u4e9a\u514b\u4eb2\u624b\u7ec4\u88c5\uff0c\u4e5f\u662f\u82f9\u679c\u53f2\u4e0a\u7b2c\u4e00\u6279\u771f\u6b63\u5bf9\u5916\u9500\u552e\u7684\u8ba1\u7b97\u673a\uff0c\u5177\u6709\u91cd\u8981\u610f\u4e49\u3002\u8fd9\u53f0\u7535\u8111\u7531\u54c8\u91cc \u00b7 \u8428\u5fb7\u52d2\uff08Harry Sadler\uff09\u8d2d\u4e70\u5e76\u4fdd\u7559\u81f3\u4eca\uff0c\u4ed6\u5f53\u65f6\u7528\u8fd9\u53f0\u7535\u8111\u5b66\u4e60 BASIC \u7f16\u7a0b\u3001\u505a\u5404\u79cd\u5b9e\u9a8c\u3002\u4ed6\u56de\u5fc6\u79f0\uff0c\u8fd9\u53f0\u7535\u8111\u8d2d\u4e70\u51e0\u5468\u540e\u5c31\u51fa\u73b0\u2026",
+                "publishedAt": "2026-07-13T05:35:30Z",
+                "source": {
+                    "id": null,
+                    "name": "Ithome.com"
+                },
+                "title": "\u53c8\u4e00\u53f0\u80fd\u5f00\u673a\u7684\u82f9\u679c Apple I \u7535\u8111\u88ab\u62cd\u5356\uff0c\u4f30\u4ef7 30 \u4e07-50 \u4e07\u7f8e\u5143",
+                "url": "https://www.ithome.com/0/975/960.htm",
+                "urlToImage": null
+            },
+            {
+                "author": "Admin",
+                "content": "Apple Inc. sued OpenAI for trade secret theft, accusing the artificial intelligence startup and its hardware chief of engaging in a coordinated campaign to steal information about upcoming products.\r\u2026 [+5550 chars]",
+                "description": "Apple Inc. sued OpenAI for trade secret theft, accusing the artificial intelligence startup and its hardware chief of engaging in a coordinated campaign to steal information about upcoming products. The iPhone maker said in a suit Friday that OpenAI encourage\u2026",
+                "publishedAt": "2026-07-13T05:05:27Z",
+                "source": {
+                    "id": null,
+                    "name": "Insurance Journal"
+                },
+                "title": "Apple Sues OpenAI for Trade Secret Theft in Pivotal Case",
+                "url": "https://www.insurancejournal.com/news/national/2026/07/13/877178.htm",
+                "urlToImage": "https://www.insurancejournal.com/app/uploads/2024/06/apple-logo-bloomberg.jpg"
+            },
+            {
+                "author": "Kole Emplit",
+                "content": "MANHATTAN (KSNT) K-State head mens basketball coach Casey Alexander joins this weeks episode of K-Nation.\r\nAlexander sits down with K-Nations Kole Emplit to talk about his transition to the Little Ap\u2026 [+816 chars]",
+                "description": "MANHATTAN (KSNT) \u2013 K-State head men\u2019s basketball coach Casey Alexander joins this week\u2019s episode of K-Nation. Alexander sits down with K-Nation\u2019s Kole Emplit to talk about his transition to the Little Apple, building a new roster, recruiting aspirations and m\u2026",
+                "publishedAt": "2026-07-13T03:30:00Z",
+                "source": {
+                    "id": null,
+                    "name": "KSNT News"
+                },
+                "title": "K-State\u2019s Casey Alexander joins K-Nation",
+                "url": "https://www.ksnt.com/k-nation/k-states-casey-alexander-joins-k-nation/",
+                "urlToImage": "https://s.yimg.com/os/en/ksnt_topeka_articles_584/4c42e54554f671eee7a4266ce178b5e3"
+            },
+            {
+                "author": null,
+                "content": "3LINELINE\r\n10ANTZ 7193\r\n34613YouTube\r\n6LINELINE\r\n12:003000GET 3rd Anniversary Count Down LOGIN BONUSUR3rd Anniversary \r\n3\r\n13 13 \r\n202673115:00202681522:59202681715:0020269122:59463,0001100X\r\n461030\r\u2026 [+536 chars]",
+                "description": "\u30b5\u30af\u30b3\u30a43\u5468\u5e74\u8a18\u5ff5\u300cLINE\u3067\u30e1\u30c3\u30bb\u30fc\u30b8\u306e\u3084\u308a\u53d6\u308a\u304c\u3067\u304d\u308b\uff01\uff1f\u300d\u30ad\u30e3\u30f3\u30da\u30fc\u30f3\u3082\u958b\u50ac\uff01\u30b5\u30af\u30b3\u30a4\u59d4\u54e1\u4f1a\u306e\u30b0\u30eb\u30fc\u30d7LINE\u3067\u30ea\u30a2\u30eb\u306a\u9752\u6625\u4f53\u9a13\u304c\u697d\u3057\u3081\u308b\uff01\u682a\u5f0f\u4f1a\u793e10ANTZ\uff08\u672c\u793e\uff1a\u6771\u4eac\u90fd\u6e0b\u8c37\u533a \u4ee3\u8868\u53d6\u7de0\u5f79\uff1a\u9ad8\u6fa4\u771f\uff09\u304c\u4f01\u753b\u30fb\u904b\u55b6\u3059\u308b\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u5411\u3051\u30b2\u30fc\u30e0\u30a2\u30d7\u30ea\u300c\u30b5\u30af\u30b3\u30a4\u300d\u306f\u30017\u670819\u65e5\uff08\u65e5\uff09\u306b\u30ea\u30ea\u30fc\u30b9\u304b\u30893\u5468\u5e74\u3092\u8fce\u3048\u307e\u3059...",
+                "publishedAt": "2026-07-13T03:00:02Z",
+                "source": {
+                    "id": null,
+                    "name": "CNET"
+                },
+                "title": "\u682a\u5f0f\u4f1a\u793e10ANTZ\u5408\u8a083,000\u540d\u304c\u6afb\u574246\u306b\u30ea\u30a2\u30eb\u3067\u4f1a\u3048\u308b\u300c\u7b2c13\u56de\u30ab\u30ec\u30b7\u30a4\u30d9\u30f3\u30c8\u300d7/31\uff08\u91d1\uff09\u3088\u308a\u958b\u50ac\uff01YouTube\u7279\u756a7/25\uff08\u571f\uff0919\u6642\u914d\u4fe1\uff01\u5927\u5712\u73b2\u30fb\u5b88\u5c4b\u9e97\u5948\u30fb\u7684\u91ce\u7f8e\u9752\u30fb\u5c71\u4e0b\u77b3\u6708\u30fb\u6d45\u4e95\u604b\u4e43\u672a\u30fb\u677e\u672c\u548c\u5b50\u51fa\u6f14",
+                "url": "https://japan.cnet.com/release/31187879/",
+                "urlToImage": "https://japan.cnet.com/media/c/2012/images/logo/logo_ogp_1200.png"
+            },
+            {
+                "author": null,
+                "content": "3679 NOLNOL UniverseNOL Universe\r\nNOL UniverseNOL Universe\r\nNOL Universe202412Interpark TripleYanolja Platform3NOLBtoC\r\n1991200475,000\r\n NOL Universe\u00a0NOL UniverseNOL UniverseNOL\r\n NOL Universe \u00a0NOL U\u2026 [+350 chars]",
+                "description": "[\u682a\u5f0f\u4f1a\u793e\u3058\u3052\u3093]\n\u682a\u5f0f\u4f1a\u793e\u3058\u3052\u3093\uff08\u6771\u8a3c\u30d7\u30e9\u30a4\u30e0\uff1a3679\uff09\u306e\u30b0\u30eb\u30fc\u30d7\u4f1a\u793e\u3067\u3042\u308b\u682a\u5f0f\u4f1a\u793e\u30a2\u30c3\u30d7\u30eb\u30ef\u30fc\u30eb\u30c9\uff08\u672c\u793e\uff1a\u6771\u4eac\u90fd\u65b0\u5bbf\u533a\u3001\u4ee3\u8868\u53d6\u7de0\u5f79\u793e\u9577\uff1a\u5e73\u5c3e \u4e08\u3001\u4ee5\u4e0b\u300c\u5f53\u793e\u300d\uff09\u306f\u3001\u97d3\u56fd\u306e\u65c5\u884c\u30fb\u30ec\u30b8\u30e3\u30fc\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u300cNOL\u300d\u3092\u904b\u55b6\u3059...",
+                "publishedAt": "2026-07-13T01:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Prtimes.jp"
+                },
+                "title": "\u30a2\u30c3\u30d7\u30eb\u30ef\u30fc\u30eb\u30c9\u3001\u6708\u95931,800\u4e07\u4eba\u4ee5\u4e0a\u304c\u5229\u7528\u3059\u308bOTA\u30b5\u30a4\u30c8\u300cNOL\u300d\u3092\u904b\u55b6\u3059\u308bNOL Universe\u3068\u696d\u52d9\u63d0\u643a\u3092\u958b\u59cb",
+                "url": "https://prtimes.jp/main/html/rd/p/000000263.000008966.html",
+                "urlToImage": "https://prcdn.freetls.fastly.net/release_image/8966/263/8966-263-8e4ac06c0b6a58aca2642af7e60342b8-1200x630.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+            },
+            {
+                "author": "\u5c11\u6570\u6d3e\u7f16\u8f91\u90e8",
+                "content": "7 10 OpenAI OpenAI Tang Tan Chang Liu OpenAI \r\nOpenAI 24 Tang Tan OpenAI Chang Liu \r\n OpenAI OpenAI rotten to its core\r\nOpenAI \r\n OpenAI 2024 ChatGPT SiriOpenAI 6 Siri AI Gemini \r\n OpenAI iPhone Tang\u2026 [+89 chars]",
+                "description": "\u82f9\u679c\u8d77\u8bc9 OpenAI \u7a83\u53d6\u5546\u4e1a\u673a\u5bc6\u53d8\u538b\u5668\u77ed\u7f3a\u63a3\u8098\u6570\u636e\u4e2d\u5fc3\u6269\u5f20\u4e16\u754c\u676f\u5e26\u52a8\u5c0f\u7ea2\u4e66\u4f7f\u7528\u65f6\u957f\u5927\u5e45\u63d0\u5347\u5e9f\u5f03 IBM \u56ed\u533a\u6210\u7f51\u7ea2\u666f\u70b9SpaceX \u7533\u8bf7\u53d1\u5c04\u5341\u4e07\u9897\u536b\u661f\u9ad8\u6280\u80fd\u4eba\u58eb\u6b63\u5927\u89c4\u6a21\u300c\u6253\u96f6\u5de5\u300d\u53c2\u4e0e\u6a21\u578b\u8bad\u7ec3\u770b\u770b\u5c31\u884c\u7684\u7b80\u8baf\u5c11\u6570\u6d3e\u7684\u8fd1\u671f\u52a8\u6001\u4f60\u53ef\u80fd\u9519\u8fc7\u7684\u597d\u6587\u7ae0\u67e5\u770b\u5168\u6587",
+                "publishedAt": "2026-07-12T22:58:18Z",
+                "source": {
+                    "id": null,
+                    "name": "Sspai.com"
+                },
+                "title": "\u6d3e\u65e9\u62a5\uff1a\u82f9\u679c\u8d77\u8bc9 OpenAI \u7a83\u53d6\u5546\u4e1a\u673a\u5bc6",
+                "url": "https://sspai.com/post/112215",
+                "urlToImage": "https://rssfile.sspai.com/7/13/2026/article/850ff0b5-a273-a74b-e1c4-a089c8e750d7.png?imageMogr2/auto-orient/format/webp/ignore-error/1"
+            },
+            {
+                "author": "finance.yahoo.com",
+                "content": "Apple Inc. (NASDAQ:AAPL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.Consumer electronics giant Apple Inc. (NASDAQ:AAPL)'s shares are up by 48.9% over the past year\u2026 [+149 chars]",
+                "description": "Apple Inc. (NASDAQ:AAPL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\nConsumer electronics giant Apple Inc. (NASDAQ:AAPL)'s shares are up by 48.9% over the past year and by 16,9% year-to-date. Evercore ISI discussed the firm\u2026",
+                "publishedAt": "2026-07-12T14:30:11Z",
+                "source": {
+                    "id": null,
+                    "name": "Biztoc.com"
+                },
+                "title": "Is A Top Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://biztoc.com/x/0e8d0cdc12b63e36",
+                "urlToImage": "https://biztoc.com/cdn/0e8d0cdc12b63e36_s.webp"
             },
             {
                 "author": "Ramish Cheema",
-                "content": "We recently published Jim Cramer Insisted Recent AI Chip Selloff Wasn't A Bottom &amp; Discussed These 17 Stocks. Broadcom Inc. (NASDAQ:AVGO) is one of the stocks discussed by Jim Cramer.\r\nBroadcom I\u2026 [+2679 chars]",
-                "description": "We recently published Jim Cramer Insisted Recent AI Chip Selloff Wasn\u2019t A Bottom & Discussed These 17 Stocks. Broadcom Inc. (NASDAQ:AVGO) is one of the stock...",
-                "publishedAt": "2026-07-11T12:53:47Z",
+                "content": "Micron Technology Inc. (NASDAQ:MU) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\r\nMicron Technology Inc. (NASDAQ:MU) has shaped up to be one of the hottest stocks on\u2026 [+2840 chars]",
+                "description": "Micron Technology Inc. (NASDAQ:MU) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw. Micron Technology Inc. (NASDAQ:MU) has sha...",
+                "publishedAt": "2026-07-12T14:04:43Z",
                 "source": {
                     "id": null,
                     "name": "Yahoo Entertainment"
                 },
-                "title": "Broadcom Inc. (AVGO) Is Going To Come Back, Says Jim Cramer",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-inc-avgo-going-come-125347317.html",
-                "urlToImage": "https://s.yimg.com/lo/mysterio/api/692E8585E789E7E1C837702705891E38DF5B56BCB3E2C89823AC557F202D5552/subgraphmysterio/resizefill_w1200_h801;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fdcf08a9dbb7c3de961dd78d32a01adf8"
+                "title": "Micron Technology Inc. (MU) Is A Top AI Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-inc-mu-top-140443853.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/55EEFEF17BF1DD455F3C7B9BA9138DECC7D5E45132B0B7AE8FA4BBC2F05EABC9/subgraphmysterio/resizefill_w1200_h720;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F84d894ac16e0147415d3f0642efee27a"
             },
             {
-                "author": null,
-                "content": "Your whole PDF toolbox and it never leaves your iPhone.\r\nPDFMagic does what the big online PDF sites do, but right on your device: nothing is uploaded, nothing is stored on a server, and most tools w\u2026 [+2410 chars]",
-                "description": "Your whole PDF toolbox and it never leaves your iPhone.\r\n\r\nPDFMagic does what the big online PDF sites do, but right on your device: nothing is uploaded, nothing...",
-                "publishedAt": "2026-07-11T08:02:50Z",
+                "author": "Ramish Cheema",
+                "content": "Apple Inc. (NASDAQ:AAPL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\r\nConsumer electronics giant Apple Inc. (NASDAQ:AAPL)'s shares are up by 48.9% over the past ye\u2026 [+1568 chars]",
+                "description": "Apple Inc. (NASDAQ:AAPL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw. Consumer electronics giant Apple Inc. (NASDAQ:AAPL)\u2019...",
+                "publishedAt": "2026-07-12T14:01:23Z",
                 "source": {
                     "id": null,
-                    "name": "Giveawayoftheday.com"
+                    "name": "Yahoo Entertainment"
                 },
-                "title": "PDFMagic: PDF Editor & Scanner",
-                "url": "https://iphone.giveawayoftheday.com/pdfmagic-pdf-editor-scanner/",
-                "urlToImage": "https://iphone.giveawayoftheday.com/wp-content/plugins/gotd_appstore_plugin/images/2026/07/862473183_app_icon_big_1783756903.jpg"
+                "title": "Apple Inc. (AAPL) Is A Top Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-top-stock-140123306.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/ABC76819FA7CAA4684F8F0F0F2CE34E83C3D144A057BEDD8500717F4B0D65772/subgraphmysterio/resizefill_w1200_h802;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fb4ec8c9cdbe4eafe712460d58f7005c4"
             }
         ],
         "ADBE": [
@@ -442,6 +442,19 @@
         "ADSK": [
             {
                 "author": null,
+                "content": "Autodesk CEOAutodeskAmazon Web Services, Inc.AWSStrategic Collaboration AgreementSCA\u00a0\r\nAutodesk Autodesk 2026 2 AWS Marketplace AWS Fusion for Product DesignFusion Manage AWS Marketplace AWS Private \u2026 [+326 chars]",
+                "description": "[\u30aa\u30fc\u30c8\u30c7\u30b9\u30af\u682a\u5f0f\u4f1a\u793e]\n\u7c73\u56fd Autodesk \u793e\uff08\u672c\u793e\uff1a\u7c73\u56fd\u30ab\u30ea\u30d5\u30a9\u30eb\u30cb\u30a2\u5dde\u3001\u30d7\u30ec\u30b8\u30c7\u30f3\u30c8\u517c CEO\uff1a\u30a2\u30f3\u30c9\u30ea\u30e5\u30fc\u30fb\u30a2\u30ca\u30b0\u30ce\u30b9\u30c8\u3001\u4ee5\u4e0b\u3001Autodesk\uff09\u306f\u3001Amazon Web Services, Inc.\uff08AWS\uff09\u3068\u6226\u7565\u7684\u5354\u696d\u5951\u7d04\uff08Strategic Collaboration Agreement...",
+                "publishedAt": "2026-07-13T01:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Prtimes.jp"
+                },
+                "title": "Autodesk\u3001Amazon Web Services \u3068\u6226\u7565\u7684\u5354\u696d\u5951\u7d04\u3092\u7de0\u7d50",
+                "url": "https://prtimes.jp/main/html/rd/p/000000042.000052438.html",
+                "urlToImage": "https://prcdn.freetls.fastly.net/release_image/52438/42/52438-42-1a0818765a3a57860ffd733e15602f25-3900x1982.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
+            },
+            {
+                "author": null,
                 "content": "The Experience Hall returns with five interactive programs, each offering hands-on discovery with the tools and techniques shaping tomorrow\r\nLOS ANGELES, July 10, 2026 /PRNewswire/ -- The\u00a0SIGGRAPH Ex\u2026 [+14012 chars]",
                 "description": "The Experience Hall returns with five interactive programs, each offering hands-on discovery with the tools and techniques shaping tomorrow LOS ANGELES, July 10, 2026 /PRNewswire/ -- The SIGGRAPH Experience Hall has always been more than a show floor. At SIGG\u2026",
                 "publishedAt": "2026-07-10T18:53:00Z",
@@ -556,22 +569,48 @@
                 "title": "Stock Indexes Fall as Chip Stocks Sink and Crude Soars",
                 "url": "https://www.barchart.com/story/news/3171599/stock-indexes-fall-as-chip-stocks-sink-and-crude-soars",
                 "urlToImage": "https://s.yimg.com/lo/mysterio/api/C3A7A2B1AB913353747C9FAECB44A12147A0C87DF3763596F40B29C5E0A4D42B/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fbc1ca70c2b48d920c5437c60396a6beb"
-            },
-            {
-                "author": "Research and Markets",
-                "content": "Dublin, July 07, 2026 (GLOBE NEWSWIRE) -- The \"Generative AI in Animation Market Report 2026\" has been added to ResearchAndMarkets.com's offering.\r\nThe generative AI in animation market is witnessing\u2026 [+25033 chars]",
-                "description": "The generative AI in animation market is experiencing significant growth due to factors such as booming digital animation content, demand for cost-effective production, and the expansion of gaming and film industries. Key opportunities include the rise of hyp\u2026",
-                "publishedAt": "2026-07-07T15:25:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Generative AI in Animation Market: Forecast to Expand from $2.37 Billion in 2025 to $9.28 Billion by 2030 at 30.2% CAGR",
-                "url": "https://www.globenewswire.com/news-release/2026/07/07/3323469/28124/en/Generative-AI-in-Animation-Market-Forecast-to-Expand-from-2-37-Billion-in-2025-to-9-28-Billion-by-2030-at-30-2-CAGR.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/d7935490-cd5e-44c4-909e-0314d17d279e"
             }
         ],
         "AMD": [
+            {
+                "author": null,
+                "content": ". 13 . INTERFAX.RU - , SK Hynix.\r\n Nasdaq (ADR) Hynix (when-issued), .. . 12,8% $149 , $168,01, $177. : ADR 2,5% - $172,14. .\r\nHynix , SK Group Bloomberg Television. , \" \".\r\n $26,5 - . Alibaba, $21,8\u2026 [+716 chars]",
+                "description": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0435 \u0444\u043e\u043d\u0434\u043e\u0432\u044b\u0435 \u0438\u043d\u0434\u0435\u043a\u0441\u044b \u0432\u044b\u0440\u043e\u0441\u043b\u0438 \u043f\u043e \u0438\u0442\u043e\u0433\u0430\u043c \u0442\u043e\u0440\u0433\u043e\u0432 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443, \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u0438\u043d\u0432\u0435\u0441\u0442\u043e\u0440\u043e\u0432 \u0431\u044b\u043b\u043e \u043f\u0440\u0438\u043a\u043e\u0432\u0430\u043d\u043e \u043a \u0434\u0435\u0431\u044e\u0442\u0443 \u044e\u0436\u043d\u043e\u043a\u043e\u0440\u0435\u0439\u0441\u043a\u043e\u0433\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0447\u0438\u043f\u043e\u0432 \u043f\u0430\u043c\u044f\u0442\u0438 SK Hynix.",
+                "publishedAt": "2026-07-13T04:10:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Interfax.ru"
+                },
+                "title": "\u0418\u043d\u0434\u0435\u043a\u0441\u044b \u0421\u0428\u0410 \u0432\u044b\u0440\u043e\u0441\u043b\u0438 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443",
+                "url": "https://www.interfax.ru/world/1102876",
+                "urlToImage": "https://www.interfax.ru/aspimg/1102876.jpg"
+            },
+            {
+                "author": "Ananya Gairola",
+                "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nOn Thursday, a top tech analyst said Meta Platforms, Inc.'s massive AI infrastructure investment \u2026 [+6090 chars]",
+                "description": "On Thursday, a top tech analyst said Meta Platforms, Inc.\u2019s massive AI infrastructure investment underscores its long-term ambitions, arguing the company\u2019s c...",
+                "publishedAt": "2026-07-12T12:01:27Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Daniel Newman Says Meta Isn't Replacing Nvidia or AMD With In-House AI Chips: 'It is Augmenting\u2026'",
+                "url": "https://finance.yahoo.com/technology/ai/articles/daniel-newman-says-meta-isnt-120127222.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/ED39DF29CEA0A9374DA3A9FF1CAC9A51548D59C51F3AD027A3FA864284C1ED3C/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F2c8504fdda8a282cb8341cba4646e78b"
+            },
+            {
+                "author": "Ananya Gairola",
+                "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nOn Monday, President Donald Trump said the federal government has deposited the first $1,000 into\u2026 [+9149 chars]",
+                "description": "On Monday, President Donald Trump said the federal government has deposited the first $1,000 into more than 500,000 newly created \u201cTrump Accounts,\u201d launching...",
+                "publishedAt": "2026-07-12T10:46:10Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Trump Says First 500,000 'Trump Accounts' Are Funded as Economist Warns There Is 'Nothing to Celebrate' as Kids Will Also Inherit the Debt",
+                "url": "https://finance.yahoo.com/economy/policy/articles/trump-says-first-500-000-104610811.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/67929882A0FF196A577965CA054AB46AC57C9615A5206DECA4CED574C3F13B91/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F44ff40c2a41f2ac5c1a90a185c342a74"
+            },
             {
                 "author": "Amit Ayal Govrin, John Furrier and David Vellante",
                 "content": "On the four dimensions of real sovereignty, the fifth dimension every chief financial officer is learning about the hard way, and why open source isnt a preference its the architecture.\r\n<table><tr><\u2026 [+27174 chars]",
@@ -662,45 +701,6 @@
                 "title": "\u0424\u043e\u043d\u0434\u043e\u0432\u044b\u0435 \u0438\u043d\u0434\u0435\u043a\u0441\u044b \u0421\u0428\u0410 \u0432\u044b\u0440\u043e\u0441\u043b\u0438 \u0432\u0441\u043b\u0435\u0434 \u0437\u0430 \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430\u043c\u0438 \u0430\u043a\u0446\u0438\u0439 \u0418\u0422-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439",
                 "url": "https://www.interfax.ru/world/1102396",
                 "urlToImage": "https://www.interfax.ru/aspimg/1102396.jpg"
-            },
-            {
-                "author": null,
-                "content": "202671830ASRockCPU4,000Pay\u00ae\r\nLCDPhantom GamingSteel LegendChallengerProASRockCPU\r\nPhantom GamingSteel LegendPay\u00ae4,000ChallengerPay\u00ae2,000ProPay\u00ae1,000\r\nASRockCPUPC\r\nASRock AIO 2026\r\n2026 71 830\r\n2026 7\u2026 [+728 chars]",
-                "description": "[\u682a\u5f0f\u4f1a\u793e \u30a2\u30b9\u30af]\n\u682a\u5f0f\u4f1a\u793e\u30a2\u30b9\u30af\uff08\u672c\u793e\uff1a\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a\uff09\u306f\u30012026\u5e747\u67081\u65e5\uff08\u6c34\uff09\uff5e8\u670830\u65e5\uff08\u65e5\uff09\u306e\u671f\u9593\u3001\u5bfe\u8c61\u3068\u306a\u308bASRock\u793e\u88fd\u6c34\u51b7\u4e00\u4f53\u578bCPU\u30af\u30fc\u30e9\u30fc\u3092\u3054\u8cfc\u5165\u3044\u305f\u3060\u3044\u305f\u65b9\u306b\u3001\u6700\u59274,000\u30dd\u30a4\u30f3\u30c8\u306e\u300c\u3048\u3089\u3079\u308bPay(R)\u300d\u3092\u30d7\u30ec\u30bc\u30f3\u30c8...",
-                "publishedAt": "2026-07-10T01:40:40Z",
-                "source": {
-                    "id": null,
-                    "name": "Prtimes.jp"
-                },
-                "title": "ASRock AIO \u590f\u3092\u4e57\u308a\u5207\u308b\uff01\u6c34\u51b7\u30af\u30fc\u30e9\u30fc\u8cfc\u5165\u30ad\u30e3\u30f3\u30da\u30fc\u30f3 2026\u958b\u50ac\u306e\u304a\u77e5\u3089\u305b",
-                "url": "https://prtimes.jp/main/html/rd/p/000001156.000008686.html",
-                "urlToImage": "https://prcdn.freetls.fastly.net/release_image/8686/1156/8686-1156-3a7c914a57d234604f437ba3fd9002b5-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-            },
-            {
-                "author": null,
-                "content": "OWCSSDOWC Express 4M2 Ultra\r\nOWC Express 4M2 UltraThunderbolt 5SSDPCI Express 4.0M.2 SSD4RAID6,622MB/s\r\n3SoftRAIDPremiumSoftRAIDRAID\r\nM.2 NVMe SSD4\r\nPCI Express 4.0 x1M.24M.2 NVMe SSD4Thunderbolt 56,\u2026 [+845 chars]",
-                "description": "[\u682a\u5f0f\u4f1a\u793e \u30a2\u30b9\u30af]\n\u682a\u5f0f\u4f1a\u793e\u30a2\u30b9\u30af\uff08\u672c\u793e\uff1a\u6771\u4eac\u90fd\u5343\u4ee3\u7530\u533a\uff09\u306f\u3001OWC\u793e\u88fd\u306e\u5916\u4ed8\u3051SSD\u30a8\u30f3\u30af\u30ed\u30fc\u30b8\u30e3\u300cOWC Express 4M2 Ultra\u300d\u30b7\u30ea\u30fc\u30ba\u306e\u53d6\u308a\u6271\u3044\u3092\u958b\u59cb\u3044\u305f\u3057\u307e\u3059\u3002\n\n\u300cOWC Express 4M2 Ultra\u300d\u30b7\u30ea\u30fc\u30ba\u306f\u3001Thunderbolt 5\u63a5\u7d9a\u306b\u5bfe\u5fdc...",
-                "publishedAt": "2026-07-10T01:40:40Z",
-                "source": {
-                    "id": null,
-                    "name": "Prtimes.jp"
-                },
-                "title": "OWC\u793e\u88fd\u3001Thunderbolt 5\u5bfe\u5fdc\u306e\u5916\u4ed8\u3051SSD\u30a8\u30f3\u30af\u30ed\u30fc\u30b8\u30e3\u300cOWC Express 4M2 Ultra\u300d\u30b7\u30ea\u30fc\u30ba\u3092\u53d6\u308a\u6271\u3044\u958b\u59cb",
-                "url": "https://prtimes.jp/main/html/rd/p/000001155.000008686.html",
-                "urlToImage": "https://prcdn.freetls.fastly.net/release_image/8686/1155/8686-1155-a8d111a934861332055d29114aa684c3-1200x630.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260"
-            },
-            {
-                "author": "Rich Asplund",
-                "content": "The\u00a0S&amp;P 500 Index ($SPX) (SPY) on Thursday closed up +0.81%,\u00a0the Dow Jones Industrial Average ($DOWI)\u00a0(DIA) closed up +0.27%, and the\u00a0Nasdaq 100 Index ($IUXX) (QQQ) closed up +1.62%.\u00a0 September E\u2026 [+8107 chars]",
-                "description": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed up +0.81%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.27%, and the Nasdaq 100 Index ($...",
-                "publishedAt": "2026-07-09T20:33:17Z",
-                "source": {
-                    "id": null,
-                    "name": "Barchart.com"
-                },
-                "title": "Stocks Settle Higher as Chipmakers Rally and Crude Prices Fall",
-                "url": "https://www.barchart.com/story/news/3213146/stocks-settle-higher-as-chipmakers-rally-and-crude-prices-fall",
-                "urlToImage": "https://s.yimg.com/lo/mysterio/api/D808C357B7D795388892EFD4E29C2851F515A517E26135FFE8FBD2F791262DBD/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2F3bce3a270ead73f60ed4a61bc197a034"
             }
         ],
         "COST": [
@@ -1237,6 +1237,71 @@
         ],
         "GOOG": [
             {
+                "author": null,
+                "content": ". 13 . INTERFAX.RU - , SK Hynix.\r\n Nasdaq (ADR) Hynix (when-issued), .. . 12,8% $149 , $168,01, $177. : ADR 2,5% - $172,14. .\r\nHynix , SK Group Bloomberg Television. , \" \".\r\n $26,5 - . Alibaba, $21,8\u2026 [+716 chars]",
+                "description": "\u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0435 \u0444\u043e\u043d\u0434\u043e\u0432\u044b\u0435 \u0438\u043d\u0434\u0435\u043a\u0441\u044b \u0432\u044b\u0440\u043e\u0441\u043b\u0438 \u043f\u043e \u0438\u0442\u043e\u0433\u0430\u043c \u0442\u043e\u0440\u0433\u043e\u0432 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443, \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u0438\u043d\u0432\u0435\u0441\u0442\u043e\u0440\u043e\u0432 \u0431\u044b\u043b\u043e \u043f\u0440\u0438\u043a\u043e\u0432\u0430\u043d\u043e \u043a \u0434\u0435\u0431\u044e\u0442\u0443 \u044e\u0436\u043d\u043e\u043a\u043e\u0440\u0435\u0439\u0441\u043a\u043e\u0433\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430 \u0447\u0438\u043f\u043e\u0432 \u043f\u0430\u043c\u044f\u0442\u0438 SK Hynix.",
+                "publishedAt": "2026-07-13T04:10:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Interfax.ru"
+                },
+                "title": "\u0418\u043d\u0434\u0435\u043a\u0441\u044b \u0421\u0428\u0410 \u0432\u044b\u0440\u043e\u0441\u043b\u0438 \u0432 \u043f\u044f\u0442\u043d\u0438\u0446\u0443",
+                "url": "https://www.interfax.ru/world/1102876",
+                "urlToImage": "https://www.interfax.ru/aspimg/1102876.jpg"
+            },
+            {
+                "author": null,
+                "content": "Psalm 7-9\r\n\n\n Psalm 7[a]\r\nA shiggaion[b](A) of David, which he sang to the Lord concerning Cush, a Benjamite.\r\n1\u00a0Lord my God, I take refuge(B) in you;save and deliver me(C) from all who pursue me,(D)\u2026 [+16641 chars]",
+                "description": null,
+                "publishedAt": "2026-07-13T04:06:40Z",
+                "source": {
+                    "id": null,
+                    "name": "Biblegateway.com"
+                },
+                "title": "Old/New Testament Reading for Monday July 13, 2026 (NIV)",
+                "url": "https://www.biblegateway.com/reading-plans/old-new-testament/2026/07/13/",
+                "urlToImage": "https://www.biblegateway.com/assets/images/logos/logo_bg-sharing.png?5334b08c"
+            },
+            {
+                "author": "finance.yahoo.com",
+                "content": "Alphabet Inc. (NASDAQ:GOOGL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.Alphabet Inc. (NASDAQ:GOOGL)'s shares are up by 103% over the past year and 13% year-to-dat\u2026 [+145 chars]",
+                "description": "Alphabet Inc. (NASDAQ:GOOGL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\nAlphabet Inc. (NASDAQ:GOOGL)'s shares are up by 103% over the past year and 13% year-to-date. Over the course of the past year, the firm has managed t\u2026",
+                "publishedAt": "2026-07-12T15:14:58Z",
+                "source": {
+                    "id": null,
+                    "name": "Biztoc.com"
+                },
+                "title": "A Top AI Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://biztoc.com/x/c94cb6464eac1409",
+                "urlToImage": "https://biztoc.com/cdn/c94cb6464eac1409_s.webp"
+            },
+            {
+                "author": "Ramish Cheema",
+                "content": "Alphabet Inc. (NASDAQ:GOOGL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\r\nAlphabet Inc. (NASDAQ:GOOGL)'s shares are up by 103% over the past year and 13% year-to-d\u2026 [+1581 chars]",
+                "description": "Alphabet Inc. (NASDAQ:GOOGL) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw. Alphabet Inc. (NASDAQ:GOOGL)\u2019s shares are up by...",
+                "publishedAt": "2026-07-12T14:01:16Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Alphabet Inc. (GOOGL) A Top AI Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-googl-top-ai-140116583.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/FE6E5B2045DFB27019501BC1BAE3B4C790E5F48A4074B586C78D1FE6F8982231/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F722fa6e1a067b1274b73f466479e4aad"
+            },
+            {
+                "author": "Canuto",
+                "content": "Por Canuto \u00a0 China activar\u00e1 el 15 de julio un nuevo marco para regular la IA que imita rasgos humanos y fomenta lazos emocionales prolongados. Antes de esa fecha, ByteDance, Alibaba y Tencent ya come\u2026 [+11810 chars]",
+                "description": "China activar\u00e1 el 15 de julio un nuevo marco para regular la IA que imita rasgos humanos y fomenta lazos emocionales prolongados. Antes de esa fecha, ByteDance, Alibaba y Tencent ya comenzaron a retirar funciones de chatbots de compa\u00f1\u00eda, en una se\u00f1al de c\u00f3mo \u2026",
+                "publishedAt": "2026-07-12T13:23:27Z",
+                "source": {
+                    "id": null,
+                    "name": "Diariobitcoin.com"
+                },
+                "title": "China endurece reglas de IA y fuerza a ByteDance y Alibaba a cerrar bots de compa\u00f1\u00eda",
+                "url": "https://www.diariobitcoin.com/regulacion/china-endurece-reglas-de-ia-y-fuerza-a-bytedance-y-alibaba-a-cerrar-bots-de-compania/",
+                "urlToImage": "https://diariobitcoin.b-cdn.net/wp-content/uploads/2026/07/canuto-imagine-1783862598.jpg"
+            },
+            {
                 "author": "Bloomberg",
                 "content": "Wall Street is anticipating a near-record earnings season, but for investors a key question remains: Will it be enough to keep stock market bulls running?The stakes have rarely been higher. The S&amp\u2026 [+9472 chars]",
                 "description": "Wall Street enters the second-quarter earnings season with expectations near record highs, leaving companies with little room for disappointment. Investors will closely monitor AI spending, profit margins and corporate guidance to determine whether the broade\u2026",
@@ -1300,74 +1365,22 @@
                 "title": "Generative AI in Music Market Report Just Released; Examines Segments Like GANs and Transformer-Based Models",
                 "url": "https://www.globenewswire.com/news-release/2026/07/10/3325390/28124/en/Generative-AI-in-Music-Market-Report-Just-Released-Examines-Segments-Like-GANs-and-Transformer-Based-Models.html",
                 "urlToImage": "https://ml.globenewswire.com/Resource/Download/ad2972ee-fdb1-462d-aad8-670fa1ba4cf7"
-            },
-            {
-                "author": "Admin",
-                "content": "The head of the top US auto safety regulator said the agency \u201cabsolutely\u201d will consider ending requirements that driverless cars include steering wheels, a potential boon for Tesla Inc. and other rob\u2026 [+1639 chars]",
-                "description": "The head of the top US auto safety regulator said the agency \u201cabsolutely\u201d will consider ending requirements that driverless cars include steering wheels, a potential boon for Tesla Inc. and other robotaxi companies rethinking traditional vehicle design. \u201cIf y\u2026",
-                "publishedAt": "2026-07-10T05:26:11Z",
-                "source": {
-                    "id": null,
-                    "name": "Insurance Journal"
-                },
-                "title": "US to Explore Allowing Driverless Cars Without Steering Wheels",
-                "url": "https://www.insurancejournal.com/news/national/2026/07/10/876948.htm",
-                "urlToImage": "https://www.insurancejournal.com/app/uploads/2026/07/traffic-Philadelphia-Bloomberg-scaled.jpg"
-            },
-            {
-                "author": "MacDailyNews",
-                "content": "In Nasdaq trading today, shares of Apple Inc. (AAPL) rose $2.83 to $316.22 to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on June 8, 2026 at $317.40.\r\nApples 52-week low s\u2026 [+1802 chars]",
-                "description": "In Nasdaq trading today, shares of Apple Inc. rose to hit a new all-time closing high. Apple\u2019s all-time intraday high was set on\u2026\nThe post Apple shares hit new all-time closing high appeared first on MacDailyNews.",
-                "publishedAt": "2026-07-09T20:21:47Z",
-                "source": {
-                    "id": null,
-                    "name": "Macdailynews.com"
-                },
-                "title": "Apple shares hit new all-time closing high",
-                "url": "https://macdailynews.com/2026/07/09/apple-shares-hit-new-all-time-closing-high-260709/",
-                "urlToImage": "https://macdailynews.com/wp-content/uploads/2024/07/240731_apple_logo.png"
-            },
-            {
-                "author": null,
-                "content": "Sign up for freeSign inStart 7 day free trial\r\n\u00a9 2026 The Fly Inc.\r\nThe Fly Cast\r\nPlay\r\n\u00a9\r\nThe Fly | KATJF\r\nCboe data shows mixed options sentiment in Alphabet with shares down 0.61%\r\nRead More\r\nApyx\u2026 [+1513 chars]",
-                "description": "See the rest of the story here.\n\nthefly.com provides the latest financial news as it breaks. Known as a leader in market intelligence, The Fly's real-time, streaming news feed keeps individual investors, professional money managers, active traders, and corpor\u2026",
-                "publishedAt": "2026-07-09T19:44:06Z",
-                "source": {
-                    "id": null,
-                    "name": "Thefly.com"
-                },
-                "title": "Knowledge Atlas initiated with neutral view at Goldman Sachs, here's why",
-                "url": "https://www.thefly.com/KATJF",
-                "urlToImage": null
-            },
-            {
-                "author": "Amreen Ahmad",
-                "content": "15Dow Jones Today:Wall Street was cautious as the ongoing tension between the United States and Iran made investors nervous although the Dow Jones failed to make a move forward, technology shares dro\u2026 [+5142 chars]",
-                "description": "US stocks traded mixed as Nasdaq gained on chip stocks, while the Dow lagged amid geopolitical tensions and investor focus on Fed policy.",
-                "publishedAt": "2026-07-09T18:08:19Z",
-                "source": {
-                    "id": null,
-                    "name": "The Sunday Guardian"
-                },
-                "title": "Dow Jones US Stock Market Today: Dow Jumps 0.10% as Oil Prices Surge, AI Chips & Semiconductor Gains",
-                "url": "https://sundayguardianlive.com/business/dow-jones-us-stock-market-today-dow-jumps-010-as-oil-prices-surge-ai-chips-semiconductor-gains-check-key-drivers-daily-performance-top-gainers-losers-what-this-means-for-investors-more-232180/",
-                "urlToImage": "https://sundayguardianlive.com/wp-content/uploads/2026/07/us-stock-market-prediction-for-monday.png"
-            },
-            {
-                "author": "Abdul Rahman",
-                "content": "Alphabet Inc. (NASDAQ:GOOGL) is one of the best Seth Klarman portfolio stocks to buy. On July 2, Wells Fargo lowered its price target on Alphabet Inc. (NASDAQ:GOOGL) to $416 from $435, while maintain\u2026 [+2245 chars]",
-                "description": "Alphabet Inc. (NASDAQ:GOOGL) is one of the best Seth Klarman portfolio stocks to buy. On July 2, Wells Fargo lowered its price target on Alphabet Inc. (NASDA...",
-                "publishedAt": "2026-07-09T17:55:39Z",
-                "source": {
-                    "id": null,
-                    "name": "Yahoo Entertainment"
-                },
-                "title": "Wells Fargo Cuts Alphabet (GOOGL) Target to $416 and Keeps Overweight Rating",
-                "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-cuts-alphabet-googl-175539591.html",
-                "urlToImage": "https://s.yimg.com/lo/mysterio/api/B8138CC4E4B1C8AAE2AF1A1E5B44AE6380F247290A86AB8AFF5881F3B980292F/subgraphmysterio/resizefill_w1200_h673;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fddded06c9301164bc21c334085fab02f"
             }
         ],
         "IT": [
+            {
+                "author": "Om Prakash",
+                "content": "Theres a question I keep coming back to when I look at whats shipping in 2026: what exactly are we designing anymore?\r\nFor thirty years, the answer was obvious. We designed screens. Menus, modals, bu\u2026 [+18002 chars]",
+                "description": "How chat, voice, and agentic AI are rewriting the first principles of UX design",
+                "publishedAt": "2026-07-12T09:30:16Z",
+                "source": {
+                    "id": null,
+                    "name": "Uxdesign.cc"
+                },
+                "title": "The interface has left the building",
+                "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
+                "urlToImage": "https://miro.medium.com/v2/da:true/resize:fit:1200/0*3TvKprbciicWhw1X"
+            },
             {
                 "author": "Amit Ayal Govrin, John Furrier and David Vellante",
                 "content": "On the four dimensions of real sovereignty, the fifth dimension every chief financial officer is learning about the hard way, and why open source isnt a preference its the architecture.\r\n<table><tr><\u2026 [+27174 chars]",
@@ -1484,154 +1497,154 @@
                 "title": "Everstage Recognized as a Challenger in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Sales Performance Management",
                 "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/everstage-recognized-as-a-challenger-in-the-2026-gartner-magic-quadrant-for-sales-performance-management",
                 "urlToImage": null
-            },
-            {
-                "author": "Exterro, Inc.",
-                "content": "PORTLAND, Oregon, July 09, 2026 (GLOBE NEWSWIRE) -- Exterro hat heute ARMOUR for FTK auf den Markt gebracht und erweitert damit die FTK Central-Plattform um agentengest\u00fctzte Fernuntersuchungen, ohne \u2026 [+7756 chars]",
-                "description": "Die neue agentenbasierte KI-Funktion f\u00fchrt Untersuchungen auf aktiven Endger\u00e4ten durch und ersetzt damit die auf mehrere Tools angewiesenen, datenerfassungsorientierten Arbeitsabl\u00e4ufe, die die Reaktion auf Vorf\u00e4lle in Unternehmen verlangsamen Die neue agenten\u2026",
-                "publishedAt": "2026-07-09T16:49:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Exterro bringt ARMOUR for FTK auf den Markt: Forensische Untersuchungen, die mit einer Frage beginnen \u2013 und nicht mit einem ganzen Stapel an Werkzeugen",
-                "url": "https://www.globenewswire.com/news-release/2026/07/09/3325113/0/de/Exterro-bringt-ARMOUR-for-FTK-auf-den-Markt-Forensische-Untersuchungen-die-mit-einer-Frage-beginnen-und-nicht-mit-einem-ganzen-Stapel-an-Werkzeugen.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/2eb0dc8f-4ba7-441f-b11f-ef080a6df78d"
             }
         ],
         "JNJ": [
             {
-                "author": "Aiden Kauffman",
-                "content": "The Dallas Mavericks fell to 0-2 in Summer League on Saturday night, losing 91 to 70 to the Los Angeles Lakers at Thomas &amp; Mack Center in Las Vegas. The final score looked lopsided, but Dallas st\u2026 [+3101 chars]",
-                "description": "Dallas dropped its second Summer League game after a strong first half faded. Ryan Nembhard struggled again, while Sergio De Larrea continued to show why the Mavericks are excited about his future.",
-                "publishedAt": "2026-07-12T06:39:58Z",
+                "author": "GlobeNewswire",
+                "content": "The project is part of the CLARiTI portfolio and leverages its infrastructure to support coordinated sample access and harmonized data workflows. The effort has been advanced through sustained partne\u2026 [+5014 chars]",
+                "description": "National-scale initiative will profile ~21,000 plasma samples from 10,000 Alzheimer\u2019s Disease and Related Dementias (ADRD) participants using Alamar Biosciences\u2019 NULISAseq\u2122 Neuro 220 panel. | Resulting dataset will be publicly accessible, linked through Natio\u2026",
+                "publishedAt": "2026-07-13T06:32:13Z",
                 "source": {
-                    "id": null,
-                    "name": "Roundtable.io"
+                    "id": "financial-post",
+                    "name": "Financial Post"
                 },
-                "title": "Mavs Summer League Problems Continue in Loss to Lakers",
-                "url": "https://roundtable.io/sports/nba/mavericks/news/mavs-summer-league-problems-continue-in-loss-to-lakers",
-                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/S8RRA2Oji_h2pwso.9gosQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NzA7Y2Y9d2VicA--/https://media.zenfs.com/en/roundtable_sports_dallas_mavericks_792/8d5fcdf588b2751a296067a03a466aef"
-            },
-            {
-                "author": "Gema Ceacero",
-                "content": "En un intento desesperado por mantenerse joven para siempre, Bryan Johnson, un multimillonario de Silicon Valley, hace todo lo posible sin tener en cuenta ni el dinero ni las consecuencias. Sin embar\u2026 [+2901 chars]",
-                "description": "El hombre asegur\u00f3 que su sistema inmunitario 'se est\u00e1 comiendo' su est\u00f3mago. Aun as\u00ed, sigue una dieta s\u00faperestricta en vitaminas, prote\u00ednas y suplementos diversos.",
-                "publishedAt": "2026-07-12T06:29:42Z",
-                "source": {
-                    "id": null,
-                    "name": "20minutos.es"
-                },
-                "title": "Bryan Johnson, el multimillonario que se inyecta el plasma de su hijo para rejuvenecer, sufre una enfermedad autoinmune",
-                "url": "https://www.20minutos.es/gente/bryan-johnson-multimillonario-que-se-inyecta-plasma-su-hijo-para-rejuvenecer-sufre-una-enfermedad-autoinmune_7013299_0.html",
-                "urlToImage": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/01/27/bryan-johnson-tiene-45-anos-y-quiere-reducir-el-envejecimiento-un-25-en-los-78-organos-para-2030.jpeg"
-            },
-            {
-                "author": "driX",
-                "content": "Seattle indie-folk icons The Head and the Heart commemorate the 15th anniversary of their landmark debut album with the release of a 2011 live show at their beloved hometown venue Neumos. This CD cap\u2026 [+3974 chars]",
-                "description": "Seattle indie-folk icons The Head and the Heart commemorate the 15th anniversary of their landmark debut album with the release of a 2011 live show at their beloved hometown venue Neumos. This CD captures a vibrant live set right at the moment the band was br\u2026",
-                "publishedAt": "2026-07-12T06:10:37Z",
-                "source": {
-                    "id": null,
-                    "name": "Exystence.net"
-                },
-                "title": "The Head and the Heart \u2013 Live at Neumos 2011 (2026)",
-                "url": "https://exystence.net/blog/2026/07/12/the-head-and-the-heart-live-at-neumos-2011-2026/",
+                "title": "Alamar Biosciences Partners with Leading Research Universities to Launch National Initiative Advancing Blood-Based Biomarkers for Neurodegenerative Diseases",
+                "url": "https://financialpost.com/globe-newswire/alamar-biosciences-partners-with-leading-research-universities-to-launch-national-initiative-advancing-blood-based-biomarkers-for-neurodegenerative-diseases",
                 "urlToImage": null
             },
             {
-                "author": "Alex \u0160vamberk",
-                "content": "Eskalace trvala dva dny. Americk\u00fd prezident sice ekl, e jednat s\u00a0\u00cdr\u00e1nem nem\u00e1 cenu, ale vyjednavai d\u00e1l pokrauj\u00ed v\u00a0rozhovorech. K\u00a0razantnj\u00ed a\u00a0del\u00ed kampani proti \u00cdr\u00e1nu nes\u00e1hl. Udlal by to jen, kdyby pi \u2026 [+2341 chars]",
-                "description": "Situace v\u00a0Persk\u00e9m z\u00e1livu se tento t\u00fdden vyhrotila do t\u00e9 m\u00edry, \u017ee americk\u00fd prezident Donald Trump na summitu NATO ozna\u010dil Memorandum o\u00a0porozum\u011bn\u00ed mezi USA a\u00a0\u00cdr\u00e1nem za mrtv\u00e9. \u00cdr\u00e1n \u00fato\u010dil na tankery v\u00a0Hormuzsk\u00e9 \u00fa\u017ein\u011b a\u00a0po americk\u00fdch n\u00e1letech vyp\u00e1lil balistick\u00e9 r\u2026",
-                "publishedAt": "2026-07-12T06:00:00Z",
+                "author": "Nwafor",
+                "content": "By Steve Oko\r\nUMUAHIAGovernor Alex Otti of Abia State has ordered the immediate rehabilitation of Ibeama Primary School, Ndume Otuka, the alma mater of Nigerias first military Head of State, the late\u2026 [+2157 chars]",
+                "description": "By Steve Oko UMUAHIA\u2014Governor Alex Otti of Abia State has ordered the immediate rehabilitation of Ibeama Primary School, Ndume Otuka, the alma mater of Nigeria\u2019s first military Head of State, the late Gen. Johnson Aguiyi-Ironsi, as well as the road leading to\u2026",
+                "publishedAt": "2026-07-13T06:31:13Z",
                 "source": {
                     "id": null,
-                    "name": "Novinky.cz"
+                    "name": "Vanguard"
                 },
-                "title": "KOMENT\u00c1\u0158: Trump u\u00a0pasti dlouh\u00e9 v\u00e1lky - Alex \u0160vamberk",
-                "url": "https://www.novinky.cz/clanek/komentare-komentar-trump-u-pasti-dlouhe-valky-alex-svamberk-40587582",
-                "urlToImage": "https://d15-a.sdn.cz/d_15/c_img_QO_BH/A9IZ1/alex-svamberk-komentator-komentar.jpeg?fl=cro,0,0,1920,1080%7Cres,1200,,1%7Cwebp,75"
+                "title": "Otti directs immediate rehabilitation of Ironsi\u2019s alma mater",
+                "url": "https://www.vanguardngr.com/2026/07/otti-directs-immediate-rehabilitation-of-ironsis-alma-mater/",
+                "urlToImage": "https://cdn.vanguardngr.com/wp-content/uploads/2026/06/Otti.png"
             },
             {
-                "author": "Pete Fiutak",
-                "content": "When Tulane first joined the American Conference in 2014, it didn't have a winning season in its first four years, had just two in its first eight, and as recently as 2021, it went 2-10.\r\nAnd then it\u2026 [+9168 chars]",
-                "description": "Even in a rebuilding transition season, Tulane should be in the mix to defend its American Conference title and have another strong season.",
-                "publishedAt": "2026-07-12T05:57:15Z",
+                "author": "Easton Freeze",
+                "content": "ALS is a hot topic this summer in the wake of Chris Johnsons diagnosis. But what can be done besides the revival of the Ice Bucket Challenge? The answer might surprise you\r\nChris Johnsons ALS diagnos\u2026 [+4836 chars]",
+                "description": "ALS is a hot topic this summer in the wake of Chris Johnson's diagnosis. But what can be done besides the revival of the Ice Bucket Challenge? The answer might surprise you...",
+                "publishedAt": "2026-07-13T06:17:27Z",
                 "source": {
                     "id": null,
-                    "name": "College Football News"
+                    "name": "Atozsports.com"
                 },
-                "title": "Tulane Football Preview 2026: Can the Green Wave Win Another American Title?",
-                "url": "https://collegefootballnews.com/college-football/tulane-football-preview-2026",
-                "urlToImage": "https://s.yimg.com/os/en/college_football_news_725/711a240953db5a4efc6826c088257706"
+                "title": "Chris Johnson's ALS diagnosis sparks Ice Bucket Challenge revival, but expert says awareness alone won't move the needle",
+                "url": "https://atozsports.com/nfl/tennessee-titans-news/chris-johnsons-als-diagnosis-sparks-ice-bucket-challenge-revival-expert-awareness-alone-move-needle/",
+                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/uUrSYO44XuMYj7o4dINYDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/atoz_sports_articles_485/355f1e765d407be6ad8c5eea25418208"
             },
             {
-                "author": "5easypieces",
-                "content": "Wednesday, John Deere agreed to give farmers broader access to repair their tractors and farm equipment under an antitrust settlement agreement\r\n with the Federal Trade Commission, one of the biggest\u2026 [+6542 chars]",
-                "description": "Jason Koebler, 07/09/2026\n\nThe FTC's settlement with John Deere actually has teeth, unlike previous settlements that largely maintained the status quo.",
-                "publishedAt": "2026-07-12T05:47:02Z",
+                "author": "Mike Adams",
+                "content": "Introduction: A Death That Many Are Celebrating\r\nLindsey Graham is dead, and I refuse to pretend grief I dont feel. While Washington elites and corporate media are stretching for platitudes about a p\u2026 [+6158 chars]",
+                "description": "Introduction: A Death That Many Are Celebrating Lindsey Graham is dead, and I refuse to pretend grief I don\u2019t feel. While Washington elites and corporate media are stretching for platitudes about a \u201cpublic servant\u201d and a \u201cchampion of freedom,\u201d millions of Ame\u2026",
+                "publishedAt": "2026-07-13T06:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "404media.co"
+                    "name": "Naturalnews.com"
                 },
-                "title": "Farmers Finally Get a John Deere Right to Repair Agreement That Doesn\u2019t Screw Them Over | 404 Media",
-                "url": "https://www.404media.co/farmers-finally-get-a-john-deere-right-to-repair-agreement-that-doesnt-screw-them-over/",
-                "urlToImage": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/07/CleanShot-2026-07-09-at-07.07.10@2x.png"
+                "title": "Why the Death of Lindsey Graham Is Celebrated by So Many \u2026 and What It Says About Our Corrupt System",
+                "url": "https://www.naturalnews.com/2026-07-13-why-lindsey-graham-death-celebrated-by-many.html",
+                "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/lindsey-graham-death-death-celebration-corrupt-political-system-2713-original.jpg"
             },
             {
-                "author": "cincylee",
-                "content": "Translating complexity into compelling narratives\r\nAM\r\nA field-tested guide to finding the human stakes and narrative tension that make complicated work easy to understand and hard to ignore.\r\nWhat d\u2026 [+18464 chars]",
-                "description": "10 field-tested, science-backed principles to turn complex science, health and technology initiatives into engaging stories people can understand, remember and share",
-                "publishedAt": "2026-07-12T05:47:02Z",
+                "author": "Chase Codewell",
+                "content": "Iran launched attacks on U.S. military bases in Bahrain, Kuwait, Qatar, and Jordan on Thursday, July 9, according to Iranian state media and the Islamic Revolutionary Guard Corps [1]. The strikes fol\u2026 [+3677 chars]",
+                "description": "Iran launched attacks on U.S. military bases in Bahrain, Kuwait, Qatar, and Jordan on Thursday, July 9, according to Iranian state media and the Islamic Revolutionary Guard Corps [1]. The strikes followed two days of U.S. airstrikes against Iran that killed a\u2026",
+                "publishedAt": "2026-07-13T06:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "Forbes"
+                    "name": "Naturalnews.com"
                 },
-                "title": "The Science Of Storytelling\u201410 Tips For Turning Complexity Into Compelling Narratives",
-                "url": "https://www.forbes.com/sites/andreamorris/2026/07/09/the-science-of-storytelling-10-tips-for-turning-complexity-into-compelling-narratives/",
-                "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6a492c4e7fcfaea515d1d969/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+                "title": "Iran Attacks U.S. Bases in Four Countries After U.S. Airstrikes",
+                "url": "https://www.naturalnews.com/2026-07-13-iran-attacks-us-bases-in-four-countries.html",
+                "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/iran-united-states-military-bases-2641-original.jpg"
             },
             {
-                "author": "noreply@blogger.com (Unknown)",
-                "content": "25-year-old star player Jayden Adams, who represented South Africa in the FIFA World Cup tournament, has been found dead in the Schotschekloof area of Cape Town. The cause of this sudden demise, whic\u2026 [+1654 chars]",
-                "description": "25-year-old star player Jayden Adams, who represented South Africa in the FIFA World Cup tournament, has been found dead in the Schotschekloof area of Cape Town. The cause of this sudden demise, which occurred just days after the World Cup concluded, has not \u2026",
-                "publishedAt": "2026-07-12T05:30:23Z",
+                "author": "LA NACION",
+                "content": "El astronauta italiano Luca Parmitano asegur\u00f3 que espera encontrar algo italiano en el men\u00fa durante la misi\u00f3n Artemis III, el vuelo de prueba de la NASA previsto para 2027. Durante su presentaci\u00f3n of\u2026 [+3082 chars]",
+                "description": "El astronauta de la Agencia Espacial Europea es uno de los cuatro integrantes de la nueva delegaci\u00f3n; brome\u00f3 con la posibilidad de llevar comida de su pa\u00eds al espacio",
+                "publishedAt": "2026-07-13T06:00:00Z",
                 "source": {
-                    "id": null,
-                    "name": "Gossiplankanews.com"
+                    "id": "la-nacion",
+                    "name": "La Nacion"
                 },
-                "title": "The player who played in the World Cup football tournament was found dead.",
-                "url": "https://english.gossiplankanews.com/2026/07/the-player-who-played-in-world-cup.html",
-                "urlToImage": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sXl9MmV5GSr8-WoDAWiw37YzI_C-9ymqmaGbMhKz8jPzqZXRrbOPP0cb1tKwyJc3bLMzPpljgsh-KCy-CMN-w1p80dVMkzgJ-yYYxJ8wWfgO7l75q_VkCsMzEjBQaiVbDIHwLxLakp1Sw-xMZ20rlF5fwKorA5MlioGww=w1600"
+                "title": "Luca Parmitano, piloto de la misi\u00f3n Artemis III al ser presentado: \u201cEspero tener algo italiano en el men\u00fa\u201d",
+                "url": "https://www.lanacion.com.ar/el-mundo/luca-parmitano-piloto-de-la-mision-artemis-iii-al-ser-presentado-espero-tener-algo-italiano-en-el-nid13072026/",
+                "urlToImage": "https://www.lanacion.com.ar/resizer/v2/luca-7L2WA3B6YJCK3BRISUCDQYMXEU.jpg?auth=869080f89a8b4cc2f72c9b06530fc6e3c20e8f153090cc4b35bcc2c0feb85239&width=1200&height=800&quality=70&smart=true"
             },
             {
-                "author": "Justin Fitzgerald, Pensacola News Journal",
-                "content": "New Orleans Saints defensive back Martin Emerson can still remember what it was like attending camps hosted by former Pine Forest stars Mike Johnson and George Selvie.\r\nWhat it was like to step into \u2026 [+3814 chars]",
-                "description": "Saints cornerback Martin Emerson returned to Pensacola to host his annual youth camp at Pine Forest, continuing to give back to where he grew up.",
-                "publishedAt": "2026-07-12T04:46:20Z",
+                "author": "Bijou Johnson",
+                "content": "Led by GeoExchange NZ Ltd and landowners, the project was expected to create 15 to 20 jobs.\r\nThe Bay of Plenty Times asked Jones office for the specific locations of the wells and the expected timeli\u2026 [+2787 chars]",
+                "description": "Two test wells will be drilled, in Mount Maunganui and Te Puke.",
+                "publishedAt": "2026-07-13T06:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "Pensacola News Journal"
+                    "name": "New Zealand Herald"
                 },
-                "title": "Saints CB Martin Emerson returns for annual youth football camp",
-                "url": "https://www.pnj.com/story/sports/nfl/saints/2026/07/11/saints-cb-martin-emerson-hosts-football-camp-at-pine-forest/90878869007/",
-                "urlToImage": "https://s.yimg.com/lo/mysterio/api/8f2eb5ee06a3cf88ced9bf9ff254485bda2b57984cce4aba442f2012a376b4c3/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fpensacola-news-journal%2F51e3cdfdc5aa6f6584540145edc48d6b"
+                "title": "Minister Shane Jones unveils $3m Mount Maunganui, Te Puke geothermal drilling project",
+                "url": "https://www.nzherald.co.nz/bay-of-plenty-times/news/minister-shane-jones-unveils-3m-mount-maunganui-te-puke-geothermal-drilling-project/ATHKHOMZPJAUVI464SB4I5STW4/",
+                "urlToImage": "https://www.nzherald.co.nz/resizer/v2/YQVQTK4XIFF2DIAEGO4YMKEXOM.jpg?auth=984d5e269f268e4f2e1142da26b4d1f489d6456a0945921810a7466d2d43f12e&width=1200&height=675&quality=70&focal=974%2C378&smart=false"
             },
             {
-                "author": "Karin Abcarians",
-                "content": "Behind a remarkable performance from Arthur Kaluma, the Lakers earned their second win in as many nights at the Las Vegas Summer League, knocking off the Mavericks, 91-70.\r\nKaluma poured in 34 points\u2026 [+2513 chars]",
-                "description": "The Lakers remained undefeated in Las Vegas with a blowout win over the Mavericks behind Arthur Kaluma.",
-                "publishedAt": "2026-07-12T04:10:27Z",
+                "author": "Garrison Vance",
+                "content": "Ukraine is unlikely to start producing its own Patriot air defense missiles despite a promise by U.S. President Donald Trump to grant a production license, according to sources familiar with the matt\u2026 [+6321 chars]",
+                "description": "Ukraine is unlikely to start producing its own Patriot air defense missiles despite a promise by U.S. President Donald Trump to grant a production license, according to sources familiar with the matter cited by Reuters [1]. The new interceptors will likely be\u2026",
+                "publishedAt": "2026-07-13T06:00:00Z",
                 "source": {
                     "id": null,
-                    "name": "Silver Screen and Roll "
+                    "name": "Naturalnews.com"
                 },
-                "title": "Arthur Kaluma dominates in Lakers win over Mavericks",
-                "url": "https://www.silverscreenandroll.com/los-angeles-sparks-wnba/122389/lakers-vs-mavericks-final-score-recap-stats-summer-league-adou-thiero-arthur-kaluma",
-                "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fYrzcXT9hOJap9Uv5cBqTA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/d286a00b0f603ef63a1212a4fcfb99bb"
+                "title": "Ukraine Unlikely to Produce Patriot Missiles Despite Trump\u2019s License Promise, Sources Say",
+                "url": "https://www.naturalnews.com/2026-07-13-ukraine-unlikely-to-produce-patriot-missiles.html",
+                "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/patriot-missiles-ukraine-trump-license-promise-2675-original.jpg"
+            },
+            {
+                "author": "Morgan S. Verity",
+                "content": "A growing body of research indicates that synthetic emulsifiers added to thousands of processed foods can disrupt the gut microbiome and damage the intestinal barrier, even in people without preexist\u2026 [+5975 chars]",
+                "description": "A growing body of research indicates that synthetic emulsifiers added to thousands of processed foods can disrupt the gut microbiome and damage the intestinal barrier, even in people without preexisting digestive conditions. According to a report on NaturalNe\u2026",
+                "publishedAt": "2026-07-13T06:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Naturalnews.com"
+                },
+                "title": "Study Links Common Food Emulsifiers to Gut Barrier Damage in Healthy Adults",
+                "url": "https://www.naturalnews.com/2026-07-13-study-common-food-emulsifiers-gut-barrier-damage.html",
+                "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/food-emulsifiers-gut-microbiome-intestinal-permeability-2465-original.jpg"
+            },
+            {
+                "author": "https://www.facebook.com/bbcnews",
+                "content": "Kaynak, Getty Images\r\nFotoraf alt yazs, Infantino 2016'dan bu yana FIFA'ya bakanlk yapyor\r\nHaber bilgisi<ul><li><ul><li>Yazan, Alex Brotherton</li><li>Unvan, BBC Spor Muhabiri</li></ul></li><li>Yayn \u2026 [+4549 chars]",
+                "description": "FIFA Ba\u015fkan\u0131 Gianni Infantino, organizasyonun \"t\u00fcm d\u00fcnya i\u00e7in\" olmas\u0131 gerekti\u011fini s\u00f6yleyerek, bu y\u0131lki turnuvan\u0131n ard\u0131ndan erkekler D\u00fcnya Kupas\u0131'n\u0131n 64 tak\u0131ma \u00e7\u0131kar\u0131lmas\u0131 planlar\u0131n\u0131n de\u011ferlendirilece\u011fini a\u00e7\u0131klad\u0131.",
+                "publishedAt": "2026-07-13T05:56:44Z",
+                "source": {
+                    "id": null,
+                    "name": "BBC News"
+                },
+                "title": "Infantino: FIFA D\u00fcnya Kupas\u0131'n\u0131 64 tak\u0131ma \u00e7\u0131karmay\u0131 g\u00f6r\u00fc\u015fecek",
+                "url": "https://www.bbc.com/turkce/articles/cn0vlyk40r2o",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1200/branded_turkce/451c/live/d63516a0-7e21-11f1-a1b8-3d436696a874.jpg"
             }
         ],
         "MPT": [
+            {
+                "author": "\ubb38\uc9c0\ud615 \uc2a4\ud0c0\ud2b8\uc5c5 \uc0dd\ud0dc\uacc4 \uae30\uc790",
+                "content": "\u201c . , .\u201d . . 25 \u2018(SPA EIR)\u2019 . , . \u201c \u201d . . . , . . . , , . , . . , . , 7 . . . . , , (MOU) . , , . \u201c \u201d \u201c , \u201d . . (NMPA), (MoCRA), (CPNP), (EAC) . . . , . , . \u2018EIR\u2019 . 25 , , . K- , . . , K- , . K- , , \u2026 [+16783 chars]",
+                "description": "25\ub144\uac04 \ud504\ub9ac\ubbf8\uc5c4 \uc2a4\ud30c\ub97c \uc6b4\uc601\ud558\uba70 \ucd95\uc801\ud55c \ud604\uc7a5 \uacbd\ud5d8\uc740 \uc774\ud22c\ubc14\uc774\uc624\uc758 \uc5f0\uad6c\uac1c\ubc1c \ucd9c\ubc1c\uc810\uc774 \ub410\ub2e4. \uc774\ud22c\ubc14\uc774\uc624\ub294 \ucc9c\uc5f0 \uc6d0\ub8cc\ub97c \uacfc\ud559\uc801\uc73c\ub85c \uac80\uc99d\ud558\ub294 \uae30\uc220\uacfc \ub300\ud559\u00b7\uc5f0\uad6c\uae30\uad00\uacfc\uc758 \uacf5\ub3d9\uc5f0\uad6c\ub97c \ubc14\ud0d5\uc73c\ub85c \ubc14\uc774\uc624 \uae30\uc220\uc758 \uc0ac\uc5c5\ud654\ub97c \ucd94\uc9c4\ud558\uace0 \uc788\uc73c\uba70, \uae00\ub85c\ubc8c \uc778\uc99d\uacfc \ud574\uc678 \uc2dc\uc7a5 \ud655\ub300\ub97c \ud1b5\ud574 K-\ubdf0\ud2f0\ub97c...\nThe post \u201c25\ub144 \uc2a4\ud30c\uc5d0\uc11c \ub2f5\uc744 \ucc3e\uc558\ub2e4\u201d\u2026\uc870\ud0dc\uc724 \uc774\ud22c\ubc14\uc774\uc624 \ub300\ud45c\uac00 \ub9cc\ub4dc\ub294 K-\ubdf0\ud2f0 \ubc14\uc774\uc624 \uae30\uc220 appeared first on \ubca4\ucc98\uc2a4\ud018\uc5b4.",
+                "publishedAt": "2026-07-12T09:55:34Z",
+                "source": {
+                    "id": null,
+                    "name": "Venturesquare.net"
+                },
+                "title": "\u201c25\ub144 \uc2a4\ud30c\uc5d0\uc11c \ub2f5\uc744 \ucc3e\uc558\ub2e4\u201d\u2026\uc870\ud0dc\uc724 \uc774\ud22c\ubc14\uc774\uc624 \ub300\ud45c\uac00 \ub9cc\ub4dc\ub294 K-\ubdf0\ud2f0 \ubc14\uc774\uc624 \uae30\uc220",
+                "url": "https://www.venturesquare.net/1094629/",
+                "urlToImage": "https://www.venturesquare.net/wp-content/uploads/2026/07/Screenshot_20260706_134504_KakaoTalk.jpg"
+            },
             {
                 "author": "Anne Gibson",
                 "content": "The two met via the property and construction industry. \r\nEllis was Scentres construction general manager, responsible for the pre-construction and delivery phases of all Westfield/Scentre Groups maj\u2026 [+5801 chars]",
@@ -1748,22 +1761,87 @@
                 "title": "South Fl AI Marketing Race: BoardroomPR the Front Runner - South Fl Business News.com",
                 "url": "https://southflbusinessnews.com/south-fl-ai-marketing-race-boardroompr-the-front-runner/",
                 "urlToImage": "https://southflbusinessnews.com/wp-content/uploads/2026/07/207c2916-7095-45dd-8875-97b5d4db801c.jpg"
-            },
-            {
-                "author": null,
-                "content": "LONDON, July 7, 2026 /PRNewswire/ -- The global\u00a0bamboo apparel market is growing steadily, expected to be valued at around US$ 2.5 billion in 2026 and projected to reach US$ 4.1 billion by 2033, with\u2026 [+14832 chars]",
-                "description": "LONDON, July 7, 2026 /PRNewswire/ -- The global bamboo apparel market is growing steadily, expected to be valued at around US$ 2.5 billion in 2026 and projected to reach US$ 4.1 billion by 2033, with a CAGR of 7.5% during the forecast period. This expansion i\u2026",
-                "publishedAt": "2026-07-07T04:44:00Z",
-                "source": {
-                    "id": null,
-                    "name": "PRNewswire"
-                },
-                "title": "Bamboo Apparel Market to Reach US$ 4.1 Bn by 2033 as Sustainable Fashion Demand Accelerates Worldwide - Persistence Market Research",
-                "url": "https://www.prnewswire.com/news-releases/bamboo-apparel-market-to-reach-us-4-1-bn-by-2033-as-sustainable-fashion-demand-accelerates-worldwide---persistence-market-research-302819027.html",
-                "urlToImage": "https://mmx.prnewswire.com/media/MS1807612/Persistence-Market-Research-Logo.jpg?id=OA2751107&p=facebook"
             }
         ],
         "MSFT": [
+            {
+                "author": "admin",
+                "content": "Britain has designated cloud service providers Microsoft, Google, Amazon and Oracle as critical third-party suppliers to its financial sector, bringing them under direct regulatory oversight.\r\nThe mo\u2026 [+1393 chars]",
+                "description": "Britain has designated cloud service providers Microsoft, Google, Amazon and Oracle as critical third-party suppliers to its financial sector, bringing them under direct regulatory oversight. The move is aimed at strengthening the resilience of financial firm\u2026",
+                "publishedAt": "2026-07-13T05:05:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Insurance Journal"
+                },
+                "title": "UK to Directly Regulate Cloud Service Providers to Protect Stability of Financial Sector",
+                "url": "https://www.insurancejournal.com/news/international/2026/07/13/877158.htm",
+                "urlToImage": "https://www.insurancejournal.com/app/uploads/2026/07/data-storage-protection-cloud-computing-concept-301519709-AdobeStock-scaled.jpeg"
+            },
+            {
+                "author": "Bronstein, Gewirtz & Grossman, LLC",
+                "content": "NEW YORK, July 12, 2026 (GLOBE NEWSWIRE) -- Bronstein, Gewirtz &amp; Grossman, LLC, a nationally recognized investor-rights law firm, announces that a class action lawsuit has been filed against Micr\u2026 [+3283 chars]",
+                "description": "New class action for Microsoft (MSFT) urges investors to seek recovery for alleged securities fraud violations \u2013 lead plaintiff deadline of 8/11/2026...",
+                "publishedAt": "2026-07-12T16:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "GlobeNewswire"
+                },
+                "title": "Bronstein, Gewirtz & Grossman LLC Urges Microsoft Corporation Investors to Act: Class Action Filed Alleging Investor Harm",
+                "url": "https://www.globenewswire.com/news-release/2026/07/12/3325854/9788/en/Bronstein-Gewirtz-Grossman-LLC-Urges-Microsoft-Corporation-Investors-to-Act-Class-Action-Filed-Alleging-Investor-Harm.html",
+                "urlToImage": "https://ml.globenewswire.com/Resource/Download/1a031130-a9cc-48ff-b281-d1e47c9a91a5"
+            },
+            {
+                "author": "finance.yahoo.com",
+                "content": "Microsoft Corporation (NASDAQ:MSFT) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.Microsoft Corporation (NASDAQ:MSFT)'s shares are down by 22% over the past year and \u2026 [+150 chars]",
+                "description": "Microsoft Corporation (NASDAQ:MSFT) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\nMicrosoft Corporation (NASDAQ:MSFT)'s shares are down by 22% over the past year and by 18% year-to-date. Several analysts have discussed the fi\u2026",
+                "publishedAt": "2026-07-12T15:14:53Z",
+                "source": {
+                    "id": null,
+                    "name": "Biztoc.com"
+                },
+                "title": "Should You Buy Microsoft Corporation (MSFT)\u2019s Shares?",
+                "url": "https://biztoc.com/x/4058c71779469204",
+                "urlToImage": "https://biztoc.com/cdn/4058c71779469204_s.webp"
+            },
+            {
+                "author": "Chris Markoch, MarketBeat",
+                "content": "Key Points\r\n<ul><li>Interested in Microsoft Corporation? Here are five stocks we like better.\r\n</li><li>Microsoft is routing some Excel and Outlook prompts to its own MAI models instead of OpenAI or \u2026 [+6859 chars]",
+                "description": "Microsoft is routing some Copilot prompts to its in-house MAI models to cut reliance on OpenAI and Anthropic, aiming to boost margins as MSFT shares trade of...",
+                "publishedAt": "2026-07-12T14:55:00Z",
+                "source": {
+                    "id": null,
+                    "name": "MarketBeat"
+                },
+                "title": "Microsoft Bets on In-House AI to Cut OpenAI and Anthropic Costs",
+                "url": "https://www.marketbeat.com/articles/microsoft-bets-on-in-house-ai-to-cut-openai-and-anthropic-costs/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/ABB713C343575A585DCF7F7A261C8AE0A24E82B6006BB7222E4C5C8D5DB53500/subgraphmysterio/resizefill_w1200_h508;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F6c35f04949a3200e45dc273957fa17c2"
+            },
+            {
+                "author": "barchart.com",
+                "content": "Popular coffeehouse chain Starbucks Corporation (SBUX) is reportedly developing in-house software that uses artificial intelligence (AI) to decrease its reliance on outside software vendors. Starbuck\u2026 [+141 chars]",
+                "description": "Popular coffeehouse chain Starbucks Corporation (SBUX) is reportedly developing in-house software that uses artificial intelligence (AI) to decrease its reliance on outside software vendors. Starbucks depends upon a Microsoft (MSFT) system that tracks invento\u2026",
+                "publishedAt": "2026-07-12T13:57:48Z",
+                "source": {
+                    "id": null,
+                    "name": "Biztoc.com"
+                },
+                "title": "Starbucks Is Serving Up Your Coffee with a Side of AI. What That Means for SBUX Stock",
+                "url": "https://biztoc.com/x/6d62f9a4dbd0f756",
+                "urlToImage": "https://biztoc.com/cdn/6d62f9a4dbd0f756_s.webp"
+            },
+            {
+                "author": "B\u00e1rbara Castro",
+                "content": "O \"reboot\" do XBOX come\u00e7ou. A Microsoft confirmou a decis\u00e3o de dispensar 3.200 trabalhadores e de se separar de cinco est\u00fadios. A empresa reconheceu alguns dos problemas que levaram a essa situa\u00e7\u00e3o e\u2026 [+1671 chars]",
+                "description": "Segundo fontes do Game File, Asha Sharma acredita que o t\u00edtulo de Mojang recebeu subinvestimento\nO \"reboot\" do XBOX come\u00e7ou. A Microsoft confirmou a decis\u00e3o de dispensar 3.200 trabalhadores e de se separar de cinco est\u00fadios. A empresa reconheceu alguns dos pr\u2026",
+                "publishedAt": "2026-07-12T09:00:16Z",
+                "source": {
+                    "id": "ign",
+                    "name": "IGN"
+                },
+                "title": "Xbox acredita que perdeu uma grande oportunidade com um de seus jogos mais importantes; por isso, agora haver\u00e1 uma mudan\u00e7a de estrat\u00e9gia em rela\u00e7\u00e3o ao Minecraft",
+                "url": "https://br.ign.com/minecraft/154487/xbox-acredita-que-perdeu-uma-grande-oportunidade-com-um-de-seus-jogos-mais-importantes-por-isso-agor",
+                "urlToImage": "https://sm.ign.com/t/ign_br/screenshot/default/m1_jwjy.1200.jpg"
+            },
             {
                 "author": "Joe Rutland",
                 "content": "The Super Bowl champion Seattle Seahawks have been up for sale for a little bit. Well, that is now over as the Estate of Paul G. Allen sold the franchise for $9.612 billion.\r\nThe Seahawks new ownersh\u2026 [+2077 chars]",
@@ -1815,87 +1893,87 @@
                 "title": "microsoft/flint-chart:  Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
                 "url": "https://github.com/microsoft/flint-chart",
                 "urlToImage": "https://opengraph.githubassets.com/33d6734085605feb7c739ce4228374fda7a487fc1af1d1970dc3b4ad233e7b0e/microsoft/flint-chart"
-            },
+            }
+        ],
+        "MU": [
             {
-                "author": "Reuters",
-                "content": "Britain has designated cloud service providers Microsoft, Google, Amazon and Oracle as critical third-party suppliers to its financial sector, bringing them under direct regulatory oversight.The move\u2026 [+1305 chars]",
-                "description": "The UK government has identified Microsoft, Google, Amazon, and Oracle as essential cloud providers, implying new regulatory measures for these tech giants. This initiative is designed to bolster the resilience of the financial sector against potential cyber \u2026",
-                "publishedAt": "2026-07-11T02:27:49Z",
+                "author": "Bloomberg",
+                "content": "Talk about K-power. South Koreas SK Hynix Inc. has raised $26.5 billion from the US stock market, the biggest first-time share sale by a foreign company. The question now is whether the trillion-doll\u2026 [+4596 chars]",
+                "description": "Investor enthusiasm stems from the fact that SK Hynix has morphed into a golden goose. It\u2019s the world\u2019s second-largest supplier of dynamic random-access memory chips, or DRAM, and the biggest when it comes to the high-bandwidth ones that are paired with Nvidi\u2026",
+                "publishedAt": "2026-07-13T02:34:10Z",
                 "source": {
                     "id": "the-times-of-india",
                     "name": "The Times of India"
                 },
-                "title": "UK to regulate cloud service providers Microsoft, Google and others to protect financial stability",
-                "url": "https://economictimes.indiatimes.com/tech/technology/uk-to-regulate-cloud-service-providers-microsoft-google-and-others-to-protect-financial-stability/articleshow/132323603.cms",
-                "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-8988,resizemode-75,msid-132323603/tech/technology/uk-to-regulate-cloud-service-providers-microsoft-google-and-others-to-protect-financial-stability.jpg"
+                "title": "SK Hynix is a golden goose. It has to lay more eggs",
+                "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-is-a-golden-goose-it-has-to-lay-more-eggs/articleshow/132354954.cms",
+                "urlToImage": "https://img.etimg.com/thumb/msid-132354944,width-1200,height-630,imgsize-18162,overlay-etmarkets/articleshow.jpg"
             },
             {
-                "author": null,
-                "content": "NEW YORK, July 10, 2026 /PRNewswire/ --\r\nWhy: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Microsoft Corporation (NASDAQ: MSFT) between May 1, 2025 and Jan\u2026 [+4299 chars]",
-                "description": "NEW YORK, July 10, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Microsoft Corporation (NASDAQ: MSFT) between May 1, 2025 and January 28, 2026, inclusive (the \"Class Period\"), of the importa\u2026",
-                "publishedAt": "2026-07-10T21:47:00Z",
+                "author": "Habib Ur Rehman",
+                "content": "Micron Technology, Inc. (NASDAQ:MU) is one of the best performing AI stocks over the last 3 years, with a 3Y CAGR of 152%.\r\nOn June 24, Micron disclosed 16 strategic customer agreements carrying $22 \u2026 [+1874 chars]",
+                "description": "Micron Technology, Inc. (NASDAQ:MU) is one of the best performing AI stocks over the last 3 years, with a 3Y CAGR of 152%. On June 24, Micron disclosed 16 st...",
+                "publishedAt": "2026-07-12T17:25:45Z",
                 "source": {
                     "id": null,
-                    "name": "PRNewswire"
+                    "name": "Yahoo Entertainment"
                 },
-                "title": "MSFT Investors Have Opportunity to Lead Microsoft Corporation Securities Fraud Lawsuit",
-                "url": "https://www.prnewswire.com/news-releases/msft-investors-have-opportunity-to-lead-microsoft-corporation-securities-fraud-lawsuit-302822984.html",
-                "urlToImage": "https://mmx.prnewswire.com/media/MS1118010/Rosen-Law-Firm-Logo.jpg?id=OA2758903&p=facebook"
+                "title": "Why Micron Technology (MU) Is Securing Long-Term AI Memory Demand With $22 Billion in Customer Commitments",
+                "url": "https://finance.yahoo.com/technology/ai/articles/why-micron-technology-nasdaq-mu-115645715.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/EFBC82DCAF87D5702C9116FF50E2CD87B604DAA434D7DF15C2BF116FA755A3E3/subgraphmysterio/resizefill_w1200_h747;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F95ba8249d586608dd6a9db523d1cd6e0"
             },
             {
-                "author": "The Rosen Law Firm PA",
-                "content": ", July 10, 2026 (GLOBE NEWSWIRE) -- \r\n: (Rosen Law Firm), , Microsoft Corporation (\": MSFT) 12025282026, (\" \"), 11 2026.\r\n : Microsoft , , . \r\n :\u00a0 \u00a0Microsoft, :\u00a0https://rosenlegal.com/cases/microsoft\u2026 [+842 chars]",
-                "description": "\u05e0\u05d9\u05d5 \u05d9\u05d5\u05e8\u05e7, July 10, 2026 (GLOBE NEWSWIRE) -- \u05de\u05d3\u05d5\u05e2: \u05de\u05e9\u05e8\u05d3 \u05e8\u05d5\u05d6\u05df \u05e2\u05d5\u05e8\u05db\u05d9 \u05d3\u05d9\u05df (Rosen Law Firm), \u05de\u05e9\u05e8\u05d3 \u05e2\u05d5\u05e8\u05db\u05d9 \u05d3\u05d9\u05df \u05d1\u05d9\u05e0\u05dc\u05d0\u05d5\u05de\u05d9 \u05d4\u05e2\u05d5\u05e1\u05e7 \u05d1\u05d6\u05db\u05d5\u05d9\u05d5\u05ea \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd, \u05de\u05d6\u05db\u05d9\u05e8 \u05dc\u05e8\u05d5\u05db\u05e9\u05d9 \u05d4\u05de\u05e0\u05d9\u05d5\u05ea \u05d4\u05e8\u05d2\u05d9\u05dc\u05d5\u05ea \u05e9\u05dc Microsoft Corporation (\u05e0\u05d0\u05e1\u05d3\"\u05e7: MSFT) \u05d1\u05d9\u05df \u05d4\u05ea\u05d0\u05e8\u05d9\u05db\u05d9\u05dd 1 \u05d1\u05de\u05d0\u05d9 2025 \u05e2\u05d3 28 \u05d1\u05d9\u05e0\u05d5\u05d0\u05e8 2026, \u05e9\u05e0\u05d9 \u05d4\u05ea\u05d0\u05e8\u05d9\u05db\u05d9\u05dd\u2026",
-                "publishedAt": "2026-07-10T20:48:00Z",
+                "author": "finance.yahoo.com",
+                "content": "Micron Technology Inc. (NASDAQ:MU) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.Micron Technology Inc. (NASDAQ:MU) has shaped up to be one of the hottest stocks on t\u2026 [+149 chars]",
+                "description": "Micron Technology Inc. (NASDAQ:MU) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\nMicron Technology Inc. (NASDAQ:MU) has shaped up to be one of the hottest stocks on the market. The shares are up by 711% over the past year and\u2026",
+                "publishedAt": "2026-07-12T14:15:01Z",
                 "source": {
                     "id": null,
-                    "name": "GlobeNewswire"
+                    "name": "Biztoc.com"
                 },
-                "title": "\u05e8\u05d5\u05d6\u05df, \u05e2\u05d5\u05e8\u05da \u05d3\u05d9\u05df \u05de\u05d5\u05d1\u05d9\u05dc \u05d1\u05ea\u05d7\u05d5\u05dd \u05d4\u05de\u05e9\u05e4\u05d8, \u05de\u05e2\u05d5\u05d3\u05d3 \u05d0\u05ea \u05de\u05e9\u05e7\u05d9\u05e2\u05d9 \u05de\u05d9\u05e7\u05e8\u05d5\u05e1\u05d5\u05e4\u05d8 \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e2\u05d5\u05e5 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05dc\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u2013 MSFT",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325761/673/he/%D7%A8%D7%95%D7%96%D7%9F-%D7%A2%D7%95%D7%A8%D7%9A-%D7%93%D7%99%D7%9F-%D7%9E%D7%95%D7%91%D7%99%D7%9C-%D7%91%D7%AA%D7%97%D7%95%D7%9D-%D7%94%D7%9E%D7%A9%D7%A4%D7%98-%D7%9E%D7%A2%D7%95%D7%93%D7%93-%D7%90%D7%AA-%D7%9E%D7%A9%D7%A7%D7%99%D7%A2%D7%99-%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A1%D7%95%D7%A4%D7%98-%D7%9C%D7%A7%D7%91%D7%9C-%D7%99%D7%99%D7%A2%D7%95%D7%A5-%D7%9E%D7%A9%D7%A4%D7%98%D7%99-%D7%9C%D7%A4%D7%A0%D7%99-%D7%94%D7%9E%D7%95%D7%A2%D7%93-%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%9F-%D7%94%D7%97%D7%A9%D7%95%D7%91-%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%94-%D7%99%D7%99%D7%A6%D7%95%D7%92%D7%99%D7%AA-%D7%9C%D7%A0%D7%99%D7%99%D7%A8%D7%95%D7%AA-%D7%A2%D7%A8%D7%9A-MSFT.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/745335af-3a3a-4fb5-84c0-fdedc9adf092"
+                "title": "Micron Technology Inc. (MU) Is A Top AI Stock In D. E. Shaw\u2019s Holdings",
+                "url": "https://biztoc.com/x/5d6322b2fd2da521",
+                "urlToImage": "https://biztoc.com/cdn/5d6322b2fd2da521_s.webp"
             },
             {
-                "author": null,
-                "content": "Microsoft, Google, Amazon Oracle , . , \u00ab \u00bb , \u00ab \u00bb.\r\n, . \u00ab , , , , \u00bb, \u2014 , , Reuters.\r\n 13 Microsoft Ireland Operations Ltd, Google Cloud EMEA Ltd, Amazon Web Services EMEA SARL Oracle Corporation UK Lt\u2026 [+366 chars]",
-                "description": "\u0421\u043e \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0439 \u043d\u0435\u0434\u0435\u043b\u0438 Microsoft, Google, Amazon \u0438 Oracle \u0431\u0443\u0434\u0443\u0442 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u044c\u0441\u044f \u043f\u043e\u0434 \u043f\u0440\u044f\u043c\u044b\u043c \u043d\u0430\u0434\u0437\u043e\u0440\u043e\u043c \u0431\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0445 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u043f\u043e\u0441\u043b\u0435 \u0442\u043e\u0433\u043e, \u043a\u0430\u043a \u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432 \u043f\u0440\u0438\u0437\u043d\u0430\u043b\u043e \u0447\u0435\u0442\u044b\u0440\u0435 \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0438\u0435 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0433\u0440\u0443\u043f\u043f\u044b \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0432\u0430\u0436\u043d\u044b\u043c\u0438 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u0430\u043c\u0438 \u0443\u0441\u043b\u0443\u0433 \u0434\u043b\u044f \u0431\u2026",
-                "publishedAt": "2026-07-10T20:41:00Z",
+                "author": "finance.yahoo.com",
+                "content": "Why Micron Technology (NASDAQ:MU) Is Securing Long-Term AI Memory Demand With $22 Billion in Customer CommitmentsMicron Technology, Inc. (NASDAQ:MU) is one of the best performing AI stocks over the l\u2026 [+149 chars]",
+                "description": "Why Micron Technology (NASDAQ:MU) Is Securing Long-Term AI Memory Demand With $22 Billion in Customer Commitments\nMicron Technology, Inc. (NASDAQ:MU) is one of the best performing AI stocks over the last 3 years, with a 3Y CAGR of 152%.\nOn June 24, Micron dis\u2026",
+                "publishedAt": "2026-07-12T12:13:52Z",
                 "source": {
                     "id": null,
-                    "name": "Servernews.ru"
+                    "name": "Biztoc.com"
                 },
-                "title": "Microsoft, Google, Amazon \u0438 Oracle \u043f\u043e\u043f\u0430\u043b\u0438 \u043f\u043e\u0434 \u043f\u0440\u0438\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0439 \u043d\u0430\u0434\u0437\u043e\u0440 \u0431\u0440\u0438\u0442\u0430\u043d\u0441\u043a\u0438\u0445 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432",
-                "url": "https://servernews.ru/1144936",
-                "urlToImage": "https://cdn.3dnews.ru/assets/external/illustrations/2026/07/10/1144936/sm.chanel-chomse-OVKmcoviT5c-unsplash.800.jpg"
+                "title": "Why Micron Technology (NASDAQ:MU) Is Securing Long-Term AI Memory Demand With $22 Billion in Customer Commitments",
+                "url": "https://biztoc.com/x/4f0c668dffec6424",
+                "urlToImage": "https://biztoc.com/cdn/4f0c668dffec6424_s.webp"
             },
             {
-                "author": "Mwangi Enos",
-                "content": "Ten months ago, in September 2025, Starbucks walked into 11,000 stores with NomadGo's inventory\u00a0 Artificial Intelligence (AI) tool that promised 99% accuracy and counted up to eight times faster than\u2026 [+6118 chars]",
-                "description": "Ten months ago, in September 2025, Starbucks walked into 11,000 stores with NomadGo\u2019s inventory Artificial Intelligence (AI) tool that promised 99% accuracy...",
-                "publishedAt": "2026-07-10T20:07:00Z",
+                "author": "Ananya Gairola",
+                "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nOn Monday, President Donald Trump said the federal government has deposited the first $1,000 into\u2026 [+9149 chars]",
+                "description": "On Monday, President Donald Trump said the federal government has deposited the first $1,000 into more than 500,000 newly created \u201cTrump Accounts,\u201d launching...",
+                "publishedAt": "2026-07-12T10:46:10Z",
                 "source": {
                     "id": null,
-                    "name": "TheStreet"
+                    "name": "Yahoo Entertainment"
                 },
-                "title": "Starbucks tries something it failed at before",
-                "url": "https://www.thestreet.com/investing/stocks/sbux-starbucks-stock-building-ai-powered-internal-software-to-replace-microsoft-and-ibm-tools",
-                "urlToImage": "https://s.yimg.com/lo/mysterio/api/26F0418EC40ACFE788BC9DC966FB4ED646CBCF5FA09EFB65E11C105C757F9864/subgraphmysterio/resizefill_w1200_h900;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Fd37f4500f6618566ab1c1f16c53edeee"
+                "title": "Trump Says First 500,000 'Trump Accounts' Are Funded as Economist Warns There Is 'Nothing to Celebrate' as Kids Will Also Inherit the Debt",
+                "url": "https://finance.yahoo.com/economy/policy/articles/trump-says-first-500-000-104610811.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/67929882A0FF196A577965CA054AB46AC57C9615A5206DECA4CED574C3F13B91/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F44ff40c2a41f2ac5c1a90a185c342a74"
             },
             {
-                "author": null,
-                "content": "LOS ANGELES, July 10, 2026 /PRNewswire/ -- The Law Offices of Frank R. Cruz announces that investors with losses related to Microsoft Corporation (\"Microsoft\" or the \"Company\") (NASDAQ: MSFT) have op\u2026 [+2378 chars]",
-                "description": "LOS ANGELES, July 10, 2026 /PRNewswire/ -- The Law Offices of Frank R. Cruz announces that investors with losses related to Microsoft Corporation (\"Microsoft\" or the \"Company\") (NASDAQ: MSFT) have opportunity to lead the securities fraud class action lawsuit.\u2026",
-                "publishedAt": "2026-07-10T19:20:00Z",
+                "author": "finance.yahoo.com",
+                "content": "Micron Technology Inc. (NASDAQ:MU) is one of the stocks set to explode in the next 2 years. On July 9, Micron announced an investment of up to $3 billion aimed at strengthening the US semiconductor s\u2026 [+152 chars]",
+                "description": "Micron Technology Inc. (NASDAQ:MU) is one of the stocks set to explode in the next 2 years. On July 9, Micron announced an investment of up to $3 billion aimed at strengthening the US semiconductor supply chain. This initiative is designed to secure a reliabl\u2026",
+                "publishedAt": "2026-07-12T08:10:18Z",
                 "source": {
                     "id": null,
-                    "name": "PRNewswire"
+                    "name": "Biztoc.com"
                 },
-                "title": "Microsoft Corporation (MSFT) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
-                "url": "https://www.prnewswire.com/news-releases/microsoft-corporation-msft-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302822931.html",
-                "urlToImage": "https://mma.prnewswire.com/media/1221557/The_Law_Offices_of_Frank_R_Cruz_Logo.jpg?p=facebook"
-            }
-        ],
-        "MU": [
+                "title": "is One of the Stocks Set to Explode in the Next 2 Years",
+                "url": "https://biztoc.com/x/5be36c02ae014917",
+                "urlToImage": "https://biztoc.com/cdn/5be36c02ae014917_s.webp"
+            },
             {
                 "author": "Bloomberg",
                 "content": "Wall Street is anticipating a near-record earnings season, but for investors a key question remains: Will it be enough to keep stock market bulls running?The stakes have rarely been higher. The S&amp\u2026 [+9472 chars]",
@@ -1947,87 +2025,22 @@
                 "title": "Jim Cramer Reveals A Firm That\u2019s Better Than Micron Technology Inc. (MU)",
                 "url": "https://biztoc.com/x/1c8e395a1345f613",
                 "urlToImage": "https://biztoc.com/cdn/1c8e395a1345f613_s.webp"
-            },
-            {
-                "author": "breakingthenews.net",
-                "content": "United States President Donald Trump commented on Micron Technology Inc.'s decision to expand its US investment to $250 billion to build memory chips.Trump blamed past Democratic leadership for stall\u2026 [+69 chars]",
-                "description": "United States President Donald Trump commented on Micron Technology Inc.'s decision to expand its US investment to $250 billion to build memory chips.Trump blamed past Democratic leadership for stalli...",
-                "publishedAt": "2026-07-11T00:37:39Z",
-                "source": {
-                    "id": null,
-                    "name": "Biztoc.com"
-                },
-                "title": "Trump: Bigger investments keep coming",
-                "url": "https://biztoc.com/x/0df69aa8cbd4eb97",
-                "urlToImage": "https://biztoc.com/cdn/0df69aa8cbd4eb97_s.webp"
-            },
-            {
-                "author": "Mike Clair",
-                "content": "South Korean chipmaker SK Hynix's record-breaking Wall Street debut is fueling a fresh surge of interest from international companies eyeing U.S. exchanges, according to Nasdaq Inc. leadership, as th\u2026 [+6151 chars]",
-                "description": "SK Hynix's record Nasdaq debut raises $26.5 billion, sparking interest from global firms in U.S. listings. The move highlights the growing appeal of American capital markets for international companies.",
-                "publishedAt": "2026-07-10T23:35:54Z",
-                "source": {
-                    "id": null,
-                    "name": "Ibtimes.com.au"
-                },
-                "title": "SK Hynix's Record $26.5 Billion Nasdaq Debut Sparks New Wave of Foreign Listings, Nasdaq's Griggs Says",
-                "url": "https://www.ibtimes.com.au/sk-hynix-nasdaq-debut-global-interest-1872105",
-                "urlToImage": "https://d.ibtimes.com.au/en/full/1878825/south-korea-home-worlds-largest-memory-chip-maker-samsung-largest-memory-chip-supplier-sk.jpg"
-            },
-            {
-                "author": "finance.yahoo.com",
-                "content": "Micron Technology Inc. (MU) said it will raise its planned U.S. investment to more than $250 billion through 2035, according to a Seeking Alpha report on the company's Thursday, July 9, announcement.\u2026 [+149 chars]",
-                "description": "Micron Technology Inc. (MU) said it will raise its planned U.S. investment to more than $250 billion through 2035, according to a Seeking Alpha report on the company's Thursday, July 9, announcement.\nThat figure is $50 billion more than the roughly $200 billi\u2026",
-                "publishedAt": "2026-07-10T19:07:52Z",
-                "source": {
-                    "id": null,
-                    "name": "Biztoc.com"
-                },
-                "title": "Micron now targets 40% of its DRAM output from U.S. soil",
-                "url": "https://biztoc.com/x/e88b91779a6beb2f",
-                "urlToImage": "https://biztoc.com/cdn/e88b91779a6beb2f_s.webp"
-            },
-            {
-                "author": "SNS Insider pvt ltd",
-                "content": "Austin, July 10, 2026 (GLOBE NEWSWIRE) -- Silicon Interposer Market Size &amp; Growth Insights:\r\nAccording to the SNS Insider, The global Silicon Interposer Market Size was worth USD 4.00 Billion in \u2026 [+8761 chars]",
-                "description": "Global Silicon Interposer Market Size, Share, Trends & Segmentation by Interposer Type, Packaging Technology, Application, End User and Forecast 2026\u20132035.",
-                "publishedAt": "2026-07-10T11:30:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Silicon Interposer Market Size to Hit USD 14.04 Billion by 2035 | SNS Insider",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325435/0/en/Silicon-Interposer-Market-Size-to-Hit-USD-14-04-Billion-by-2035-SNS-Insider.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2"
-            },
-            {
-                "author": "Research and Markets",
-                "content": "Dublin, July 10, 2026 (GLOBE NEWSWIRE) -- The \"AI in Spintronics Market Report 2026\" has been added to ResearchAndMarkets.com's offering.\r\nThe artificial intelligence (AI) in spintronics market is wi\u2026 [+26509 chars]",
-                "description": "Key market opportunities in AI spintronics lie in the integration of AI for design and optimization, demand for low-power memory, and AI-powered decision tools. Growth is driven by innovations in magnetic materials, neuromorphic computing, and cloud deploymen\u2026",
-                "publishedAt": "2026-07-10T11:27:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "AI in Spintronics Market Size to Skyrocket: Predicted $7.11 Billion by 2030 with a CAGR of 30.9%",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325432/28124/en/AI-in-Spintronics-Market-Size-to-Skyrocket-Predicted-7-11-Billion-by-2030-with-a-CAGR-of-30-9.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/1d182a09-6a90-470f-a6d6-d4f87dab3863"
-            },
-            {
-                "author": "\u4e2d\u592e\u793e",
-                "content": "Howard Lutnick SK AI\r\nBloomberg NewsMicron Technology Inc.Samsung Electronics Co.SKSK Hynix Inc.Sanjay Mehrotra\r\nSK\r\nSK\r\nSK8,800AI20352,500Syracuse\r\nApple\r\nTim Cook\r\nU.S. Department of Commerce, Publ\u2026 [+31 chars]",
-                "description": "\u7f8e\u570b\u5546\u52d9\u90e8\u9577\u76e7\u7279\u5c3c\u514b\uff08Howard Lutnick\uff09\u547c\u7c72\u97d3\u570b\u4e09\u661f\u96fb\u5b50\u516c\u53f8\u8207 SK \u6d77\u529b\u58eb\u5728\u7f8e\u570b\u64f4\u7522\u8a18\u61b6\u9ad4\u6676\u7247\uff0c\u4ee5\u52a9\u56e0\u61c9\u5168\u7403\u4eba\u5de5\u667a\u6167\uff08AI\uff09\u767c\u5c55\u95dc\u9375\u5143\u4ef6\u77ed\u7f3a\u3002 \u5f6d\u535a\uff08Bloomberg News\uff09\u5831\u5c0e\uff0c\u76e7\u7279\u5c3c\u514b\u5728\u7f8e\u5149\u79d1\u6280\u516c\u53f8\uff08Micron Technology Inc.\uff09\u8209\u8fa6\u7684\u6d3b\u52d5\u8868\u793a\uff0c\u4ed6\u7684\u78ba\u6b63\u8207\u4e09\u661f...",
-                "publishedAt": "2026-07-10T09:40:30Z",
-                "source": {
-                    "id": null,
-                    "name": "Technews.tw"
-                },
-                "title": "\u7f8e\u5546\u52d9\u90e8\u9577\u9ede\u540d\u4e09\u661f SK \u6d77\u529b\u58eb\uff0c\u7c72\u5728\u7f8e\u64f4\u7522\u8a18\u61b6\u9ad4\u6676\u7247",
-                "url": "https://finance.technews.tw/2026/07/10/howard-lutnick-samsung-sk-hynix/",
-                "urlToImage": "https://img.technews.tw/wp-content/uploads/2025/04/14081318/1669px-Howard_Lutnick_2025.jpg"
             }
         ],
         "NICE": [
+            {
+                "author": "Eithne Dodd",
+                "content": "A new EU directive to be implemented by this December will change how delivery workers are classified and will likely increase prices of takeaways for customers.\r\nThe workers in the takeaway meal eco\u2026 [+6334 chars]",
+                "description": "A new EU directive to be implemented by this December will change how delivery workers are classified and will likely increase prices of takeaways for customers.",
+                "publishedAt": "2026-07-12T15:22:43Z",
+                "source": {
+                    "id": "rte",
+                    "name": "RTE"
+                },
+                "title": "New directive for delivery workers could see prices rise",
+                "url": "https://www.rte.ie/news/ireland/2026/0712/1582989-delivery-workers-directive/",
+                "urlToImage": "https://www.rte.ie/images/0024af36-1600.jpg"
+            },
             {
                 "author": "Paddy Comyn",
                 "content": "I SPENT 24 hours last week in a car older than some of the people wholl read this column, and it rearranged something in my head that Im still trying to put back together.\r\nThe car was a Mercedes-Ben\u2026 [+5307 chars]",
@@ -2144,19 +2157,6 @@
                 "title": "Kiwi Crunch enters voluntary administration \u2013 Hawke\u2019s Bay apple grower faces uncertainty",
                 "url": "https://www.nzherald.co.nz/the-country/news/kiwi-crunch-enters-voluntary-administration-hawkes-bay-apple-grower-faces-uncertainty/ELCIELKRN5BLXNKGTD5O2RAY5Y/",
                 "urlToImage": "https://www.nzherald.co.nz/resizer/v2/X6D2VRU5CNE53CPFX6REPDLTJM.JPG?auth=04b26e51be6ebb55137128ac74bf7ab991cf793866074df78b82eab6e1b2e495&width=1200&height=675&quality=70&focal=2588%2C1595&smart=false"
-            },
-            {
-                "author": "SNS Insider pvt ltd",
-                "content": "Austin, July 06, 2026 (GLOBE NEWSWIRE) -- Interactive Voice Response Market Size &amp; Growth Outlook:\r\nAs per the SNS Insider, The globalInteractive Voice Response Market Size was worth USD 5.90 Bil\u2026 [+7952 chars]",
-                "description": "Interactive Voice Response System Market Size, Share, Revenue Trends & Segmentation by Deployment Model, Enterprise Type, Technology and Forecast 2026\u20132035",
-                "publishedAt": "2026-07-06T11:30:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Interactive Voice Response Market Size to Worth USD 10.76 Billion by 2035 | Research by SNS Insider",
-                "url": "https://www.globenewswire.com/news-release/2026/07/06/3322332/0/en/Interactive-Voice-Response-Market-Size-to-Worth-USD-10-76-Billion-by-2035-Research-by-SNS-Insider.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2"
             }
         ],
         "NKE": [
@@ -2425,6 +2425,32 @@
         ],
         "NVO": [
             {
+                "author": "PTI",
+                "content": "Thiruvananthapuram, Artificial intelligence will transform project management, but human judgement and ethical leadership will remain central to the profession, John Dawber, Vice President and Managi\u2026 [+1842 chars]",
+                "description": "Speaking after inaugurating WAVES 2026, the 16th Annual Project Management Conference of the PMI Kerala Chapter here, Dawber said organisations need leaders who can inspire people across disciplines and adapt to a rapidly changing technological landscape, acc\u2026",
+                "publishedAt": "2026-07-12T11:40:45Z",
+                "source": {
+                    "id": "the-times-of-india",
+                    "name": "The Times of India"
+                },
+                "title": "AI, human leadership key to future of project management, says expert",
+                "url": "https://economictimes.indiatimes.com/tech/technology/ai-human-leadership-key-to-future-of-project-management-says-expert/articleshow/132344556.cms",
+                "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-253426,resizemode-75,msid-132344556/tech/technology/ai-human-leadership-key-to-future-of-project-management-says-expert.jpg"
+            },
+            {
+                "author": "Isabella Ward",
+                "content": "Scientists have successfully shown a quantum computer can improve the accuracy and reach of generative artificial intelligence drug discovery models. And they did it using their spare time and money \u2026 [+3976 chars]",
+                "description": "Researchers cobbled together funding and time to show how quantum computing could aid in the development of drugs to help underserved populations and combat rare diseases.",
+                "publishedAt": "2026-07-12T10:00:00Z",
+                "source": {
+                    "id": "wired",
+                    "name": "Wired"
+                },
+                "title": "Scientists\u2019 Side Hustle? Using AI and Quantum Computing to Generate New Peptides",
+                "url": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+                "urlToImage": "https://media.wired.com/photos/6a50c6b5d12b964679cc91a9/191:100/w_1280,c_limit/Quantum%20Computing.jpg"
+            },
+            {
                 "author": "Ciaran Foreman",
                 "content": "The arrival of the Wegovy pill has opened the door for thousands of Britons to get their hands on the blockbuster\u00a0medicine.\r\nA oncedaily tablet version of the Wegovy injection - which\u00a0contains the sa\u2026 [+6310 chars]",
                 "description": "A leading GP has warned that people switching from jabs to the Wegovy pill could be about to make potentially dangerous mistakes.",
@@ -2527,32 +2553,6 @@
                 "title": "Anvisa define semaglutida brasileira como refer\u00eancia para gen\u00e9ricos",
                 "url": "https://olhardigital.com.br/2026/07/10/medicina-e-saude/anvisa-define-semaglutida-brasileira-como-referencia-para-genericos/",
                 "urlToImage": "https://olhardigital.com.br/wp-content/uploads/2026/07/Destaque-Ozivy-semaglutida-brasileira-scaled.jpg"
-            },
-            {
-                "author": "ET Online",
-                "content": "India becomes one of the first countries to get Novo Nordisk's weekly basal insulin Awiqli; experts say it offers a new treatment option rather than a replacement for conventional insulin therapy.Nea\u2026 [+2990 chars]",
-                "description": "India now offers Awiqli, a new once-weekly basal insulin for diabetes patients. This drug reduces annual injections from 365 to just 52 for many individuals. Experts suggest Awiqli is an additional option, not a complete replacement for daily insulin. It is b\u2026",
-                "publishedAt": "2026-07-10T07:10:09Z",
-                "source": {
-                    "id": "the-times-of-india",
-                    "name": "The Times of India"
-                },
-                "title": "Once-a-week insulin launched in India, but doctors say it won't replace daily shots for all",
-                "url": "https://economictimes.indiatimes.com/news/india/once-a-week-insulin-launched-in-india-but-doctors-say-it-wont-replace-daily-shots-for-all/articleshow/132305508.cms",
-                "urlToImage": "https://img.etimg.com/thumb/msid-132305586,width-1200,height-630,imgsize-42088,overlay-economictimes/articleshow.jpg"
-            },
-            {
-                "author": "Novo Nordisk Foundation",
-                "content": "COPENHAGEN, Denmark, July 10, 2026 (GLOBE NEWSWIRE) -- Nine new Challenge Programme grants from the Novo Nordisk Foundation will support ambitious research across fungal diseases, cardiometabolic dis\u2026 [+10259 chars]",
-                "description": "The Novo Nordisk Foundation has awarded nine grants through the 2026 Challenge Programme...",
-                "publishedAt": "2026-07-10T05:00:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "No easy answers: European research consortia take on major challenges",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325308/0/en/No-easy-answers-European-research-consortia-take-on-major-challenges.html",
-                "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/a9092d18-138e-4540-bc27-07a16ab56992"
             }
         ],
         "PAYC": [
@@ -2571,6 +2571,19 @@
             }
         ],
         "PODD": [
+            {
+                "author": null,
+                "content": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against\u00a0Insulet Corporation (\"Insulet\" or \"t\u2026 [+1995 chars]",
+                "description": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Insulet Corporation (\"Insulet\" or \"the Company\") (NASDAQ: PODD) for violations of \u00a7\u00a710(b) and 20\u2026",
+                "publishedAt": "2026-07-13T07:58:00Z",
+                "source": {
+                    "id": null,
+                    "name": "PRNewswire"
+                },
+                "title": "PODD Investors Have Opportunity to Lead Insulet Corporation Securities Fraud Lawsuit with the Schall Law Firm",
+                "url": "https://www.prnewswire.com/news-releases/podd-investors-have-opportunity-to-lead-insulet-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823580.html",
+                "urlToImage": "https://mmx.prnewswire.com/media/MS1240463/Schall-Firm-Logo.jpg?id=OA2759848&p=facebook"
+            },
             {
                 "author": "The Rosen Law Firm PA",
                 "content": "NEW YORK, July 11, 2026 (GLOBE NEWSWIRE) -- \r\nWHY: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Insulet Corporation (NA\u2026 [+3588 chars]",
@@ -2609,19 +2622,6 @@
                 "title": "Insulet Corporation (PODD) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
                 "url": "https://www.prnewswire.com/news-releases/insulet-corporation-podd-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302822928.html",
                 "urlToImage": "https://mma.prnewswire.com/media/1221557/The_Law_Offices_of_Frank_R_Cruz_Logo.jpg?p=facebook"
-            },
-            {
-                "author": "Schall Law",
-                "content": "LOS ANGELES, July 10, 2026 (GLOBE NEWSWIRE) -- The Schall Law Firm\r\n, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Insulet Corporation (Insulet o\u2026 [+1990 chars]",
-                "description": "PODD Investors Have Opportunity to Lead Insulet Corporation Securities Fraud Lawsuit with the Schall Law Firm...",
-                "publishedAt": "2026-07-10T13:51:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "PODD Investors Have Opportunity to Lead Insulet Corporation Securities Fraud Lawsuit with the Schall Law Firm",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325566/0/en/PODD-Investors-Have-Opportunity-to-Lead-Insulet-Corporation-Securities-Fraud-Lawsuit-with-the-Schall-Law-Firm.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/60f84371-8ef5-454a-ab60-63e56a837741"
             },
             {
                 "author": "Grabar Law Office",
@@ -2704,137 +2704,176 @@
         ],
         "PYPL": [
             {
-                "author": "Britta Schermer",
-                "content": "\u00dcber AlpacaCamping k\u00f6nnt ihr Stellpl\u00e4tze f\u00fcr Wohnmobile, Wohnwagen oder Zelte buchen. Wie das geht, erkl\u00e4ren wir euch in unserem Artikel.\r\nWas ist AlpacaCamping?\r\nBei AlpacaCamping k\u00f6nnt ihr in Deuts\u2026 [+2323 chars]",
-                "description": "\u00dcber AlpacaCamping k\u00f6nnt ihr Stellpl\u00e4tze f\u00fcr Wohnmobile, Wohnwagen oder Zelte buchen. Wie das geht, erkl\u00e4ren wir euch in unserem Artikel.",
-                "publishedAt": "2026-07-12T04:07:06Z",
+                "author": "trixieb",
+                "content": "All trademarks are owned by their respective owners.OzBargain is an independent community website which has no association with nor endorsement by the respective trademark owners.\r\nCopyright \u00a9 2006-2\u2026 [+32 chars]",
+                "description": "Trixieb's Tips: Best value plan is 2 years (+ 2 months) = $51.74 (estimate). Pay with a card without international transaction fees. If using PayPal AU, there could be a currency conversion \u2026",
+                "publishedAt": "2026-07-13T07:42:38Z",
                 "source": {
                     "id": null,
-                    "name": "Giga"
+                    "name": "Ozbargain.com.au"
                 },
-                "title": "AlpacaCamping-App: Infos und Erfahrungen im \u00dcberblick",
-                "url": "https://www.giga.de/tech/alpacacamping-app-infos-und-erfahrungen-im-ueberblick--01K9VK2CWBNZNCFF5HF8PHS8B1",
-                "urlToImage": "https://static.giga.de/31/8a/36/67dd4ccb045bff308485104deb_cmUgMTkyMCAxMDgwAzNhNmRjNGYwODBl.png"
+                "title": "Private Internet Access (PIA VPN) 105% Cashback on 1-Month, 6-Month & 2-Year Plans for New PIA Customers @ TopCashback AU",
+                "url": "https://www.ozbargain.com.au/node/967719",
+                "urlToImage": "https://files.ozbargain.com.au/n/19/967719l.jpg?h=e1ea34a2"
             },
             {
-                "author": "LifeSite News",
-                "content": "Skip to comments.\r\nCardinal Koch falsely claims no salvation outside the Church only applies to CatholicsLifeSite News ^\r\n | July 10, 2026\r\n | Emily Mangiaracina\r\nPosted on 07/11/2026 8:49:49 PM PDT \u2026 [+5273 chars]",
-                "description": "Cardinal Koch falsely claims \u2018no salvation outside the Church\u2019 only applies to CatholicsEven the salvation of those remaining outside the Church \u2018through no grave fault of their own\u2019 is effected through the graces of the Catholic Church.Cardinal Kurt Koch has\u2026",
-                "publishedAt": "2026-07-12T03:49:49Z",
+                "author": null,
+                "content": "By installing or using this font, you are agree to the Product Usage Agreement:\r\n- This demo font just for PERSONAL USE ONLY. NO COMMERCIAL USE ALLOWED!\r\nHERE IS THE LINK TO PURCHASE FULL VERSION AND\u2026 [+763 chars]",
+                "description": "Free download of Ravoni Font. Released in 2025 by Ermedia Studio and licensed for personal-use only. Use our font generator to create a custom image that you can download.",
+                "publishedAt": "2026-07-13T07:37:41Z",
                 "source": {
                     "id": null,
-                    "name": "Freerepublic.com"
+                    "name": "Fontspace.com"
                 },
-                "title": "Cardinal Koch falsely claims \u2018no salvation outside the Church\u2019 only applies to Catholics",
-                "url": "https://freerepublic.com/focus/f-religion/4387656/posts",
+                "title": "Ravoni by Ermedia Studio",
+                "url": "https://www.fontspace.com/ravoni-font-f165559",
+                "urlToImage": "https://img.fontspace.co/gallery/1200x800/5/f9cd5401ef3a421a8c0a2a257c6aa29d.jpg"
+            },
+            {
+                "author": "Clear",
+                "content": "This post contains affiliate links. OzBargain might earn commissions when you click through and make purchases. Please see this page for more information.\r\nTwo of OzBargain's all time portable favour\u2026 [+1171 chars]",
+                "description": "Two of OzBargain's all time portable favourite air blowers are on sale and a tad cheaper than the current eBay deal with both shipping from Australia. These can be had even cheaper if you stack \u2026",
+                "publishedAt": "2026-07-13T07:35:47Z",
+                "source": {
+                    "id": null,
+                    "name": "Ozbargain.com.au"
+                },
+                "title": "Wolfbox Electric Air Duster DF100 US$38.99 (~A$56.25), DF200 US$53.31 (~A$76.92) AU Stock Shipped @ WOLFBOX Global AliExpress",
+                "url": "https://www.ozbargain.com.au/node/967716",
+                "urlToImage": "https://files.ozbargain.com.au/n/16/967716x.jpg?h=6a8cf185"
+            },
+            {
+                "author": "wizzlesticks",
+                "content": "Offering 50% off the usual price for the first year. Last time I did this (a few years ago), OzBargain users critiqued and savaged the brand new website. Let's see how we go this time. =)\r\nContext:\r\n\u2026 [+1900 chars]",
+                "description": "Offering 50% off the usual price for the first year. Last time I did this (a few years ago), OzBargain users critiqued and savaged the brand new website. Let's see how we go this time. \u2026",
+                "publishedAt": "2026-07-13T07:33:25Z",
+                "source": {
+                    "id": null,
+                    "name": "Ozbargain.com.au"
+                },
+                "title": "1yr web and email hosting US$30 (~AUD43.29) @ Unimatrix Websites",
+                "url": "https://www.ozbargain.com.au/node/967715",
+                "urlToImage": "https://files.ozbargain.com.au/n/15/967715x.jpg?h=4fa459f5"
+            },
+            {
+                "author": "Clear",
+                "content": "This post contains affiliate links. OzBargain might earn commissions when you click through and make purchases. Please see this page for more information.\r\nThis previously popular Garmin smartwatch i\u2026 [+1963 chars]",
+                "description": "This previously popular Garmin smartwatch is back on sale and significantly cheaper than Amazon's A$598 price tag. Especially since this is shipping from Australia for faster delivery. This can \u2026",
+                "publishedAt": "2026-07-13T07:15:12Z",
+                "source": {
+                    "id": null,
+                    "name": "Ozbargain.com.au"
+                },
+                "title": "Garmin Forerunner 265 Smart Watch US$240.13 (~A$346.46) AU Stock Delivered @ Aussie Electron Store AliExpress",
+                "url": "https://www.ozbargain.com.au/node/967714",
+                "urlToImage": "https://files.ozbargain.com.au/n/14/967714l.jpg?h=0c79215e"
+            },
+            {
+                "author": "BetaList",
+                "content": "Automateed lets you write, design, and publish full-length ebooks in minutes. It generates chapters, images, and an AI-designed cover, then gives you a smart editor to refine voice, structure, and la\u2026 [+365 chars]",
+                "description": "Create and publish professional ebooks in minutes with built-in sales",
+                "publishedAt": "2026-07-13T07:00:00Z",
+                "source": {
+                    "id": null,
+                    "name": "Betalist.com"
+                },
+                "title": "Automateed \u2013 Create and publish professional ebooks in minutes with built-in sales",
+                "url": "https://betalist.com/startups/automateed",
+                "urlToImage": "https://resize.imagekit.co/qa7NXaWcP2N4yDHWWE3n-pTKNyJpuSg2jgz6eDvP8uU/plain/s3://betalist-production/fjpsfwth6mdcq9or31rhrvay4fx6"
+            },
+            {
+                "author": null,
+                "content": "By installing or using this font, you are agree to the Product Usage Agreement:\r\n- This demo font just for PERSONAL USE ONLY. NO COMMERCIAL USE ALLOWED!\r\nHERE IS THE LINK TO PURCHASE FULL VERSION AND\u2026 [+743 chars]",
+                "description": "Free download of Ravemy Font. Released in 2025 by Ermedia Studio and licensed for personal-use only. Use our font generator to create a custom image that you can download.",
+                "publishedAt": "2026-07-13T06:52:53Z",
+                "source": {
+                    "id": null,
+                    "name": "Fontspace.com"
+                },
+                "title": "Ravemy by Ermedia Studio",
+                "url": "https://www.fontspace.com/ravemy-font-f165545",
+                "urlToImage": "https://img.fontspace.co/gallery/1200x800/5/919b209f49c04ead8cbbbcab9ef66d04.jpg"
+            },
+            {
+                "author": "echo@echo.msk.ru (\u044d\u0445\u043e \u043c\u043e\u0441\u043a\u0432\u044b), \u044d\u0445\u043e \u043c\u043e\u0441\u043a\u0432\u044b",
+                "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later",
+                "description": "\u0414\u041e\u041d\u0410\u0422 \u0427\u0422\u0415\u0426\u0423 https://t.me/kashinguru/102923\n\n\u0414\u0415\u0422\u0415\u041a\u0422\u0418\u0412\u041d\u042b\u0419 \u0420\u041e\u041c\u0410\u041d \u041e\u041b\u0415\u0413\u0410:\n\n\u041f\u043e \u0420\u043e\u0441\u0441\u0438\u0438: https://ozon.ru/t/C6Pc01U\n\n\u041f\u043e \u0432\u0441\u0435\u043c\u0443 \u043c\u0438\u0440\u0443 https://bukinist.de/bookpod/ru/detektivy-boeviki-trillery/423536-byk-roman-9783689598037.html \u0438 https://isiaverlag.shop/ru/fiction/902-by\u2026",
+                "publishedAt": "2026-07-13T06:10:34Z",
+                "source": {
+                    "id": null,
+                    "name": "YouTube"
+                },
+                "title": "\u041e\u043b\u0435\u0433 \u041a\u0430\u0448\u0438\u043d: \u0427\u0442\u043e\u0431\u044b \u0440\u043e\u0434\u0438\u0442\u044c \u0440\u0435\u0431\u0435\u043d\u043a\u0430, \u043c\u0443\u0436 \u043d\u0435 \u043d\u0443\u0436\u0435\u043d - \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u043b\u044e\u0431\u043e\u0433\u043e \u043c\u0443\u0436\u0447\u0438\u043d\u044b \u0438 \u0411\u043e\u0436\u044c\u0435\u0439 \u0432\u043e\u043b\u0438. \u0410\u0443\u0434\u0438\u043e\u043a\u043d\u0438\u0433\u0430! (2026-13-07)",
+                "url": "https://www.youtube.com/supported_browsers?next_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMP6geOyCG0I",
                 "urlToImage": null
             },
             {
-                "author": "Christian Post",
-                "content": "Skip to comments.\r\nTexas Senate Race: Talarico campaign receives record $30M fundraising haul; Paxton posts $9M quarterChristian Post ^\r\n | 07/11/2026\r\n | Ian M. Giatti\r\nPosted on 07/11/2026 8:42:04 \u2026 [+4662 chars]",
-                "description": "The U.S. Senate campaign for state Rep. James Talarico says the Democratic nominee raised $30 million in the last three months, tripling the fundraising haul announced by his opponent, Attorney General Ken Paxton.The Talarico campaign announced it has taken i\u2026",
-                "publishedAt": "2026-07-12T03:42:04Z",
+                "author": "Clear",
+                "content": "Upsized cashback to go alongside the next AliExpress sale starting at 5pm.\r\nThis stacks with coupons, PayPal discount, seller coupons and coins as long as the below conditions are met:\r\nPlease ensure\u2026 [+1809 chars]",
+                "description": "Upsized cashback to go alongside the next AliExpress sale starting at 5pm. This stacks with coupons, PayPal discount, seller coupons and coins as long as the below conditions are met: Please ensure \u2026",
+                "publishedAt": "2026-07-13T06:00:10Z",
                 "source": {
                     "id": null,
-                    "name": "Freerepublic.com"
+                    "name": "Ozbargain.com.au"
                 },
-                "title": "Texas Senate Race: Talarico campaign receives record $30M fundraising haul; Paxton posts $9M quarter",
-                "url": "https://freerepublic.com/focus/f-news/4387655/posts",
-                "urlToImage": null
+                "title": "AliExpress: 20% Cashback on Affiliated Products ($30 Cap Per Transaction) @ TopCashback AU",
+                "url": "https://www.ozbargain.com.au/node/967696",
+                "urlToImage": "https://files.ozbargain.com.au/n/96/967696l.jpg?h=e1ea34a2"
             },
             {
-                "author": "Hotair",
-                "content": "Skip to comments.\r\nJD Vance Takes on Milton Friedman (And Disappoints)Hotair ^\r\n | 07/11/2026\r\n | Stephen Moore\r\nPosted on 07/11/2026 8:22:53 PM PDT by SeekAndFind\r\nJD Vance has served admirably as D\u2026 [+5117 chars]",
-                "description": "JD Vance has served admirably as Donald Trump's vice president and has been a true asset to the administration. Right now, he's favored to be the next Republican nominee for president when 2028 rolls around. But there are many other viable contenders. That's \u2026",
-                "publishedAt": "2026-07-12T03:22:53Z",
+                "author": null,
+                "content": "Thank you for downloading this font. This font is free for PERSONAL USE version. If you use for COMMERCIAL USE please download full version.\r\nPlease contact me by email Suandana_Ipandemade@hotmail.co\u2026 [+463 chars]",
+                "description": "Free download of Yasuhiro - Japan Font. Released in 2026 by TypeClassHeroes and licensed for personal-use only. Use our font generator to create a custom image that you can download.",
+                "publishedAt": "2026-07-13T05:45:17Z",
                 "source": {
                     "id": null,
-                    "name": "Freerepublic.com"
+                    "name": "Fontspace.com"
                 },
-                "title": "JD Vance Takes on Milton Friedman (And Disappoints)",
-                "url": "https://freerepublic.com/focus/f-news/4387651/posts",
-                "urlToImage": null
-            },
-            {
-                "author": "U.S. Department of Homeland Security",
-                "content": "Skip to comments.\r\nDEPORTED: DHS Removes Convicted Child Rapist Pardoned by Minnesota Governor Tim WalzU.S. Department of Homeland Security ^\r\n | July 10, 2026\r\nPosted on 07/11/2026 8:12:48 PM PDT by\u2026 [+3057 chars]",
-                "description": "WASHINGTON \u2013 The United States Department of Homeland Security (DHS) released the following statement confirming that U.S. Immigration and Customs Enforcement (ICE) has arrested and deported an illegal alien from Laos who had been pardoned by Minnesota Govern\u2026",
-                "publishedAt": "2026-07-12T03:12:48Z",
-                "source": {
-                    "id": null,
-                    "name": "Freerepublic.com"
-                },
-                "title": "DEPORTED: DHS Removes Convicted Child Rapist Pardoned by Minnesota Governor Tim Walz",
-                "url": "https://freerepublic.com/focus/f-chat/4387649/posts",
-                "urlToImage": null
-            },
-            {
-                "author": "Global Markets News",
-                "content": "Skip to comments.\r\nSomeone Else Is Bombing Iran, but No One Is Claiming ResponsibilityGlobal Markets News ^\r\n | 07/11/2026\r\nPosted on 07/11/2026 7:35:07 PM PDT by SeekAndFind\r\nThe unexplained attacks\u2026 [+6165 chars]",
-                "description": "The unexplained attacks have added a dangerous new layer of uncertainty to an already volatile conflict, raising concerns that additional countries may now be conducting military operations against Iran without publicly acknowledging their involvement.New Air\u2026",
-                "publishedAt": "2026-07-12T02:35:07Z",
-                "source": {
-                    "id": null,
-                    "name": "Freerepublic.com"
-                },
-                "title": "Someone Else Is Bombing Iran, but No One Is Claiming Responsibility",
-                "url": "https://freerepublic.com/focus/f-news/4387647/posts",
-                "urlToImage": null
-            },
-            {
-                "author": "Middle East Eye \ud83d\udc41\ufe0f",
-                "content": "Skip to comments.\r\nPete Hegseth says 'Iran made a poor choice, now they pay'Middle East Eye ^\r\n | 12 July 2026\r\nPosted on 07/11/2026 7:06:11 PM PDT by Mr. Mojo\r\nAfter the US launched a third round of\u2026 [+1584 chars]",
-                "description": "After the US launched a third round of strikes against Iran on Sunday morning, Pete Hegseth, the US secretary of war, posted on X: \"Iran made a poor choice. Now they pay.\" The fresh escalation occurred after Iran's IRGC Navy said it attacked a container that \u2026",
-                "publishedAt": "2026-07-12T02:06:11Z",
-                "source": {
-                    "id": null,
-                    "name": "Freerepublic.com"
-                },
-                "title": "Pete Hegseth says 'Iran made a poor choice, now they pay'",
-                "url": "https://freerepublic.com/focus/f-news/4387645/posts",
-                "urlToImage": null
-            },
-            {
-                "author": "Blake Von Hagen",
-                "content": "UFC 329 will be held at T-Mobile Arena in Las Vegas on Saturday and right now you can use the\u00a0Kalshi promo code CBSSPORTS to earn a $15 trading bonus after $15 worth of trades. Conor McGregor, arguab\u2026 [+15584 chars]",
-                "description": "Our UFC 329 trading guide tells you how to trade on the UFC McGregor card at Kalshi, gives prices, schedule, promo offers, and more",
-                "publishedAt": "2026-07-12T00:20:49Z",
-                "source": {
-                    "id": null,
-                    "name": "CBS Sports"
-                },
-                "title": "How to trade UFC 329 with Kalshi promo code CBSSPORTS: Conor McGregor vs. Max Holloway fight card, picks",
-                "url": "https://www.cbssports.com/prediction/news/how-to-trade-ufc-329-kalshi-promo-code-cbssports-conor-mcgregor-max-holloway-fight-card-picks/",
-                "urlToImage": "https://sportshub.cbsistatic.com/i/r/2026/06/25/d87f3cee-f7e3-4602-bcee-5dd7fda09ca9/thumbnail/1200x675/57405ee688c9d39db5ca7ae2310d3311/kalshi-promo-code-cbssports.jpg"
-            },
-            {
-                "author": "Diogo Cortiz, Helton Sim\u00f5es Gomes",
-                "content": "N\u00e3o d\u00e1 para entender o que \u00e9 a ideia de um trilh\u00e3o, mas d\u00e1 para entender qual foi o caminho que o Elon Musk chegou a ter essa quantia na conta banc\u00e1ria. A gente vai fazer o Manual do Trilion\u00e1rio. Por\u2026 [+1526 chars]",
-                "description": "(Toda semana, Diogo Cortiz e Helton Sim\u00f5es Gomes conversam sobre tecnologia no podcast Deu Tilt. O programa vai ao ar \u00e0s ter\u00e7as-feiras no YouTube do UOL, no Spotify, no Deezer e no Apple Podcasts. Nesta semana: 25 anos diante da tela; Arrependidos do T",
-                "publishedAt": "2026-07-12T00:10:33Z",
-                "source": {
-                    "id": null,
-                    "name": "Uol.com.br"
-                },
-                "title": "DEU TILT",
-                "url": "https://www.uol.com.br/tilt/noticias/redacao/2026/07/11/pouquissimas-pessoas-vao-reproduzir-a-jornada-do-musk-diz-helton-gomes.ghtm",
-                "urlToImage": "https://conteudo.imguol.com.br/c/noticias/fd/2026/06/12/elon-musk-na-estreia-das-acoes-da-spacex-na-bolsa-eletronica-nasdaq-1781282795133_v2_615x300.png"
-            },
-            {
-                "author": "ziggywiggy",
-                "content": "The summer job. Learning about life and making some cash.\r\nBack when a warm weather gig meant twentysomethings trying to earn some extra income for fun things, which was apparently a gazillion years \u2026 [+2670 chars]",
-                "description": "'We are doing the work of pathetic, lazy morons.'",
-                "publishedAt": "2026-07-12T00:01:40Z",
-                "source": {
-                    "id": null,
-                    "name": "Wonkette.com"
-                },
-                "title": "Wonkette Movie Night: Adventureland",
-                "url": "https://www.wonkette.com/p/wonkette-movie-night-adventureland",
-                "urlToImage": "https://substackcdn.com/image/fetch/$s_!QjGI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09ac8fe4-6b48-444f-8dfd-9813dd6d875f_900x600.jpeg"
+                "title": "Yasuhiro - Japan Font by TypeClassHeroes",
+                "url": "https://www.fontspace.com/yasuhiro-font-f165538",
+                "urlToImage": "https://img.fontspace.co/gallery/1200x800/5/6d2cdf44746a4d18ad975afb75e1765e.png"
             }
         ],
         "TSLA": [
+            {
+                "author": "Jabran Kundi",
+                "content": "Tesla Inc logo by- baileystock via iStock\r\nTesla (TSLA) is about to become one of the biggest beneficiaries of a shift in U.S. regulations. The country's auto safety regulator, the National Highway T\u2026 [+6318 chars]",
+                "description": "Changes in regulations could help Tesla iterate its technologies faster to develop autonomous driving.",
+                "publishedAt": "2026-07-12T19:30:02Z",
+                "source": {
+                    "id": null,
+                    "name": "Barchart.com"
+                },
+                "title": "The U.S. Is Considering Removing Steering Wheels From Cars. Tesla Is the Reason Why.",
+                "url": "https://www.barchart.com/story/news/3245424/the-u-s-is-considering-removing-steering-wheels-from-cars-tesla-is-the-reason-why",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/FC6EA553A28DE48473D58890A274B356CB5BA5D57126A9D74E5C39745C50EA5E/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarchart_com_477%2Fc9768b724915bd5726850b8bf3f4cf93"
+            },
+            {
+                "author": "Radhika Anilkumar Nadig",
+                "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\r\nTwo proposed exchange-traded funds (ETFs) aim to give investors exposure to the Nasdaq-100 and S&\u2026 [+5681 chars]",
+                "description": "Two proposed exchange-traded funds (ETFs) aim to give investors exposure to the Nasdaq-100 and S&P 500 while excluding companies founded, controlled or led b...",
+                "publishedAt": "2026-07-12T15:01:49Z",
+                "source": {
+                    "id": null,
+                    "name": "Yahoo Entertainment"
+                },
+                "title": "Don't Want Tesla or SpaceX in Your Portfolio? Meet the New 'Ex-Elon' ETFs",
+                "url": "https://finance.yahoo.com/markets/stocks/articles/dont-want-tesla-spacex-portfolio-150149454.html",
+                "urlToImage": "https://s.yimg.com/lo/mysterio/api/F9753C3EBC4D6368CBA805AB21EC78583F0ADCCC3E9AB7FD1C3256696642F333/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F5f291d73a3d3490b649c72356ac0f30f"
+            },
+            {
+                "author": "finance.yahoo.com",
+                "content": "Tesla, Inc. (NASDAQ:TSLA) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.Electric vehicle manufacturer Tesla, Inc. (NASDAQ:TSLA)'s shares are up by 37% over the past y\u2026 [+148 chars]",
+                "description": "Tesla, Inc. (NASDAQ:TSLA) is one of the 10 Best Stocks to Buy in 2026 According to Billionaire D.E. Shaw.\nElectric vehicle manufacturer Tesla, Inc. (NASDAQ:TSLA)'s shares are up by 37% over the past year and are down by 7.2% year-to-date. Barclays discussed t\u2026",
+                "publishedAt": "2026-07-12T14:30:09Z",
+                "source": {
+                    "id": null,
+                    "name": "Biztoc.com"
+                },
+                "title": "Should You Buy Tesla, Inc. (TSLA)\u2019s Shares?",
+                "url": "https://biztoc.com/x/5009eb23ce03082f",
+                "urlToImage": "https://biztoc.com/cdn/5009eb23ce03082f_s.webp"
+            },
             {
                 "author": "Ryne Mauck",
                 "content": "Quick Read\r\n<ul><li>VGT and VOO pair concentrated tech exposure with broad S&amp;P 500 diversification, capturing AI upside while limiting single-stock earnings risk.\r\n</li><li>VGT's top holdings inc\u2026 [+5467 chars]",
@@ -2925,45 +2964,6 @@
                 "title": "ADMA Biologics (NASDAQ:ADMA) Channel Stuffing Claims Trigger Securities Fraud Class Action \u2013 Investors Notified to Contact BFA Law about the Lawsuit",
                 "url": "https://www.globenewswire.com/news-release/2026/07/10/3325410/0/en/ADMA-Biologics-NASDAQ-ADMA-Channel-Stuffing-Claims-Trigger-Securities-Fraud-Class-Action-Investors-Notified-to-Contact-BFA-Law-about-the-Lawsuit.html",
                 "urlToImage": "https://ml.globenewswire.com/Resource/Download/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e"
-            },
-            {
-                "author": "Bleichmar Fonti & Auld",
-                "content": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- Leading securities law firm\u00a0Bleichmar Fonti &amp; Auld LLP announces that a class action lawsuit has been filed against ZoomInfo Technologies Inc. (NASDAQ:\u2026 [+4699 chars]",
-                "description": "ZoomInfo (NASDAQ:GTM) AI Integration Issues Trigger Securities Fraud Class Action \u2013 Investors Notified to Contact BFA Law about the Lawsuit...",
-                "publishedAt": "2026-07-10T10:18:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "ZoomInfo (NASDAQ:GTM) AI Integration Issues Trigger Securities Fraud Class Action \u2013 Investors Notified to Contact BFA Law about the Lawsuit",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325408/0/en/ZoomInfo-NASDAQ-GTM-AI-Integration-Issues-Trigger-Securities-Fraud-Class-Action-Investors-Notified-to-Contact-BFA-Law-about-the-Lawsuit.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e"
-            },
-            {
-                "author": "Bleichmar Fonti & Auld",
-                "content": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- Leading securities law firm\u00a0Bleichmar Fonti &amp; Auld LLP announces that a class action lawsuit has been filed against Hub Group Inc. (NASDAQ:HUBG) and ce\u2026 [+5809 chars]",
-                "description": "Hub Group (NASDAQ:HUBG) Financial Restatements Trigger Securities Fraud Class Action \u2013 Investors Notified to Contact BFA Law about its Lawsuit...",
-                "publishedAt": "2026-07-10T10:18:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "Hub Group (NASDAQ:HUBG) Financial Restatements Trigger Securities Fraud Class Action \u2013 Investors Notified to Contact BFA Law about its Lawsuit",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325406/0/en/Hub-Group-NASDAQ-HUBG-Financial-Restatements-Trigger-Securities-Fraud-Class-Action-Investors-Notified-to-Contact-BFA-Law-about-its-Lawsuit.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e"
-            },
-            {
-                "author": "Bleichmar Fonti & Auld",
-                "content": "NEW YORK, July 10, 2026 (GLOBE NEWSWIRE) -- Leading securities law firm\u00a0Bleichmar Fonti &amp; Auld LLP announces that it is investigating Barry Dillers bid to buy MGM Resorts International (NYSE:MGM)\u2026 [+3677 chars]",
-                "description": "MGM Resorts (NYSE:MGM) $48.30 Offer from Diller Triggers Investigation by BFA Law \u2013 Current Shareholders Notified to Contact the Firm...",
-                "publishedAt": "2026-07-10T10:17:00Z",
-                "source": {
-                    "id": null,
-                    "name": "GlobeNewswire"
-                },
-                "title": "MGM Resorts (NYSE:MGM) $48.30 Offer from Diller Triggers Investigation by BFA Law \u2013 Current Shareholders Notified to Contact the Firm",
-                "url": "https://www.globenewswire.com/news-release/2026/07/10/3325405/0/en/MGM-Resorts-NYSE-MGM-48-30-Offer-from-Diller-Triggers-Investigation-by-BFA-Law-Current-Shareholders-Notified-to-Contact-the-Firm.html",
-                "urlToImage": "https://ml.globenewswire.com/Resource/Download/44a256cf-d470-4d8a-af6b-dbb1b5bbb11e"
             }
         ],
         "ZIM": [
@@ -3009,11 +3009,11 @@
         ]
     },
     "screener_stock_list": [
-        "CGAU",
-        "TGS",
-        "CDE",
-        "ARW",
-        "AU"
+        "BPOP",
+        "AEM",
+        "KGC",
+        "NEM",
+        "AEM"
     ],
     "star_stock_list": [
         "JNJ",
