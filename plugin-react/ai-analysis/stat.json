@@ -726,7 +726,7 @@
       "last_update_time": "2026-06-08T11:53:23.629071"
     },
     "GLOB": {
-      "last_update_time": "2026-07-04T11:29:58.201983"
+      "last_update_time": "2026-07-15T14:47:13.132171"
     },
     "GM": {
       "last_update_time": "2026-06-09T11:12:52.948417"
@@ -2121,7 +2121,7 @@
       "last_update_time": "2026-07-15T11:17:43.671747"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-07-08T11:27:53.722370"
+      "last_update_time": "2026-07-15T14:44:40.504320"
     },
     "Top10_UndervaluedGrowth": {
       "last_update_time": "2026-07-15T11:18:44.241409"
@@ -2478,6 +2478,9 @@
     },
     "NXPI": {
       "last_update_time": "2026-07-14T11:49:04.555041"
+    },
+    "OKE": {
+      "last_update_time": "2026-07-15T14:50:44.559439"
     },
     "OMC": {
       "last_update_time": "2026-07-15T11:43:07.495060"
