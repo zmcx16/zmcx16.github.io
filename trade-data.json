@@ -291,6 +291,12 @@
          "strike":180
       },
       {
+         "symbol":"GILD",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":120
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-07-17",
@@ -331,12 +337,6 @@
          "type":"put",
          "expiry":"2026-07-17",
          "strike":59
-      },
-      {
-         "symbol":"NVDA",
-         "type":"put",
-         "expiry":"2026-07-15",
-         "strike":170
       },
       {
          "symbol":"NVO",
