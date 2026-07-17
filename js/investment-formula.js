@@ -790,7 +790,7 @@ function buildHoldTable(data){
     let position_now = data["portfolio"][symbol]["position_%"].toFixed(2);
     let position_kelly = score > 0 ? (score / total_postion_kelly * 100).toFixed(2) : 0;
     let target_diff = "-";
-    if (symbol in stock_info && stock_info[symbol]["Target Price"] != "-") {
+    if (symbol in stock_info && stock_info[symbol]["Target Price"] != null && stock_info[symbol]["Target Price"] != "-") {
       target_diff = ((stock_info[symbol]["Target Price"] - price) * 100 / price).toFixed(1) + "%"
     }
 
@@ -825,12 +825,12 @@ function buildWatchTable(data) {
         '<tr class="tr-stock main link" onclick="window.open(\'https://finviz.com/quote.ashx?t=' + symbol + '\',\'_blank\',\'noopener\');">' +
         '  <td class="td-symbol">' + symbol + '</td>' +
         '  <td class="td-price link" style="text-decoration: underline; color: #0000FF;" onclick="window.open(\'https://hk.finance.yahoo.com/quote/' + symbol + '\',\'_blank\',\'noopener\');window.event.cancelBubble = true;">' + stock_info[symbol]["Close"].toFixed(2) + '</td>' +
-        '  <td class="th-52w">' + stock_info[symbol]["52W Range"] + '</td>' +
-        '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W High"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-52l">' + getStockChangeColor((stock_info[symbol]["52W Low"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-month">' + getStockChangeColor((stock_info[symbol]["Perf Month"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-year">' + getStockChangeColor((stock_info[symbol]["Perf Year"] * 100).toFixed(2) + "%") + '</td>' +
-        '  <td class="td-perf-ytd">' + getStockChangeColor((stock_info[symbol]["Perf YTD"] * 100).toFixed(2) + "%") + '</td>' +
+        '  <td class="th-52w">' + (stock_info[symbol]["52W Range"] ?? "-") + '</td>' +
+        '  <td class="td-52l">' + (stock_info[symbol]["52W High"] != null ? getStockChangeColor((stock_info[symbol]["52W High"] * 100).toFixed(2) + "%") : "-") + '</td>' +
+        '  <td class="td-52l">' + (stock_info[symbol]["52W Low"] != null ? getStockChangeColor((stock_info[symbol]["52W Low"] * 100).toFixed(2) + "%") : "-") + '</td>' +
+        '  <td class="td-perf-month">' + (stock_info[symbol]["Perf Month"] != null ? getStockChangeColor((stock_info[symbol]["Perf Month"] * 100).toFixed(2) + "%") : "-") + '</td>' +
+        '  <td class="td-perf-year">' + (stock_info[symbol]["Perf Year"] != null ? getStockChangeColor((stock_info[symbol]["Perf Year"] * 100).toFixed(2) + "%") : "-") + '</td>' +
+        '  <td class="td-perf-ytd">' + (stock_info[symbol]["Perf YTD"] != null ? getStockChangeColor((stock_info[symbol]["Perf YTD"] * 100).toFixed(2) + "%") : "-") + '</td>' +
         '</tr>';
     });
   }
