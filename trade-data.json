@@ -238,6 +238,12 @@
          "strike":11
       },
       {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":100
+      },
+      {
          "symbol":"CRM",
          "type":"put",
          "expiry":"2026-07-24",
@@ -272,12 +278,6 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":32.5
-      },
-      {
-         "symbol":"MSFT",
-         "type":"put",
-         "expiry":"2026-07-20",
-         "strike":375
       },
       {
          "symbol":"NKE",
