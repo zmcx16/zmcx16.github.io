@@ -597,7 +597,7 @@
       "last_update_time": "2026-06-06T11:13:58.445225"
     },
     "BCE": {
-      "last_update_time": "2026-06-06T11:15:08.464895"
+      "last_update_time": "2026-07-20T12:10:22.135787"
     },
     "BLD": {
       "last_update_time": "2026-06-07T10:48:13.182281"
@@ -1118,7 +1118,7 @@
       "last_update_time": "2026-06-17T11:50:14.668676"
     },
     "BCE": {
-      "last_update_time": "2026-06-19T11:33:01.510447"
+      "last_update_time": "2026-07-20T12:11:20.615429"
     },
     "BLD": {
       "last_update_time": "2026-06-20T10:50:52.427731"
@@ -2109,7 +2109,7 @@
       "last_update_time": "2026-07-14T11:12:10.500879"
     },
     "Top10_DividendValue": {
-      "last_update_time": "2026-07-12T10:59:17.983506"
+      "last_update_time": "2026-07-20T12:07:00.654265"
     },
     "Top10_Momentum": {
       "last_update_time": "2026-07-14T11:13:21.173134"
@@ -2189,7 +2189,7 @@
       "last_update_time": "2026-07-08T12:16:48.527424"
     },
     "BCE": {
-      "last_update_time": "2026-07-08T12:17:41.886187"
+      "last_update_time": "2026-07-20T12:19:26.461284"
     },
     "BLD": {
       "last_update_time": "2026-07-08T12:18:20.263600"
@@ -2453,7 +2453,7 @@
       "last_update_time": "2026-07-14T11:45:21.826917"
     },
     "NICE": {
-      "last_update_time": "2026-07-11T11:13:23.683602"
+      "last_update_time": "2026-07-20T12:22:30.871517"
     },
     "NKE": {
       "last_update_time": "2026-07-17T11:21:46.356515"
@@ -2549,7 +2549,7 @@
       "last_update_time": "2026-07-17T11:35:42.184757"
     },
     "SID": {
-      "last_update_time": "2026-07-11T11:14:39.982691"
+      "last_update_time": "2026-07-20T12:23:45.018562"
     },
     "SM": {
       "last_update_time": "2026-07-15T11:55:48.088609"
@@ -2694,6 +2694,9 @@
     "APD": {
       "last_update_time": "2026-07-19T11:34:07.139447"
     },
+    "APTV": {
+      "last_update_time": "2026-07-20T12:34:48.788159"
+    },
     "ASML": {
       "last_update_time": "2026-07-19T11:35:15.753066"
     },
@@ -2754,20 +2757,68 @@
     "CXDO": {
       "last_update_time": "2026-07-19T11:45:44.800630"
     },
+    "DELL": {
+      "last_update_time": "2026-07-20T12:35:21.075270"
+    },
+    "DEO": {
+      "last_update_time": "2026-07-20T12:36:23.726891"
+    },
+    "DG": {
+      "last_update_time": "2026-07-20T12:36:56.009062"
+    },
+    "DHI": {
+      "last_update_time": "2026-07-20T12:37:30.740486"
+    },
+    "DXCM": {
+      "last_update_time": "2026-07-20T12:38:36.971772"
+    },
+    "DXPE": {
+      "last_update_time": "2026-07-20T12:39:12.642349"
+    },
     "EL": {
-      "last_update_time": "2026-07-11T11:15:32.275168"
+      "last_update_time": "2026-07-20T12:24:30.512330"
     },
     "EPAM": {
       "last_update_time": "2026-07-12T11:08:45.404429"
     },
+    "ETN": {
+      "last_update_time": "2026-07-20T12:41:47.471258"
+    },
+    "EW": {
+      "last_update_time": "2026-07-20T12:42:21.467069"
+    },
+    "EXR": {
+      "last_update_time": "2026-07-20T12:44:27.004336"
+    },
+    "FDX": {
+      "last_update_time": "2026-07-20T12:46:49.400380"
+    },
+    "FFIV": {
+      "last_update_time": "2026-07-20T12:47:54.192135"
+    },
+    "FISV": {
+      "last_update_time": "2026-07-20T12:48:59.131503"
+    },
     "FLO": {
       "last_update_time": "2026-07-11T11:09:56.599064"
+    },
+    "FSLR": {
+      "last_update_time": "2026-07-20T12:49:41.237308"
+    },
+    "FTNT": {
+      "last_update_time": "2026-07-20T12:50:31.536701"
+    },
+    "G": {
+      "last_update_time": "2026-07-20T12:51:27.970526"
+    },
+    "GAP": {
+      "last_update_time": "2026-07-20T12:52:41.567398"
     },
     "GLOB": {
       "last_update_time": "2026-07-12T11:11:05.813842"
     },
     "ILPT": {
-      "last_update_time": "2026-07-11T11:21:00.279107"
+      "last_update_time": "2026-07-20T12:28:47.145388"
     },
     "IT": {
       "last_update_time": "2026-07-12T11:09:31.344219"
@@ -2776,7 +2827,7 @@
       "last_update_time": "2026-06-30T11:06:36.022351"
     },
     "MPT": {
-      "last_update_time": "2026-07-11T11:12:00.377314"
+      "last_update_time": "2026-07-20T12:20:41.359897"
     },
     "NICE": {
       "last_update_time": "2026-07-13T12:30:22.791619"
