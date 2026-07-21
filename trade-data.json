@@ -232,6 +232,12 @@
          "strike":190
       },
       {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-07-24",
+         "strike":197.5
+      },
+      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-08-21",
@@ -250,10 +256,22 @@
          "strike":148
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":120
+      },
+      {
          "symbol":"DIS",
          "type":"put",
          "expiry":"2026-07-31",
          "strike":92
+      },
+      {
+         "symbol":"EL",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":73
       },
       {
          "symbol":"ETN",
@@ -278,6 +296,18 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":32.5
+      },
+      {
+         "symbol":"ISRG",
+         "type":"put",
+         "expiry":"2026-08-07",
+         "strike":310
+      },
+      {
+         "symbol":"MSFT",
+         "type":"put",
+         "expiry":"2026-07-27",
+         "strike":365
       },
       {
          "symbol":"NKE",
@@ -344,6 +374,18 @@
          "type":"put",
          "expiry":"2026-07-24",
          "strike":70
+      },
+      {
+         "symbol":"TEAM",
+         "type":"put",
+         "expiry":"2026-07-31",
+         "strike":72
+      },
+      {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2026-08-14",
+         "strike":98
       },
       {
          "symbol":"VFC",
