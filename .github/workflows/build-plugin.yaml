@@ -87,6 +87,7 @@ jobs:
         python -m pip install -r ./.github/script/Norn-Finance-API-Server/requirements.txt
         python ./.github/script/build_option_valuation.py -l ERROR -m 90 -d yahoo -c
     - name: Commit and push if page changed
+      if: always()
       run: |-
         git config --global user.email "zmcx16-bot@zmcx16.moe"
         git config --global user.name "zmcx16-bot"
