@@ -214,12 +214,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":46
-      },
-      {
          "symbol":"ABT",
          "type":"put",
          "expiry":"2026-08-28",
@@ -234,8 +228,8 @@
       {
          "symbol":"ADSK",
          "type":"put",
-         "expiry":"2026-07-24",
-         "strike":197.5
+         "expiry":"2026-07-31",
+         "strike":190
       },
       {
          "symbol":"AEO",
@@ -248,12 +242,6 @@
          "type":"put",
          "expiry":"2026-07-31",
          "strike":100
-      },
-      {
-         "symbol":"CRM",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":148
       },
       {
          "symbol":"DHI",
@@ -286,10 +274,10 @@
          "strike":335
       },
       {
-         "symbol":"FSLR",
+         "symbol":"EW",
          "type":"put",
-         "expiry":"2026-07-24",
-         "strike":180
+         "expiry":"2026-08-21",
+         "strike":77.5
       },
       {
          "symbol":"GILD",
@@ -340,12 +328,6 @@
          "strike":40
       },
       {
-         "symbol":"ORCL",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":110
-      },
-      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2026-07-31",
@@ -358,46 +340,22 @@
          "strike":22
       },
       {
-         "symbol":"PYPL",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":40
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":135
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":140
-      },
-      {
-         "symbol":"TEAM",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":70
-      },
-      {
          "symbol":"TEAM",
          "type":"put",
          "expiry":"2026-07-31",
          "strike":72
       },
       {
+         "symbol":"TRMD",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":25
+      },
+      {
          "symbol":"UPS",
          "type":"put",
          "expiry":"2026-08-14",
          "strike":98
-      },
-      {
-         "symbol":"VFC",
-         "type":"put",
-         "expiry":"2026-07-24",
-         "strike":16
       },
       {
          "symbol":"ZIM",
