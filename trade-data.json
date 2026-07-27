@@ -298,10 +298,10 @@
          "strike":310
       },
       {
-         "symbol":"MSFT",
+         "symbol":"MOH",
          "type":"put",
-         "expiry":"2026-07-27",
-         "strike":365
+         "expiry":"2026-08-21",
+         "strike":160
       },
       {
          "symbol":"NKE",
@@ -314,12 +314,6 @@
          "type":"put",
          "expiry":"2026-08-07",
          "strike":38
-      },
-      {
-         "symbol":"NVDA",
-         "type":"put",
-         "expiry":"2026-07-27",
-         "strike":180
       },
       {
          "symbol":"NVO",
