@@ -28,22 +28,22 @@
       "last_update_time": "2026-07-27T13:24:54.936424"
     },
     "ALB": {
-      "last_update_time": "2026-05-29T11:15:29.009510"
+      "last_update_time": "2026-07-27T19:54:51.817330"
     },
     "AMAT": {
       "last_update_time": "2026-07-27T13:20:08.763182"
     },
     "AMZN": {
-      "last_update_time": "2026-05-29T11:17:08.080693"
+      "last_update_time": "2026-07-27T19:55:21.523621"
     },
     "ANET": {
       "last_update_time": "2026-05-31T12:33:26.815112"
     },
     "APD": {
-      "last_update_time": "2026-05-29T11:17:57.786589"
+      "last_update_time": "2026-07-27T19:55:57.562842"
     },
     "APTV": {
-      "last_update_time": "2026-05-29T11:18:26.960811"
+      "last_update_time": "2026-07-27T19:56:27.599220"
     },
     "ASML": {
       "last_update_time": "2026-05-30T10:39:51.739819"
@@ -1193,7 +1193,7 @@
       "last_update_time": "2026-06-19T11:48:27.988527"
     },
     "EPAM": {
-      "last_update_time": "2026-07-15T11:37:10.414882"
+      "last_update_time": "2026-07-27T19:47:00.808953"
     },
     "ETN": {
       "last_update_time": "2026-06-19T11:49:07.673612"
@@ -1478,7 +1478,7 @@
       "last_update_time": "2026-06-24T10:56:40.989656"
     },
     "SID": {
-      "last_update_time": "2026-07-16T11:30:26.665056"
+      "last_update_time": "2026-07-27T19:47:53.200635"
     },
     "SM": {
       "last_update_time": "2026-06-24T10:57:25.934165"
@@ -1906,7 +1906,7 @@
       "last_update_time": "2026-07-22T11:49:02.757063"
     },
     "NKE": {
-      "last_update_time": "2026-07-16T11:35:32.787095"
+      "last_update_time": "2026-07-27T19:52:13.318835"
     },
     "NOG": {
       "last_update_time": "2026-07-02T11:07:17.288617"
@@ -2119,6 +2119,9 @@
     },
     "Top10_SmallCapGems": {
       "last_update_time": "2026-07-22T11:33:54.222452"
+    },
+    "Top10_SocialArbitrage": {
+      "last_update_time": "2026-07-27T19:44:27.785746"
     },
     "Top10_Turnaround": {
       "last_update_time": "2026-07-23T11:29:57.340241"
