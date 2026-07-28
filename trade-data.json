@@ -214,6 +214,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AAP",
+         "type":"put",
+         "expiry":"2026-08-07",
+         "strike":47
+      },
+      {
          "symbol":"ABT",
          "type":"put",
          "expiry":"2026-08-28",
