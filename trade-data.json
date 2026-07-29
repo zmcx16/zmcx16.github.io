@@ -250,6 +250,24 @@
          "strike":100
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2026-08-07",
+         "strike":310
+      },
+      {
+         "symbol":"CHWY",
+         "type":"put",
+         "expiry":"2026-08-28",
+         "strike":18
+      },
+      {
+         "symbol":"DELL",
+         "type":"put",
+         "expiry":"2026-08-07",
+         "strike":265
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-08-21",
@@ -310,6 +328,12 @@
          "strike":160
       },
       {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2026-08-14",
+         "strike":425
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-07-31",
@@ -320,6 +344,12 @@
          "type":"put",
          "expiry":"2026-08-07",
          "strike":38
+      },
+      {
+         "symbol":"NVDA",
+         "type":"put",
+         "expiry":"2026-08-05",
+         "strike":165
       },
       {
          "symbol":"NVO",
@@ -338,6 +368,12 @@
          "type":"put",
          "expiry":"2026-07-31",
          "strike":22
+      },
+      {
+         "symbol":"STM",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":31
       },
       {
          "symbol":"TEAM",
