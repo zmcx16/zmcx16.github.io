@@ -92,7 +92,11 @@ jobs:
         git config --global user.email "zmcx16-bot@zmcx16.moe"
         git config --global user.name "zmcx16-bot"
         git config --global pull.ff only
-        git pull
+        git config --global http.postBuffer 524288000
+        git config --global http.lowSpeedLimit 0
+        git config --global http.lowSpeedTime 999999
+        # retry git pull to survive transient sideband/early-EOF errors
+        for i in 1 2 3 4 5; do git pull && break || (echo "git pull failed, retry $i" && sleep $((i * 10))); done
         git add *.js && git add *.json && git add ./plugin-react/* && git commit -m "Updated plugin pages & monitor data & AI analysis data"
-        git pull --rebase origin master
-        git push
+        for i in 1 2 3 4 5; do git pull --rebase origin master && break || (echo "git pull --rebase failed, retry $i" && sleep $((i * 10))); done
+        for i in 1 2 3 4 5; do git push && break || (echo "git push failed, retry $i" && sleep $((i * 10))); done
