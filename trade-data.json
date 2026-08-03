@@ -234,7 +234,13 @@
       {
          "symbol":"ADSK",
          "type":"put",
-         "expiry":"2026-07-31",
+         "expiry":"2026-08-07",
+         "strike":207.5
+      },
+      {
+         "symbol":"ADSK",
+         "type":"put",
+         "expiry":"2026-08-21",
          "strike":190
       },
       {
@@ -242,12 +248,6 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":11
-      },
-      {
-         "symbol":"ALB",
-         "type":"put",
-         "expiry":"2026-07-31",
-         "strike":100
       },
       {
          "symbol":"AMAT",
@@ -262,6 +262,12 @@
          "strike":18
       },
       {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2026-09-04",
+         "strike":20
+      },
+      {
          "symbol":"DELL",
          "type":"put",
          "expiry":"2026-08-07",
@@ -274,15 +280,9 @@
          "strike":120
       },
       {
-         "symbol":"DIS",
-         "type":"put",
-         "expiry":"2026-07-31",
-         "strike":92
-      },
-      {
          "symbol":"EL",
          "type":"put",
-         "expiry":"2026-07-31",
+         "expiry":"2026-08-14",
          "strike":73
       },
       {
@@ -292,22 +292,16 @@
          "strike":55
       },
       {
-         "symbol":"ETN",
-         "type":"put",
-         "expiry":"2026-07-31",
-         "strike":335
-      },
-      {
          "symbol":"EW",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":77.5
       },
       {
-         "symbol":"GILD",
+         "symbol":"EW",
          "type":"put",
-         "expiry":"2026-07-31",
-         "strike":120
+         "expiry":"2026-09-18",
+         "strike":77.5
       },
       {
          "symbol":"GIS",
@@ -320,6 +314,18 @@
          "type":"put",
          "expiry":"2026-08-07",
          "strike":310
+      },
+      {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":32.5
+      },
+      {
+         "symbol":"LRCX",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":185
       },
       {
          "symbol":"MOH",
@@ -336,14 +342,20 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2026-07-31",
-         "strike":37
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
          "expiry":"2026-08-07",
          "strike":38
+      },
+      {
+         "symbol":"NOW",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":90
+      },
+      {
+         "symbol":"NOW",
+         "type":"put",
+         "expiry":"2026-09-04",
+         "strike":80
       },
       {
          "symbol":"NVDA",
@@ -352,34 +364,34 @@
          "strike":165
       },
       {
-         "symbol":"NVO",
+         "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-07-31",
-         "strike":40
+         "expiry":"2026-08-14",
+         "strike":114
       },
       {
-         "symbol":"PEP",
+         "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-07-31",
-         "strike":128
+         "expiry":"2026-08-28",
+         "strike":95
       },
       {
-         "symbol":"PFE",
+         "symbol":"SAP",
          "type":"put",
-         "expiry":"2026-07-31",
-         "strike":22
+         "expiry":"2026-08-07",
+         "strike":155
+      },
+      {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-08-14",
+         "strike":160
       },
       {
          "symbol":"STM",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":31
-      },
-      {
-         "symbol":"TEAM",
-         "type":"put",
-         "expiry":"2026-07-31",
-         "strike":72
       },
       {
          "symbol":"TRMD",
@@ -392,12 +404,6 @@
          "type":"put",
          "expiry":"2026-08-14",
          "strike":98
-      },
-      {
-         "symbol":"ZIM",
-         "type":"put",
-         "expiry":"2026-07-31",
-         "strike":22
       }
    ],
    "news_config":{
