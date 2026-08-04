@@ -358,10 +358,10 @@
          "strike":80
       },
       {
-         "symbol":"NVDA",
+         "symbol":"OMF",
          "type":"put",
-         "expiry":"2026-08-05",
-         "strike":165
+         "expiry":"2026-08-21",
+         "strike":57.5
       },
       {
          "symbol":"ORCL",
@@ -404,6 +404,12 @@
          "type":"put",
          "expiry":"2026-08-14",
          "strike":98
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":13.5
       }
    ],
    "news_config":{
