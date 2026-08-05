@@ -288,6 +288,12 @@
       {
          "symbol":"EMN",
          "type":"put",
+         "expiry":"2026-08-21",
+         "strike":65
+      },
+      {
+         "symbol":"EMN",
+         "type":"put",
          "expiry":"2026-09-18",
          "strike":55
       },
@@ -304,10 +310,22 @@
          "strike":77.5
       },
       {
+         "symbol":"GILD",
+         "type":"put",
+         "expiry":"2026-08-14",
+         "strike":120
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":32.5
+      },
+      {
+         "symbol":"HOG",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":23.5
       },
       {
          "symbol":"ISRG",
@@ -410,6 +428,12 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":13.5
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2026-08-14",
+         "strike":24.5
       }
    ],
    "news_config":{
