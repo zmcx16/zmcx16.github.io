@@ -40,11 +40,12 @@ jobs:
         git config --global user.name "zmcx16-bot"
         git config --global pull.ff only
         git config --global http.postBuffer 524288000
-        git config --global http.lowSpeedLimit 0
-        git config --global http.lowSpeedTime 999999
-        for i in 1 2 3 4 5; do git pull && break || (echo "git pull failed, retry $i" && sleep $((i * 10))); done
+        git config --global http.lowSpeedLimit 1000
+        git config --global http.lowSpeedTime 60
+        # 6 min stall -> kill and retry, avoid hanging on GitHub sideband stalls
+        for i in 1 2 3 4 5; do timeout 360 git pull && break || (echo "git pull failed/stalled, retry $i" && sleep $((i * 10))); done
         git add *.json
         git diff --cached
         git diff --cached --quiet || git commit -m "Updated trade-data"
-        for i in 1 2 3 4 5; do git pull --rebase origin master && break || (echo "git pull --rebase failed, retry $i" && sleep $((i * 10))); done
-        for i in 1 2 3 4 5; do git push && break || (echo "git push failed, retry $i" && sleep $((i * 10))); done
+        for i in 1 2 3 4 5; do timeout 360 git pull --rebase origin master && break || (echo "git pull --rebase failed/stalled, retry $i" && sleep $((i * 10))); done
+        for i in 1 2 3 4 5; do timeout 360 git push && break || (echo "git push failed/stalled, retry $i" && sleep $((i * 10))); done
