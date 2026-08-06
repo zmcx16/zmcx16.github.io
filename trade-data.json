@@ -216,8 +216,8 @@
       {
          "symbol":"AAP",
          "type":"put",
-         "expiry":"2026-08-07",
-         "strike":47
+         "expiry":"2026-08-14",
+         "strike":51
       },
       {
          "symbol":"ABT",
@@ -228,14 +228,8 @@
       {
          "symbol":"ADBE",
          "type":"put",
-         "expiry":"2026-08-07",
-         "strike":190
-      },
-      {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2026-08-07",
-         "strike":207.5
+         "expiry":"2026-08-14",
+         "strike":227.5
       },
       {
          "symbol":"ADSK",
@@ -250,10 +244,10 @@
          "strike":11
       },
       {
-         "symbol":"AMAT",
+         "symbol":"ALB",
          "type":"put",
-         "expiry":"2026-08-07",
-         "strike":310
+         "expiry":"2026-08-14",
+         "strike":106
       },
       {
          "symbol":"CHWY",
@@ -266,12 +260,6 @@
          "type":"put",
          "expiry":"2026-09-04",
          "strike":20
-      },
-      {
-         "symbol":"DELL",
-         "type":"put",
-         "expiry":"2026-08-07",
-         "strike":265
       },
       {
          "symbol":"DHI",
@@ -310,6 +298,12 @@
          "strike":77.5
       },
       {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":135
+      },
+      {
          "symbol":"GILD",
          "type":"put",
          "expiry":"2026-08-14",
@@ -326,12 +320,6 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":23.5
-      },
-      {
-         "symbol":"ISRG",
-         "type":"put",
-         "expiry":"2026-08-07",
-         "strike":310
       },
       {
          "symbol":"KBR",
@@ -360,8 +348,8 @@
       {
          "symbol":"NKE",
          "type":"put",
-         "expiry":"2026-08-07",
-         "strike":38
+         "expiry":"2026-08-28",
+         "strike":37
       },
       {
          "symbol":"NOW",
@@ -394,10 +382,10 @@
          "strike":95
       },
       {
-         "symbol":"SAP",
+         "symbol":"PODD",
          "type":"put",
-         "expiry":"2026-08-07",
-         "strike":155
+         "expiry":"2026-08-21",
+         "strike":110
       },
       {
          "symbol":"SAP",
