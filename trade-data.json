@@ -249,6 +249,12 @@
          "strike":106
       },
       {
+         "symbol":"APTV",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":42.5
+      },
+      {
          "symbol":"CHWY",
          "type":"put",
          "expiry":"2026-08-28",
@@ -285,6 +291,12 @@
          "strike":55
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":75
+      },
+      {
          "symbol":"EW",
          "type":"put",
          "expiry":"2026-08-21",
@@ -301,6 +313,12 @@
          "type":"put",
          "expiry":"2026-08-21",
          "strike":135
+      },
+      {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":195
       },
       {
          "symbol":"GILD",
