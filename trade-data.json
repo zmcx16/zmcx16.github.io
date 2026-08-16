@@ -213,12 +213,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AAP",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":51
-      },
-      {
          "symbol":"ABT",
          "type":"put",
          "expiry":"2026-08-28",
@@ -227,8 +221,8 @@
       {
          "symbol":"ADBE",
          "type":"put",
-         "expiry":"2026-08-14",
-         "strike":227.5
+         "expiry":"2026-08-21",
+         "strike":237.5
       },
       {
          "symbol":"ADSK",
@@ -245,8 +239,8 @@
       {
          "symbol":"ALB",
          "type":"put",
-         "expiry":"2026-08-14",
-         "strike":106
+         "expiry":"2026-08-21",
+         "strike":120
       },
       {
          "symbol":"APTV",
@@ -267,16 +261,16 @@
          "strike":20
       },
       {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2026-08-21",
+         "strike":172.5
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":120
-      },
-      {
-         "symbol":"EL",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":73
       },
       {
          "symbol":"EMN",
@@ -321,12 +315,6 @@
          "strike":195
       },
       {
-         "symbol":"GILD",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":120
-      },
-      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-08-21",
@@ -357,12 +345,6 @@
          "strike":160
       },
       {
-         "symbol":"MU",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":425
-      },
-      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-08-28",
@@ -389,26 +371,20 @@
       {
          "symbol":"ORCL",
          "type":"put",
-         "expiry":"2026-08-14",
-         "strike":114
-      },
-      {
-         "symbol":"ORCL",
-         "type":"put",
          "expiry":"2026-08-28",
          "strike":95
+      },
+      {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":8
       },
       {
          "symbol":"PODD",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":110
-      },
-      {
-         "symbol":"SAP",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":160
       },
       {
          "symbol":"STM",
@@ -423,22 +399,16 @@
          "strike":25
       },
       {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2026-08-14",
-         "strike":98
-      },
-      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2026-08-21",
          "strike":13.5
       },
       {
-         "symbol":"ZIM",
+         "symbol":"ZTS",
          "type":"put",
-         "expiry":"2026-08-14",
-         "strike":24.5
+         "expiry":"2026-08-21",
+         "strike":70
       }
    ],
    "news_config":{
