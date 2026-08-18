@@ -321,6 +321,12 @@
          "strike":32.5
       },
       {
+         "symbol":"GLOB",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":25
+      },
+      {
          "symbol":"HOG",
          "type":"put",
          "expiry":"2026-08-21",
@@ -379,6 +385,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":8
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-09-04",
+         "strike":131
       },
       {
          "symbol":"PODD",
