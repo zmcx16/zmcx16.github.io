@@ -224,6 +224,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AA",
+         "type":"put",
+         "expiry":"2026-09-11",
+         "strike":43
+      },
+      {
          "symbol":"ABT",
          "type":"put",
          "expiry":"2026-08-28",
@@ -266,6 +272,12 @@
          "strike":25
       },
       {
+         "symbol":"MKC",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":50
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-08-28",
@@ -300,6 +312,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":22
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":65
       }
    ],
    "news_config":{
