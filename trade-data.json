@@ -236,6 +236,12 @@
          "strike":89
       },
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2026-09-04",
+         "strike":235
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2026-09-18",
@@ -258,6 +264,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":55
+      },
+      {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":65
       },
       {
          "symbol":"EW",
@@ -290,6 +302,12 @@
          "strike":80
       },
       {
+         "symbol":"OMF",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":57.5
+      },
+      {
          "symbol":"ORCL",
          "type":"put",
          "expiry":"2026-08-28",
@@ -306,6 +324,12 @@
          "type":"put",
          "expiry":"2026-09-04",
          "strike":131
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":13
       },
       {
          "symbol":"ZIM",
