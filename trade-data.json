@@ -290,6 +290,18 @@
          "strike":50
       },
       {
+         "symbol":"MOH",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":170
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2026-09-04",
+         "strike":75
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-08-28",
@@ -324,6 +336,12 @@
          "type":"put",
          "expiry":"2026-09-04",
          "strike":131
+      },
+      {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2026-09-25",
+         "strike":26
       },
       {
          "symbol":"VALE",
