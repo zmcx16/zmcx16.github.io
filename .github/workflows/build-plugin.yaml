@@ -2,6 +2,19 @@ name: BuildPluginPage
 
 on:
   workflow_dispatch:
+    inputs:
+      summary_update_threshold_days:
+        description: 'update-threshold-days for summary input-type run'
+        required: false
+        default: '7'
+      hold_update_threshold_days:
+        description: 'update-threshold-days for hold_stock_list run'
+        required: false
+        default: '7'
+      watch_update_threshold_days:
+        description: 'update-threshold-days for watch_stock_list run'
+        required: false
+        default: '30'
   schedule:
     - cron:  '30 9 * * *'
 
@@ -53,13 +66,13 @@ jobs:
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: |-
-        python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash --input-type summary
+        python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash --input-type summary --update-threshold-days ${{ github.event.inputs.summary_update_threshold_days || '7' }}
         echo sleep 1 min to avoid rate limit
         sleep 60
-        python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash
+        python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash --update-threshold-days ${{ github.event.inputs.hold_update_threshold_days || '7' }}
         echo sleep 1 min to avoid rate limit
         sleep 60
-        python ./.github/script/build_ai_analysis.py --stock-list watch_stock_list --update-threshold-days 30
+        python ./.github/script/build_ai_analysis.py --stock-list watch_stock_list --update-threshold-days ${{ github.event.inputs.watch_update_threshold_days || '30' }}
     - name: get monitor data
       env:
         MONITOR_TOKEN_KEY: ${{ secrets.MONITOR_TOKEN_KEY }}
