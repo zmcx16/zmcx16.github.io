@@ -1894,7 +1894,7 @@
       "last_update_time": "2026-08-21T10:40:47.411719"
     },
     "GLOB": {
-      "last_update_time": "2026-08-19T10:42:19.439193"
+      "last_update_time": "2026-08-30T19:42:33.292795"
     },
     "GM": {
       "last_update_time": "2026-08-21T10:36:51.814193"
@@ -2275,6 +2275,9 @@
     },
     "Top10_UndervaluedGrowthIndustries": {
       "last_update_time": "2026-08-29T13:43:00.711754"
+    },
+    "Top10_investmentGurus": {
+      "last_update_time": "2026-08-30T19:36:08.385675"
     }
   },
   "super-thinking": {
@@ -2339,7 +2342,7 @@
       "last_update_time": "2026-07-11T11:27:32.615051"
     },
     "AZN": {
-      "last_update_time": "2026-07-10T13:36:32.628470"
+      "last_update_time": "2026-08-30T19:45:43.125373"
     },
     "BAC": {
       "last_update_time": "2026-08-30T15:16:46.408492"
@@ -2396,7 +2399,7 @@
       "last_update_time": "2026-08-30T15:23:21.484951"
     },
     "CVX": {
-      "last_update_time": "2026-07-08T12:28:25.404233"
+      "last_update_time": "2026-08-30T19:45:09.535080"
     },
     "CXDO": {
       "last_update_time": "2026-07-11T11:29:42.759015"
@@ -2417,7 +2420,7 @@
       "last_update_time": "2026-07-11T11:33:05.926512"
     },
     "DXCM": {
-      "last_update_time": "2026-07-10T13:43:05.770312"
+      "last_update_time": "2026-08-30T19:46:19.096678"
     },
     "DXPE": {
       "last_update_time": "2026-07-11T11:33:55.425593"
