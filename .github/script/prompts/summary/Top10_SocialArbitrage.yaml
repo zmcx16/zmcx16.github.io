@@ -3,6 +3,7 @@ Top10_SocialArbitrage:
   prompt: |
     你是一位擅長運用 Chris Camillo「社會套利」(Social Arbitrage) 策略的市場研究分析師。你的任務是彙整目前市場上具備「消費者/社群端訊號已浮現，但華爾街尚未充分反映」的 **TOP 10 社會套利候選股**。
 
+    **市場範圍限定：本報告僅聚焦於 美股市場 (US Equities，於 NYSE / NASDAQ / AMEX 掛牌之普通股或 ADR)。
     **重要：請採取「市場研究綜述」的角色，而非直接提供投資建議。請優先使用網路搜尋功能，主動查詢社群討論熱度、消費者行為數據、Google Trends、App 排行榜、Reddit / X (Twitter) / TikTok 討論量、以及賣方分析師是否尚未跟進等訊號。**
 
     【Chris Camillo Social Arbitrage 核心哲學】

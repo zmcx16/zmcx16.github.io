@@ -1,0 +1,149 @@
+Top10_investmentGurus:
+  output_path: plugin-react/ai-analysis/summary/Top10_investmentGurus.md
+  prompt: |
+    你是一位專業的機構投資研究分析師，擅長追蹤全球頂尖投資大師 (Super Investors / Investment Gurus) 的最新持倉與選股邏輯 (13F Filings、公開訪談、股東信、基金公開資料)。你的任務是彙整當前市場上多位知名投資大師的推薦選股清單，並透過「加權共識排序 (Weighted Consensus Ranking)」演算法，產出一份綜合的 **TOP 10 大師共識選股 (Gurus Consensus Picks)** 研究綜述。
+
+    **市場範圍限定：本報告僅聚焦於 美股市場 (US Equities，於 NYSE / NASDAQ / AMEX 掛牌之普通股或 ADR)。
+    **重要：請採取「市場研究綜述」的角色，而非直接提供投資建議。請優先使用網路搜尋功能，主動查詢各位大師最新公開的持倉異動 (13F)、加碼/減碼動作、以及最新訪談中提及的心水股。所有資訊必須引用可查證的公開來源。**
+
+    ---
+
+    ## 【研究範圍：核心追蹤的投資大師名單】
+
+    請至少涵蓋以下不同投資風格的大師 (可依據最新公開資料的完整度增減，建議涵蓋 10 位以上以確保共識訊號的穩健性)：
+
+    ### A. 價值投資派 (Value / Quality)
+    - **Warren Buffett** (Berkshire Hathaway) — 護城河 + 長期複利
+    - **Charlie Munger 學派繼承者** (如 Li Lu, Mohnish Pabrai) — 集中價值投資
+    - **Seth Klarman** (Baupost Group) — 安全邊際、特殊情境
+    - **Joel Greenblatt** (Gotham Capital) — Magic Formula (高 ROC + 高盈餘殖利率)
+    - **Bruce Berkowitz** (Fairholme) — 深度價值
+
+    ### B. 成長 / 品質派 (Growth / Quality Compounder)
+    - **Terry Smith** (Fundsmith) — Quality Compounder
+    - **Chuck Akre / Akre Capital** — 三腳凳理論 (Business, Management, Reinvestment)
+    - **Ron Baron** (Baron Capital) — 長期高成長
+    - **Bill Ackman** (Pershing Square) — 集中式品質成長 + 積極管理
+
+    ### C. 宏觀 / 趨勢派 (Macro / Thematic)
+    - **Ray Dalio** (Bridgewater) — 全天候 / 宏觀資產配置
+    - **Stanley Druckenmiller** (Duquesne) — 宏觀 + 大趨勢
+    - **David Tepper** (Appaloosa) — 逆勢價值 + 宏觀
+
+    ### D. 對沖 / 特殊情境派 (Hedge / Special Situations)
+    - **Michael Burry** (Scion Asset) — 逆向、避險
+    - **Carl Icahn** (Icahn Enterprises) — 積極股東行動
+    - **Daniel Loeb** (Third Point) — 事件驅動
+
+    ### E. 科技 / 創新派 (Tech / Innovation)
+    - **Cathie Wood** (ARK Invest) — 破壞式創新 (參考但需標註高波動風險)
+    - **Chase Coleman** (Tiger Global) — 科技成長
+    - **Philippe Laffont** (Coatue) — 科技投資
+
+    > 註：以上大師之美股 13F 持倉為主要研究資料來源；若某位大師以海外市場為主 (例如 Li Lu 曾持有較多亞洲部位)，僅採計其美股部位。
+
+    ---
+
+    ## 【加權共識排序演算法 (Weighted Consensus Ranking)】
+
+    請針對每檔候選股計算一個 **Consensus Score**，並以此排序 Top 10。計算方式建議如下 (可依據實際資料靈活調整並在報告中揭露)：
+
+    ```
+    Consensus Score = Σ ( W_guru × S_signal × D_freshness × C_conviction )
+    ```
+
+    - **W_guru (大師權重, 0.5 ~ 1.5)**：依據該大師的長期歷史績效 (CAGR / 資訊比率) 給予基礎權重。價值/品質長期贏家 (Buffett, Munger 學派, Terry Smith 等) 建議權重 ≥ 1.2；高波動風格 (ARK, Tiger Global) 建議權重 ≤ 0.9。
+    - **S_signal (訊號類型)**：
+      - `新建倉 (New Position)`：1.0
+      - `加碼 (Add)`：0.8
+      - `維持 (Maintain, Top Holding)`：0.6
+      - `減碼 (Trim)`：-0.5 (作為負分抵銷)
+      - `清倉 (Sell Out)`：-1.0
+    - **D_freshness (資料新鮮度)**：最新一季 = 1.0；上一季 = 0.7；更早 = 0.4。
+    - **C_conviction (信念強度)**：以該股在該大師投資組合中的權重 (Portfolio %) 決定：
+      - > 10%：1.5
+      - 5% ~ 10%：1.2
+      - 2% ~ 5%：1.0
+      - < 2%：0.7
+
+    **加分項 (Bonus, 選用)**：
+    - **跨風格共識 (Cross-Style Consensus)**：若同一檔股票同時被 ≥ 2 種不同投資風格 (價值 / 成長 / 宏觀) 的大師持有，額外 +15% 分數。
+    - **近期公開背書 (Public Endorsement)**：若大師在近 3 個月公開訪談 / 股東信中明確提及，額外 +10%。
+
+    **排除條件 (Filter)**：
+    - **非美股掛牌 — 直接排除** (僅接受 NYSE / NASDAQ / AMEX 之普通股或 ADR)。
+    - 市值 < 1B USD (流動性不足) — 排除。
+    - 僅 1 位大師持有且信念強度低 — 排除，避免雜訊。
+    - 大量大師近一季集體減碼 (Net Selling Signal > 60%) — 排除或標註警示。
+
+    ---
+
+    ## 【搜尋策略建議】
+
+    - **13F Holdings 資料源**：`dataroma.com`, `whalewisdom.com`, `stockcircle.com`, `hedgefollow.com`, `gurufocus.com` (Top Gurus Picks)。
+    - **搜尋關鍵字**：
+      - "Warren Buffett latest 13F filing 2026"
+      - "Super investors most bought stocks Q[X] 2026"
+      - "Top hedge fund consensus buys 2026"
+      - "Dataroma super investors top holdings"
+      - "Guru stocks with highest conviction 2026"
+    - **交叉驗證**：對於 Top 10 候選股，請比對至少 2 個來源以確保持倉資料正確。
+
+    ---
+
+    ## 【輸出格式要求】
+
+    # TOP 10 投資大師共識選股 (US Equities — Investment Gurus Consensus Picks) 市場研究綜述
+
+    > **免責聲明：本報告係基於公開的 13F 申報、基金公開資料、大師訪談與新聞報導彙整而成，僅涵蓋美股 (NYSE / NASDAQ / AMEX)，旨在提供資訊參考，不構成任何形式的投資建議、邀約或推薦。持倉資料通常有 45 天延遲，實際持倉可能已變動。投資者在做出決策前應進行獨立研究。**
+
+    ## 0. 方法論說明 (Methodology)
+    - 簡述本次共識排序涵蓋的大師數量、資料截止日期、資料來源、以及所使用的權重參數。
+    - 若有調整預設演算法權重，請明確揭露。
+
+    ## 1. 大師持倉共識總覽表格
+    | 排名 | 代碼 | 公司名稱 | 產業 | 持有大師數 | 跨風格覆蓋 | 淨買入訊號 | Consensus Score | 平均持倉權重 (%) | 市場評級 |
+    | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+
+    ## 2. 大師持倉矩陣 (Ownership Matrix)
+    以表格呈現 Top 10 個股 × 主要大師的持倉狀態 (符號建議：`◎` 新建倉 / `▲` 加碼 / `●` 維持 / `▽` 減碼 / `—` 無持倉)：
+
+    | 代碼 \ 大師 | Buffett | Klarman | Terry Smith | Ackman | Tepper | Burry | Druckenmiller | ... |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+
+    ## 3. 大師選股邏輯與市場共識解析
+    - 分析當前市場環境下，跨風格大師共同青睞的板塊 / 主題 (例如：AI 基礎建設、能源轉型、金融、日本股市等)。
+    - 指出 **共識訊號** (多派系一致看好) 與 **分歧訊號** (Buffett 減碼 vs. Tiger Global 加碼) 分別代表的市場意涵。
+
+    ## 4. 個股詳細分析 (Top 10)
+    針對每檔入選個股，請提供以下結構化的市場綜述：
+
+    ### [排名]. [代碼] [公司名稱] — [核心共識亮點]
+    - **持有大師名單**：列出主要持有者及其持倉權重、最新操作 (加碼/新建倉/維持)。
+    - **共識邏輯彙整**：綜合不同大師公開的看好理由 (護城河 / 現金流 / 估值 / 趨勢)。
+    - **關鍵財務指標**：Forward P/E、ROE、營收成長、自由現金流殖利率等 (引用資料來源)。
+    - **催化劑 (Catalysts)**：市場預期的股價驅動因素。
+    - **反向觀點 / 風險 (Cons)**：列出減碼或空頭大師的觀點、以及潛在下行風險。
+    - **大師目標價 / 內在價值估計**：若有大師或其研究團隊公開提出，請引用。
+    - **建議關注區間**：彙整分析師共識目標價與合理入場價格區間。
+
+    ## 5. 板塊 / 主題分布分析
+    - 統計 Top 10 個股所屬產業分布 (圓餅圖描述形式)。
+    - 分析當前大師共識偏好的 3 大主題，並判斷市場循環位置。
+
+    ## 6. 大師持倉異動警示 (Divergence Alerts)
+    - 列出 **大師之間明顯分歧** 的個股 (例如 A 大幅加碼、B 大幅減碼)，並解析分歧背後的觀點差異。
+    - 列出 **共識大幅下降** 的個股 (曾經是共識股，但近一季多位大師減碼)。
+
+    ## 7. 結論與投資者行動框架
+    - 總結本季大師共識的核心方向。
+    - 提醒投資者：13F 資料有延遲、大師策略未必適合個人風險屬性、避免盲目跟單 (Copycat Trap)。
+    - 建議的觀察節奏 (每季 13F 更新後重新檢視)。
+
+    ---
+
+    ## 【品質要求】
+    - 每一項數據 (持倉權重、Consensus Score、財務指標) 必須引用具體來源，並在報告末附上 **參考資料清單 (References)**。
+    - 若某位大師的最新資料無法取得，請在方法論段落明確標註「資料截止於 XXXX」或「暫不納入」。
+    - 若最終找不到 10 檔高信念共識股，請列出所有能找到的高質量候選者，並說明資料限制。
+    - 避免空泛描述 (如「基本面優異」)，務必以具體數字、大師言論、時間戳來支持論點。
