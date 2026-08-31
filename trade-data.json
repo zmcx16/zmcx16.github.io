@@ -254,6 +254,12 @@
          "strike":115
       },
       {
+         "symbol":"BBW",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":25
+      },
+      {
          "symbol":"CMCSA",
          "type":"put",
          "expiry":"2026-09-04",
@@ -290,6 +296,12 @@
          "strike":25
       },
       {
+         "symbol":"HAFN",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":7.5
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-09-25",
@@ -312,6 +324,12 @@
          "type":"put",
          "expiry":"2026-09-04",
          "strike":75
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2026-09-25",
+         "strike":35
       },
       {
          "symbol":"NOW",
