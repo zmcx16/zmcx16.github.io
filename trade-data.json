@@ -362,6 +362,12 @@
          "strike":131
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-09-11",
+         "strike":133
+      },
+      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-09-25",
