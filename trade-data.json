@@ -262,6 +262,12 @@
          "strike":21.5
       },
       {
+         "symbol":"CMCSA",
+         "type":"put",
+         "expiry":"2026-09-25",
+         "strike":24
+      },
+      {
          "symbol":"DHI",
          "type":"put",
          "expiry":"2026-09-18",
