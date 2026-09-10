@@ -232,12 +232,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AA",
-         "type":"put",
-         "expiry":"2026-09-11",
-         "strike":43
-      },
-      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-10-16",
@@ -292,6 +286,12 @@
          "strike":77.5
       },
       {
+         "symbol":"EXR",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":125
+      },
+      {
          "symbol":"GLOB",
          "type":"put",
          "expiry":"2026-10-16",
@@ -302,6 +302,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":7.5
+      },
+      {
+         "symbol":"ISRG",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":320
       },
       {
          "symbol":"KSS",
@@ -352,22 +358,28 @@
          "strike":8
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-09-11",
-         "strike":133
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-09-25",
          "strike":26
       },
       {
+         "symbol":"SAP",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":190
+      },
+      {
          "symbol":"SFD",
          "type":"put",
          "expiry":"2026-10-16",
          "strike":20
+      },
+      {
+         "symbol":"TM",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":175
       },
       {
          "symbol":"VALE",
