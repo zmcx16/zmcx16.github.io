@@ -2134,7 +2134,7 @@
       "last_update_time": "2026-08-22T10:47:36.417469"
     },
     "NOW": {
-      "last_update_time": "2026-08-29T14:22:58.976770"
+      "last_update_time": "2026-09-11T12:05:16.514215"
     },
     "NTR": {
       "last_update_time": "2026-08-23T10:38:40.752663"
@@ -2750,7 +2750,7 @@
       "last_update_time": "2026-09-03T12:52:38.265740"
     },
     "NOW": {
-      "last_update_time": "2026-08-30T14:54:04.116491"
+      "last_update_time": "2026-09-11T12:06:39.152210"
     },
     "NTR": {
       "last_update_time": "2026-09-06T14:02:53.954345"
@@ -2864,7 +2864,7 @@
       "last_update_time": "2026-09-07T16:14:07.013596"
     },
     "STNG": {
-      "last_update_time": "2026-07-16T12:07:22.743656"
+      "last_update_time": "2026-09-11T12:59:32.880767"
     },
     "T": {
       "last_update_time": "2026-08-27T20:26:36.572366"
@@ -2879,13 +2879,13 @@
       "last_update_time": "2026-09-09T13:16:33.355997"
     },
     "TECH": {
-      "last_update_time": "2026-07-18T11:46:46.826276"
+      "last_update_time": "2026-09-11T13:05:08.719601"
     },
     "TEN": {
       "last_update_time": "2026-09-09T13:24:58.789969"
     },
     "TEX": {
-      "last_update_time": "2026-07-18T11:47:23.444665"
+      "last_update_time": "2026-09-11T13:05:46.085570"
     },
     "TGT": {
       "last_update_time": "2026-09-07T16:16:32.766701"
@@ -2906,7 +2906,7 @@
       "last_update_time": "2026-09-07T16:18:20.257246"
     },
     "UAL": {
-      "last_update_time": "2026-07-17T11:49:17.073273"
+      "last_update_time": "2026-09-11T13:00:52.131884"
     },
     "UHS": {
       "last_update_time": "2026-08-27T20:27:48.563538"
@@ -2921,16 +2921,16 @@
       "last_update_time": "2026-09-09T13:18:56.855563"
     },
     "VFC": {
-      "last_update_time": "2026-07-17T11:52:03.102423"
+      "last_update_time": "2026-09-11T13:02:05.371107"
     },
     "VIST": {
       "last_update_time": "2026-09-09T13:26:29.190514"
     },
     "VMI": {
-      "last_update_time": "2026-07-17T11:52:47.724114"
+      "last_update_time": "2026-09-11T13:02:42.085734"
     },
     "VTRS": {
-      "last_update_time": "2026-07-19T11:32:50.406258"
+      "last_update_time": "2026-09-11T13:11:49.966668"
     },
     "VZ": {
       "last_update_time": "2026-09-09T13:29:23.547015"
@@ -2968,16 +2968,16 @@
       "last_update_time": "2026-09-10T14:33:05.089217"
     },
     "ABNB": {
-      "last_update_time": "2026-07-18T11:54:17.408006"
+      "last_update_time": "2026-09-11T13:06:14.790917"
     },
     "ABT": {
-      "last_update_time": "2026-07-19T11:33:31.107506"
+      "last_update_time": "2026-09-11T13:14:03.590930"
     },
     "ACLS": {
       "last_update_time": "2026-07-18T11:55:03.940136"
     },
     "ACN": {
-      "last_update_time": "2026-07-18T11:55:34.467597"
+      "last_update_time": "2026-09-11T13:08:16.994222"
     },
     "ADBE": {
       "last_update_time": "2026-09-02T12:48:20.408969"
@@ -2989,22 +2989,22 @@
       "last_update_time": "2026-08-27T20:28:49.490147"
     },
     "AEO": {
-      "last_update_time": "2026-07-18T11:56:03.976173"
+      "last_update_time": "2026-09-11T13:08:48.555447"
     },
     "AFYA": {
       "last_update_time": "2026-08-27T20:29:18.598712"
     },
     "ALB": {
-      "last_update_time": "2026-07-18T11:56:33.402085"
+      "last_update_time": "2026-09-11T13:09:26.778319"
     },
     "AMAT": {
       "last_update_time": "2026-09-10T14:40:26.649458"
     },
     "AMZN": {
-      "last_update_time": "2026-07-18T11:57:35.621995"
+      "last_update_time": "2026-09-11T13:09:58.218682"
     },
     "ANET": {
-      "last_update_time": "2026-07-18T11:58:06.240494"
+      "last_update_time": "2026-09-11T13:11:13.830674"
     },
     "APD": {
       "last_update_time": "2026-09-10T14:50:02.381909"
@@ -3037,10 +3037,10 @@
       "last_update_time": "2026-07-19T11:38:21.177550"
     },
     "BTG": {
-      "last_update_time": "2026-07-19T11:38:53.487966"
+      "last_update_time": "2026-09-11T13:20:18.013362"
     },
     "BTSG": {
-      "last_update_time": "2026-07-19T11:39:30.056076"
+      "last_update_time": "2026-09-11T13:20:48.860928"
     },
     "BUD": {
       "last_update_time": "2026-07-19T11:40:04.396096"
