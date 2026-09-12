@@ -244,6 +244,12 @@
          "strike":115
       },
       {
+         "symbol":"AZN",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":150
+      },
+      {
          "symbol":"BBW",
          "type":"put",
          "expiry":"2026-09-18",
@@ -350,6 +356,12 @@
          "type":"put",
          "expiry":"2026-10-16",
          "strike":57.5
+      },
+      {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-09-18",
+         "strike":134
       },
       {
          "symbol":"PAGS",
