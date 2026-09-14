@@ -2451,10 +2451,10 @@
       "last_update_time": "2026-09-14T12:34:56.666149"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-09-07T15:15:33.040890"
+      "last_update_time": "2026-09-14T16:03:42.289336"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-09-07T15:16:32.509467"
+      "last_update_time": "2026-09-14T16:04:40.588260"
     },
     "Top10_SocialArbitrage": {
       "last_update_time": "2026-09-14T12:35:57.285059"
@@ -3438,6 +3438,9 @@
     "MU": {
       "last_update_time": "2026-07-25T11:20:17.729102"
     },
+    "MYRG": {
+      "last_update_time": "2026-09-14T16:10:30.832340"
+    },
     "NDAQ": {
       "last_update_time": "2026-07-24T11:51:17.838024"
     },
@@ -3467,6 +3470,9 @@
     },
     "NVDA": {
       "last_update_time": "2026-07-24T11:56:13.637149"
+    },
+    "NVMI": {
+      "last_update_time": "2026-09-14T16:11:05.609051"
     },
     "NVO": {
       "last_update_time": "2026-09-12T13:18:20.884471"
@@ -3560,6 +3566,9 @@
     },
     "SMP": {
       "last_update_time": "2026-07-26T11:29:39.188197"
+    },
+    "SOFI": {
+      "last_update_time": "2026-09-14T16:11:40.498221"
     },
     "SONY": {
       "last_update_time": "2026-07-26T11:30:08.654315"
