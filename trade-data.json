@@ -246,6 +246,12 @@
          "strike":220
       },
       {
+         "symbol":"AEO",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":11
+      },
+      {
          "symbol":"ALB",
          "type":"put",
          "expiry":"2026-09-18",
@@ -324,6 +330,12 @@
          "strike":320
       },
       {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":32.5
+      },
+      {
          "symbol":"KSS",
          "type":"put",
          "expiry":"2026-09-25",
@@ -376,6 +388,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":8
+      },
+      {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-10-02",
+         "strike":129
       },
       {
          "symbol":"PFE",
