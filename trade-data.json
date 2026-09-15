@@ -348,6 +348,12 @@
          "strike":14
       },
       {
+         "symbol":"LCII",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":70
+      },
+      {
          "symbol":"MKC",
          "type":"put",
          "expiry":"2026-09-18",
