@@ -240,6 +240,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AA",
+         "type":"put",
+         "expiry":"2026-10-02",
+         "strike":39
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-10-16",
@@ -352,6 +358,12 @@
          "type":"put",
          "expiry":"2026-09-18",
          "strike":170
+      },
+      {
+         "symbol":"NFLX",
+         "type":"put",
+         "expiry":"2026-10-02",
+         "strike":69
       },
       {
          "symbol":"NKE",
