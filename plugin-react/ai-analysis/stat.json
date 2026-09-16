@@ -463,7 +463,7 @@
       "last_update_time": "2026-08-01T12:11:17.366116"
     },
     "PODD": {
-      "last_update_time": "2026-09-04T13:50:09.638605"
+      "last_update_time": "2026-09-16T12:55:28.235635"
     },
     "PRDO": {
       "last_update_time": "2026-09-04T14:18:30.892491"
@@ -993,7 +993,7 @@
       "last_update_time": "2026-08-08T10:44:06.465777"
     },
     "NICE": {
-      "last_update_time": "2026-09-04T13:51:02.998112"
+      "last_update_time": "2026-09-16T12:56:52.706379"
     },
     "NKE": {
       "last_update_time": "2026-09-14T12:42:20.798575"
@@ -1256,7 +1256,7 @@
       "last_update_time": "2026-09-04T14:12:31.398051"
     },
     "ADSK": {
-      "last_update_time": "2026-09-05T13:03:40.411668"
+      "last_update_time": "2026-09-16T13:28:20.944924"
     },
     "ADT": {
       "last_update_time": "2026-08-25T11:02:21.601672"
@@ -1346,7 +1346,7 @@
       "last_update_time": "2026-08-13T11:08:17.512766"
     },
     "CRM": {
-      "last_update_time": "2026-09-04T14:09:37.633538"
+      "last_update_time": "2026-09-16T13:25:14.067519"
     },
     "CSCO": {
       "last_update_time": "2026-08-13T11:09:11.368418"
@@ -1598,7 +1598,7 @@
       "last_update_time": "2026-08-16T10:25:28.362514"
     },
     "NICE": {
-      "last_update_time": "2026-09-04T14:13:18.438209"
+      "last_update_time": "2026-09-16T13:27:15.486769"
     },
     "NKE": {
       "last_update_time": "2026-09-04T13:54:59.225250"
@@ -1826,7 +1826,7 @@
       "last_update_time": "2026-08-18T10:58:01.330163"
     },
     "ZIM": {
-      "last_update_time": "2026-09-05T13:04:25.292369"
+      "last_update_time": "2026-09-16T13:29:26.671199"
     },
     "ZTS": {
       "last_update_time": "2026-08-19T11:14:19.353542"
@@ -3226,37 +3226,37 @@
       "last_update_time": "2026-07-21T13:58:44.873169"
     },
     "DXCM": {
-      "last_update_time": "2026-07-20T12:38:36.971772"
+      "last_update_time": "2026-09-16T13:34:21.138578"
     },
     "DXPE": {
-      "last_update_time": "2026-07-20T12:39:12.642349"
+      "last_update_time": "2026-09-16T13:34:53.463730"
     },
     "EL": {
       "last_update_time": "2026-09-10T14:05:56.407564"
     },
     "EMN": {
-      "last_update_time": "2026-07-22T12:02:52.415279"
+      "last_update_time": "2026-09-16T13:41:47.602282"
     },
     "EPAM": {
       "last_update_time": "2026-09-09T13:06:48.227912"
     },
     "ETN": {
-      "last_update_time": "2026-07-20T12:41:47.471258"
+      "last_update_time": "2026-09-16T13:35:59.744395"
     },
     "EW": {
-      "last_update_time": "2026-07-20T12:42:21.467069"
+      "last_update_time": "2026-09-16T13:36:31.422651"
     },
     "EXLS": {
-      "last_update_time": "2026-07-22T12:03:34.397037"
+      "last_update_time": "2026-09-16T13:42:18.905560"
     },
     "EXR": {
-      "last_update_time": "2026-07-20T12:44:27.004336"
+      "last_update_time": "2026-09-16T13:37:05.696606"
     },
     "F": {
       "last_update_time": "2026-07-22T12:04:05.600837"
     },
     "FDX": {
-      "last_update_time": "2026-07-20T12:46:49.400380"
+      "last_update_time": "2026-09-16T13:37:40.632524"
     },
     "FFIV": {
       "last_update_time": "2026-07-20T12:47:54.192135"
@@ -3274,13 +3274,13 @@
       "last_update_time": "2026-07-20T12:50:31.536701"
     },
     "G": {
-      "last_update_time": "2026-07-20T12:51:27.970526"
+      "last_update_time": "2026-09-16T13:40:32.591558"
     },
     "GAP": {
       "last_update_time": "2026-07-20T12:52:41.567398"
     },
     "GEN": {
-      "last_update_time": "2026-07-22T12:04:34.909470"
+      "last_update_time": "2026-09-16T13:47:26.034735"
     },
     "GGB": {
       "last_update_time": "2026-07-22T12:05:16.511010"
@@ -3289,10 +3289,10 @@
       "last_update_time": "2026-09-06T13:57:39.796839"
     },
     "GILD": {
-      "last_update_time": "2026-07-22T12:06:04.708323"
+      "last_update_time": "2026-09-16T13:49:36.635223"
     },
     "GIS": {
-      "last_update_time": "2026-07-22T12:06:42.659308"
+      "last_update_time": "2026-09-16T13:50:11.732045"
     },
     "GLOB": {
       "last_update_time": "2026-09-10T14:16:41.081554"
