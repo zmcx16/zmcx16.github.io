@@ -438,6 +438,12 @@
          "strike":175
       },
       {
+         "symbol":"UPS",
+         "type":"put",
+         "expiry":"2026-10-23",
+         "strike":93
+      },
+      {
          "symbol":"VALE",
          "type":"put",
          "expiry":"2026-10-16",
