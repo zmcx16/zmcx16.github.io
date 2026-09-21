@@ -249,6 +249,12 @@
          "strike":39
       },
       {
+         "symbol":"AAON",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":65
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-10-16",
@@ -265,6 +271,12 @@
          "type":"put",
          "expiry":"2026-09-25",
          "strike":24
+      },
+      {
+         "symbol":"EW",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":80
       },
       {
          "symbol":"EXR",
