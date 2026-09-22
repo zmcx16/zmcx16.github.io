@@ -272,6 +272,18 @@
          "strike":24
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-10-23",
+         "strike":125
+      },
+      {
+         "symbol":"EMN",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":60
+      },
+      {
          "symbol":"EW",
          "type":"put",
          "expiry":"2026-10-16",
@@ -312,6 +324,12 @@
          "type":"put",
          "expiry":"2026-10-02",
          "strike":69
+      },
+      {
+         "symbol":"NICE",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":95
       },
       {
          "symbol":"NKE",
