@@ -349,6 +349,12 @@
          "strike":57.5
       },
       {
+         "symbol":"PAGS",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":8
+      },
+      {
          "symbol":"PEP",
          "type":"put",
          "expiry":"2026-10-02",
