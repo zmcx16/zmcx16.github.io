@@ -285,6 +285,12 @@
          "strike":60
       },
       {
+         "symbol":"EPAM",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":90
+      },
+      {
          "symbol":"EW",
          "type":"put",
          "expiry":"2026-10-16",
@@ -295,6 +301,12 @@
          "type":"put",
          "expiry":"2026-10-16",
          "strike":125
+      },
+      {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":30
       },
       {
          "symbol":"GLOB",
@@ -325,6 +337,12 @@
          "type":"put",
          "expiry":"2026-10-16",
          "strike":95
+      },
+      {
+         "symbol":"NVMI",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":300
       },
       {
          "symbol":"NVO",
