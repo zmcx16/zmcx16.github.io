@@ -243,12 +243,6 @@
    ],
    "hold_option_list":[
       {
-         "symbol":"AA",
-         "type":"put",
-         "expiry":"2026-10-02",
-         "strike":39
-      },
-      {
          "symbol":"AAON",
          "type":"put",
          "expiry":"2026-10-16",
@@ -271,6 +265,12 @@
          "type":"put",
          "expiry":"2026-10-16",
          "strike":90
+      },
+      {
+         "symbol":"CCL",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":20
       },
       {
          "symbol":"DEO",
@@ -309,6 +309,12 @@
          "strike":125
       },
       {
+         "symbol":"GEN",
+         "type":"put",
+         "expiry":"2026-10-16",
+         "strike":20
+      },
+      {
          "symbol":"GIS",
          "type":"put",
          "expiry":"2026-10-16",
@@ -333,12 +339,6 @@
          "strike":70
       },
       {
-         "symbol":"NFLX",
-         "type":"put",
-         "expiry":"2026-10-02",
-         "strike":69
-      },
-      {
          "symbol":"NICE",
          "type":"put",
          "expiry":"2026-10-16",
@@ -351,12 +351,6 @@
          "strike":300
       },
       {
-         "symbol":"NVO",
-         "type":"put",
-         "expiry":"2026-10-02",
-         "strike":40
-      },
-      {
          "symbol":"OMF",
          "type":"put",
          "expiry":"2026-10-16",
@@ -367,12 +361,6 @@
          "type":"put",
          "expiry":"2026-10-16",
          "strike":8
-      },
-      {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-10-02",
-         "strike":129
       },
       {
          "symbol":"SFD",
