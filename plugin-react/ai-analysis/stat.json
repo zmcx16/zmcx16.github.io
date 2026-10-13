@@ -121,7 +121,7 @@
       "last_update_time": "2026-09-23T14:57:20.297742"
     },
     "CRM": {
-      "last_update_time": "2026-09-29T13:35:39.354441"
+      "last_update_time": "2026-10-13T13:03:27.316930"
     },
     "CSCO": {
       "last_update_time": "2026-09-24T13:41:04.615847"
@@ -475,7 +475,7 @@
       "last_update_time": "2026-09-28T13:01:56.468001"
     },
     "PYPL": {
-      "last_update_time": "2026-09-29T16:13:40.179198"
+      "last_update_time": "2026-10-13T13:06:20.382251"
     },
     "QCOM": {
       "last_update_time": "2026-09-29T13:49:14.800270"
@@ -741,7 +741,7 @@
       "last_update_time": "2026-10-01T13:50:27.616523"
     },
     "CRM": {
-      "last_update_time": "2026-09-30T13:26:58.031679"
+      "last_update_time": "2026-10-13T13:07:14.990525"
     },
     "CSCO": {
       "last_update_time": "2026-10-02T14:03:19.854523"
@@ -840,7 +840,7 @@
       "last_update_time": "2026-10-03T15:09:08.250102"
     },
     "GLOB": {
-      "last_update_time": "2026-10-01T13:22:58.620245"
+      "last_update_time": "2026-10-13T13:14:37.763975"
     },
     "GM": {
       "last_update_time": "2026-10-03T15:12:02.343742"
@@ -1235,7 +1235,7 @@
       "last_update_time": "2026-09-13T12:37:45.328698"
     },
     "AAP": {
-      "last_update_time": "2026-10-01T13:30:10.010890"
+      "last_update_time": "2026-10-13T13:19:38.001376"
     },
     "AAPL": {
       "last_update_time": "2026-10-10T15:58:44.223859"
@@ -1256,7 +1256,7 @@
       "last_update_time": "2026-09-30T13:37:30.319661"
     },
     "ADSK": {
-      "last_update_time": "2026-09-30T13:32:04.109794"
+      "last_update_time": "2026-10-13T13:09:49.507364"
     },
     "ADT": {
       "last_update_time": "2026-08-25T11:02:21.601672"
@@ -1307,7 +1307,7 @@
       "last_update_time": "2026-10-06T14:03:38.500618"
     },
     "BLD": {
-      "last_update_time": "2026-08-13T11:06:47.458158"
+      "last_update_time": "2026-10-13T13:23:30.436551"
     },
     "BTG": {
       "last_update_time": "2026-10-12T13:10:42.701513"
@@ -1319,7 +1319,7 @@
       "last_update_time": "2026-10-12T13:13:47.959589"
     },
     "CAG": {
-      "last_update_time": "2026-08-13T11:07:18.960423"
+      "last_update_time": "2026-10-13T13:24:29.635837"
     },
     "CALM": {
       "last_update_time": "2026-10-12T13:14:17.576404"
@@ -1343,16 +1343,16 @@
       "last_update_time": "2026-10-09T14:53:16.947960"
     },
     "CNMD": {
-      "last_update_time": "2026-08-13T11:08:17.512766"
+      "last_update_time": "2026-10-13T13:25:11.221892"
     },
     "CRM": {
-      "last_update_time": "2026-09-30T13:29:27.397225"
+      "last_update_time": "2026-10-13T13:08:07.818271"
     },
     "CSCO": {
-      "last_update_time": "2026-08-13T11:09:11.368418"
+      "last_update_time": "2026-10-13T13:26:14.717112"
     },
     "CVS": {
-      "last_update_time": "2026-08-13T11:09:41.786598"
+      "last_update_time": "2026-10-13T13:26:56.625982"
     },
     "CVX": {
       "last_update_time": "2026-10-11T16:34:14.571079"
@@ -1370,7 +1370,7 @@
       "last_update_time": "2026-10-12T13:15:45.490073"
     },
     "DHI": {
-      "last_update_time": "2026-08-13T11:10:09.072379"
+      "last_update_time": "2026-10-13T13:27:36.984703"
     },
     "DIS": {
       "last_update_time": "2026-10-12T13:16:14.765427"
@@ -1379,61 +1379,61 @@
       "last_update_time": "2026-10-12T13:16:44.285151"
     },
     "DXPE": {
-      "last_update_time": "2026-08-13T11:10:39.123058"
+      "last_update_time": "2026-10-13T13:28:15.531011"
     },
     "EL": {
-      "last_update_time": "2026-10-01T13:19:36.951775"
+      "last_update_time": "2026-10-13T13:12:53.510690"
     },
     "EMN": {
       "last_update_time": "2026-10-12T13:17:14.401658"
     },
     "EPAM": {
-      "last_update_time": "2026-10-01T13:26:43.310645"
+      "last_update_time": "2026-10-13T13:17:14.652521"
     },
     "ETN": {
       "last_update_time": "2026-10-12T13:17:44.030282"
     },
     "EW": {
-      "last_update_time": "2026-08-13T11:11:08.743358"
+      "last_update_time": "2026-10-13T13:29:22.482127"
     },
     "EXLS": {
       "last_update_time": "2026-10-12T19:23:27.310744"
     },
     "EXR": {
-      "last_update_time": "2026-08-13T11:11:38.305668"
+      "last_update_time": "2026-10-13T13:30:05.769460"
     },
     "F": {
-      "last_update_time": "2026-08-13T11:12:06.749293"
+      "last_update_time": "2026-10-13T13:30:46.311551"
     },
     "FDX": {
-      "last_update_time": "2026-08-13T11:12:35.104110"
+      "last_update_time": "2026-10-13T13:31:30.153977"
     },
     "FFIV": {
-      "last_update_time": "2026-08-13T11:13:02.451708"
+      "last_update_time": "2026-10-13T13:32:13.817047"
     },
     "FISV": {
-      "last_update_time": "2026-08-13T11:13:34.086135"
+      "last_update_time": "2026-10-13T13:32:56.869264"
     },
     "FLO": {
       "last_update_time": "2026-10-12T12:43:28.551665"
     },
     "FSLR": {
-      "last_update_time": "2026-08-14T11:02:40.308016"
+      "last_update_time": "2026-10-13T13:33:40.656954"
     },
     "FTNT": {
-      "last_update_time": "2026-08-14T11:03:09.161597"
+      "last_update_time": "2026-10-13T13:34:40.902586"
     },
     "G": {
-      "last_update_time": "2026-08-14T11:03:36.729653"
+      "last_update_time": "2026-10-13T13:35:21.618147"
     },
     "GAP": {
       "last_update_time": "2026-08-14T11:04:05.824584"
     },
     "GEN": {
-      "last_update_time": "2026-08-14T11:04:33.162144"
+      "last_update_time": "2026-10-13T13:36:30.081414"
     },
     "GGB": {
-      "last_update_time": "2026-08-14T11:05:02.136287"
+      "last_update_time": "2026-10-13T13:37:11.320473"
     },
     "GIB": {
       "last_update_time": "2026-09-04T14:31:42.144508"
@@ -1445,7 +1445,7 @@
       "last_update_time": "2026-08-14T11:05:39.179829"
     },
     "GLOB": {
-      "last_update_time": "2026-10-01T13:24:57.922637"
+      "last_update_time": "2026-10-13T13:15:26.436830"
     },
     "GM": {
       "last_update_time": "2026-08-14T11:06:46.046930"
@@ -1598,10 +1598,10 @@
       "last_update_time": "2026-10-05T15:18:01.941259"
     },
     "NICE": {
-      "last_update_time": "2026-09-30T13:30:15.894731"
+      "last_update_time": "2026-10-13T13:08:45.803543"
     },
     "NKE": {
-      "last_update_time": "2026-10-01T13:20:40.117077"
+      "last_update_time": "2026-10-13T13:13:37.328287"
     },
     "NOG": {
       "last_update_time": "2026-08-16T10:25:57.570198"
@@ -1625,7 +1625,7 @@
       "last_update_time": "2026-09-13T12:39:16.155696"
     },
     "NVO": {
-      "last_update_time": "2026-10-01T13:29:13.117368"
+      "last_update_time": "2026-10-13T13:18:51.573931"
     },
     "NXPI": {
       "last_update_time": "2026-08-16T10:31:14.773899"
@@ -1688,7 +1688,7 @@
       "last_update_time": "2026-08-17T10:43:56.679524"
     },
     "PYPL": {
-      "last_update_time": "2026-10-01T13:32:08.304936"
+      "last_update_time": "2026-10-13T13:20:31.259717"
     },
     "QCOM": {
       "last_update_time": "2026-08-17T10:44:25.069933"
@@ -1709,7 +1709,7 @@
       "last_update_time": "2026-09-05T13:34:52.097111"
     },
     "SID": {
-      "last_update_time": "2026-10-01T13:28:36.719205"
+      "last_update_time": "2026-10-13T13:18:03.977470"
     },
     "SM": {
       "last_update_time": "2026-08-17T10:46:23.276494"
@@ -1826,7 +1826,7 @@
       "last_update_time": "2026-08-18T10:58:01.330163"
     },
     "ZIM": {
-      "last_update_time": "2026-09-30T13:32:59.102661"
+      "last_update_time": "2026-10-13T13:10:42.669925"
     },
     "ZTS": {
       "last_update_time": "2026-08-19T11:14:19.353542"
