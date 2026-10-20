@@ -329,10 +329,22 @@
          "strike":25.5
       },
       {
+         "symbol":"QCOM",
+         "type":"put",
+         "expiry":"2026-10-30",
+         "strike":150
+      },
+      {
          "symbol":"UPS",
          "type":"put",
          "expiry":"2026-10-23",
          "strike":93
+      },
+      {
+         "symbol":"ZIM",
+         "type":"put",
+         "expiry":"2026-11-13",
+         "strike":24
       }
    ],
    "news_config":{
