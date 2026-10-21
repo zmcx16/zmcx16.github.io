@@ -245,6 +245,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"ADBE",
+         "type":"put",
+         "expiry":"2026-11-13",
+         "strike":215
+      },
+      {
          "symbol":"ADSK",
          "type":"put",
          "expiry":"2026-10-30",
