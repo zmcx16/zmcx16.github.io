@@ -245,6 +245,12 @@
    ],
    "hold_option_list":[
       {
+         "symbol":"AA",
+         "type":"put",
+         "expiry":"2027-01-15",
+         "strike":30
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2026-11-13",
@@ -287,12 +293,6 @@
          "strike":75
       },
       {
-         "symbol":"DHI",
-         "type":"put",
-         "expiry":"2026-10-23",
-         "strike":125
-      },
-      {
          "symbol":"ETN",
          "type":"put",
          "expiry":"2026-10-30",
@@ -303,6 +303,12 @@
          "type":"put",
          "expiry":"2026-10-30",
          "strike":43
+      },
+      {
+         "symbol":"MOH",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":180
       },
       {
          "symbol":"NKE",
@@ -323,12 +329,6 @@
          "strike":17.5
       },
       {
-         "symbol":"PEP",
-         "type":"put",
-         "expiry":"2026-10-23",
-         "strike":120
-      },
-      {
          "symbol":"PFE",
          "type":"put",
          "expiry":"2026-10-30",
@@ -339,12 +339,6 @@
          "type":"put",
          "expiry":"2026-10-30",
          "strike":150
-      },
-      {
-         "symbol":"UPS",
-         "type":"put",
-         "expiry":"2026-10-23",
-         "strike":93
       },
       {
          "symbol":"ZIM",
