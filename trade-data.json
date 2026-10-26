@@ -305,6 +305,12 @@
          "strike":43
       },
       {
+         "symbol":"HON",
+         "type":"put",
+         "expiry":"2026-11-06",
+         "strike":200
+      },
+      {
          "symbol":"MOH",
          "type":"put",
          "expiry":"2026-11-20",
