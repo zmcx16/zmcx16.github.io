@@ -352,6 +352,12 @@
          "strike":150
       },
       {
+         "symbol":"VMI",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":380
+      },
+      {
          "symbol":"ZIM",
          "type":"put",
          "expiry":"2026-11-13",
