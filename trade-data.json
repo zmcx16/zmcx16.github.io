@@ -262,6 +262,12 @@
          "strike":11
       },
       {
+         "symbol":"BBW",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":22.5
+      },
+      {
          "symbol":"CALM",
          "type":"put",
          "expiry":"2026-11-20",
@@ -298,6 +304,24 @@
          "strike":75
       },
       {
+         "symbol":"DHI",
+         "type":"put",
+         "expiry":"2026-11-13",
+         "strike":129
+      },
+      {
+         "symbol":"FSLR",
+         "type":"put",
+         "expiry":"2026-11-13",
+         "strike":145
+      },
+      {
+         "symbol":"GIS",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":30
+      },
+      {
          "symbol":"HON",
          "type":"put",
          "expiry":"2026-11-06",
@@ -308,6 +332,18 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":180
+      },
+      {
+         "symbol":"NKE",
+         "type":"put",
+         "expiry":"2026-12-04",
+         "strike":33
+      },
+      {
+         "symbol":"NOW",
+         "type":"put",
+         "expiry":"2026-11-06",
+         "strike":90
       },
       {
          "symbol":"OXM",
