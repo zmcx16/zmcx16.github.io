@@ -256,12 +256,6 @@
          "strike":215
       },
       {
-         "symbol":"ADSK",
-         "type":"put",
-         "expiry":"2026-10-30",
-         "strike":200
-      },
-      {
          "symbol":"AEO",
          "type":"put",
          "expiry":"2026-11-20",
@@ -304,18 +298,6 @@
          "strike":75
       },
       {
-         "symbol":"ETN",
-         "type":"put",
-         "expiry":"2026-10-30",
-         "strike":350
-      },
-      {
-         "symbol":"FISV",
-         "type":"put",
-         "expiry":"2026-10-30",
-         "strike":43
-      },
-      {
          "symbol":"HON",
          "type":"put",
          "expiry":"2026-11-06",
@@ -326,12 +308,6 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":180
-      },
-      {
-         "symbol":"NKE",
-         "type":"put",
-         "expiry":"2026-10-30",
-         "strike":29
       },
       {
          "symbol":"OXM",
@@ -346,16 +322,10 @@
          "strike":17.5
       },
       {
-         "symbol":"PFE",
+         "symbol":"STRL",
          "type":"put",
-         "expiry":"2026-10-30",
-         "strike":25.5
-      },
-      {
-         "symbol":"QCOM",
-         "type":"put",
-         "expiry":"2026-10-30",
-         "strike":150
+         "expiry":"2026-11-20",
+         "strike":270
       },
       {
          "symbol":"UPS",
