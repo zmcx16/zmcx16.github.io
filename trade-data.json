@@ -262,6 +262,12 @@
          "strike":11
       },
       {
+         "symbol":"AMZN",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":205
+      },
+      {
          "symbol":"BBW",
          "type":"put",
          "expiry":"2026-11-20",
@@ -394,10 +400,22 @@
          "strike":17.5
       },
       {
+         "symbol":"PEP",
+         "type":"put",
+         "expiry":"2026-11-13",
+         "strike":130
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2026-11-27",
          "strike":52
+      },
+      {
+         "symbol":"SOFI",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":14
       },
       {
          "symbol":"STRL",
@@ -416,6 +434,12 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":95
+      },
+      {
+         "symbol":"VALE",
+         "type":"put",
+         "expiry":"2027-01-15",
+         "strike":9
       },
       {
          "symbol":"VIST",
