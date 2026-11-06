@@ -16,6 +16,7 @@ if sys.platform == 'win32':
 
 try:
     from google import genai
+    from google.genai import types
 except ImportError:
     print("Error: google-genai package is not installed.")
     print("Please install it using: pip install google-genai")
@@ -74,7 +75,11 @@ def list_gemini_models(api_key: str = None, test_access: bool = False) -> List[D
         )
     
     # Create client
-    client = genai.Client(api_key=api_key)
+    api_version = os.environ.get('GEMINI_API_VERSION', 'v1beta')
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(api_version=api_version)
+    )
     
     # List all models
     models = []

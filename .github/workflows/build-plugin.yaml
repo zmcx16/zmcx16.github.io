@@ -65,6 +65,7 @@ jobs:
     - name: get AI analysis data
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GEMINI_API_VERSION: v1beta
       run: |-
         python ./.github/script/build_ai_analysis.py --models gemini-2.5-flash --input-type summary --update-threshold-days ${{ github.event.inputs.summary_update_threshold_days || '7' }}
         echo sleep 1 min to avoid rate limit

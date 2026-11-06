@@ -156,6 +156,12 @@ def parse_args():
         default='stock',
         help='Type of analysis to perform: stock (per-stock analysis) or summary (portfolio summary prompts) (default: stock)'
     )
+    parser.add_argument(
+        '--api-version',
+        type=str,
+        default=os.environ.get('GEMINI_API_VERSION', 'v1beta'),
+        help='Gemini API version to use (default: v1beta or GEMINI_API_VERSION env var)'
+    )
 
     return parser.parse_args()
 
@@ -249,34 +255,42 @@ def is_valid_markdown(text):
     
     return True
 
-def get_client(api_key):
+def get_client(api_key, api_version=None):
     """Get or create the Gemini client instance (singleton pattern)."""
     global _model
     if _model is None:
+        if not api_version:
+            api_version = os.environ.get('GEMINI_API_VERSION', 'v1beta')
         # Set a client-level timeout using HttpOptions (in milliseconds)
         # 300,000 ms = 300 seconds
         client_timeout = _get_env_int('GEMINI_CLIENT_TIMEOUT', 300000)
         _model = genai.Client(
             api_key=api_key,
-            http_options=types.HttpOptions(timeout=client_timeout)
+            http_options=types.HttpOptions(
+                api_version=api_version,
+                timeout=client_timeout
+            )
         )
-        logging.info(f"Initialized Gemini client with {client_timeout}ms timeout")
+        logging.info(f"Initialized Gemini client with api_version={api_version}, {client_timeout}ms timeout")
         time.sleep(60)  # Sleep 1 minute to avoid rate limit
     return _model
 
-def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
-    client = get_client(api_key)
+def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5, api_version=None):
+    client = get_client(api_key, api_version=api_version)
     
     # Build request parameters from env vars / defaults
     api_params = get_api_params()
     # Always include model and contents
     request_kwargs = dict(model=model_name, contents=prompt, **api_params)
+    effective_api_version = api_version or os.environ.get('GEMINI_API_VERSION', 'v1beta')
+    http_opts = types.HttpOptions(api_version=effective_api_version)
     # Put tools into a shallow config dict alongside existing api_params
     try:
         request_kwargs['config'] = dict(api_params)
         request_kwargs['config']['tools'] = tools
+        request_kwargs['config']['http_options'] = http_opts
     except Exception:
-        request_kwargs['config'] = {'tools': tools}
+        request_kwargs['config'] = {'tools': tools, 'http_options': http_opts}
     logging.debug(f'Calling Gemini with requested params: {request_kwargs}')
     # Retry logic for this specific model (only for 503 errors)
     for attempt in range(max_retries):
@@ -375,6 +389,8 @@ def call_gemini_api(prompt, api_key, model_name, tools, max_retries=5):
                 if '429' in inner_msg or 'rate limit' in inner_msg or 'quota' in inner_msg:
                     logging.warning('Detected rate limit error in SDK call, raising RateLimitError')
                     raise RateLimitError(f'Rate limit detected in SDK inner call: {inner_ex}')
+                elif '503' in inner_msg or 'unavailable' in inner_msg or 'overloaded' in inner_msg:
+                    raise inner_ex
                 return None
             
         except Exception as ex:
@@ -539,6 +555,9 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
     
     args = parse_args()
+    api_version = args.api_version
+    os.environ['GEMINI_API_VERSION'] = api_version
+    os.environ.setdefault('GOOGLE_GENAI_API_VERSION', api_version)
     update_threshold_days = args.update_threshold_days
     input_type = args.input_type
     selected_models = args.models if args.models else list(MODEL_LIST.keys())
@@ -617,7 +636,7 @@ if __name__ == "__main__":
 
                     enriched_prompt = build_summary_prompt_with_context(prompt, prompt_cfg, workspace_root)
                     # logging.info(f"Enriched prompt for '{prompt_key}': {enriched_prompt}...")
-                    result = call_gemini_api(enriched_prompt, GEMINI_API_KEY, model_name, tools)
+                    result = call_gemini_api(enriched_prompt, GEMINI_API_KEY, model_name, tools, api_version=api_version)
                 except RateLimitError:
                     logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
                     model_switched = True
@@ -748,7 +767,7 @@ if __name__ == "__main__":
                     else:
                         tools = []
 
-                    result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools)
+                    result = call_gemini_api(prompt, GEMINI_API_KEY, model_name, tools, api_version=api_version)
                 except RateLimitError:
                     logging.warning(f"Rate limit (429) for {model_name}, switching to next model")
                     model_switched = True
