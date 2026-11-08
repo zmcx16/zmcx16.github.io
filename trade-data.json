@@ -250,6 +250,12 @@
          "strike":30
       },
       {
+         "symbol":"AAP",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":37.5
+      },
+      {
          "symbol":"ADBE",
          "type":"put",
          "expiry":"2026-11-13",
@@ -260,6 +266,12 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":11
+      },
+      {
+         "symbol":"ALB",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":86
       },
       {
          "symbol":"AMZN",
@@ -342,7 +354,7 @@
       {
          "symbol":"HON",
          "type":"put",
-         "expiry":"2026-11-06",
+         "expiry":"2026-11-20",
          "strike":200
       },
       {
@@ -368,12 +380,6 @@
          "type":"put",
          "expiry":"2026-12-04",
          "strike":33
-      },
-      {
-         "symbol":"NOW",
-         "type":"put",
-         "expiry":"2026-11-06",
-         "strike":90
       },
       {
          "symbol":"OMF",
@@ -406,6 +412,12 @@
          "strike":130
       },
       {
+         "symbol":"PFE",
+         "type":"put",
+         "expiry":"2026-12-11",
+         "strike":26
+      },
+      {
          "symbol":"PYPL",
          "type":"put",
          "expiry":"2026-11-27",
@@ -422,6 +434,12 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":270
+      },
+      {
+         "symbol":"TDC",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":27.5
       },
       {
          "symbol":"UHS",
@@ -458,6 +476,12 @@
          "type":"put",
          "expiry":"2026-11-13",
          "strike":24
+      },
+      {
+         "symbol":"ZTS",
+         "type":"put",
+         "expiry":"2026-11-20",
+         "strike":70
       }
    ],
    "news_config":{
