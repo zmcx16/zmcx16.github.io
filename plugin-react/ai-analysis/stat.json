@@ -4,7 +4,7 @@
       "last_update_time": "2026-10-26T15:11:27.771326"
     },
     "AAON": {
-      "last_update_time": "2026-09-13T12:29:54.829713"
+      "last_update_time": "2026-11-10T17:45:12.173204"
     },
     "AAP": {
       "last_update_time": "2026-11-05T13:56:28.708509"
@@ -280,7 +280,7 @@
       "last_update_time": "2026-09-25T13:36:32.316442"
     },
     "INTR": {
-      "last_update_time": "2026-09-13T12:30:23.243438"
+      "last_update_time": "2026-11-10T17:45:42.983485"
     },
     "ISRG": {
       "last_update_time": "2026-09-26T14:25:34.445681"
@@ -376,7 +376,7 @@
       "last_update_time": "2026-09-28T13:03:30.036221"
     },
     "MYRG": {
-      "last_update_time": "2026-09-13T12:30:53.143470"
+      "last_update_time": "2026-11-10T17:46:11.359056"
     },
     "NDAQ": {
       "last_update_time": "2026-09-27T15:19:51.753267"
@@ -409,7 +409,7 @@
       "last_update_time": "2026-09-27T15:22:54.766273"
     },
     "NVMI": {
-      "last_update_time": "2026-09-13T12:31:21.975155"
+      "last_update_time": "2026-11-10T17:46:39.796482"
     },
     "NVO": {
       "last_update_time": "2026-11-07T16:13:56.602211"
@@ -505,7 +505,7 @@
       "last_update_time": "2026-09-29T13:51:08.378073"
     },
     "SOFI": {
-      "last_update_time": "2026-09-13T12:31:50.749257"
+      "last_update_time": "2026-11-10T17:47:10.104949"
     },
     "SONY": {
       "last_update_time": "2026-09-28T13:07:57.727541"
@@ -520,7 +520,7 @@
       "last_update_time": "2026-09-28T13:11:20.408684"
     },
     "STRL": {
-      "last_update_time": "2026-09-13T12:32:19.030514"
+      "last_update_time": "2026-11-10T17:47:39.287821"
     },
     "T": {
       "last_update_time": "2026-10-27T13:02:49.878238"
@@ -562,7 +562,7 @@
       "last_update_time": "2026-09-29T13:54:16.847863"
     },
     "TYL": {
-      "last_update_time": "2026-09-13T12:32:50.653823"
+      "last_update_time": "2026-11-10T17:48:11.952672"
     },
     "UAL": {
       "last_update_time": "2026-09-29T13:54:46.613917"
@@ -571,7 +571,7 @@
       "last_update_time": "2026-10-27T12:59:49.472047"
     },
     "UI": {
-      "last_update_time": "2026-09-13T12:33:19.997904"
+      "last_update_time": "2026-11-10T17:48:40.653201"
     },
     "UPS": {
       "last_update_time": "2026-09-30T13:48:19.293129"
@@ -627,10 +627,10 @@
       "last_update_time": "2026-10-27T13:03:18.154564"
     },
     "AAON": {
-      "last_update_time": "2026-09-13T12:33:48.286155"
+      "last_update_time": "2026-11-10T17:49:09.547790"
     },
     "AAP": {
-      "last_update_time": "2026-10-28T12:50:20.069617"
+      "last_update_time": "2026-11-10T17:41:46.606982"
     },
     "AAPL": {
       "last_update_time": "2026-09-30T13:46:32.161049"
@@ -648,7 +648,7 @@
       "last_update_time": "2026-09-30T13:48:53.677270"
     },
     "ADBE": {
-      "last_update_time": "2026-10-28T12:54:05.465249"
+      "last_update_time": "2026-11-10T17:42:42.020945"
     },
     "ADSK": {
       "last_update_time": "2026-10-14T11:54:37.848108"
@@ -891,7 +891,7 @@
       "last_update_time": "2026-10-04T10:42:14.625461"
     },
     "INTR": {
-      "last_update_time": "2026-09-13T12:34:18.420161"
+      "last_update_time": "2026-11-10T17:49:39.272538"
     },
     "ISRG": {
       "last_update_time": "2026-10-04T10:50:24.658544"
@@ -984,7 +984,7 @@
       "last_update_time": "2026-10-04T15:07:48.162692"
     },
     "MYRG": {
-      "last_update_time": "2026-09-13T12:34:45.558673"
+      "last_update_time": "2026-11-10T17:50:10.999859"
     },
     "NDAQ": {
       "last_update_time": "2026-10-08T13:17:04.806796"
@@ -1017,7 +1017,7 @@
       "last_update_time": "2026-10-08T17:02:53.778709"
     },
     "NVMI": {
-      "last_update_time": "2026-09-13T12:35:14.719606"
+      "last_update_time": "2026-11-10T17:50:40.767699"
     },
     "NVO": {
       "last_update_time": "2026-11-07T15:56:42.904042"
@@ -1113,7 +1113,7 @@
       "last_update_time": "2026-10-09T15:14:59.618738"
     },
     "SOFI": {
-      "last_update_time": "2026-09-13T12:35:43.635131"
+      "last_update_time": "2026-11-10T17:51:10.021211"
     },
     "SONY": {
       "last_update_time": "2026-10-09T15:19:00.256116"
@@ -1128,7 +1128,7 @@
       "last_update_time": "2026-10-09T15:16:35.607435"
     },
     "STRL": {
-      "last_update_time": "2026-09-13T12:36:12.957017"
+      "last_update_time": "2026-11-10T17:51:38.893905"
     },
     "T": {
       "last_update_time": "2026-10-28T13:06:33.263024"
@@ -1170,7 +1170,7 @@
       "last_update_time": "2026-10-09T15:22:24.229273"
     },
     "TYL": {
-      "last_update_time": "2026-09-13T12:36:42.361014"
+      "last_update_time": "2026-11-10T17:52:07.223708"
     },
     "UAL": {
       "last_update_time": "2026-10-09T15:22:53.557875"
@@ -1179,7 +1179,7 @@
       "last_update_time": "2026-10-27T13:04:19.430772"
     },
     "UI": {
-      "last_update_time": "2026-09-13T12:37:14.124802"
+      "last_update_time": "2026-11-10T17:52:37.105685"
     },
     "UPS": {
       "last_update_time": "2026-10-09T15:23:27.504943"
@@ -1221,7 +1221,7 @@
       "last_update_time": "2026-10-11T16:22:49.277347"
     },
     "ZIM": {
-      "last_update_time": "2026-10-28T12:48:52.866075"
+      "last_update_time": "2026-11-10T17:39:28.868213"
     },
     "ZTS": {
       "last_update_time": "2026-10-10T15:58:14.330953"
@@ -1232,7 +1232,7 @@
       "last_update_time": "2026-10-27T13:04:50.389834"
     },
     "AAON": {
-      "last_update_time": "2026-09-13T12:37:45.328698"
+      "last_update_time": "2026-11-10T17:53:09.460228"
     },
     "AAP": {
       "last_update_time": "2026-11-09T13:55:03.358486"
@@ -1253,7 +1253,7 @@
       "last_update_time": "2026-10-12T13:08:43.968508"
     },
     "ADBE": {
-      "last_update_time": "2026-10-28T12:46:24.425059"
+      "last_update_time": "2026-11-10T17:36:47.871717"
     },
     "ADSK": {
       "last_update_time": "2026-10-13T13:09:49.507364"
@@ -1496,7 +1496,7 @@
       "last_update_time": "2026-10-14T12:12:24.168888"
     },
     "INTR": {
-      "last_update_time": "2026-09-13T12:38:15.143932"
+      "last_update_time": "2026-11-10T17:53:38.677211"
     },
     "ISRG": {
       "last_update_time": "2026-10-14T12:12:53.270527"
@@ -1574,7 +1574,7 @@
       "last_update_time": "2026-10-15T13:42:49.893130"
     },
     "MPT": {
-      "last_update_time": "2026-10-28T12:49:38.655091"
+      "last_update_time": "2026-11-10T17:40:20.131340"
     },
     "MS": {
       "last_update_time": "2026-10-15T13:43:19.412752"
@@ -1589,7 +1589,7 @@
       "last_update_time": "2026-10-15T13:44:57.561204"
     },
     "MYRG": {
-      "last_update_time": "2026-09-13T12:38:45.789805"
+      "last_update_time": "2026-11-10T17:54:08.973909"
     },
     "NDAQ": {
       "last_update_time": "2026-10-15T13:45:24.886257"
@@ -1622,7 +1622,7 @@
       "last_update_time": "2026-10-15T13:48:02.524346"
     },
     "NVMI": {
-      "last_update_time": "2026-09-13T12:39:16.155696"
+      "last_update_time": "2026-11-10T17:54:39.489604"
     },
     "NVO": {
       "last_update_time": "2026-11-09T13:54:03.618383"
@@ -1706,7 +1706,7 @@
       "last_update_time": "2026-10-27T13:07:43.839002"
     },
     "SFD": {
-      "last_update_time": "2026-10-27T12:53:06.862361"
+      "last_update_time": "2026-11-10T17:32:11.398727"
     },
     "SID": {
       "last_update_time": "2026-11-09T13:53:13.894283"
@@ -1718,7 +1718,7 @@
       "last_update_time": "2026-10-18T14:19:16.690099"
     },
     "SOFI": {
-      "last_update_time": "2026-09-13T12:39:48.341907"
+      "last_update_time": "2026-11-10T17:55:13.167867"
     },
     "SONY": {
       "last_update_time": "2026-10-18T14:19:44.143244"
@@ -1733,7 +1733,7 @@
       "last_update_time": "2026-10-18T14:20:40.666957"
     },
     "STRL": {
-      "last_update_time": "2026-09-14T13:01:21.813054"
+      "last_update_time": "2026-11-10T17:55:48.902596"
     },
     "T": {
       "last_update_time": "2026-10-27T13:08:13.995689"
@@ -2311,7 +2311,7 @@
       "last_update_time": "2026-10-28T13:09:50.824913"
     },
     "SFD": {
-      "last_update_time": "2026-10-27T15:36:13.653823"
+      "last_update_time": "2026-11-10T17:33:22.011405"
     },
     "SID": {
       "last_update_time": "2026-11-03T17:24:01.221776"
@@ -2442,34 +2442,34 @@
       "last_update_time": "2026-11-05T17:37:49.399863"
     },
     "Top10_DavisDoublePlay": {
-      "last_update_time": "2026-11-02T14:56:46.998344"
+      "last_update_time": "2026-11-10T17:17:40.149571"
     },
     "Top10_DividendValue": {
-      "last_update_time": "2026-11-02T14:57:43.726508"
+      "last_update_time": "2026-11-10T17:18:39.160262"
     },
     "Top10_Momentum": {
-      "last_update_time": "2026-11-02T14:58:46.892851"
+      "last_update_time": "2026-11-10T17:19:28.148826"
     },
     "Top10_QualityGrowth": {
-      "last_update_time": "2026-11-02T14:59:46.903257"
+      "last_update_time": "2026-11-10T17:20:27.933565"
     },
     "Top10_SmallCapGems": {
-      "last_update_time": "2026-11-02T15:00:38.180537"
+      "last_update_time": "2026-11-10T17:21:20.662515"
     },
     "Top10_SocialArbitrage": {
-      "last_update_time": "2026-11-02T19:46:19.474641"
+      "last_update_time": "2026-11-10T17:22:22.336124"
     },
     "Top10_Turnaround": {
-      "last_update_time": "2026-11-02T15:01:54.743813"
+      "last_update_time": "2026-11-10T17:23:21.864918"
     },
     "Top10_UndervaluedGrowth": {
-      "last_update_time": "2026-11-03T13:28:07.246374"
+      "last_update_time": "2026-11-10T17:24:26.156295"
     },
     "Top10_UndervaluedGrowthIndustries": {
-      "last_update_time": "2026-11-02T15:03:27.528599"
+      "last_update_time": "2026-11-10T17:25:56.913457"
     },
     "Top10_investmentGurus": {
-      "last_update_time": "2026-11-02T15:05:43.786922"
+      "last_update_time": "2026-11-10T17:29:23.932577"
     }
   },
   "super-thinking": {
@@ -2951,7 +2951,7 @@
       "last_update_time": "2026-10-28T13:16:23.301790"
     },
     "SFD": {
-      "last_update_time": "2026-10-27T15:37:24.149671"
+      "last_update_time": "2026-11-10T17:35:08.556297"
     },
     "SID": {
       "last_update_time": "2026-11-03T13:32:27.225388"
@@ -3556,7 +3556,7 @@
       "last_update_time": "2026-10-29T14:29:45.799262"
     },
     "SFD": {
-      "last_update_time": "2026-10-28T12:45:36.974641"
+      "last_update_time": "2026-11-10T17:36:01.387038"
     },
     "SID": {
       "last_update_time": "2026-11-05T13:39:53.568850"
