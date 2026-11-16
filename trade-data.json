@@ -249,6 +249,12 @@
          "strike":30
       },
       {
+         "symbol":"AAON",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":45
+      },
+      {
          "symbol":"AAP",
          "type":"put",
          "expiry":"2026-11-20",
@@ -327,6 +333,12 @@
          "strike":395
       },
       {
+         "symbol":"KBR",
+         "type":"put",
+         "expiry":"2027-01-15",
+         "strike":30
+      },
+      {
          "symbol":"LRCX",
          "type":"put",
          "expiry":"2026-12-04",
@@ -339,16 +351,34 @@
          "strike":180
       },
       {
+         "symbol":"MU",
+         "type":"put",
+         "expiry":"2026-12-04",
+         "strike":460
+      },
+      {
          "symbol":"NKE",
          "type":"put",
          "expiry":"2026-12-04",
          "strike":33
       },
       {
+         "symbol":"NXPI",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":200
+      },
+      {
          "symbol":"OMF",
          "type":"put",
          "expiry":"2026-11-20",
          "strike":52.5
+      },
+      {
+         "symbol":"ORCL",
+         "type":"put",
+         "expiry":"2026-12-04",
+         "strike":90
       },
       {
          "symbol":"OXM",
@@ -397,6 +427,12 @@
          "type":"put",
          "expiry":"2026-11-20",
          "strike":27.5
+      },
+      {
+         "symbol":"UAL",
+         "type":"put",
+         "expiry":"2026-12-04",
+         "strike":93
       },
       {
          "symbol":"UHS",
