@@ -1,6 +1,5 @@
 {
    "hold_stock_list":[
-      "CMCSA",
       "EL",
       "FLO",
       "SFD",
@@ -273,10 +272,34 @@
          "strike":86
       },
       {
+         "symbol":"AMAT",
+         "type":"put",
+         "expiry":"2026-11-27",
+         "strike":260
+      },
+      {
          "symbol":"AMZN",
          "type":"put",
          "expiry":"2026-12-18",
          "strike":205
+      },
+      {
+         "symbol":"ANET",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":125
+      },
+      {
+         "symbol":"ASML",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":960
+      },
+      {
+         "symbol":"BAC",
+         "type":"put",
+         "expiry":"2026-12-18",
+         "strike":42
       },
       {
          "symbol":"BBW",
@@ -301,6 +324,12 @@
          "type":"put",
          "expiry":"2026-12-18",
          "strike":19
+      },
+      {
+         "symbol":"CRM",
+         "type":"put",
+         "expiry":"2026-11-27",
+         "strike":170
       },
       {
          "symbol":"DEO",
@@ -929,122 +958,117 @@
    "portfolio":{
       "AAP":{
          "cost_p":91.35,
-         "position_%":7.69620539582892,
+         "position_%":7.88926285452024,
          "profit_%":0
       },
       "ADBE":{
          "cost_p":281.04,
-         "position_%":3.3825030329873487,
+         "position_%":3.4673523068799263,
          "profit_%":0
       },
       "ALB":{
          "cost_p":113.99,
-         "position_%":2.743890696913093,
+         "position_%":2.8127205341676826,
          "profit_%":0
       },
       "BBW":{
          "cost_p":24.9,
-         "position_%":2.3975042846964127,
+         "position_%":2.4576451022291534,
          "profit_%":0
       },
       "BCE":{
          "cost_p":22.78,
-         "position_%":2.193379421902983,
-         "profit_%":0
-      },
-      "CMCSA":{
-         "cost_p":23.92,
-         "position_%":2.4470912207051936,
+         "position_%":2.248399816416872,
          "profit_%":0
       },
       "CRM":{
          "cost_p":234.16,
-         "position_%":2.8182711009262644,
+         "position_%":2.8889667527006955,
          "profit_%":0
       },
       "EL":{
          "cost_p":112.06,
-         "position_%":5.39486606713012,
+         "position_%":5.530194983048171,
          "profit_%":0
       },
       "EPAM":{
          "cost_p":152.61,
-         "position_%":5.510288085655414,
+         "position_%":5.6485123351083,
          "profit_%":0
       },
       "FLO":{
          "cost_p":7.39,
-         "position_%":4.447177877486568,
+         "position_%":4.558734263422048,
          "profit_%":0
       },
       "GLOB":{
          "cost_p":49.15,
-         "position_%":1.774658668566697,
+         "position_%":1.8191755538337784,
          "profit_%":0
       },
       "IT":{
          "cost_p":160.87,
-         "position_%":1.93617728051763,
+         "position_%":1.9847458212630718,
          "profit_%":0
       },
       "MKC":{
          "cost_p":49.84,
-         "position_%":2.3994299909491805,
+         "position_%":2.459619114359458,
          "profit_%":0
       },
       "MPT":{
          "cost_p":4.99,
-         "position_%":5.104926919447707,
+         "position_%":5.232982781679193,
          "profit_%":0
       },
       "NFLX":{
          "cost_p":68.86,
-         "position_%":2.486327485605346,
+         "position_%":2.54869641173945,
          "profit_%":0
       },
       "NICE":{
          "cost_p":119.55,
-         "position_%":2.158295461110362,
+         "position_%":2.2124357829178862,
          "profit_%":0
       },
       "NKE":{
          "cost_p":64.33,
-         "position_%":7.355415567409347,
+         "position_%":7.53992439533541,
          "profit_%":0
       },
       "NVO":{
          "cost_p":48.22,
-         "position_%":10.156295133740299,
+         "position_%":10.411063350984291,
          "profit_%":0
       },
       "PAGS":{
          "cost_p":8.37,
-         "position_%":6.044310500876195,
+         "position_%":6.195930573993377,
          "profit_%":0
       },
       "PODD":{
          "cost_p":163.05,
-         "position_%":3.9248300564231937,
+         "position_%":4.023283473076942,
          "profit_%":0
       },
       "PYPL":{
          "cost_p":54.66,
-         "position_%":3.618281692310654,
+         "position_%":3.709045417084088,
          "profit_%":0
       },
       "SFD":{
          "cost_p":19.85,
-         "position_%":2.3890793198405516,
+         "position_%":2.449008799159071,
          "profit_%":0
       },
       "SID":{
          "cost_p":1.8,
-         "position_%":4.007876138573821,
+         "position_%":4.108412746196325,
          "profit_%":0
       },
       "ZIM":{
          "cost_p":29.42,
-         "position_%":7.612918600396696,
+         "position_%":7.803886829884571,
          "profit_%":0
       }
    }
