@@ -11,13 +11,13 @@
             "q": 0.25555557
         },
         "ADBE": {
-            "close": 221.68,
-            "loss": 13.728104,
+            "close": 217.71,
+            "loss": 15.654266,
             "max_close": 357.53,
             "min_close": 193.41,
-            "p": 0.87777776,
-            "profit": 28.152237,
-            "q": 0.11666667
+            "p": 0.9166667,
+            "profit": 30.470337,
+            "q": 0.07777778
         },
         "ALB": {
             "close": 79.7,
@@ -27,15 +27,6 @@
             "p": 0.99444443,
             "profit": 60.57106,
             "q": 0.0
-        },
-        "BBW": {
-            "close": 28.87,
-            "loss": 2.9995575,
-            "max_close": 69.49809,
-            "min_close": 23.36,
-            "p": 0.75555557,
-            "profit": 6.2358227,
-            "q": 0.23888889
         },
         "BCE": {
             "close": 21.86,
@@ -64,6 +55,15 @@
             "profit": 6.3305283,
             "q": 0.76111114
         },
+        "EMN": {
+            "close": 58.77,
+            "loss": 0.0,
+            "max_close": 78.497444,
+            "min_close": 55.93273,
+            "p": 0.99444443,
+            "profit": 10.136868,
+            "q": 0.0
+        },
         "EPAM": {
             "close": 153.24,
             "loss": 42.120483,
@@ -83,22 +83,13 @@
             "q": 0.0
         },
         "GLOB": {
-            "close": 39.98,
-            "loss": 4.4734,
+            "close": 41.63,
+            "loss": 5.2056313,
             "max_close": 71.21,
             "min_close": 27.73,
-            "p": 0.45555556,
-            "profit": 4.44318,
-            "q": 0.5388889
-        },
-        "IT": {
-            "close": 172.3,
-            "loss": 22.110779,
-            "max_close": 254.59,
-            "min_close": 125.73,
-            "p": 0.41666666,
-            "profit": 22.481735,
-            "q": 0.5777778
+            "p": 0.33333334,
+            "profit": 4.0485,
+            "q": 0.6611111
         },
         "MKC": {
             "close": 47.4,
@@ -119,31 +110,31 @@
             "q": 0.033333335
         },
         "NFLX": {
-            "close": 58.46,
+            "close": 56.73,
             "loss": 0.0,
             "max_close": 109.35,
-            "min_close": 58.46,
+            "min_close": 56.73,
             "p": 0.99444443,
-            "profit": 21.280205,
+            "profit": 22.783619,
             "q": 0.0
         },
         "NICE": {
-            "close": 86.76,
-            "loss": 1.5066681,
+            "close": 85.22,
+            "loss": 1.253334,
             "max_close": 128.13,
             "min_close": 83.15,
-            "p": 0.9611111,
-            "profit": 17.012726,
-            "q": 0.033333335
+            "p": 0.9777778,
+            "profit": 18.027405,
+            "q": 0.016666668
         },
         "NKE": {
-            "close": 34.33,
-            "loss": 0.41500092,
-            "max_close": 66.035416,
-            "min_close": 33.87,
-            "p": 0.98333335,
-            "profit": 7.5622635,
-            "q": 0.011111111
+            "close": 32.92,
+            "loss": 0.0,
+            "max_close": 66.03541,
+            "min_close": 32.92,
+            "p": 0.99444443,
+            "profit": 8.762573,
+            "q": 0.0
         },
         "NVO": {
             "close": 37.82,
@@ -162,6 +153,15 @@
             "p": 0.99444443,
             "profit": 1.8877835,
             "q": 0.0
+        },
+        "PODD": {
+            "close": 133.17,
+            "loss": 1.3600006,
+            "max_close": 337.53,
+            "min_close": 130.47,
+            "p": 0.9611111,
+            "profit": 29.495789,
+            "q": 0.033333335
         },
         "PYPL": {
             "close": 53.29,
@@ -182,22 +182,49 @@
             "q": 0.20555556
         },
         "SID": {
-            "close": 0.55,
+            "close": 0.51,
             "loss": 0.0,
             "max_close": 2.12,
-            "min_close": 0.55,
+            "min_close": 0.51,
             "p": 0.99444443,
-            "profit": 0.5702234,
+            "profit": 0.6055306,
+            "q": 0.0
+        },
+        "SOFI": {
+            "close": 12.48,
+            "loss": 0.0,
+            "max_close": 29.72,
+            "min_close": 12.48,
+            "p": 0.99444443,
+            "profit": 4.4335766,
+            "q": 0.0
+        },
+        "STRL": {
+            "close": 247.92,
+            "loss": 3.5800018,
+            "max_close": 993.74,
+            "min_close": 244.34,
+            "p": 0.98888886,
+            "profit": 315.36053,
+            "q": 0.0055555557
+        },
+        "VIST": {
+            "close": 49.58,
+            "loss": 0.0,
+            "max_close": 79.25,
+            "min_close": 43.88,
+            "p": 0.99444443,
+            "profit": 18.873726,
             "q": 0.0
         },
         "ZIM": {
-            "close": 29.62,
-            "loss": 3.0230007,
+            "close": 29.32,
+            "loss": 2.9360256,
             "max_close": 30.9,
-            "min_close": 16.203264,
-            "p": 0.10555556,
-            "profit": 0.43841934,
-            "q": 0.8888889
+            "min_close": 16.348368,
+            "p": 0.16666667,
+            "profit": 0.52000046,
+            "q": 0.82222223
         }
     },
     "hold_stock_list": [
@@ -207,12 +234,12 @@
         "MKC",
         "NKE",
         "NFLX",
-        "BBW",
         "MPT",
         "NVO",
         "AAP",
         "BCE",
         "PYPL",
+        "SOFI",
         "EPAM",
         "IT",
         "PODD",
@@ -221,6 +248,9 @@
         "CRM",
         "ADBE",
         "NICE",
+        "EMN",
+        "STRL",
+        "VIST",
         "ZIM",
         "ALB",
         "SID"
@@ -228,117 +258,132 @@
     "portfolio": {
         "AAP": {
             "cost_p": 91.35,
-            "position_%": 7.88926285452024,
+            "position_%": 7.103989654804649,
             "profit_%": -50.70607553366173
         },
         "ADBE": {
             "cost_p": 281.04,
-            "position_%": 3.4673523068799263,
+            "position_%": 3.1222226172277727,
             "profit_%": -22.53415883859949
         },
         "ALB": {
-            "cost_p": 113.99,
-            "position_%": 2.8127205341676826,
-            "profit_%": -30.081586104044213
-        },
-        "BBW": {
-            "cost_p": 24.9,
-            "position_%": 2.4576451022291534,
-            "profit_%": 9.35742971887551
+            "cost_p": 98.11,
+            "position_%": 4.904802428099115,
+            "profit_%": -18.764651921312808
         },
         "BCE": {
             "cost_p": 22.78,
-            "position_%": 2.248399816416872,
+            "position_%": 2.0246009456432863,
             "profit_%": -4.038630377524152
         },
         "CRM": {
             "cost_p": 234.16,
-            "position_%": 2.8889667527006955,
+            "position_%": 2.601407799779587,
             "profit_%": -22.86470789203963
         },
         "EL": {
             "cost_p": 112.06,
-            "position_%": 5.530194983048171,
+            "position_%": 4.979736215293825,
             "profit_%": -11.243976441192226
+        },
+        "EMN": {
+            "cost_p": 59.78,
+            "position_%": 2.3244471897330157,
+            "profit_%": -1.68952827032452
         },
         "EPAM": {
             "cost_p": 152.61,
-            "position_%": 5.6485123351083,
+            "position_%": 5.086276618436489,
             "profit_%": 0.4128169844702152
         },
         "FLO": {
             "cost_p": 7.39,
-            "position_%": 4.558734263422048,
+            "position_%": 4.104971737352909,
             "profit_%": -33.55886332882273
         },
         "GLOB": {
             "cost_p": 49.15,
-            "position_%": 1.8191755538337784,
+            "position_%": 1.638100359060045,
             "profit_%": -15.30010172939979
         },
         "IT": {
             "cost_p": 160.87,
-            "position_%": 1.9847458212630718,
+            "position_%": 1.7871902662732413,
             "profit_%": 8.466463604152425
         },
         "MKC": {
             "cost_p": 49.84,
-            "position_%": 2.459619114359458,
+            "position_%": 2.2147961178854563,
             "profit_%": -4.895666131621197
         },
         "MPT": {
             "cost_p": 4.99,
-            "position_%": 5.232982781679193,
+            "position_%": 4.712107611361939,
             "profit_%": -64.92985971943888
         },
         "NFLX": {
             "cost_p": 68.86,
-            "position_%": 2.54869641173945,
+            "position_%": 2.2950069323473996,
             "profit_%": -17.61545164101075
         },
         "NICE": {
             "cost_p": 119.55,
-            "position_%": 2.2124357829178862,
+            "position_%": 1.9922166625191084,
             "profit_%": -28.716018402342115
         },
         "NKE": {
             "cost_p": 64.33,
-            "position_%": 7.53992439533541,
+            "position_%": 6.7894232820221125,
             "profit_%": -48.826364060314006
         },
         "NVO": {
             "cost_p": 48.22,
-            "position_%": 10.411063350984291,
+            "position_%": 9.374777809378223,
             "profit_%": -21.567814184985483
         },
         "PAGS": {
             "cost_p": 8.37,
-            "position_%": 6.195930573993377,
+            "position_%": 5.5792065128515045,
             "profit_%": -12.664277180406208
         },
         "PODD": {
             "cost_p": 163.05,
-            "position_%": 4.023283473076942,
+            "position_%": 3.6228180880941383,
             "profit_%": -18.32566697332108
         },
         "PYPL": {
             "cost_p": 54.66,
-            "position_%": 3.709045417084088,
+            "position_%": 3.3398583312595536,
             "profit_%": -2.5064032199048616
         },
         "SFD": {
             "cost_p": 19.85,
-            "position_%": 2.449008799159071,
+            "position_%": 2.205241921148992,
             "profit_%": -3.627204030226712
         },
         "SID": {
             "cost_p": 1.8,
-            "position_%": 4.108412746196325,
+            "position_%": 3.699473852607629,
             "profit_%": -71.66666666666667
+        },
+        "SOFI": {
+            "cost_p": 13.91,
+            "position_%": 2.163470084254684,
+            "profit_%": -10.2803738317757
+        },
+        "STRL": {
+            "cost_p": 269.04,
+            "position_%": 2.988908244160831,
+            "profit_%": -7.85013380909903
+        },
+        "VIST": {
+            "cost_p": 59.61,
+            "position_%": 2.317837018735113,
+            "profit_%": -16.826035900016777
         },
         "ZIM": {
             "cost_p": 29.42,
-            "position_%": 7.803886829884571,
+            "position_%": 7.027111699669381,
             "profit_%": -0.3399048266485432
         }
     },
@@ -358,11 +403,6 @@
             "Specialty Chemicals",
             "Basic Materials"
         ],
-        "BBW": [
-            "Build A Bear Workshop Inc",
-            "Specialty Retail",
-            "Consumer Cyclical"
-        ],
         "BCE": [
             "BCE Inc",
             "Telecom Services",
@@ -377,6 +417,11 @@
             "Estee Lauder Cos., Inc",
             "Household & Personal Products",
             "Consumer Defensive"
+        ],
+        "EMN": [
+            "Eastman Chemical Co",
+            "Specialty Chemicals",
+            "Basic Materials"
         ],
         "EPAM": [
             "EPAM Systems Inc",
@@ -452,6 +497,21 @@
             "Companhia Siderurgica Nacional ADR",
             "Steel",
             "Basic Materials"
+        ],
+        "SOFI": [
+            "SoFi Technologies Inc",
+            "Credit Services",
+            "Financial"
+        ],
+        "STRL": [
+            "Sterling Infrastructure Inc",
+            "Engineering & Construction",
+            "Industrials"
+        ],
+        "VIST": [
+            "Vista Energy S.A.B. de C.V ADR",
+            "Oil & Gas E&P",
+            "Energy"
         ],
         "ZIM": [
             "Zim Integrated Shipping Services Ltd",
